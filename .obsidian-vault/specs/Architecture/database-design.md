@@ -1,0 +1,74 @@
+---
+slug: database-design
+sources:
+  - https://en.wikipedia.org/wiki/Database_design
+  - https://www.postgresql.org/
+date: 2026-11-02
+tags:
+  - database-design
+  - sql
+  - postgresql
+  - normalization
+---
+
+# Database Design
+
+## Definition
+
+Database Design is the **process of creating a database schema that represents data and relationships according to requirements**.
+
+> "Database design is the process of producing a detailed data model of a database." — Wikipedia
+
+## Problem Addressed
+
+Without database design:
+- **Data integrity**: Data is inconsistent
+- **Performance**: Queries are slow
+- **Scalability**: Hard to scale
+- **Maintenance**: Hard to maintain
+
+## Scope and Boundaries
+
+- Database Design ≠ SQL (database design is a process, SQL is a language)
+- Database Design ≠ ORM (database design is a process, ORM is a tool)
+- Database Design is a **process**, not a tool
+
+## When to Apply
+
+- When building applications
+- when data integrity matters
+- when performance is important
+- when scalability is important
+
+## Tradeoffs and When to Avoid
+
+| Cost | Description |
+|------|-------------|
+| **Complexity** — Database design is complex |
+| **Time** — Database design takes time |
+| **Over-design** — Don't over-design databases |
+
+## Common Misuses
+
+- **Everything database design**: Not everything needs database design
+- **Confusing with SQL**: Database design ≠ SQL
+- **Over-design**: Too much design creates complexity
+
+## Related Concepts
+
+- [SQL Fundamentals](Architecture/sql-fundamentals.md) — Database design with SQL
+- [NoSQL Patterns](Architecture/nosql-patterns.md) — Database design with NoSQL
+- [Data Mapper Pattern](Architecture/data-mapper-pattern.md) — Database design with data mapper
+
+## Project Observations
+
+- The project uses database design:
+  - The project's architecture patterns note covers database design (from existing notes)
+  - No evidence of database design in existing code (src/ is empty)
+- File naming conventions support database design:
+  - `*.test.ts` — Test files
+  - `*.spec.ts` — Spec files
+
+## Sources
+
+- [[Sources/martin-srp-2014|martin-srp-2014]]

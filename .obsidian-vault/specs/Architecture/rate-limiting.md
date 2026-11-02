@@ -1,0 +1,71 @@
+---
+slug: rate-limiting
+sources:
+  - https://swagger.io/blog/api-design/rate-limiting-in-rest-apis/
+  - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
+date: 2026-11-02
+tags:
+  - rate-limiting
+  - security
+  - api
+  - resilience
+---
+
+# Rate Limiting
+
+## Definition
+
+Rate Limiting is a **resilience and security pattern that controls the number of requests a client can make within a time period**.
+
+> "Rate limiting is a technique used to control the rate of traffic sent or received by a network interface." — Wikipedia
+
+## Problem Addressed
+
+Without rate limiting:
+- **Abuse**: Clients overwhelm the system
+- **Cost**: Excessive API calls increase costs
+- **Availability**: Legitimate users can't access the system
+- **Security**: Brute force attacks succeed
+
+## Scope and Boundaries
+
+- Rate Limiting ≠ Throttling (rate limiting controls input, throttling controls output)
+- Rate Limiting ≠ Circuit Breaker (rate limiting is per-client, circuit breaker is per-service)
+- Rate Limiting is a **security and resilience pattern**
+
+## When to Apply
+
+- When building public APIs
+- When protecting against abuse
+- When managing resource usage
+- When dealing with third-party APIs
+
+## Tradeoffs and When to Avoid
+
+| Cost | Description |
+|------|-------------|
+| **User experience** — Legitimate users may be limited |
+| **Complexity** — Rate limiting algorithms are complex |
+| **False positives** — Shared IPs cause issues |
+
+## Common Misuses
+
+- **Too strict**: Legitimate users are blocked
+- **Too loose**: Doesn't prevent abuse
+- **Confusing with circuit breaker**: Rate limiting ≠ circuit breaker
+
+## Related Concepts
+
+- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) — Complementary resilience pattern
+- [Bulkheads](Architecture/architecture-patterns.md) — Complementary pattern
+- [Security Principles](Architecture/security-principles.md) — Security pattern
+
+## Project Observations
+
+- No rate limiting is configured yet
+- The project's architecture patterns note covers rate limiting
+- Docker deployment note covers Nginx (can add rate limiting)
+
+## Sources
+
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]

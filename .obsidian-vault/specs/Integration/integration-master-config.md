@@ -481,17 +481,17 @@ settings:
 ### How Tools Read Configuration
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                  MASTER CONFIGURATIONS                   │
-│                                                         │
+┌────────────────────────────────────────────────────────┐
+│                  MASTER CONFIGURATIONS                 │
+│                                                        │
 │  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  │
 │  │ vite.config  │  │ tsconfig.json│  │ package.json │  │
 │  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘  │
-│         │                 │                  │          │
-│         ▼                 ▼                  ▼          │
+│         │                 │                 │          │
+│         ▼                 ▼                 ▼          │
 │  ┌──────────────────────────────────────────────────┐  │
-│  │              TOOL INTEGRATION LAYER               │  │
-│  │                                                   │  │
+│  │              TOOL INTEGRATION LAYER              │  │
+│  │                                                  │  │
 │  │  Vite reads:   tsconfig paths (if enabled)       │  │
 │  │  Vite reads:   package.json scripts              │  │
 │  │  Vite reads:   tsconfig jsx, target, module      │  │
@@ -499,11 +499,11 @@ settings:
 │  │  ESLint reads: tsconfig paths (for resolution)   │  │
 │  │  Vitest reads: vite.config (aliases, globals)    │  │
 │  │  Playwright:   tsconfig paths (for types)        │  │
-│  │  pnpm reads:   pnpm-workspace.yaml              │  │
+│  │  pnpm reads:   pnpm-workspace.yaml               │  │
 │  │  Husky reads:  package.json scripts              │  │
 │  │  Docker:       vite.config (build output)        │  │
 │  └──────────────────────────────────────────────────┘  │
-└─────────────────────────────────────────────────────────┘
+└────────────────────────────────────────────────────────┘
 ```
 
 ### Path Resolution Across Tools
