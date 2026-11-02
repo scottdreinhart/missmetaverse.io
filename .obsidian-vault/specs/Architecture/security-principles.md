@@ -512,3 +512,164 @@ interface OrderDto {
 - [DDD Patterns](./ddd-patterns.md)
 - [Architecture Patterns](./architecture-patterns.md)
 - [Coding Practices](./coding-practices.md)
+
+---
+
+## Decision Tree: Security Patterns
+
+```mermaid
+graph TD
+    A[Need to secure something?]
+    A --> B{What are you securing?}
+    B -->|User Input| C[Input Validation]
+    B -->|Database| D[Parameterized Queries]
+    B -->|API| E[Authentication + Authorization]
+    B -->|Secrets| F[Secrets Management]
+    B -->|System| G[Threat Modeling]
+    C --> H{What type of input?}
+    H -->|Form| I[Schema Validation]
+    H -->|URL| J[Route Validation]
+    H -->|Header| K[Header Validation]
+    E --> L{What auth method?}
+    L -->|Web App| M[JWT/OAuth 2.0]
+    L -->|API| N[API Keys]
+    L -->|Internal| O[mTLS]
+```
+
+### When to Apply Each Principle
+
+| Principle | When to Apply | How to Validate |
+|-----------|---------------|-----------------|
+| **POLP** | Every permission request | Review each permission |
+| **Zero Trust** | Network/API design | Test with untrusted input |
+| **Defense in Depth** | Security-critical systems | Check all layers |
+| **Deny by Default** | Access control | Test unauthorized access |
+| **Complete Mediation** | Every access check | Test every code path |
+
+---
+
+## Procedural Guidance: Security Checklist for New Features
+
+### Step 1: Threat Model
+
+```bash
+# Run threat modeling session
+# 1. Identify assets (data, APIs, services)
+# 2. Identify threats (STRIDE: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege)
+# 3. Identify mitigations
+```
+
+### Step 2: Input Validation
+
+```typescript
+import { z } from 'zod'
+
+// Define schema
+const CreateUserSchema = z.object({
+  name: z.string().min(2).max(100),
+  email: z.string().email(),
+})
+
+// Validate at boundary
+app.post('/users', async (req, res) => {
+  const result = CreateUserSchema.safeParse(req.body)
+  if (!result.success) {
+    return res.status(400).json({ error: result.error.errors })
+  }
+  // Safe to use result.data
+})
+```
+
+### Step 3: Parameterized Queries
+
+```typescript
+// ✅ Always use parameterized queries
+const user = await db.query('SELECT * FROM users WHERE email = $1', [email])
+
+// ❌ Never use string concatenation
+// const user = await db.query(`SELECT * FROM users WHERE email = '${email}'`)
+```
+
+### Step 4: Secrets Management
+
+```bash
+# Use environment variables
+# .env (gitignored)
+DATABASE_URL=postgresql://...
+API_KEY=sk-...
+
+# Or use secret manager
+pnpm add @aws-sdk/client-secrets-manager
+```
+
+### Step 5: Security Headers
+
+```typescript
+import helmet from 'helmet'
+
+app.use(helmet())  // Sets security headers automatically
+```
+
+### Step 6: Test for Vulnerabilities
+
+```bash
+# Run OWASP ZAP
+npx zap-cli quick-scan http://localhost:3000
+
+# Run npm audit
+pnpm audit
+
+# Run ESLint security checks
+pnpm eslint --ext .ts src/
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Designing new features
+- Code review: checking for security vulnerabilities
+- Adding new API endpoints
+- Implementing authentication/authorization
+- Setting up database access
+
+### What to Do With This Information
+1. **Validate all input**: Use schema validation at every boundary
+2. **Use parameterized queries**: Never concatenate SQL strings
+3. **Manage secrets properly**: Use environment variables or secret managers
+4. **Apply least privilege**: Only grant necessary permissions
+5. **Implement defense in depth**: Multiple layers of security
+
+### Tools to Use
+- **VS Code Extension**: ESLint with `eslint-plugin-security` — for security linting
+- **Browser Extension**: OWASP ZAP — for vulnerability scanning
+- **npm Package**: `zod` — for schema validation
+- **npm Package**: `helmet` — for security headers
+- **Terminal Command**: `pnpm audit` — check for npm vulnerabilities
+- **Terminal Command**: `npx eslint --ext .ts src/` — run security linting
+
+### Agents to Invoke
+- **Security Review Agent**: Run when adding new API endpoints
+- **Code Review Agent**: Run when reviewing PRs that touch security-critical code
+
+### Integration with Other Notes
+- Read [[react-security]] for React-specific security
+- Read [[input-validation]] for input validation patterns
+- Read [[clean-architecture]] for security in architecture
+- Read [[security-best-practices]] for additional security patterns
+
+### Common Pitfalls
+- Don't trust client-side validation (always validate server-side)
+- Don't hardcode secrets (use environment variables)
+- Don't use string concatenation for SQL (use parameterized queries)
+- Don't skip threat modeling (do it early)
+- Don't rely on a single security layer (use defense in depth)
+
+### Quick Validation Checklist
+- [ ] Is all input validated at every boundary?
+- [ ] Are all SQL queries parameterized?
+- [ ] Are secrets stored in environment variables or secret manager?
+- [ ] Is least privilege applied to all permissions?
+- [ ] Are security headers set (helmet)?
+- [ ] Has threat modeling been done for new features?

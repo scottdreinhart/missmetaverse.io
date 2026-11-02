@@ -612,3 +612,189 @@ customElements.define('my-card', MyCard);
 
 - [[Sources/mdn-html-2024|mdn-html-2024]]
 
+
+---
+
+## Decision Tree: HTML5 Semantic Elements
+
+\\\mermaid
+graph TD
+    A[Need to structure content?]
+    A --> B{What type?}
+    B -->|Navigation| C[nav]
+    B -->|Article| D[article]
+    B -->|Section| E[section]
+    B -->|Aside| F[aside]
+    B -->|Header| G[header]
+    B -->|Footer| H[footer]
+    B -->|Main| I[main]
+    B -->|Figure| J[figure]
+    C --> K{Multiple navs?}
+    K -->|Yes| L[nav + aria-label]
+    K -->|No| M[Single nav]
+    D --> N{Self-contained?}
+    N -->|Yes| O[article]
+    N -->|No| P[section]
+\\\
+
+### When to Use Each Semantic Element
+
+| Element | When to Use | Example |
+|---------|-------------|---------|
+| **<nav>** | Navigation links | Main menu, breadcrumbs |
+| **<article>** | Self-contained content | Blog post, news article |
+| **<section>** | Thematic grouping | Chapter, tabbed content |
+| **<aside>** | Indirectly related | Sidebar, callout |
+| **<header>** | Introductory content | Page header, section header |
+| **<footer>** | Footer content | Page footer, article footer |
+| **<main>** | Primary content | Main page content |
+| **<figure>** | Self-contained media | Image with caption |
+
+---
+
+## Procedural Guidance: HTML5 Accessibility Checklist
+
+### Step 1: Document Structure
+
+\\\html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Title</title>
+</head>
+<body>
+  <header>
+    <nav aria-label="Main navigation">
+      <!-- Navigation links -->
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <!-- Primary content -->
+  </main>
+
+  <aside aria-label="Related content">
+    <!-- Sidebar content -->
+  </aside>
+
+  <footer>
+    <!-- Footer content -->
+  </footer>
+</body>
+</html>
+\\\
+
+### Step 2: Form Accessibility
+
+\\\html
+<form>
+  <div>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required
+           aria-describedby="email-help" autocomplete="email">
+    <span id="email-help" class="help-text">We'll never share your email.</span>
+  </div>
+
+  <div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required
+           aria-describedby="password-help" autocomplete="new-password">
+    <span id="password-help" class="help-text">Min 8 characters.</span>
+  </div>
+
+  <button type="submit">Sign Up</button>
+</form>
+\\\
+
+### Step 3: Image Accessibility
+
+\\\html
+<!-- Decorative image -->
+<img src="decorative.png" alt="" role="presentation">
+
+<!-- Informative image -->
+<img src="chart.png" alt="Sales increased 20% in Q4 2024">
+
+<!-- Complex image with long description -->
+<img src="complex-chart.png" alt="See detailed chart description below">
+<figcaption id="chart-desc">The chart shows quarterly sales data...</figcaption>
+\\\
+
+### Step 4: ARIA Landmarks
+
+\\\html
+<!-- Landmark roles for screen readers -->
+<header role="banner">Site header</header>
+<nav role="navigation">Main navigation</nav>
+<main role="main">Primary content</main>
+<aside role="complementary">Sidebar</aside>
+<footer role="contentinfo">Site footer</footer>
+\\\
+
+### Step 5: Keyboard Navigation
+
+\\\html
+<!-- Focusable elements -->
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<!-- Custom keyboard navigation -->
+<div tabindex="0" role="button" aria-pressed="false" 
+     @keydown="handleKeydown()">
+  Toggle
+</div>
+\\\
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Building accessible HTML5 pages
+- Implementing semantic HTML structure
+- Adding ARIA attributes
+- Creating responsive HTML templates
+- SEO optimization with HTML
+
+### What to Do With This Information
+1. **Use semantic elements**: Prefer semantic HTML over divs with classes
+2. **Add ARIA labels**: Where semantic HTML is insufficient
+3. **Include viewport meta**: Always include viewport meta tag
+4. **Label forms properly**: Use label elements with for attributes
+5. **Provide alt text**: All informative images need alt text
+
+### Tools to Use
+- **VS Code Extension**: HTML CSS Support — for HTML/CSS integration
+- **VS Code Extension**: Error Lens — for inline HTML error display
+- **Browser Extension**: axe DevTools — for accessibility testing
+- **Browser Extension**: Lighthouse — for SEO/performance audit
+- **Terminal Command**: \
+px pa11y https://localhost:3000\ — run accessibility tests
+- **Terminal Command**: \
+px lighthouse https://localhost:3000 --categories accessibility,seo\ — run audit
+
+### Agents to Invoke
+- **Security Review Agent**: Run when adding new HTML forms
+- **Code Review Agent**: Run when reviewing PRs with HTML changes
+
+### Integration with Other Notes
+- Read [[css-media-queries]] for responsive design patterns
+- Read [[accessibility-a11y]] for accessibility best practices
+- Read [[seo-best-practices]] for SEO optimization
+- Read [[html-semantic-patterns]] for HTML semantic patterns
+
+### Common Pitfalls
+- Don't use divs for everything (use semantic elements)
+- Don't skip alt text (all images need alt text)
+- Don't forget form labels (all inputs need labels)
+- Don't ignore keyboard navigation (test with Tab/Escape)
+- Don't use ARIA when semantic HTML suffices
+
+### Quick Validation Checklist
+- [ ] Are semantic HTML elements used appropriately?
+- [ ] Do all images have alt text?
+- [ ] Are form inputs properly labeled?
+- [ ] Is the viewport meta tag included?
+- [ ] Are ARIA landmarks used correctly?
+- [ ] Can the page be navigated with keyboard only?

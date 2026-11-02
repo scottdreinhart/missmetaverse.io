@@ -57,8 +57,8 @@ Without React security:
 ## Related Concepts
 
 - [[React/react-patterns|React Patterns]] — React security with React
-- [[Security/security-principles|Security Principles]] — React security with security
-- [[Security/input-validation|Input Validation]] — React security with input validation
+- [[security-principles|Security Principles]] — React security with security
+- [[input-validation|Input Validation]] — React security with input validation
 
 ## Project Observations
 

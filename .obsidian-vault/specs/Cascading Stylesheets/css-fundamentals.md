@@ -492,3 +492,245 @@ body {
 
 - [[Sources/mdn-css-2024|mdn-css-2024]]
 
+---
+
+## Decision Tree: CSS Layout Patterns
+
+```mermaid
+graph TD
+    A[Need to layout something?]
+    A --> B{What type?}
+    B -->|1D| C[Flexbox]
+    B -->|2D| D[Grid]
+    B -->|Stack| E[Block/Flex column]
+    C --> F{Need distribution?}
+    F -->|Yes| G[justify-content/distribute]
+    F -->|No| H[Simple flex]
+    D --> I{Equal sizes?}
+    I -->|Yes| J[repeat/n]
+    I -->|No| K[Manual columns]
+    D --> L{Need alignment?}
+    L -->|Yes| M[align-items/justify-items]
+    L -->|No| N[Default]
+```
+
+### When to Use Each Layout Method
+
+| Method | When to Use | Example |
+|--------|-------------|---------|
+| **Flexbox** | 1D layouts (row or column) | Navigation bars, card rows |
+| **Grid** | 2D layouts (rows and columns) | Page layouts, card grids |
+| **Block** | Simple vertical stacking | Articles, forms |
+| **Position** | Overlapping/absolute positioning | Modals, tooltips |
+
+---
+
+## Procedural Guidance: CSS Architecture Setup
+
+### Step 1: Set Up CSS Architecture
+
+```css
+/* src/styles/base.css */
+@layer base {
+  /* Reset/Normalize */
+  *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Typography */
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.5;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+  }
+}
+
+@layer components {
+  /* Reusable components */
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors;
+  }
+
+  .btn-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
+}
+
+@layer utilities {
+  /* Utility classes */
+  .text-gradient {
+    background: linear-gradient(to right, blue, purple);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
+```
+
+### Step 2: Define Design Tokens
+
+```css
+/* src/styles/tokens.css */
+:root {
+  /* Colors */
+  --color-primary: #0ea5e9;
+  --color-primary-hover: #0284c7;
+  --color-text: #1f2937;
+  --color-bg: #ffffff;
+
+  /* Spacing */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'Fira Code', monospace;
+
+  /* Borders */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+```
+
+### Step 3: Use BEM Naming
+
+```css
+/* Block */
+.card {
+  background: white;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+/* Element */
+.card__header {
+  padding: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.card__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Modifier */
+.card--primary {
+  border-left: 4px solid var(--color-primary);
+}
+
+.card__header--sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+```
+
+### Step 4: Implement Responsive Design
+
+```css
+/* Mobile first */
+.container {
+  width: 100%;
+  padding: 0 var(--spacing-md);
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+```
+
+### Step 5: Test Cross-Browser
+
+```bash
+# Install Autoprefixer
+pnpm add -D autoprefixer
+
+# Add to postcss.config.js
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+}
+
+# Test in multiple browsers
+# Chrome, Firefox, Safari, Edge
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Setting up CSS architecture for a new project
+- Implementing responsive layouts
+- Creating reusable component styles
+- Debugging CSS specificity issues
+- Building design systems with CSS
+
+### What to Do With This Information
+1. **Use @layer**: Organize CSS into base, components, and utilities
+2. **Define design tokens**: Use CSS custom properties for colors, spacing, typography
+3. **Follow BEM**: Use Block-Element-Modifier naming convention
+4. **Mobile-first**: Start with mobile styles, add breakpoints for larger screens
+5. **Flexbox/Grid**: Use Flexbox for 1D layouts, Grid for 2D layouts
+
+### Tools to Use
+- **VS Code Extension**: Tailwind CSS IntelliSense — for Tailwind autocomplete
+- **VS Code Extension**: CSS Peek — for jumping to CSS definitions
+- **Browser Extension**: Chrome DevTools — for CSS debugging
+- **Browser Extension**: Firefox Inspector — for CSS debugging
+- **Terminal Command**: `pnpm tailwindcss -o dist/tailwind.css` — build CSS
+- **Terminal Command**: `pnpm postcss src/styles.css -o dist/styles.css` — process CSS
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with CSS changes
+- **Performance Review Agent**: Run when optimizing CSS bundle size
+
+### Integration with Other Notes
+- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- read [[css-media-queries]] for media query patterns
+- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+- Read [[design-tokens]] for design token patterns
+
+### Common Pitfalls
+- Don't use !important (use specificity instead)
+- Don't hardcode values (use CSS custom properties)
+- Don't forget responsive design (always test mobile first)
+- Don't mix BEM with Tailwind (choose one approach)
+- Don't ignore browser compatibility (test in multiple browsers)
+
+### Quick Validation Checklist
+- [ ] Are CSS custom properties used for design tokens?
+- [ ] Are @layer rules organized correctly?
+- [ ] Is BEM naming used consistently?
+- [ ] Are responsive breakpoints mobile-first?
+- [ ] Are Flexbox/Grid used appropriately?
+- [ ] Is CSS tested in multiple browsers?
+

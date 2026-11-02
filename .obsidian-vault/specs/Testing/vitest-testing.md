@@ -665,3 +665,151 @@ test('test 2', () => {
 - See [[pnpm-best-practices]] for package management
 - See [[playwright-patterns]] for E2E testing with Playwright
 
+---
+
+## Decision Tree: Testing Strategy
+
+```mermaid
+graph TD
+    A[Need to test something?]
+    A --> B{What type?}
+    B -->|Unit| C[Vitest]
+    B -->|Component| D[Vitest + Testing Library]
+    B -->|E2E| E[Playwright]
+    B -->|Integration| F[Vitest + MSW]
+    C --> G{How complex?}
+    G -->|Simple| H[Mock dependencies]
+    G -->|Complex| I[Use test doubles]
+    E --> J{How many browsers?}
+    J -->|One| K[Chrome only]
+    J -->|Multiple| L[Chrome + Firefox + Safari]
+```
+
+### When to Use Each Testing Type
+
+| Type | When to Use | Tool |
+|------|-------------|------|
+| **Unit Tests** | Testing individual functions/classes | Vitest |
+| **Component Tests** | Testing React components | Vitest + Testing Library |
+| **E2E Tests** | Testing user flows | Playwright |
+| **Integration Tests** | Testing API endpoints | Vitest + MSW |
+
+---
+
+## Procedural Guidance: Writing a Vitest Test
+
+### Step 1: Create Test File
+
+```bash
+# Create test file next to source file
+src/components/User.tsx → src/components/User.test.tsx
+```
+
+### Step 2: Write Unit Test
+
+```typescript
+// src/components/User.test.tsx
+import { describe, it, expect, vi } from 'vitest'
+import { render, screen } from '@testing-library/react'
+import { User } from './User'
+
+describe('User component', () => {
+  it('renders user name', () => {
+    render(<User name="John" email="john@example.com" />)
+    expect(screen.getByText('John')).toBeInTheDocument()
+  })
+
+  it('renders email', () => {
+    render(<User name="John" email="john@example.com" />)
+    expect(screen.getByText('john@example.com')).toBeInTheDocument()
+  })
+
+  it('calls onClick when clicked', () => {
+    const handleClick = vi.fn()
+    render(<User name="John" email="john@example.com" onClick={handleClick} />)
+    screen.getByText('John').click()
+    expect(handleClick).toHaveBeenCalledTimes(1)
+  })
+})
+```
+
+### Step 3: Mock Dependencies
+
+```typescript
+// Mock a module
+vi.mock('../api/user-api', () => ({
+  fetchUser: vi.fn().mockResolvedValue({ name: 'John', email: 'john@example.com' }),
+}))
+
+// Mock a hook
+vi.mock('../hooks/use-user', () => ({
+  useUser: vi.fn().mockReturnValue({ user: { name: 'John' }, loading: false }),
+}))
+```
+
+### Step 4: Run Tests
+
+```bash
+# Run all tests
+pnpm test
+
+# Run with coverage
+pnpm test -- --coverage
+
+# Run only changed tests
+pnpm test -- --changed
+
+# Run with UI
+pnpm test -- --ui
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Writing unit tests for TypeScript/React code
+- Setting up Vitest configuration
+- Mocking dependencies in tests
+- Improving test performance
+
+### What to Do With This Information
+1. **Write unit tests**: Test individual functions/classes in isolation
+2. **Mock dependencies**: Use `vi.mock()` for external dependencies
+3. **Run with coverage**: Aim for 80%+ coverage on critical paths
+4. **Use test parallelism**: Enable `--pool=threads` for faster runs
+5. **Profile slow tests**: Use `--profiling` to identify bottlenecks
+
+### Tools to Use
+- **VS Code Extension**: Error Lens — for inline test error display
+- **VS Code Extension**: Test Explorer UI — for test navigation
+- **npm Package**: `@testing-library/react` — for React component testing
+- **npm Package**: `msw` — for API mocking
+- **Terminal Command**: `pnpm test -- --coverage` — run with coverage
+- **Terminal Command**: `pnpm test -- --changed` — run only changed tests
+
+### Agents to Invoke
+- **Testing Agent**: Run when writing new tests to ensure coverage
+- **Code Review Agent**: Run when reviewing PRs with test changes
+
+### Integration with Other Notes
+- Read [[playwright-patterns]] for E2E testing
+- Read [[react-performance-security]] for React testing patterns
+- Read [[pnpm-best-practices]] for package management
+- Read [[vite-optimization-security]] for Vite configuration
+
+### Common Pitfalls
+- Don't test implementation details (test behavior, not implementation)
+- Don't mock everything (mock external dependencies, not internal logic)
+- Don't write fragile tests (avoid testing exact strings, test behavior)
+- Don't skip test cleanup (use `afterEach` to reset mocks)
+- Don't run tests sequentially (use `--pool=threads` for parallelism)
+
+### Quick Validation Checklist
+- [ ] Are tests isolated (no test depends on another)?
+- [ ] Are mocks used for external dependencies?
+- [ ] Is test coverage > 80% on critical paths?
+- [ ] Are tests running in parallel?
+- [ ] Are test names descriptive (test what, not how)?
+- [ ] Are tests deterministic (no random/flaky behavior)?
+

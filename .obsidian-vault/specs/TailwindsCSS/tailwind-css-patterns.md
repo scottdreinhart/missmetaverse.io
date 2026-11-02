@@ -398,5 +398,184 @@ export function TransitionButton() {
 ## Sources
 
 - [[Sources/tailwind-docs-2024|tailwind-docs-2024]]
+
+---
+
+## Decision Tree: Tailwind CSS Patterns
+
+```mermaid
+graph TD
+    A[Need to style something?]
+    A --> B{What type?}
+    B -->|Layout| C[flex/grid]
+    B -->|Spacing| D[p/m/g]
+    B -->|Colors| E[bg-/text-/border-]
+    B -->|Typography| F[text-/font-/leading-]
+    B -->|Responsive| G[sm/md/lg/xl/]
+    B -->|States| H[hover:focus:active:]
+    B -->|Dark Mode| I[dark:]
+    B -->|Animations| J[animate-/transition-]
+    C --> K{Need custom?}
+    K -->|No| L[Use built-in]
+    K -->|Yes| M[Extend config]
+    G --> N{Need mobile-first?}
+    N -->|Yes| O[sm/md/lg order]
+    N -->|No| P[Custom breakpoints]
+```
+
+### When to Use Each Tailwind Pattern
+
+| Pattern | When to Use | Example |
+|---------|-------------|---------|
+| **Utility Classes** | Most styling needs | `flex items-center justify-between` |
+| **Arbitrary Values** | One-off values | `w-[327px]` |
+| **Extended Config** | Repeated custom values | `colors.primary.500` |
+| **Component Classes** | Reusable component styles | `@apply` in CSS |
+| **Variant Prefixes** | State-specific styles | `hover:bg-blue-500` |
+
+---
+
+## Procedural Guidance: Tailwind CSS Setup
+
+### Step 1: Install and Configure
+
+```bash
+# Install Tailwind CSS
+pnpm add -D tailwindcss postcss autoprefixer
+pnpm tailwindcss init
+```
+
+```javascript
+// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}',
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#f0f9ff',
+          100: '#e0f2fe',
+          500: '#0ea5e9',
+          900: '#0c4a6e',
+        },
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+    },
+  },
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+  ],
+}
+```
+
+### Step 2: Add to CSS
+
+```css
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn-primary {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors;
+  }
+}
+```
+
+### Step 3: Use in Components
+
+```tsx
+// src/components/Button.tsx
+export function Button({ children, variant = 'primary' }) {
+  const classes = variant === 'primary'
+    ? 'bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600'
+    : 'bg-gray-200 text-gray-800 px-4 py-2 rounded-lg hover:bg-gray-300'
+
+  return <button className={classes}>{children}</button>
+}
+```
+
+### Step 4: Responsive Design
+
+```tsx
+// Mobile-first responsive
+<div className="
+  grid grid-cols-1
+  sm:grid-cols-2
+  md:grid-cols-3
+  lg:grid-cols-4
+  gap-4
+">
+  {/* Cards */}
+</div>
+```
+
+### Step 5: Dark Mode
+
+```tsx
+// Dark mode with class strategy
+<div className="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+  {/* Content */}
+</div>
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Styling React components with Tailwind
+- Setting up Tailwind configuration
+- Creating responsive layouts
+- Implementing dark mode
+- Building design systems with Tailwind
+
+### What to Do With This Information
+1. **Use utility classes**: Prefer Tailwind utilities over custom CSS
+2. **Extend config**: Define custom colors/fonts in tailwind.config.js
+3. **Mobile-first**: Start with mobile styles, add breakpoints for larger screens
+4. **Group utilities**: Organize by concern (layout, spacing, typography, colors)
+5. **Use variants**: Leverage hover:, focus:, dark: prefixes for states
+
+### Tools to Use
+- **VS Code Extension**: Tailwind CSS IntelliSense — for autocomplete and preview
+- **VS Code Extension**: Error Lens — for inline Tailwind error display
+- **npm Package**: `@tailwindcss/forms` — for form element styling
+- **npm Package**: `@tailwindcss/typography` — for prose typography
+- **Terminal Command**: `pnpm tailwindcss -o dist/tailwind.css --watch` — watch for changes
+- **Terminal Command**: `pnpm tailwindcss -i src/index.css -o dist/output.css` — build CSS
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with Tailwind changes
+- **Performance Review Agent**: Run when optimizing CSS bundle size
+
+### Integration with Other Notes
+- Read [[css-fundamentals]] for CSS fundamentals
+- Read [[css-media-queries]] for media query patterns
+- read [[tw-optimization-performance]] for Tailwind optimization
+- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+
+### Common Pitfalls
+- Don't use arbitrary values for repeated patterns (extend config instead)
+- Don't mix Tailwind with custom CSS unnecessarily
+- Don't forget responsive prefixes (always test mobile first)
+- Don't overuse !important (use specificity instead)
+- Don't ignore dark mode (add dark: variants from the start)
+
+### Quick Validation Checklist
+- [ ] Are utilities organized by concern?
+- [ ] Are responsive breakpoints mobile-first?
+- [ ] Are custom colors/fonts in tailwind.config.js?
+- [ ] Are dark mode variants added where needed?
+- [ ] Are hover/focus states implemented?
+- [ ] Is the CSS bundle optimized (purge unused)?
 - [[Sources/mdn-css-2024|mdn-css-2024]]
 

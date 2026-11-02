@@ -1,7 +1,12 @@
 # Citation Health Validator
-# Run this script to validate all source citations in the vault
+# Run from project root: pwsh ./scripts/validate-citations.ps1
+# Or from anywhere: pwsh -File ./scripts/validate-citations.ps1
 
-$specsDir = "d:\Projects\missmetaverse.io\.obsidian-vault\specs"
+$projectRoot = (Get-Location).Path
+if ($projectRoot -match 'obsidian-vault$') {
+    $projectRoot = Split-Path $projectRoot -Parent
+}
+$specsDir = Join-Path $projectRoot ".obsidian-vault\specs"
 
 Write-Host "=== CITATION HEALTH VALIDATION ===" -ForegroundColor Cyan
 Write-Host ""

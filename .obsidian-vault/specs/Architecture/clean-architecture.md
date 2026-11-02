@@ -425,6 +425,136 @@ async function processRow(doc: DbDocument) { /* ... */ }
 
 ---
 
+## Decision Tree: Clean Architecture vs DDD vs CQRS
+
+```mermaid
+graph TD
+    A[Starting a new feature?]
+    A --> B{How complex is the domain?}
+    B -->|Simple CRUD| C[Clean Architecture only]
+    B -->|Moderate| D[Clean Architecture + DDD]
+    B -->|Very Complex| E[Clean Architecture + DDD + CQRS]
+    C --> F{Need separate read/write models?}
+    F -->|No| G[Clean Architecture]
+    F -->|Yes| H[Add CQRS]
+    D --> I{Team size?}
+    I -->|1-3 devs| J[Clean Architecture + DDD]
+    I -->|4+ devs| K[Clean Architecture + DDD + CQRS]
+```
+
+### When to Use Clean Architecture Only
+- Simple CRUD operations
+- Small team (1-3 developers)
+- Domain has few business rules
+- Fast delivery needed
+
+### When to Add DDD
+- Complex domain logic
+- Multiple teams working on same codebase
+- Need clear bounded contexts
+- Domain experts available for modeling
+
+### When to Add CQRS
+- High read/write ratio imbalance
+- Need separate scaling for reads vs writes
+- Event sourcing required
+- Complex query requirements
+
+---
+
+## Procedural Guidance: Implementing a Feature in Clean Architecture
+
+### Step 1: Define the Entity (Innermost Circle)
+
+```typescript
+// entities/order.entity.ts
+export class Order {
+  private constructor(
+    private _id: OrderId,
+    private _items: OrderItem[],
+    private _status: OrderStatus
+  ) {}
+
+  static create(params: CreateOrderParams): Order {
+    if (params.items.length === 0) {
+      throw new Error('Order must have at least one item')
+    }
+    return new Order(generateId(), params.items, OrderStatus.PENDING)
+  }
+
+  addItem(item: OrderItem): void {
+    this._items.push(item)
+  }
+
+  cancel(): void {
+    this._status = OrderStatus.CANCELLED
+  }
+}
+```
+
+### Step 2: Define the Port (Use Case Layer)
+
+```typescript
+// ports/order-repository.port.ts
+export interface OrderRepository {
+  save(order: Order): Promise<void>
+  findById(id: OrderId): Promise<Order | null>
+  findAll(): Promise<Order[]>
+}
+```
+
+### Step 3: Implement the Use Case
+
+```typescript
+// usecases/create-order.usecase.ts
+export class CreateOrderUseCase {
+  constructor(
+    private orderRepository: OrderRepository,
+    private inventoryPort: InventoryPort
+  ) {}
+
+  async execute(params: CreateOrderParams): Promise<Order> {
+    // Validate inventory
+    await this.inventoryPort.checkAvailability(params.items)
+
+    // Create order
+    const order = Order.create(params)
+
+    // Save
+    await this.orderRepository.save(order)
+
+    return order
+  }
+}
+```
+
+### Step 4: Implement the Adapter (Outermost Circle)
+
+```typescript
+// adapters/controller/order-controller.ts
+export class OrderController {
+  constructor(private createOrderUseCase: CreateOrderUseCase) {}
+
+  async handle(request: HttpRequest): Promise<HttpResponse> {
+    const order = await this.createOrderUseCase.execute(request.body)
+    return { status: 201, body: order }
+  }
+}
+```
+
+### Step 5: Wire Dependencies
+
+```typescript
+// main.ts
+const db = new DbClient()
+const orderRepository = new OrderRepositoryAdapter(db)
+const orderController = new OrderController(
+  new CreateOrderUseCase(orderRepository, new InventoryGateway())
+)
+```
+
+---
+
 ## Copilot Instructions
 
 ### When to Read This Note
@@ -470,3 +600,4 @@ async function processRow(doc: DbDocument) { /* ... */ }
 - [ ] Do inner layers import only from other inner layers?
 - [ ] Are ports (interfaces) defined in inner layers?
 - [ ] Are adapters (implementations) in outer layers?
+- [ ] Is business logic in entities/use cases, not in controllers?

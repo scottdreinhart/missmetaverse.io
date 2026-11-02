@@ -91,7 +91,7 @@ access_limitations: None
 2. Run: grep -r "process.env\." src/ — flag hardcoded secrets
 3. Check for input validation on all API endpoints
 4. Check for sanitization on all user-generated content
-5. Read [[Security]] category notes for detailed security guidance
+5. Read [[security-principles]] for detailed security guidance
 6. Read [[owasp-top-ten-2021]] for OWASP Top 10 compliance
 ```
 
@@ -116,7 +116,7 @@ access_limitations: None
 2. Check test file naming: *.test.ts or *.spec.ts
 3. Verify test descriptions are meaningful
 4. Check for mock implementations of external services
-5. Read [[Testing]] category notes for testing patterns
+5. Read [[vitest-testing]] for testing patterns
 6. Read [[vitest-docs-2024]] for Vitest best practices
 ```
 
@@ -141,8 +141,8 @@ access_limitations: None
 3. Check React components for unnecessary re-renders (React DevTools)
 4. Run: pnpm build — check bundle size
 5. Check database queries for N+1 patterns
-6. Read [[Vite Configuration]] for bundle optimization
-7. Read [[React Performance & Security]] for React optimization
+6. Read [[vite-configuration]] for bundle optimization
+7. Read [[react-performance-security]] for React optimization
 ```
 
 ---
@@ -213,7 +213,7 @@ access_limitations: None
 1. Check commit message format: git log --oneline | grep -vE "^(feat|fix|chore|refactor|docs|style|test|ci|perf|build|revert)"
 2. Check branch naming: git branch --list
 3. Check PR description completeness
-4. Read [[Commit Management]] category for detailed guidance
+4. Read [[conventional-commits]] for commit guidance
 5. Read [[conventional-commits-patterns]] for commit format
 ```
 

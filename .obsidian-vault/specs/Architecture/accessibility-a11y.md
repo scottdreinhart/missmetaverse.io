@@ -77,4 +77,53 @@ Without accessibility:
 
 - [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
 
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Building public-facing applications
+- Implementing WCAG 2.1 compliance
+- Code review: checking for accessibility violations
+- Adding new UI components
+
+### What to Do With This Information
+1. **Design for all users**: Consider keyboard navigation, screen readers, color contrast
+2. **Follow WCAG 2.1**: Meet at least AA level for all success criteria
+3. **Test with assistive tech**: Use screen readers, keyboard-only navigation
+4. **Add ARIA labels**: Where semantic HTML is insufficient
+5. **Ensure color contrast**: Minimum 4.5:1 for text, 3:1 for large text
+
+### Tools to Use
+- **VS Code Extension**: ESLint with `eslint-plugin-jsx-a11y` — for accessibility linting
+- **Browser Extension**: axe DevTools — for automated accessibility testing
+- **Browser Extension**: WAVE — for visual accessibility feedback
+- **Terminal Command**: `npx axe <url>` — run axe accessibility tests
+- **Terminal Command**: `npx lighthouse --categories accessibility` — run Lighthouse a11y audit
+
+### Agents to Invoke
+- **Security Review Agent**: Run when adding new UI components (accessibility is a security concern)
+- **Code Review Agent**: Run when reviewing PRs that touch UI components
+
+### Integration with Other Notes
+- Read [[accessibility-a11y-patterns]] for specific accessibility patterns
+- Read [[accessibility-by-design]] for accessibility-first approach
+- Read [[wcag-21]] for all WCAG 2.1 success criteria
+- Read [[shadcn-ui-patterns]] for accessible UI components
+
+### Common Pitfalls
+- Don't skip accessibility because "we'll add it later" (it's harder to retrofit)
+- Don't rely only on automated tools (manual testing is essential)
+- Don't use `tabindex="-1"` without understanding keyboard navigation
+- Don't use color alone to convey information (use text/icons too)
+- Don't forget keyboard navigation (test with Tab/Shift+Tab/Escape)
+
+### Quick Validation Checklist
+- [ ] Can the app be used with keyboard only?
+- [ ] Do all images have alt text?
+- [ ] Is color contrast at least 4.5:1 for text?
+- [ ] Are form inputs properly labeled?
+- [ ] Are ARIA labels used where semantic HTML is insufficient?
+- [ ] Can screen readers navigate the app logically?
+
 
