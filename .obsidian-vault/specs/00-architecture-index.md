@@ -115,7 +115,62 @@ CSS fundamentals and performance.
 HTML semantic markup and accessibility.
 
 - [HTML Semantic Patterns](Hypertext HTML/html-semantic-patterns.md)
+### [DDD](DDD/)
+Domain-Driven Design modeling concepts and patterns.
 
+- [DDD Overview](DDD/README.md) — 16 DDD concepts
+
+### [Data Databases](Data%20Databases/)
+Database design, data modeling, and data management.
+
+- [Data & Databases Overview](Data%20Databases/README.md) — 22 database concepts
+
+### [Data-Driven Approaches](Data-Driven%20Approaches/)
+Data-driven design, configuration-driven development, and schema-driven development.
+
+- [Data-Driven Overview](Data-Driven%20Approaches/README.md) — 9 data-driven concepts
+
+### [APIs Distributed Systems](APIs%20Distributed%20Systems/)
+API design, distributed systems patterns, and reliability.
+
+- [APIs & Distributed Systems Overview](APIs%20Distributed%20Systems/README.md) — 22 distributed systems concepts
+
+### [Security](Security/)
+Security principles, patterns, and best practices.
+
+- [Security Overview](Security/README.md) — 17 security concepts
+
+### [Coding Type Systems](Coding%20Type%20Systems/)
+TypeScript type system patterns and coding best practices.
+
+- [Coding & Type Systems Overview](Coding%20Type%20Systems/README.md) — 15 coding concepts
+
+### [Quality Delivery](Quality%20Delivery/)
+Testing, quality assurance, and delivery concepts.
+
+- [Quality & Delivery Overview](Quality%20Delivery/README.md) — 15 quality concepts
+
+### [Project File Conventions](Project%20File%20Conventions/)
+File naming conventions for React + TypeScript projects.
+
+- [Project File Conventions Overview](Project%20File%20Conventions/README.md) — 15 file conventions
+
+### [Frontend UI](Frontend%20UI/)
+Frontend and UI patterns including accessibility, performance, and DevOps.
+
+- [Accessibility & a11y](Frontend%20UI/accessibility-a11y-patterns.md)
+- [Performance Optimization](Frontend%20UI/performance-optimization-patterns.md)
+- [Profiling](Frontend%20UI/profiling-patterns.md)
+- [Logging](Frontend%20UI/logging-patterns.md)
+- [Monitoring](Frontend%20UI/monitoring-patterns.md)
+- [Alerting](Frontend%20UI/alerting-patterns.md)
+- [Docker Deployment](Frontend%20UI/docker-deployment-patterns.md)
+- [Nginx](Frontend%20UI/nginx-patterns.md)
+- [Deployment](Frontend%20UI/deployment-patterns.md)
+- [Version Control](Frontend%20UI/version-control-patterns.md)
+- [Git](Frontend%20UI/git-patterns.md)
+- [GitHub Actions](Frontend%20UI/github-actions-patterns.md)
+- [CI/CD](Frontend%20UI/ci-cd-patterns.md)
 ---
 
 ## Source Notes
