@@ -71,4 +71,5 @@ Without semantic release pattern patterns:
 
 ## Sources
 
-- [[Sources/microsoft-semantic-release-pattern-2024|microsoft-semantic-release-pattern-2024]]
+- [[Sources/pnpm-docs-2024|pnpm-docs-2024]]
+

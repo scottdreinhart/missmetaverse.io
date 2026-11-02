@@ -72,5 +72,6 @@ Without domain services:
 
 ## Sources
 
-- [[Sources/evans-ddd-ddd-2003|evans-ddd-ddd-2003]]
-- [[Sources/fowler-ddd-ddd-2003|fowler-ddd-ddd-2003]]
+- [[Sources/evans-ddd-2003|evans-ddd-2003]]
+- [[Sources/fowler-ddd-2003|fowler-ddd-2003]]
+

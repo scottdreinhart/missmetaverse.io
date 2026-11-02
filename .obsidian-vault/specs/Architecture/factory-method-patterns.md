@@ -71,4 +71,5 @@ Without factory method pattern patterns:
 
 ## Sources
 
-- [[Sources/microsoft-factory-method-pattern-2024|microsoft-factory-method-pattern-2024]]
+- [[Sources/goF-1994|goF-1994]]
+

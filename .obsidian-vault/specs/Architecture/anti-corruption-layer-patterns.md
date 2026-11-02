@@ -71,4 +71,5 @@ Without anti-corruption layer pattern patterns:
 
 ## Sources
 
-- [[Sources/microsoft-anti-corruption-layer-2024|microsoft-anti-corruption-layer-2024]]
+- [[Sources/evans-ddd-2003|evans-ddd-2003]]
+

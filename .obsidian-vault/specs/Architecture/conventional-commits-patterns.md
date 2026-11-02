@@ -71,4 +71,5 @@ Without conventional commits pattern patterns:
 
 ## Sources
 
-- [[Sources/microsoft-conventional-commits-pattern-2024|microsoft-conventional-commits-pattern-2024]]
+- [[Sources/pnpm-docs-2024|pnpm-docs-2024]]
+

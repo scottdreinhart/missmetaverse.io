@@ -71,4 +71,5 @@ Without design patterns overview pattern patterns:
 
 ## Sources
 
-- [[Sources/microsoft-design-patterns-overview-pattern-2024|microsoft-design-patterns-overview-pattern-2024]]
+- [[Sources/goF-1994|goF-1994]]
+
