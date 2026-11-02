@@ -383,4 +383,5 @@ useEffect(() => {
 - See [[ts-best-practices]] for TypeScript integration with React
 - See [[vite-optimization-security]] for build optimization
 - See [[vitest-testing]] for testing React components
-- See [[playwright-e2e]] for end-to-end testing
+- See [[playwright-patterns]] for end-to-end testing
+

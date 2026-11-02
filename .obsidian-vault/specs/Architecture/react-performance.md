@@ -57,8 +57,8 @@ Without React performance optimization:
 ## Related Concepts
 
 - [[React/react-patterns|React Patterns]] — React performance with React
-- [[Architecture/performance-optimization|Performance Optimization]] — React performance with optimization
-- [[Architecture/vite-optimization|Vite Optimization]] — React performance with Vite
+- [[performance-optimization|Performance Optimization]] — React performance with optimization
+- [[vite-optimization|Vite Optimization]] — React performance with Vite
 
 ## Project Observations
 
@@ -72,3 +72,4 @@ Without React performance optimization:
 ## Sources
 
 - [[Sources/react-docs-2026|react-docs-2026]]
+

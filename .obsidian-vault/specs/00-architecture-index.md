@@ -18,6 +18,14 @@
 
 ## Categories
 
+### [Templates](templates/)
+Reusable templates for documentation, code review, and architectural decisions.
+
+- [ADR Template](templates/adr-template.md) — Record architectural decisions
+- [Code Review Checklist](templates/code-review-checklist.md) — Systematic code reviews
+- [PR Template](templates/pr-template.md) — Structured pull requests
+- [Commit Message Template](templates/commit-message-template.md) — Conventional Commits
+
 ### [Architecture](Architecture/)
 High-level architectural styles and patterns.
 
@@ -33,6 +41,7 @@ High-level architectural styles and patterns.
 - [Quality, Delivery & Maintainability](Architecture/quality-delivery-maintainability.md) — TDD, CI, SLOs
 - [Core Principles](Architecture/core-principles.md) — DRY, KISS, YAGNI, etc.
 - [File-Level Separation Conventions](Architecture/file-level-separation-conventions.md) — Naming conventions
+- [Project Structure Mapping](Architecture/project-structure-mapping.md) — Pattern-to-folder mapping
 
 ### [Integration](Integration/)
 Tool integration and pipeline configuration.

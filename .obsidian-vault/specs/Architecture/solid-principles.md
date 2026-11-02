@@ -429,3 +429,52 @@ const service2 = new OrderService(new MongoDB())
 - [Design Patterns](./design-patterns.md)
 - [Coding Practices](./coding-practices.md)
 - [Architecture Patterns](./architecture-patterns.md)
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Writing new classes or interfaces
+- Refactoring code that's hard to test
+- Code review: checking for coupled or rigid code
+- Designing API contracts or service interfaces
+- Adding new features that might break existing code
+
+### What to Do With This Information
+1. **SRP**: Before creating a class, ask "does this have one reason to change?" If no, split it
+2. **OCP**: When adding new behavior, extend through interfaces — don't modify existing code
+3. **LSP**: When creating subtypes, verify they can be substituted for their base type
+4. **ISP**: When creating interfaces, split them by role — no client should depend on unused methods
+5. **DIP**: Always depend on abstractions (interfaces), never on concrete implementations
+
+### Tools to Use
+- **VS Code Extension**: ESLint with `@typescript-eslint` — for detecting code smells
+- **VS Code Extension**: Error Lens — for inline violation detection
+- **npm Package**: `eslint-plugin-simple-import-sort` — for import organization
+- **Terminal Command**: `pnpm tsc --noEmit` — verify type safety after refactoring
+- **Terminal Command**: `pnpm test` — verify refactoring didn't break tests
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs for SOLID compliance
+- **Architecture Validation Agent**: Run when designing new modules
+
+### Integration with Other Notes
+- Read [[clean-architecture]] for layer-level application of SOLID
+- Read [[ddd-patterns]] for domain-level application of SOLID
+- Read [[dependency-injection]] for DIP implementation patterns
+- Read [[coding-practices]] for SOLID in daily coding
+
+### Common Pitfalls
+- Don't create interfaces just to satisfy DIP — only when there are multiple implementations
+- Don't over-segregate interfaces (ISP) — keep related methods together
+- Don't use inheritance when composition would work (prefer composition over inheritance)
+- Don't create abstractions for single-use cases (DIP is for polymorphism, not indirection)
+- Don't violate LSP to save boilerplate (subtypes must honor contracts)
+
+### Quick Validation Checklist
+- [ ] Can I test this class in isolation? (SRP)
+- [ ] Can I add new behavior without modifying this class? (OCP)
+- [ ] Can I substitute subtypes without breaking? (LSP)
+- [ ] Does this interface have only methods the consumer needs? (ISP)
+- [ ] Does this class depend on an interface, not a concrete class? (DIP)

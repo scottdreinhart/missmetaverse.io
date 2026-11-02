@@ -69,3 +69,42 @@ Combined read/write models lead to:
 ## Sources
 
 - [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Creating a new feature with read/write separation
+- Performance issues with mixed read/write operations
+- Code review: checking for CQRS violations
+- Refactoring a monolithic service into read/write models
+
+### What to Do With This Information
+1. **Identify commands**: State-changing operations (create, update, delete, submit)
+2. **Identify queries**: Read operations (get, list, search, filter)
+3. **Create separate handlers**: Command handlers for writes, query handlers for reads
+4. **Use separate DTOs**: Different data shapes for read models vs write models
+5. **Validate**: Queries must never modify state
+
+### Tools to Use
+- **VS Code Extension**: ESLint with `@typescript-eslint` — for type safety
+- **npm Package**: `@nestjs/cqrs` — for NestJS CQRS implementation (optional)
+- **Terminal Command**: `pnpm add @nestjs/cqrs` — install CQRS package
+- **Terminal Command**: `pnpm tsc --noEmit` — verify type safety
+
+### Agents to Invoke
+- **Architecture Validation Agent**: Run when creating new CQRS handlers
+- **Code Review Agent**: Run when reviewing CQRS-related PRs
+
+### Integration with Other Notes
+- Read [[clean-architecture]] for the overall architectural context
+- Read [[event-driven-architecture]] for event publishing patterns
+- Read [[transactional-outbox]] for reliable event publishing
+- Read [[api-versioning]] for versioning CQRS endpoints
+
+### Common Pitfalls
+- Don't use CQRS for simple CRUD (see [[modular-monolith]])
+- Don't forget eventual consistency (see [[event-driven-architecture]])
+- Don't mix read/write logic in the same handler
+- Don't create separate databases without a good reason (CQRS doesn't require it)

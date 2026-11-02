@@ -663,4 +663,5 @@ test('test 2', () => {
 - See [[react-performance-security]] for React testing patterns
 - See [[vite-optimization-security]] for Vite configuration
 - See [[pnpm-best-practices]] for package management
-- See [[playwright-e2e]] for E2E testing with Playwright
+- See [[playwright-patterns]] for E2E testing with Playwright
+

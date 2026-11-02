@@ -606,3 +606,4 @@ customElements.define('my-card', MyCard);
 - See [[css3-performance-security]] for CSS3 integration patterns
 - See [[tw-optimization-performance]] for Tailwind CSS styling
 - See [[shadcn-best-practices]] for component accessibility patterns
+

@@ -422,3 +422,51 @@ async function processRow(doc: DbDocument) { /* ... */ }
 - [Architecture Patterns](./architecture-patterns.md)
 - [Atomic Design](./atomic-design.md)
 - [Coding Practices](./coding-practices.md)
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Creating a new feature or module
+- Refactoring existing code to improve separation of concerns
+- Code review: checking for architecture violations
+- Setting up new project structure
+- Adding a new database, API endpoint, or UI component
+
+### What to Do With This Information
+1. **When creating new code**: Place business logic in `entities/` and `usecases/`, keep frameworks in `adapters/` and `frameworks/`
+2. **When reviewing code**: Check that dependencies point inward — inner circles should never import from outer circles
+3. **When adding a new feature**: Create a port interface in the use case layer, implement the adapter in the outer layer
+4. **When refactoring**: Move business logic inward, push framework dependencies outward
+
+### Tools to Use
+- **VS Code Extension**: Error Lens — for inline error display while refactoring
+- **VS Code Extension**: GitLens — for understanding dependency history
+- **npm Package**: `typescript` — for type-safe dependency injection
+- **VS Code Setting**: `"editor.codeActionsOnSave": { "source.organizeImports": "explicit" }`
+- **Terminal Command**: `pnpm tsc --noEmit` — verify no type errors after refactoring
+
+### Agents to Invoke
+- **Architecture Validation Agent**: Run when creating new modules to verify Clean Architecture compliance
+- **Code Review Agent**: Run when reviewing PRs that touch architecture layers
+
+### Integration with Other Notes
+- Read [[solid-principles]] for single responsibility within each layer
+- Read [[ddd-patterns]] for domain model patterns within entities
+- Read [[cqrs-pattern]] for separating read/write models
+- Read [[dependency-injection]] for wiring dependencies at the boundary
+
+### Common Pitfalls
+- Don't let entities know about databases (entities should be plain classes)
+- Don't let use cases import from adapters (use port interfaces instead)
+- Don't pass database rows into business logic (use DTOs)
+- Don't put business logic in controllers (use use cases)
+- Don't let outer layers depend on inner layers (violation of dependency rule)
+
+### Quick Validation Checklist
+- [ ] Can I test the entities without a database?
+- [ ] Can I test the use cases without a web framework?
+- [ ] Do inner layers import only from other inner layers?
+- [ ] Are ports (interfaces) defined in inner layers?
+- [ ] Are adapters (implementations) in outer layers?

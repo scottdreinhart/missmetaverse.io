@@ -71,3 +71,44 @@ Synchronous communication leads to:
 ## Sources
 
 - [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Designing asynchronous communication between modules
+- Implementing domain events from DDD
+- Decoupling services that need to react to the same occurrence
+- Code review: checking for event handling patterns
+
+### What to Do With This Information
+1. **Identify events**: Significant occurrences in the domain (OrderCreated, UserRegistered)
+2. **Choose topology**: Broker (RabbitMQ) for many-to-many, Mediator (NATS) for request/response
+3. **Implement handlers**: Each event can have multiple independent handlers
+4. **Handle failures**: Implement dead letter queues, retry logic, idempotent consumers
+5. **Validate**: Events should be immutable, versioned, and descriptive
+
+### Tools to Use
+- **VS Code Extension**: Error Lens — for inline event handler errors
+- **npm Package**: `amqplib` — for RabbitMQ client
+- **npm Package**: `nats` — for NATS client
+- **Terminal Command**: `pnpm add amqplib` — install RabbitMQ client
+- **Terminal Command**: `pnpm add nats` — install NATS client
+
+### Agents to Invoke
+- **Architecture Validation Agent**: Run when designing event flows
+- **Security Review Agent**: Run when events contain sensitive data
+
+### Integration with Other Notes
+- Read [[ddd-patterns]] for domain event patterns
+- Read [[cqrs-pattern]] for CQRS + EDA integration
+- Read [[transactional-outbox]] for reliable event publishing
+- Read [[circuit-breaker-pattern]] for handling event processing failures
+
+### Common Pitfalls
+- Don't make everything event-driven (synchronous is fine for simple cases)
+- Don't confuse EDA with Event Sourcing (EDA is communication, ES is state)
+- Don't forget error handling (events can be lost without proper handling)
+- Don't put business logic in event handlers (use domain services)
+- Don't make events mutable (events are facts, they should never change)

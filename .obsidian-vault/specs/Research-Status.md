@@ -2,7 +2,7 @@
 
 > **Purpose:** Track research progress for every concept in the inventory.
 > **Last Updated:** 2026-11-02
-> **Status:** Phase 1 — Initial vault notes created. Phase 2 — Full concept research in progress.
+> **Status:** Phase 1 — Initial vault notes created. Phase 2 — Full concept research in progress. Phase 3 — AI enhancement (Copilot Instructions, templates, tool integration) in progress.
 
 ---
 
@@ -346,6 +346,59 @@
 | 🔴 Blocked | 0 |
 | ⬜ Not started | 0 |
 | **Total** | **~140** |
+
+---
+
+## Phase 3: AI Enhancement (In Progress — 2026-11-02)
+
+> **Goal:** Enhance vault notes for AI/Copilot consumption with structured instructions, tool integration, and agent workflows.
+
+### Completed
+
+| # | Enhancement | Status | Notes Updated |
+|---|-------------|--------|---------------|
+| 1 | ADR Template | ✅ Done | `templates/adr-template.md` |
+| 2 | Code Review Checklist | ✅ Done | `templates/code-review-checklist.md` |
+| 3 | PR Template | ✅ Done | `templates/pr-template.md` |
+| 4 | Commit Message Template | ✅ Done | `templates/commit-message-template.md` |
+| 5 | Templates README | ✅ Done | `templates/README.md` |
+| 6 | Enhanced Spec Template | ✅ Done | `_template-spec.md` |
+| 7 | Copilot Consumption Guide | ✅ Done | `Copilot-Consumption-Guide.md` (added tool integration, agent workflows, symbolic AI offloading) |
+| 8 | Clean Architecture — Copilot Instructions | ✅ Done | `Architecture/clean-architecture.md` |
+| 9 | SOLID Principles — Copilot Instructions | ✅ Done | `Architecture/solid-principles.md` |
+| 10 | DDD Patterns — Copilot Instructions | ✅ Done | `Architecture/ddd-patterns.md` |
+| 11 | CQRS Pattern — Copilot Instructions | ✅ Done | `Architecture/cqrs-pattern.md` |
+| 12 | Event-Driven Architecture — Copilot Instructions | ✅ Done | `Architecture/event-driven-architecture.md` |
+| 13 | Architecture Index — Templates Category | ✅ Done | `00-architecture-index.md` |
+
+### In Progress
+
+| # | Enhancement | Status | Notes Remaining |
+|---|-------------|--------|-----------------|
+| 14 | REST API Design — Copilot Instructions | ✅ Done | `Architecture/rest-api-design.md` |
+| 15 | Microservices — Copilot Instructions | ✅ Done | `Architecture/microservices.md` |
+| 16 | Repository Pattern — Copilot Instructions | ✅ Done | `Architecture/repository-pattern.md` |
+| 17 | Project Structure Mapping | ✅ Done | `Architecture/project-structure-mapping.md` |
+| 18 | Broken Wikilinks — Fixed | ✅ Done | 41 broken links fixed across vault |
+| 19 | Research-Status — Phase 3 Tracking | ✅ Done | `Research-Status.md` |
+
+### In Progress
+
+| # | Enhancement | Status | Notes Remaining |
+|---|-------------|--------|-----------------|
+| 20 | REST API Design — Copilot Instructions | ⬜ Not Started | `Architecture/rest-api-design.md` |
+| 21 | Microservices — Copilot Instructions | ⬜ Not Started | `Architecture/microservices.md` |
+| 22 | Repository Pattern — Copilot Instructions | ⬜ Not Started | `Architecture/repository-pattern.md` |
+| 23 | All remaining notes — Copilot Instructions | ⬜ Not Started | ~120 notes remaining |
+
+### Planned
+
+| # | Enhancement | Priority | Description |
+|---|-------------|----------|-------------|
+| 24 | Decision Trees | P2 | Add "when to use X vs Y" flowcharts |
+| 25 | Procedural Guidance | P2 | Add step-by-step "how to apply" sections |
+| 26 | Skills Documentation | P3 | Define Copilot skills |
+| 27 | Agent Workflow Definitions | P3 | Describe multi-agent processes |
 
 ---
 

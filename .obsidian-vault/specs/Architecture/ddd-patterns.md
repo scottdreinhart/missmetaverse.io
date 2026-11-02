@@ -597,3 +597,62 @@ export class InventoryAntiCorruptionLayer implements InventoryPort {
 - [Architecture Patterns](./architecture-patterns.md)
 - [DDD Patterns](./ddd-patterns.md)
 - [Coding Practices](./coding-practices.md)
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Designing a new domain model
+- Creating entities, value objects, or aggregates
+- Implementing business rules that span multiple entities
+- Adding persistence for domain objects
+- Handling external system integration
+
+### What to Do With This Information
+1. **Entities**: Create classes with identity, encapsulate business behavior, protect invariants
+2. **Value Objects**: Create immutable classes with attribute equality, no identity
+3. **Aggregates**: Use the aggregate root as the only entry point, enforce invariants within the boundary
+4. **Domain Services**: Extract behavior that doesn't naturally belong to one entity
+5. **Repositories**: Define interfaces in the domain layer, implement in infrastructure
+6. **Domain Events**: Record meaningful business occurrences, process asynchronously
+7. **Factories**: Centralize creation logic when object construction has business rules
+8. **Specifications**: Encapsulate composable business predicates
+9. **Anti-Corruption Layer**: Translate external models to protect the internal domain
+
+### Tools to Use
+- **VS Code Extension**: TypeScript Hero — for type inference when creating value objects
+- **VS Code Extension**: Error Lens — for inline invariant validation errors
+- **npm Package**: `class-transformer` — for value object immutability patterns
+- **Terminal Command**: `pnpm tsc --noEmit` — verify type safety after adding domain models
+- **Terminal Command**: `pnpm test` — verify domain invariants are enforced
+
+### Agents to Invoke
+- **Architecture Validation Agent**: Run when designing new aggregates to verify boundary correctness
+- **Code Review Agent**: Run when reviewing domain model changes
+
+### Integration with Other Notes
+- Read [[clean-architecture]] for layer placement of DDD patterns
+- Read [[solid-principles]] for applying SOLID within domain models
+- Read [[event-driven-architecture]] for processing domain events
+- Read [[repository-pattern]] for repository implementation details
+- Read [[domain-event]] for domain event patterns
+- Read [[bounded-context]] for defining aggregate boundaries
+
+### Common Pitfalls
+- Don't put database queries in entities (use repositories)
+- Don't create value objects for simple types (use TypeScript types or primitives)
+- Don't let aggregates communicate directly (use domain events)
+- Don't make the aggregate root too large (split into separate aggregates)
+- Don't expose internal state — use getters that return copies
+- Don't put infrastructure concerns in domain events (no database calls in event handlers within the domain)
+- Don't use factories for simple object creation (only when there are business rules)
+
+### Quick Validation Checklist
+- [ ] Does each entity have a unique identity?
+- [ ] Are value objects immutable with attribute equality?
+- [ ] Is the aggregate root the only entry point to its children?
+- [ ] Are domain invariants enforced on every mutation?
+- [ ] Do domain events record meaningful business occurrences?
+- [ ] Are repositories defined as interfaces in the domain layer?
+- [ ] Does the anti-corruption layer translate external models?
