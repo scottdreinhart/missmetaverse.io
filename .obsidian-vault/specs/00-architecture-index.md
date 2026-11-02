@@ -153,7 +153,7 @@ Testing, quality assurance, and delivery concepts.
 ### [Project File Conventions](Project%20File%20Conventions/)
 File naming conventions for React + TypeScript projects.
 
-- [Project File Conventions Overview](Project%20File%20Conventions/README.md) — 15 file conventions
+- [Project File Conventions Overview](Project%20File%20Conventions/README.md) — 15 file conventions (all complete)
 
 ### [Frontend UI](Frontend%20UI/)
 Frontend and UI patterns including accessibility, performance, and DevOps.
