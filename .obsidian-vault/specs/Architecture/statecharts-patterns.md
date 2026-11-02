@@ -56,7 +56,7 @@ Without statecharts patterns:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — Statecharts patterns with React
+- [React Patterns](../React/react-patterns) — Statecharts patterns with React
 - [State Machines](Architecture/state-machines-patterns.md) — Statecharts patterns with state machines
 - [MVVM Pattern](Architecture/mvvm-pattern-patterns.md) — Statecharts patterns with MVVM
 
@@ -71,4 +71,6 @@ Without statecharts patterns:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

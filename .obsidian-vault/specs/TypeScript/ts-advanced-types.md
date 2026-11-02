@@ -1,8 +1,17 @@
+---
+slug: ts-advanced-types
+sources:
+  - https://www.typescriptlang.org/docs/handbook/2/types-from-types.html
+  - https://www.typescriptlang.org/docs/handbook/2/conditional-types.html
+date: 2026-11-02
+tags:
+  - typescript
+  - generics
+  - conditional-types
+  - utility-types
+
 # TypeScript Advanced Types
 
-> Slug: `ts-advanced-types`
-> Source: [[https://www.typescriptlang.org/docs/handbook/2/types-from-types.html|TypeScript Handbook: Creating Types from Types]] | [[https://www.typescriptlang.org/docs/handbook/2/conditional-types.html|TypeScript Handbook: Conditional Types]]
-> Date: 2026-11-02
 
 ## Generics
 
@@ -196,3 +205,9 @@ type CamelCase<S extends string> = S extends `${infer First}_${infer Rest}`
 | Compiler trust | You assert, compiler trusts | Compiler verifies logic |
 | Safety | Can lie to compiler | Safe |
 | Use case | Known at runtime, compiler can't see | Filter/branch based on type |
+
+
+
+
+---
+

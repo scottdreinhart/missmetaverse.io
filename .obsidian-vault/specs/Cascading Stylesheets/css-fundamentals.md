@@ -485,4 +485,5 @@ body {
 
 - [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md)
 - [ShadCN UI](../ShadCN/shadcn-ui-patterns.md)
-- [React Patterns](../React/react-patterns.md)
+- [React Patterns](../React/react-patterns)
+

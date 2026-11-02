@@ -1,6 +1,17 @@
 ---
 slug: ts-optimization-performance
 sources:
+  - https://www.typescriptlang.org/docs/handbook/2/decorators.html
+date: 2026-11-02
+tags:
+  - typescript
+  - performance
+  - optimization
+  - tree-shaking
+---
+
+# TypeScript Optimization & Performance
+sources:
   - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-4.html
   - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html
   - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-8.html
@@ -227,3 +238,8 @@ For very large projects that hit memory limits:
 | import type | Medium | Low |
 | CPU profiling | Diagnostic | Low |
 | disableSizeLimit | Low | Low |
+
+
+
+---
+

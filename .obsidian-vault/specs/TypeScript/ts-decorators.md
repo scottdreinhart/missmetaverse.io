@@ -1,8 +1,15 @@
+---
+slug: ts-decorators
+sources:
+  - https://www.typescriptlang.org/docs/handbook/2/decorators.html
+date: 2026-11-02
+tags:
+  - typescript
+  - decorators
+  - metadata
+  - reflection
 # TypeScript Decorators
 
-> Slug: `ts-decorators`
-> Source: [[https://www.typescriptlang.org/docs/handbook/decorators.html|TypeScript Handbook: Decorators]] | [[https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html#decorators|TypeScript 5.0: Decorators]]
-> Date: 2026-11-02
 
 ## Overview
 
@@ -241,3 +248,9 @@ function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescrip
 3. **Use `addInitializer`** for constructor-side effects
 4. **Stack decorators carefully** — order matters when decorators have side effects
 5. **Don't mix legacy and standard** — they have incompatible type-checking and emit
+
+
+
+
+---
+

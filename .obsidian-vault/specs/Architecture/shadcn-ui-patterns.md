@@ -57,7 +57,7 @@ Without shadcn/ui patterns:
 ## Related Concepts
 
 - [Tailwind CSS Patterns](Architecture/tailwind-css-patterns.md) — shadcn/ui patterns with Tailwind
-- [React Patterns](../React/react-patterns.md) — shadcn/ui patterns with React
+- [React Patterns](../React/react-patterns) — shadcn/ui patterns with React
 - [Design Systems](Architecture/design-systems.md) — shadcn/ui patterns with design systems
 
 ## Project Observations
@@ -71,4 +71,6 @@ Without shadcn/ui patterns:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

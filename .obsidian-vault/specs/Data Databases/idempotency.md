@@ -72,5 +72,6 @@ Without idempotency:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
 - [[Sources/react-docs-2026|react-docs-2026]]
+

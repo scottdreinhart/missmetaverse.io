@@ -56,7 +56,7 @@ Without headless UI:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — Headless UI with React
+- [React Patterns](../React/react-patterns) — Headless UI with React
 - [Design Systems](Architecture/design-systems.md) — Headless UI with design systems
 - [Component Composition](Architecture/component-composition.md) — Headless UI with composition
 
@@ -71,4 +71,6 @@ Without headless UI:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

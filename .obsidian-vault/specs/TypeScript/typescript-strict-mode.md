@@ -1,6 +1,16 @@
 ---
 slug: typescript-strict-mode
 sources:
+  - https://www.typescriptlang.org/tsconfig#strict
+date: 2026-11-02
+tags:
+  - typescript
+  - strict-mode
+  - strict
+  - compiler-options
+---
+slug: typescript-strict-mode
+sources:
   - https://www.typescriptlang.org/docs/handbook/type-compatibility.html
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
   - https://typescript.tv/
@@ -416,3 +426,8 @@ emitter.on('user:login', (data) => {
 - [React Patterns](./react-patterns.md)
 - [Testing Patterns](./testing-patterns.md)
 - [Coding Practices](./coding-practices.md)
+
+
+
+---
+

@@ -57,7 +57,7 @@ Without HTML semantic patterns:
 ## Related Concepts
 
 - [CSS Fundamentals](Architecture/css-fundamentals.md) — HTML semantic patterns with CSS
-- [React Patterns](../React/react-patterns.md) — HTML semantic patterns with React
+- [React Patterns](../React/react-patterns) — HTML semantic patterns with React
 - [Accessibility](Architecture/accessibility-a11y.md) — HTML semantic patterns with accessibility
 
 ## Project Observations
@@ -71,4 +71,6 @@ Without HTML semantic patterns:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

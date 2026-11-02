@@ -56,7 +56,7 @@ Without MVP:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — MVP with React
+- [React Patterns](../React/react-patterns) — MVP with React
 - [State Machines](Architecture/state-machines.md) — MVP with state machines
 - [Statecharts](Architecture/statecharts.md) — MVP with statecharts
 
@@ -71,4 +71,6 @@ Without MVP:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

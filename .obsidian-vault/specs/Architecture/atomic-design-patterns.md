@@ -56,7 +56,7 @@ Without atomic design patterns:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — Atomic design patterns with React
+- [React Patterns](../React/react-patterns) — Atomic design patterns with React
 - [Design Systems](Architecture/design-systems-patterns.md) — Atomic design patterns with design systems
 - [Design Tokens](Architecture/design-tokens.md) — Atomic design patterns with design tokens
 
@@ -71,4 +71,6 @@ Without atomic design patterns:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

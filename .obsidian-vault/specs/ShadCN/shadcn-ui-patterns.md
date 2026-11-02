@@ -577,6 +577,7 @@ export function CustomCard({ title, subtitle, image, children, className }: Cust
 
 ## Cross-References
 
-- [React Patterns](../React/react-patterns.md)
+- [React Patterns](../React/react-patterns)
 - [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md)
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md)
+

@@ -57,7 +57,7 @@ Without Vite optimization:
 ## Related Concepts
 
 - [Vite Configuration](Architecture/vite-configuration.md) — Vite optimization with configuration
-- [React Patterns](../React/react-patterns.md) — Vite optimization with React
+- [React Patterns](../React/react-patterns) — Vite optimization with React
 - [Bundler Configuration](../Bundler/vite-optimization-security.md) — Vite optimization with bundling
 
 ## Project Observations
@@ -71,4 +71,6 @@ Without Vite optimization:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

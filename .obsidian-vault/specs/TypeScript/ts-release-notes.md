@@ -1,8 +1,15 @@
+---
+slug: ts-release-notes
+sources:
+  - https://www.typescriptlang.org/download/
+date: 2026-11-02
+tags:
+  - typescript
+  - release-notes
+  - changelog
+  - new-features
 # TypeScript 5.0+ Release Notes
 
-> Slug: `ts-release-notes`
-> Source: [[https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-0.html|TypeScript 5.0 Release Notes]]
-> Date: 2026-11-02
 
 ## Decorators (Standard)
 
@@ -201,3 +208,9 @@ function printValue(value, maximumFractionDigits) { }
 ### Default Changes
 - `--newLine` defaults to `LF` (not OS-specific)
 - `--forceConsistentCasingInFileNames` defaults to `true`
+
+
+
+
+---
+

@@ -542,5 +542,6 @@ export interface TestOrderItem {
 ## Cross-References
 
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md)
-- [React Patterns](../React/react-patterns.md)
+- [React Patterns](../React/react-patterns)
 - [CI/CD GitHub Actions](./cicd-github-actions.md)
+

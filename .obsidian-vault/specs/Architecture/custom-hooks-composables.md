@@ -56,7 +56,7 @@ Without custom hooks:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — Custom hooks are a core pattern
+- [React Patterns](../React/react-patterns) — Custom hooks are a core pattern
 - [Component Composition](Architecture/atomic-design.md) — Hooks enable composition
 - [Pure Functions](Architecture/pure-functions.md) — Hook logic should be pure
 
@@ -71,3 +71,4 @@ Without custom hooks:
 ## Sources
 
 - [[Sources/react-docs-2026|react-docs-2026]]
+

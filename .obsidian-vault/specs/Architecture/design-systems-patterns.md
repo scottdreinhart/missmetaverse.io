@@ -56,7 +56,7 @@ Without design systems patterns:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — Design systems patterns with React
+- [React Patterns](../React/react-patterns) — Design systems patterns with React
 - [Design Tokens](Architecture/design-tokens.md) — Design systems patterns with design tokens
 - [Component Composition](Architecture/component-composition.md) — Design systems patterns with composition
 
@@ -71,4 +71,6 @@ Without design systems patterns:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

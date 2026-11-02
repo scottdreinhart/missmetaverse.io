@@ -1,8 +1,15 @@
+---
+slug: ts-tsconfig
+sources:
+  - https://www.typescriptlang.org/tsconfig
+date: 2026-11-02
+tags:
+  - typescript
+  - tsconfig
+  - configuration
+  - compiler-options
 # TypeScript tsconfig.json Reference
 
-> Slug: `ts-tsconfig`
-> Source: [[https://www.typescriptlang.org/tsconfig|TSConfig Reference]]
-> Date: 2026-11-02
 
 ## Top-Level Fields
 
@@ -181,3 +188,9 @@ Based on the project's tech stack (React 19 + Vite + TypeScript + pnpm):
   }
 }
 ```
+
+
+
+
+---
+

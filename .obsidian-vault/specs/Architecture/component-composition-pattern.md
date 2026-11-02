@@ -56,7 +56,7 @@ Without component composition:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — Component composition with React
+- [React Patterns](../React/react-patterns) — Component composition with React
 - [Custom Hooks Pattern](Architecture/custom-hooks-pattern.md) — Component composition with custom hooks
 - [Headless UI Pattern](Architecture/headless-ui-pattern.md) — Component composition with headless UI
 
@@ -71,4 +71,6 @@ Without component composition:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

@@ -1,8 +1,17 @@
+---
+slug: ts-fundamentals
+sources:
+  - https://www.typescriptlang.org/docs/handbook/2/basic-types.html
+  - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+date: 2026-11-02
+tags:
+  - typescript
+  - types
+  - interfaces
+  - basics
+
 # TypeScript Fundamentals — Types & Interfaces
 
-> Slug: `ts-fundamentals`
-> Source: [[https://www.typescriptlang.org/docs/handbook/2/basic-types.html|TypeScript Handbook: The Basics]] | [[https://www.typescriptlang.org/docs/handbook/2/everyday-types.html|TypeScript Handbook: Everyday Types]]
-> Date: 2026-11-02
 
 ## Static Type Checking
 
@@ -235,3 +244,9 @@ enum Color { Red, Orange, Yellow, Green, Blue, Violet }
 | `strictFunctionTypes` | Correct function parameter checking |
 | `strictPropertyInitialization` | Class properties must be initialized |
 | `useUnknownInCatchVariables` | Catch variables are `unknown` by default |
+
+
+
+
+---
+

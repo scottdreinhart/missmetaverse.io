@@ -58,7 +58,7 @@ Mutable state leads to:
 
 - [Pure Functions](Architecture/coding-practices.md) — Pure functions don't mutate
 - [Explicit Error Modeling](Architecture/coding-practices.md) — Immutability prevents hidden state changes
-- [React Patterns](../React/react-patterns.md) — React state should be immutable
+- [React Patterns](../React/react-patterns) — React state should be immutable
 
 ## Project Observations
 
@@ -72,3 +72,4 @@ Mutable state leads to:
 
 - [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
 - [[Sources/react-docs-2026|react-docs-2026]]
+

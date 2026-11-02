@@ -56,7 +56,7 @@ Without presentational/container pattern:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — Presentational/container with React
+- [React Patterns](../React/react-patterns) — Presentational/container with React
 - [Headless Components](Architecture/headless-components.md) — Presentational/container with headless components
 - [Component Composition](Architecture/component-composition.md) — Presentational/container with composition
 
@@ -71,4 +71,6 @@ Without presentational/container pattern:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

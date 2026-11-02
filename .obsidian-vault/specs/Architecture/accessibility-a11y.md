@@ -57,7 +57,7 @@ Without accessibility:
 ## Related Concepts
 
 - [Design Tokens](Architecture/design-tokens.md) — Accessibility with design tokens
-- [React Patterns](../React/react-patterns.md) — Accessibility with React
+- [React Patterns](../React/react-patterns) — Accessibility with React
 - [Tailwind CSS](../Tailwind%20CSS/tailwind-css-patterns.md) — Accessibility with Tailwind
 
 ## Project Observations
@@ -71,4 +71,6 @@ Without accessibility:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

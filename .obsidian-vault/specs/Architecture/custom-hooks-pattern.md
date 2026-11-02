@@ -56,7 +56,7 @@ Without custom hooks:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — Custom hooks with React
+- [React Patterns](../React/react-patterns) — Custom hooks with React
 - [Headless UI Pattern](Architecture/headless-ui-pattern.md) — Custom hooks with headless UI
 - [Component Composition](Architecture/component-composition.md) — Custom hooks with composition
 
@@ -71,4 +71,6 @@ Without custom hooks:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

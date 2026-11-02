@@ -57,7 +57,7 @@ Without composition:
 ## Related Concepts
 
 - [Atomic Design](Architecture/atomic-design.md) — Composition at the UI level
-- [React Patterns](../React/react-patterns.md) — React component composition
+- [React Patterns](../React/react-patterns) — React component composition
 - [Composition over Inheritance](Architecture/composition-over-inheritance.md) — General principle
 
 ## Project Observations
@@ -71,3 +71,4 @@ Without composition:
 ## Sources
 
 - [[Sources/react-docs-2026|react-docs-2026]]
+

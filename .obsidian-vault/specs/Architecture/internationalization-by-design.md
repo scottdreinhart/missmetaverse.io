@@ -58,7 +58,7 @@ i18n as an afterthought leads to:
 
 - [HTML Semantic Patterns](../Hypertext%20HTML/html-semantic-patterns.md) — HTML supports i18n via `lang` attribute
 - [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md) — Tailwind supports RTL
-- [React Patterns](../React/react-patterns.md) — React i18n libraries
+- [React Patterns](../React/react-patterns) — React i18n libraries
 
 ## Project Observations
 
@@ -71,3 +71,4 @@ i18n as an afterthought leads to:
 ## Sources
 
 - [[Sources/mdn-html-2024|mdn-html-2024]]
+

@@ -57,7 +57,7 @@ Without Vitest patterns:
 ## Related Concepts
 
 - [Testing Patterns](../Testing/testing-patterns.md) — Vitest patterns with testing
-- [React Patterns](../React/react-patterns.md) — Vitest patterns with React
+- [React Patterns](../React/react-patterns) — Vitest patterns with React
 - [Automated Testing](Architecture/automated-testing.md) — Vitest patterns with automated testing
 
 ## Project Observations
@@ -71,4 +71,6 @@ Without Vitest patterns:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

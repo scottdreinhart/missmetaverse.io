@@ -56,7 +56,7 @@ Bidirectional data flow leads to:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — React's data flow
+- [React Patterns](../React/react-patterns) — React's data flow
 - [State Machines](Architecture/atomic-design.md) — State management
 - [Immutability](Architecture/immutable-data.md) — Unidirectional flow works best with immutable data
 
@@ -72,3 +72,4 @@ Bidirectional data flow leads to:
 ## Sources
 
 - [[Sources/react-docs-2026|react-docs-2026]]
+

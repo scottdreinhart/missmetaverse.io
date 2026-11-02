@@ -390,6 +390,7 @@ export function TransitionButton() {
 
 ## Cross-References
 
-- [React Patterns](../React/react-patterns.md)
+- [React Patterns](../React/react-patterns)
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md)
 - [Cascading Stylesheets](../Cascading Stylesheets/css-fundamentals.md)
+

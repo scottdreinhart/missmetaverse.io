@@ -1,8 +1,15 @@
+---
+slug: ts-narrowing
+sources:
+  - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+date: 2026-11-02
+tags:
+  - typescript
+  - narrowing
+  - type-guards
+  - discriminated-unions
 # TypeScript Narrowing & Type Guards
 
-> Slug: `ts-narrowing`
-> Source: [[https://www.typescriptlang.org/docs/handbook/2/narrowing.html|TypeScript Handbook: Narrowing]]
-> Date: 2026-11-02
 
 ## What is Narrowing?
 
@@ -205,3 +212,9 @@ console.log(x); // x: number (narrowed by assignment)
 x = "goodbye!";
 console.log(x); // x: string (narrowed by assignment)
 ```
+
+
+
+
+---
+

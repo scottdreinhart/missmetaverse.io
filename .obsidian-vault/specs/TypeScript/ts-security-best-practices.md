@@ -1,6 +1,17 @@
 ---
 slug: ts-security-best-practices
 sources:
+  - https://www.typescriptlang.org/docs/handbook/security.html
+date: 2026-11-02
+tags:
+  - typescript
+  - security
+  - best-practices
+  - validation
+---
+
+# TypeScript Security Best Practices
+sources:
   - https://www.typescriptlang.org/docs/handbook/2/functions.html
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
   - https://www.typescriptlang.org/tsconfig
@@ -254,3 +265,8 @@ if (dir === Direction.Up) { /* ... */ }
 6. **Enable `noUncheckedIndexedAccess`** — handle missing keys explicitly
 7. **Use `noImplicitOverride`** — prevent inheritance bugs
 8. **Validate all external input** — types don't replace runtime validation
+
+
+
+---
+

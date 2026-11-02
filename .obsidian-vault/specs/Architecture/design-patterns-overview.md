@@ -71,4 +71,4 @@ Without design patterns:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/goF-1994|goF-1994]]

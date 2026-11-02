@@ -56,9 +56,9 @@ Without React security:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — React security with React
-- [Security Principles](Architecture/security-principles.md) — React security with security
-- [Input Validation](Architecture/input-validation.md) — React security with input validation
+- [[React/react-patterns|React Patterns]] — React security with React
+- [[Security/security-principles|Security Principles]] — React security with security
+- [[Security/input-validation|Input Validation]] — React security with input validation
 
 ## Project Observations
 
@@ -71,4 +71,4 @@ Without React security:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/owasp-top-ten-2021|owasp-top-ten-2021]]

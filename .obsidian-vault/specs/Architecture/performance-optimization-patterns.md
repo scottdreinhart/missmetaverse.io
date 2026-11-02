@@ -57,7 +57,7 @@ Without performance optimization patterns:
 ## Related Concepts
 
 - [Caching](Architecture/cache-aside-pattern.md) — Performance optimization patterns with caching
-- [React Patterns](../React/react-patterns.md) — Performance optimization patterns with React
+- [React Patterns](../React/react-patterns) — Performance optimization patterns with React
 - [Vite Optimization](Architecture/vite-optimization.md) — Performance optimization patterns with Vite
 
 ## Project Observations
@@ -71,4 +71,6 @@ Without performance optimization patterns:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

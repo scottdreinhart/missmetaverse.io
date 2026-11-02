@@ -57,7 +57,7 @@ Without CSS fundamentals:
 ## Related Concepts
 
 - [Tailwind CSS Patterns](Architecture/tailwind-css-patterns.md) — CSS fundamentals with Tailwind
-- [React Patterns](../React/react-patterns.md) — CSS fundamentals with React
+- [React Patterns](../React/react-patterns) — CSS fundamentals with React
 - [ShadCN UI Patterns](Architecture/shadcn-ui-patterns.md) — CSS fundamentals with ShadCN
 
 ## Project Observations
@@ -71,4 +71,6 @@ Without CSS fundamentals:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+

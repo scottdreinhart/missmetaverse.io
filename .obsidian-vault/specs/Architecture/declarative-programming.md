@@ -58,7 +58,7 @@ Imperative programming leads to:
 
 - [Data-Driven Design](Architecture/data-driven-design.md) — Complementary approach
 - [Configuration-Driven Development](Architecture/configuration-driven-development.md) — Declarative configuration
-- [React Patterns](../React/react-patterns.md) — React is declarative
+- [React Patterns](../React/react-patterns) — React is declarative
 
 ## Project Observations
 
@@ -72,3 +72,4 @@ Imperative programming leads to:
 ## Sources
 
 - [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
+

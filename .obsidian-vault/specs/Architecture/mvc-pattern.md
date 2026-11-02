@@ -56,7 +56,7 @@ Without MVC:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns.md) — MVC with React
+- [React Patterns](../React/react-patterns) — MVC with React
 - [State Machines](Architecture/state-machines.md) — MVC with state machines
 - [Statecharts](Architecture/statecharts.md) — MVC with statecharts
 
@@ -71,4 +71,6 @@ Without MVC:
 
 ## Sources
 
-- [[Sources/martin-srp-2014|martin-srp-2014]]
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+
+
