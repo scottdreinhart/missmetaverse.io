@@ -11,6 +11,10 @@ tags:
   - w3c
 ---
 
+## Sources
+
+- [[Sources/wcag-21|wcag-21]]
+
 # Accessibility (a11y)
 
 ## Definition

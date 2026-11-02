@@ -11,6 +11,10 @@ tags:
   - l10n
 ---
 
+## Sources
+
+- [[Sources/w3c-i18n|w3c-i18n]]
+
 # Internationalization by Design
 
 ## Definition

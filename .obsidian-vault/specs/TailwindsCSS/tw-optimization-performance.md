@@ -348,6 +348,12 @@ export default defineConfig({
 ## Cross-References
 
 - See [[ts-best-practices]] for TypeScript integration patterns
+- See [[css-media-queries]] for media query patterns and breakpoints
+
+## Sources
+
+- [[Sources/tailwind-docs-2024|tailwind-docs-2024]]
+- [[Sources/mdn-css-2024|mdn-css-2024]]
 - See [[css3-performance-security]] for CSS3 performance fundamentals
 - See [[html5-best-practices]] for HTML5 semantic structure with Tailwind
 

@@ -310,8 +310,19 @@
 | N11 | boundary-validation | Boundary Validation | ✅ | zod-docs |
 | N12 | small-cohesive-modules | Small Cohesive Modules | ✅ | typescript-docs |
 | N13 | dependency-hygiene | Dependency Hygiene | ✅ | pnpm-docs |
-| N14 | accessibility-by-design | Accessibility by Design | ✅ | mdn-css |
-| N15 | i18n-by-design | Internationalization by Design | ✅ | mdn-html |
+| N14 | accessibility-by-design | Accessibility by Design | ✅ | wcag-21 |
+| N15 | i18n-by-design | Internationalization by Design | ✅ | w3c-i18n |
+
+---
+
+## P. CSS Media & Responsive
+
+| # | Concept ID | Canonical Note | Status | Sources |
+|---|-----------|---------------|--------|---------|
+| P1 | css-media-queries | CSS Media Queries | ✅ | mdn-css-2024 |
+| P2 | responsive-design | Responsive Design | ✅ | tailwind-docs-2024 |
+| P3 | container-queries | Container Queries | ✅ | mdn-css-2024 |
+| P4 | viewport-meta | Viewport Meta Tag | ✅ | mdn-html-2024 |
 
 ---
 

@@ -486,4 +486,9 @@ body {
 - [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md)
 - [ShadCN UI](../ShadCN/shadcn-ui-patterns.md)
 - [React Patterns](../React/react-patterns)
+- [CSS Media Queries](css-media-queries.md) — Media types, features, container queries, device queries
+
+## Sources
+
+- [[Sources/mdn-css-2024|mdn-css-2024]]
 

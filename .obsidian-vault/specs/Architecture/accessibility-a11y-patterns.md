@@ -11,6 +11,10 @@ tags:
   - patterns
 ---
 
+## Sources
+
+- [[Sources/wcag-21|wcag-21]]
+
 # Accessibility Patterns
 
 ## Definition

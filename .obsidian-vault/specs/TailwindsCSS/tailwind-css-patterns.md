@@ -393,4 +393,10 @@ export function TransitionButton() {
 - [React Patterns](../React/react-patterns)
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md)
 - [Cascading Stylesheets](../Cascading Stylesheets/css-fundamentals.md)
+- [CSS Media Queries](../Cascading Stylesheets/css-media-queries.md) — Media types, features, container queries
+
+## Sources
+
+- [[Sources/tailwind-docs-2024|tailwind-docs-2024]]
+- [[Sources/mdn-css-2024|mdn-css-2024]]
 

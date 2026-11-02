@@ -606,4 +606,9 @@ customElements.define('my-card', MyCard);
 - See [[css3-performance-security]] for CSS3 integration patterns
 - See [[tw-optimization-performance]] for Tailwind CSS styling
 - See [[shadcn-best-practices]] for component accessibility patterns
+- See [[css-media-queries]] for responsive design and media query patterns
+
+## Sources
+
+- [[Sources/mdn-html-2024|mdn-html-2024]]
 

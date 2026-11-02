@@ -1132,6 +1132,8 @@ sequenceDiagram
 - Prisma Documentation: https://www.prisma.io/
 - Chart.js Documentation: https://www.chartjs.org/
 - Puppeteer Documentation: https://pptr.dev/
+- W3C WCAG 2.1: https://www.w3.org/TR/WCAG21/
+- W3C Internationalization: https://www.w3.org/International/
 
 ### 8.3 Standards and Specifications
 
@@ -1141,6 +1143,11 @@ sequenceDiagram
 - OAuth 2.0 RFC 6749: https://tools.ietf.org/html/rfc6749
 - JWT RFC 7519: https://tools.ietf.org/html/rfc7519
 - OIDC Core 1.0: https://openid.net/specs/openid-connect-core-1_0.html
+
+### 8.4 Vault Source Citations
+
+- [[wcag-21]] — WCAG 2.1 accessibility guidelines (POUR principles, conformance levels, legal framework)
+- [[w3c-i18n]] — W3C internationalization standards (character encoding, text direction, date/number formatting, RTL)
 
 ---
 

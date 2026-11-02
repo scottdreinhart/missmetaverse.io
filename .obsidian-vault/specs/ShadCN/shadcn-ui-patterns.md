@@ -13,6 +13,11 @@ tags:
   - accessibility
 ---
 
+## Sources
+
+- [[Sources/radix-ui-docs-2024|radix-ui-docs-2024]]
+- [[Sources/wcag-21|wcag-21]]
+
 # ShadCN UI Patterns
 
 ## Overview
