@@ -307,3 +307,165 @@ hoist-pattern=*
 - [CI/CD GitHub Actions](./cicd-github-actions.md)
 - [Docker Nginx Deployment](./docker-nginx-deployment.md)
 - [Commit Management](../Commit%20Management/commit-management-integration.md)
+
+---
+
+## Decision Tree: pnpm Workspace Setup
+
+```mermaid
+graph TD
+    A[Need pnpm setup?]\n    A --> B{Single project?}
+    B -->|Yes| C[Basic pnpm]
+    B -->|Multi| D[Workspace]
+    C --> E{Add dependency?}
+    E -->|Prod| F[pnpm add]
+    E -->|Dev| G[pnpm add -D]
+    D --> H{Share packages?}
+    H -->|Yes| I[Workspace links]
+    H -->|No| J[Independent]
+    I --> K{Strict mode?}
+    K -->|Yes| L[strict-peer-dependencies]
+    K -->|No| M[Auto-install-peers]
+```
+
+### When to Use Each pnpm Command
+
+| Command | When to Use | Example |
+|---------|-------------|---------|
+| **pnpm add** | Add production dependency | pnpm add react |
+| **pnpm add -D** | Add dev dependency | pnpm add -D vitest |
+| **pnpm add --peer** | Add peer dependency | pnpm add --peer @radix-ui |
+| **pnpm install** | Install all dependencies | pnpm install |
+| **pnpm update** | Update dependencies | pnpm update |
+| **pnpm list** | List installed packages | pnpm list |
+
+---
+
+## Procedural Guidance: pnpm Setup
+
+### Step 1: Install pnpm
+
+```bash
+# Enable corepack (comes with Node.js 16+)
+corepack enable
+
+# Prepare pnpm
+corepack prepare pnpm@latest --activate
+
+# Verify installation
+pnpm --version
+
+# Initialize project
+pnpm init
+```
+
+### Step 2: Configure .npmrc
+
+```bash
+# .npmrc
+strict-peer-dependencies=false
+auto-install-peers=true
+```
+
+### Step 3: Add Dependencies
+
+```bash
+# Add production dependencies
+pnpm add react react-dom
+
+# Add dev dependencies
+pnpm add -D vite @vitejs/plugin-react typescript vitest
+
+# Add peer dependencies
+pnpm add @radix-ui/react-dropdown-menu --peer
+
+# Add workspace dependencies
+pnpm add my-shared-package -w
+```
+
+### Step 4: Set Up Workspace (Monorepo)
+
+```jsonc
+// package.json
+{
+  "name": "my-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint"
+  }
+}
+```
+
+### Step 5: Manage Lockfile
+
+```bash
+# Generate lockfile
+pnpm install
+
+# Update lockfile
+pnpm update
+
+# Check for outdated packages
+pnpm outdated
+
+# Audit for security issues
+pnpm audit
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Setting up pnpm for a project
+- Managing dependencies
+- Setting up workspaces
+- Troubleshooting pnpm issues
+- Updating dependencies
+
+### What to Do With This Information
+1. **Use pnpm**: Faster and more disk-efficient than npm/yarn
+2. **Workspaces**: Set up monorepos with pnpm workspaces
+3. **Peer dependencies**: Use --peer for optional dependencies
+4. **Lockfile**: Always commit pnpm-lock.yaml
+5. **Audit**: Regularly run pnpm audit for security
+
+### Tools to Use
+- **VS Code Extension**: Error Lens — for inline dependency errors
+- **Terminal Command**: `pnpm add <package>` — add dependency
+- **Terminal Command**: `pnpm add -D <package>` — add dev dependency
+- **Terminal Command**: `pnpm install` — install dependencies
+- **Terminal Command**: `pnpm audit` — check for vulnerabilities
+- **Terminal Command**: `pnpm outdated` — check for updates
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with dependency changes
+- **Security Review Agent**: Run when adding new dependencies
+
+### Integration with Other Notes
+- Read [[pnpm-best-practices]] for pnpm best practices
+- Read [[ci-cd-patterns]] for CI/CD integration
+- Read [[docker-deployment]] for Docker integration
+- Read [[conventional-commits]] for commit conventions
+
+### Common Pitfalls
+- Don't ignore peer dependencies (use --peer)
+- Don't delete node_modules manually (use pnpm clean)
+- Don't ignore lockfile changes (review in PRs)
+- Don't skip audit (check for vulnerabilities)
+- Don't mix package managers (stick to pnpm)
+
+### Quick Validation Checklist
+- [ ] Is pnpm installed and configured?
+- [ ] Is pnpm-lock.yaml committed?
+- [ ] Are dependencies added correctly (prod vs dev)?
+- [ ] Are workspaces configured properly?
+- [ ] Is audit run regularly?
+- [ ] Are outdated packages updated?

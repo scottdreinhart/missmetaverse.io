@@ -425,3 +425,275 @@ function UserContent({ content }: { content: string }) {
 - See [[accessibility-a11y]] for accessibility best practices
 - See [[shadcn-ui-patterns]] for shadcn/ui component patterns
 
+---
+
+## Decision Tree: ShadCN Best Practices
+
+```mermaid
+graph TD
+    A[Need to customize component?]\n    A --> B{Simple change?}
+    B -->|Yes| C[Use cn() for classes]
+    B -->|No| D[Modify component source]
+    C --> E{Variant?}
+    E -->|Yes| F[Use cva]
+    E -->|No| G[Inline className]
+    D --> H{Accessibility?}
+    H -->|Yes| I[Verify ARIA]
+    H -->|No| J[Add tests]
+    I --> K[Test with screen reader]
+    J --> K
+```
+
+### When to Use Each Best Practice
+
+| Practice | When to Use | Example |
+|----------|-------------|---------|
+| **cn() utility** | Always merge Tailwind classes | cn('class1', 'class2') |
+| **cva** | Component variants | buttonVariants() |
+| **CSS variables** | Theming/dark mode | --primary-color |
+| **Composition** | Building complex UIs | Card + CardHeader |
+| **Accessibility** | All interactive components | ARIA, keyboard nav |
+
+---
+
+## Procedural Guidance: ShadCN Optimization
+
+### Step 1: Configure Theme
+
+```css
+/* globals.css */
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+```
+
+### Step 2: Create Custom Variants
+
+```typescript
+// lib/utils.ts
+import { type ClassValue, clsx } from 'clsx'
+import { twMerge } from 'tailwind-merge'
+import { cva, type VariantProps } from 'class-variance-authority'
+
+export function cn(...inputs: ClassValue[]) {
+  return twMerge(clsx(inputs))
+}
+
+export const cardVariants = cva('rounded-lg border bg-card text-card-foreground shadow-sm', {
+  variants: {
+    variant: {
+      default: 'border-border',
+      elevated: 'border-border shadow-lg',
+      ghost: 'border-transparent bg-transparent',
+    },
+    size: {
+      default: 'p-6',
+      sm: 'p-4',
+      lg: 'p-8',
+    },
+  },
+  defaultVariants: {
+    variant: 'default',
+    size: 'default',
+  },
+})
+```
+
+### Step 3: Implement Accessibility
+
+```typescript
+// components/AccessibleDialog.tsx
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog'
+import { Button } from '@/components/ui/button'
+
+interface AccessibleDialogProps {
+  open: boolean
+  onOpenChange: (open: boolean) => void
+  title: string
+  description: string
+  children: React.ReactNode
+  onConfirm: () => void
+  confirmLabel?: string
+}
+
+export function AccessibleDialog({
+  open,
+  onOpenChange,
+  title,
+  description,
+  children,
+  onConfirm,
+  confirmLabel = 'Confirm',
+}: AccessibleDialogProps) {
+  return (
+    <Dialog open={open} onOpenChange={onOpenChange}>
+      <DialogContent aria-describedby="dialog-description">
+        <DialogHeader>
+          <DialogTitle>{title}</DialogTitle>
+          <DialogDescription id="dialog-description">
+            {description}
+          </DialogDescription>
+        </DialogHeader>
+        {children}
+        <DialogFooter>
+          <Button variant="outline" onClick={() => onOpenChange(false)}>
+            Cancel
+          </Button>
+          <Button onClick={onConfirm}>
+            {confirmLabel}
+          </Button>
+        </DialogFooter>
+      </DialogContent>
+    </Dialog>
+  )
+}
+```
+
+### Step 4: Security Sanitization
+
+```typescript
+// utils/sanitize.ts
+import DOMPurify from 'dompurify'
+
+export function sanitizeHTML(html: string): string {
+  return DOMPurify.sanitize(html, {
+    ALLOWED_TAGS: ['b', 'i', 'em', 'strong', 'a', 'p', 'ul', 'li'],
+    ALLOWED_ATTR: ['href', 'target', 'rel'],
+  })
+}
+
+// Usage
+function UserContent({ content }: { content: string }) {
+  const sanitized = sanitizeHTML(content)
+  return <div dangerouslySetInnerHTML={{ __html: sanitized }} />
+}
+```
+
+### Step 5: Performance Optimization
+
+```typescript
+// components/MemoizedList.tsx
+import { memo } from 'react'
+import { Card } from '@/components/ui/card'
+
+interface ListItem {
+  id: string
+  title: string
+  description: string
+}
+
+interface ListItemProps {
+  item: ListItem
+}
+
+// Memoize individual list items
+const MemoizedListItem = memo(function ListItem({ item }: ListItemProps) {
+  return (
+    <Card>
+      <h3>{item.title}</h3>
+      <p>{item.description}</p>
+    </Card>
+  )
+})
+
+// Parent component
+export function MemoizedList({ items }: { items: ListItem[] }) {
+  return (
+    <div className="space-y-4">
+      {items.map(item => (
+        <MemoizedListItem key={item.id} item={item} />
+      ))}
+    </div>
+  )
+}
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Customizing shadcn/ui components
+- Implementing accessibility best practices
+- Optimizing shadcn/ui performance
+- Adding dark mode support
+- Securing user-generated content
+
+### What to Do With This Information
+1. **Use cn()**: Always merge Tailwind classes with cn()
+2. **cva for variants**: Use class-variance-authority for component variants
+3. **CSS variables**: Use CSS variables for theming
+4. **Accessibility**: Verify ARIA attributes and keyboard navigation
+5. **Security**: Sanitize user-generated content with DOMPurify
+
+### Tools to Use
+- **VS Code Extension**: Tailwind CSS IntelliSense — for Tailwind autocomplete
+- **VS Code Extension**: Error Lens — for inline CSS error display
+- **npm Package**: `class-variance-authority` — for component variants
+- **npm Package**: `dompurify` — for HTML sanitization
+- **Terminal Command**: `npx shadcn@latest add <component>` — add component
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with UI changes
+- **Security Review Agent**: Run when adding form components
+- **Accessibility Agent**: Run when adding interactive components
+
+### Integration with Other Notes
+- Read [[tailwind-css-patterns]] for Tailwind CSS integration
+- Read [[css3-performance-security]] for CSS3 performance fundamentals
+- Read [[html5-best-practices]] for HTML5 accessibility patterns
+- Read [[react-patterns]] for React component integration
+- Read [[accessibility-a11y]] for accessibility best practices
+- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+
+### Common Pitfalls
+- Don't modify component source directly (use cn() for customization)
+- Don't skip accessibility testing (verify with screen readers)
+- Don't ignore dark mode (test with prefers-color-scheme)
+- Don't sanitize user content (always use DOMPurify)
+- Don't memoize everything (only expensive components)
+
+### Quick Validation Checklist
+- [ ] Are cn() and cva used for customization?
+- [ ] Is accessibility verified (ARIA, keyboard)?
+- [ ] Is dark mode tested?
+- [ ] Is user content sanitized?
+- [ ] Are expensive components memoized?
+- [ ] Are CSS variables used for theming?
+

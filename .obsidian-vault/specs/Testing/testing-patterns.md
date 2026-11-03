@@ -554,3 +554,263 @@ export interface TestOrderItem {
 - Read [[react-patterns]] for React testing patterns
 - Read [[ci-cd-patterns]] for CI/CD testing integration
 
+---
+
+## Decision Tree: Testing Strategy
+
+```mermaid
+graph TD
+    A[Need to test?]\n    A --> B{What level?}
+    B -->|Unit| C[Vitest]
+    B -->|Integration| D[Vitest + MSW]
+    B -->|E2E| E[Playwright]
+    B -->|Component| F[React Testing Library]
+    C --> G{Pure function?}
+    G -->|Yes| H[Direct call]
+    G -->|No| I[Mock dependencies]
+    D --> J{API call?}
+    J -->|Yes| K[MSW mock]
+    J -->|No| L[Direct call]
+    E --> M{User flow?}
+    M -->|Yes| N[Page Object Model]
+    M -->|No| O[Inline test]
+```
+
+### When to Use Each Testing Level
+
+| Level | When to Use | Tool |
+|-------|-------------|------|
+| **Unit** | Pure functions, utilities | Vitest |
+| **Integration** | Component interactions | Vitest + MSW |
+| **Component** | React components | React Testing Library |
+| **E2E** | User flows | Playwright |
+| **Visual** | UI changes | Playwright screenshots |
+
+---
+
+## Procedural Guidance: Testing Setup
+
+### Step 1: Configure Vitest
+
+```typescript
+// vitest.config.ts
+import { defineConfig } from 'vitest/config'
+import react from '@vitejs/plugin-react'
+import tsconfigPaths from 'vite-tsconfig-paths'
+
+export default defineConfig({
+  plugins: [react(), tsconfigPaths()],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './src/test/setup.ts',
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'json', 'html'],
+      exclude: [
+        'node_modules/',
+        'src/test/',
+        '**/*.d.ts',
+        '**/*.config.*',
+      ],
+      thresholds: {
+        lines: 80,
+        statements: 80,
+        functions: 80,
+        branches: 80,
+      },
+    },
+  },
+})
+```
+
+### Step 2: Setup Test Environment
+
+```typescript
+// src/test/setup.ts
+import { afterEach } from 'vitest'
+import { cleanup } from '@testing-library/react'
+import '@testing-library/jest-dom/vitest'
+
+afterEach(() => {
+  cleanup()
+})
+```
+
+### Step 3: Write Unit Tests
+
+```typescript
+// src/utils/validators.test.ts
+import { describe, it, expect } from 'vitest'
+import { isValidEmail, isValidPassword } from './validators'
+
+describe('validators', () => {
+  describe('isValidEmail', () => {
+    it('should return true for valid email', () => {
+      expect(isValidEmail('user@example.com')).toBe(true)
+    })
+
+    it('should return false for invalid email', () => {
+      expect(isValidEmail('invalid-email')).toBe(false)
+    })
+
+    it('should return false for empty string', () => {
+      expect(isValidEmail('')).toBe(false)
+    })
+  })
+
+  describe('isValidPassword', () => {
+    it('should return true for valid password', () => {
+      expect(isValidPassword('SecurePass123')).toBe(true)
+    })
+
+    it('should return false for short password', () => {
+      expect(isValidPassword('Ab1')).toBe(false)
+    })
+  })
+})
+```
+
+### Step 4: Write Component Tests
+
+```typescript
+// src/components/LoginForm.test.tsx
+import { describe, it, expect, vi } from 'vitest'
+import { render, screen, fireEvent } from '@testing-library/react'
+import { LoginForm } from './LoginForm'
+
+describe('LoginForm', () => {
+  it('should render form fields', () => {
+    render(<LoginForm onSubmit={vi.fn()} />)
+    
+    expect(screen.getByLabelText(/email/i)).toBeInTheDocument()
+    expect(screen.getByLabelText(/password/i)).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /sign in/i })).toBeInTheDocument()
+  })
+
+  it('should call onSubmit with form data', async () => {
+    const mockSubmit = vi.fn()
+    render(<LoginForm onSubmit={mockSubmit} />)
+    
+    fireEvent.change(screen.getByLabelText(/email/i), {
+      target: { value: 'user@example.com' },
+    })
+    fireEvent.change(screen.getByLabelText(/password/i), {
+      target: { value: 'password123' },
+    })
+    fireEvent.click(screen.getByRole('button', { name: /sign in/i }))
+    
+    expect(mockSubmit).toHaveBeenCalledWith({
+      email: 'user@example.com',
+      password: 'password123',
+    })
+  })
+})
+```
+
+### Step 5: Mock API with MSW
+
+```typescript
+// src/test/mocks.ts
+import { http, HttpResponse } from 'msw'
+import { setupServer } from 'msw/node'
+
+export const handlers = [
+  http.get('/api/users/:id', ({ params }) => {
+    return HttpResponse.json({
+      id: params.id,
+      name: 'John Doe',
+      email: 'john@example.com',
+    })
+  }),
+
+  http.post('/api/auth/login', async ({ request }) => {
+    const body = await request.json()
+    if (body.email === 'invalid@example.com') {
+      return HttpResponse.json(
+        { error: 'Invalid credentials' },
+        { status: 401 },
+      )
+    }
+    return HttpResponse.json({
+      token: 'mock-token',
+      user: { id: '1', name: 'John Doe' },
+    })
+  }),
+]
+
+export const server = setupServer(...handlers)
+```
+
+### Step 6: Run Tests
+
+```bash
+# Run all tests
+pnpm test
+
+# Run with coverage
+pnpm test -- --coverage
+
+# Run in watch mode
+pnpm test -- --watch
+
+# Run specific test file
+pnpm test src/utils/validators.test.ts
+
+# Run specific test
+pnpm test -- -t "isValidEmail"
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Setting up testing infrastructure
+- Writing unit tests with Vitest
+- Testing React components
+- Mocking API calls with MSW
+- Configuring test coverage
+
+### What to Do With This Information
+1. **Unit tests**: Test pure functions and utilities with Vitest
+2. **Component tests**: Test React components with React Testing Library
+3. **API mocks**: Use MSW for mocking API calls
+4. **E2E tests**: Use Playwright for user flow testing
+5. **Coverage**: Aim for 80%+ coverage on critical code
+
+### Tools to Use
+- **VS Code Extension**: Error Lens — for inline test error display
+- **VS Code Extension**: Test Explorer UI — for test navigation
+- **npm Package**: `vitest` — for unit testing
+- **npm Package**: `@testing-library/react` — for component testing
+- **npm Package**: `msw` — for API mocking
+- **Terminal Command**: `pnpm test` — run tests
+- **Terminal Command**: `pnpm test -- --coverage` — run with coverage
+
+### Agents to Invoke
+- **Testing Agent**: Run when writing new tests
+- **Code Review Agent**: Run when reviewing PRs with test changes
+
+### Integration with Other Notes
+- Read [[vitest-testing]] for Vitest testing patterns
+- Read [[playwright-patterns]] for E2E testing with Playwright
+- Read [[react-patterns]] for React testing patterns
+- Read [[ci-cd-patterns]] for CI/CD testing integration
+- Read [[react-performance-security]] for testing security
+
+### Common Pitfalls
+- Don't test implementation details (test behavior)
+- Don't skip edge cases (test null, empty, errors)
+- Don't hardcode timeouts (use async/await)
+- Don't ignore coverage thresholds (aim for 80%+)
+- Don't mock everything (test real behavior when possible)
+
+### Quick Validation Checklist
+- [ ] Are unit tests written for pure functions?
+- [ ] Are component tests testing behavior, not implementation?
+- [ ] Are API calls mocked with MSW?
+- [ ] Are edge cases tested (null, empty, errors)?
+- [ ] Is coverage above 80%?
+- [ ] Are tests running in CI/CD?
+

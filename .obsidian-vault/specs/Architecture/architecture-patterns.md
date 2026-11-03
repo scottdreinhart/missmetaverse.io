@@ -414,3 +414,226 @@ async function retryWithBackoff<T>(
 - Read [[microservices]] for microservices patterns
 - Read [[cqrs-pattern]] for CQRS patterns
 - Read [[event-driven-architecture]] for event-driven patterns
+
+---
+
+## Decision Tree: Architecture Pattern Selection
+
+```mermaid
+graph TD
+    A[Need to choose architecture?]\n    A --> B{Team size?}
+    B -->|Small| C[Monolith]
+    B -->|Large| D[Modular Monolith]
+    B -->|Enterprise| E[Microservices]
+    C --> F{Complex domain?}
+    F -->|Yes| G[DDD]
+    F -->|No| H[Layered]
+    D --> I{Different read/write?}
+    I -->|Yes| J[CQRS]
+    I -->|No| K[Modular]
+    E --> L{Real-time needed?}
+    L -->|Yes| M[Event-Driven]
+    L -->|No| N[REST API]
+```
+
+### When to Use Each Architecture Pattern
+
+| Pattern | When to Use | Trade-off |
+|---------|-------------|-----------|
+| **Layered** | Simple apps | Easy to understand |
+| **Modular Monolith** | Growing teams | Easier than microservices |
+| **Microservices** | Large enterprises | High complexity |
+| **CQRS** | Different read/write needs | Double data model |
+| **Event-Driven** | Real-time, decoupled | Eventual consistency |
+| **Hexagonal** | Testability | More boilerplate |
+
+---
+
+## Procedural Guidance: Architecture Setup
+
+### Step 1: Choose Architecture Pattern
+
+```
+Is the team small (< 5 developers)?
+  → Layered Architecture
+Is the team growing (5-15 developers)?
+  → Modular Monolith with DDD
+Is the organization large (> 15 developers)?
+  → Microservices with DDD
+Do you have different read/write requirements?
+  → CQRS
+Do you need real-time updates?
+  → Event-Driven Architecture
+```
+
+### Step 2: Set Up Layered Architecture
+
+```typescript
+// src/controllers/user.controller.ts — Presentation Layer
+import { CreateUserRequest } from '@/dtos/create-user.dto'
+import { UserService } from '@/services/user.service'
+
+export class UserController {
+  constructor(private userService: UserService) {}
+
+  async createUser(req: CreateUserRequest) {
+    return this.userService.create(req)
+  }
+}
+
+// src/services/user.service.ts — Application Layer
+import { UserEntity } from '@/entities/user.entity'
+import { UserRepository } from '@/ports/user.repository.port'
+
+export class UserService {
+  constructor(private userRepository: UserRepository) {}
+
+  async create(data: CreateUserRequest): Promise<UserEntity> {
+    // Validate and transform
+    const user = new UserEntity(data.name, data.email)
+    return this.userRepository.save(user)
+  }
+}
+
+// src/entities/user.entity.ts — Domain Layer
+export class UserEntity {
+  constructor(
+    public readonly name: string,
+    public readonly email: string,
+  ) {}
+}
+
+// src/repositories/user.repository.ts — Infrastructure Layer
+import { UserEntity } from '@/entities/user.entity'
+import { UserRepository } from '@/ports/user.repository.port'
+
+export class PrismaUserRepository implements UserRepository {
+  async save(user: UserEntity): Promise<UserEntity> {
+    return this.prisma.user.create({
+      data: { name: user.name, email: user.email },
+    })
+  }
+}
+```
+
+### Step 3: Set Up Dependency Injection
+
+```typescript
+// src/container.ts
+import { UserController } from '@/controllers/user.controller'
+import { UserService } from '@/services/user.service'
+import { PrismaUserRepository } from '@/repositories/user.repository'
+
+export function createContainer() {
+  const userRepository = new PrismaUserRepository()
+  const userService = new UserService(userRepository)
+  const userController = new UserController(userService)
+  
+  return { userController, userService, userRepository }
+}
+```
+
+### Step 4: Set Up Modular Monolith
+
+```
+src/
+├── domains/
+│   ├── user/
+│   │   ├── user.entity.ts
+│   │   ├── user.repository.ts
+│   │   └── user.service.ts
+│   ├── order/
+│   │   ├── order.entity.ts
+│   │   ├── order.repository.ts
+│   │   └── order.service.ts
+│   └── product/
+│       ├── product.entity.ts
+│       ├── product.repository.ts
+│       └── product.service.ts
+```
+
+### Step 5: Set Up CQRS
+
+```typescript
+// Commands
+export class CreateUserCommand {
+  constructor(
+    public readonly name: string,
+    public readonly email: string,
+  ) {}
+}
+
+// Queries
+export class GetUserQuery {
+  constructor(public readonly id: string) {}
+}
+
+// Handlers
+class CreateUserCommandHandler {
+  async execute(command: CreateUserCommand): Promise<void> {
+    const user = new UserEntity(command.name, command.email)
+    await this.userRepository.save(user)
+  }
+}
+
+class GetUserQueryHandler {
+  async execute(query: GetUserQuery): Promise<UserDto> {
+    const user = await this.userRepository.findById(query.id)
+    return new UserDto(user)
+  }
+}
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Choosing architecture pattern
+- Setting up layered architecture
+- Implementing modular monolith
+- Implementing CQRS
+- Setting up dependency injection
+
+### What to Do With This Information
+1. **Choose pattern**: Select architecture based on team size and complexity
+2. **Layered architecture**: Separate presentation, application, domain, infrastructure
+3. **Modular monolith**: Organize by domain boundaries
+4. **CQRS**: Separate commands and queries
+5. **Dependency injection**: Wire dependencies in container
+
+### Tools to Use
+- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
+- **VS Code Extension**: Error Lens — for inline error display
+- **npm Package**: `inversify` — for dependency injection
+- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **Terminal Command**: `pnpm test` — run tests
+
+### Agents to Invoke
+- **Architecture Validation Agent**: Run when choosing architecture
+- **Code Review Agent**: Run when reviewing PRs with architecture changes
+
+### Integration with Other Notes
+- Read [[clean-architecture]] for clean architecture patterns
+- Read [[solid-principles]] for SOLID design principles
+- Read [[ddd-patterns]] for domain-driven design patterns
+- Read [[modular-monolith]] for modular monolith patterns
+- Read [[microservices]] for microservices patterns
+- Read [[cqrs-pattern]] for CQRS patterns
+- Read [[event-driven-architecture]] for event-driven patterns
+- Read [[project-structure-mapping]] for project structure mapping
+
+### Common Pitfalls
+- Don't over-engineer (start simple, evolve)
+- Don't mix layers (enforce inward-only dependencies)
+- Don't skip dependency injection (use container)
+- Don't implement CQRS without need (adds complexity)
+- Don't ignore modularity (organize by domain)
+
+### Quick Validation Checklist
+- [ ] Is the architecture pattern appropriate for team size?
+- [ ] Are layers properly separated?
+- [ ] Are dependencies inward-only?
+- [ ] Is dependency injection used?
+- [ ] Are domains properly bounded?
+- [ ] Is CQRS justified by requirements?

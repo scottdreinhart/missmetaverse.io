@@ -503,3 +503,272 @@ class ErrorBoundary extends React.Component<
 - Read [[vitest-testing]] for testing React components
 - Read [[playwright-patterns]] for E2E testing
 - Read [[typescript-strict-mode]] for TypeScript integration
+
+---
+
+## Decision Tree: React Pattern Selection
+
+```mermaid
+graph TD
+    A[Need to build React component?]\n    A --> B{What type?}
+    B -->|UI Element| C[Presentation Component]
+    B -->|Data Flow| D[Container Component]
+    B -->|State| E[Custom Hook]
+    B -->|Error| F[Error Boundary]
+    B -->|Form| G[Controlled Component]
+    C --> H{Reusable?}
+    H -->|Yes| I[Compound Component]
+    H -->|No| J[Inline Component]
+    E --> K{Global State?}
+    K -->|Yes| L[Context/Store]
+    K -->|No| M[Local State]
+    G --> N{Complex Form?}
+    N -->|Yes| O[React Hook Form]
+    N -->|No| P[Simple controlled]
+```
+
+### When to Use Each React Pattern
+
+| Pattern | When to Use | Example |
+|---------|-------------|---------|
+| **Custom Hook** | Reusable logic | useFetch, useLocalStorage |
+| **Compound Component** | Related components | Select + Option |
+| **Render Props** | Share state between components | <DataFetcher /> |
+| **Error Boundary** | Catch rendering errors | ErrorBoundary wrapper |
+| **Controlled Component** | Form inputs | input with value/onChange |
+| **Memoization** | Expensive recalculations | useMemo, useCallback |
+
+---
+
+## Procedural Guidance: React Component Setup
+
+### Step 1: Create Component Structure
+
+```typescript
+// components/UserCard/UserCard.tsx
+import React from 'react'
+import type { User } from '@/types/user'
+
+interface UserCardProps {
+  user: User
+  onEdit?: (user: User) => void
+  onDelete?: (user: User) => void
+  className?: string
+}
+
+export const UserCard: React.FC<UserCardProps> = ({
+  user,
+  onEdit,
+  onDelete,
+  className,
+}) => {
+  return (
+    <div className={`user-card ${className}`}>
+      <h3>{user.name}</h3>
+      <p>{user.email}</p>
+      <div className="actions">
+        {onEdit && <button onClick={() => onEdit(user)}>Edit</button>}
+        {onDelete && <button onClick={() => onDelete(user)}>Delete</button>}
+      </div>
+    </div>
+  )
+}
+```
+
+### Step 2: Create Custom Hook
+
+```typescript
+// hooks/useFetch.ts
+import { useState, useEffect, useCallback } from 'react'
+
+interface UseFetchResult<T> {
+  data: T | null
+  loading: boolean
+  error: Error | null
+  refetch: () => void
+}
+
+export function useFetch<T>(url: string, dependencies: unknown[] = []): UseFetchResult<T> {
+  const [data, setData] = useState<T | null>(null)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState<Error | null>(null)
+
+  const refetch = useCallback(async () => {
+    setLoading(true)
+    setError(null)
+    try {
+      const response = await fetch(url)
+      if (!response.ok) throw new Error(`HTTP ${response.status}`)
+      const result = await response.json()
+      setData(result)
+    } catch (err) {
+      setError(err as Error)
+    } finally {
+      setLoading(false)
+    }
+  }, [url, ...dependencies])
+
+  useEffect(() => {
+    refetch()
+  }, [refetch])
+
+  return { data, loading, error, refetch }
+}
+```
+
+### Step 3: Add Error Boundary
+
+```typescript
+// components/ErrorBoundary/ErrorBoundary.tsx
+import React, { Component, ErrorInfo, ReactNode } from 'react'
+
+interface Props {
+  children: ReactNode
+  fallback?: ReactNode
+}
+
+interface State {
+  hasError: boolean
+  error: Error | null
+}
+
+export class ErrorBoundary extends Component<Props, State> {
+  constructor(props: Props) {
+    super(props)
+    this.state = { hasError: false, error: null }
+  }
+
+  static getDerivedStateFromError(error: Error): State {
+    return { hasError: true, error }
+  }
+
+  componentDidCatch(error: Error, errorInfo: ErrorInfo): void {
+    console.error('ErrorBoundary caught:', error, errorInfo)
+  }
+
+  render(): ReactNode {
+    if (this.state.hasError) {
+      return this.props.fallback ?? <Error message={this.state.error?.message} />
+    }
+    return this.props.children
+  }
+}
+```
+
+### Step 4: Use Context for Global State
+
+```typescript
+// contexts/AuthContext.tsx
+import React, { createContext, useContext, useState, useCallback } from 'react'
+
+interface AuthContextType {
+  user: User | null
+  login: (email: string, password: string) => Promise<void>
+  logout: () => void
+}
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined)
+
+export function AuthProvider({ children }: { children: React.ReactNode }) {
+  const [user, setUser] = useState<User | null>(null)
+
+  const login = useCallback(async (email: string, password: string) => {
+    const response = await fetch('/api/auth/login', {
+      method: 'POST',
+      body: JSON.stringify({ email, password }),
+    })
+    if (!response.ok) throw new Error('Login failed')
+    const data = await response.json()
+    setUser(data.user)
+  }, [])
+
+  const logout = useCallback(() => {
+    setUser(null)
+    fetch('/api/auth/logout', { method: 'POST' })
+  }, [])
+
+  return (
+    <AuthContext.Provider value={{ user, login, logout }}>
+      {children}
+    </AuthContext.Provider>
+  )
+}
+
+export function useAuth(): AuthContextType {
+  const context = useContext(AuthContext)
+  if (!context) throw new Error('useAuth must be used within AuthProvider')
+  return context
+}
+```
+
+### Step 5: Wrap Application
+
+```typescript
+// main.tsx
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { AuthProvider } from './contexts/AuthContext'
+import { ErrorBoundary } from './components/ErrorBoundary/ErrorBoundary'
+import App from './App'
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <ErrorBoundary>
+      <AuthProvider>
+        <App />
+      </AuthProvider>
+    </ErrorBoundary>
+  </React.StrictMode>,
+)
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Building React components
+- Creating custom hooks
+- Managing state (local, context, global)
+- Implementing error boundaries
+- Optimizing React performance
+
+### What to Do With This Information
+1. **Custom hooks**: Extract reusable logic into custom hooks
+2. **Compound components**: Use for related component groups
+3. **Error boundaries**: Catch rendering errors gracefully
+4. **Context**: Use for global state (auth, theme, locale)
+5. **Controlled components**: Always use value/onChange for forms
+
+### Tools to Use
+- **VS Code Extension**: React Developer Tools — for debugging React components
+- **VS Code Extension**: Error Lens — for inline React error display
+- **npm Package**: `react` — for React framework
+- **Terminal Command**: `pnpm dev` — start dev server
+- **Terminal Command**: `pnpm test` — run component tests
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with React component changes
+- **Performance Review Agent**: Run when optimizing React bundle size
+
+### Integration with Other Notes
+- Read [[react-performance-security]] for React performance optimization
+- Read [[vitest-testing]] for testing React components
+- Read [[playwright-patterns]] for E2E testing
+- Read [[typescript-strict-mode]] for TypeScript integration
+- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+
+### Common Pitfalls
+- Don't put too much logic in components (use custom hooks)
+- Don't skip error boundaries (always wrap app)
+- Don't overuse context (causes re-renders)
+- Don't forget cleanup in useEffect (memory leaks)
+- Don't mutate state directly (always use setState)
+
+### Quick Validation Checklist
+- [ ] Are custom hooks used for reusable logic?
+- [ ] Are error boundaries implemented?
+- [ ] Is state management appropriate (local vs global)?
+- [ ] Are useEffect hooks cleaned up properly?
+- [ ] Are components properly typed with TypeScript?
+- [ ] Are props validated with TypeScript interfaces?

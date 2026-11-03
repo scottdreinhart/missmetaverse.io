@@ -598,3 +598,217 @@ export function CustomCard({ title, subtitle, image, children, className }: Cust
 - Read [[accessibility-a11y]] for accessibility best practices
 - Read [[shadcn-best-practices]] for shadcn/ui best practices
 
+---
+
+## Decision Tree: ShadCN Component Selection
+
+```mermaid
+graph TD
+    A[Need UI component?]\n    A --> B{What type?}
+    B -->|Button| C[button]
+    B -->|Input| D[input]
+    B -->|Dialog| E[dialog]
+    B -->|Menu| F[dropdown-menu]
+    B -->|Table| G[table]
+    B -->|Card| H[card]
+    B -->|Toast| I[toast]
+    B -->|Avatar| J[avatar]
+    B -->|Badge| K[badge]
+    B -->|Select| L[select]
+    C --> M{Variant?}
+    M -->|Primary| N[variant="primary"]
+    M -->|Secondary| O[variant="secondary"]
+    M -->|Destructive| P[variant="destructive"]
+    E --> Q{Modal?}
+    Q -->|Yes| R[Dialog]
+    Q -->|No| S[Popover]
+```
+
+### When to Use Each ShadCN Component
+
+| Component | When to Use | Example |
+|-----------|-------------|---------|
+| **Button** | Actions, submissions | Submit form |
+| **Dialog** | Modal overlays | Confirm delete |
+| **Input** | Text entry | Search, login |
+| **Select** | Dropdown selection | Country picker |
+| **Table** | Data display | User list |
+| **Card** | Content grouping | Profile card |
+| **Toast** | Notifications | Success message |
+| **Badge** | Status indicators | Active/Inactive |
+
+---
+
+## Procedural Guidance: ShadCN Setup
+
+### Step 1: Initialize ShadCN
+
+```bash
+# Initialize shadcn/ui
+npx shadcn-ui@latest init
+
+# Select options:
+# - Style: New York
+# - Color: Zinc
+# - Base color: Zinc
+# - CSS variables: Yes
+```
+
+### Step 2: Add Components
+
+```bash
+# Add commonly used components
+npx shadcn-ui@latest add button
+npx shadcn-ui@latest add card
+npx shadcn-ui@latest add input
+npx shadcn-ui@latest add dialog
+npx shadcn-ui@latest add dropdown-menu
+npx shadcn-ui@latest add table
+npx shadcn-ui@latest add toast
+npx shadcn-ui@latest add avatar
+npx shadcn-ui@latest add badge
+npx shadcn-ui@latest add select
+npx shadcn-ui@latest add label
+npx shadcn-ui@latest add checkbox
+npx shadcn-ui@latest add switch
+npx shadcn-ui@latest add tabs
+npx shadcn-ui@latest add tooltip
+```
+
+### Step 3: Use Components
+
+```typescript
+// components/UserProfile.tsx
+import { Button } from '@/components/ui/button'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { Badge } from '@/components/ui/badge'
+import type { User } from '@/types/user'
+
+interface UserProfileProps {
+  user: User
+  onEdit: () => void
+}
+
+export function UserProfile({ user, onEdit }: UserProfileProps) {
+  return (
+    <Card>
+      <CardHeader className="flex flex-row items-center gap-4">
+        <Avatar>
+          <AvatarImage src={user.avatar} alt={user.name} />
+          <AvatarFallback>{user.name.charAt(0)}</AvatarFallback>
+        </Avatar>
+        <div>
+          <CardTitle>{user.name}</CardTitle>
+          <Badge variant={user.isActive ? 'default' : 'secondary'}>
+            {user.isActive ? 'Active' : 'Inactive'}
+          </Badge>
+        </div>
+      </CardHeader>
+      <CardContent>
+        <p>{user.email}</p>
+        <Button onClick={onEdit} className="mt-4">Edit Profile</Button>
+      </CardContent>
+    </Card>
+  )
+}
+```
+
+### Step 4: Create Custom Component
+
+```typescript
+// components/ui/custom-button.tsx
+import { buttonVariants } from '@/components/ui/button'
+import { cn } from '@/lib/utils'
+import type { ButtonHTMLAttributes, ForwardRefExoticComponent, RefAttributes } from 'react'
+import { forwardRef } from 'react'
+
+export const CustomButton: ForwardRefExoticComponent<
+  ButtonHTMLAttributes<HTMLButtonElement> & { variant?: 'default' | 'destructive' } & RefAttributes<HTMLButtonElement>
+> = forwardRef<HTMLButtonElement, ButtonHTMLAttributes<HTMLButtonElement> & { variant?: 'default' | 'destructive' }>(
+  ({ className, variant = 'default', ...props }, ref) => {
+    return (
+      <button
+        ref={ref}
+        className={cn(buttonVariants({ variant }), className)}
+        {...props}
+      />
+    )
+  }
+)
+
+CustomButton.displayName = 'CustomButton'
+```
+
+### Step 5: Add Dark Mode
+
+```typescript
+// app.tsx
+import { useEffect } from 'react'
+
+function App() {
+  useEffect(() => {
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
+    const handleChange = (e: MediaQueryListEvent) => {
+      document.documentElement.classList.toggle('dark', e.matches)
+    }
+    mediaQuery.addEventListener('change', handleChange)
+    return () => mediaQuery.removeEventListener('change', handleChange)
+  }, [])
+
+  return <MainContent />
+}
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Setting up shadcn/ui components
+- Building UI with accessible components
+- Creating custom shadcn components
+- Implementing dark mode
+- Using Radix UI primitives
+
+### What to Do With This Information
+1. **Copy-paste model**: Components are yours — modify freely
+2. **TypeScript first**: All components are fully typed
+3. **Radix UI primitives**: Built on accessible Radix UI components
+4. **CSS variables**: Use CSS variables for theming
+5. **Dark mode**: Use `dark:` prefix for dark mode styles
+
+### Tools to Use
+- **VS Code Extension**: Tailwind CSS IntelliSense — for Tailwind autocomplete
+- **VS Code Extension**: Error Lens — for inline CSS error display
+- **npm Package**: `@radix-ui/react-dialog` — for accessible dialogs
+- **Terminal Command**: `npx shadcn-ui@latest add <component>` — add component
+- **Terminal Command**: `npx shadcn-ui@latest add button card dialog` — add multiple
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with UI component changes
+- **Security Review Agent**: Run when adding new form components
+
+### Integration with Other Notes
+- Read [[react-patterns]] for React component patterns
+- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[css-fundamentals]] for CSS fundamentals
+- Read [[accessibility-a11y]] for accessibility best practices
+- Read [[shadcn-best-practices]] for shadcn/ui best practices
+- Read [[css-media-queries]] for responsive design patterns
+
+### Common Pitfalls
+- Don't modify component source directly (use cn() for customization)
+- Don't skip accessibility (Radix UI handles most, but verify)
+- Don't ignore dark mode (test with prefers-color-scheme)
+- Don't over-customize (keep components simple)
+- Don't forget to add components (npx shadcn-ui@latest add)
+
+### Quick Validation Checklist
+- [ ] Are components added with npx shadcn-ui@latest add?
+- [ ] Is cn() used for class merging?
+- [ ] Are components accessible (ARIA, keyboard)?
+- [ ] Is dark mode tested?
+- [ ] Are components responsive?
+- [ ] Are TypeScript types properly used?
+

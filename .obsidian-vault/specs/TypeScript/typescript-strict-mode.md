@@ -440,3 +440,203 @@ emitter.on('user:login', (data) => {
 - Read [[ts-tsconfig]] for tsconfig.json configuration
 - Read [[react-patterns]] for React patterns
 
+---
+
+## Decision Tree: TypeScript Strict Mode
+
+```mermaid
+graph TD
+    A[Need TypeScript strictness?]\n    A --> B{What level?}
+    B -->|Full strict| C[strict: true]
+    B -->|Partial| D[Select options]
+    B -->|None| E[Not recommended]
+    C --> F{Null checks?}
+    F -->|Yes| G[strictNullChecks]
+    F -->|No| H[Skip]
+    C --> I{Property init?}
+    I -->|Yes| J[strictPropertyInitialization]
+    I -->|No| K[Skip]
+    G --> L{Union types?}
+    L -->|Yes| M[Type guards]
+    L -->|No| N[Direct access]
+```
+
+### When to Use Each Strict Option
+
+| Option | When to Use | Example |
+|---------|-------------|---------|
+| **strictNullChecks** | All projects | string \| null |
+| **noImplicitAny** | All projects | Prevents any |
+| **strictPropertyInitialization** | Classes | Ensure init |
+| **strictFunctionTypes** | Function params | Contravariance |
+| **strictBindCallApply** | All projects | Bind/call/apply |
+
+---
+
+## Procedural Guidance: TypeScript Strict Setup
+
+### Step 1: Configure tsconfig.json
+
+```jsonc
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "useUnknownInCatchVariables": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
+```
+
+### Step 2: Enable Strict Null Checks
+
+```typescript
+// ❌ Without strictNullChecks
+function getName(user: User): string {
+  return user.name // May be undefined!
+}
+
+// ✅ With strictNullChecks
+function getName(user: User): string {
+  if (!user.name) throw new Error('Name required')
+  return user.name
+}
+
+// Or use optional chaining
+function getDisplayName(user: User): string {
+  return user.name ?? 'Anonymous'
+}
+```
+
+### Step 3: Type Guards
+
+```typescript
+function isUser(value: unknown): value is User {
+  return (
+    typeof value === 'object' &&
+    value !== null &&
+    'id' in value &&
+    'name' in value &&
+    'email' in value
+  )
+}
+
+// Usage
+function processUser(input: unknown) {
+  if (isUser(input)) {
+    // TypeScript knows input is User here
+    console.log(input.name)
+  } else {
+    throw new Error('Invalid user')
+  }
+}
+```
+
+### Step 4: Discriminated Unions
+
+```typescript
+type Success = {
+  status: 'success'
+  data: User
+}
+
+type Error = {
+  status: 'error'
+  error: string
+}
+
+type Result = Success | Error
+
+function handleResult(result: Result) {
+  switch (result.status) {
+    case 'success':
+      return result.data.name // TypeScript knows data exists
+    case 'error':
+      return result.error // TypeScript knows error exists
+    default: {
+      const _exhaustiveCheck: never = result
+      return `Unknown status: ${_exhaustiveCheck}`
+    }
+  }
+}
+```
+
+### Step 5: Test Strict Mode
+
+```bash
+# Type check without emitting
+pnpm tsc --noEmit
+
+# Check with strict mode
+pnpm tsc --strict
+
+# Show all errors
+pnpm tsc --noEmit --pretty
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Setting up TypeScript strict mode
+- Enabling strict null checks
+- Implementing type guards
+- Using discriminated unions
+- Testing TypeScript types
+
+### What to Do With This Information
+1. **Enable strict mode**: Use full strict mode for all projects
+2. **Strict null checks**: Always check for null/undefined
+3. **Type guards**: Validate at runtime with type predicates
+4. **Discriminated unions**: Use for state machines
+5. **Test types**: Use expectTypeOf to verify types
+
+### Tools to Use
+- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
+- **VS Code Extension**: Error Lens — for inline TypeScript error display
+- **npm Package**: `vitest` — for type testing with expectTypeOf
+- **Terminal Command**: `pnpm tsc --noEmit` — type check without emitting
+- **Terminal Command**: `pnpm tsc --strict` — enable strict mode
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with TypeScript changes
+- **Security Review Agent**: Run when adding new types
+
+### Integration with Other Notes
+- Read [[ts-best-practices]] for TypeScript best practices
+- Read [[ts-fundamentals]] for TypeScript fundamentals
+- Read [[ts-advanced-types]] for advanced TypeScript types
+- Read [[ts-narrowing]] for type narrowing patterns
+- Read [[ts-security-best-practices]] for TypeScript security best practices
+- Read [[ts-optimization-performance]] for TypeScript optimization
+- Read [[ts-tsconfig]] for tsconfig.json configuration
+- Read [[react-patterns]] for React patterns
+
+### Common Pitfalls
+- Don't use any type (use unknown instead)
+- Don't skip null checks (always check for null/undefined)
+- Don't ignore strict property initialization (initialize in constructor)
+- Don't use type assertions (use type guards instead)
+- Don't skip exhaustiveness checking (use never)
+
+### Quick Validation Checklist
+- [ ] Is strict mode enabled?
+- [ ] Are strictNullChecks enabled?
+- [ ] Are type guards used for runtime validation?
+- [ ] Are discriminated unions used for state?
+- [ ] Are properties initialized in constructor?
+- [ ] Is tsconfig configured properly?
+

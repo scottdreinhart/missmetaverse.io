@@ -73,3 +73,174 @@ Without conventional commits:
 
 - [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
 
+---
+
+## Decision Tree: Commit Message Type
+
+```mermaid
+graph TD
+    A[Need to commit?]\n    A --> B{What changed?}
+    B -->|New feature| C[feat]
+    B -->|Bug fix| D[fix]
+    B -->|Docs only| E[docs]
+    B -->|Style change| F[style]
+    B -->|Refactor| G[refactor]
+    B -->|Performance| H[perf]
+    B -->|Test change| I[test]
+    B -->|Build change| J[build]
+    B -->|CI change| K[ci]
+    B -->|Chore| L[chore]
+    B -->|Revert| M[revert]
+    C --> N{Breaking?}
+    N -->|Yes| O[feat! or feat: breaking]
+    N -->|No| P[feat: add login]
+```
+
+### When to Use Each Commit Type
+
+| Type | When to Use | Example |
+|------|-------------|---------|
+| **feat** | New feature | feat: add user login |
+| **fix** | Bug fix | fix: correct validation |
+| **docs** | Documentation only | docs: update README |
+| **style** | Code style (no logic change) | style: fix formatting |
+| **refactor** | Code refactoring | refactor: extract service |
+| **perf** | Performance improvement | perf: optimize query |
+| **test** | Adding tests | test: add unit tests |
+| **build** | Build system changes | build: update dependencies |
+| **ci** | CI/CD changes | ci: add GitHub Actions |
+| **chore** | Other changes | chore: update config |
+| **revert** | Revert commit | revert: revert abc123 |
+
+---
+
+## Procedural Guidance: Conventional Commits Setup
+
+### Step 1: Install commitlint
+
+```bash
+# Install commitlint
+pnpm add -D @commitlint/cli @commitlint/config-conventional
+
+# Configure commitlint
+echo "module.exports = { extends: ['@commitlint/config-conventional'] };" > commitlint.config.js
+```
+
+### Step 2: Install Husky
+
+```bash
+# Install Husky
+pnpm add -D husky
+
+# Initialize Husky
+npx husky init
+
+# Add commit-msg hook
+npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'
+```
+
+### Step 3: Write Commit Messages
+
+```bash
+# Format: <type>(<scope>): <description>
+
+# Examples:
+git commit -m "feat(auth): add login endpoint"
+git commit -m "fix(api): correct validation error"
+git commit -m "docs(readme): update installation steps"
+git commit -m "refactor(user): extract service layer"
+git commit -m "test(auth): add unit tests for login"
+
+# Breaking changes:
+git commit -m "feat(api)!: change user endpoint structure"
+git commit -m "feat(api): change user endpoint structure
+
+BREAKING CHANGE: User endpoint now returns { id, name } instead of { userId, userName }"
+```
+
+### Step 4: Generate Changelog
+
+```bash
+# Install conventional-changelog
+pnpm add -g conventional-changelog-cli
+
+# Generate changelog
+conventional-changelog -p angular -i CHANGELOG.md -s
+
+# Generate for specific version
+conventional-changelog -p angular -i CHANGELOG.md -s -r 0
+```
+
+### Step 5: Auto-release with Changesets
+
+```bash
+# Install changesets
+pnpm add -D @changesets/cli
+
+# Initialize changesets
+npx changeset init
+
+# Create changeset
+npx changeset
+
+# Build and version
+pnpm changeset version
+
+# Publish
+pnpm changeset publish
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Writing commit messages
+- Setting up commit linting
+- Generating changelogs
+- Automating releases
+- Enforcing commit conventions
+
+### What to Do With This Information
+1. **Use conventional commits**: Follow the type/scope/description format
+2. **Install commitlint**: Enforce commit message conventions
+3. **Install Husky**: Pre-commit hooks for validation
+4. **Generate changelogs**: Auto-generate from commit history
+5. **Auto-release**: Use changesets for automated releases
+
+### Tools to Use
+- **VS Code Extension**: GitLens — for Git history visualization
+- **VS Code Extension**: Error Lens — for inline commit lint errors
+- **npm Package**: `@commitlint/cli` — for commit message linting
+- **npm Package**: `husky` — for Git hooks
+- **npm Package**: `@changesets/cli` — for automated releases
+- **Terminal Command**: `npx commitlint --edit ${1}` — lint commit message
+- **Terminal Command**: `npx changeset` — create changeset
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with multiple commits
+- **Testing Agent**: Run when test files are changed
+
+### Integration with Other Notes
+- Read [[commitizen-cz-git]] for commitizen configuration
+- Read [[commitlint-cli-config]] for commitlint configuration
+- Read [[conventional-changelog]] for changelog generation
+- Read [[husky-git-hooks]] for Husky configuration
+- Read [[commit-management-integration]] for commit management integration
+- Read [[pnpm-workspace]] for workspace management
+
+### Common Pitfalls
+- Don't skip commit types (always use feat/fix/docs/etc.)
+- Don't forget scope (add scope when helpful)
+- Don't ignore breaking changes (mark with ! or BREAKING CHANGE)
+- Don't skip changelog generation (auto-generate from commits)
+- Don't manually version (use changesets)
+
+### Quick Validation Checklist
+- [ ] Are commit messages following conventional format?
+- [ ] Is commitlint installed and configured?
+- [ ] Is Husky set up for pre-commit hooks?
+- [ ] Is changelog generated automatically?
+- [ ] Are breaking changes marked correctly?
+- [ ] Are scopes used consistently?
+
