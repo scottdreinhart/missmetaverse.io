@@ -94,6 +94,48 @@ If a source is unavailable or a concept is not yet researched, state that clearl
 
 ---
 
+## Important Distinctions
+
+- Atomic Design is UI composition; ACID atomicity is a transaction property
+- Clean Architecture and clean code are distinct concepts
+- Dependency Inversion and Dependency Injection differ
+- Command-Query Separation and CQRS differ
+- Event-Driven Architecture does not require Event Sourcing
+- CQRS does not require separate databases
+- DDD does not require microservices
+- REST is more than HTTP CRUD endpoints
+- Static TypeScript types do not validate runtime inputs
+- DRY targets duplicated knowledge rather than every repeated-looking expression
+- Singleton can introduce hidden global state
+- Saga compensation is not equivalent to database rollback
+- Outbox alone does not guarantee exactly-once delivery
+- Database consistency and distributed consistency have different meanings
+- ORM entities are not automatically domain entities
+- Folder structure and suffixes alone do not prove compliance
+- Coverage percentages alone do not prove correctness
+
+---
+
+## Evidence Model
+
+Track these independently:
+
+- **Declared**: present in a manifest or configuration
+- **Implemented**: confirmed in referenced scripts or source
+- **Wired**: connected to the intended command, hook, or workflow
+- **Executed**: actually run during investigation
+- **Verified**: specific expected behavior demonstrated
+
+For each, distinguish:
+- Confirmed
+- Partial
+- Not assessed
+- Not found
+- Blocked
+- Not applicable
+
+---
+
 ## Limitations
 
 - This knowledge base is a reference, not a training mechanism.
@@ -104,6 +146,11 @@ If a source is unavailable or a concept is not yet researched, state that clearl
 - Subagents have their own context limits — complex tasks may need to be broken down.
 - AI suggestions should always be verified against actual project constraints.
 - Tool outputs are authoritative — trust terminal results over AI predictions.
+- Creating a reference note does not prove that the project implements the concept.
+- External documentation cannot prove that a local integration is implemented or wired correctly.
+- A dependency declaration does not prove usage.
+- A command name does not prove behavior.
+- An installed tool does not prove enforcement.
 
 ---
 
