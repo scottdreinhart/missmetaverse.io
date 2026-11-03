@@ -1,146 +1,127 @@
 ---
 slug: acid
+sources:
+  - https://en.wikipedia.org/wiki/Software_design_pattern
+date: 2026-11-03
 tags:
-  - core-concepts
-
-  - database   - data   - backend
+  - principles
+  - acid
+  - best-practices
 ---
 
 # ACID
 
-> **Purpose:** Transaction properties ensuring database reliability.
-> **Last Updated:** 2026-11-03
+## Overview
 
-## concept_id
-`data-acid`
+Properties ensuring reliable database transactions
 
-## title
-ACID
+## Atomicity
 
-## aliases
-- ACID
-- ACID Properties
-- Transaction Properties
+- [[APIs Distributed Systems/acid-index.md]]
+- [[APIs Distributed Systems/saga-pattern.md]]
+- [[Accessibility/version-control-index.md]]
+- [[Architecture/A191-saga-pattern.md]]
+- [[Architecture/atomic-design.md]]
+- [[Data Databases/database-migrations.md]]
+- [[Data Databases/database-transactions.md]]
+- [[DevOps & Deployment/infrastructure-as-code.md]]
+- [[DevOps & Deployment/release-management.md]]
+- [[templates/pr-template.md]]
 
-## category
-data-databases
+## Consistency
 
-## concept_type
-property
+- [[APIs Distributed Systems/L20-Write-Through-Cache.md]]
+- [[APIs Distributed Systems/acid-index.md]]
+- [[APIs Distributed Systems/reactive-index.md]]
+- [[APIs Distributed Systems/saga-pattern.md]]
+- [[Accessibility/crud-index.md]]
+- [[Application Architecture/cqrs-pattern.md]]
+- [[Architecture/A082-design-by-contract.md]]
+- [[Architecture/A094-eventual-consistency.md]]
+- [[Architecture/A162-parse-dont-validate.md]]
+- [[Architecture/A168-polling-platform-requirements.md]]
+- [[Architecture/atomic-design.md]]
+- [[Architecture/design-by-contract.md]]
+- [[Architecture/encapsulation.md]]
+- [[Architecture/liskov-substitution-principle.md]]
+- [[Architecture/microservices.md]]
+- [[DDD/C06-Aggregate.md]]
+- [[DDD/C08-Domain-Invariant.md]]
+- [[DDD/aggregate-root.md]]
+- [[DDD/aggregate.md]]
+- [[DDD/domain-invariant.md]]
 
-## research_status
-verified
+## Durability
 
-## project_adoption
-declared
+- [[APIs Distributed Systems/acid-index.md]]
+- [[Accessibility/configuration-index.md]]
+- [[Accessibility/conventional-commits-index.md]]
+- [[Accessibility/crud-index.md]]
+- [[Accessibility/design-patterns-index.md]]
+- [[Accessibility/filtering-index.md]]
+- [[Accessibility/gitops-index.md]]
+- [[Accessibility/iac-index.md]]
+- [[Accessibility/joi-index.md]]
+- [[Accessibility/jwt-index.md]]
+- [[Accessibility/logging-index.md]]
+- [[Accessibility/react-patterns-index.md]]
+- [[Accessibility/routing-index.md]]
+- [[Accessibility/sse-index.md]]
+- [[Accessibility/version-control-index.md]]
+- [[Accessibility/yup-index.md]]
+- [[Architecture/A055-continuous-integration.md]]
+- [[Architecture/A056-conventional-commits.md]]
+- [[Architecture/A182-react-performance.md]]
+- [[Architecture/ci-cd-index.md]]
 
-## applicability
-- Database transactions
-- Financial systems
-- Any system requiring data consistency
+## Isolation
 
-## tags
-- type/property
-- domain/database
-- status/verified
-- priority/high
+- [[APIs Distributed Systems/acid-index.md]]
+- [[APIs Distributed Systems/bulkhead-pattern.md]]
+- [[APIs Distributed Systems/circuit-breaker-pattern.md]]
+- [[Application Architecture/functional-core-shell.md]]
+- [[Application Architecture/vertical-slice-architecture.md]]
+- [[Architecture/clean-architecture.md]]
+- [[Architecture/dependency-injection.md]]
+- [[Architecture/unit-testing-index.md]]
+- [[DDD/anti-corruption-layer.md]]
+- [[DDD/bounded-context.md]]
+- [[DDD/context-map.md]]
+- [[Data Databases/J13-Pessimistic-Concurrency-Control.md]]
+- [[Data Databases/database-transactions.md]]
+- [[Design Patterns/decorator-pattern.md]]
+- [[Design Patterns/strategy-pattern.md]]
+- [[Security/principle-of-least-privilege.md]]
+- [[Sources/S015-playwright-docs-2024.md]]
 
-## source_ids
-- martin-fowler-patterns
-- evans-ddd-2003
+## Transaction Management
 
-## related_concept_ids
-- data-atomicity
-- data-consistency
-- data-isolation
-- data-durability
-- data-optimistic-concurrency-control
-- data-eventual-consistency
+- [[APIs Distributed Systems/L08-Inbox-Pattern.md]]
+- [[APIs Distributed Systems/L09-Message-Deduplication.md]]
+- [[APIs Distributed Systems/acid-index.md]]
+- [[APIs Distributed Systems/circuit-breaker.md]]
+- [[APIs Distributed Systems/data-oriented-index.md]]
+- [[APIs Distributed Systems/message-queue-pattern.md]]
+- [[APIs Distributed Systems/saga-pattern.md]]
+- [[Accessibility/backend-patterns-index.md]]
+- [[Accessibility/bulkhead-index.md]]
+- [[Accessibility/configuration-index.md]]
+- [[Accessibility/containerization-index.md]]
+- [[Accessibility/conventional-commits-index.md]]
+- [[Accessibility/crud-index.md]]
+- [[Accessibility/declarative-index.md]]
+- [[Accessibility/design-patterns-index.md]]
+- [[Accessibility/drizzle-index.md]]
+- [[Accessibility/elasticsearch-index.md]]
+- [[Accessibility/filtering-index.md]]
+- [[Accessibility/gitops-index.md]]
+- [[Accessibility/iac-index.md]]
 
-## Definition
+## See Also
 
-ACID is an acronym for four properties that guarantee reliable processing of database transactions:
+- [[Architecture]] — Main architecture notes
+- [[Application Architecture]] — Application-level architecture patterns
 
-1. **Atomicity**: Transactions are all-or-nothing
-2. **Consistency**: Transactions bring the database from one valid state to another
-3. **Isolation**: Concurrent transactions don't interfere with each other
-4. **Durability**: Committed transactions survive system failures
+---
 
-## Problem Addressed
-
-Without ACID:
-- Data can become corrupted
-- Transactions can leave data in inconsistent states
-- System failures can lose committed data
-- Concurrent access can cause anomalies
-
-## Scope and Boundaries
-
-ACID applies to:
-- Database transactions
-- Financial systems
-- Any system requiring strong consistency
-
-ACID does not apply to:
-- Distributed systems (eventual consistency)
-- NoSQL databases (often sacrifice consistency)
-- High-throughput systems (may prefer availability)
-
-## When to Apply
-
-- Financial transactions
-- Inventory management
-- Any operation where data integrity is critical
-- Systems requiring strong consistency
-
-## Tradeoffs and When to Avoid
-
-- **Performance**: ACID transactions can be slow
-- **Scalability**: Strong consistency limits horizontal scaling
-- **Not for distributed systems**: Eventual consistency may be preferred
-- **Not for high-throughput**: Availability may be more important
-
-## Implementation Guidance
-
-1. **Use transactions**: Wrap related operations in transactions
-2. **Handle failures**: Implement rollback on errors
-3. **Manage isolation**: Choose appropriate isolation level
-4. **Ensure durability**: Use write-ahead logging
-5. **Test concurrency**: Verify isolation under load
-
-## Verification
-
-- [ ] Transactions are atomic
-- [ ] Data is consistent after transactions
-- [ ] Concurrent transactions don't interfere
-- [ ] Committed data survives failures
-
-## Common Misuses
-
-- **Confusing with ACID atomicity**: ACID atomicity is different from Atomic Design
-- **Ignoring isolation levels**: Not choosing appropriate isolation
-- **Overusing transactions**: Not all operations need transactions
-- **Ignoring distributed systems**: ACID doesn't scale to distributed systems
-
-## Related Concepts
-
-- [[Data Databases/acid]] â€” Atomicity
-- [[Data Databases/acid]] â€” Consistency
-- [[Data Databases/acid]] â€” Isolation
-- [[Data Databases/acid]] â€” Durability
-- [[Architecture/A094-eventual-consistency]] â€” Eventual Consistency
-
-## Project Observations
-
-The project uses TypeScript with database integrations, which supports ACID through:
-- Database transaction APIs
-- ORM transaction support
-- Connection pooling
-- Write-ahead logging
-
-## Sources
-
-- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
-- [[Sources/S002-evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-
-**End of ACID Note**
+*Conceptual index with categorized related notes*

@@ -1,155 +1,121 @@
 ---
 slug: atomic-design
+sources:
+  - https://en.wikipedia.org/wiki/Software_design_pattern
+date: 2026-11-03
 tags:
-  - architecture   - design-patterns
-
-  - architecture   - design-patterns   - core-concepts
+  - principles
+  - atomic-design
+  - best-practices
 ---
 
-# Atomic Design
+# ATOMIC DESIGN
 
-> **Purpose:** UI composition methodology for building consistent interfaces.
-> **Last Updated:** 2026-11-03
+## Overview
 
-## concept_id
-`arch-atomic-design`
+Methodology for creating design systems by breaking them into five distinct stages
 
-## title
-Atomic Design
+## Atoms
 
-## aliases
-- Atomic Design
-- Brad Frost Atomic Design
-- UI Atoms
+- [[APIs Distributed Systems/acid-index.md]]
+- [[APIs Distributed Systems/state-management-index.md]]
+- [[Accessibility/api-gateway-index.md]]
+- [[Accessibility/apollo-client-index.md]]
+- [[Accessibility/authentication-index.md]]
+- [[Accessibility/authorization-index.md]]
+- [[Accessibility/caching-index.md]]
+- [[Accessibility/crud-index.md]]
+- [[Accessibility/ddd-index.md]]
+- [[Accessibility/design-patterns-index.md]]
+- [[Accessibility/drizzle-index.md]]
+- [[Accessibility/elasticsearch-index.md]]
+- [[Accessibility/filtering-index.md]]
+- [[Accessibility/frontend-patterns-index.md]]
+- [[Accessibility/functional-index.md]]
+- [[Accessibility/joi-index.md]]
+- [[Accessibility/jwt-index.md]]
+- [[Accessibility/logging-index.md]]
+- [[Accessibility/mysql-index.md]]
+- [[Accessibility/normalization-index.md]]
 
-## category
-frontend-ui-composition
+## Molecules
 
-## concept_type
-design-methodology
+- [[Architecture/A019-atomic-design-methodology.md]]
+- [[Sources/S003-frost-atomic-design-2016.md]]
 
-## research_status
-verified
+## Organisms
 
-## project_adoption
-declared
+- [[APIs Distributed Systems/L05-Backend-for-Frontend.md]]
+- [[APIs Distributed Systems/api-versioning.md]]
+- [[APIs Distributed Systems/rest.md]]
+- [[Accessibility/authentication-index.md]]
+- [[Accessibility/authorization-index.md]]
+- [[Accessibility/jwt-index.md]]
+- [[Accessibility/normalization-index.md]]
+- [[Accessibility/oauth-index.md]]
+- [[Accessibility/observability-index.md]]
+- [[Accessibility/ssr-index.md]]
+- [[Accessibility/xss-index.md]]
+- [[Architecture/A019-atomic-design-methodology.md]]
+- [[Architecture/A022-automated-testing.md]]
+- [[Architecture/A045-component-composition-pattern.md]]
+- [[Architecture/A054-continuous-deployment.md]]
+- [[Architecture/A143-microservices.md]]
+- [[Architecture/A144-modular-monolith.md]]
+- [[Architecture/A162-parse-dont-validate.md]]
+- [[Architecture/A189-rest-api-design.md]]
+- [[Architecture/A205-soa.md]]
 
-## applicability
-- React component libraries
-- Design systems
-- UI component development
-- Consistent interface design
+## Pages
 
-## tags
-- type/methodology
-- domain/frontend
-- domain/ui
-- status/verified
-- priority/medium
+- [[Accessibility/pagination-index.md]]
+- [[Accessibility/ssr-index.md]]
+- [[Architecture/A019-atomic-design-methodology.md]]
+- [[Architecture/A023-blogging-platform-requirements.md]]
+- [[Architecture/A060-css-fundamentals.md]]
+- [[Architecture/A089-ecommerce-platform-requirements.md]]
+- [[Architecture/A203-singleton-pattern.md]]
+- [[DDD/value-object.md]]
+- [[Data Databases/database-replication.md]]
+- [[Data Databases/database-sharding.md]]
+- [[Design Patterns/singleton-pattern.md]]
+- [[DevOps & Deployment/isr-index.md]]
+- [[Quality & Testing/Testing/T01-playwright-e2e.md]]
+- [[Quality & Testing/behavior-driven-development.md]]
+- [[Quality & Testing/ssg-index.md]]
+- [[React UI/React/R01-modern-react-project-template.md]]
+- [[Sources/S003-frost-atomic-design-2016.md]]
+- [[Sources/S015-playwright-docs-2024.md]]
+- [[Web Frontend/performance-optimization.md]]
 
-## source_ids
-- frost-atomic-design-2016
-- martin-fowler-patterns
+## Templates
 
-## related_concept_ids
-- arch-atoms
-- arch-molecules
-- arch-organisms
-- arch-templates
-- arch-pages
-- arch-design-systems
-- arch-design-tokens
-- arch-component-composition
+- [[APIs Distributed Systems/acid-index.md]]
+- [[APIs Distributed Systems/csrf-index.md]]
+- [[APIs Distributed Systems/rate-limiting-index.md]]
+- [[APIs Distributed Systems/rest-index.md]]
+- [[APIs Distributed Systems/state-management-index.md]]
+- [[APIs Distributed Systems/typescript-strict-index.md]]
+- [[Accessibility/accessibility-index.md]]
+- [[Accessibility/api-gateway-index.md]]
+- [[Accessibility/authentication-index.md]]
+- [[Accessibility/authorization-index.md]]
+- [[Accessibility/backpressure-index.md]]
+- [[Accessibility/conventional-commits-index.md]]
+- [[Accessibility/declarative-index.md]]
+- [[Accessibility/functional-index.md]]
+- [[Accessibility/hexagonal-index.md]]
+- [[Accessibility/iac-index.md]]
+- [[Accessibility/jwt-index.md]]
+- [[Accessibility/layered-index.md]]
+- [[Accessibility/mysql-index.md]]
+- [[Accessibility/normalization-index.md]]
 
-## Definition
+## See Also
 
-Atomic Design is a methodology for creating design systems, developed by Brad Frost. It breaks UI components down into five distinct levels:
+- [[Architecture]] — Main architecture notes
+- [[Application Architecture]] — Application-level architecture patterns
 
-1. **Atoms**: Basic building blocks (buttons, inputs, labels)
-2. **Molecules**: Groups of atoms functioning together (search form = input + button)
-3. **Organisms**: Complex UI components (header, footer, card)
-4. **Templates**: Page-level layouts without content
-5. **Pages**: Specific instances of templates with real content
+---
 
-## Problem Addressed
-
-Without atomic design:
-- UI components are inconsistent
-- Reusability is limited
-- Design systems are hard to maintain
-- Developers and designers speak different languages
-
-## Scope and Boundaries
-
-Atomic design applies to:
-- UI component composition
-- Design system development
-- Component library architecture
-- Consistent interface design
-
-Atomic design does not directly address:
-- State management
-- Business logic
-- Data fetching
-- Routing
-
-## When to Apply
-
-- Building a design system
-- Creating a component library
-- Establishing UI consistency
-- Onboarding new developers
-
-## Tradeoffs and When to Avoid
-
-- **Over-engineering risk**: Simple applications don't need atomic design
-- **Granularity overhead**: Creating too many small components can increase complexity
-- **Not for simple pages**: Single-use pages don't benefit
-- **Learning curve**: Requires understanding of the methodology
-
-## Implementation Guidance
-
-1. **Start with atoms**: Create basic UI elements
-2. **Build molecules**: Combine atoms into functional units
-3. **Create organisms**: Build complex components from molecules
-4. **Design templates**: Define page layouts
-5. **Populate pages**: Add real content to templates
-
-## Verification
-
-- [ ] Atoms are basic, reusable UI elements
-- [ ] Molecules combine atoms meaningfully
-- [ ] Organisms are complex UI components
-- [ ] Templates define page layouts
-- [ ] Pages use templates with real content
-
-## Common Misuses
-
-- **Over-splitting**: Creating too many small components
-- **Ignoring context**: Forcing atomic design where it doesn't fit
-- **Confusing with ACID**: Atomic Design is UI composition, not database atomicity
-- **Ignoring design tokens**: Not using tokens for consistency
-
-## Related Concepts
-
-- [[Architecture/atomic-design]] â€” Atoms
-- [[Architecture/atomic-design]] â€” Molecules
-- [[Architecture/atomic-design]] â€” Organisms
-- [[Architecture/atomic-design]] â€” Templates
-- [[Architecture/atomic-design]] â€” Pages
-- [[Architecture/atomic-design]] â€” Design Systems
-
-## Project Observations
-
-The project uses React and ShadCN UI, which supports atomic design through:
-- Component composition
-- Props for customization
-- Storybook for documentation
-- Tailwind CSS for styling consistency
-
-## Sources
-
-- [[Sources/S003-frost-atomic-design-2016|Brad Frost â€” Atomic Design]]
-- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
-
-**End of Atomic Design Note**
+*Conceptual index with categorized related notes*
