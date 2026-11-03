@@ -10,17 +10,56 @@ tags:
   - type-systems
   - design
   - safety
-  - --
 # Make Invalid States Unrepresentable
 
 ## Definition
 
+## concept_id
+a138-make-invalid-states-unrepresentable
+
+## title
+Make Invalid States Unrepresentable
+
+## aliases
+- A138-make-invalid-states-unrepresentable
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Make Invalid States Unrepresentable is the principle that **the type system should prevent invalid states from being expressible at compile time**. If a state cannot be represented in the type system, it cannot occur at runtime.
 
 > "Make illegal states unrepresentable: use the type system to prevent invalid states from being expressible." â€” Functional programming principle
 
 ## Problem Addressed
 
+## concept_id
+a138-make-invalid-states-unrepresentable
+
+## title
+Make Invalid States Unrepresentable
+
+## aliases
+- A138-make-invalid-states-unrepresentable
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Representable invalid states lead to:
 - **Runtime errors**: Invalid states cause crashes
 - **Inconsistent data**: Data doesn't satisfy business rules
@@ -29,12 +68,52 @@ Representable invalid states lead to:
 
 ## Scope and Boundaries
 
+## concept_id
+a138-make-invalid-states-unrepresentable
+
+## title
+Make Invalid States Unrepresentable
+
+## aliases
+- A138-make-invalid-states-unrepresentable
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - This is a **type system technique**, not a runtime technique
 - It applies to TypeScript, Haskell, Rust, and other typed languages
 - It's about **compile-time guarantees**, not runtime validation
 
 ## When to Apply
 
+## concept_id
+a138-make-invalid-states-unrepresentable
+
+## title
+Make Invalid States Unrepresentable
+
+## aliases
+- A138-make-invalid-states-unrepresentable
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When designing domain models
 - When creating API response types
 - When modeling state machines
@@ -42,6 +121,26 @@ Representable invalid states lead to:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a138-make-invalid-states-unrepresentable
+
+## title
+Make Invalid States Unrepresentable
+
+## aliases
+- A138-make-invalid-states-unrepresentable
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complex types** â€” Complex type unions are hard to read |
@@ -50,18 +149,78 @@ Representable invalid states lead to:
 
 ## Common Misuses
 
+## concept_id
+a138-make-invalid-states-unrepresentable
+
+## title
+Make Invalid States Unrepresentable
+
+## aliases
+- A138-make-invalid-states-unrepresentable
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Over-engineering**: Using complex types for simple cases
 - **Ignoring runtime**: TypeScript types don't validate runtime input
 - **Confusing with validation**: Type safety â‰  runtime validation
 
 ## Related Concepts
 
+## concept_id
+a138-make-invalid-states-unrepresentable
+
+## title
+Make Invalid States Unrepresentable
+
+## aliases
+- A138-make-invalid-states-unrepresentable
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Parse, Don't Validate](Architecture/parse-dont-validate.md) â€” Parsing enforces invariants
 - [Discriminated Unions](Architecture/Architecture/clean-architecture.md) â€” Type-safe state representation
 - [Exhaustive Handling](Architecture/Architecture/clean-architecture.md) â€” Handle all valid states
 
 ## Project Observations
 
+## concept_id
+a138-make-invalid-states-unrepresentable
+
+## title
+Make Invalid States Unrepresentable
+
+## aliases
+- A138-make-invalid-states-unrepresentable
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - TypeScript's type system supports this through:
   - Discriminated unions (Order status types)
   - Generic constraints
@@ -71,6 +230,26 @@ Representable invalid states lead to:
 
 ## Sources
 
+## concept_id
+a138-make-invalid-states-unrepresentable
+
+## title
+Make Invalid States Unrepresentable
+
+## aliases
+- A138-make-invalid-states-unrepresentable
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
 
 

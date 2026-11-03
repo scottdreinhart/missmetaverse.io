@@ -1,5 +1,7 @@
 ﻿---
 slug: recoil-state-management
+tags:
+  - state-management   - frontend   - react
 ---
 
 # Recoil State Management

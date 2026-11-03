@@ -9,17 +9,56 @@ tags:
   - specification
   - domain-modeling
   - business-rules
-  - --
 # Specification (DDD)
 
 ## Definition
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Specification (DDD) is **a pattern that encapsulates a business rule as a composable predicate**.
 
 > "A specification is a pattern that encapsulates a business rule as a predicate that can be composed with other specifications." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without specifications:
 - **Complex queries**: Business rules are expressed as complex queries
 - **Duplication**: Same rules expressed in multiple places
@@ -28,12 +67,52 @@ Without specifications:
 
 ## Scope and Boundaries
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Specification â‰  Query (specification expresses business rules, query expresses data access)
 - Specification = Predicate (specification is a predicate that can be composed)
 - Specification is a **domain model building block**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building domain models with complex business rules
 - when business rules need to be composed
 - when testing business rules is important
@@ -41,6 +120,26 @@ Without specifications:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Specifications add an abstraction layer |
@@ -49,18 +148,78 @@ Without specifications:
 
 ## Common Misuses
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything a specification**: Not every rule needs a specification
 - **Specification as god object**: Specifications should be small and composable
 - **Confusing with validation**: Specifications express business rules, validation checks input
 
 ## Related Concepts
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Domain Invariant](DDD/domain-invariant.md) â€” Specifications can express domain invariants
 - [Entity](DDD/entity.md) â€” Specifications often evaluate entities
 - [Repository](DDD/repository-ddd-pattern.md) â€” Repositories often use specifications for queries
 
 ## Project Observations
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses specifications:
   - TypeScript functions can serve as specifications
   - The project's architecture patterns note covers DDD concepts
@@ -71,6 +230,26 @@ Without specifications:
 
 ## Sources
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -78,6 +257,26 @@ Without specifications:
 
 ## Decision Tree: Specification Design
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to express business rule?]
@@ -106,6 +305,26 @@ graph TD
 
 ## Procedural Guidance: Specification Implementation
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Specification Interface
 
 ```typescript
@@ -293,6 +512,26 @@ export class FindActiveUsersService {
 
 ## Copilot Instructions
 
+## concept_id
+c15-specification-ddd-pattern
+
+## title
+Specification (DDD)
+
+## aliases
+- C15-Specification-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Expressing business rules as specifications
 - Creating composable query predicates

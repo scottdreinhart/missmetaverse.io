@@ -1,5 +1,7 @@
 ﻿---
 slug: supabase-backend-integration
+tags:
+  - backend   - integration   - database
 ---
 
 # Supabase Backend Integration

@@ -1,5 +1,7 @@
 ﻿---
 slug: service-level-objectives
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Service-Level Objectives

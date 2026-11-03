@@ -9,21 +9,80 @@ tags:
   - a11y
   - wcag
   - w3c
-  - --
 ## Sources
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/wcag-21|wcag-21]]
 
 # Accessibility (a11y)
 
 ## Definition
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Accessibility (a11y) is a **practice of designing and building software that can be used by everyone, including people with disabilities**.
 
 > "Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them." â€” W3C
 
 ## Problem Addressed
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without accessibility:
 - **Exclusion**: People with disabilities can't use the software
 - **Legal**: Accessibility is required by law in many places
@@ -32,12 +91,52 @@ Without accessibility:
 
 ## Scope and Boundaries
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Accessibility â‰  Usability (accessibility is for people with disabilities, usability is for everyone)
 - Accessibility â‰  WCAG (accessibility is a practice, WCAG is a standard)
 - Accessibility is a **practice**, not a specific technique
 
 ## When to Apply
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building public-facing software
 - When legal compliance matters
 - When ethics are important
@@ -45,6 +144,26 @@ Without accessibility:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Time** â€” Accessibility takes time |
@@ -53,18 +172,78 @@ Without accessibility:
 
 ## Common Misuses
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything accessible**: Not everything needs accessibility
 - **Confusing with usability**: Accessibility â‰  usability
 - **Over-accessibility**: Too much accessibility creates complexity
 
 ## Related Concepts
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Design Tokens](Architecture/design-tokens.md) â€” Accessibility with design tokens
 - [React Patterns](../React/Architecture/react-patterns) â€” Accessibility with React
 - [Tailwind CSS](../Tailwind%20CSS/tailwind-css-patterns.md) â€” Accessibility with Tailwind
 
 ## Project Observations
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses accessibility:
   - The project's quality and delivery note covers accessibility (from existing notes)
   - No evidence of accessibility in existing code (src/ is empty)
@@ -74,12 +253,52 @@ Without accessibility:
 
 ## Sources
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 
 ## Copilot Instructions
 
+## concept_id
+a003-accessibility-a11y
+
+## title
+Accessibility (a11y)
+
+## aliases
+- A003-accessibility-a11y
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Building public-facing applications
 - Implementing WCAG 2.1 compliance

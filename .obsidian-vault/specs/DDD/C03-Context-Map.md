@@ -10,17 +10,56 @@ tags:
   - context-map
   - domain-modeling
   - integration
-  - --
 # Context Map
 
 ## Definition
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Context Map is **a document that describes the relationships between bounded contexts and the integration patterns used between them**.
 
 > "The context map is a diagram that shows the relationships between bounded contexts." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without context map:
 - **Integration chaos**: No clear understanding of how bounded contexts interact
 - **Coupling**: Bounded contexts become tightly coupled
@@ -29,12 +68,52 @@ Without context map:
 
 ## Scope and Boundaries
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Context Map â‰  Bounded Context (context map describes relationships, bounded context is a single model)
 - Context Map = Integration (context map defines integration patterns)
 - Context Map is a **documentation artifact**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building systems with multiple bounded contexts
 - when integration between contexts is complex
 - when scaling development teams
@@ -42,6 +121,26 @@ Without context map:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Effort** â€” Maintaining context map requires effort |
@@ -50,18 +149,78 @@ Without context map:
 
 ## Common Misuses
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **One context map for everything**: Context maps should be living documents, updated as the system evolves
 - **Ignoring integration patterns**: Each relationship needs an explicit integration pattern
 - **Confusing with architecture diagram**: Context map focuses on relationships, not technical architecture
 
 ## Related Concepts
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Bounded Context](DDD/bounded-context.md) â€” Context map describes relationships between bounded contexts
 - [Anti-Corruption Layer](DDD/anti-corruption-layer.md) â€” Anti-corruption layer is an integration pattern
 - [Shared Kernel](DDD/context-map.md) â€” Shared kernel is an integration pattern
 
 ## Project Observations
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses context maps:
   - The project's architecture patterns note covers DDD concepts
   - TypeScript modules can serve as bounded context boundaries
@@ -72,6 +231,26 @@ Without context map:
 
 ## Sources
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -79,6 +258,26 @@ Without context map:
 
 ## Decision Tree: Integration Patterns
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to integrate bounded contexts?]
@@ -112,6 +311,26 @@ graph TD
 
 ## Procedural Guidance: Context Map Implementation
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Identify Bounded Contexts
 
 ```typescript
@@ -294,6 +513,26 @@ export const contextMap = {
 
 ## Copilot Instructions
 
+## concept_id
+c03-context-map
+
+## title
+Context Map
+
+## aliases
+- C03-Context-Map
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Designing system architecture with multiple bounded contexts
 - Integrating microservices or modules

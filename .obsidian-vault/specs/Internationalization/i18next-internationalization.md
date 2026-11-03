@@ -1,5 +1,7 @@
 ﻿---
 slug: i18next-internationalization
+tags:
+  - i18n   - localization   - frontend
 ---
 
 # i18next Internationalization

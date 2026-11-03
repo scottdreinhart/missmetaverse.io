@@ -1,5 +1,7 @@
 ﻿---
 slug: domain-driven-design
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Domain-Driven Design

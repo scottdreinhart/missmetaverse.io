@@ -9,17 +9,56 @@ tags:
   - performance
   - optimization
   - patterns
-  - --
 # React Performance
 
 ## Definition
 
+## concept_id
+a182-react-performance
+
+## title
+React Performance
+
+## aliases
+- A182-react-performance
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 React Performance is a **practice for optimizing React applications for speed and responsiveness**.
 
 > "React performance optimization is the process of improving the speed and responsiveness of React applications." â€” React Docs
 
 ## Problem Addressed
 
+## concept_id
+a182-react-performance
+
+## title
+React Performance
+
+## aliases
+- A182-react-performance
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without React performance optimization:
 - **Speed**: React applications are slow
 - **Responsiveness**: React applications are unresponsive
@@ -28,12 +67,52 @@ Without React performance optimization:
 
 ## Scope and Boundaries
 
+## concept_id
+a182-react-performance
+
+## title
+React Performance
+
+## aliases
+- A182-react-performance
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - React Performance â‰  React (React Performance is a practice, React is a library)
 - React Performance â‰  Optimization (React Performance is a practice, optimization is a technique)
 - React Performance is a **practice**, not a library
 
 ## When to Apply
 
+## concept_id
+a182-react-performance
+
+## title
+React Performance
+
+## aliases
+- A182-react-performance
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building React applications
 - when speed matters
 - when responsiveness is important
@@ -41,6 +120,26 @@ Without React performance optimization:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a182-react-performance
+
+## title
+React Performance
+
+## aliases
+- A182-react-performance
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” React performance is complex |
@@ -49,18 +148,78 @@ Without React performance optimization:
 
 ## Common Misuses
 
+## concept_id
+a182-react-performance
+
+## title
+React Performance
+
+## aliases
+- A182-react-performance
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything optimized**: Not everything needs React performance optimization
 - **Confusing with React**: React performance â‰  React
 - **Over-optimization**: Too much optimization creates complexity
 
 ## Related Concepts
 
+## concept_id
+a182-react-performance
+
+## title
+React Performance
+
+## aliases
+- A182-react-performance
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[React/Architecture/react-patterns|React Patterns]] â€” React performance with React
 - [[performance-optimization|Performance Optimization]] â€” React performance with optimization
 - [[vite-optimization|Vite Optimization]] â€” React performance with Vite
 
 ## Project Observations
 
+## concept_id
+a182-react-performance
+
+## title
+React Performance
+
+## aliases
+- A182-react-performance
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses React performance:
   - The project's React note covers React performance (from existing notes)
   - No evidence of React performance in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without React performance optimization:
 
 ## Sources
 
+## concept_id
+a182-react-performance
+
+## title
+React Performance
+
+## aliases
+- A182-react-performance
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

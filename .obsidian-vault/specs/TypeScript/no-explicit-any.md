@@ -1,5 +1,7 @@
 ﻿---
 slug: no-explicit-any
+tags:
+  - typescript   - type-system   - coding
 ---
 
 # No Explicit Any

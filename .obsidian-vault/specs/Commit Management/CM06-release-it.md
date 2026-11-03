@@ -12,17 +12,56 @@ tags:
   - npm-publish
   - changelog
   - semver
-  - --
 # release-it
 
 ## Overview
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 release-it automates versioning, tagging, changelog generation, and package publishing. It supports Git, npm, GitHub Releases, GitLab Releases, and can be extended with plugins.
 
 ---
 
 ## 1. Installation
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 pnpm add -D release-it
 ```
@@ -44,6 +83,26 @@ pnpm add -D release-it
 
 ## 2. Configuration
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### `.release-it.json`
 
 ```json
@@ -143,6 +202,26 @@ pnpm add -D release-it
 
 ## 3. Git Configuration
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Basic Git Setup
 
 ```json
@@ -187,6 +266,26 @@ pnpm add -D release-it
 
 ## 4. npm Publishing
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Basic npm Publish
 
 ```json
@@ -232,6 +331,26 @@ pnpm add -D release-it
 
 ## 5. GitHub Releases
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Automated GitHub Release
 
 ```json
@@ -265,6 +384,26 @@ pnpm add -D release-it
 
 ## 6. Changelog Generation
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Default Changelog
 
 ```json
@@ -317,6 +456,26 @@ npx release-it --changelog
 
 ## 7. Hooks
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Available Hooks
 
 | Hook | When |
@@ -391,6 +550,26 @@ ${releaseUrl}        â€” Release URL
 
 ## 8. CLI Options
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 # Interactive release (default)
 pnpm release
@@ -435,6 +614,26 @@ npx release-it --no-hooks
 
 ## 9. Pre-releases
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Configuration
 
 ```json
@@ -476,6 +675,26 @@ npx release-it --preRelease=beta --preReleaseId=beta.2
 
 ## 10. Plugins
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Available Plugins
 
 | Plugin | Purpose |
@@ -516,6 +735,26 @@ pnpm add -D @release-it/conventional-changelog
 
 ## 11. Monorepo Support
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Using @release-it-plugins/workspaces
 
 ```bash
@@ -544,6 +783,26 @@ pnpm add -D release-it-pnpm
 
 ## 12. CI/CD Integration
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### GitHub Actions
 
 ```yaml
@@ -587,6 +846,26 @@ jobs:
 
 ## 13. Best Practices
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Do's
 
 - âœ… Use `--ci` mode in CI/CD pipelines
@@ -607,6 +886,26 @@ jobs:
 
 ## Cross-References
 
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Commitizen & cz-git](./commitizen-cz-git.md)
 - [Commitlint CLI & Config](./commitlint-cli-config.md)
 - [Husky Git Hooks](./husky-git-hooks.md)
@@ -615,7 +914,27 @@ jobs:
 - [CI/CD GitHub Actions](./Integration/cicd-github-actions.md)
 
 ## See Also
-- [[CM01-commitizen-cz-git]]
+
+## concept_id
+cm06-release-it
+
+## title
+release-it
+
+## aliases
+- CM06-release-it
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required- [[CM01-commitizen-cz-git]]
 - [[CM02-commitlint-cli-config]]
 - [[CM03-commit-management-integration]]
 - [[CM04-conventional-changelog]]

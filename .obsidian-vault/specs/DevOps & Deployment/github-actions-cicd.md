@@ -1,5 +1,7 @@
 ﻿---
 slug: github-actions-cicd
+tags:
+  - devops   - deployment   - cicd
 ---
 
 # GitHub Actions CI/CD

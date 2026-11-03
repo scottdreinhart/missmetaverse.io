@@ -1,5 +1,7 @@
 ﻿---
 slug: hexagonal-architecture
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Hexagonal Architecture

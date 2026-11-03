@@ -1,5 +1,7 @@
 ﻿---
 slug: wikipedia
+tags:
+  - source   - reference   - external
 source_id: wikipedia
 title: "Wikipedia â€” Software Engineering"
 author: "Wikipedia Contributors"
@@ -25,7 +27,27 @@ access_limitations: Free public encyclopedia
 research_notes: "General reference for software engineering concepts. Used as a fallback source when more specific documentation is unavailable."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+wikipedia
+
+## title
+wikipedia
+
+## aliases
+- wikipedia
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

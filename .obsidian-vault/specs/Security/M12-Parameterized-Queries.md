@@ -9,17 +9,56 @@ tags:
   - security
   - sql-injection
   - database
-  - --
 # Parameterized Queries
 
 ## Definition
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Parameterized Queries is **a security technique that separates SQL code from data to prevent SQL injection attacks**.
 
 > "Parameterized queries separate SQL code from data, preventing SQL injection attacks." â€” OWASP
 
 ## Problem Addressed
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without parameterized queries:
 - **SQL injection**: SQL injection attacks succeed
 - **Data theft**: Attacker can read any data
@@ -28,12 +67,52 @@ Without parameterized queries:
 
 ## Scope and Boundaries
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Parameterized Queries â‰  Input Validation (parameterized queries prevent SQL injection, input validation validates data)
 - Parameterized Queries = Protection (parameterized queries protect against SQL injection)
 - Parameterized Queries is a **security technique**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building applications that use databases
 - when SQL queries are constructed
 - when SQL injection is a concern
@@ -41,6 +120,26 @@ Without parameterized queries:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Parameterized queries add query complexity |
@@ -49,18 +148,78 @@ Without parameterized queries:
 
 ## Common Misuses
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything parameterized**: Not every query needs parameterized queries
 - **String concatenation**: Never concatenate user input into SQL
 - **Confusing with input validation**: Parameterized queries prevent SQL injection, input validation validates data
 
 ## Related Concepts
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Input Validation](Security/input-validation.md) â€” Input validation complements parameterized queries
 - [ORM Patterns](Data Databases/orm-patterns.md) â€” ORMs use parameterized queries
 - [Security Principles](Security/security-principles.md) â€” Security principles include parameterized queries
 
 ## Project Observations
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses parameterized queries:
   - PostgreSQL supports parameterized queries
   - TypeORM supports parameterized queries
@@ -72,6 +231,26 @@ Without parameterized queries:
 
 ## Sources
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -79,6 +258,26 @@ Without parameterized queries:
 
 ## Decision Tree: SQL Query Security
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to query database?]\n    A --> B{User input?}
@@ -108,6 +307,26 @@ graph TD
 
 ## Procedural Guidance: Parameterized Query Implementation
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Use Prisma (Recommended)
 
 ```typescript
@@ -379,6 +598,26 @@ describe('SQL Injection Prevention', () => {
 
 ## Copilot Instructions
 
+## concept_id
+m12-parameterized-queries
+
+## title
+Parameterized Queries
+
+## aliases
+- M12-Parameterized-Queries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Writing SQL queries
 - Preventing SQL injection

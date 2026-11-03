@@ -1,5 +1,7 @@
 ﻿---
 slug: generics
+tags:
+  - typescript   - type-system   - coding
 ---
 
 # Generics

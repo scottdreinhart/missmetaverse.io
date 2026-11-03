@@ -1,5 +1,7 @@
 ﻿---
 slug: vertical-slice-architecture
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Vertical Slice Architecture

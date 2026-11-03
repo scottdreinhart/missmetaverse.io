@@ -1,5 +1,7 @@
 ﻿---
 slug: source-control-strategies
+tags:
+  - git   - version-control   - conventions
 ---
 
 # Source Control Strategies

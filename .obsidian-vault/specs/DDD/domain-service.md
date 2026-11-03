@@ -1,5 +1,7 @@
 ﻿---
 slug: domain-service
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Domain Service

@@ -1,5 +1,7 @@
 ﻿---
 slug: command-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Command Pattern

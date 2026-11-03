@@ -1,5 +1,7 @@
 ﻿---
 slug: react-query-data-fetching
+tags:
+  - data-fetching   - api   - frontend
 ---
 
 # React Query Data Fetching

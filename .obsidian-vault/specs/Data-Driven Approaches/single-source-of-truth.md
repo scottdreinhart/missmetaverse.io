@@ -1,5 +1,7 @@
 ﻿---
 slug: single-source-of-truth
+tags:
+  - data-driven   - declarative   - architecture
 ---
 
 # Single Source of Truth

@@ -1,5 +1,7 @@
 ﻿---
 slug: event-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Event File Convention

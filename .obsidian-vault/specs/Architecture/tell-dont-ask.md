@@ -1,5 +1,7 @@
 ﻿---
 slug: tell-dont-ask
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Tell, Don't Ask

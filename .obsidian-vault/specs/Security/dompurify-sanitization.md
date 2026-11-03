@@ -1,5 +1,7 @@
 ﻿---
 slug: dompurify-sanitization
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # DOMPurify Sanitization

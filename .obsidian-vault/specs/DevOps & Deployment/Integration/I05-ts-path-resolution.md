@@ -20,11 +20,53 @@ tags:
 
 ## Overview
 
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 TypeScript path resolution is one of the most challenging integration points in a modern React + Vite + TypeScript project. Each tool (Vite, TypeScript, Vitest, Playwright, ESLint) has its own module resolution mechanism. This note explains how to configure path aliases consistently across all tools.
 
 ---
 
 ## 1. The Problem
+
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ```typescript
 // Without path resolution, imports look like this:
@@ -41,6 +83,27 @@ import { formatDate } from '@utils/date'
 ---
 
 ## 2. TypeScript Configuration (`tsconfig.json`)
+
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Path Aliases
 
@@ -74,6 +137,27 @@ import { formatDate } from '@utils/date'
 ---
 
 ## 3. Vite Configuration (`vite.config.ts`)
+
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Method 1: Manual Alias (Recommended â€” Faster)
 
@@ -143,6 +227,27 @@ export default defineConfig({
 ---
 
 ## 4. Vitest Configuration
+
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Inherit from Vite (Recommended)
 
@@ -215,6 +320,27 @@ vi.mock('@components/ui/button', () => ({
 ---
 
 ## 5. Playwright Configuration
+
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### TypeScript Support
 
@@ -289,6 +415,27 @@ export class HomePage {
 
 ## 6. ESLint Configuration
 
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### TypeScript Resolver
 
 ```bash
@@ -332,6 +479,27 @@ export default tseslint.config({
 ---
 
 ## 7. Complete Integration Map
+
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ```
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
@@ -383,6 +551,27 @@ export default tseslint.config({
 ---
 
 ## 8. Common Pitfalls & Solutions
+
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Problem 1: Works in IDE but not in Vite dev server
 
@@ -453,6 +642,27 @@ alias: {
 
 ## 9. Verification Checklist
 
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - [ ] `tsconfig.json` has `paths` configured
 - [ ] `vite.config.ts` has matching `resolve.alias`
 - [ ] `vitest.config.ts` inherits Vite config or has matching aliases
@@ -468,6 +678,27 @@ alias: {
 
 ## Cross-References
 
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - [Integration Master Config](integration-master-config.md)
 - [TypeScript tsconfig Reference](TypeScript/typescript-configuration.md)
 - [Vite Optimization & Security](./vite-optimization-security.md)
@@ -476,6 +707,27 @@ alias: {
 - [Linting & Husky Pipeline](linting-husky-pipeline.md)
 
 ## See Also
+
+## concept_id
+i05-ts-path-resolution
+
+## title
+I05-ts-path-resolution
+
+## aliases
+- I05-ts-path-resolution
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[I01-cicd-github-actions]]
 - [[I02-docker-nginx-deployment]]
 - [[I03-integration-master-config]]

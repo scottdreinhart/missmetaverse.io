@@ -1,5 +1,7 @@
 ﻿---
 slug: context-map
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Context Map

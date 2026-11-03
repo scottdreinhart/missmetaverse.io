@@ -1,5 +1,7 @@
 ﻿---
 slug: shadcn-ui-component-library
+tags:
+  - ui   - component-library   - frontend
 ---
 
 # ShadCN UI Component Library

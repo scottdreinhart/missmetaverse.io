@@ -20,11 +20,53 @@ tags:
 
 ## Overview
 
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 This note consolidates all configuration files that serve as the single source of truth for your React 19 + Vite + TypeScript + Tailwind CSS project. Every tool reads from these files, making them the central integration point.
 
 ---
 
 ## 1. `vite.config.ts` â€” The Build Orchestrator
+
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Complete Configuration
 
@@ -234,6 +276,27 @@ react({
 
 ## 2. `tsconfig.json` â€” TypeScript Configuration
 
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Complete Configuration
 
 ```json
@@ -334,6 +397,27 @@ react({
 ---
 
 ## 3. `package.json` â€” Scripts & Dependencies
+
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Complete Configuration
 
@@ -437,6 +521,27 @@ react({
 
 ## 4. `pnpm-workspace.yaml` â€” Workspace Configuration
 
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### For Monorepo Setup
 
 ```yaml
@@ -477,6 +582,27 @@ settings:
 ---
 
 ## 5. Cross-Tool Integration Map
+
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### How Tools Read Configuration
 
@@ -526,6 +652,27 @@ settings:
 
 ## 6. Environment Variables
 
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### File Structure
 
 ```
@@ -553,6 +700,27 @@ const mode = import.meta.env.MODE
 ---
 
 ## 7. Quick Reference: Common Patterns
+
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Adding a New Path Alias
 
@@ -590,6 +758,27 @@ build: {
 
 ## Cross-References
 
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - [Vite Optimization & Security](./vite-optimization-security.md)
 - [TypeScript Best Practices](./TypeScript/TypeScript/typescript-strict-mode.md)
 - [TypeScript tsconfig Reference](./TypeScript/TypeScript/typescript-configuration.md)
@@ -602,6 +791,27 @@ build: {
 - [shadcn/ui Best Practices](./ShadCN/ShadCN/shadcn-ui-component-library.md)
 
 ## See Also
+
+## concept_id
+i03-integration-master-config
+
+## title
+I03-integration-master-config
+
+## aliases
+- I03-integration-master-config
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[I01-cicd-github-actions]]
 - [[I02-docker-nginx-deployment]]
 - [[I04-linting-husky-pipeline]]

@@ -9,17 +9,56 @@ tags:
   - normalization
   - data-modeling
   - sql
-  - --
 # Normalization
 
 ## Definition
 
+## concept_id
+j07-normalization
+
+## title
+Normalization
+
+## aliases
+- J07-Normalization
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Normalization is **the process of organizing data in a database to reduce redundancy and improve data integrity through decomposition**.
 
 > "Normalization is the process of efficiently organizing data in a database. Two goals are the organization of data to minimize redundancy and minimize modification anomalies." â€” Wikipedia
 
 ## Problem Addressed
 
+## concept_id
+j07-normalization
+
+## title
+Normalization
+
+## aliases
+- J07-Normalization
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without normalization:
 - **Redundancy**: Same data stored multiple times
 - **Update anomalies**: Updating data in one place but not others
@@ -28,12 +67,52 @@ Without normalization:
 
 ## Scope and Boundaries
 
+## concept_id
+j07-normalization
+
+## title
+Normalization
+
+## aliases
+- J07-Normalization
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Normalization â‰  Denormalization (normalization reduces redundancy, denormalization introduces it for performance)
 - Normalization = Integrity (normalization improves data integrity)
 - Normalization is a **database design principle**, not a pattern
 
 ## When to Apply
 
+## concept_id
+j07-normalization
+
+## title
+Normalization
+
+## aliases
+- J07-Normalization
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When designing relational databases
 - when data integrity is critical
 - when data redundancy causes problems
@@ -41,6 +120,26 @@ Without normalization:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+j07-normalization
+
+## title
+Normalization
+
+## aliases
+- J07-Normalization
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Normalized databases require more joins |
@@ -49,18 +148,78 @@ Without normalization:
 
 ## Common Misuses
 
+## concept_id
+j07-normalization
+
+## title
+Normalization
+
+## aliases
+- J07-Normalization
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Normalizing everything**: Not every database needs full normalization
 - **Ignoring denormalization**: Sometimes denormalization is necessary for performance
 - **Confusing with indexing**: Normalization is about structure, indexing is about access
 
 ## Related Concepts
 
+## concept_id
+j07-normalization
+
+## title
+Normalization
+
+## aliases
+- J07-Normalization
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Denormalization](Data Databases/denormalization.md) â€” Denormalization is the opposite of normalization
 - [Database Design](Data Databases/database-design.md) â€” Database design includes normalization
 - [Referential Integrity](Data Databases/referential-integrity.md) â€” Referential integrity is maintained through normalization
 
 ## Project Observations
 
+## concept_id
+j07-normalization
+
+## title
+Normalization
+
+## aliases
+- J07-Normalization
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses normalization:
   - PostgreSQL supports normalization
   - MySQL supports normalization
@@ -72,6 +231,26 @@ Without normalization:
 
 ## Sources
 
+## concept_id
+j07-normalization
+
+## title
+Normalization
+
+## aliases
+- J07-Normalization
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 

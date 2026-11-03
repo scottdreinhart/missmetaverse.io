@@ -1,5 +1,7 @@
 ﻿---
 slug: rbac
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # RBAC

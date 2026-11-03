@@ -26,6 +26,26 @@ tags:
 
 ## Static Type Checking
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 TypeScript is a **static type checker** that predicts what code will do *before* it runs. It catches bugs that dynamic JavaScript would only reveal at runtime.
 
 ### Key Benefits
@@ -41,6 +61,26 @@ TypeScript is a **static type checker** that predicts what code will do *before*
 
 ## Primitives
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Type | Example | Description |
 |------|---------|-------------|
 | `string` | `"Hello"` | Text values |
@@ -55,6 +95,26 @@ TypeScript is a **static type checker** that predicts what code will do *before*
 
 ## Arrays
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Array<T> syntax
 let numbers: number[] = [1, 2, 3];
@@ -63,6 +123,26 @@ let strings: Array<string> = ["a", "b"];
 
 ## `any` â€” The Escape Hatch
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 let obj: any = { x: 0 };
 obj.foo();    // OK â€” no type checking
@@ -76,6 +156,26 @@ obj = "hello";// OK
 
 ## Type Annotations
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Variable annotations (go AFTER the variable name)
 let myName: string = "Alice";
@@ -100,6 +200,26 @@ async function getFavoriteNumber(): Promise<number> {
 
 ## Object Types
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 function printCoord(pt: { x: number; y: number }) {
   console.log(pt.x);
@@ -118,6 +238,26 @@ function printName(obj: { first: string; last?: string }) {
 
 ## Union Types
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Values that may be any one of the members
 function printId(id: number | string) {
@@ -145,6 +285,26 @@ function welcomePeople(x: string[] | string) {
 
 ## Type Aliases
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 type Point = { x: number; y: number };
 type ID = number | string;
@@ -157,6 +317,26 @@ type Primitive = string | number | boolean | bigint | symbol | undefined | null;
 
 ## Interfaces
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 interface Point {
   x: number;
@@ -187,6 +367,26 @@ interface Window { ts: TypeScriptAPI; }
 
 ## Type Assertions
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // "as" syntax (preferred, works in .tsx)
 const myCanvas = document.getElementById("main_canvas") as HTMLCanvasElement;
@@ -202,6 +402,26 @@ const a = expr as any as T;
 
 ## Literal Types
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Specific string/number values as types
 function printText(s: string, alignment: "left" | "right" | "center") { }
@@ -216,6 +436,26 @@ const req = { url: "https://example.com", method: "GET" } as const;
 
 ## Null & Undefined
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // With strictNullChecks: true (recommended)
 function doSomething(x: string | null) {
@@ -234,6 +474,26 @@ function liveDangerously(x?: number | null) {
 
 ## Enums
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 enum Direction { Up, Down, Left, Right }
 // Up = 0, Down = 1, Left = 2, Right = 3
@@ -247,6 +507,26 @@ enum Color { Red, Orange, Yellow, Green, Blue, Violet }
 
 ## Key Compiler Flags
 
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Flag | Purpose |
 |------|---------|
 | `strict` | Enables all strict type-checking options |
@@ -264,7 +544,27 @@ enum Color { Red, Orange, Yellow, Green, Blue, Violet }
 
 
 ## See Also
-- [[T01-TypeScript/generics]]
+
+## concept_id
+t04-ts-fundamentals
+
+## title
+TypeScript Fundamentals â€” Types & Interfaces
+
+## aliases
+- T04-ts-fundamentals
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required- [[T01-TypeScript/generics]]
 - [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
 - [[T05-TypeScript/type-inference]]

@@ -1,5 +1,7 @@
 ﻿---
 slug: separation-of-duties
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Separation of Duties

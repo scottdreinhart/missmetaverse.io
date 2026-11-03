@@ -1,5 +1,7 @@
 ﻿---
 slug: circuit-breaker
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Circuit Breaker

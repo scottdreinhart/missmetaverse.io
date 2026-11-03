@@ -1,5 +1,7 @@
 ﻿---
 slug: graphql-api-design
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # GraphQL API Design

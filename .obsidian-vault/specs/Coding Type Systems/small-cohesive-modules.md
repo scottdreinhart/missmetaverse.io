@@ -1,5 +1,7 @@
 ﻿---
 slug: small-cohesive-modules
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Small Cohesive Modules

@@ -1,5 +1,7 @@
 ﻿---
 slug: dry
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # DRY Principle

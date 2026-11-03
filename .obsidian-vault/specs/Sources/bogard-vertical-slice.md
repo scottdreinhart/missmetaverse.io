@@ -30,7 +30,27 @@ access_limitations: Free public blog
 research_notes: "Jimmy Bogard's primary source for Vertical Slice Architecture. Contrasts with traditional layered architecture and shows integration with CQRS/Mediator."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+bogard-vertical-slice
+
+## title
+bogard-vertical-slice
+
+## aliases
+- bogard-vertical-slice
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[Documentation]]
 - [[evans-ddd-2003]]

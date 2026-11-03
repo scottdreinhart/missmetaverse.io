@@ -21,17 +21,56 @@ tags:
   - principle-of-least-astonishment
   - explicit-over-implicit
   - fail-fast
-  - --
 # Core Principles
 
 ## Overview
 
+## concept_id
+a057-core-principles
+
+## title
+Core Principles
+
+## aliases
+- A057-core-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Core principles are the foundational rules that guide software design and implementation. They are universal and apply across all levels of the system.
 
 ---
 
 ## 1. Fundamental Principles
 
+## concept_id
+a057-core-principles
+
+## title
+Core Principles
+
+## aliases
+- A057-core-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### DRY (Don't Repeat Yourself)
 
 **Eliminate duplication by abstracting common behavior.**
@@ -201,6 +240,26 @@ class OrderService {
 
 ## 2. Object-Oriented Principles
 
+## concept_id
+a057-core-principles
+
+## title
+Core Principles
+
+## aliases
+- A057-core-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Information Hiding
 
 **Hide internal implementation details and expose only what's necessary.**
@@ -475,6 +534,26 @@ function findUser(id: string): User | null {
 
 ## 3. Design Philosophy
 
+## concept_id
+a057-core-principles
+
+## title
+Core Principles
+
+## aliases
+- A057-core-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Explicit over Implicit
 
 **Prefer explicit code over implicit behavior.**
@@ -528,6 +607,26 @@ function processOrder(order: Order): void {
 
 ## Cross-References
 
+## concept_id
+a057-core-principles
+
+## title
+Core Principles
+
+## aliases
+- A057-core-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
 - [DDD Patterns](./Application Architecture/domain-driven-design.md)
@@ -536,7 +635,27 @@ function processOrder(order: Order): void {
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a057-core-principles
+
+## title
+Core Principles
+
+## aliases
+- A057-core-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

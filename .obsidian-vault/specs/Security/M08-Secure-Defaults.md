@@ -9,17 +9,56 @@ tags:
   - security
   - design
   - principles
-  - --
 # Secure Defaults
 
 ## Definition
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Secure Defaults is **a security principle that systems should ship with the most secure configuration by default, requiring explicit action to reduce security**.
 
 > "Secure defaults means that systems should ship with the most secure configuration by default." â€” OWASP
 
 ## Problem Addressed
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without secure defaults:
 - **Insecure configurations**: Systems ship with insecure configurations
 - **User error**: Users don't change insecure defaults
@@ -28,12 +67,52 @@ Without secure defaults:
 
 ## Scope and Boundaries
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Secure Defaults â‰  Security Testing (secure defaults prevent security issues through configuration, security testing finds them)
 - Secure Defaults = Configuration (secure defaults are about configuration)
 - Secure Defaults is a **security principle**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building systems that ship with configurations
 - when security is critical
 - when users may not change configurations
@@ -41,6 +120,26 @@ Without secure defaults:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Usability** â€” Secure defaults may reduce usability |
@@ -49,18 +148,78 @@ Without secure defaults:
 
 ## Common Misuses
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything secure by default**: Not every configuration needs secure defaults
 - **Ignoring usability**: Secure defaults should not severely impact usability
 - **Confusing with secure by design**: Secure defaults is about configuration, secure by design is about design
 
 ## Related Concepts
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Security Principles](Security/security-principles.md) â€” Security principles include secure defaults
 - [Secure by Design](Security/secure-by-design.md) â€” Secure by design includes secure defaults
 - [Deny by Default](Security/deny-by-default.md) â€” Deny by default is related to secure defaults
 
 ## Project Observations
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses secure defaults:
   - TypeScript supports secure defaults through strict mode
   - Vite supports secure defaults through secure configuration
@@ -72,6 +231,26 @@ Without secure defaults:
 
 ## Sources
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -79,6 +258,26 @@ Without secure defaults:
 
 ## Decision Tree: Secure Defaults Configuration
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Configuring application?]
@@ -109,6 +308,26 @@ graph TD
 
 ## Procedural Guidance: Secure Defaults Implementation
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: TypeScript Strict Mode
 
 ```json
@@ -312,6 +531,26 @@ export const databaseConfig = {
 
 ## Copilot Instructions
 
+## concept_id
+m08-secure-defaults
+
+## title
+Secure Defaults
+
+## aliases
+- M08-Secure-Defaults
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Configuring application security defaults
 - Setting up TypeScript strict mode

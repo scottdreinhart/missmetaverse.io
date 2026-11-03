@@ -42,7 +42,27 @@ access_limitations: None
 research_notes: "MDN CSS documentation. Primary authoritative source for CSS specifications, features, and browser compatibility."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+mdn-css-2024
+
+## title
+mdn-css-2024
+
+## aliases
+- mdn-css-2024
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

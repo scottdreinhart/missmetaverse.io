@@ -1,5 +1,7 @@
 ﻿---
 slug: wcag-21
+tags:
+  - source   - reference   - external
 title: WCAG 2.1 â€” Web Content Accessibility Guidelines
 description: W3C Web Content Accessibility Guidelines 2.1 â€” the international standard for web accessibility covering perceivable, operable, understandable, and robust content.
 author: Copilot
@@ -28,10 +30,50 @@ tags:
 
 ## Overview
 
+## concept_id
+wcag-21
+
+## title
+WCAG 2.1 â€” Web Content Accessibility Guidelines
+
+## aliases
+- wcag-21
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 WCAG 2.1 is the **W3C Web Content Accessibility Guidelines 2.1**, the international standard for making web content accessible to people with disabilities. It builds on WCAG 2.0 with 17 additional success criteria focused on mobile and low-vision accessibility.
 
 ## Conformance Levels
 
+## concept_id
+wcag-21
+
+## title
+WCAG 2.1 â€” Web Content Accessibility Guidelines
+
+## aliases
+- wcag-21
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 | Level | Description | Requirement |
 |-------|-------------|-------------|
 | **A** | Minimum | Critical accessibility barriers removed |
@@ -40,6 +82,26 @@ WCAG 2.1 is the **W3C Web Content Accessibility Guidelines 2.1**, the internatio
 
 ## Four Principles (POUR)
 
+## concept_id
+wcag-21
+
+## title
+WCAG 2.1 â€” Web Content Accessibility Guidelines
+
+## aliases
+- wcag-21
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 ### 1. Perceivable
 
 Information and UI components must be presentable to users in ways they can perceive.
@@ -83,6 +145,26 @@ Content must be robust enough to work with current and future assistive technolo
 
 ## WCAG 2.1 Additions (over 2.0)
 
+## concept_id
+wcag-21
+
+## title
+WCAG 2.1 â€” Web Content Accessibility Guidelines
+
+## aliases
+- wcag-21
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 | Criterion | Level | Focus |
 |-----------|-------|-------|
 | 1.4.10 Re-flow | AA | Content reflows at 320px without horizontal scrolling |
@@ -97,6 +179,26 @@ Content must be robust enough to work with current and future assistive technolo
 
 ## Legal Framework
 
+## concept_id
+wcag-21
+
+## title
+WCAG 2.1 â€” Web Content Accessibility Guidelines
+
+## aliases
+- wcag-21
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 | Jurisdiction | Requirement | Reference |
 |-------------|-------------|-----------|
 | **USA** | ADA Title III, Section 508 | WCAG 2.1 AA |
@@ -107,6 +209,26 @@ Content must be robust enough to work with current and future assistive technolo
 
 ## Testing Tools
 
+## concept_id
+wcag-21
+
+## title
+WCAG 2.1 â€” Web Content Accessibility Guidelines
+
+## aliases
+- wcag-21
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 | Tool | Purpose | Platform |
 |------|---------|----------|
 | **axe DevTools** | Automated a11y testing | Chrome, Firefox, VS Code |
@@ -119,6 +241,26 @@ Content must be robust enough to work with current and future assistive technolo
 
 ## Key Metrics
 
+## concept_id
+wcag-21
+
+## title
+WCAG 2.1 â€” Web Content Accessibility Guidelines
+
+## aliases
+- wcag-21
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 | Metric | Target |
 |--------|--------|
 | Color contrast ratio (normal text) | 4.5:1 minimum |
@@ -136,7 +278,27 @@ Content must be robust enough to work with current and future assistive technolo
 *Last Verified: 2026-11-02*
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+wcag-21
+
+## title
+WCAG 2.1 â€” Web Content Accessibility Guidelines
+
+## aliases
+- wcag-21
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

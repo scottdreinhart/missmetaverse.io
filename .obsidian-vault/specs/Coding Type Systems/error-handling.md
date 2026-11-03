@@ -1,5 +1,7 @@
 ﻿---
 slug: error-handling
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Error Handling

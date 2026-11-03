@@ -27,6 +27,26 @@ tags:
 
 ## Generics
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Generic function
 function identity<T>(arg: T): T {
@@ -48,6 +68,26 @@ function loggingIdentity<T extends { length: number }>(arg: T): T {
 
 ## Keyof Type Operator
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 interface Person {
   name: string;
@@ -60,6 +100,26 @@ type PersonKeys = keyof Person; // "name" | "age" | "location"
 
 ## Typeof Type Operator
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Gets the type of a value, usable in type position
 import React from "react";
@@ -72,6 +132,26 @@ type SquireFunc = typeof squire; // (x: number) => number
 
 ## Indexed Access Types
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 interface Person {
   name: string;
@@ -89,6 +169,26 @@ type K3 = K1 | "job";   // "name" | "age" | "location" | "job"
 
 ## Conditional Types
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Syntax: T extends U ? X : Y
 type IsString<T> = T extends string ? true : false;
@@ -143,6 +243,26 @@ type ArrOfStrOrNum = ToArrayNonDist<string | number>;
 
 ## Mapped Types
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Make all properties optional
 type Optional<T> = {
@@ -168,6 +288,26 @@ type PrefixKeys<T, Prefix extends string> = {
 
 ## Template Literal Types
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // String literal transformations
 type World = "world";
@@ -190,6 +330,26 @@ type CamelCase<S extends string> = S extends `${infer First}_${infer Rest}`
 
 ## Utility Types (Built-in)
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Type | Description |
 |------|-------------|
 | `Partial<T>` | All properties optional |
@@ -210,6 +370,26 @@ type CamelCase<S extends string> = S extends `${infer First}_${infer Rest}`
 
 ## Type Assertions vs Type Guards
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Feature | Type Assertion | Type Guard |
 |---------|---------------|------------|
 | Syntax | `as Type` or `<Type>` | `x is Type` function |
@@ -222,12 +402,52 @@ type CamelCase<S extends string> = S extends `${infer First}_${infer Rest}`
 
 ## Decision Tree: Advanced Type Selection
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to define type?]\n    A --> B{Generic?}\n    B -->|Yes| C[Generic type]\n    B -->|No| D{Conditional?}\n    D -->|Yes| E[Conditional type]\n    D -->|No| F{Mapped?}\n    F -->|Yes| G[Mapped type]\n    F -->|No| H{Template literal?}\n    H -->|Yes| I[Template literal type]\n    H -->|No| J[Utility type]\n    C --> K[T extends constraint]\n    E --> L[T extends U ? X : Y]\n    G --> M[{[P in keyof T]: T[P]}}\n    I --> N[`${Prefix}${keyof T}`]\n```\n\n### Type Selection Guide\n\n| Type Feature | When to Use | Example |\n|--------------|-------------|---------|\n| **Generics** | Reusable types/functions | `identity<T>(arg: T): T` |\n| **Conditional** | Type depends on condition | `T extends string ? true : false` |\n| **Mapped** | Transform all properties | `Partial<T>`, `Readonly<T>` |\n| **Template Literal** | String literal types | `On${Capitalize<string>}` |\n| **Utility** | Common transformations | `Pick<T, K>`, `Omit<T, K>` |\n\n---
 
 ## Procedural Guidance: Advanced Type Implementation
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Create Generic Types
 
 ```typescript
@@ -372,6 +592,26 @@ export function isUser(obj: unknown): obj is { id: string; name: string } {
 
 ## Copilot Instructions
 
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Creating generic types
 - Implementing conditional types
@@ -420,7 +660,27 @@ export function isUser(obj: unknown): obj is { id: string; name: string } {
 
 
 ## See Also
-- [[T02-TypeScript/typescript-strict-mode]]
+
+## concept_id
+t01-ts-advanced-types
+
+## title
+TypeScript Advanced Types
+
+## aliases
+- T01-ts-advanced-types
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required- [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
 - [[T04-TypeScript/typescript-strict-mode]]
 - [[T05-TypeScript/type-inference]]

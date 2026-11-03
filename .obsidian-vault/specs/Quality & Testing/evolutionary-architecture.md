@@ -1,5 +1,7 @@
 ﻿---
 slug: evolutionary-architecture
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Evolutionary Architecture

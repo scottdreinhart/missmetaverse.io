@@ -1,5 +1,7 @@
 ﻿---
 slug: clean-architecture-layers
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Clean Architecture Layers

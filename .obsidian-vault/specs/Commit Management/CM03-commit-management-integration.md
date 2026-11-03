@@ -15,17 +15,56 @@ tags:
   - conventional-commits
   - release-automation
   - git-workflow
-  - --
 # Commit Management â€” Complete Integration
 
 ## Overview
 
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 This note shows how to integrate all commit management tools into a cohesive workflow: cz-git (interactive prompts) â†’ commitlint (validation) â†’ Husky (hooks) â†’ validate-branch-name (branch rules) â†’ conventional-changelog (changelog generation) â†’ release-it (automated releases).
 
 ---
 
 ## 1. Complete Architecture
 
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ```
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚                    DEVELOPER WORKFLOW                            â”‚
@@ -78,6 +117,26 @@ This note shows how to integrate all commit management tools into a cohesive wor
 
 ## 2. Complete Setup
 
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Install All Tools
 
 ```bash
@@ -270,6 +329,26 @@ pnpm test:ci || exit 1
 
 ## 3. Directory Structure
 
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ```
 my-project/
 â”œâ”€â”€ .husky/
@@ -289,6 +368,26 @@ my-project/
 
 ## 4. Usage Examples
 
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Creating a Commit
 
 ```bash
@@ -371,6 +470,26 @@ pnpm release:ci
 
 ## 5. CI/CD Pipeline
 
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### GitHub Actions
 
 ```yaml
@@ -446,6 +565,26 @@ jobs:
 
 ## 6. Troubleshooting
 
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Common Issues
 
 | Problem | Solution |
@@ -480,6 +619,26 @@ HUSKY=1 git commit -m "test"
 
 ## 7. Best Practices
 
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Do's
 
 - âœ… Use cz-git for interactive commits with emoji
@@ -503,6 +662,26 @@ HUSKY=1 git commit -m "test"
 
 ## Cross-References
 
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Commitizen & cz-git](./commitizen-cz-git.md)
 - [Commitlint CLI & Config](./commitlint-cli-config.md)
 - [Husky Git Hooks](./husky-git-hooks.md)
@@ -513,7 +692,27 @@ HUSKY=1 git commit -m "test"
 - [Linting & Husky Pipeline](./Integration/linting-husky-pipeline.md)
 
 ## See Also
-- [[CM01-commitizen-cz-git]]
+
+## concept_id
+cm03-commit-management-integration
+
+## title
+Commit Management â€” Complete Integration
+
+## aliases
+- CM03-commit-management-integration
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required- [[CM01-commitizen-cz-git]]
 - [[CM02-commitlint-cli-config]]
 - [[CM04-conventional-changelog]]
 - [[CM05-husky-git-hooks]]

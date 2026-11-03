@@ -10,17 +10,56 @@ tags:
   - domain-invariant
   - domain-modeling
   - consistency
-  - --
 # Domain Invariant
 
 ## Definition
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Domain Invariant is **a rule or constraint about the domain that must always be true â€” invariants define the valid states of domain objects**.
 
 > "An invariant is a rule about the domain that must always be true, regardless of what operations are performed." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without domain invariants:
 - **Invalid state**: Objects can be in invalid states
 - **Business rule violations**: Business rules are not enforced
@@ -29,12 +68,52 @@ Without domain invariants:
 
 ## Scope and Boundaries
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Domain Invariant â‰  Validation (domain invariants are business rules, validation is often UI-level)
 - Domain Invariant = Consistency (domain invariants ensure consistency)
 - Domain Invariant is a **domain concept**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building domain models
 - when business rules must be enforced
 - when data integrity is critical
@@ -42,6 +121,26 @@ Without domain invariants:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Invariants add validation complexity |
@@ -50,18 +149,78 @@ Without domain invariants:
 
 ## Common Misuses
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Every constraint an invariant**: Not every constraint needs to be an invariant
 - **Ignoring timing**: Invariants must hold at all times, not just at certain points
 - **Confusing with validation**: Domain invariants are different from input validation
 
 ## Related Concepts
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Aggregate](DDD/aggregate.md) â€” Aggregates maintain domain invariants
 - [Aggregate Root](DDD/aggregate-root.md) â€” Aggregate roots enforce domain invariants
 - [Design by Contract](Architecture/design-by-contract.md) â€” Design by contract enforces invariants
 
 ## Project Observations
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses domain invariants:
   - TypeScript type system can enforce some invariants
   - Zod can validate domain invariants
@@ -73,6 +232,26 @@ Without domain invariants:
 
 ## Sources
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -80,6 +259,26 @@ Without domain invariants:
 
 ## Decision Tree: Domain Invariant Design
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to enforce rule?]\n    A --> B{Always true?}
@@ -109,6 +308,26 @@ graph TD
 
 ## Procedural Guidance: Domain Invariant Implementation
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Invariants in Entity
 
 ```typescript
@@ -386,6 +605,26 @@ describe('AccountEntity Invariants', () => {
 
 ## Copilot Instructions
 
+## concept_id
+c08-domain-invariant
+
+## title
+Domain Invariant
+
+## aliases
+- C08-Domain-Invariant
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Implementing domain invariants
 - Enforcing business rules in entities

@@ -12,17 +12,56 @@ tags:
   - design
   - oop
   - typescript
-  - --
 # SOLID Principles
 
 ## Overview
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 SOLID is a mnemonic acronym for five principles that make source code more understandable, flexible, and maintainable. Introduced by Robert C. Martin in 2000, the acronym was coined by Michael Feathers around 2004.
 
 ---
 
 ## 1. Single Responsibility Principle (SRP)
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Definition
 
 A module has **one cohesive responsibility** and **one primary reason to change**.
@@ -81,6 +120,26 @@ class EmailValidator {
 
 ## 2. Open/Closed Principle (OCP)
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Definition
 
 Software entities should be **open for extension** but **closed for modification**.
@@ -161,6 +220,26 @@ calculator.register('clothing', new ClothingPriceStrategy())
 
 ## 3. Liskov Substitution Principle (LSP)
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Definition
 
 Implementations must **honor the behavioral contracts** of their abstractions. Subtypes must be substitutable for their base types without altering correctness.
@@ -225,6 +304,26 @@ class Swan implements Flyable, Swimable {
 
 ## 4. Interface Segregation Principle (ISP)
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Definition
 
 Expose **focused interfaces** so consumers depend only on capabilities they use. No client should be forced to depend on methods it does not use.
@@ -312,6 +411,26 @@ class Robot implements Workable, Coder {
 
 ## 5. Dependency Inversion Principle (DIP)
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Definition
 
 High-level policy depends on **abstractions**; implementation details satisfy those abstractions.
@@ -389,6 +508,26 @@ const service2 = new OrderService(new MongoDB())
 
 ## SOLID Integration Map
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚                    SOLID PRINCIPLES                         â”‚
@@ -411,6 +550,26 @@ const service2 = new OrderService(new MongoDB())
 
 ## Common Anti-Patterns
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Anti-Pattern                    | Violation | Fix                        |
 | ------------------------------- | --------- | -------------------------- |
 | **God Object**                  | SRP       | Split into focused modules |
@@ -423,6 +582,26 @@ const service2 = new OrderService(new MongoDB())
 
 ## Cross-References
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Clean Architecture](./clean-architecture.md)
 - [DDD Patterns](./Application Architecture/domain-driven-design.md)
 - [Design Patterns](./design-patterns.md)
@@ -433,6 +612,26 @@ const service2 = new OrderService(new MongoDB())
 
 ## Copilot Instructions
 
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Writing new classes or interfaces
 - Refactoring code that's hard to test
@@ -480,7 +679,27 @@ const service2 = new OrderService(new MongoDB())
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a206-solid-principles
+
+## title
+SOLID Principles
+
+## aliases
+- A206-solid-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

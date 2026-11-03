@@ -24,17 +24,56 @@ tags:
   - incremental-refactoring
   - evolutionary-architecture
   - performance-budgets
-  - --
 # Quality, Delivery & Maintainability Practices
 
 ## Overview
 
+## concept_id
+a180-quality-delivery-maintainability
+
+## title
+Quality, Delivery & Maintainability Practices
+
+## aliases
+- A180-quality-delivery-maintainability
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Quality, delivery, and maintainability practices ensure software is reliable, deliverable, and sustainable over time.
 
 ---
 
 ## 1. Testing Practices
 
+## concept_id
+a180-quality-delivery-maintainability
+
+## title
+Quality, Delivery & Maintainability Practices
+
+## aliases
+- A180-quality-delivery-maintainability
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### TDD (Test-Driven Development)
 
 **Write tests before implementation. Red â†’ Green â†’ Refactor.**
@@ -268,6 +307,26 @@ describe('OrderService Provider', () => {
 
 ## 2. Delivery Practices
 
+## concept_id
+a180-quality-delivery-maintainability
+
+## title
+Quality, Delivery & Maintainability Practices
+
+## aliases
+- A180-quality-delivery-maintainability
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Architecture Fitness Functions
 
 **Automated checks to verify architectural properties.**
@@ -369,6 +428,26 @@ RUN sha256sum dist/index.html > build-checksum.txt
 
 ## 3. Observability
 
+## concept_id
+a180-quality-delivery-maintainability
+
+## title
+Quality, Delivery & Maintainability Practices
+
+## aliases
+- A180-quality-delivery-maintainability
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### SLOs (Service Level Objectives)
 
 **Define measurable reliability targets.**
@@ -448,6 +527,26 @@ trace.spans.push({ name: 'save', duration: 10 })
 
 ## 4. Maintainability Practices
 
+## concept_id
+a180-quality-delivery-maintainability
+
+## title
+Quality, Delivery & Maintainability Practices
+
+## aliases
+- A180-quality-delivery-maintainability
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### ADRs (Architecture Decision Records)
 
 **Document architectural decisions and their context.**
@@ -585,6 +684,26 @@ class PerformanceMonitor {
 
 ## Cross-References
 
+## concept_id
+a180-quality-delivery-maintainability
+
+## title
+Quality, Delivery & Maintainability Practices
+
+## aliases
+- A180-quality-delivery-maintainability
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
 - [DDD Patterns](./Application Architecture/domain-driven-design.md)
@@ -593,7 +712,27 @@ class PerformanceMonitor {
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a180-quality-delivery-maintainability
+
+## title
+Quality, Delivery & Maintainability Practices
+
+## aliases
+- A180-quality-delivery-maintainability
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

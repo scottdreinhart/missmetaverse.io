@@ -34,9 +34,51 @@ tags:
 
 ## Overview
 
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 CSS Media Queries allow content to adapt to different conditions: screen size, device type, resolution, orientation, color capability, and more. They are the foundation of responsive web design.
 
 ## Syntax
+
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ```css
 @media <media-condition> {
@@ -47,6 +89,27 @@ CSS Media Queries allow content to adapt to different conditions: screen size, d
 ---
 
 ## Media Types
+
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 Media types define the **category of device** the styles apply to. Most are deprecated in favor of media features.
 
@@ -79,6 +142,27 @@ Media types define the **category of device** the styles apply to. Most are depr
 ---
 
 ## Media Features
+
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 Media features test **specific characteristics** of the device/environment.
 
@@ -150,6 +234,27 @@ Media features test **specific characteristics** of the device/environment.
 
 ## Common Breakpoints
 
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Mobile-First Approach
 
 ```css
@@ -200,6 +305,27 @@ Media features test **specific characteristics** of the device/environment.
 
 ## Logical Operators
 
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### AND
 
 ```css
@@ -248,6 +374,27 @@ Media features test **specific characteristics** of the device/environment.
 
 ## Container Queries
 
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 Container queries allow styles based on the **parent container's size**, not the viewport.
 
 ```css
@@ -287,6 +434,27 @@ Container queries allow styles based on the **parent container's size**, not the
 ---
 
 ## Device-Specific Queries
+
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### High DPI / Retina
 
@@ -361,6 +529,27 @@ Container queries allow styles based on the **parent container's size**, not the
 
 ## Best Practices
 
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 | Practice | Description |
 |----------|-------------|
 | **Mobile-first** | Start with mobile styles, add breakpoints with `min-width` |
@@ -376,6 +565,27 @@ Container queries allow styles based on the **parent container's size**, not the
 
 ## Integration with Other Notes
 
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - Read [css-fundamentals](D/css-fundamentals.md) for CSS fundamentals
 - Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS patterns
 - Read [[responsive-design]] for responsive design patterns
@@ -384,6 +594,27 @@ Container queries allow styles based on the **parent container's size**, not the
 ---
 
 ## Decision Tree: Media Query Selection
+
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ```mermaid
 graph TD
@@ -420,6 +651,27 @@ graph TD
 ---
 
 ## Procedural Guidance: Responsive Design Setup
+
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Step 1: Mobile-First Base Styles
 
@@ -545,6 +797,27 @@ body {
 
 ## Copilot Instructions
 
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### When to Read This Note
 - Building responsive layouts
 - Implementing dark mode
@@ -597,6 +870,27 @@ body {
 *Last Verified: 2026-11-02*
 
 ## See Also
+
+## concept_id
+cs03-css-media-queries
+
+## title
+CS03-css-media-queries
+
+## aliases
+- CS03-css-media-queries
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[CS01-css3-performance-security]]
 - [[CS02-css-fundamentals]]
 

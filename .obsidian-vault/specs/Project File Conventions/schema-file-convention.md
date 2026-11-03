@@ -1,5 +1,7 @@
 ﻿---
 slug: schema-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Schema File Convention

@@ -10,17 +10,56 @@ tags:
   - aggregate-root
   - domain-modeling
   - boundary
-  - --
 # Aggregate Root
 
 ## Definition
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Aggregate Root is **the single entry point to an aggregate â€” all external access to aggregate objects goes through the root**.
 
 > "The root object is the only member of the aggregate that external objects can hold references to." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without aggregate roots:
 - **Inconsistent state**: External code can bypass consistency rules
 - **Complex access**: No clear entry point to the aggregate
@@ -29,12 +68,52 @@ Without aggregate roots:
 
 ## Scope and Boundaries
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Aggregate Root â‰  Aggregate (aggregate root is the entry point, aggregate is the cluster)
 - Aggregate Root = Boundary (aggregate root defines the access boundary)
 - Aggregate Root is a **domain model building block**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building aggregates with multiple objects
 - when consistency within an aggregate is critical
 - when transaction boundaries need to be enforced
@@ -42,6 +121,26 @@ Without aggregate roots:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Aggregate roots add modeling complexity |
@@ -50,18 +149,78 @@ Without aggregate roots:
 
 ## Common Misuses
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Every class a root**: Not every class needs to be an aggregate root
 - **Cross-root references**: Use IDs, not object references, to reference other aggregate roots
 - **Ignoring performance**: Loading entire aggregates can be expensive
 
 ## Related Concepts
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Aggregate](DDD/aggregate.md) â€” Aggregate root is the entry point to an aggregate
 - [Entity](DDD/entity.md) â€” Aggregate roots are entities
 - [Domain Invariant](DDD/domain-invariant.md) â€” Aggregate roots maintain domain invariants
 
 ## Project Observations
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses aggregate roots:
   - TypeScript classes can serve as aggregate roots
   - The project's architecture patterns note covers DDD concepts
@@ -72,6 +231,26 @@ Without aggregate roots:
 
 ## Sources
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -79,6 +258,26 @@ Without aggregate roots:
 
 ## Decision Tree: Aggregate Root Design
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need aggregate root?]\n    A --> B{Multiple objects?}
@@ -108,6 +307,26 @@ graph TD
 
 ## Procedural Guidance: Aggregate Root Implementation
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Aggregate Root
 
 ```typescript
@@ -363,6 +582,26 @@ export class CreateOrderService {
 
 ## Copilot Instructions
 
+## concept_id
+c07-aggregate-root
+
+## title
+Aggregate Root
+
+## aliases
+- C07-Aggregate-Root
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Designing aggregate roots
 - Implementing domain boundaries

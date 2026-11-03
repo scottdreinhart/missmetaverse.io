@@ -1,5 +1,7 @@
 ﻿---
 slug: database-migrations
+tags:
+  - database   - data   - backend
 ---
 
 # Database Migrations

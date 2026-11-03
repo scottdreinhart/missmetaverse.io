@@ -1,5 +1,7 @@
 ﻿---
 slug: security-headers
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Security Headers

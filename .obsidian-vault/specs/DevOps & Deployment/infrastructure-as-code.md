@@ -1,5 +1,7 @@
 ﻿---
 slug: infrastructure-as-code
+tags:
+  - devops   - deployment   - cicd
 ---
 
 # Infrastructure as Code

@@ -9,17 +9,56 @@ tags:
   - value-object
   - domain-modeling
   - immutability
-  - --
 # Value Object
 
 ## Definition
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Value Object is **an object whose equality is based on value rather than identity â€” two value objects are equal if their attributes are equal**.
 
 > "An object containing attributes or values but without identity. Two value objects are equal when all their parts are equal." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without value objects:
 - **Identity confusion**: Objects compared by reference instead of value
 - **Immutability issues**: Values can be changed unexpectedly
@@ -28,12 +67,52 @@ Without value objects:
 
 ## Scope and Boundaries
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Value Object â‰  Entity (value object has no identity, entity has identity)
 - Value Object = Immutability (value objects are typically immutable)
 - Value Object is a **domain model building block**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building domain models
 - when value equality matters (not reference equality)
 - when immutability is important
@@ -41,6 +120,26 @@ Without value objects:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Value objects add boilerplate |
@@ -49,18 +148,78 @@ Without value objects:
 
 ## Common Misuses
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything a value object**: Not every data class needs value object semantics
 - **Ignoring immutability**: Value objects should be immutable
 - **Confusing with DTO**: Value objects belong in the domain layer, DTOs belong in the presentation layer
 
 ## Related Concepts
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Entity](DDD/entity.md) â€” Entities have identity, value objects don't
 - [Aggregate](DDD/aggregate.md) â€” Aggregates contain value objects
 - [Immutable Data](Architecture/immutable-data.md) â€” Value objects are typically immutable
 
 ## Project Observations
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses value objects:
   - TypeScript `readonly` can enforce value object immutability
   - Discriminated unions can represent value objects
@@ -72,6 +231,26 @@ Without value objects:
 
 ## Sources
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -79,6 +258,26 @@ Without value objects:
 
 ## Decision Tree: Value Object Design
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to model object?]\n    A --> B{Identity matters?}
@@ -108,6 +307,26 @@ graph TD
 
 ## Procedural Guidance: Value Object Implementation
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Value Object
 
 ```typescript
@@ -375,6 +594,26 @@ describe('MoneyValueObject', () => {
 
 ## Copilot Instructions
 
+## concept_id
+c05-value-object
+
+## title
+Value Object
+
+## aliases
+- C05-Value-Object
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Implementing value objects
 - Creating immutable domain objects

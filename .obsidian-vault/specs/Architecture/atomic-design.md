@@ -1,5 +1,7 @@
 ﻿---
 slug: atomic-design
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Atomic Design

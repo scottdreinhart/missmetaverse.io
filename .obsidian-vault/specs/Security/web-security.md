@@ -1,5 +1,7 @@
 ﻿---
 slug: web-security
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Web Security

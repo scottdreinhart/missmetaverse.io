@@ -1,5 +1,7 @@
 ﻿---
 slug: typescript-configuration
+tags:
+  - typescript   - type-system   - coding
 ---
 
 # TypeScript Configuration

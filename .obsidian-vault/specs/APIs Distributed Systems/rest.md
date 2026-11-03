@@ -1,5 +1,7 @@
 ﻿---
 slug: rest
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # REST

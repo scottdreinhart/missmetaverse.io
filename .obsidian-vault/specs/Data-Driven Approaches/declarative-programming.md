@@ -1,5 +1,7 @@
 ﻿---
 slug: declarative-programming
+tags:
+  - data-driven   - declarative   - architecture
 ---
 
 # Declarative Programming

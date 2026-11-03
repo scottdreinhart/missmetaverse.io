@@ -1,5 +1,7 @@
 ﻿---
 slug: domain-invariant
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Domain Invariant

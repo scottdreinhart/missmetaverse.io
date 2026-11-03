@@ -16,15 +16,54 @@ tags:
   - security
   - performance
   - best-practices
-  - --
 # Vite: Optimization, Security & Best Practices
 
 ## Overview
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Vite is a next-generation frontend build tool that leverages native ESM in development for instant server starts and on-demand compilation. In production, it uses Rolldown (Rollup successor) for optimized builds.
 
 ## Development Server Optimization
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Instant Server Start
 
 Vite serves source code natively via the browser's ESM support â€” no bundling needed in dev:
@@ -72,6 +111,26 @@ export default defineConfig({
 
 ## Production Build Optimization
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Basic Build
 
 ```bash
@@ -225,6 +284,26 @@ export default defineConfig({
 
 ## Environment Variables & Security
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### .env Files
 
 ```bash
@@ -308,6 +387,26 @@ vite build --mode development
 
 ## Performance Optimization
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Dependency Pre-Bundling
 
 Vite pre-bundles dependencies for faster page loads:
@@ -382,6 +481,26 @@ export default defineConfig({
 
 ## Deployment Optimization
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Cache Strategy
 
 ```html
@@ -423,6 +542,26 @@ export default defineConfig({
 
 ## Security Best Practices
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Content Security Policy
 
 ```html
@@ -471,6 +610,26 @@ export default defineConfig({
 
 ## Vite Configuration Reference
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Key Config Options
 
 | Option | Description | Default |
@@ -507,6 +666,26 @@ export default defineConfig({
 
 ## Best Practices Checklist
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [x] **Use `vite build`** for production builds
 - [x] **Set `build.target`** for target browsers
 - [x] **Use `manualChunks`** for vendor splitting
@@ -525,6 +704,26 @@ export default defineConfig({
 
 ## Cross-References
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - See [React/modern-react-performance](D/React/modern-react-performance.md) for React optimization
 - See [Package Manager/pnpm-package-manager](D/Package Manager/pnpm-package-manager.md) for package management
 - See [vitest-testing](D/vitest-testing.md) for testing setup
@@ -534,6 +733,26 @@ export default defineConfig({
 
 ## Decision Tree: Vite Build Optimization
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to optimize Vite build?]\n    A --> B{What type?}
@@ -563,6 +782,26 @@ graph TD
 
 ## Procedural Guidance: Vite Optimization Setup
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Configure Manual Chunks
 
 ```typescript
@@ -675,6 +914,26 @@ export default defineConfig({
 
 ## Copilot Instructions
 
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Optimizing Vite build size
 - Configuring manual chunks
@@ -724,6 +983,26 @@ export default defineConfig({
 
 
 ## See Also
-- [[B01-vite-configuration]]
+
+## concept_id
+b02-vite-optimization-security
+
+## title
+Vite: Optimization, Security & Best Practices
+
+## aliases
+- B02-vite-optimization-security
+
+## category
+build-tools
+
+## concept_type
+build-pattern
+
+## research_status
+verified
+
+## project_adoption
+required- [[B01-vite-configuration]]
 
 

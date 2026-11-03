@@ -10,17 +10,56 @@ tags:
   - api
   - design
   - patterns
-  - --
 # REST API Design
 
 ## Definition
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 REST API Design is an **architecture style for designing networked applications using HTTP methods and resources**.
 
 > "REST (Representational State Transfer) is an architecture style for designing networked applications." â€” Wikipedia
 
 ## Problem Addressed
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without REST API design:
 - **Inconsistency**: APIs are inconsistent
 - **Coupling**: Clients are coupled to APIs
@@ -29,12 +68,52 @@ Without REST API design:
 
 ## Scope and Boundaries
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - REST â‰  GraphQL (REST is an architecture style, GraphQL is a query language)
 - REST â‰  API (REST is an architecture style, API is a boundary)
 - REST is an **architecture style**, not a query language
 
 ## When to Apply
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - when API consistency matters
 - when scalability is important
@@ -42,6 +121,26 @@ Without REST API design:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” REST is complex |
@@ -50,18 +149,78 @@ Without REST API design:
 
 ## Common Misuses
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything REST**: Not everything needs REST
 - **Confusing with GraphQL**: REST â‰  GraphQL
 - **Over-REST**: Too much REST creates complexity
 
 ## Related Concepts
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [GraphQL Patterns](graphql-patterns.md) â€” REST with GraphQL
 - [API Versioning](api-versioning.md) â€” REST with API versioning
 - [Data Transfer Objects](data-transfer-objects.md) â€” REST with DTOs
 
 ## Project Observations
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses REST:
   - The project's architecture patterns note covers REST (from existing notes)
   - No evidence of REST in existing code (src/ is empty)
@@ -73,6 +232,26 @@ Without REST API design:
 
 ## Copilot Instructions
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Creating new API endpoints
 - Designing API contracts
@@ -125,6 +304,26 @@ Without REST API design:
 
 ## Sources
 
+## concept_id
+a189-rest-api-design
+
+## title
+REST API Design
+
+## aliases
+- A189-rest-api-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

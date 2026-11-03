@@ -1,5 +1,7 @@
 ﻿---
 slug: principle-of-least-astonishment
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Principle of Least Astonishment

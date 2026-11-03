@@ -1,5 +1,7 @@
 ﻿---
 slug: kiss
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # KISS

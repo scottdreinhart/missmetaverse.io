@@ -1,5 +1,7 @@
 ﻿---
 slug: zod-schema-validation
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Zod Schema Validation

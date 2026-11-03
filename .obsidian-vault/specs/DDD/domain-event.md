@@ -1,5 +1,7 @@
 ﻿---
 slug: domain-event
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Domain Event

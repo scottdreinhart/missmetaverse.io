@@ -1,5 +1,7 @@
 ﻿---
 slug: database-sharding
+tags:
+  - database   - data   - backend
 ---
 
 # Database Sharding

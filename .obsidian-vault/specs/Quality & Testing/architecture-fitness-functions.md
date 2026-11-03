@@ -1,5 +1,7 @@
 ﻿---
 slug: architecture-fitness-functions
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Architecture Fitness Functions

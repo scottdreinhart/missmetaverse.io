@@ -1,5 +1,7 @@
 ﻿---
 slug: exhaustive-handling
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Exhaustive Handling

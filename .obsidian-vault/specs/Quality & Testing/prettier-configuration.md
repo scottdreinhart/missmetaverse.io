@@ -1,5 +1,7 @@
 ﻿---
 slug: prettier-configuration
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Prettier Configuration

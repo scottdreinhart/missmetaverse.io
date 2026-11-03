@@ -1,5 +1,7 @@
 ﻿---
 slug: conventional-commits
+tags:
+  - git   - version-control   - conventions
 ---
 
 # Conventional Commits

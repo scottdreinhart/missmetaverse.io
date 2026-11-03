@@ -1,5 +1,7 @@
 ﻿---
 slug: paypal-integration
+tags:
+  - payment   - integration   - backend
 ---
 
 # PayPal Integration

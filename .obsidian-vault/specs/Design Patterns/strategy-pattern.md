@@ -1,5 +1,7 @@
 ﻿---
 slug: strategy-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Strategy Pattern

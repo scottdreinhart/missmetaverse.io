@@ -1,5 +1,7 @@
 ﻿---
 slug: factory-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Factory Pattern

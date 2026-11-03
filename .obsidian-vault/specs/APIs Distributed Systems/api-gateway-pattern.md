@@ -1,5 +1,7 @@
 ﻿---
 slug: api-gateway-pattern
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # API Gateway Pattern

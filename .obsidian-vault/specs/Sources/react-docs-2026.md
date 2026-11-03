@@ -39,7 +39,27 @@ research_notes: "Official React documentation (react.dev). Replaced the old docs
 
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+react-docs-2026
+
+## title
+react-docs-2026
+
+## aliases
+- react-docs-2026
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

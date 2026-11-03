@@ -1,4 +1,4 @@
----
+﻿---
 slug: adr-template
 title: Architecture Decision Record Template
 description: Template for recording architectural decisions with context, options considered, consequences, and status tracking.
@@ -39,11 +39,32 @@ access_limitations: None
 
 ## ADR-XXX: [Short Title Describing the Decision]
 
+## concept_id
+adr-template
+
+## title
+adr-template
+
+## aliases
+- adr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 ### Status
-- [ ] **Proposed** — Decision under consideration, not yet implemented
-- [ ] **Accepted** — Decision approved, implementation in progress
-- [ ] **Deprecated** — Decision no longer recommended, replacement identified
-- [ ] **Superseded** — Replaced by ADR-XXX (link to new ADR)
+- [ ] **Proposed** â€” Decision under consideration, not yet implemented
+- [ ] **Accepted** â€” Decision approved, implementation in progress
+- [ ] **Deprecated** â€” Decision no longer recommended, replacement identified
+- [ ] **Superseded** â€” Replaced by ADR-XXX (link to new ADR)
 
 ### Context
 
@@ -101,7 +122,7 @@ existing components.
 Positive:
 - New developers can onboard in 1 day vs 1 week (Redux)
 - Bundle size reduced by 14.5KB (vs Redux Toolkit)
-- Can adopt incrementally — no need to refactor existing components
+- Can adopt incrementally â€” no need to refactor existing components
 - Excellent TypeScript inference (no manual type definitions needed)
 
 Negative:
@@ -135,6 +156,27 @@ Negative:
 ```
 ## Migration Steps
 
+## concept_id
+adr-template
+
+## title
+adr-template
+
+## aliases
+- adr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 1. Install Zustand: `pnpm add zustand`
 2. Create initial store in `src/stores/useAppStore.ts`
 3. Replace prop drilling in one component as proof of concept
@@ -144,10 +186,52 @@ Negative:
 7. Update ESLint config to flag prop drilling: `no-prop-drilling` rule
 
 ## VS Code Extensions
+
+## concept_id
+adr-template
+
+## title
+adr-template
+
+## aliases
+- adr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 - ESLint (for prop-drilling detection)
 - TypeScript Hero (for type inference)
 
 ## Code Pattern to Follow
+
+## concept_id
+adr-template
+
+## title
+adr-template
+
+## aliases
+- adr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 \`\`\`typescript
 // src/stores/useAppStore.ts
 import { create } from 'zustand'
@@ -166,6 +250,27 @@ export const useAppStore = create<AppState>((set) => ({
 \`\`\`
 
 ## Testing Strategy
+
+## concept_id
+adr-template
+
+## title
+adr-template
+
+## aliases
+- adr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 - Unit test: Test store actions in isolation (Vitest)
 - Integration test: Test component using store (React Testing Library)
 - E2E test: Test user flow with store state (Playwright)
@@ -200,6 +305,27 @@ export const useAppStore = create<AppState>((set) => ({
 
 ## How Copilot Should Use This Template
 
+## concept_id
+adr-template
+
+## title
+adr-template
+
+## aliases
+- adr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 ### When Creating an ADR
 1. **Detect architectural decisions**: When you suggest a framework, pattern, or technology choice, ask the user if an ADR should be created
 2. **Gather context**: Ask clarifying questions about business requirements, constraints, and stakeholders
@@ -223,6 +349,27 @@ export const useAppStore = create<AppState>((set) => ({
 
 ## Quick Reference
 
+## concept_id
+adr-template
+
+## title
+adr-template
+
+## aliases
+- adr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 | Question | Where to Find Answer |
 |----------|---------------------|
 | Why did we choose X? | Context section |
@@ -236,9 +383,30 @@ export const useAppStore = create<AppState>((set) => ({
 
 *Template Version: 1.0*
 *Last Updated: 2026-11-02*
-*Based on: [Documenting Architecture Decisions](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions) — Michael Nygard*
+*Based on: [Documenting Architecture Decisions](https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions) â€” Michael Nygard*
 
 ## See Also
+
+## concept_id
+adr-template
+
+## title
+adr-template
+
+## aliases
+- adr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 - [[code-review-checklist]]
 - [[commit-message-template]]
 - [[pr-template]]

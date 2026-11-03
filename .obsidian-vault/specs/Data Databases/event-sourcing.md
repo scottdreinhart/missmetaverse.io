@@ -1,5 +1,7 @@
 ﻿---
 slug: event-sourcing
+tags:
+  - database   - data   - backend
 ---
 
 # Event Sourcing

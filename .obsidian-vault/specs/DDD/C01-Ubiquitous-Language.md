@@ -9,17 +9,56 @@ tags:
   - ubiquitous-language
   - domain-modeling
   - communication
-  - --
 # Ubiquitous Language
 
 ## Definition
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Ubiquitous Language is **a rigorously developed and shared language between developers and domain experts that forms the basis of all implementations in a DDD project**.
 
 > "Ubiquitous Language is not just a rich model, it is a hard discipline. Everyone involved in the project must speak it." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without ubiquitous language:
 - **Miscommunication**: Developers and domain experts use different terms for the same concept
 - **Model drift**: The code model diverges from the domain model
@@ -28,12 +67,52 @@ Without ubiquitous language:
 
 ## Scope and Boundaries
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Ubiquitous Language â‰  Domain Language (ubiquitous language is shared and enforced, domain language is the raw input)
 - Ubiquitous Language = Code (ubiquitous language should be reflected in code names)
 - Ubiquitous Language is a **practice**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When working on complex domains
 - when collaboration between developers and domain experts is essential
 - when the domain model drives the architecture
@@ -41,6 +120,26 @@ Without ubiquitous language:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Effort** â€” Maintaining ubiquitous language requires constant communication |
@@ -49,12 +148,52 @@ Without ubiquitous language:
 
 ## Common Misuses
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Glossary only**: A glossary is not a ubiquitous language â€” it must be spoken daily
 - **Ignoring evolution**: The language evolves as the domain understanding deepens
 - **Confusing with technical jargon**: Technical terms should map to domain terms, not replace them
 
 ## Related Concepts
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Bounded Context](DDD/bounded-context.md) â€” Each bounded context may have its own ubiquitous language
 - [Entity](DDD/entity.md) â€” Entities are named using the ubiquitous language
 - [Value Object](DDD/value-object.md) â€” Value objects are named using the ubiquitous language
@@ -62,6 +201,26 @@ Without ubiquitous language:
 
 ## Project Observations
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses ubiquitous language:
   - TypeScript naming conventions support domain-driven naming
   - The project's architecture patterns note covers DDD concepts
@@ -73,6 +232,26 @@ Without ubiquitous language:
 
 ## Sources
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -80,6 +259,26 @@ Without ubiquitous language:
 
 ## Decision Tree: Ubiquitous Language Implementation
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to implement domain term?]
@@ -113,6 +312,26 @@ graph TD
 
 ## Procedural Guidance: Ubiquitous Language Implementation
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Create Glossary with Domain Experts
 
 ```typescript
@@ -371,6 +590,26 @@ module.exports = {
 
 ## Copilot Instructions
 
+## concept_id
+c01-ubiquitous-language
+
+## title
+Ubiquitous Language
+
+## aliases
+- C01-Ubiquitous-Language
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Implementing domain-driven design
 - Naming classes and methods after domain terms

@@ -9,17 +9,56 @@ tags:
   - deployment
   - nginx
   - containers
-  - --
 # Docker Deployment
 
 ## Definition
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Docker Deployment is a **practice of packaging software into containers for consistent deployment across environments**.
 
 > "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers." â€” Wikipedia
 
 ## Problem Addressed
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without Docker:
 - **Inconsistency**: Software works differently in different environments
 - **Deployment difficulty**: Hard to deploy consistently
@@ -28,12 +67,52 @@ Without Docker:
 
 ## Scope and Boundaries
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Docker â‰  Kubernetes (Docker is for containers, Kubernetes is for orchestration)
 - Docker â‰  Virtual Machines (Docker is for containers, VMs are for virtualization)
 - Docker is a **containerization practice**, not an orchestration practice
 
 ## When to Apply
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building software
 - When deployment matters
 - When consistency is important
@@ -41,6 +120,26 @@ Without Docker:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Docker is complex |
@@ -49,18 +148,78 @@ Without Docker:
 
 ## Common Misuses
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything containerized**: Not everything needs Docker
 - **Confusing with Kubernetes**: Docker â‰  Kubernetes
 - **Over-containerization**: Too much containerization creates complexity
 
 ## Related Concepts
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [CI/CD](Architecture/cicd-github-actions.md) â€” Docker with CI/CD
 - [Nginx](Architecture/nginx.md) â€” Docker with Nginx
 - [Deployment](Architecture/deployment.md) â€” Docker with deployment
 
 ## Project Observations
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses Docker:
   - The project's Docker deployment note covers Docker (from existing notes)
   - No evidence of Docker in existing code (src/ is empty)
@@ -70,12 +229,52 @@ Without Docker:
 
 ## Sources
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 
 ## Decision Tree: Docker Deployment
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to deploy something?]
@@ -109,6 +308,26 @@ graph TD
 
 ## Procedural Guidance: Docker Setup
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Create Dockerfile
 
 ```dockerfile
@@ -281,6 +500,26 @@ services:
 
 ## Copilot Instructions
 
+## concept_id
+a087-docker-deployment
+
+## title
+Docker Deployment
+
+## aliases
+- A087-docker-deployment
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Setting up Docker for local development
 - Creating Dockerfiles for production

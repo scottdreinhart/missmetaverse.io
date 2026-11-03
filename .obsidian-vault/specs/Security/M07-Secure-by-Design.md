@@ -10,17 +10,56 @@ tags:
   - security
   - design
   - principles
-  - --
 # Secure by Design
 
 ## Definition
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Secure by Design is **a security principle that security is built into the system from the beginning, not added as an afterthought**.
 
 > "Secure by design means that security is built into the system from the beginning, not added as an afterthought." â€” OWASP
 
 ## Problem Addressed
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without secure by design:
 - **Security holes**: Security holes are introduced during development
 - **Rework**: Security requires significant rework
@@ -29,12 +68,52 @@ Without secure by design:
 
 ## Scope and Boundaries
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Secure by Design â‰  Security Testing (secure by design prevents security issues, security testing finds them)
 - Secure by Design = Prevention (secure by design prevents security issues)
 - Secure by Design is a **security principle**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building secure systems
 - when security is critical
 - when security issues are expensive to fix
@@ -42,6 +121,26 @@ Without secure by design:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Time** â€” Secure by design takes more time upfront |
@@ -50,18 +149,78 @@ Without secure by design:
 
 ## Common Misuses
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Ignoring testing**: Secure by design doesn't eliminate the need for security testing
 - **One-time effort**: Secure by design is continuous, not one-time
 - **Confusing with security testing**: Secure by design prevents security issues, security testing finds them
 
 ## Related Concepts
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Security Principles](Security/security-principles.md) â€” Security principles include secure by design
 - [Threat Modeling](Security/threat-modeling.md) â€” Threat modeling supports secure by design
 - [Input Validation](Security/input-validation.md) â€” Input validation is part of secure by design
 
 ## Project Observations
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses secure by design:
   - TypeScript supports secure by design through type system
   - Zod supports secure by design through validation
@@ -73,6 +232,26 @@ Without secure by design:
 
 ## Sources
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -80,6 +259,26 @@ Without secure by design:
 
 ## Decision Tree: Secure by Design Implementation
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Designing new feature?]
@@ -112,6 +311,26 @@ graph TD
 
 ## Procedural Guidance: Secure by Design Implementation
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Define Security Requirements
 
 ```typescript
@@ -339,6 +558,26 @@ describe('Security', () => {
 
 ## Copilot Instructions
 
+## concept_id
+m07-secure-by-design
+
+## title
+Secure by Design
+
+## aliases
+- M07-Secure-by-Design
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Designing secure applications
 - Implementing security controls

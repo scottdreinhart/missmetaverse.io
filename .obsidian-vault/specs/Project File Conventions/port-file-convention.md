@@ -1,5 +1,7 @@
 ﻿---
 slug: port-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Port File Convention

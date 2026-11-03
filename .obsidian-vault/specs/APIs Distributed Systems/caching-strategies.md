@@ -1,5 +1,7 @@
 ﻿---
 slug: caching-strategies
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Caching Strategies

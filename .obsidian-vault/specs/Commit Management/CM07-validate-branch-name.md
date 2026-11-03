@@ -10,17 +10,56 @@ tags:
   - git
   - conventions
   - husky
-  - --
 # validate-branch-name
 
 ## Overview
 
+## concept_id
+cm07-validate-branch-name
+
+## title
+validate-branch-name
+
+## aliases
+- CM07-validate-branch-name
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 validate-branch-name is a Git branch name validator that enforces naming conventions through Husky hooks. It prevents invalid branch names from being pushed to remote repositories.
 
 ---
 
 ## 1. Installation
 
+## concept_id
+cm07-validate-branch-name
+
+## title
+validate-branch-name
+
+## aliases
+- CM07-validate-branch-name
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 pnpm add -D validate-branch-name
 ```
@@ -29,6 +68,26 @@ pnpm add -D validate-branch-name
 
 ## 2. Configuration
 
+## concept_id
+cm07-validate-branch-name
+
+## title
+validate-branch-name
+
+## aliases
+- CM07-validate-branch-name
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### package.json
 
 ```json
@@ -72,6 +131,26 @@ module.exports = {
 
 ## 3. Usage
 
+## concept_id
+cm07-validate-branch-name
+
+## title
+validate-branch-name
+
+## aliases
+- CM07-validate-branch-name
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### CLI
 
 ```bash
@@ -116,6 +195,26 @@ npx validate-branch-name
 
 ## 4. Available Patterns
 
+## concept_id
+cm07-validate-branch-name
+
+## title
+validate-branch-name
+
+## aliases
+- CM07-validate-branch-name
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Standard Pattern (Default)
 
 ```regex
@@ -160,6 +259,26 @@ Allows: `feature/packages/ui/button`, `fix/apps/web/auth`
 
 ## 5. Integration with Husky
 
+## concept_id
+cm07-validate-branch-name
+
+## title
+validate-branch-name
+
+## aliases
+- CM07-validate-branch-name
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Complete Setup
 
 ```bash
@@ -204,6 +323,26 @@ pnpm lint || exit 1
 
 ## 6. Best Practices
 
+## concept_id
+cm07-validate-branch-name
+
+## title
+validate-branch-name
+
+## aliases
+- CM07-validate-branch-name
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Branch Naming Convention
 
 ```
@@ -250,6 +389,26 @@ Examples:
 
 ## Cross-References
 
+## concept_id
+cm07-validate-branch-name
+
+## title
+validate-branch-name
+
+## aliases
+- CM07-validate-branch-name
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Husky Git Hooks](./husky-git-hooks.md)
 - [Commitizen & cz-git](./commitizen-cz-git.md)
 - [Commitlint CLI & Config](./commitlint-cli-config.md)
@@ -257,7 +416,27 @@ Examples:
 - [release-it](./release-it.md)
 
 ## See Also
-- [[CM01-commitizen-cz-git]]
+
+## concept_id
+cm07-validate-branch-name
+
+## title
+validate-branch-name
+
+## aliases
+- CM07-validate-branch-name
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required- [[CM01-commitizen-cz-git]]
 - [[CM02-commitlint-cli-config]]
 - [[CM03-commit-management-integration]]
 - [[CM04-conventional-changelog]]

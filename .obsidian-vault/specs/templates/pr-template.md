@@ -1,4 +1,4 @@
----
+﻿---
 slug: pr-template
 title: Pull Request Template
 description: Comprehensive PR template for structured pull requests with context, changes, testing, and review guidance.
@@ -42,23 +42,44 @@ access_limitations: None
 
 ## PR-XXX: [Short Description of Changes]
 
-### 🔍 Type of Change
-- [ ] **Feature** — New functionality
-- [ ] **Bug Fix** — Resolves an existing issue
-- [ ] **Refactor** — Code improvement, no behavior change
-- [ ] **Performance** — Optimization or benchmark improvement
-- [ ] **Security** — Security fix or improvement
-- [ ] **Documentation** — README, ADRs, or other docs
-- [ ] **Testing** — New tests or test improvements
-- [ ] **CI/CD** — Pipeline or deployment changes
-- [ ] **Chore** — Dependency updates, configuration changes
+## concept_id
+pr-template
 
-### 📋 Related Issues
+## title
+pr-template
+
+## aliases
+- pr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
+### ðŸ” Type of Change
+- [ ] **Feature** â€” New functionality
+- [ ] **Bug Fix** â€” Resolves an existing issue
+- [ ] **Refactor** â€” Code improvement, no behavior change
+- [ ] **Performance** â€” Optimization or benchmark improvement
+- [ ] **Security** â€” Security fix or improvement
+- [ ] **Documentation** â€” README, ADRs, or other docs
+- [ ] **Testing** â€” New tests or test improvements
+- [ ] **CI/CD** â€” Pipeline or deployment changes
+- [ ] **Chore** â€” Dependency updates, configuration changes
+
+### ðŸ“‹ Related Issues
 - Closes #[issue-number]
 - Related to #[issue-number]
 - Blocks #[issue-number]
 
-### 📝 Description
+### ðŸ“ Description
 
 > **What changes does this PR make?** Describe the changes clearly and concisely.
 > - What was the problem?
@@ -82,7 +103,7 @@ Approach: We chose JWT over sessions because:
 3. Mobile clients don't support cookies well
 ```
 
-### 🏗️ Architectural Impact
+### ðŸ—ï¸ Architectural Impact
 
 > **Does this PR affect the architecture?** Reference relevant ADRs and patterns.
 
@@ -91,7 +112,7 @@ Approach: We chose JWT over sessions because:
 - [ ] Major: Introduces new patterns or changes architecture
 
 **Referenced ADRs:**
-- ADR-XXX: [Title] — [How this PR relates]
+- ADR-XXX: [Title] â€” [How this PR relates]
 
 **Patterns Applied:**
 - [ ] Clean Architecture
@@ -101,7 +122,7 @@ Approach: We chose JWT over sessions because:
 - [ ] Repository Pattern
 - [ ] Service Layer Pattern
 
-### 📁 Files Changed
+### ðŸ“ Files Changed
 
 | File | Change | Reason |
 |------|--------|--------|
@@ -111,14 +132,14 @@ Approach: We chose JWT over sessions because:
 | `src/middleware/index.ts` | Modified | Export new middleware |
 | `tests/auth.test.ts` | Added | Authentication tests |
 
-### ✅ Testing
+### âœ… Testing
 
 > **How was this tested?** Provide evidence that the changes work correctly.
 
 **Unit Tests:**
 - [ ] All unit tests pass (`pnpm test`)
 - [ ] New tests added for new functionality
-- [ ] Test coverage ≥ 80%
+- [ ] Test coverage â‰¥ 80%
 
 **Integration Tests:**
 - [ ] All integration tests pass (`pnpm test:integration`)
@@ -148,7 +169,7 @@ pnpm test:integration
 pnpm test:e2e
 ```
 
-### 🔒 Security Checklist
+### ðŸ”’ Security Checklist
 
 > **Has security been considered?** Check all that apply.
 
@@ -162,7 +183,7 @@ pnpm test:e2e
 - [ ] Dependencies audited (`pnpm audit` shows no critical vulnerabilities)
 - [ ] Error messages don't expose internal details
 
-### 📊 Performance Impact
+### ðŸ“Š Performance Impact
 
 > **Does this PR affect performance?** Provide metrics if available.
 
@@ -185,7 +206,7 @@ After:  45ms (p95)
 Target: < 200ms (p95)
 ```
 
-### 📚 Documentation
+### ðŸ“š Documentation
 
 > **Is documentation updated?** Check all that apply.
 
@@ -196,7 +217,7 @@ Target: < 200ms (p95)
 - [ ] Inline comments added for complex logic
 - [ ] Migration guide provided (if breaking changes)
 
-### 🚀 Deployment Notes
+### ðŸš€ Deployment Notes
 
 > **Are there special deployment considerations?**
 
@@ -223,7 +244,7 @@ JWT_REFRESH_EXPIRATION=7d
 2. Run database rollback: `pnpm db:rollback`
 3. Redeploy previous version
 
-### 👀 Reviewer Guidance
+### ðŸ‘€ Reviewer Guidance
 
 > **What should reviewers focus on?** Help reviewers provide targeted feedback.
 
@@ -239,13 +260,13 @@ JWT_REFRESH_EXPIRATION=7d
 - Are all error cases handled? (invalid tokens, expired tokens, network errors)
 - Is the test coverage sufficient?
 
-### 📸 Screenshots (for UI Changes)
+### ðŸ“¸ Screenshots (for UI Changes)
 
 | Before | After |
 |--------|-------|
 | ![Before](screenshots/before.png) | ![After](screenshots/after.png) |
 
-### ✅ PR Checklist
+### âœ… PR Checklist
 
 - [ ] Self-review completed
 - [ ] Code follows project conventions (naming, structure, patterns)
@@ -261,6 +282,27 @@ JWT_REFRESH_EXPIRATION=7d
 ---
 
 ## Copilot Integration
+
+## concept_id
+pr-template
+
+## title
+pr-template
+
+## aliases
+- pr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 
 ### When Creating a PR
 ```
@@ -299,6 +341,27 @@ JWT_REFRESH_EXPIRATION=7d
 *Last Updated: 2026-11-02*
 
 ## See Also
+
+## concept_id
+pr-template
+
+## title
+pr-template
+
+## aliases
+- pr-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 - [[adr-template]]
 - [[code-review-checklist]]
 - [[commit-message-template]]

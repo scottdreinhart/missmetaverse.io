@@ -1,5 +1,7 @@
 ﻿---
 slug: radix-ui-docs-2024
+tags:
+  - source   - reference   - external
 source_id: radix-ui-docs-2024
 title: "Radix UI Primitives"
 author: "Radix UI team"
@@ -22,7 +24,27 @@ access_limitations: None
 research_notes: "Radix UI provides the headless, accessible primitives that shadcn/ui builds on top of. Primary source for understanding the foundation of shadcn/ui components."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+radix-ui-docs-2024
+
+## title
+radix-ui-docs-2024
+
+## aliases
+- radix-ui-docs-2024
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

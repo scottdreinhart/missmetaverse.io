@@ -1,5 +1,7 @@
 ﻿---
 slug: property-based-testing
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Property-Based Testing

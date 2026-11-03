@@ -9,17 +9,56 @@ tags:
   - behavioral-patterns
   - patterns
   - design-patterns
-  - --
 # Iterator Pattern
 
 ## Definition
 
+## concept_id
+a128-iterator-pattern
+
+## title
+Iterator Pattern
+
+## aliases
+- A128-iterator-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Iterator Pattern is a **behavioral design pattern that provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation**.
 
 > "The Iterator pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation." â€” GoF
 
 ## Problem Addressed
 
+## concept_id
+a128-iterator-pattern
+
+## title
+Iterator Pattern
+
+## aliases
+- A128-iterator-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without iterator pattern:
 - **Coupling**: Aggregate is coupled to traversal
 - **Inflexibility**: Can't change traversal without changing aggregate
@@ -28,12 +67,52 @@ Without iterator pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a128-iterator-pattern
+
+## title
+Iterator Pattern
+
+## aliases
+- A128-iterator-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Iterator Pattern â‰  Iterator (iterator pattern is a pattern, iterator is an implementation)
 - Iterator Pattern â‰  Iterator Protocol (iterator pattern is a pattern, iterator protocol is a language feature)
 - Iterator Pattern is a **behavioral pattern**, not a structural pattern
 
 ## When to Apply
 
+## concept_id
+a128-iterator-pattern
+
+## title
+Iterator Pattern
+
+## aliases
+- A128-iterator-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - When traversal matters
 - When testing is important
@@ -41,6 +120,26 @@ Without iterator pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a128-iterator-pattern
+
+## title
+Iterator Pattern
+
+## aliases
+- A128-iterator-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Iterator pattern is complex |
@@ -49,18 +148,78 @@ Without iterator pattern:
 
 ## Common Misuses
 
+## concept_id
+a128-iterator-pattern
+
+## title
+Iterator Pattern
+
+## aliases
+- A128-iterator-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything iterator**: Not everything needs iterator pattern
 - **Confusing with iterator**: Iterator pattern â‰  iterator
 - **Over-iterator**: Too many iterators create complexity
 
 ## Related Concepts
 
+## concept_id
+a128-iterator-pattern
+
+## title
+Iterator Pattern
+
+## aliases
+- A128-iterator-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Iterator pattern with DDD
 - [Iterator Protocol](Architecture/iterator-protocol.md) â€” Iterator pattern with iterator protocol
 - [Iterator](Architecture/iterator.md) â€” Iterator pattern with iterator
 
 ## Project Observations
 
+## concept_id
+a128-iterator-pattern
+
+## title
+Iterator Pattern
+
+## aliases
+- A128-iterator-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses iterator pattern:
   - The project's architecture patterns note covers iterator pattern (from existing notes)
   - No evidence of iterator pattern in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without iterator pattern:
 
 ## Sources
 
+## concept_id
+a128-iterator-pattern
+
+## title
+Iterator Pattern
+
+## aliases
+- A128-iterator-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

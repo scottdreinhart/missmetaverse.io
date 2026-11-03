@@ -1,5 +1,7 @@
 ﻿---
 slug: resource-lifecycle
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Resource Lifecycle Management

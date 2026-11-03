@@ -1,5 +1,7 @@
 ﻿---
 slug: strict-typing
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Strict Typing

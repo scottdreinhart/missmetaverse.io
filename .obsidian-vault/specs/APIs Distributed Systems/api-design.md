@@ -1,5 +1,7 @@
 ﻿---
 slug: api-design
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # API Design

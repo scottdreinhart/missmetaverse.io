@@ -9,17 +9,56 @@ tags:
   - distributed-systems
   - events
   - patterns
-  - --
 # Transactional Outbox
 
 ## Definition
 
+## concept_id
+a224-transactional-outbox
+
+## title
+Transactional Outbox
+
+## aliases
+- A224-transactional-outbox
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 The Transactional Outbox pattern is a **reliable event publishing pattern where business changes and event publication intents are persisted in one transaction**.
 
 > "The Outbox pattern ensures that every business transaction that produces events does so in an atomic way." â€” Microsoft Azure Architecture
 
 ## Problem Addressed
 
+## concept_id
+a224-transactional-outbox
+
+## title
+Transactional Outbox
+
+## aliases
+- A224-transactional-outbox
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without outbox:
 - **Lost events**: Events published but business transaction fails
 - **Inconsistent state**: Business data and events are out of sync
@@ -28,12 +67,52 @@ Without outbox:
 
 ## Scope and Boundaries
 
+## concept_id
+a224-transactional-outbox
+
+## title
+Transactional Outbox
+
+## aliases
+- A224-transactional-outbox
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Outbox â‰  Exactly-once delivery (outbox guarantees at-least-once)
 - Outbox â‰  Event Sourcing (outbox publishes events, ES stores events as state)
 - Outbox is a **reliability pattern**, not a storage pattern
 
 ## When to Apply
 
+## concept_id
+a224-transactional-outbox
+
+## title
+Transactional Outbox
+
+## aliases
+- A224-transactional-outbox
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When publishing events alongside business transactions
 - When consistency between business data and events matters
 - When using event-driven architecture
@@ -41,6 +120,26 @@ Without outbox:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a224-transactional-outbox
+
+## title
+Transactional Outbox
+
+## aliases
+- A224-transactional-outbox
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Outbox table and worker needed |
@@ -49,24 +148,104 @@ Without outbox:
 
 ## Common Misuses
 
+## concept_id
+a224-transactional-outbox
+
+## title
+Transactional Outbox
+
+## aliases
+- A224-transactional-outbox
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Every transaction**: Not every transaction needs an outbox
 - **Confusing with ES**: Outbox â‰  Event Sourcing
 - **Exactly-once**: Outbox doesn't guarantee exactly-once
 
 ## Related Concepts
 
+## concept_id
+a224-transactional-outbox
+
+## title
+Transactional Outbox
+
+## aliases
+- A224-transactional-outbox
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Event-Driven Architecture](Architecture/event-driven-architecture.md) â€” Outbox enables reliable EDA
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Domain Events
 - [Saga Pattern](Architecture/architecture-patterns.md) â€” Often used with outbox
 
 ## Project Observations
 
+## concept_id
+a224-transactional-outbox
+
+## title
+Transactional Outbox
+
+## aliases
+- A224-transactional-outbox
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - No evidence of outbox in existing code (src/ is empty)
 - The project's architecture patterns note covers outbox
 - DDD patterns note covers Domain Events
 
 ## Sources
 
+## concept_id
+a224-transactional-outbox
+
+## title
+Transactional Outbox
+
+## aliases
+- A224-transactional-outbox
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

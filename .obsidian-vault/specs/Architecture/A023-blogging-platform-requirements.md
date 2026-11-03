@@ -14,9 +14,28 @@ slug: A023-blogging-platform-requirements
 
 tags:
   - maturity/experimental
-  - --
 ## 1. Executive Summary
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 This document defines the requirements for building a **custom blogging platform** from the ground up. No WordPress, Ghost, Medium, or similar off-the-shelf solutions. This is a greenfield project architected using **Clean Architecture**, **Domain-Driven Design**, **CQRS**, and **Event-Driven Architecture** patterns.
 
 ### Why Build from Scratch?
@@ -50,9 +69,28 @@ This document defines the requirements for building a **custom blogging platform
 
 tags:
   - maturity/experimental
-  - --
 ## 2. Architectural Style
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Recommended: Static-First with CQRS
 
 ```mermaid
@@ -146,9 +184,28 @@ graph TB
 
 tags:
   - maturity/experimental
-  - --
 ## 3. Core Domain Model (DDD)
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Bounded Contexts
 
 ```mermaid
@@ -471,9 +528,28 @@ export class Newsletter {
 
 tags:
   - maturity/experimental
-  - --
 ## 4. Functional Requirements
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 4.1 Content Management (Blog Posts)
 
 | ID | Requirement | Priority | CQRS Side |
@@ -666,9 +742,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 5. Non-Functional Requirements
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 5.1 Performance
 
 | Metric | Target | Measurement |
@@ -804,9 +899,28 @@ graph TB
 
 tags:
   - maturity/experimental
-  - --
 ## 6. Technical Architecture
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 6.1 Clean Architecture Layers
 
 ```mermaid
@@ -1086,9 +1200,28 @@ CREATE TABLE post_cache (
 
 tags:
   - maturity/experimental
-  - --
 ## 7. API Design
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 7.1 REST API Endpoints
 
 ```
@@ -1242,9 +1375,28 @@ interface SearchResult {
 
 tags:
   - maturity/experimental
-  - --
 ## 8. Frontend Architecture (React 19)
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 8.1 Public Blog Structure
 
 ```
@@ -1413,9 +1565,28 @@ function usePost(slug: string) {
 
 tags:
   - maturity/experimental
-  - --
 ## 9. Static Site Generation
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 9.1 SSG Architecture
 
 ```mermaid
@@ -1496,9 +1667,28 @@ const pageConfigs: Record<string, PageConfig> = {
 
 tags:
   - maturity/experimental
-  - --
 ## 10. Testing Strategy
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 10.1 Test Pyramid
 
 ```mermaid
@@ -1633,9 +1823,28 @@ describe('POST /api/v1/admin/posts', () => {
 
 tags:
   - maturity/experimental
-  - --
 ## 11. Deployment & DevOps
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 11.1 CI/CD Pipeline
 
 ```mermaid
@@ -1731,9 +1940,28 @@ graph TB
 
 tags:
   - maturity/experimental
-  - --
 ## 12. Project Structure
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```
 blog-platform/
 â”œâ”€â”€ apps/
@@ -1794,9 +2022,28 @@ blog-platform/
 
 tags:
   - maturity/experimental
-  - --
 ## 13. Development Phases
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Phase 1: Foundation (Weeks 1-2)
 - [ ] Project setup (monorepo, TypeScript, pnpm)
 - [ ] Domain model (Post, Author, Tag, Category aggregates)
@@ -1845,9 +2092,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 14. Risk Assessment
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Risk | Impact | Likelihood | Mitigation |
 |------|--------|------------|------------|
 | **Scope creep** | High | High | Strict MVP definition, change control |
@@ -1864,9 +2130,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 15. Success Criteria
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### MVP (Minimum Viable Product)
 - [ ] Create, edit, publish, delete posts
 - [ ] User authentication and authorization
@@ -1904,9 +2189,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 16. Key Differentiators vs. WordPress/Ghost
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Feature | Custom Blog | WordPress | Ghost |
 |---------|-------------|-----------|-------|
 | **Page load time** | < 100ms (static) | 1-3s | 0.5-2s |
@@ -1924,9 +2228,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 17. References & Sources
 
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Architectural Patterns
 - [[Sources/martin-clean-architecture-2017|Clean Architecture]] â€” Robert C. Martin
 - [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] â€” Martin Fowler
@@ -1959,7 +2282,27 @@ tags:
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a023-blogging-platform-requirements
+
+## title
+Blogging Platform â€” Requirements Specification
+
+## aliases
+- A023-blogging-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

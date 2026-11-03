@@ -1,5 +1,7 @@
 ﻿---
 slug: acid
+tags:
+  - database   - data   - backend
 ---
 
 # ACID

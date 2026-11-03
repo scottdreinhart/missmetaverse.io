@@ -1,5 +1,7 @@
 ﻿---
 slug: cqrs-pattern
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # CQRS Pattern

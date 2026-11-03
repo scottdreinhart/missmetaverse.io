@@ -1,5 +1,7 @@
 ﻿---
 slug: microservices-architecture
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Microservices Architecture

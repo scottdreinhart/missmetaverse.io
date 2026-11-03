@@ -1,5 +1,7 @@
 ﻿---
 slug: progressive-web-apps
+tags:
+  - frontend   - web   - ui
 ---
 
 # Progressive Web Apps

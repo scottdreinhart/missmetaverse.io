@@ -1,5 +1,7 @@
 ﻿---
 slug: headless-ui-components
+tags:
+  - headless   - ui   - components
 ---
 
 # Headless UI Components

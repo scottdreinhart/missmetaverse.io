@@ -10,17 +10,56 @@ tags:
   - ddd
   - data-access
   - patterns
-  - --
 # Repository Pattern
 
 ## Definition
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Repository Pattern is a **design pattern that provides an abstraction over data access, mediating between domain and data mapping layers**.
 
 > "A Repository mediates between the domain and data mapping layers, acting like an in-memory collection of domain objects." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without repository pattern:
 - **Coupling**: Domain is coupled to data access
 - **Testing**: Hard to test domain logic
@@ -29,12 +68,52 @@ Without repository pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Repository Pattern â‰  Data Mapper (repository pattern is an abstraction, data mapper is a specific pattern)
 - Repository Pattern â‰  Unit of Work (repository pattern is for data access, unit of work is for transactions)
 - Repository Pattern is a **design pattern**, not a data access pattern
 
 ## When to Apply
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - when testing matters
 - when maintenance is important
@@ -42,6 +121,26 @@ Without repository pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Repository pattern is complex |
@@ -50,18 +149,78 @@ Without repository pattern:
 
 ## Common Misuses
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything repository**: Not everything needs repository pattern
 - **Confusing with data mapper**: Repository pattern â‰  data mapper
 - **Over-repository**: Too many repositories create complexity
 
 ## Related Concepts
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [DDD Patterns](Application Architecture/domain-driven-design.md) â€” Repository pattern with DDD
 - [Data Mapper](data-mapper-pattern.md) â€” Repository pattern with data mapper
 - [Unit of Work](unit-of-work-pattern.md) â€” Repository pattern with unit of work
 
 ## Project Observations
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses repository pattern:
   - The project's architecture patterns note covers repository pattern (from existing notes)
   - No evidence of repository pattern in existing code (src/ is empty)
@@ -73,6 +232,26 @@ Without repository pattern:
 
 ## Repository Pattern Implementation
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Interface Definition (Domain Layer)
 
 ```typescript
@@ -170,6 +349,26 @@ export class InMemoryUserRepository implements UserRepository {
 
 ## Copilot Instructions
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Creating a new data access layer
 - Writing tests that need mock repositories
@@ -220,6 +419,26 @@ export class InMemoryUserRepository implements UserRepository {
 
 ## Sources
 
+## concept_id
+a186-repository-pattern
+
+## title
+Repository Pattern
+
+## aliases
+- A186-repository-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

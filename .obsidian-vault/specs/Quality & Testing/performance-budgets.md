@@ -1,5 +1,7 @@
 ﻿---
 slug: performance-budgets
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Performance Budgets

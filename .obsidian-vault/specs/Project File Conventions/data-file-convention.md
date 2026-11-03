@@ -1,5 +1,7 @@
 ﻿---
 slug: data-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Data File Convention

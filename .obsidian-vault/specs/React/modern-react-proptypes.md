@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-proptypes
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React PropTypes

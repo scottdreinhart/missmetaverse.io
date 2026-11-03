@@ -1,5 +1,7 @@
 ﻿---
 slug: entity
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Entity

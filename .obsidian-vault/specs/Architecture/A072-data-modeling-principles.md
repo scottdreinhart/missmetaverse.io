@@ -23,17 +23,56 @@ tags:
   - audit-trails
   - event-sourcing
   - materialized-views
-  - --
 # Data Modeling & Database Principles
 
 ## Overview
 
+## concept_id
+a072-data-modeling-principles
+
+## title
+Data Modeling & Database Principles
+
+## aliases
+- A072-data-modeling-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Data modeling principles govern how data is structured, stored, and accessed. These principles ensure data integrity, performance, and maintainability.
 
 ---
 
 ## 1. Core Principles
 
+## concept_id
+a072-data-modeling-principles
+
+## title
+Data Modeling & Database Principles
+
+## aliases
+- A072-data-modeling-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### CRUD
 
 **Create, Read, Update, Delete â€” the four basic operations for persistent storage.**
@@ -190,6 +229,26 @@ END;
 
 ## 2. Data Integrity
 
+## concept_id
+a072-data-modeling-principles
+
+## title
+Data Modeling & Database Principles
+
+## aliases
+- A072-data-modeling-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Referential Integrity
 
 **Ensure relationships between tables remain valid.**
@@ -263,6 +322,26 @@ class PaymentService {
 
 ## 3. Concurrency Control
 
+## concept_id
+a072-data-modeling-principles
+
+## title
+Data Modeling & Database Principles
+
+## aliases
+- A072-data-modeling-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Optimistic Concurrency
 
 **Check for conflicts at write time using a version number or timestamp.**
@@ -304,6 +383,26 @@ COMMIT;
 
 ## 4. Schema Management
 
+## concept_id
+a072-data-modeling-principles
+
+## title
+Data Modeling & Database Principles
+
+## aliases
+- A072-data-modeling-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Schema Migrations
 
 **Version-controlled database schema changes.**
@@ -380,6 +479,26 @@ EXECUTE FUNCTION log_changes();
 
 ## 5. Advanced Patterns
 
+## concept_id
+a072-data-modeling-principles
+
+## title
+Data Modeling & Database Principles
+
+## aliases
+- A072-data-modeling-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Event Sourcing
 
 **Store state changes as a sequence of events instead of current state.**
@@ -455,6 +574,26 @@ SELECT * FROM daily_sales WHERE sale_date > '2026-01-01';
 
 ## Cross-References
 
+## concept_id
+a072-data-modeling-principles
+
+## title
+Data Modeling & Database Principles
+
+## aliases
+- A072-data-modeling-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
 - [DDD Patterns](./Application Architecture/domain-driven-design.md)
@@ -463,7 +602,27 @@ SELECT * FROM daily_sales WHERE sale_date > '2026-01-01';
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a072-data-modeling-principles
+
+## title
+Data Modeling & Database Principles
+
+## aliases
+- A072-data-modeling-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

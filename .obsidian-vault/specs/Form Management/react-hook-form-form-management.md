@@ -1,5 +1,7 @@
 ﻿---
 slug: react-hook-form-form-management
+tags:
+  - forms   - ui   - frontend
 ---
 
 # React Hook Form Form Management

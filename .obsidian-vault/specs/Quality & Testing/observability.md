@@ -1,5 +1,7 @@
 ﻿---
 slug: observability
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Observability

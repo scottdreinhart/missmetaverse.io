@@ -1,5 +1,7 @@
 ﻿---
 slug: css-architecture
+tags:
+  - frontend   - web   - ui
 ---
 
 # CSS Architecture

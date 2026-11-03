@@ -30,11 +30,53 @@ tags:
 
 ## Overview
 
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 CSS fundamentals covering the core concepts every developer needs to master for building modern web layouts.
 
 ---
 
 ## 1. CSS Architecture
+
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### BEM Naming Convention
 
@@ -87,6 +129,27 @@ function Button() {
 
 ## 2. Custom Properties (CSS Variables)
 
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ```css
 :root {
   /* Design tokens */
@@ -138,6 +201,27 @@ function Button() {
 
 ## 3. Flexbox
 
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ```css
 /* Flex container */
 .flex-container {
@@ -184,6 +268,27 @@ function Button() {
 
 ## 4. CSS Grid
 
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ```css
 /* Grid container */
 .grid-container {
@@ -228,6 +333,27 @@ function Button() {
 ---
 
 ## 5. Selectors & Specificity
+
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ```css
 /* Specificity order (lowest to highest) */
@@ -274,6 +400,27 @@ a::first-line { }  /* 0,1,1 */
 ---
 
 ## 6. Common Layout Patterns
+
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Sticky Footer
 
@@ -342,6 +489,27 @@ body {
 
 ## 7. Transitions & Animations
 
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ```css
 /* Transitions */
 .button {
@@ -399,6 +567,27 @@ body {
 
 ## 8. Media Queries
 
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ```css
 /* Mobile-first approach */
 .container {
@@ -440,6 +629,27 @@ body {
 ---
 
 ## 9. Modern CSS Features
+
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ```css
 /* Container queries */
@@ -493,6 +703,27 @@ body {
 
 ## Cross-References
 
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md)
 - [ShadCN UI](../ShadCN/shadcn-ui-patterns.md)
 - [React Patterns](../React/Architecture/react-patterns)
@@ -500,11 +731,53 @@ body {
 
 ## Sources
 
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - [[Sources/mdn-css-2024|mdn-css-2024]]
 
 ---
 
 ## Decision Tree: CSS Layout Patterns
+
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ```mermaid
 graph TD
@@ -536,6 +809,27 @@ graph TD
 ---
 
 ## Procedural Guidance: CSS Architecture Setup
+
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Step 1: Set Up CSS Architecture
 
@@ -697,6 +991,27 @@ module.exports = {
 
 ## Copilot Instructions
 
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### When to Read This Note
 - Setting up CSS architecture for a new project
 - Implementing responsive layouts
@@ -747,6 +1062,27 @@ module.exports = {
 
 
 ## See Also
+
+## concept_id
+cs02-css-fundamentals
+
+## title
+CS02-css-fundamentals
+
+## aliases
+- CS02-css-fundamentals
+
+## category
+css
+
+## concept_type
+css-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[CS01-css3-performance-security]]
 - [[CS03-Web Frontend/responsive-design]]
 

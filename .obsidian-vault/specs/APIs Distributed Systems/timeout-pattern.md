@@ -1,5 +1,7 @@
 ﻿---
 slug: timeout-pattern
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Timeout Pattern

@@ -1,4 +1,4 @@
----
+﻿---
 slug: commit-message-template
 title: Commit Message Template
 description: Template for Conventional Commits with scope, type, and body structure for consistent commit history.
@@ -39,6 +39,27 @@ access_limitations: None
 
 ## Format
 
+## concept_id
+commit-message-template
+
+## title
+commit-message-template
+
+## aliases
+- commit-message-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 ```
 <type>(<scope>): <description>
 
@@ -58,6 +79,27 @@ access_limitations: None
 
 ## Allowed Types
 
+## concept_id
+commit-message-template
+
+## title
+commit-message-template
+
+## aliases
+- commit-message-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 | Type | Description | Example |
 |------|-------------|---------|
 | `feat` | New feature | `feat(auth): add JWT login endpoint` |
@@ -76,6 +118,27 @@ access_limitations: None
 ---
 
 ## Templates by Type
+
+## concept_id
+commit-message-template
+
+## title
+commit-message-template
+
+## aliases
+- commit-message-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 
 ### Feature (`feat`)
 
@@ -235,6 +298,27 @@ and new rules. Updated configuration to match v8 schema.
 
 ## Breaking Changes
 
+## concept_id
+commit-message-template
+
+## title
+commit-message-template
+
+## aliases
+- commit-message-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 When a commit introduces a breaking change, add `!` after the type/scope and include a BREAKING CHANGE footer:
 
 ```
@@ -256,6 +340,27 @@ Closes #128
 ---
 
 ## Copilot Integration
+
+## concept_id
+commit-message-template
+
+## title
+commit-message-template
+
+## aliases
+- commit-message-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 
 ### When Suggesting Code Changes
 ```
@@ -299,6 +404,27 @@ Closes #128
 
 ## Quick Reference
 
+## concept_id
+commit-message-template
+
+## title
+commit-message-template
+
+## aliases
+- commit-message-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 | Command | Description |
 |---------|-------------|
 | `git commit -m "feat(auth): add login"` | Simple commit |
@@ -315,6 +441,27 @@ Closes #128
 *Based on: [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/)*
 
 ## See Also
+
+## concept_id
+commit-message-template
+
+## title
+commit-message-template
+
+## aliases
+- commit-message-template
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 - [[adr-template]]
 - [[code-review-checklist]]
 - [[pr-template]]

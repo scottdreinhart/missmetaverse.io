@@ -1,5 +1,7 @@
 ﻿---
 slug: risk-based-testing
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Risk-Based Testing

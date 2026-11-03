@@ -1,5 +1,7 @@
 ﻿---
 slug: database-backup-recovery
+tags:
+  - database   - data   - backend
 ---
 
 # Database Backup and Recovery

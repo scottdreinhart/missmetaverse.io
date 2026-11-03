@@ -32,6 +32,26 @@ date: 2026-11-02
 
 ## Build Performance
 
+## concept_id
+t06-ts-optimization-performance
+
+## title
+TypeScript Optimization & Performance
+
+## aliases
+- T06-ts-optimization-performance
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Incremental Builds
 
 Enable faster subsequent builds by caching compilation information:
@@ -93,6 +113,26 @@ With TypeScript 3.7+, project references enable build-free editing:
 
 ## Compiler Performance
 
+## concept_id
+t06-ts-optimization-performance
+
+## title
+TypeScript Optimization & Performance
+
+## aliases
+- T06-ts-optimization-performance
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Skip Library Checking
 
 ```jsonc
@@ -133,6 +173,26 @@ Open `tsc-output.cpuprofile` in Chrome DevTools â†’ Performance tab for det
 
 ## Runtime Performance
 
+## concept_id
+t06-ts-optimization-performance
+
+## title
+TypeScript Optimization & Performance
+
+## aliases
+- T06-ts-optimization-performance
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Type-Only Imports
 
 Use `import type` to avoid runtime overhead for type-only imports:
@@ -179,6 +239,26 @@ TypeScript works with bundlers for optimal tree shaking:
 
 ## Memory Optimization
 
+## concept_id
+t06-ts-optimization-performance
+
+## title
+TypeScript Optimization & Performance
+
+## aliases
+- T06-ts-optimization-performance
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Disable Size Limit
 
 For very large projects that hit memory limits:
@@ -207,6 +287,26 @@ For very large projects that hit memory limits:
 
 ## Recommended Configuration for Performance
 
+## concept_id
+t06-ts-optimization-performance
+
+## title
+TypeScript Optimization & Performance
+
+## aliases
+- T06-ts-optimization-performance
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```jsonc
 {
   "compilerOptions": {
@@ -238,6 +338,26 @@ For very large projects that hit memory limits:
 
 ## Key Takeaways
 
+## concept_id
+t06-ts-optimization-performance
+
+## title
+TypeScript Optimization & Performance
+
+## aliases
+- T06-ts-optimization-performance
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Technique | Impact | Complexity |
 |-----------|--------|------------|
 | Incremental builds | High | Low |
@@ -255,7 +375,27 @@ For very large projects that hit memory limits:
 
 
 ## See Also
-- [[T01-TypeScript/generics]]
+
+## concept_id
+t06-ts-optimization-performance
+
+## title
+TypeScript Optimization & Performance
+
+## aliases
+- T06-ts-optimization-performance
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required- [[T01-TypeScript/generics]]
 - [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
 - [[T04-TypeScript/typescript-strict-mode]]

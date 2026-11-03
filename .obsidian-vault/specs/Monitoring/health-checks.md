@@ -1,5 +1,7 @@
 ﻿---
 slug: health-checks
+tags:
+  - monitoring   - observability   - devops
 ---
 
 # Health Checks

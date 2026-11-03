@@ -1,5 +1,7 @@
 ﻿---
 slug: parse-dont-validate
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Parse, Don't Merely Validate

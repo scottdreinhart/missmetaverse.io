@@ -9,17 +9,56 @@ tags:
   - microservices
   - security
   - patterns
-  - --
 # API Gateway Pattern
 
 ## Definition
 
+## concept_id
+a012-api-gateway-pattern
+
+## title
+API Gateway Pattern
+
+## aliases
+- A012-api-gateway-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 API Gateway Pattern is a **design pattern that provides a single entry point for multiple microservices**.
 
 > "An API gateway sits in front of your services and manages requests, security, and monitoring." â€” AWS
 
 ## Problem Addressed
 
+## concept_id
+a012-api-gateway-pattern
+
+## title
+API Gateway Pattern
+
+## aliases
+- A012-api-gateway-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without API gateway pattern:
 - **Complexity**: Client needs to know about multiple services
 - **Security**: Security is distributed
@@ -28,12 +67,52 @@ Without API gateway pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a012-api-gateway-pattern
+
+## title
+API Gateway Pattern
+
+## aliases
+- A012-api-gateway-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - API Gateway Pattern â‰  Service Mesh (API gateway is external, service mesh is internal)
 - API Gateway Pattern â‰  Load Balancer (API gateway is for APIs, load balancer is for traffic)
 - API Gateway Pattern is a **design pattern**, not an infrastructure component
 
 ## When to Apply
 
+## concept_id
+a012-api-gateway-pattern
+
+## title
+API Gateway Pattern
+
+## aliases
+- A012-api-gateway-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building microservices
 - when security matters
 - when monitoring is important
@@ -41,6 +120,26 @@ Without API gateway pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a012-api-gateway-pattern
+
+## title
+API Gateway Pattern
+
+## aliases
+- A012-api-gateway-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” API gateway pattern is complex |
@@ -49,18 +148,78 @@ Without API gateway pattern:
 
 ## Common Misuses
 
+## concept_id
+a012-api-gateway-pattern
+
+## title
+API Gateway Pattern
+
+## aliases
+- A012-api-gateway-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything API gateway**: Not everything needs API gateway pattern
 - **Confusing with service mesh**: API gateway pattern â‰  service mesh
 - **Over-api-gateway**: Too many API gateways create complexity
 
 ## Related Concepts
 
+## concept_id
+a012-api-gateway-pattern
+
+## title
+API Gateway Pattern
+
+## aliases
+- A012-api-gateway-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Service Mesh](Architecture/service-mesh.md) â€” API gateway pattern with service mesh
 - [Microservices](Architecture/microservices.md) â€” API gateway pattern with microservices
 - [Rate Limiting](Architecture/rate-limiting.md) â€” API gateway pattern with rate limiting
 
 ## Project Observations
 
+## concept_id
+a012-api-gateway-pattern
+
+## title
+API Gateway Pattern
+
+## aliases
+- A012-api-gateway-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses API gateway pattern:
   - The project's architecture patterns note covers API gateway pattern (from existing notes)
   - No evidence of API gateway pattern in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without API gateway pattern:
 
 ## Sources
 
+## concept_id
+a012-api-gateway-pattern
+
+## title
+API Gateway Pattern
+
+## aliases
+- A012-api-gateway-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

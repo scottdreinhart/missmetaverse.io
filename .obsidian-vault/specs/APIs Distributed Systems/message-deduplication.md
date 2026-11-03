@@ -1,5 +1,7 @@
 ﻿---
 slug: message-deduplication
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Message Deduplication

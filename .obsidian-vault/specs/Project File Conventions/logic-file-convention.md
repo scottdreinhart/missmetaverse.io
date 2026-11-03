@@ -1,5 +1,7 @@
 ﻿---
 slug: logic-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Logic File Convention

@@ -1,5 +1,7 @@
 ﻿---
 slug: command-query-separation
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Command-Query Separation

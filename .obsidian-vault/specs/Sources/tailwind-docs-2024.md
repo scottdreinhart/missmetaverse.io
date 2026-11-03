@@ -35,7 +35,27 @@ access_limitations: None
 research_notes: "Official Tailwind CSS documentation. Primary source for all Tailwind CSS features, configuration, and best practices."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+tailwind-docs-2024
+
+## title
+tailwind-docs-2024
+
+## aliases
+- tailwind-docs-2024
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

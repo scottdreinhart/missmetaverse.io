@@ -1,5 +1,7 @@
 ﻿---
 slug: information-hiding
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Information Hiding

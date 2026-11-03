@@ -9,17 +9,56 @@ tags:
   - security
   - architecture
   - design
-  - --
 # Trust Boundaries
 
 ## Definition
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Trust Boundaries is **a security concept that defines the points where data crosses from one trust level to another, requiring validation and authentication**.
 
 > "A trust boundary is a point where data crosses from one trust level to another. At each trust boundary, data must be treated as untrusted." â€” OWASP
 
 ## Problem Addressed
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without trust boundaries:
 - **Untrusted data**: Data from untrusted sources is trusted
 - **Injection attacks**: Injection attacks succeed
@@ -28,12 +67,52 @@ Without trust boundaries:
 
 ## Scope and Boundaries
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Trust Boundaries â‰  Authentication (trust boundaries define where authentication is needed, authentication verifies identity)
 - Trust Boundaries = Validation (trust boundaries require validation)
 - Trust Boundaries is a **security concept**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building secure systems
 - when data crosses trust levels
 - when authentication is needed
@@ -41,6 +120,26 @@ Without trust boundaries:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Trust boundaries add validation complexity |
@@ -49,18 +148,78 @@ Without trust boundaries:
 
 ## Common Misuses
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Ignoring boundaries**: Trust boundaries must be identified and enforced
 - **One-time checks**: Trust boundaries must be checked at every crossing
 - **Confusing with authentication**: Trust boundaries define where authentication is needed, authentication verifies identity
 
 ## Related Concepts
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Authentication](Security/authentication.md) â€” Authentication is needed at trust boundaries
 - [Input Validation](Security/input-validation.md) â€” Input validation is needed at trust boundaries
 - [Security Principles](Security/security-principles.md) â€” Security principles include trust boundaries
 
 ## Project Observations
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses trust boundaries:
   - TypeScript can enforce trust boundaries through type system
   - Zod can validate data at trust boundaries
@@ -72,6 +231,26 @@ Without trust boundaries:
 
 ## Sources
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -79,12 +258,52 @@ Without trust boundaries:
 
 ## Decision Tree: Trust Boundary Implementation
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Data crossing boundary?]\n    A --> B{From external?}\n    B -->|Yes| C[Validate & authenticate]\n    B -->|No| D{From internal?}\n    D -->|Yes| E[Check authorization]\n    D -->|No| F[Trust but verify]\n    C --> G{User data?}\n    G -->|Yes| H[Input validation]\n    G -->|No| I[Type checking]\n    E --> J{Sensitive data?}\n    J -->|Yes| K[RBAC/ABAC check]\n    J -->|No| L[Log access]\n```\n\n### Trust Level Selection\n\n| Trust Level | When to Use | Validation |\n|-------------|-------------|------------|\n| **Untrusted** | External API, user input | Full validation + auth |\n| **Semi-trusted** | Internal service, partner | Auth + limited validation |\n| **Trusted** | Internal service, same origin | Authorization only |\n\n---
 
 ## Procedural Guidance: Trust Boundary Implementation
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Define Trust Boundaries
 
 ```typescript
@@ -325,6 +544,26 @@ export const boundaryLogger = new BoundaryLogger()
 
 ## Copilot Instructions
 
+## concept_id
+m09-trust-boundaries
+
+## title
+Trust Boundaries
+
+## aliases
+- M09-Trust-Boundaries
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Designing secure architectures
 - Implementing authentication at boundaries

@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-hooks
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React Hooks

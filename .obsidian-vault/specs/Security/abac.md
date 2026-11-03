@@ -1,5 +1,7 @@
 ﻿---
 slug: abac
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # ABAC

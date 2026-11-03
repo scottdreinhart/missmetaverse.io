@@ -1,5 +1,7 @@
 ﻿---
 slug: bounded-context
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Bounded Context

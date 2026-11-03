@@ -9,17 +9,56 @@ tags:
   - domain-service
   - domain-modeling
   - business-logic
-  - --
 # Domain Service
 
 ## Definition
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Domain Service is **a operation between two or more entities that does not naturally belong to any single entity**.
 
 > "A domain operation that is not a natural responsibility of an Entity or Value Object." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without domain services:
 - **Anemic domain**: Domain objects become data containers only
 - **Logic placement**: Business logic has nowhere to live
@@ -28,12 +67,52 @@ Without domain services:
 
 ## Scope and Boundaries
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Domain Service â‰  Application Service (domain service contains domain logic, application service orchestrates application steps)
 - Domain Service = Business Logic (domain service contains business rules)
 - Domain Service is a **domain model building block**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building domain models
 - when business logic doesn't belong to a single entity
 - when anemic domain model is a risk
@@ -41,6 +120,26 @@ Without domain services:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Domain services add architectural complexity |
@@ -49,18 +148,78 @@ Without domain services:
 
 ## Common Misuses
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything a service**: Not every operation needs a domain service
 - **Transaction script**: Domain services should contain domain logic, not transaction scripts
 - **Confusing with application service**: Domain services contain domain logic, application services orchestrate
 
 ## Related Concepts
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Entity](DDD/entity.md) â€” Domain services operate on entities
 - [Value Object](DDD/value-object.md) â€” Domain services operate on value objects
 - [Application Service](DDD/application-service.md) â€” Application services orchestrate domain services
 
 ## Project Observations
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses domain services:
   - TypeScript functions can serve as domain services
   - The project's architecture patterns note covers DDD concepts
@@ -71,6 +230,26 @@ Without domain services:
 
 ## Sources
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -78,6 +257,26 @@ Without domain services:
 
 ## Decision Tree: Domain Service Design
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need business logic?]\n    A --> B{Belongs to entity?}
@@ -107,6 +306,26 @@ graph TD
 
 ## Procedural Guidance: Domain Service Implementation
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Service Interface
 
 ```typescript
@@ -333,6 +552,26 @@ describe('MoneyConversionService', () => {
 
 ## Copilot Instructions
 
+## concept_id
+c09-domain-service
+
+## title
+Domain Service
+
+## aliases
+- C09-Domain-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Implementing domain services
 - Identifying where business logic belongs

@@ -1,5 +1,7 @@
 ﻿---
 slug: service-mesh
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Service Mesh

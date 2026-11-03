@@ -10,17 +10,56 @@ tags:
   - command
   - query
   - cqs
-  - --
 # CQRS (Command Query Responsibility Segregation)
 
 ## Definition
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 CQRS is an **architectural pattern that separates read and write operations into different models**. Commands modify state, queries read state.
 
 > "CQRS separates the responsibility of reading data from the responsibility of writing data." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Combined read/write models lead to:
 - **Complex queries**: Read models optimized for queries conflict with write models
 - **Performance**: Different read/write patterns require different optimizations
@@ -28,12 +67,52 @@ Combined read/write models lead to:
 
 ## Scope and Boundaries
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - CQS â‰  CQRS (CQS is method-level, CQRS is architectural)
 - CQRS does **not** require separate databases
 - CQRS does **not** require event sourcing
 
 ## When to Apply
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When read and write scales differently
 - When read models need different optimization
 - When complex queries conflict with write models
@@ -41,6 +120,26 @@ Combined read/write models lead to:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Two models to maintain |
@@ -49,30 +148,130 @@ Combined read/write models lead to:
 
 ## Common Misuses
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Over-applying**: Using CQRS for simple CRUD
 - **Confusing with CQS**: CQS is method-level, CQRS is architectural
 - **Separate databases**: Not required by CQRS
 
 ## Related Concepts
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Command-Query Separation](Architecture/command-query-separation.md) â€” Method-level CQS
 - [Event Sourcing](Architecture/data-modeling-principles.md) â€” Often used with CQRS
 - [Clean Architecture](Architecture/clean-architecture.md) â€” CQRS fits in use cases layer
 
 ## Project Observations
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - No evidence of CQRS in existing code (src/ is empty)
 - The project's architecture supports CQRS if needed later
 - File naming conventions (`*.use-case.ts`, `*.data.ts`) support CQRS separation
 
 ## Sources
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 
 ## Copilot Instructions
 
+## concept_id
+a059-cqrs-pattern
+
+## title
+CQRS (Command Query Responsibility Segregation)
+
+## aliases
+- A059-cqrs-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Creating a new feature with read/write separation
 - Performance issues with mixed read/write operations

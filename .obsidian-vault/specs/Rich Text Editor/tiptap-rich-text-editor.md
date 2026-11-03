@@ -1,5 +1,7 @@
 ﻿---
 slug: tiptap-rich-text-editor
+tags:
+  - editor   - rich-text   - frontend
 ---
 
 # Tiptap Rich Text Editor

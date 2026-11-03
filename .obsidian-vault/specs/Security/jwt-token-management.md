@@ -1,5 +1,7 @@
 ﻿---
 slug: jwt-token-management
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # JWT Token Management

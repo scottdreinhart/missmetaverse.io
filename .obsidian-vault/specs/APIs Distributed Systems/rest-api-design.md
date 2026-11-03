@@ -1,5 +1,7 @@
 ﻿---
 slug: rest-api-design
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # REST API Design

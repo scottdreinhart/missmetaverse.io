@@ -14,11 +14,53 @@ tags:
 
 ## Definition
 
+## concept_id
+o13-incremental-refactoring
+
+## title
+O13-Incremental-Refactoring
+
+## aliases
+- O13-Incremental-Refactoring
+
+## category
+quality-assurance
+
+## concept_type
+quality-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 Incremental Refactoring is **a refactoring approach that makes small, safe, and testable changes to code over time rather than large rewrites**.
 
 > "Incremental refactoring makes small, safe changes to code over time, rather than large rewrites that risk introducing bugs." â€” Martin Fowler
 
 ## Problem Addressed
+
+## concept_id
+o13-incremental-refactoring
+
+## title
+O13-Incremental-Refactoring
+
+## aliases
+- O13-Incremental-Refactoring
+
+## category
+quality-assurance
+
+## concept_type
+quality-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 Without incremental refactoring:
 - **Big bang rewrites**: Large rewrites risk introducing bugs
@@ -28,11 +70,53 @@ Without incremental refactoring:
 
 ## Scope and Boundaries
 
+## concept_id
+o13-incremental-refactoring
+
+## title
+O13-Incremental-Refactoring
+
+## aliases
+- O13-Incremental-Refactoring
+
+## category
+quality-assurance
+
+## concept_type
+quality-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - Incremental Refactoring â‰  Rewrite (incremental refactoring makes small changes, rewrite replaces everything)
 - Incremental Refactoring = Safety (incremental refactoring is safe)
 - Incremental Refactoring is a **refactoring approach**, not a pattern
 
 ## When to Apply
+
+## concept_id
+o13-incremental-refactoring
+
+## title
+O13-Incremental-Refactoring
+
+## aliases
+- O13-Incremental-Refactoring
+
+## category
+quality-assurance
+
+## concept_type
+quality-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 - When building software that needs ongoing maintenance
 - when technical debt accumulates
@@ -40,6 +124,27 @@ Without incremental refactoring:
 - when continuous improvement is important
 
 ## Tradeoffs and When to Avoid
+
+## concept_id
+o13-incremental-refactoring
+
+## title
+O13-Incremental-Refactoring
+
+## aliases
+- O13-Incremental-Refactoring
+
+## category
+quality-assurance
+
+## concept_type
+quality-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 | Cost | Description |
 |------|-------------|
@@ -49,17 +154,80 @@ Without incremental refactoring:
 
 ## Common Misuses
 
+## concept_id
+o13-incremental-refactoring
+
+## title
+O13-Incremental-Refactoring
+
+## aliases
+- O13-Incremental-Refactoring
+
+## category
+quality-assurance
+
+## concept_type
+quality-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - **Everything refactored**: Not every piece of code needs refactoring
 - **Ignoring tests**: Refactoring requires tests
 - **Confusing with features**: Don't use refactoring as an excuse to avoid features
 
 ## Related Concepts
 
+## concept_id
+o13-incremental-refactoring
+
+## title
+O13-Incremental-Refactoring
+
+## aliases
+- O13-Incremental-Refactoring
+
+## category
+quality-assurance
+
+## concept_type
+quality-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - [Refactoring](Quality Delivery/refactoring.md) â€” Refactoring is the parent concept
 - [Test-Driven Development](Quality Delivery/test-driven-development.md) â€” TDD supports incremental refactoring
 - [Code Review](Security/code-review.md) â€” Code review ensures refactoring quality
 
 ## Project Observations
+
+## concept_id
+o13-incremental-refactoring
+
+## title
+O13-Incremental-Refactoring
+
+## aliases
+- O13-Incremental-Refactoring
+
+## category
+quality-assurance
+
+## concept_type
+quality-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 - The project uses incremental refactoring:
   - TypeScript supports incremental refactoring through type system
@@ -71,6 +239,27 @@ Without incremental refactoring:
   - `*.spec.ts` â€” Spec files
 
 ## Sources
+
+## concept_id
+o13-incremental-refactoring
+
+## title
+O13-Incremental-Refactoring
+
+## aliases
+- O13-Incremental-Refactoring
+
+## category
+quality-assurance
+
+## concept_type
+quality-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]

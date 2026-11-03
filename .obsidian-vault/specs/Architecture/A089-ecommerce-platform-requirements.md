@@ -15,9 +15,28 @@ slug: A089-ecommerce-platform-requirements
 
 tags:
   - maturity/experimental
-  - --
 ## 1. Executive Summary
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 This document defines the requirements for building a **custom eCommerce platform** from the ground up. No Shopify, WooCommerce, Magento, or similar off-the-shelf solutions. This is a greenfield project that will be architected using **Clean Architecture**, **Domain-Driven Design**, **CQRS**, and **Event-Driven Architecture** patterns, with **PayPal REST API** as the primary payment gateway.
 
 ### Why Build from Scratch?
@@ -51,9 +70,28 @@ This document defines the requirements for building a **custom eCommerce platfor
 
 tags:
   - maturity/experimental
-  - --
 ## 2. Architectural Style
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Recommended: Modular Monolith with CQRS
 
 ```mermaid
@@ -147,9 +185,28 @@ graph TB
 
 tags:
   - maturity/experimental
-  - --
 ## 3. PayPal Integration Architecture
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 3.1 PayPal API Flow
 
 ```mermaid
@@ -345,9 +402,28 @@ class PayPalWebhookService {
 
 tags:
   - maturity/experimental
-  - --
 ## 4. Core Domain Model (DDD)
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 4.1 Bounded Contexts
 
 ```mermaid
@@ -957,9 +1033,28 @@ export class Inventory {
 
 tags:
   - maturity/experimental
-  - --
 ## 5. Functional Requirements
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 5.1 Product Catalog
 
 | ID | Requirement | Priority | CQRS Side |
@@ -1208,9 +1303,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 6. Non-Functional Requirements
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 6.1 Performance
 
 | Metric | Target | Measurement |
@@ -1335,9 +1449,28 @@ graph TB
 
 tags:
   - maturity/experimental
-  - --
 ## 7. Technical Architecture
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 7.1 Clean Architecture Layers
 
 ```mermaid
@@ -1656,9 +1789,28 @@ CREATE TABLE cart_cache (
 
 tags:
   - maturity/experimental
-  - --
 ## 8. API Design
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 8.1 REST API Endpoints
 
 ```
@@ -1883,9 +2035,28 @@ interface PaymentCapturedResponse {
 
 tags:
   - maturity/experimental
-  - --
 ## 9. Frontend Architecture (React 19)
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 9.1 Storefront Structure
 
 ```
@@ -2092,9 +2263,28 @@ function PayPalButton({ orderId, onSuccess, onError }: PayPalButtonProps) {
 
 tags:
   - maturity/experimental
-  - --
 ## 10. Testing Strategy
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 10.1 Test Pyramid
 
 ```mermaid
@@ -2218,9 +2408,28 @@ describe('PayPalWebhookService', () => {
 
 tags:
   - maturity/experimental
-  - --
 ## 11. Deployment & DevOps
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 11.1 CI/CD Pipeline
 
 ```mermaid
@@ -2326,9 +2535,28 @@ graph TB
 
 tags:
   - maturity/experimental
-  - --
 ## 12. Project Structure
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```
 ecommerce-platform/
 â”œâ”€â”€ apps/
@@ -2412,9 +2640,28 @@ ecommerce-platform/
 
 tags:
   - maturity/experimental
-  - --
 ## 13. Development Phases
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Phase 1: Foundation (Weeks 1-3)
 - [ ] Project setup (monorepo, TypeScript, pnpm)
 - [ ] Domain model (Product, Order, Cart, Customer aggregates)
@@ -2468,9 +2715,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 14. Risk Assessment
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Risk | Impact | Likelihood | Mitigation |
 |------|--------|------------|------------|
 | **Scope creep** | High | High | Strict MVP definition, change control |
@@ -2488,9 +2754,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 15. Success Criteria
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### MVP (Minimum Viable Product)
 - [ ] Product catalog (list, detail, search)
 - [ ] Shopping cart (add, update, remove)
@@ -2531,9 +2816,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 16. Key Differentiators vs. Shopify/WooCommerce
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Feature | Custom eCommerce | Shopify | WooCommerce |
 |---------|-----------------|---------|-------------|
 | **Page load time** | < 100ms (CDN) | 1-2s | 2-4s |
@@ -2552,9 +2856,28 @@ tags:
 
 tags:
   - maturity/experimental
-  - --
 ## 17. References & Sources
 
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Architectural Patterns
 - [[Sources/martin-clean-architecture-2017|Clean Architecture]] â€” Robert C. Martin
 - [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] â€” Martin Fowler
@@ -2588,7 +2911,27 @@ tags:
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a089-ecommerce-platform-requirements
+
+## title
+eCommerce Platform â€” Requirements Specification
+
+## aliases
+- A089-ecommerce-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

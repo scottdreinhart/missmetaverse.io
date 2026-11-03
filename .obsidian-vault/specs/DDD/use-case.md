@@ -1,5 +1,7 @@
 ﻿---
 slug: use-case
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Use Case

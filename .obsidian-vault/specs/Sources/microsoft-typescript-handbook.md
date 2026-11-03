@@ -42,7 +42,27 @@ research_notes: "Official TypeScript documentation. Primary source for all TypeS
 
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+microsoft-typescript-handbook
+
+## title
+microsoft-typescript-handbook
+
+## aliases
+- microsoft-typescript-handbook
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

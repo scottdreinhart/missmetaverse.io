@@ -9,17 +9,56 @@ tags:
   - security
   - access-control
   - authorization
-  - --
 # Role-Based Access Control (RBAC)
 
 ## Definition
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Role-Based Access Control (RBAC) is **an access control model where permissions are assigned to roles, and users are assigned to roles**.
 
 > "RBAC is an access control model where permissions are assigned to roles, and users are assigned to roles." â€” NIST
 
 ## Problem Addressed
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without RBAC:
 - **Complex permissions**: Permissions are complex to manage
 - **User management**: User permissions are hard to manage
@@ -28,12 +67,52 @@ Without RBAC:
 
 ## Scope and Boundaries
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - RBAC â‰  ABAC (RBAC uses roles, ABAC uses attributes)
 - RBAC = Roles (RBAC uses roles for access control)
 - RBAC is an **access control model**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building systems with access control
 - when roles exist in the system
 - when compliance requires role-based access
@@ -41,6 +120,26 @@ Without RBAC:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” RBAC adds access control complexity |
@@ -49,18 +148,78 @@ Without RBAC:
 
 ## Common Misuses
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything a role**: Not every permission needs a role
 - **Role explosion**: Too many roles create complexity
 - **Confusing with ABAC**: RBAC uses roles, ABAC uses attributes
 
 ## Related Concepts
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Authorization](Security/authorization.md) â€” Authorization uses RBAC
 - [Separation of Duties](Security/separation-of-duties.md) â€” Separation of duties is implemented through RBAC
 - [ABAC](Security/abac.md) â€” ABAC is an alternative to RBAC
 
 ## Project Observations
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses RBAC:
   - TypeScript can enforce RBAC through type system
   - The project's architecture patterns note covers security concepts
@@ -71,6 +230,26 @@ Without RBAC:
 
 ## Sources
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -78,6 +257,26 @@ Without RBAC:
 
 ## Decision Tree: RBAC Implementation
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need access control?]
@@ -106,6 +305,26 @@ graph TD
 
 ## Procedural Guidance: RBAC Implementation
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Define Roles and Permissions
 
 ```typescript
@@ -332,6 +551,26 @@ export class RoleAssignmentService {
 
 ## Copilot Instructions
 
+## concept_id
+m13-rbac
+
+## title
+Role-Based Access Control (RBAC)
+
+## aliases
+- M13-RBAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Implementing role-based access control
 - Designing permission systems

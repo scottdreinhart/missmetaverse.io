@@ -1,5 +1,7 @@
 ﻿---
 slug: ubiquitous-language
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Ubiquitous Language

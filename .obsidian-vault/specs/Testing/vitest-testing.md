@@ -1,5 +1,7 @@
 ﻿---
 slug: vitest-testing
+tags:
+  - testing   - e2e   - quality
 ---
 
 # Vitest Testing

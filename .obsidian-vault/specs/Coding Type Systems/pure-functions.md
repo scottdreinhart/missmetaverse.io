@@ -1,5 +1,7 @@
 ﻿---
 slug: pure-functions
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Pure Functions

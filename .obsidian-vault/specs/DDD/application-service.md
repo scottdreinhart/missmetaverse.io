@@ -1,5 +1,7 @@
 ﻿---
 slug: application-service
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Application Service

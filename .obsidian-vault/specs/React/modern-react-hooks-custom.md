@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-hooks-custom
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React Custom Hooks

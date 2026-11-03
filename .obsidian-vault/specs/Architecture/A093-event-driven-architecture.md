@@ -9,17 +9,56 @@ tags:
   - architecture
   - messaging
   - events
-  - --
 # Event-Driven Architecture
 
 ## Definition
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Event-Driven Architecture is an **architectural style where systems coordinate through production and consumption of events**. Events are significant occurrences in the system.
 
 > "Event-driven architecture is a software architecture pattern promoting the production, detection, and consumption of events." â€” Wikipedia
 
 ## Problem Addressed
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Synchronous communication leads to:
 - **Tight coupling**: Services depend on each other's availability
 - **Latency**: Synchronous calls add latency
@@ -28,12 +67,52 @@ Synchronous communication leads to:
 
 ## Scope and Boundaries
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - EDA â‰  Event Sourcing (EDA is about events as communication, ES is about events as state)
 - EDA does **not** require a message broker
 - EDA â‰  Real-time (events can be processed asynchronously)
 
 ## When to Apply
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When systems need to communicate asynchronously
 - When multiple systems react to the same event
 - When decoupling is important
@@ -41,6 +120,26 @@ Synchronous communication leads to:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Event handling is complex |
@@ -49,18 +148,78 @@ Synchronous communication leads to:
 
 ## Common Misuses
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Events everywhere**: Not everything needs to be event-driven
 - **Confusing with ES**: EDA â‰  Event Sourcing
 - **No error handling**: Events can be lost without proper handling
 
 ## Related Concepts
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Domain Events
 - [Transaction Outbox](Architecture/architecture-patterns.md) â€” Reliable event publishing
 - [CQRS](Architecture/cqrs-pattern.md) â€” Often used with EDA
 
 ## Project Observations
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project's DDD patterns note covers Domain Events
 - No event-driven infrastructure is configured yet
 - File naming conventions support EDA:
@@ -69,12 +228,52 @@ Synchronous communication leads to:
 
 ## Sources
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 
 ## Copilot Instructions
 
+## concept_id
+a093-event-driven-architecture
+
+## title
+Event-Driven Architecture
+
+## aliases
+- A093-event-driven-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Designing asynchronous communication between modules
 - Implementing domain events from DDD

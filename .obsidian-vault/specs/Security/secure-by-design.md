@@ -1,5 +1,7 @@
 ﻿---
 slug: secure-by-design
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Secure by Design

@@ -1,5 +1,7 @@
 ﻿---
 slug: pnpm-package-manager
+tags:
+  - package-manager   - dependencies   - devops
 ---
 
 # pnpm Package Manager

@@ -1,5 +1,7 @@
 ﻿---
 slug: martinfowler-bliki
+tags:
+  - source   - reference   - external
 source_id: martinfowler-bliki
 title: "Martin Fowler's Bliki"
 author: "Martin Fowler"
@@ -38,7 +40,27 @@ access_limitations: Free public blog
 research_notes: "Martin Fowler's Bliki is the definitive reference for software architecture patterns, refactoring, TDD, CI/CD, and evolutionary architecture."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+martinfowler-bliki
+
+## title
+martinfowler-bliki
+
+## aliases
+- martinfowler-bliki
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

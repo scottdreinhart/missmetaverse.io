@@ -1,5 +1,7 @@
 ﻿---
 slug: Testing/playwright-e2e-testing-testing
+tags:
+  - testing   - e2e   - quality
 ---
 
 # Playwright E2E Testing

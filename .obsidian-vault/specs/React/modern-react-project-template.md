@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-project-template
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Project Template

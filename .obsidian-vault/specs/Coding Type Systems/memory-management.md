@@ -1,5 +1,7 @@
 ﻿---
 slug: memory-management
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Memory Management

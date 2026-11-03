@@ -1,5 +1,7 @@
 ﻿---
 slug: query-optimization
+tags:
+  - database   - data   - backend
 ---
 
 # Query Optimization

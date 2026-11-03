@@ -1,5 +1,7 @@
 ﻿---
 slug: adapter-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Adapter Pattern

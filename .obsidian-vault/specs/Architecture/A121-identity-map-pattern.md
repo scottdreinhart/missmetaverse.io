@@ -9,17 +9,56 @@ tags:
   - enterprise-patterns
   - patterns
   - architecture
-  - --
 # Identity Map Pattern
 
 ## Definition
 
+## concept_id
+a121-identity-map-pattern
+
+## title
+Identity Map Pattern
+
+## aliases
+- A121-identity-map-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Identity Map Pattern is a **design pattern that maintains a list of objects in memory and ensures that each object is loaded only once**.
 
 > "The Identity Map pattern maintains a list of objects in memory and ensures that each object is loaded only once." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+a121-identity-map-pattern
+
+## title
+Identity Map Pattern
+
+## aliases
+- A121-identity-map-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without identity map pattern:
 - **Duplication**: Objects are loaded multiple times
 - **Inconsistency**: Objects are inconsistent
@@ -28,12 +67,52 @@ Without identity map pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a121-identity-map-pattern
+
+## title
+Identity Map Pattern
+
+## aliases
+- A121-identity-map-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Identity Map Pattern â‰  Cache (identity map pattern is for objects, cache is for data)
 - Identity Map Pattern â‰  Repository (identity map pattern is for objects, repository is for data access)
 - Identity Map Pattern is a **design pattern**, not a data access pattern
 
 ## When to Apply
 
+## concept_id
+a121-identity-map-pattern
+
+## title
+Identity Map Pattern
+
+## aliases
+- A121-identity-map-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - when object deduplication matters
 - when testing is important
@@ -41,6 +120,26 @@ Without identity map pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a121-identity-map-pattern
+
+## title
+Identity Map Pattern
+
+## aliases
+- A121-identity-map-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Identity map pattern is complex |
@@ -49,18 +148,78 @@ Without identity map pattern:
 
 ## Common Misuses
 
+## concept_id
+a121-identity-map-pattern
+
+## title
+Identity Map Pattern
+
+## aliases
+- A121-identity-map-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything identity map**: Not everything needs identity map pattern
 - **Confusing with cache**: Identity map pattern â‰  cache
 - **Over-identity-map**: Too many identity maps create complexity
 
 ## Related Concepts
 
+## concept_id
+a121-identity-map-pattern
+
+## title
+Identity Map Pattern
+
+## aliases
+- A121-identity-map-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Identity map pattern with DDD
 - [Repository Pattern](Architecture/repository-pattern-ddd.md) â€” Identity map pattern with repository
 - [Data Mapper Pattern](Architecture/data-mapper-pattern.md) â€” Identity map pattern with data mapper
 
 ## Project Observations
 
+## concept_id
+a121-identity-map-pattern
+
+## title
+Identity Map Pattern
+
+## aliases
+- A121-identity-map-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses identity map pattern:
   - The project's architecture patterns note covers identity map pattern (from existing notes)
   - No evidence of identity map pattern in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without identity map pattern:
 
 ## Sources
 
+## concept_id
+a121-identity-map-pattern
+
+## title
+Identity Map Pattern
+
+## aliases
+- A121-identity-map-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

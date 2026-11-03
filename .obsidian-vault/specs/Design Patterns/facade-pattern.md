@@ -1,5 +1,7 @@
 ﻿---
 slug: facade-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Facade Pattern

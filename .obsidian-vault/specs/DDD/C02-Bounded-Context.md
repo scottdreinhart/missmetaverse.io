@@ -10,17 +10,56 @@ tags:
   - bounded-context
   - domain-modeling
   - architecture
-  - --
 # Bounded Context
 
 ## Definition
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Bounded Context is **a explicit boundary within which a domain model is valid and a ubiquitous language applies**.
 
 > "Each context map has a bounded context that defines the applicability of the model." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without bounded contexts:
 - **Model confusion**: The same term means different things in different parts of the system
 - **Model bloat**: One model tries to cover everything and becomes unwieldy
@@ -29,12 +68,52 @@ Without bounded contexts:
 
 ## Scope and Boundaries
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Bounded Context â‰  Context Map (bounded context is a single model, context map is the relationship between bounded contexts)
 - Bounded Context = Model (bounded context defines the boundary of a model)
 - Bounded Context is an **architectural boundary**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building complex systems with multiple domains
 - when different teams work on different parts of the system
 - when the same term has different meanings in different parts of the system
@@ -42,6 +121,26 @@ Without bounded contexts:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Bounded contexts add architectural complexity |
@@ -50,18 +149,78 @@ Without bounded contexts:
 
 ## Common Misuses
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Every module a bounded context**: Not every module needs its own bounded context
 - **Ignoring context maps**: Bounded contexts need explicit integration strategies
 - **Confusing with microservice**: A bounded context is a modeling concept, not a deployment unit
 
 ## Related Concepts
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Ubiquitous Language](DDD/ubiquitous-language.md) â€” Each bounded context has its own ubiquitous language
 - [Context Map](DDD/context-map.md) â€” Context map defines relationships between bounded contexts
 - [Anti-Corruption Layer](DDD/anti-corruption-layer.md) â€” Anti-corruption layer protects a bounded context
 
 ## Project Observations
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses bounded contexts:
   - The project's architecture patterns note covers DDD concepts
   - TypeScript modules can serve as bounded context boundaries
@@ -72,6 +231,26 @@ Without bounded contexts:
 
 ## Sources
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -79,6 +258,26 @@ Without bounded contexts:
 
 ## Decision Tree: Bounded Context Design
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to define bounded context?]\n    A --> B{Same term, different meaning?}
@@ -109,6 +308,26 @@ graph TD
 
 ## Procedural Guidance: Bounded Context Setup
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Identify Subdomains
 
 ```typescript
@@ -281,6 +500,26 @@ describe('UserAntiCorruptionLayer', () => {
 
 ## Copilot Instructions
 
+## concept_id
+c02-bounded-context
+
+## title
+Bounded Context
+
+## aliases
+- C02-Bounded-Context
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Defining bounded contexts
 - Creating context maps

@@ -22,17 +22,56 @@ tags:
   - dependency-hygiene
   - accessibility-by-design
   - internationalization-by-design
-  - --
 # Coding Practices & Type-System Practices
 
 ## Overview
 
+## concept_id
+a039-coding-practices
+
+## title
+Coding Practices & Type-System Practices
+
+## aliases
+- A039-coding-practices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Coding practices and type-system practices ensure code is maintainable, reliable, and expressive. These practices leverage TypeScript's type system to catch errors at compile time rather than runtime.
 
 ---
 
 ## 1. Type-System Practices
 
+## concept_id
+a039-coding-practices
+
+## title
+Coding Practices & Type-System Practices
+
+## aliases
+- A039-coding-practices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Strict Typing
 
 **Use TypeScript's strict mode and avoid `any` or `unknown` when possible.**
@@ -333,6 +372,26 @@ if (result.success) {
 
 ## 2. Architecture Practices
 
+## concept_id
+a039-coding-practices
+
+## title
+Coding Practices & Type-System Practices
+
+## aliases
+- A039-coding-practices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Resource Lifecycle
 
 **Manage resources (connections, files, locks) with clear lifecycle management.**
@@ -541,6 +600,26 @@ class OrderService {
 
 ## 3. Quality Practices
 
+## concept_id
+a039-coding-practices
+
+## title
+Coding Practices & Type-System Practices
+
+## aliases
+- A039-coding-practices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Accessibility by Design
 
 **Build accessible interfaces from the start, not as an afterthought.**
@@ -632,6 +711,26 @@ console.log(i18n.t('welcome', { name: 'John' }))  // "Â¡Bienvenido, John!"
 
 ## Cross-References
 
+## concept_id
+a039-coding-practices
+
+## title
+Coding Practices & Type-System Practices
+
+## aliases
+- A039-coding-practices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
 - [DDD Patterns](./Application Architecture/domain-driven-design.md)
@@ -642,6 +741,26 @@ console.log(i18n.t('welcome', { name: 'John' }))  // "Â¡Bienvenido, John!"
 
 ## Integration with Other Notes
 
+## concept_id
+a039-coding-practices
+
+## title
+Coding Practices & Type-System Practices
+
+## aliases
+- A039-coding-practices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for clean architecture patterns
 - Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for SOLID design principles
 - Read [[Application Architecture/domain-driven-design]] for domain-driven design patterns
@@ -652,7 +771,27 @@ console.log(i18n.t('welcome', { name: 'John' }))  // "Â¡Bienvenido, John!"
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a039-coding-practices
+
+## title
+Coding Practices & Type-System Practices
+
+## aliases
+- A039-coding-practices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

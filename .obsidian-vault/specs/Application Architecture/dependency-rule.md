@@ -1,5 +1,7 @@
 ﻿---
 slug: dependency-rule
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Dependency Rule

@@ -1,5 +1,7 @@
 ﻿---
 slug: state-machines
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # State Machines

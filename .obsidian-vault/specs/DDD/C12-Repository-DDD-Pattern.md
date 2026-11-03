@@ -9,17 +9,56 @@ tags:
   - repository
   - domain-modeling
   - data-access
-  - --
 # Repository (DDD)
 
 ## Definition
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Repository (DDD) is **a mechanism for encapsulating storage, retrieval, and search behavior which emulates a collection of objects**.
 
 > "A repository performs the tasks of an intermediary between the domain model and data mapping, acting similarly to a collection." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without repositories:
 - **Data access leakage**: Domain code directly accesses data access mechanisms
 - **Testing difficulty**: Hard to test domain logic without real database
@@ -28,12 +67,52 @@ Without repositories:
 
 ## Scope and Boundaries
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Repository â‰  Data Mapper (repository provides collection-like interface, data mapper handles object-relational mapping)
 - Repository = Collection (repository emulates a collection in memory)
 - Repository is a **domain model building block**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building domain models with complex queries
 - when persistence ignorance is important
 - when testing domain logic without a database is needed
@@ -41,6 +120,26 @@ Without repositories:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Repositories add an abstraction layer |
@@ -49,18 +148,78 @@ Without repositories:
 
 ## Common Misuses
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Query objects as repositories**: Repositories should not become query objects
 - **Domain logic in repositories**: Repositories should not contain domain logic
 - **Confusing with data mapper**: Repository provides collection interface, data mapper handles mapping
 
 ## Related Concepts
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Data Mapper](Architecture/data-mapper-pattern.md) â€” Data mapper handles object-relational mapping
 - [Unit of Work](Architecture/unit-of-work-pattern.md) â€” Unit of work coordinates repositories
 - [Aggregate Root](DDD/aggregate-root.md) â€” Repositories typically manage aggregate roots
 
 ## Project Observations
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses repositories:
   - TypeScript interfaces can serve as repository abstractions
   - The project's architecture patterns note covers DDD concepts
@@ -71,6 +230,26 @@ Without repositories:
 
 ## Sources
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -78,6 +257,26 @@ Without repositories:
 
 ## Decision Tree: Repository Design
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need data access?]
@@ -108,6 +307,26 @@ graph TD
 
 ## Procedural Guidance: Repository Implementation
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Repository Interface
 
 ```typescript
@@ -355,6 +574,26 @@ export class CreateUserService {
 
 ## Copilot Instructions
 
+## concept_id
+c12-repository-ddd-pattern
+
+## title
+Repository (DDD)
+
+## aliases
+- C12-Repository-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Implementing repository pattern
 - Designing data access layer

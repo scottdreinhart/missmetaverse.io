@@ -9,17 +9,56 @@ tags:
   - messaging
   - distributed-systems
   - patterns
-  - --
 # Dead-Letter Queues
 
 ## Definition
 
+## concept_id
+a075-dead-letter-queues
+
+## title
+Dead-Letter Queues
+
+## aliases
+- A075-dead-letter-queues
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Dead-Letter Queues (DLQs) are **queues where messages that can't be processed are sent for later inspection and handling**.
 
 > "A dead-letter channel captures messages that cannot be processed or routed to their intended destination." â€” Enterprise Integration Patterns
 
 ## Problem Addressed
 
+## concept_id
+a075-dead-letter-queues
+
+## title
+Dead-Letter Queues
+
+## aliases
+- A075-dead-letter-queues
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without DLQs:
 - **Lost messages**: Failed messages are lost
 - **Queue blocking**: Failed messages block the queue
@@ -28,12 +67,52 @@ Without DLQs:
 
 ## Scope and Boundaries
 
+## concept_id
+a075-dead-letter-queues
+
+## title
+Dead-Letter Queues
+
+## aliases
+- A075-dead-letter-queues
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - DLQ â‰  Retry (DLQ is for messages that can't be processed, retry tries again)
 - DLQ â‰  Error handling (DLQ is a storage mechanism, error handling is a process)
 - DLQ is a **messaging pattern**, not a general error handling pattern
 
 ## When to Apply
 
+## concept_id
+a075-dead-letter-queues
+
+## title
+Dead-Letter Queues
+
+## aliases
+- A075-dead-letter-queues
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When using message queues
 - When message processing can fail
 - When messages need to be inspected later
@@ -41,6 +120,26 @@ Without DLQs:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a075-dead-letter-queues
+
+## title
+Dead-Letter Queues
+
+## aliases
+- A075-dead-letter-queues
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Storage** â€” DLQs use storage |
@@ -49,24 +148,104 @@ Without DLQs:
 
 ## Common Misuses
 
+## concept_id
+a075-dead-letter-queues
+
+## title
+Dead-Letter Queues
+
+## aliases
+- A075-dead-letter-queues
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Every queue**: Not every queue needs a DLQ
 - **Ignoring DLQs**: DLQs need monitoring and handling
 - **Confusing with retry**: DLQ â‰  retry
 
 ## Related Concepts
 
+## concept_id
+a075-dead-letter-queues
+
+## title
+Dead-Letter Queues
+
+## aliases
+- A075-dead-letter-queues
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Event-Driven Architecture](Architecture/event-driven-architecture.md) â€” DLQs in EDA
 - [Transaction Outbox](Architecture/transactional-outbox.md) â€” Reliable event publishing
 - [Observability](Architecture/quality-delivery-maintainability.md) â€” DLQs need monitoring
 
 ## Project Observations
 
+## concept_id
+a075-dead-letter-queues
+
+## title
+Dead-Letter Queues
+
+## aliases
+- A075-dead-letter-queues
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - No message queues are implemented yet
 - The project's architecture patterns note covers DLQs
 - DDD patterns note covers Domain Events (used with DLQs)
 
 ## Sources
 
+## concept_id
+a075-dead-letter-queues
+
+## title
+Dead-Letter Queues
+
+## aliases
+- A075-dead-letter-queues
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

@@ -1,5 +1,7 @@
 ﻿---
 slug: dependency-injection
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Dependency Injection

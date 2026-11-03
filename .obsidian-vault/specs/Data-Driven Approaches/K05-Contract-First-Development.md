@@ -9,17 +9,56 @@ tags:
   - api
   - design
   - swagger
-  - --
 # Contract-First Development
 
 ## Definition
 
+## concept_id
+k05-contract-first-development
+
+## title
+Contract-First Development
+
+## aliases
+- K05-Contract-First-Development
+
+## category
+architecture
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Contract-First Development is **an API design approach where the API contract (schema) is defined before implementation, ensuring clear agreements between consumers and providers**.
 
 > "Contract-first development defines the API contract before implementation, ensuring clear agreements between consumers and providers." â€” Swagger
 
 ## Problem Addressed
 
+## concept_id
+k05-contract-first-development
+
+## title
+Contract-First Development
+
+## aliases
+- K05-Contract-First-Development
+
+## category
+architecture
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without contract-first:
 - **Inconsistent APIs**: APIs are inconsistent across services
 - **Breaking changes**: Changes break consumers without warning
@@ -28,12 +67,52 @@ Without contract-first:
 
 ## Scope and Boundaries
 
+## concept_id
+k05-contract-first-development
+
+## title
+Contract-First Development
+
+## aliases
+- K05-Contract-First-Development
+
+## category
+architecture
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Contract-First â‰  Code-First (contract-first defines the contract first, code-first generates the contract from code)
 - Contract-First = Agreement (contract-first defines agreements before implementation)
 - Contract-First is a **design approach**, not a pattern
 
 ## When to Apply
 
+## concept_id
+k05-contract-first-development
+
+## title
+Contract-First Development
+
+## aliases
+- K05-Contract-First-Development
+
+## category
+architecture
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building APIs with multiple consumers
 - when API stability is important
 - when documentation is critical
@@ -41,6 +120,26 @@ Without contract-first:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+k05-contract-first-development
+
+## title
+Contract-First Development
+
+## aliases
+- K05-Contract-First-Development
+
+## category
+architecture
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Time** â€” Defining contracts takes time |
@@ -49,18 +148,78 @@ Without contract-first:
 
 ## Common Misuses
 
+## concept_id
+k05-contract-first-development
+
+## title
+Contract-First Development
+
+## aliases
+- K05-Contract-First-Development
+
+## category
+architecture
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything contract-first**: Not every API needs contract-first
 - **Ignoring evolution**: Contracts must evolve over time
 - **Confusing with code-first**: Contract-first defines the contract first, code-first generates from code
 
 ## Related Concepts
 
+## concept_id
+k05-contract-first-development
+
+## title
+Contract-First Development
+
+## aliases
+- K05-Contract-First-Development
+
+## category
+architecture
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Schema-Driven Development](Data-Driven Approaches/schema-driven-development.md) â€” Schema-driven development is related to contract-first
 - [API Versioning](Architecture/api-versioning.md) â€” API versioning manages contract changes
 - [REST API Design](APIs Distributed Systems/rest-api-design.md) â€” REST API design uses contracts
 
 ## Project Observations
 
+## concept_id
+k05-contract-first-development
+
+## title
+Contract-First Development
+
+## aliases
+- K05-Contract-First-Development
+
+## category
+architecture
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses contract-first:
   - OpenAPI/Swagger supports contract-first development
   - TypeScript can enforce contracts through type system
@@ -72,6 +231,26 @@ Without contract-first:
 
 ## Sources
 
+## concept_id
+k05-contract-first-development
+
+## title
+Contract-First Development
+
+## aliases
+- K05-Contract-First-Development
+
+## category
+architecture
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 

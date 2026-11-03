@@ -13,17 +13,56 @@ tags:
   - conventional-commits
   - interactive-commit
   - commit-prompt
-  - --
 # Commitizen & cz-git
 
 ## Overview
 
+## concept_id
+cm01-commitizen-cz-git
+
+## title
+Commitizen & cz-git
+
+## aliases
+- CM01-commitizen-cz-git
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 Commitizen provides interactive commit message prompts that enforce conventional commit format. cz-git is a modern, lightweight, highly customizable Commitizen adapter with AI support, emoji support, and better DX for monorepos.
 
 ---
 
 ## 1. Commitizen (cz-cli)
 
+## concept_id
+cm01-commitizen-cz-git
+
+## title
+Commitizen & cz-git
+
+## aliases
+- CM01-commitizen-cz-git
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### What It Does
 
 Commitizen is a Node.js CLI tool that assists in generating standardized commit messages through an interactive prompt. It acts as a wrapper around `git commit`, guiding developers through a structured Q&A session.
@@ -121,6 +160,26 @@ bootstrap({
 
 ## 2. cz-git â€” Modern Adapter
 
+## concept_id
+cm01-commitizen-cz-git
+
+## title
+Commitizen & cz-git
+
+## aliases
+- CM01-commitizen-cz-git
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### What It Does
 
 cz-git is a DX-first, lightweight, highly customizable Commitizen adapter that outputs standard Conventional Commits format. Features:
@@ -286,6 +345,26 @@ export CZ_GIT_ALLOW_EMPTY_SUBJECT=true
 
 ## 3. czg â€” Standalone CLI
 
+## concept_id
+cm01-commitizen-cz-git
+
+## title
+Commitizen & cz-git
+
+## aliases
+- CM01-commitizen-cz-git
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### What It Does
 
 czg is a standalone git commit CLI built by the same author as cz-git. It doesn't require Commitizen â€” it's a complete replacement for `git commit`.
@@ -328,6 +407,26 @@ czg --verbose
 
 ## 4. Integration with commitlint
 
+## concept_id
+cm01-commitizen-cz-git
+
+## title
+Commitizen & cz-git
+
+## aliases
+- CM01-commitizen-cz-git
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Using @commitlint/cz-commitlint
 
 ```bash
@@ -382,6 +481,26 @@ pnpm add -D @commitlint/cz-commitlint
 
 ## 5. Best Practices
 
+## concept_id
+cm01-commitizen-cz-git
+
+## title
+Commitizen & cz-git
+
+## aliases
+- CM01-commitizen-cz-git
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Do's
 
 - âœ… Use cz-git for modern DX with emoji and AI
@@ -402,6 +521,26 @@ pnpm add -D @commitlint/cz-commitlint
 
 ## Cross-References
 
+## concept_id
+cm01-commitizen-cz-git
+
+## title
+Commitizen & cz-git
+
+## aliases
+- CM01-commitizen-cz-git
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Commitlint CLI & Config](./commitlint-cli-config.md)
 - [Husky Git Hooks](./husky-git-hooks.md)
 - [validate-branch-name](./validate-branch-name.md)
@@ -410,7 +549,27 @@ pnpm add -D @commitlint/cz-commitlint
 - [Linting & Husky Pipeline](./linting-husky-pipeline.md)
 
 ## See Also
-- [[CM02-commitlint-cli-config]]
+
+## concept_id
+cm01-commitizen-cz-git
+
+## title
+Commitizen & cz-git
+
+## aliases
+- CM01-commitizen-cz-git
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required- [[CM02-commitlint-cli-config]]
 - [[CM03-commit-management-integration]]
 - [[CM04-conventional-changelog]]
 - [[CM05-husky-git-hooks]]

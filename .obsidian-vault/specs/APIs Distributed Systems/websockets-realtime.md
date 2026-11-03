@@ -1,5 +1,7 @@
 ﻿---
 slug: websockets-realtime
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # WebSockets Real-time Communication

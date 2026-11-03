@@ -1,5 +1,7 @@
 ﻿---
 slug: hexagonal-architecture-ports
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Hexagonal Architecture Ports

@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-refs
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React Refs

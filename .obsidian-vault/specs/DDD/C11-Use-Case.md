@@ -10,17 +10,56 @@ tags:
   - use-case
   - domain-modeling
   - requirements
-  - --
 # Use Case
 
 ## Definition
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Use Case is **a description of how a user interacts with a system to achieve a goal, capturing the system's behavior from the user's perspective**.
 
 > "A use case describes a sequence of interactions between an actor and a system that produces a result of value to the actor." â€” Alistair Cockburn
 
 ## Problem Addressed
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without use cases:
 - **Unclear requirements**: System behavior is not well defined
 - **Missing scenarios**: Edge cases are not considered
@@ -29,12 +68,52 @@ Without use cases:
 
 ## Scope and Boundaries
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Use Case â‰  User Story (use case is detailed and formal, user story is informal and brief)
 - Use Case = Requirements (use cases capture system requirements)
 - Use Case is a **requirements artifact**, not a code pattern
 
 ## When to Apply
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When gathering requirements
 - when system behavior needs to be documented
 - when testing scenarios need to be defined
@@ -42,6 +121,26 @@ Without use cases:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Effort** â€” Writing use cases takes effort |
@@ -50,18 +149,78 @@ Without use cases:
 
 ## Common Misuses
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Every feature a use case**: Not every feature needs a detailed use case
 - **Ignoring edge cases**: Use cases should cover edge cases, not happy paths
 - **Confusing with user story**: Use cases are detailed, user stories are brief
 
 ## Related Concepts
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Application Service](DDD/application-service.md) â€” Application services often implement use cases
 - [Domain Service](DDD/domain-service.md) â€” Domain services support use cases
 - [Event Sourcing](Data Databases/event-sourcing.md) â€” Use cases can be implemented with event sourcing
 
 ## Project Observations
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses use cases:
   - TypeScript files can serve as use case implementations
   - The project's architecture patterns note covers DDD concepts
@@ -72,6 +231,26 @@ Without use cases:
 
 ## Sources
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -79,6 +258,26 @@ Without use cases:
 
 ## Decision Tree: Use Case Design
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to define behavior?]\n    A --> B{User goal?}
@@ -108,6 +307,26 @@ graph TD
 
 ## Procedural Guidance: Use Case Implementation
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Use Case Document
 
 ```markdown
@@ -121,6 +340,26 @@ graph TD
 
 ## Main Flow
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 1. User adds items to cart
 2. User proceeds to checkout
 3. System validates cart items
@@ -134,12 +373,52 @@ graph TD
 
 ## Alternative Flows
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - A1: Invalid cart items â†’ Show error, return to cart
 - A2: Payment failed â†’ Show error, retry payment
 - A3: Out of stock â†’ Show error, remove items
 
 ## Edge Cases
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - E1: Cart is empty â†’ Show "Add items" message
 - E2: User not logged in â†’ Redirect to login
 - E3: Network failure â†’ Show retry option
@@ -387,6 +666,26 @@ export class CheckoutUseCase {
 
 ## Copilot Instructions
 
+## concept_id
+c11-use-case
+
+## title
+Use Case
+
+## aliases
+- C11-Use-Case
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Defining use cases
 - Implementing application services

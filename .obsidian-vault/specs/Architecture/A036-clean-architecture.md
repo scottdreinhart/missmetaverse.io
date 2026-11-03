@@ -11,17 +11,56 @@ tags:
   - onion-architecture
   - dependency-inversion
   - architecture
-  - --
 # Clean Architecture
 
 ## Overview
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Clean Architecture (also known as Hexagonal Architecture, Ports and Adapters, Onion Architecture) is an architectural style that keeps business rules independent of frameworks, databases, UIs, and external services. The overriding rule is **The Dependency Rule**: source code dependencies can only point inwards.
 
 ---
 
 ## 1. The Dependency Rule
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 > Source code dependencies can only point inwards. Nothing in an inner circle can know anything at all about something in an outer circle.
 
 ```
@@ -52,6 +91,26 @@ Clean Architecture (also known as Hexagonal Architecture, Ports and Adapters, On
 
 ## 2. The Four Circles
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Circle 1: Entities (Innermost)
 
 **Encapsulate enterprise-wide business rules.**
@@ -319,6 +378,26 @@ app.listen(3000)
 
 ## 3. Crossing Boundaries
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### How Control Flow vs Dependency Direction Work
 
 ```
@@ -363,6 +442,26 @@ class EmailServiceAdapter implements EmailPort {
 
 ## 4. What Data Crosses Boundaries
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 **Always use simple data structures. Never pass Entities or Database rows inward.**
 
 ```typescript
@@ -390,6 +489,26 @@ async function processRow(doc: DbDocument) { /* ... */ }
 
 ## 5. Benefits
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Benefit | Description |
 |---------|-------------|
 | **Independent of Frameworks** | Frameworks are tools, not constraints |
@@ -402,6 +521,26 @@ async function processRow(doc: DbDocument) { /* ... */ }
 
 ## 6. Architecture Comparison
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Architecture | Core Idea | Best For |
 |-------------|-----------|----------|
 | **Clean Architecture** | Dependency rule, 4 circles | General purpose, testability |
@@ -416,6 +555,26 @@ async function processRow(doc: DbDocument) { /* ... */ }
 
 ## Cross-References
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [SOLID Principles](./solid-principles.md)
 - [DDD Patterns](./Application Architecture/domain-driven-design.md)
 - [Architecture Patterns](./architecture-patterns.md)
@@ -426,6 +585,26 @@ async function processRow(doc: DbDocument) { /* ... */ }
 
 ## Decision Tree: Clean Architecture vs DDD vs CQRS
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Starting a new feature?]
@@ -463,6 +642,26 @@ graph TD
 
 ## Procedural Guidance: Implementing a Feature in Clean Architecture
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define the Entity (Innermost Circle)
 
 ```typescript
@@ -556,6 +755,26 @@ const orderController = new OrderController(
 
 ## Copilot Instructions
 
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Creating a new feature or module
 - Refactoring existing code to improve separation of concerns
@@ -603,7 +822,27 @@ const orderController = new OrderController(
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a036-clean-architecture
+
+## title
+Clean Architecture
+
+## aliases
+- A036-clean-architecture
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

@@ -9,17 +9,56 @@ tags:
   - security
   - access-control
   - compliance
-  - --
 # Separation of Duties
 
 ## Definition
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Separation of Duties is **a security principle that critical tasks require multiple people to complete, preventing any single person from having too much power**.
 
 > "Separation of duties is a key internal control concept that aims to reduce the risk of error and inappropriate behavior." â€” OWASP
 
 ## Problem Addressed
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without separation of duties:
 - **Too much power**: Any single person can perform critical tasks
 - **Fraud**: Fraud can be committed by a single person
@@ -28,12 +67,52 @@ Without separation of duties:
 
 ## Scope and Boundaries
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Separation of Duties â‰  RBAC (separation of duties is a principle, RBAC is an implementation)
 - Separation of Duties = Prevention (separation of duties prevents abuse)
 - Separation of Duties is a **security principle**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building systems with critical tasks
 - when fraud prevention is important
 - when compliance requires separation of duties
@@ -41,6 +120,26 @@ Without separation of duties:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Separation of duties adds complexity |
@@ -49,18 +148,78 @@ Without separation of duties:
 
 ## Common Misuses
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything separated**: Not every task needs separation
 - **Ignoring small teams**: Small teams may not be able to separate duties
 - **Confusing with RBAC**: Separation of duties is a principle, RBAC is an implementation
 
 ## Related Concepts
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [RBAC](Security/rbac.md) â€” RBAC implements separation of duties
 - [Authorization](Security/authorization.md) â€” Authorization enforces separation of duties
 - [Security Principles](Security/security-principles.md) â€” Security principles include separation of duties
 
 ## Project Observations
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses separation of duties:
   - TypeScript can enforce separation of duties through type system
   - The project's architecture patterns note covers security concepts
@@ -71,6 +230,26 @@ Without separation of duties:
 
 ## Sources
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -78,6 +257,26 @@ Without separation of duties:
 
 ## Decision Tree: Separation of Duties
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Critical operation?]
@@ -105,6 +304,26 @@ graph TD
 
 ## Procedural Guidance: Separation of Duties Implementation
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Define Separation Rules
 
 ```typescript
@@ -351,6 +570,26 @@ export class DeployService {
 
 ## Copilot Instructions
 
+## concept_id
+m06-separation-of-duties
+
+## title
+Separation of Duties
+
+## aliases
+- M06-Separation-of-Duties
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Implementing separation of duties
 - Designing approval workflows

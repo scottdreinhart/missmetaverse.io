@@ -9,17 +9,56 @@ tags:
   - application-service
   - domain-modeling
   - orchestration
-  - --
 # Application Service
 
 ## Definition
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Application Service is **a operation defined by the way the application needs to work, coordinating domain objects to accomplish a task**.
 
 > "An operation offered as an interface by a layer specifically designed to coordinate application tasks." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without application services:
 - **No orchestration**: No clear coordination of domain objects
 - **UI coupling**: Domain logic coupled to UI
@@ -28,12 +67,52 @@ Without application services:
 
 ## Scope and Boundaries
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Application Service â‰  Domain Service (application service orchestrates, domain service contains domain logic)
 - Application Service = Orchestration (application service coordinates domain objects)
 - Application Service is a **layer pattern**, not a domain pattern
 
 ## When to Apply
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications with domain models
 - when coordination of domain objects is needed
 - when transaction boundaries need to be defined
@@ -41,6 +120,26 @@ Without application services:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Application services add architectural layers |
@@ -49,18 +148,78 @@ Without application services:
 
 ## Common Misuses
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Every operation a service**: Not every operation needs an application service
 - **Domain logic in application service**: Application services should orchestrate, not contain domain logic
 - **Confusing with domain service**: Application services orchestrate, domain services contain domain logic
 
 ## Related Concepts
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Domain Service](DDD/domain-service.md) â€” Domain services contain domain logic, application services orchestrate them
 - [Use Case](DDD/use-case.md) â€” Application services often implement use cases
 - [Service Layer](Architecture/service-layer-pattern.md) â€” Application services are a form of service layer
 
 ## Project Observations
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses application services:
   - TypeScript functions can serve as application services
   - The project's architecture patterns note covers DDD concepts
@@ -71,6 +230,26 @@ Without application services:
 
 ## Sources
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -78,6 +257,26 @@ Without application services:
 
 ## Decision Tree: Application Service Design
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to orchestrate?]\n    A --> B{Single aggregate?}
@@ -107,6 +306,26 @@ graph TD
 
 ## Procedural Guidance: Application Service Implementation
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Service Interface
 
 ```typescript
@@ -345,6 +564,26 @@ describe('OrderService', () => {
 
 ## Copilot Instructions
 
+## concept_id
+c10-application-service
+
+## title
+Application Service
+
+## aliases
+- C10-Application-Service
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Implementing application services
 - Orchestrating domain aggregates

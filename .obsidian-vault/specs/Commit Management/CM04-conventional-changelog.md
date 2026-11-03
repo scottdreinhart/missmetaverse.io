@@ -10,17 +10,56 @@ tags:
   - conventionalcommits
   - changelog-generation
   - git-metadata
-  - --
 # Conventional Changelog
 
 ## Overview
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 conventional-changelog generates CHANGELOG files from git commit metadata following the Conventional Commits specification. It's a comprehensive ecosystem of packages for automated changelog generation and version management.
 
 ---
 
 ## 1. Ecosystem Packages
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Core Packages
 
 | Package | Purpose |
@@ -47,6 +86,26 @@ conventional-changelog generates CHANGELOG files from git commit metadata follow
 
 ## 2. Installation
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 # Core package
 pnpm add -D conventional-changelog conventional-changelog-conventionalcommits
@@ -62,6 +121,26 @@ pnpm add -D commit-and-tag-version
 
 ## 3. Usage
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### CLI â€” conventional-changelog
 
 ```bash
@@ -128,6 +207,26 @@ npx commit-and-tag-version --message "chore(release): %s"
 
 ## 4. Configuration
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### `.conventional-changelog.json`
 
 ```json
@@ -185,6 +284,26 @@ npx commit-and-tag-version --message "chore(release): %s"
 
 ## 5. Preset Options
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### conventionalcommits Preset
 
 ```javascript
@@ -242,6 +361,26 @@ const config = createPreset({
 
 ## 6. Conventional Commits Format
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Commit Structure
 
 ```
@@ -284,6 +423,26 @@ BREAKING CHANGE: Response format changed from { data: ... } to { success: true, 
 
 ## 7. Version Bump Rules
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### conventionalcommits Preset
 
 | Commit Type | Bump |
@@ -313,6 +472,26 @@ npx commit-and-tag-version --release-type premajor --preid=beta
 
 ## 8. Node.js Support
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 | Version | Node.js |
 |---------|---------|
 | v25+ | Node.js 22 LTS |
@@ -325,6 +504,26 @@ Only LTS versions are supported.
 
 ## Cross-References
 
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Commitizen & cz-git](./commitizen-cz-git.md)
 - [Commitlint CLI & Config](./commitlint-cli-config.md)
 - [Husky Git Hooks](./husky-git-hooks.md)
@@ -332,7 +531,27 @@ Only LTS versions are supported.
 - [validate-branch-name](./validate-branch-name.md)
 
 ## See Also
-- [[CM01-commitizen-cz-git]]
+
+## concept_id
+cm04-conventional-changelog
+
+## title
+Conventional Changelog
+
+## aliases
+- CM04-conventional-changelog
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required- [[CM01-commitizen-cz-git]]
 - [[CM02-commitlint-cli-config]]
 - [[CM03-commit-management-integration]]
 - [[CM05-husky-git-hooks]]

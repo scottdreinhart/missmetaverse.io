@@ -1,5 +1,7 @@
 ﻿---
 slug: cancellation-pattern
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Cancellation Pattern

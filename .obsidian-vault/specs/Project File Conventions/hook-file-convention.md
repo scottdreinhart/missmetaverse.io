@@ -1,5 +1,7 @@
 ﻿---
 slug: hook-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Hook File Convention

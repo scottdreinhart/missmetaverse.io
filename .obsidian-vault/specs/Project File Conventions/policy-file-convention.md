@@ -1,5 +1,7 @@
 ﻿---
 slug: policy-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Policy File Convention

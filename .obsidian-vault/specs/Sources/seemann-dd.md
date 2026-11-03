@@ -1,5 +1,7 @@
 ﻿---
 slug: seemann-dd
+tags:
+  - source   - reference   - external
 source_id: seemann-dd
 title: "Dependency Injection in .NET"
 author: "Mark Seemann"
@@ -21,7 +23,27 @@ access_limitations: Paid book
 research_notes: "Definitive reference for Dependency Injection in .NET. Defines Composition Root pattern and contrasts DI containers with manual composition."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+seemann-dd
+
+## title
+seemann-dd
+
+## aliases
+- seemann-dd
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

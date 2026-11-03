@@ -1,5 +1,7 @@
 ﻿---
 slug: mobx-state-management
+tags:
+  - state-management   - frontend   - react
 ---
 
 # MobX State Management

@@ -10,17 +10,56 @@ tags:
   - transactions
   - data-modeling
   - consistency
-  - --
 # Transaction Boundaries
 
 ## Definition
 
+## concept_id
+j11-transaction-boundaries
+
+## title
+Transaction Boundaries
+
+## aliases
+- J11-Transaction-Boundaries
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Transaction Boundaries are **the explicit start and end points of a database transaction, ensuring all operations within the boundary succeed or fail together**.
 
 > "A transaction is a single logical unit of work that accesses and possibly modifies data. A transaction may access data in a database or update/modify data." â€” SQL Standard
 
 ## Problem Addressed
 
+## concept_id
+j11-transaction-boundaries
+
+## title
+Transaction Boundaries
+
+## aliases
+- J11-Transaction-Boundaries
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without transaction boundaries:
 - **Partial updates**: Some operations succeed, others fail
 - **Inconsistent state**: Data is left in an inconsistent state
@@ -29,12 +68,52 @@ Without transaction boundaries:
 
 ## Scope and Boundaries
 
+## concept_id
+j11-transaction-boundaries
+
+## title
+Transaction Boundaries
+
+## aliases
+- J11-Transaction-Boundaries
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Transaction Boundaries â‰  ACID (transaction boundaries define the scope, ACID is a property of transactions)
 - Transaction Boundaries = Consistency (transaction boundaries ensure consistency)
 - Transaction Boundaries is a **database concept**, not a pattern
 
 ## When to Apply
 
+## concept_id
+j11-transaction-boundaries
+
+## title
+Transaction Boundaries
+
+## aliases
+- J11-Transaction-Boundaries
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When performing multiple related database operations
 - when all operations must succeed or fail together
 - when data consistency is critical
@@ -42,6 +121,26 @@ Without transaction boundaries:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+j11-transaction-boundaries
+
+## title
+Transaction Boundaries
+
+## aliases
+- J11-Transaction-Boundaries
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Performance** â€” Transactions add overhead |
@@ -50,18 +149,78 @@ Without transaction boundaries:
 
 ## Common Misuses
 
+## concept_id
+j11-transaction-boundaries
+
+## title
+Transaction Boundaries
+
+## aliases
+- J11-Transaction-Boundaries
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything in a transaction**: Not every operation needs a transaction
 - **Long transactions**: Long transactions hold locks longer, causing contention
 - **Confusing with unit of work**: Transaction boundaries define the scope, unit of work coordinates changes
 
 ## Related Concepts
 
+## concept_id
+j11-transaction-boundaries
+
+## title
+Transaction Boundaries
+
+## aliases
+- J11-Transaction-Boundaries
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [ACID](Data Databases/acid.md) â€” ACID properties apply to transactions
 - [Unit of Work](Architecture/unit-of-work-pattern.md) â€” Unit of work coordinates transactions
 - [Optimistic Concurrency](Data Databases/optimistic-cc.md) â€” Optimistic concurrency control works with transactions
 
 ## Project Observations
 
+## concept_id
+j11-transaction-boundaries
+
+## title
+Transaction Boundaries
+
+## aliases
+- J11-Transaction-Boundaries
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses transaction boundaries:
   - PostgreSQL supports transactions
   - MySQL supports transactions
@@ -73,6 +232,26 @@ Without transaction boundaries:
 
 ## Sources
 
+## concept_id
+j11-transaction-boundaries
+
+## title
+Transaction Boundaries
+
+## aliases
+- J11-Transaction-Boundaries
+
+## category
+data-management
+
+## concept_type
+data-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 

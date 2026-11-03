@@ -1,5 +1,7 @@
 ﻿---
 slug: date-fns-date-library
+tags:
+  - date   - utility   - frontend
 ---
 
 # date-fns Date Library

@@ -1,5 +1,7 @@
 ﻿---
 slug: solid-principles
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # SOLID Principles

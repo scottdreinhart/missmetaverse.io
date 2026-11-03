@@ -1,5 +1,7 @@
 ﻿---
 slug: component-based-architecture
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Component-Based Architecture

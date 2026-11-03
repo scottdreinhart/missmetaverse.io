@@ -17,15 +17,54 @@ tags:
   - security
   - concurrent
   - best-practices
-  - --
 # React: Performance, Security & Best Practices
 
 ## Overview
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 React 19 introduces **Concurrent React** with non-blocking rendering, Transitions, Suspense, and the React Compiler for automatic memoization. This note covers optimization, security, and best practices.
 
 ## React Compiler (Automatic Memoization)
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 The React Compiler automatically memoizes values and functions, reducing the need for manual `useMemo`/`useCallback` calls:
 
 ```js
@@ -38,6 +77,26 @@ function TodoList({ todos, tab }) {
 
 ## Performance Optimization
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### useMemo â€” Cache Expensive Calculations
 
 ```tsx
@@ -185,6 +244,26 @@ function SearchPage() {
 
 ## Security Best Practices
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### XSS Prevention
 
 React automatically escapes content rendered in JSX:
@@ -270,6 +349,26 @@ class ErrorBoundary extends Component {
 
 ## Rules of React
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Components and Hooks Must Be Pure
 
 ```tsx
@@ -315,6 +414,26 @@ function Component() {
 
 ## State Management Best Practices
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Prefer Local State
 
 ```tsx
@@ -363,6 +482,26 @@ useEffect(() => {
 
 ## Performance Checklist
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [ ] Use React Compiler when possible (automatic memoization)
 - [ ] Profile with React DevTools before optimizing
 - [ ] Use `useMemo` for expensive calculations (1ms+)
@@ -380,6 +519,26 @@ useEffect(() => {
 
 ## Cross-References
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - See [TypeScript/typescript-strict-mode](D/TypeScript/typescript-strict-mode.md) for TypeScript integration with React
 - See [vite-optimization-security](D/vite-optimization-security.md) for build optimization
 - See [vitest-testing](D/vitest-testing.md) for testing React components
@@ -389,6 +548,26 @@ useEffect(() => {
 
 ## Decision Tree: React Performance Optimization
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to optimize React?]\n    A --> B{What type?}
@@ -422,6 +601,26 @@ graph TD
 
 ## Procedural Guidance: React Performance Optimization
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Add React.memo
 
 ```tsx
@@ -555,6 +754,26 @@ export function App() {
 
 ## Copilot Instructions
 
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Optimizing React performance
 - Preventing unnecessary re-renders
@@ -606,7 +825,27 @@ export function App() {
 
 
 ## See Also
-- [[R01-modern-react-project-template]]
+
+## concept_id
+r03-react-performance-security
+
+## title
+React: Performance, Security & Best Practices
+
+## aliases
+- R03-react-performance-security
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required- [[R01-modern-react-project-template]]
 - [[R02-Architecture/react-patterns]]
 
 

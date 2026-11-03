@@ -1,5 +1,7 @@
 ﻿---
 slug: specification
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Specification

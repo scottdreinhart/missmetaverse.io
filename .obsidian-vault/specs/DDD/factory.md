@@ -1,5 +1,7 @@
 ﻿---
 slug: factory
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Factory

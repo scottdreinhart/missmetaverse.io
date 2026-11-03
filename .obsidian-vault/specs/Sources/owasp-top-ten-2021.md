@@ -33,7 +33,27 @@ access_limitations: None
 research_notes: "Industry-standard security risk guide. The 2021 edition is the current version. Covers the most critical security risks to web applications."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+owasp-top-ten-2021
+
+## title
+owasp-top-ten-2021
+
+## aliases
+- owasp-top-ten-2021
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

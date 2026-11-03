@@ -9,17 +9,56 @@ tags:
   - typescript
   - type-system
   - patterns
-  - --
 # Boundary Validation
 
 ## Definition
 
+## concept_id
+n11-boundary-validation
+
+## title
+Boundary Validation
+
+## aliases
+- N11-Boundary-Validation
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 Boundary Validation is **a TypeScript pattern for validating data at system boundaries (APIs, databases, external services) using runtime type checking**.
 
 > "Boundary validation ensures that data entering or leaving the system is validated at the boundary using runtime type checking." â€” Zod Docs
 
 ## Problem Addressed
 
+## concept_id
+n11-boundary-validation
+
+## title
+Boundary Validation
+
+## aliases
+- N11-Boundary-Validation
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 Without boundary validation:
 - **Invalid data**: Invalid data enters the system
 - **Type errors**: Type errors occur at runtime
@@ -28,12 +67,52 @@ Without boundary validation:
 
 ## Scope and Boundaries
 
+## concept_id
+n11-boundary-validation
+
+## title
+Boundary Validation
+
+## aliases
+- N11-Boundary-Validation
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - Boundary Validation â‰  Input Validation (boundary validation is at system boundaries, input validation is at user input)
 - Boundary Validation = Protection (boundary validation protects the system)
 - Boundary Validation is a **TypeScript pattern**, not a design pattern
 
 ## When to Apply
 
+## concept_id
+n11-boundary-validation
+
+## title
+Boundary Validation
+
+## aliases
+- N11-Boundary-Validation
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building TypeScript applications
 - when data crosses system boundaries
 - when runtime type checking is needed
@@ -41,6 +120,26 @@ Without boundary validation:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+n11-boundary-validation
+
+## title
+Boundary Validation
+
+## aliases
+- N11-Boundary-Validation
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Boundary validation adds boilerplate |
@@ -49,18 +148,78 @@ Without boundary validation:
 
 ## Common Misuses
 
+## concept_id
+n11-boundary-validation
+
+## title
+Boundary Validation
+
+## aliases
+- N11-Boundary-Validation
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything validated**: Not every boundary needs validation
 - **Ignoring performance**: Validation adds overhead
 - **Confusing with type system**: TypeScript's type system is compile-time, boundary validation is runtime
 
 ## Related Concepts
 
+## concept_id
+n11-boundary-validation
+
+## title
+Boundary Validation
+
+## aliases
+- N11-Boundary-Validation
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Input Validation](Security/input-validation.md) â€” Input validation is a form of boundary validation
 - [Parse Don't Validate](Architecture/parse-dont-validate.md) â€” Parse don't validate is related to boundary validation
 - [Zod Patterns](Architecture/zod-patterns.md) â€” Zod enables boundary validation
 
 ## Project Observations
 
+## concept_id
+n11-boundary-validation
+
+## title
+Boundary Validation
+
+## aliases
+- N11-Boundary-Validation
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses boundary validation:
   - Zod supports boundary validation through runtime type checking
   - TypeScript supports boundary validation through type system
@@ -72,6 +231,26 @@ Without boundary validation:
 
 ## Sources
 
+## concept_id
+n11-boundary-validation
+
+## title
+Boundary Validation
+
+## aliases
+- N11-Boundary-Validation
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 

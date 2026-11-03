@@ -1,5 +1,7 @@
 ﻿---
 slug: eslint-configuration
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # ESLint Configuration

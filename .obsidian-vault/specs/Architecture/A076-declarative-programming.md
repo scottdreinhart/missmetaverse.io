@@ -9,17 +9,56 @@ tags:
   - programming-paradigm
   - data-driven
   - configuration-driven
-  - --
 # Declarative Programming
 
 ## Definition
 
+## concept_id
+a076-declarative-programming
+
+## title
+Declarative Programming
+
+## aliases
+- A076-declarative-programming
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Declarative Programming is a **paradigm where you describe WHAT should be done rather than HOW to do it**. The implementation details are handled by the framework or language.
 
 > "Declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow." â€” Wikipedia
 
 ## Problem Addressed
 
+## concept_id
+a076-declarative-programming
+
+## title
+Declarative Programming
+
+## aliases
+- A076-declarative-programming
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Imperative programming leads to:
 - **Boilerplate**: Describing every step
 - **Complexity**: Control flow obscures intent
@@ -28,12 +67,52 @@ Imperative programming leads to:
 
 ## Scope and Boundaries
 
+## concept_id
+a076-declarative-programming
+
+## title
+Declarative Programming
+
+## aliases
+- A076-declarative-programming
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Declarative â‰  Functional (declarative is broader than functional)
 - Declarative â‰  Data-driven (declarative is a paradigm, data-driven is an approach)
 - Declarative is a **programming paradigm**, not a specific technique
 
 ## When to Apply
 
+## concept_id
+a076-declarative-programming
+
+## title
+Declarative Programming
+
+## aliases
+- A076-declarative-programming
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When using frameworks (React, SQL, CSS)
 - When describing desired state
 - When the framework handles implementation
@@ -41,6 +120,26 @@ Imperative programming leads to:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a076-declarative-programming
+
+## title
+Declarative Programming
+
+## aliases
+- A076-declarative-programming
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Abstraction** â€” Hard to control implementation |
@@ -49,18 +148,78 @@ Imperative programming leads to:
 
 ## Common Misuses
 
+## concept_id
+a076-declarative-programming
+
+## title
+Declarative Programming
+
+## aliases
+- A076-declarative-programming
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything declarative**: Some things need imperative control
 - **Confusing with data-driven**: Declarative â‰  data-driven
 - **Over-abstraction**: Too much abstraction hides important details
 
 ## Related Concepts
 
+## concept_id
+a076-declarative-programming
+
+## title
+Declarative Programming
+
+## aliases
+- A076-declarative-programming
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Data-Driven Design](Architecture/data-driven-design.md) â€” Complementary approach
 - [Configuration-Driven Development](Architecture/configuration-driven-development.md) â€” Declarative configuration
 - [React Patterns](../React/Architecture/react-patterns) â€” React is declarative
 
 ## Project Observations
 
+## concept_id
+a076-declarative-programming
+
+## title
+Declarative Programming
+
+## aliases
+- A076-declarative-programming
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses declarative patterns:
   - React (declarative UI)
   - Tailwind CSS (declarative styling)
@@ -70,6 +229,26 @@ Imperative programming leads to:
 
 ## Sources
 
+## concept_id
+a076-declarative-programming
+
+## title
+Declarative Programming
+
+## aliases
+- A076-declarative-programming
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
 
 

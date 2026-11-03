@@ -9,17 +9,56 @@ tags:
   - typescript
   - types
   - patterns
-  - --
 # Discriminated Unions
 
 ## Definition
 
+## concept_id
+a086-discriminated-unions
+
+## title
+Discriminated Unions
+
+## aliases
+- A086-discriminated-unions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Discriminated Unions are a **TypeScript feature for creating unions of types with a common discriminant property**.
 
 > "Discriminated unions are unions of types with a common discriminant property." â€” TypeScript Docs
 
 ## Problem Addressed
 
+## concept_id
+a086-discriminated-unions
+
+## title
+Discriminated Unions
+
+## aliases
+- A086-discriminated-unions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without discriminated unions:
 - **Type safety**: Type safety is lost
 - **IntelliSense**: IntelliSense doesn't work
@@ -28,12 +67,52 @@ Without discriminated unions:
 
 ## Scope and Boundaries
 
+## concept_id
+a086-discriminated-unions
+
+## title
+Discriminated Unions
+
+## aliases
+- A086-discriminated-unions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Discriminated Unions â‰  Unions (discriminated unions are a specific type of union)
 - Discriminated Unions â‰  Type Guards (discriminated unions are a feature, type guards are a pattern)
 - Discriminated Unions is a **TypeScript feature**, not a pattern
 
 ## When to Apply
 
+## concept_id
+a086-discriminated-unions
+
+## title
+Discriminated Unions
+
+## aliases
+- A086-discriminated-unions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building TypeScript applications
 - when type safety matters
 - when IntelliSense is important
@@ -41,6 +120,26 @@ Without discriminated unions:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a086-discriminated-unions
+
+## title
+Discriminated Unions
+
+## aliases
+- A086-discriminated-unions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Discriminated unions are complex |
@@ -49,18 +148,78 @@ Without discriminated unions:
 
 ## Common Misuses
 
+## concept_id
+a086-discriminated-unions
+
+## title
+Discriminated Unions
+
+## aliases
+- A086-discriminated-unions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything discriminated union**: Not everything needs discriminated unions
 - **Confusing with unions**: Discriminated unions â‰  unions
 - **Over-discriminated-unions**: Too many discriminated unions create complexity
 
 ## Related Concepts
 
+## concept_id
+a086-discriminated-unions
+
+## title
+Discriminated Unions
+
+## aliases
+- A086-discriminated-unions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [TypeScript Best Practices](../TypeScript/TypeScript/typescript-strict-mode.md) â€” Discriminated unions with TypeScript
 - [Type Narrowing](Architecture/type-narrowing.md) â€” Discriminated unions with type narrowing
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md) â€” Discriminated unions with strict mode
 
 ## Project Observations
 
+## concept_id
+a086-discriminated-unions
+
+## title
+Discriminated Unions
+
+## aliases
+- A086-discriminated-unions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses discriminated unions:
   - The project's TypeScript note covers discriminated unions (from existing notes)
   - No evidence of discriminated unions in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without discriminated unions:
 
 ## Sources
 
+## concept_id
+a086-discriminated-unions
+
+## title
+Discriminated Unions
+
+## aliases
+- A086-discriminated-unions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

@@ -1,5 +1,7 @@
 ﻿---
 slug: react-router-configuration
+tags:
+  - routing   - navigation   - frontend
 ---
 
 # React Router Configuration

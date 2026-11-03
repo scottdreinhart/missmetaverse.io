@@ -1,5 +1,7 @@
 ﻿---
 slug: w3c-i18n
+tags:
+  - source   - reference   - external
 title: W3C Internationalization (i18n) Resources
 description: W3C Internationalization activity â€” standards, guides, and best practices for building software that supports multiple languages, regions, and writing systems.
 author: Copilot
@@ -29,10 +31,50 @@ tags:
 
 ## Overview
 
+## concept_id
+w3c-i18n
+
+## title
+W3C Internationalization (i18n) Resources
+
+## aliases
+- w3c-i18n
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 The **W3C Internationalization (i18n) activity** develops standards, guides, and tools for making the Web accessible to all users regardless of language, culture, or writing system. i18n covers character encoding, text direction, date/number formatting, collation, and more.
 
 ## Key Standards
 
+## concept_id
+w3c-i18n
+
+## title
+W3C Internationalization (i18n) Resources
+
+## aliases
+- w3c-i18n
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 | Standard | Description | URL |
 |----------|-------------|-----|
 | **Unicode** | Character encoding standard | unicode.org |
@@ -43,6 +85,26 @@ The **W3C Internationalization (i18n) activity** develops standards, guides, and
 
 ## i18n vs l10n
 
+## concept_id
+w3c-i18n
+
+## title
+W3C Internationalization (i18n) Resources
+
+## aliases
+- w3c-i18n
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 | Term | Meaning | Scope |
 |------|---------|-------|
 | **i18n** (internationalization) | Designing software to support multiple languages/regions | Architecture, data formats, UI design |
@@ -53,6 +115,26 @@ The **W3C Internationalization (i18n) activity** develops standards, guides, and
 
 ## Key i18n Concerns
 
+## concept_id
+w3c-i18n
+
+## title
+W3C Internationalization (i18n) Resources
+
+## aliases
+- w3c-i18n
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 ### 1. Character Encoding
 
 - **UTF-8**: Universal character encoding (required)
@@ -100,6 +182,26 @@ Use `Intl.DateTimeFormat`, `Intl.NumberFormat`, `Intl.Collator`
 
 ## Best Practices
 
+## concept_id
+w3c-i18n
+
+## title
+W3C Internationalization (i18n) Resources
+
+## aliases
+- w3c-i18n
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 | Practice | Description |
 |----------|-------------|
 | **Externalize strings** | Never hardcode text in code |
@@ -114,6 +216,26 @@ Use `Intl.DateTimeFormat`, `Intl.NumberFormat`, `Intl.Collator`
 
 ## Tools
 
+## concept_id
+w3c-i18n
+
+## title
+W3C Internationalization (i18n) Resources
+
+## aliases
+- w3c-i18n
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 | Tool | Purpose | URL |
 |------|---------|-----|
 | **formatjs** | i18n for JavaScript/React | formatjs.io |
@@ -125,6 +247,26 @@ Use `Intl.DateTimeFormat`, `Intl.NumberFormat`, `Intl.Collator`
 
 ## JavaScript i18n API
 
+## concept_id
+w3c-i18n
+
+## title
+W3C Internationalization (i18n) Resources
+
+## aliases
+- w3c-i18n
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced
 ```javascript
 // Date formatting
 new Intl.DateTimeFormat('en-US').format(new Date())
@@ -159,7 +301,27 @@ pr.select(2) // â†’ "other"
 *Last Verified: 2026-11-02*
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+w3c-i18n
+
+## title
+W3C Internationalization (i18n) Resources
+
+## aliases
+- w3c-i18n
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

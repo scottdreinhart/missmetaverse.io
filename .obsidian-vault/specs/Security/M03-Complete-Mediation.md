@@ -9,17 +9,56 @@ tags:
   - security
   - authentication
   - authorization
-  - --
 # Complete Mediation
 
 ## Definition
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Complete Mediation is **a security principle that every access to every object must be checked for authorization**.
 
 > "Complete mediation means that every access to every object must be checked for authorization." â€” OWASP
 
 ## Problem Addressed
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without complete mediation:
 - **Bypassed checks**: Access checks are bypassed
 - **Caching issues**: Cached authorization decisions are stale
@@ -28,12 +67,52 @@ Without complete mediation:
 
 ## Scope and Boundaries
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Complete Mediation â‰  Caching (complete mediation checks every access, caching stores authorization decisions)
 - Complete Mediation = Security (complete mediation ensures security)
 - Complete Mediation is a **security principle**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building secure systems
 - when authorization is critical
 - when security holes must be prevented
@@ -41,6 +120,26 @@ Without complete mediation:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Performance** â€” Checking every access adds overhead |
@@ -49,18 +148,78 @@ Without complete mediation:
 
 ## Common Misuses
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Ignoring caching**: Caching authorization decisions can be safe if done correctly
 - **One-time checks**: One-time checks at login are not complete mediation
 - **Confusing with authentication**: Authentication verifies identity, authorization verifies access
 
 ## Related Concepts
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Authentication](Security/authentication.md) â€” Authentication verifies identity
 - [Authorization](Security/authorization.md) â€” Authorization verifies access
 - [Security Principles](Security/security-principles.md) â€” Security principles include complete mediation
 
 ## Project Observations
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses complete mediation:
   - TypeScript can enforce complete mediation through type system
   - The project's architecture patterns note covers security concepts
@@ -71,6 +230,26 @@ Without complete mediation:
 
 ## Sources
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -78,6 +257,26 @@ Without complete mediation:
 
 ## Decision Tree: Complete Mediation Implementation
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need authorization check?]\n    A --> B{Every access?}
@@ -107,6 +306,26 @@ graph TD
 
 ## Procedural Guidance: Complete Mediation Implementation
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Implement Authorization Middleware
 
 ```typescript
@@ -409,6 +628,26 @@ describe('Complete Mediation', () => {
 
 ## Copilot Instructions
 
+## concept_id
+m03-complete-mediation
+
+## title
+Complete Mediation
+
+## aliases
+- M03-Complete-Mediation
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Implementing authorization checks
 - Creating middleware for security

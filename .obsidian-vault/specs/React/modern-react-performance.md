@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-performance
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React Performance

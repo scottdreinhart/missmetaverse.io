@@ -1,5 +1,7 @@
 ﻿---
 slug: seo-fundamentals
+tags:
+  - frontend   - web   - ui
 ---
 
 # SEO Fundamentals

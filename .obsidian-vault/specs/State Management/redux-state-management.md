@@ -1,5 +1,7 @@
 ﻿---
 slug: redux-state-management
+tags:
+  - state-management   - frontend   - react
 ---
 
 # Redux State Management

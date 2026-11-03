@@ -1,5 +1,7 @@
 ﻿---
 slug: database-transactions
+tags:
+  - database   - data   - backend
 ---
 
 # Database Transactions

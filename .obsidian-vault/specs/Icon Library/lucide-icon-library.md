@@ -1,5 +1,7 @@
 ﻿---
 slug: lucide-icon-library
+tags:
+  - icons   - ui   - frontend
 ---
 
 # Lucide Icon Library

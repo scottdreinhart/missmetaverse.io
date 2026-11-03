@@ -37,10 +37,50 @@ date: 2026-11-02
 
 ## Type Safety as Security
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 TypeScript's primary security benefit is **compile-time type safety** â€” catching errors before they reach production. This prevents entire classes of runtime vulnerabilities.
 
 ## Strict Type Checking
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Enable Full Strict Mode
 
 ```jsonc
@@ -107,6 +147,26 @@ try {
 
 ## Input Validation
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Runtime Type Guards
 
 ```typescript
@@ -154,6 +214,26 @@ function handleResponse(response: ApiResponse) {
 
 ## Preventing Type Assertion Abuse
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Avoid `as` Assertions for Validation
 
 ```typescript
@@ -196,6 +276,26 @@ const badConfig = {
 
 ## Safe Index Access
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### noUncheckedIndexedAccess
 
 ```jsonc
@@ -226,6 +326,26 @@ if (env.CUSTOM) {
 
 ## noImplicitOverride â€” Prevent Inheritance Bugs
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 class Base {
   setup() { /* ... */ }
@@ -242,6 +362,26 @@ class Child extends Base {
 
 ## Use `const` Enums Sparingly
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // âŒ const enums are erased at compile time â€” no runtime safety
 const enum Direction { Up, Down, Left, Right }
@@ -257,6 +397,26 @@ if (dir === Direction.Up) { /* ... */ }
 
 ## Security Checklist
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Check | Setting | Purpose |
 |-------|---------|---------|
 | Strict mode | `strict: true` | All strict type checks |
@@ -271,6 +431,26 @@ if (dir === Direction.Up) { /* ... */ }
 
 ## Key Takeaways
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 1. **Always enable `strict: true`** â€” it's the foundation of TypeScript security
 2. **Prefer `unknown` over `any`** â€” forces type narrowing before use
 3. **Use type guards for runtime validation** â€” never trust external input
@@ -279,6 +459,26 @@ if (dir === Direction.Up) { /* ... */ }
 
 ## Decision Tree: TypeScript Security Patterns
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need TypeScript security?]\n    A --> B{What type?}
@@ -311,6 +511,26 @@ graph TD
 
 ## Procedural Guidance: TypeScript Security Setup
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Enable Strict Mode
 
 ```jsonc
@@ -435,6 +655,26 @@ class ExtendedComponent extends BaseComponent {
 
 ## Copilot Instructions
 
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Setting up TypeScript security
 - Implementing type-safe APIs
@@ -486,7 +726,27 @@ class ExtendedComponent extends BaseComponent {
 
 
 ## See Also
-- [[T01-TypeScript/generics]]
+
+## concept_id
+t08-ts-security-best-practices
+
+## title
+TypeScript Security Best Practices
+
+## aliases
+- T08-ts-security-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required- [[T01-TypeScript/generics]]
 - [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
 - [[T04-TypeScript/typescript-strict-mode]]

@@ -1,5 +1,7 @@
 ﻿---
 slug: mapper-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Mapper File Convention

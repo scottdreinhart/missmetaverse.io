@@ -1,5 +1,7 @@
 ﻿---
 slug: web-vitals
+tags:
+  - frontend   - web   - ui
 ---
 
 # Web Vitals

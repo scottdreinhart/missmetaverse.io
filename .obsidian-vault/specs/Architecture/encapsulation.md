@@ -1,5 +1,7 @@
 ﻿---
 slug: encapsulation
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Encapsulation

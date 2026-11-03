@@ -9,17 +9,56 @@ tags:
   - enterprise-patterns
   - patterns
   - architecture
-  - --
 # Data Mapper Pattern
 
 ## Definition
 
+## concept_id
+a069-data-mapper-pattern
+
+## title
+Data Mapper Pattern
+
+## aliases
+- A069-data-mapper-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Data Mapper Pattern is a **design pattern that separates in-memory objects from databases by mapping data between them**.
 
 > "The Data Mapper pattern separates in-memory objects from databases by mapping data between them, using a memory-area dataset for mediation." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+a069-data-mapper-pattern
+
+## title
+Data Mapper Pattern
+
+## aliases
+- A069-data-mapper-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without data mapper pattern:
 - **Coupling**: Objects are coupled to databases
 - **Testing**: Hard to test objects
@@ -28,12 +67,52 @@ Without data mapper pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a069-data-mapper-pattern
+
+## title
+Data Mapper Pattern
+
+## aliases
+- A069-data-mapper-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Data Mapper Pattern â‰  ORM (data mapper pattern is a pattern, ORM is a tool)
 - Data Mapper Pattern â‰  Repository (data mapper pattern is for mapping, repository is for data access)
 - Data Mapper Pattern is a **design pattern**, not a data access pattern
 
 ## When to Apply
 
+## concept_id
+a069-data-mapper-pattern
+
+## title
+Data Mapper Pattern
+
+## aliases
+- A069-data-mapper-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - when database separation matters
 - when testing is important
@@ -41,6 +120,26 @@ Without data mapper pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a069-data-mapper-pattern
+
+## title
+Data Mapper Pattern
+
+## aliases
+- A069-data-mapper-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Data mapper pattern is complex |
@@ -49,18 +148,78 @@ Without data mapper pattern:
 
 ## Common Misuses
 
+## concept_id
+a069-data-mapper-pattern
+
+## title
+Data Mapper Pattern
+
+## aliases
+- A069-data-mapper-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything data mapper**: Not everything needs data mapper pattern
 - **Confusing with ORM**: Data mapper pattern â‰  ORM
 - **Over-data-mapper**: Too many data mappers create complexity
 
 ## Related Concepts
 
+## concept_id
+a069-data-mapper-pattern
+
+## title
+Data Mapper Pattern
+
+## aliases
+- A069-data-mapper-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Data mapper pattern with DDD
 - [Repository Pattern](Architecture/repository-pattern-ddd.md) â€” Data mapper pattern with repository
 - [ORM](Architecture/orm.md) â€” Data mapper pattern with ORM
 
 ## Project Observations
 
+## concept_id
+a069-data-mapper-pattern
+
+## title
+Data Mapper Pattern
+
+## aliases
+- A069-data-mapper-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses data mapper pattern:
   - The project's architecture patterns note covers data mapper pattern (from existing notes)
   - No evidence of data mapper pattern in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without data mapper pattern:
 
 ## Sources
 
+## concept_id
+a069-data-mapper-pattern
+
+## title
+Data Mapper Pattern
+
+## aliases
+- A069-data-mapper-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

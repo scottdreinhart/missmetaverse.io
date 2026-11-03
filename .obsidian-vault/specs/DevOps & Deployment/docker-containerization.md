@@ -1,5 +1,7 @@
 ﻿---
 slug: docker-containerization
+tags:
+  - devops   - deployment   - cicd
 ---
 
 # Docker Containerization

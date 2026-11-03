@@ -1,5 +1,7 @@
 ﻿---
 slug: distributed-tracing
+tags:
+  - monitoring   - observability   - devops
 ---
 
 # Distributed Tracing

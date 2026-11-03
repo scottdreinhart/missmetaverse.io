@@ -1,5 +1,7 @@
 ﻿---
 slug: circuit-breaker-pattern
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Circuit Breaker Pattern

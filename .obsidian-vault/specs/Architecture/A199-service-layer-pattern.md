@@ -9,17 +9,56 @@ tags:
   - enterprise-patterns
   - patterns
   - architecture
-  - --
 # Service Layer Pattern
 
 ## Definition
 
+## concept_id
+a199-service-layer-pattern
+
+## title
+Service Layer Pattern
+
+## aliases
+- A199-service-layer-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Service Layer Pattern is a **design pattern that defines an application's boundary with its layers of responsibility**.
 
 > "The Service Layer pattern defines an application's boundary with its layers of responsibility, encapsulating the application logic and coordinating use case execution." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+a199-service-layer-pattern
+
+## title
+Service Layer Pattern
+
+## aliases
+- A199-service-layer-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without service layer pattern:
 - **Complexity**: Application logic is complex
 - **Coupling**: Application logic is coupled to UI
@@ -28,12 +67,52 @@ Without service layer pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a199-service-layer-pattern
+
+## title
+Service Layer Pattern
+
+## aliases
+- A199-service-layer-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Service Layer Pattern â‰  Business Logic (service layer pattern is a boundary, business logic is a concept)
 - Service Layer Pattern â‰  API (service layer pattern is internal, API is external)
 - Service Layer Pattern is a **design pattern**, not a business logic pattern
 
 ## When to Apply
 
+## concept_id
+a199-service-layer-pattern
+
+## title
+Service Layer Pattern
+
+## aliases
+- A199-service-layer-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - When application logic matters
 - When testing is important
@@ -41,6 +120,26 @@ Without service layer pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a199-service-layer-pattern
+
+## title
+Service Layer Pattern
+
+## aliases
+- A199-service-layer-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Service layer pattern is complex |
@@ -49,18 +148,78 @@ Without service layer pattern:
 
 ## Common Misuses
 
+## concept_id
+a199-service-layer-pattern
+
+## title
+Service Layer Pattern
+
+## aliases
+- A199-service-layer-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything service layer**: Not everything needs service layer pattern
 - **Confusing with business logic**: Service layer pattern â‰  business logic
 - **Over-service-layer**: Too many service layers create complexity
 
 ## Related Concepts
 
+## concept_id
+a199-service-layer-pattern
+
+## title
+Service Layer Pattern
+
+## aliases
+- A199-service-layer-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Service layer pattern with DDD
 - [Business Logic](Architecture/business-logic.md) â€” Service layer pattern with business logic
 - [API](Architecture/api.md) â€” Service layer pattern with API
 
 ## Project Observations
 
+## concept_id
+a199-service-layer-pattern
+
+## title
+Service Layer Pattern
+
+## aliases
+- A199-service-layer-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses service layer pattern:
   - The project's architecture patterns note covers service layer pattern (from existing notes)
   - No evidence of service layer pattern in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without service layer pattern:
 
 ## Sources
 
+## concept_id
+a199-service-layer-pattern
+
+## title
+Service Layer Pattern
+
+## aliases
+- A199-service-layer-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

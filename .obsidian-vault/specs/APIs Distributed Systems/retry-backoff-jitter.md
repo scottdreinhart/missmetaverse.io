@@ -1,5 +1,7 @@
 ﻿---
 slug: retry-backoff-jitter
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Retry with Backoff and Jitter

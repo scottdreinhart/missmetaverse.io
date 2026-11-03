@@ -1,5 +1,7 @@
 ﻿---
 slug: behavior-driven-development
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Behavior-Driven Development

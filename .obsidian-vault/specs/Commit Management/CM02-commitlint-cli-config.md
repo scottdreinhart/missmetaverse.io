@@ -13,17 +13,56 @@ tags:
   - conventional-commits
   - commit-validation
   - linting
-  - --
 # Commitlint CLI & Configuration
 
 ## Overview
 
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 commitlint helps teams adhere to commit message conventions by linting commit messages. It validates that commits follow the Conventional Commits specification before they are created.
 
 ---
 
 ## 1. Installation
 
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 pnpm add -D @commitlint/cli @commitlint/config-conventional
 ```
@@ -32,6 +71,26 @@ pnpm add -D @commitlint/cli @commitlint/config-conventional
 
 ## 2. Configuration
 
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### `commitlint.config.js`
 
 ```javascript
@@ -223,6 +282,26 @@ export default {
 
 ## 3. All Available Rules
 
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Header Rules
 
 | Rule | Default | Description |
@@ -305,6 +384,26 @@ export default {
 
 ## 4. Local Setup with Husky
 
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Husky v9
 
 ```bash
@@ -342,6 +441,26 @@ npx commitlint --config commitlint.config.js -f COMMIT_EDIT_MSG
 
 ## 5. CI Setup
 
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### GitHub Actions
 
 ```yaml
@@ -396,6 +515,26 @@ commitlint:
 
 ## 6. Plugins
 
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Creating a Custom Plugin
 
 ```javascript
@@ -439,6 +578,26 @@ module.exports = {
 
 ## 7. CLI Options
 
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 # Basic usage
 npx commitlint --edit COMMIT_EDIT_MSG
@@ -467,6 +626,26 @@ npx commitlint --help
 
 ## Cross-References
 
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Commitizen & cz-git](./commitizen-cz-git.md)
 - [Husky Git Hooks](./husky-git-hooks.md)
 - [Conventional Changelog](./conventional-changelog.md)
@@ -475,7 +654,27 @@ npx commitlint --help
 - [Linting & Husky Pipeline](./Integration/linting-husky-pipeline.md)
 
 ## See Also
-- [[CM01-commitizen-cz-git]]
+
+## concept_id
+cm02-commitlint-cli-config
+
+## title
+Commitlint CLI & Configuration
+
+## aliases
+- CM02-commitlint-cli-config
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required- [[CM01-commitizen-cz-git]]
 - [[CM03-commit-management-integration]]
 - [[CM04-conventional-changelog]]
 - [[CM05-husky-git-hooks]]

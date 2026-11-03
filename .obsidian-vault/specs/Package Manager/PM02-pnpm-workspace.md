@@ -13,17 +13,56 @@ tags:
   - dependencies
   - scripts
   - lockfile
-  - --
 # pnpm Package Manager
 
 ## Overview
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 pnpm (Performant npm) is a fast, disk-space efficient package manager that uses content-addressable storage and symlinks.
 
 ---
 
 ## 1. Installation & Setup
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 # Install pnpm globally
 corepack enable
@@ -47,6 +86,26 @@ pnpm add @radix-ui/react-dropdown-menu --peer
 
 ## 2. Package.json Scripts
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```json
 {
   "name": "my-app",
@@ -85,6 +144,26 @@ pnpm add @radix-ui/react-dropdown-menu --peer
 
 ## 3. Workspace Configuration
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Monorepo Setup
 
 ```yaml
@@ -141,6 +220,26 @@ project/
 
 ## 4. Dependency Management
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Dependency Types
 
 ```json
@@ -189,6 +288,26 @@ pnpm update react --latest
 
 ## 5. pnpm Commands
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Install
 
 ```bash
@@ -244,6 +363,26 @@ pnpm --filter @my/web build
 
 ## 6. Store & Caching
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 # View store location
 pnpm store path
@@ -263,6 +402,26 @@ pnpm list --recursive --depth=0
 
 ## 7. Best Practices
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Workspace Protocol
 
 ```json
@@ -304,6 +463,26 @@ hoist-pattern=*
 
 ## Cross-References
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [CI/CD GitHub Actions](./cicd-github-actions.md)
 - [Docker Nginx Deployment](./docker-nginx-deployment.md)
 - [Commit Management](../Commit%20Management/commit-management-integration.md)
@@ -312,6 +491,26 @@ hoist-pattern=*
 
 ## Decision Tree: pnpm Workspace Setup
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need pnpm setup?]\n    A --> B{Single project?}
@@ -343,6 +542,26 @@ graph TD
 
 ## Procedural Guidance: pnpm Setup
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Install pnpm
 
 ```bash
@@ -423,6 +642,26 @@ pnpm audit
 
 ## Copilot Instructions
 
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Setting up pnpm for a project
 - Managing dependencies
@@ -471,6 +710,26 @@ pnpm audit
 - [ ] Are outdated packages updated?
 
 ## See Also
-- [[PM01-Package Manager/pnpm-package-manager]]
+
+## concept_id
+pm02-pnpm-workspace
+
+## title
+pnpm Package Manager
+
+## aliases
+- PM02-pnpm-workspace
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required- [[PM01-Package Manager/pnpm-package-manager]]
 
 

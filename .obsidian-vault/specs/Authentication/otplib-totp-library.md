@@ -1,5 +1,7 @@
 ﻿---
 slug: otplib-totp-library
+tags:
+  - authentication   - security   - backend
 ---
 
 # otplib TOTP Library

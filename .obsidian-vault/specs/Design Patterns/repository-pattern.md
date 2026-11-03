@@ -1,5 +1,7 @@
 ﻿---
 slug: repository-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Repository Pattern

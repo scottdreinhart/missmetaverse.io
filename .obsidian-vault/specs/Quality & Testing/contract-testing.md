@@ -1,5 +1,7 @@
 ﻿---
 slug: contract-testing
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Contract Testing

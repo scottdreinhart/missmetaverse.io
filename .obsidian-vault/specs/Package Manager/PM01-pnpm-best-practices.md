@@ -14,15 +14,54 @@ tags:
   - security
   - workspace
   - best-practices
-  - --
 # pnpm: Best Practices, Security & Performance
 
 ## Overview
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 pnpm (Performant NPM) is a fast, disk space efficient package manager. It uses a content-addressable store and hardlinks symlinks for dependencies.
 
 ## Core Concepts
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Content-Addressable Store
 
 pnpm stores packages in a global store keyed by their integrity hash. Each project's `node_modules` uses **hardlinks** to the store, saving disk space.
@@ -64,6 +103,26 @@ import lodash from 'lodash'; // Not in dependencies!
 
 ## Installation Best Practices
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Basic Install
 
 ```bash
@@ -115,6 +174,26 @@ pnpm install --filter ./packages/ui
 
 ## Package Management
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Adding Packages
 
 ```bash
@@ -178,6 +257,26 @@ pnpm add pkg:npm/express@4.18.2
 
 ## Workspace Configuration
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### pnpm-workspace.yaml
 
 ```yaml
@@ -244,6 +343,26 @@ pnpm add prettier --save-catalog=my-team
 
 ## Security Best Practices
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Integrity Verification
 
 pnpm verifies package integrity using SHA-512 hashes stored in `pnpm-lock.yaml`:
@@ -317,6 +436,26 @@ VITE_APP_TITLE=My App
 
 ## Performance Optimization
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Disk Space Efficiency
 
 pnpm uses hardlinks, so installing the same package across 100 projects uses disk space for only one copy:
@@ -369,6 +508,26 @@ This deduplicates compatible dependency versions across the workspace, reducing 
 
 ## Advanced Configuration
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Node Linker Options
 
 ```yaml
@@ -409,6 +568,26 @@ interface ImportMeta {
 
 ## CLI Reference
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Common Commands
 
 | Command | Description |
@@ -454,6 +633,26 @@ interface ImportMeta {
 
 ## Best Practices Checklist
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [x] **Use `pnpm-lock.yaml`** â€” commit to version control
 - [x] **Use `--frozen-lockfile` in CI**
 - [x] **Never use `--shamefully-hoist`** â€” keep strict node_modules
@@ -471,6 +670,26 @@ interface ImportMeta {
 
 ## Cross-References
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - See [vite-optimization-security](D/vite-optimization-security.md) for Vite build optimization
 - See [vitest-testing](D/vitest-testing.md) for Vitest testing setup
 - See [React/modern-react-performance](D/React/modern-react-performance.md) for React integration
@@ -479,6 +698,26 @@ interface ImportMeta {
 
 ## Decision Tree: pnpm Workspace Setup
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need package management?]\n    A --> B{Single or Multi?}
@@ -508,6 +747,26 @@ graph TD
 
 ## Procedural Guidance: pnpm Setup
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Install pnpm
 
 ```bash
@@ -619,6 +878,26 @@ jobs:
 
 ## Copilot Instructions
 
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Setting up pnpm for a new project
 - Configuring pnpm workspaces
@@ -667,6 +946,26 @@ jobs:
 - [ ] Are peer dependencies properly declared?
 
 ## See Also
-- [[PM02-pnpm-workspace]]
+
+## concept_id
+pm01-pnpm-best-practices
+
+## title
+pnpm: Best Practices, Security & Performance
+
+## aliases
+- PM01-pnpm-best-practices
+
+## category
+devops-tools
+
+## concept_type
+dependency-pattern
+
+## research_status
+verified
+
+## project_adoption
+required- [[PM02-pnpm-workspace]]
 
 

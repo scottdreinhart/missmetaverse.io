@@ -9,17 +9,56 @@ tags:
   - react
   - patterns
   - frontend
-  - --
 # Headless UI Pattern
 
 ## Definition
 
+## concept_id
+a116-headless-ui-pattern
+
+## title
+Headless UI Pattern
+
+## aliases
+- A116-headless-ui-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Headless UI Pattern is a **React pattern that provides unstyled, fully accessible components with full control over styling**.
 
 > "Headless UI components are unstyled, fully accessible components that give you full control over styling." â€” Radix UI
 
 ## Problem Addressed
 
+## concept_id
+a116-headless-ui-pattern
+
+## title
+Headless UI Pattern
+
+## aliases
+- A116-headless-ui-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without headless UI:
 - **Styling difficulty**: Hard to style components
 - **Accessibility**: Hard to make components accessible
@@ -28,12 +67,52 @@ Without headless UI:
 
 ## Scope and Boundaries
 
+## concept_id
+a116-headless-ui-pattern
+
+## title
+Headless UI Pattern
+
+## aliases
+- A116-headless-ui-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Headless UI â‰  Component Library (headless UI is unstyled, component libraries are styled)
 - Headless UI â‰  UI Kit (headless UI is unstyled, UI kits are styled)
 - Headless UI is a **pattern**, not a specific pattern
 
 ## When to Apply
 
+## concept_id
+a116-headless-ui-pattern
+
+## title
+Headless UI Pattern
+
+## aliases
+- A116-headless-ui-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building React applications
 - When styling matters
 - When accessibility is important
@@ -41,6 +120,26 @@ Without headless UI:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a116-headless-ui-pattern
+
+## title
+Headless UI Pattern
+
+## aliases
+- A116-headless-ui-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Headless UI is complex |
@@ -49,18 +148,78 @@ Without headless UI:
 
 ## Common Misuses
 
+## concept_id
+a116-headless-ui-pattern
+
+## title
+Headless UI Pattern
+
+## aliases
+- A116-headless-ui-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything headless**: Not everything needs headless UI
 - **Confusing with component library**: Headless UI â‰  component library
 - **Over-headless**: Too many headless components create complexity
 
 ## Related Concepts
 
+## concept_id
+a116-headless-ui-pattern
+
+## title
+Headless UI Pattern
+
+## aliases
+- A116-headless-ui-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [React Patterns](../React/Architecture/react-patterns) â€” Headless UI with React
 - [Design Systems](Architecture/design-systems.md) â€” Headless UI with design systems
 - [Component Composition](Architecture/component-composition.md) â€” Headless UI with composition
 
 ## Project Observations
 
+## concept_id
+a116-headless-ui-pattern
+
+## title
+Headless UI Pattern
+
+## aliases
+- A116-headless-ui-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses headless UI:
   - The project's architecture patterns note covers headless UI (from existing notes)
   - No evidence of headless UI in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without headless UI:
 
 ## Sources
 
+## concept_id
+a116-headless-ui-pattern
+
+## title
+Headless UI Pattern
+
+## aliases
+- A116-headless-ui-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

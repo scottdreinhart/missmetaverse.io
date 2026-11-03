@@ -10,17 +10,56 @@ tags:
   - scope
   - simplicity
   - xp
-  - --
 # YAGNI (You Aren't Going to Need It)
 
 ## Definition
 
+## concept_id
+a241-yagni-principle
+
+## title
+YAGNI (You Aren't Going to Need It)
+
+## aliases
+- A241-yagni-principle
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 YAGNI states that **you should not add functionality until it is deemed necessary**. Avoid building for hypothetical future requirements.
 
 > "Always implement things when you actually need them, never when you just foresee that you need them." â€” Ron Jeffries (Extreme Programming)
 
 ## Problem Addressed
 
+## concept_id
+a241-yagni-principle
+
+## title
+YAGNI (You Aren't Going to Need It)
+
+## aliases
+- A241-yagni-principle
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Building for hypothetical needs leads to:
 - **Wasted effort**: Features that are never used
 - **Increased complexity**: More code to maintain, test, and understand
@@ -29,18 +68,78 @@ Building for hypothetical needs leads to:
 
 ## Scope and Boundaries
 
+## concept_id
+a241-yagni-principle
+
+## title
+YAGNI (You Aren't Going to Need It)
+
+## aliases
+- A241-yagni-principle
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - YAGNI is about **features and functionality**, not about **technical foundations**
 - Building a proper architecture is not YAGNI â€” it's good engineering
 - YAGNI does **not** mean "don't plan" â€” it means "don't implement what you don't need yet"
 
 ## When to Apply
 
+## concept_id
+a241-yagni-principle
+
+## title
+YAGNI (You Aren't Going to Need It)
+
+## aliases
+- A241-yagni-principle
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When a feature is requested but not currently needed
 - When adding "just in case" functionality
 - When choosing between a simple solution and a flexible one
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a241-yagni-principle
+
+## title
+YAGNI (You Aren't Going to Need It)
+
+## aliases
+- A241-yagni-principle
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Re-work** | Adding features later may require refactoring |
@@ -49,24 +148,104 @@ Building for hypothetical needs leads to:
 
 ## Common Misuses
 
+## concept_id
+a241-yagni-principle
+
+## title
+YAGNI (You Aren't Going to Need It)
+
+## aliases
+- A241-yagni-principle
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Over-literal interpretation**: Refusing to build any abstraction
 - **Ignoring obvious needs**: Some features are needed in every project (logging, error handling)
 - **Confusing with planning**: YAGNI â‰  no planning
 
 ## Related Concepts
 
+## concept_id
+a241-yagni-principle
+
+## title
+YAGNI (You Aren't Going to Need It)
+
+## aliases
+- A241-yagni-principle
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **KISS** â€” Simplicity over complexity
 - **DRY** â€” Centralize knowledge, don't duplicate
 - **Evolutionary Architecture** â€” Design for change, not predictability
 
 ## Project Observations
 
+## concept_id
+a241-yagni-principle
+
+## title
+YAGNI (You Aren't Going to Need It)
+
+## aliases
+- A241-yagni-principle
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - AGENTS.md explicitly prohibits adding unnecessary dependencies ("Do not add a CSS-in-JS library")
 - The project uses a minimal tech stack â€” consistent with YAGNI
 - No evidence of "just in case" code in existing configuration
 
 ## Sources
 
+## concept_id
+a241-yagni-principle
+
+## title
+YAGNI (You Aren't Going to Need It)
+
+## aliases
+- A241-yagni-principle
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-oop-2000|martin-oop-2000]]
 
 

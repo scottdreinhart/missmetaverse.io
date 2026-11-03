@@ -1,5 +1,7 @@
 ﻿---
 slug: value-object
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Value Object

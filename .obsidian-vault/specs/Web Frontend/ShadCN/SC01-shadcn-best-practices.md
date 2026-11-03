@@ -30,10 +30,50 @@ tags:
 
 ## Overview
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 shadcn/ui is **not a component library** â€” it's a collection of **reusable components** you can copy and paste into your apps. It follows five core principles.
 
 ## Core Principles
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### 1. Open Code
 
 All components are free to use and customize. Source code is fully transparent and available on GitHub.
@@ -111,6 +151,26 @@ Components are designed to work well with AI coding assistants:
 
 ## Component Architecture
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Flat File Schema
 
 shadcn/ui uses a flat file structure for easy navigation:
@@ -140,6 +200,26 @@ src/components/ui/
 
 ## Customization Best Practices
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Theme Customization
 
 Customize via CSS variables in `globals.css`:
@@ -223,6 +303,26 @@ const Button = ({ className, variant, size, ...props }: ButtonProps) => {
 
 ## Accessibility (a11y) Best Practices
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Built-in Accessibility
 
 shadcn/ui components are built on top of **Radix UI** primitives, which provide:
@@ -297,6 +397,26 @@ function AccessibleForm() {
 
 ## Performance Optimization
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Bundle Size
 
 shadcn/ui components are **tree-shakeable** when used with Vite:
@@ -333,6 +453,26 @@ function Page() {
 
 ## Integration with React
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Project Structure
 
 ```
@@ -363,6 +503,26 @@ export function cn(...inputs: ClassValue[]) {
 
 ## AI Integration Best Practices
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Prompting for shadcn/ui
 
 When using AI assistants, reference shadcn/ui explicitly:
@@ -392,6 +552,26 @@ Keep component docs updated:
 
 ## Security Best Practices
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Content Security Policy
 
 shadcn/ui components don't inject inline scripts that would break CSP:
@@ -416,6 +596,26 @@ function UserContent({ content }: { content: string }) {
 
 ## Recommended Setup Checklist
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 - [x] **Initialize with CLI** (`npx shadcn@latest init`)
 - [x] **Configure theme colors** in `globals.css`
 - [x] **Add components via CLI** (`npx shadcn@latest add <component>`)
@@ -429,6 +629,26 @@ function UserContent({ content }: { content: string }) {
 
 ## Cross-References
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 - See [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS integration
 - See [css3-performance-security](D/css3-performance-security.md) for CSS3 performance fundamentals
 - See [html5-best-practices](D/html5-best-practices.md) for HTML5 accessibility patterns
@@ -440,6 +660,26 @@ function UserContent({ content }: { content: string }) {
 
 ## Decision Tree: ShadCN Best Practices
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to customize component?]\n    A --> B{Simple change?}
@@ -469,6 +709,26 @@ graph TD
 
 ## Procedural Guidance: ShadCN Optimization
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Configure Theme
 
 ```css
@@ -659,6 +919,26 @@ export function MemoizedList({ items }: { items: ListItem[] }) {
 
 ## Copilot Instructions
 
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Customizing shadcn/ui components
 - Implementing accessibility best practices
@@ -710,6 +990,26 @@ export function MemoizedList({ items }: { items: ListItem[] }) {
 
 
 ## See Also
-- [[SC02-shadcn-ui-patterns]]
+
+## concept_id
+sc01-shadcn-best-practices
+
+## title
+shadcn/ui: Best Practices & Optimization
+
+## aliases
+- SC01-shadcn-best-practices
+
+## category
+ui-library
+
+## concept_type
+component-library
+
+## research_status
+verified
+
+## project_adoption
+required- [[SC02-shadcn-ui-patterns]]
 
 

@@ -1,5 +1,7 @@
 ﻿---
 slug: layered-architecture
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Layered Architecture

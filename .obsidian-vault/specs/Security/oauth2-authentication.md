@@ -1,5 +1,7 @@
 ﻿---
 slug: oauth2-authentication
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # OAuth 2.0 Authentication

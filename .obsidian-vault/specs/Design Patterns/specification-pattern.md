@@ -1,5 +1,7 @@
 ﻿---
 slug: specification-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Specification Pattern

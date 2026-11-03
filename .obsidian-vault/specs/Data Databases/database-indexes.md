@@ -1,5 +1,7 @@
 ﻿---
 slug: database-indexes
+tags:
+  - database   - data   - backend
 ---
 
 # Database Indexes

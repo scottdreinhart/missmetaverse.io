@@ -9,17 +9,56 @@ tags:
   - factory
   - domain-modeling
   - object-creation
-  - --
 # Factory (DDD)
 
 ## Definition
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Factory (DDD) is **an object or method responsible for creating domain objects, encapsulating creation logic and ensuring objects are created in valid states**.
 
 > "A factory is an operation that creates a new domain object, ensuring it is created in a valid state." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without factories:
 - **Invalid state**: Objects can be created in invalid states
 - **Creation logic leakage**: Creation logic is scattered across the codebase
@@ -28,12 +67,52 @@ Without factories:
 
 ## Scope and Boundaries
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Factory â‰  Constructor (factory is a separate method/class, constructor is built-in)
 - Factory = Creation (factory encapsulates object creation logic)
 - Factory is a **domain model building block**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building domain models with complex creation logic
 - when objects must be created in valid states
 - when creation logic is complex
@@ -41,6 +120,26 @@ Without factories:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Factories add an abstraction layer |
@@ -49,18 +148,78 @@ Without factories:
 
 ## Common Misuses
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything needs a factory**: Not every object needs a factory
 - **Factory as god object**: Factories should not become god objects
 - **Confusing with constructor**: Constructors are for simple creation, factories are for complex creation
 
 ## Related Concepts
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Aggregate Root](DDD/aggregate-root.md) â€” Aggregate roots often contain factory methods
 - [Value Object](DDD/value-object.md) â€” Value objects may need factories for creation
 - [Domain Invariant](DDD/domain-invariant.md) â€” Factories ensure objects are created in valid states
 
 ## Project Observations
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses factories:
   - TypeScript static methods can serve as factories
   - The project's architecture patterns note covers DDD concepts
@@ -71,6 +230,26 @@ Without factories:
 
 ## Sources
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -78,6 +257,26 @@ Without factories:
 
 ## Decision Tree: Factory Design
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to create domain object?]
@@ -108,6 +307,26 @@ graph TD
 
 ## Procedural Guidance: Factory Implementation
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Static Factory Method on Entity
 
 ```typescript
@@ -302,6 +521,26 @@ interface OrderItem {
 
 ## Copilot Instructions
 
+## concept_id
+c14-factory-ddd-pattern
+
+## title
+Factory (DDD)
+
+## aliases
+- C14-Factory-DDD-Pattern
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Creating domain objects with complex validation
 - Implementing factory patterns

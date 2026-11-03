@@ -10,17 +10,56 @@ tags:
   - security
   - secrets
   - compliance
-  - --
 # Secrets Management
 
 ## Definition
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Secrets Management is **the practice of securely storing, rotating, and accessing sensitive data such as passwords, API keys, and certificates**.
 
 > "Secrets management is the practice of securely storing, rotating, and accessing sensitive data." â€” OWASP
 
 ## Problem Addressed
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without secrets management:
 - **Exposed secrets**: Secrets are exposed in code or configuration
 - **Rotation**: Secrets are not rotated regularly
@@ -29,12 +68,52 @@ Without secrets management:
 
 ## Scope and Boundaries
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Secrets Management â‰  Data Encryption (secrets management manages secrets, data encryption protects data)
 - Secrets Management = Protection (secrets management protects secrets)
 - Secrets Management is a **security practice**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building systems that handle secrets
 - when compliance requires secrets management
 - when security is important
@@ -42,6 +121,26 @@ Without secrets management:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Secrets management adds infrastructure complexity |
@@ -50,18 +149,78 @@ Without secrets management:
 
 ## Common Misuses
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything a secret**: Not every sensitive data point is a secret
 - **Ignoring rotation**: Secrets must be rotated regularly
 - **Confusing with encryption**: Secrets management manages secrets, data encryption protects data
 
 ## Related Concepts
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Data Encryption](Security/data-encryption.md) â€” Data encryption protects secrets
 - [Data Minimization](Security/data-minimization.md) â€” Data minimization limits secrets collection
 - [Security Principles](Security/security-principles.md) â€” Security principles include secrets management
 
 ## Project Observations
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses secrets management:
   - Node.js supports secrets management through environment variables
   - TypeScript can enforce secrets management through type system
@@ -73,12 +232,52 @@ Without secrets management:
 
 ## Sources
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/owasp-top-ten-2021|owasp-top-ten-2021]]
 
 ---
 
 ## Decision Tree: Secrets Management
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to manage secret?]
@@ -109,6 +308,26 @@ graph TD
 
 ## Procedural Guidance: Secrets Management Implementation
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Create .env.local for Local Development
 
 ```bash
@@ -324,6 +543,26 @@ secrets/
 
 ## Copilot Instructions
 
+## concept_id
+m16-secrets-management
+
+## title
+Secrets Management
+
+## aliases
+- M16-Secrets-Management
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Managing API keys and passwords
 - Setting up environment variables

@@ -1,5 +1,7 @@
 ﻿---
 slug: repository-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Repository File Convention

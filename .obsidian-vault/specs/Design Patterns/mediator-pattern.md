@@ -1,5 +1,7 @@
 ﻿---
 slug: mediator-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Mediator Pattern

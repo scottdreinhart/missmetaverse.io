@@ -1,5 +1,7 @@
 ﻿---
 slug: concurrency
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Concurrency

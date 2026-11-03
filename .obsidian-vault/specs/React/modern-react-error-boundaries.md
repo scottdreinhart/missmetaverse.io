@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-error-boundaries
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React Error Boundaries

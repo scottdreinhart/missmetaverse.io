@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-suspense
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React Suspense

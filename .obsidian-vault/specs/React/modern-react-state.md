@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-state
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React State

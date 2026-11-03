@@ -1,5 +1,7 @@
 ﻿---
 slug: data-minimization
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Data Minimization

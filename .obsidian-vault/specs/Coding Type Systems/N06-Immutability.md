@@ -9,17 +9,56 @@ tags:
   - typescript
   - type-system
   - patterns
-  - --
 # Immutability
 
 ## Definition
 
+## concept_id
+n06-immutability
+
+## title
+Immutability
+
+## aliases
+- N06-Immutability
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 Immutability is **a programming principle where data cannot be modified after creation, preventing unexpected side effects**.
 
 > "Immutability means that data cannot be modified after creation. In TypeScript, this is enforced through `readonly` and `as const`." â€” TypeScript Docs
 
 ## Problem Addressed
 
+## concept_id
+n06-immutability
+
+## title
+Immutability
+
+## aliases
+- N06-Immutability
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 Without immutability:
 - **Side effects**: Data is modified unexpectedly
 - **Bugs**: Bugs caused by shared mutable state
@@ -28,12 +67,52 @@ Without immutability:
 
 ## Scope and Boundaries
 
+## concept_id
+n06-immutability
+
+## title
+Immutability
+
+## aliases
+- N06-Immutability
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - Immutability â‰  Pure Functions (immutability prevents mutation, pure functions have no side effects)
 - Immutability = Safety (immutability prevents unexpected mutations)
 - Immutability is a **programming principle**, not a pattern
 
 ## When to Apply
 
+## concept_id
+n06-immutability
+
+## title
+Immutability
+
+## aliases
+- N06-Immutability
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building React applications
 - when state management is important
 - when concurrency is a concern
@@ -41,6 +120,26 @@ Without immutability:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+n06-immutability
+
+## title
+Immutability
+
+## aliases
+- N06-Immutability
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Immutability adds boilerplate |
@@ -49,18 +148,78 @@ Without immutability:
 
 ## Common Misuses
 
+## concept_id
+n06-immutability
+
+## title
+Immutability
+
+## aliases
+- N06-Immutability
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything immutable**: Not every piece of data needs to be immutable
 - **Ignoring performance**: Creating new objects can be expensive
 - **Confusing with readonly**: `readonly` prevents reassignment, not mutation
 
 ## Related Concepts
 
+## concept_id
+n06-immutability
+
+## title
+Immutability
+
+## aliases
+- N06-Immutability
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Pure Functions](Architecture/pure-functions.md) â€” Pure functions benefit from immutability
 - [Discriminated Unions](Architecture/discriminated-unions.md) â€” Discriminated unions are immutable
 - [Make Invalid States Unrepresentable](Architecture/make-invalid-states-unrepresentable.md) â€” Immutability supports making invalid states unrepresentable
 
 ## Project Observations
 
+## concept_id
+n06-immutability
+
+## title
+Immutability
+
+## aliases
+- N06-Immutability
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses immutability:
   - TypeScript supports immutability through `readonly` and `as const`
   - React benefits from immutability through state management
@@ -72,6 +231,26 @@ Without immutability:
 
 ## Sources
 
+## concept_id
+n06-immutability
+
+## title
+Immutability
+
+## aliases
+- N06-Immutability
+
+## category
+coding-standards
+
+## concept_type
+best-practice
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 

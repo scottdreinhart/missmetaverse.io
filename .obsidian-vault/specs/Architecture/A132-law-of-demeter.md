@@ -9,11 +9,30 @@ tags:
   - principles
   - coupling
   - oop
-  - --
 # Law of Demeter (Principle of Least Knowledge)
 
 ## Definition
 
+## concept_id
+a132-law-of-demeter
+
+## title
+Law of Demeter (Principle of Least Knowledge)
+
+## aliases
+- A132-law-of-demeter
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 The Law of Demeter states that **a method should only call methods on**:
 1. Itself
 2. Its parameters
@@ -24,6 +43,26 @@ The Law of Demeter states that **a method should only call methods on**:
 
 ## Problem Addressed
 
+## concept_id
+a132-law-of-demeter
+
+## title
+Law of Demeter (Principle of Least Knowledge)
+
+## aliases
+- A132-law-of-demeter
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Violating LoD leads to:
 - **Tight coupling**: Changes in distant objects break the chain
 - **Fragile code**: Method chains break when intermediate objects change
@@ -32,12 +71,52 @@ Violating LoD leads to:
 
 ## Scope and Boundaries
 
+## concept_id
+a132-law-of-demeter
+
+## title
+Law of Demeter (Principle of Least Knowledge)
+
+## aliases
+- A132-law-of-demeter
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - LoD applies to **method calls**, not just object creation
 - It's about **knowledge of structure**, not just coupling
 - LoD â‰  Encapsulation (LoD is about what you call, encapsulation is about what you expose)
 
 ## When to Apply
 
+## concept_id
+a132-law-of-demeter
+
+## title
+Law of Demeter (Principle of Least Knowledge)
+
+## aliases
+- A132-law-of-demeter
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When writing methods that access nested objects
 - When designing APIs
 - When reviewing code for method chains
@@ -45,6 +124,26 @@ Violating LoD leads to:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a132-law-of-demeter
+
+## title
+Law of Demeter (Principle of Least Knowledge)
+
+## aliases
+- A132-law-of-demeter
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Telescoping methods** | Many small methods to traverse structure |
@@ -53,18 +152,78 @@ Violating LoD leads to:
 
 ## Common Misuses
 
+## concept_id
+a132-law-of-demeter
+
+## title
+Law of Demeter (Principle of Least Knowledge)
+
+## aliases
+- A132-law-of-demeter
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Literal interpretation**: "Never call a method that returns an object" â€” too strict
 - **Ignoring context**: LoD is a guideline, not an absolute rule
 - **Confusing with encapsulation**: LoD is about calling, encapsulation is about exposing
 
 ## Related Concepts
 
+## concept_id
+a132-law-of-demeter
+
+## title
+Law of Demeter (Principle of Least Knowledge)
+
+## aliases
+- A132-law-of-demeter
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Tell, Don't Ask** â€” Tell objects what to do, don't ask for their data
 - **Low Coupling** â€” LoD reduces coupling
 - **Information Hiding** â€” LoD respects information hiding
 
 ## Project Observations
 
+## concept_id
+a132-law-of-demeter
+
+## title
+Law of Demeter (Principle of Least Knowledge)
+
+## aliases
+- A132-law-of-demeter
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - TypeScript's type system helps enforce LoD through explicit interfaces
 - File naming conventions support LoD:
   - `*.port.ts` â€” Define what you need, not how to get it
@@ -73,6 +232,26 @@ Violating LoD leads to:
 
 ## Sources
 
+## concept_id
+a132-law-of-demeter
+
+## title
+Law of Demeter (Principle of Least Knowledge)
+
+## aliases
+- A132-law-of-demeter
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-oop-2000|martin-oop-2000]]
 
 

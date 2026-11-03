@@ -35,7 +35,27 @@ access_limitations: None
 research_notes: "Official pnpm documentation. Primary source for pnpm workspace configuration, dependency management, and best practices."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+pnpm-docs-2024
+
+## title
+pnpm-docs-2024
+
+## aliases
+- pnpm-docs-2024
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

@@ -19,11 +19,53 @@ tags:
 
 ## Overview
 
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 This note covers the complete code quality pipeline: ESLint (with TypeScript), Prettier, Husky (git hooks), and lint-staged (staged file linting). Together, these tools ensure code quality is enforced before any commit enters the repository.
 
 ---
 
 ## 1. ESLint Configuration (Flat Config â€” ESLint 9+)
+
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### `eslint.config.mjs`
 
@@ -164,6 +206,27 @@ For rules that require full type information (slower but more accurate):
 
 ## 2. Prettier Configuration
 
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### `.prettierrc.cjs`
 
 ```javascript
@@ -233,6 +296,27 @@ pnpm add -D prettier-plugin-tailwindcss
 
 ## 3. Husky â€” Git Hooks
 
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Setup (Husky v9+)
 
 ```bash
@@ -289,6 +373,27 @@ npx --no -- commitlint --edit "$1"
 ---
 
 ## 4. lint-staged â€” Staged File Linting
+
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### `lint-staged.config.mjs`
 
@@ -361,6 +466,27 @@ export default defineConfig({
 
 ## 5. Complete Setup Workflow
 
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Step-by-Step Installation
 
 ```bash
@@ -412,6 +538,27 @@ git commit -m "test: add test file"
 
 ## 6. CI/CD Integration
 
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### GitHub Actions Example
 
 ```yaml
@@ -455,6 +602,27 @@ jobs:
 
 ## 7. Troubleshooting
 
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Common Issues
 
 | Problem | Solution |
@@ -482,6 +650,27 @@ HUSKY=1 git commit -m "test"
 
 ## Cross-References
 
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - [Integration Master Config](integration-master-config.md)
 - [TypeScript Best Practices](./TypeScript/TypeScript/typescript-strict-mode.md)
 - [Vite Optimization & Security](./vite-optimization-security.md)
@@ -491,6 +680,27 @@ HUSKY=1 git commit -m "test"
 - [CSS3 Performance & Security](./Cascading%20Stylesheets/css3-performance-security.md)
 
 ## See Also
+
+## concept_id
+i04-linting-husky-pipeline
+
+## title
+I04-linting-husky-pipeline
+
+## aliases
+- I04-linting-husky-pipeline
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[I01-cicd-github-actions]]
 - [[I02-docker-nginx-deployment]]
 - [[I03-integration-master-config]]

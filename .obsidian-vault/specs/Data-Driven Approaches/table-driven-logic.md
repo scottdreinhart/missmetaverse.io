@@ -1,5 +1,7 @@
 ﻿---
 slug: table-driven-logic
+tags:
+  - data-driven   - declarative   - architecture
 ---
 
 # Table-Driven Logic

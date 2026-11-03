@@ -1,5 +1,7 @@
 ﻿---
 slug: low-coupling
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Low Coupling

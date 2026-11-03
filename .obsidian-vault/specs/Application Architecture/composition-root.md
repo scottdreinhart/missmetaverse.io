@@ -1,5 +1,7 @@
 ﻿---
 slug: composition-root
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Composition Root

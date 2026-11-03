@@ -1,5 +1,7 @@
 ﻿---
 slug: happy-dom-testing
+tags:
+  - testing   - e2e   - quality
 ---
 
 # Happy DOM Testing

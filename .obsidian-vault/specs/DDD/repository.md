@@ -1,5 +1,7 @@
 ﻿---
 slug: repository
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Repository Pattern

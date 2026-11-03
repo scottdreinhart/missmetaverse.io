@@ -30,6 +30,26 @@ access_limitations: None
 
 ## Recommended Folder Structure
 
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```
 src/
 â”œâ”€â”€ main.ts                          # Application entry point
@@ -133,6 +153,26 @@ src/
 
 ## File Naming Conventions
 
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Pattern | Example | Purpose |
 |---------|---------|---------|
 | `*.entity.ts` | `user.entity.ts` | Domain entities |
@@ -159,6 +199,26 @@ src/
 
 ## Pattern-to-Folder Mapping
 
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Clean Architecture
 
 | Circle | Folder | Contents |
@@ -202,6 +262,26 @@ src/
 
 ## Dependency Rules
 
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚  frameworks/        â†’ Can import from: adapters/, ports/ â”‚
@@ -225,6 +305,26 @@ Inner folders NEVER import outer folders.
 
 ## Copilot Instructions
 
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When Creating New Files
 
 1. **Identify the pattern**: Is this an entity, use case, command, query, controller, gateway, etc.?
@@ -252,6 +352,26 @@ Inner folders NEVER import outer folders.
 
 ## Quick Reference
 
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | I want to create... | Create it in... |
 |---------------------|-----------------|
 | New entity | `entities/` |
@@ -274,6 +394,26 @@ Inner folders NEVER import outer folders.
 
 ## Decision Tree: File Creation
 
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to create a file?]\n    A --> B{What is it?}
@@ -322,6 +462,26 @@ graph TD
 
 ## Procedural Guidance: Creating New Files
 
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Determine File Type
 
 ```
@@ -414,6 +574,26 @@ import { CreateUserUseCase } from '@/usecases/create-user.usecase'
 
 ## Copilot Instructions
 
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Creating new files in the project
 - Refactoring file structure
@@ -463,7 +643,27 @@ import { CreateUserUseCase } from '@/usecases/create-user.usecase'
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a174-project-structure-mapping
+
+## title
+Project Structure Mapping
+
+## aliases
+- A174-project-structure-mapping
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

@@ -1,5 +1,7 @@
 ﻿---
 slug: dependency-hygiene
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Dependency Hygiene

@@ -1,5 +1,7 @@
 ﻿---
 slug: view-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # View File Convention

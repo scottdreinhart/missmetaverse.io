@@ -9,17 +9,56 @@ tags:
   - typescript
   - design
   - types
-  - --
 # Explicit Error Modeling
 
 ## Definition
 
+## concept_id
+a095-explicit-error-modeling
+
+## title
+Explicit Error Modeling
+
+## aliases
+- A095-explicit-error-modeling
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Explicit Error Modeling is the principle that **errors should be modeled as values in the type system rather than using exceptions for control flow**. This makes error handling visible in the function signature.
 
 > "Errors should be values, not exceptions." â€” Functional programming principle
 
 ## Problem Addressed
 
+## concept_id
+a095-explicit-error-modeling
+
+## title
+Explicit Error Modeling
+
+## aliases
+- A095-explicit-error-modeling
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Exception-based error handling leads to:
 - **Hidden errors**: Function signature doesn't show possible errors
 - **Unchecked errors**: Callers may forget to catch
@@ -28,12 +67,52 @@ Exception-based error handling leads to:
 
 ## Scope and Boundaries
 
+## concept_id
+a095-explicit-error-modeling
+
+## title
+Explicit Error Modeling
+
+## aliases
+- A095-explicit-error-modeling
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Error modeling â‰  Exception handling (they are complementary)
 - This is a **type system technique**, not a runtime technique
 - TypeScript's `Result<T, E>` pattern is the primary implementation
 
 ## When to Apply
 
+## concept_id
+a095-explicit-error-modeling
+
+## title
+Explicit Error Modeling
+
+## aliases
+- A095-explicit-error-modeling
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When a function can fail in multiple ways
 - When error handling is part of the business logic
 - When building libraries used by others
@@ -41,6 +120,26 @@ Exception-based error handling leads to:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a095-explicit-error-modeling
+
+## title
+Explicit Error Modeling
+
+## aliases
+- A095-explicit-error-modeling
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Boilerplate** â€” More code to handle errors |
@@ -49,18 +148,78 @@ Exception-based error handling leads to:
 
 ## Common Misuses
 
+## concept_id
+a095-explicit-error-modeling
+
+## title
+Explicit Error Modeling
+
+## aliases
+- A095-explicit-error-modeling
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything as Result**: Not every function needs error modeling
 - **Confusing with exceptions**: Both have their place
 - **Over-engineering**: Simple errors can use exceptions
 
 ## Related Concepts
 
+## concept_id
+a095-explicit-error-modeling
+
+## title
+Explicit Error Modeling
+
+## aliases
+- A095-explicit-error-modeling
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md) â€” Result types use TypeScript
 - [Fail Fast](Architecture/fail-fast.md) â€” Early error detection
 - [Discriminated Unions](Architecture/Architecture/clean-architecture.md) â€” Result uses discriminated unions
 
 ## Project Observations
 
+## concept_id
+a095-explicit-error-modeling
+
+## title
+Explicit Error Modeling
+
+## aliases
+- A095-explicit-error-modeling
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - TypeScript's type system supports explicit error modeling through:
   - `Result<T, E>` discriminated unions
   - `Error` types
@@ -69,6 +228,26 @@ Exception-based error handling leads to:
 
 ## Sources
 
+## concept_id
+a095-explicit-error-modeling
+
+## title
+Explicit Error Modeling
+
+## aliases
+- A095-explicit-error-modeling
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
 
 

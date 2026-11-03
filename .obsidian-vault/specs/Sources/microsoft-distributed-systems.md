@@ -39,7 +39,27 @@ access_limitations: Free public documentation
 research_notes: "Primary source for distributed systems patterns in the vault. Covers all transactional and resilience patterns used in microservices architectures."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+microsoft-distributed-systems
+
+## title
+microsoft-distributed-systems
+
+## aliases
+- microsoft-distributed-systems
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

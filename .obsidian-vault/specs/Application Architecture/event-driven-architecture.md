@@ -1,5 +1,7 @@
 ﻿---
 slug: event-driven-architecture
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Event-Driven Architecture

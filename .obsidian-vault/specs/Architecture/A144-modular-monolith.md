@@ -10,17 +10,56 @@ tags:
   - architecture
   - monolith
   - microservices
-  - --
 # Modular Monolith
 
 ## Definition
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 A Modular Monolith is a **single deployed application that maintains explicit internal module boundaries**. It combines the simplicity of a monolith with the organizational benefits of modular design.
 
 > "A modular monolith is a single deployment unit with well-defined module boundaries." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Monoliths without modules lead to:
 - **Spaghetti code**: No clear boundaries between concerns
 - **Team coordination**: Developers interfere with each other's work
@@ -28,12 +67,52 @@ Monoliths without modules lead to:
 
 ## Scope and Boundaries
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Modular Monolith â‰  Microservices (single deployment unit)
 - Modules are **logical boundaries**, not physical deployments
 - Modules can evolve into microservices later if needed
 
 ## When to Apply
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When starting a new project
 - When a monolith is too disorganized
 - When teams need clear boundaries without deployment complexity
@@ -41,6 +120,26 @@ Monoliths without modules lead to:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Single deployment** â€” Can't scale modules independently |
@@ -49,30 +148,130 @@ Monoliths without modules lead to:
 
 ## Common Misuses
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Fake modules**: Physical separation without logical boundaries
 - **Over-engineering**: Creating modules before they're needed
 - **Confusing with microservices**: Modular monolith is a single deployment
 
 ## Related Concepts
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Microservices](Architecture/architecture-patterns.md) â€” Alternative for scaling
 - [Clean Architecture](Architecture/clean-architecture.md) â€” Module boundaries
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Module design
 
 ## Project Observations
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project is currently a single application (no evidence of microservices)
 - File naming conventions support modular design
 - pnpm workspace supports modular structure if needed
 
 ## Sources
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 
 ## Decision Tree: Modular Monolith vs Microservices
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Starting a new project?] --> B{Team size?}
@@ -106,6 +305,26 @@ graph TD
 
 ## Procedural Guidance: Setting Up a Modular Monolith
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Module Boundaries
 
 ```bash
@@ -169,6 +388,26 @@ pnpm test modules/orders/
 
 ## Copilot Instructions
 
+## concept_id
+a144-modular-monolith
+
+## title
+Modular Monolith
+
+## aliases
+- A144-modular-monolith
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Deciding between modular monolith and microservices
 - Setting up a new project's module structure

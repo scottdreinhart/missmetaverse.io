@@ -1,5 +1,7 @@
 ﻿---
 slug: data-oriented-design
+tags:
+  - data-driven   - declarative   - architecture
 ---
 
 # Data-Oriented Design

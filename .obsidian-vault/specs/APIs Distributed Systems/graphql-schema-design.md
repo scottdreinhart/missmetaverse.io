@@ -1,5 +1,7 @@
 ﻿---
 slug: graphql-schema-design
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # GraphQL Schema Design

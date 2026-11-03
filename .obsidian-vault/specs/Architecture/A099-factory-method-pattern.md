@@ -9,17 +9,56 @@ tags:
   - creational-patterns
   - gof
   - patterns
-  - --
 # Factory Method Pattern
 
 ## Definition
 
+## concept_id
+a099-factory-method-pattern
+
+## title
+Factory Method Pattern
+
+## aliases
+- A099-factory-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Factory Method Pattern is a **creational design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of created objects**.
 
 > "The Factory Method pattern provides an interface for creating objects in a superclass but allows subclasses to alter the type of created objects." â€” GoF
 
 ## Problem Addressed
 
+## concept_id
+a099-factory-method-pattern
+
+## title
+Factory Method Pattern
+
+## aliases
+- A099-factory-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without factory method pattern:
 - **Coupling**: Code is coupled to concrete classes
 - **Testing**: Hard to test code
@@ -28,12 +67,52 @@ Without factory method pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a099-factory-method-pattern
+
+## title
+Factory Method Pattern
+
+## aliases
+- A099-factory-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Factory Method Pattern â‰  Abstract Factory (factory method is a single method, abstract factory is a family of methods)
 - Factory Method Pattern â‰  Builder (factory method is for creation, builder is for construction)
 - Factory Method Pattern is a **creational pattern**, not a construction pattern
 
 ## When to Apply
 
+## concept_id
+a099-factory-method-pattern
+
+## title
+Factory Method Pattern
+
+## aliases
+- A099-factory-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building software
 - when object creation matters
 - when testing is important
@@ -41,6 +120,26 @@ Without factory method pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a099-factory-method-pattern
+
+## title
+Factory Method Pattern
+
+## aliases
+- A099-factory-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Factory method pattern is complex |
@@ -49,18 +148,78 @@ Without factory method pattern:
 
 ## Common Misuses
 
+## concept_id
+a099-factory-method-pattern
+
+## title
+Factory Method Pattern
+
+## aliases
+- A099-factory-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything factory method**: Not everything needs factory method pattern
 - **Confusing with abstract factory**: Factory method pattern â‰  abstract factory
 - **Over-factory-method**: Too many factory methods create complexity
 
 ## Related Concepts
 
+## concept_id
+a099-factory-method-pattern
+
+## title
+Factory Method Pattern
+
+## aliases
+- A099-factory-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Abstract Factory](Architecture/abstract-factory-pattern.md) â€” Factory method pattern with abstract factory
 - [Builder](Architecture/builder-pattern.md) â€” Factory method pattern with builder
 - [Design Patterns Overview](Architecture/design-patterns-overview.md) â€” Factory method pattern with design patterns
 
 ## Project Observations
 
+## concept_id
+a099-factory-method-pattern
+
+## title
+Factory Method Pattern
+
+## aliases
+- A099-factory-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses factory method pattern:
   - The project's architecture patterns note covers factory method pattern (from existing notes)
   - No evidence of factory method pattern in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without factory method pattern:
 
 ## Sources
 
+## concept_id
+a099-factory-method-pattern
+
+## title
+Factory Method Pattern
+
+## aliases
+- A099-factory-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

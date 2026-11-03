@@ -1,5 +1,7 @@
 ﻿---
 slug: configuration-driven-development
+tags:
+  - data-driven   - declarative   - architecture
 ---
 
 # Configuration-Driven Development

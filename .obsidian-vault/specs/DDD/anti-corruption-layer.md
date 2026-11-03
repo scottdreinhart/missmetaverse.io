@@ -1,5 +1,7 @@
 ﻿---
 slug: anti-corruption-layer
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Anti-Corruption Layer

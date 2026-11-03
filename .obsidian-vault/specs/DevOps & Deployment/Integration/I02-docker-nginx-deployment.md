@@ -19,11 +19,53 @@ tags:
 
 ## Overview
 
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 This note covers containerizing a React + Vite + TypeScript application using multi-stage Docker builds and serving it with Nginx. This produces a minimal, secure, production-ready container image.
 
 ---
 
 ## 1. Multi-Stage Dockerfile
+
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Production Dockerfile
 
@@ -167,6 +209,27 @@ CMD ["pnpm", "dev", "--", "--host", "0.0.0.0"]
 
 ## 2. Nginx Configuration
 
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### `nginx/nginx.conf`
 
 ```nginx
@@ -281,6 +344,27 @@ add_header Cross-Origin-Embedder-Policy "require-corp" always;
 
 ## 3. Docker Compose
 
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### `docker-compose.yml`
 
 ```yaml
@@ -346,6 +430,27 @@ volumes:
 
 ## 4. Build & Run Commands
 
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Build Commands
 
 ```bash
@@ -388,6 +493,27 @@ docker compose up -d dev
 ---
 
 ## 5. Image Size Optimization
+
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Size Comparison
 
@@ -477,6 +603,27 @@ npm-debug.log*
 
 ## 6. Nginx Performance Tuning
 
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Optimized Nginx Configuration
 
 ```nginx
@@ -529,6 +676,27 @@ http {
 
 ## 7. Deployment Strategies
 
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Strategy 1: Direct Deployment
 
 ```bash
@@ -573,6 +741,27 @@ docker compose up -d --no-deps app
 
 ## 8. Health Checks & Monitoring
 
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Docker Health Check
 
 ```dockerfile
@@ -606,6 +795,27 @@ location = /nginx-health {
 
 ## Cross-References
 
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - [Integration Master Config](./integration-master-config.md)
 - [CI/CD GitHub Actions](./cicd-github-actions.md)
 - [Vite Optimization & Security](./vite-optimization-security.md)
@@ -614,6 +824,27 @@ location = /nginx-health {
 - [CSS3 Performance & Security](./Cascading%20Stylesheets/css3-performance-security.md)
 
 ## See Also
+
+## concept_id
+i02-docker-nginx-deployment
+
+## title
+I02-docker-nginx-deployment
+
+## aliases
+- I02-docker-nginx-deployment
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[I01-cicd-github-actions]]
 - [[I03-integration-master-config]]
 - [[I04-linting-husky-pipeline]]

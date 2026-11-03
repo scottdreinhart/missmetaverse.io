@@ -1,5 +1,7 @@
 ﻿---
 slug: architecture-decision-records
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Architecture Decision Records

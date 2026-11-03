@@ -1,5 +1,7 @@
 ﻿---
 slug: plugin-architecture
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Plugin Architecture

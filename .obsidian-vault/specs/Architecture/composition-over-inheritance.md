@@ -1,5 +1,7 @@
 ﻿---
 slug: composition-over-inheritance
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Composition over Inheritance

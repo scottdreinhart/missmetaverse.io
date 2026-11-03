@@ -1,5 +1,7 @@
 ﻿---
 slug: tailwind-css-utility-first-styling
+tags:
+  - css   - tailwind   - frontend
 ---
 
 # Tailwind CSS Utility-First Styling

@@ -1,5 +1,7 @@
 ﻿---
 slug: chain-of-responsibility-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Chain of Responsibility Pattern

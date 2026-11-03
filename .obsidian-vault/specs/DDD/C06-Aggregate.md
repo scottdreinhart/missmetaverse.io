@@ -9,17 +9,56 @@ tags:
   - aggregate
   - domain-modeling
   - consistency
-  - --
 # Aggregate
 
 ## Definition
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Aggregate is **a cluster of associated objects that we treat as a unit for the purpose of data changes, with a boundary and a root**.
 
 > "An Aggregate is a pattern of one or more domain objects that forms an integrity boundary." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without aggregates:
 - **Consistency issues**: Related objects can be updated inconsistently
 - **Performance**: Loading entire object graphs is expensive
@@ -28,12 +67,52 @@ Without aggregates:
 
 ## Scope and Boundaries
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Aggregate â‰  Aggregate Root (aggregate is the cluster, aggregate root is the entry point)
 - Aggregate = Consistency (aggregates maintain consistency within their boundary)
 - Aggregate is a **domain model building block**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building domain models with complex relationships
 - when consistency within a group of objects is important
 - when transaction boundaries need to be defined
@@ -41,6 +120,26 @@ Without aggregates:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Aggregates add modeling complexity |
@@ -49,18 +148,78 @@ Without aggregates:
 
 ## Common Misuses
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **One aggregate per table**: Aggregates don't map to database tables
 - **Cross-aggregate references**: Use IDs, not object references, to reference other aggregates
 - **Ignoring size**: Aggregates should be small enough to maintain consistency
 
 ## Related Concepts
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Aggregate Root](DDD/aggregate-root.md) â€” Aggregate root is the entry point to an aggregate
 - [Entity](DDD/entity.md) â€” Aggregates contain entities
 - [Domain Invariant](DDD/domain-invariant.md) â€” Aggregates maintain domain invariants
 
 ## Project Observations
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses aggregates:
   - TypeScript modules can serve as aggregate boundaries
   - The project's architecture patterns note covers DDD concepts
@@ -71,6 +230,26 @@ Without aggregates:
 
 ## Sources
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -78,6 +257,26 @@ Without aggregates:
 
 ## Decision Tree: Aggregate Design
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to design aggregate?]\n    A --> B{Strong consistency needed?}
@@ -107,6 +306,26 @@ graph TD
 
 ## Procedural Guidance: Aggregate Implementation
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Aggregate Root
 
 ```typescript
@@ -337,6 +556,26 @@ export class CreateOrderUseCase {
 
 ## Copilot Instructions
 
+## concept_id
+c06-aggregate
+
+## title
+Aggregate
+
+## aliases
+- C06-Aggregate
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Designing aggregates
 - Implementing aggregate roots

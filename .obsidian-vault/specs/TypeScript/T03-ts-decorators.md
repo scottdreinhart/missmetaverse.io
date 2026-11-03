@@ -24,10 +24,50 @@ tags:
 
 ## Overview
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 Decorators are a special kind of declaration that can annotate or modify classes, methods, accessors, properties, and parameters. They use the form `@expression`.
 
 ## Two Decorator Flavors
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Feature | Legacy (`--experimentalDecorators`) | Standard (TS 5.0+) |
 |---------|-------------------------------------|---------------------|
 | Enable | Requires `--experimentalDecorators` | Enabled by default |
@@ -41,6 +81,26 @@ Decorators are a special kind of declaration that can annotate or modify classes
 
 ## Decorator Kinds
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Class Decorators
 
 ```typescript
@@ -150,6 +210,26 @@ class BugReport {
 
 ## Decorator Factories
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 function color(value: string) {
   return function (target: any) {
@@ -166,6 +246,26 @@ A decorator factory is a function that returns the decorator function.
 
 ## Decorator Composition
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 class ExampleClass {
   @first()
@@ -182,6 +282,26 @@ class ExampleClass {
 
 ## Well-Typed Decorators (TS 5.0+)
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 function loggedMethod<This, Args extends any[], Return>(
   target: (this: This, ...args: Args) => Return,
@@ -212,12 +332,52 @@ class Person {
 
 ## Decision Tree: Decorator Implementation
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to modify class/member?]\n    A --> B{What to decorate?}\n    B -->|Class| C[Class decorator]\n    B -->|Method| D[Method decorator]\n    B -->|Property| E[Property decorator]\n    B -->|Accessor| F[Accessor decorator]\n    C --> G{Need config?}\n    G -->|Yes| H[Decorator factory]\n    G -->|No| I[Simple decorator]\n    D --> J{Legacy or Standard?}\n    J -->|Legacy| K[experimentalDecorators]\n    J -->|Standard| L[TS 5.0+ decorators]\n```\n\n### Decorator Selection Guide\n\n| Decorator Type | When to Use | Example |\n|----------------|-------------|---------|\n| **Class** | Modify class constructor | `@sealed class Foo {}` |\n| **Method** | Modify method behavior | `@logged method() {}` |\n| **Property** | Add metadata to property | `@format('date') prop: Date` |\n| **Accessor** | Modify getter/setter | `@configurable(false) get x()` |\n| **Factory** | Parameterized decorators | `@role('admin') class Foo {}` |\n\n---
 
 ## Procedural Guidance: Decorator Implementation
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Legacy Decorators (experimentalDecorators)
 
 ```typescript
@@ -492,6 +652,26 @@ class User {
 
 ## Copilot Instructions
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Creating class decorators
 - Implementing method decorators
@@ -539,6 +719,26 @@ class User {
 
 ## Decorator Context Object
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 The context parameter provides metadata about the decorated member:
 
 | Property | Type | Description |
@@ -552,6 +752,26 @@ The context parameter provides metadata about the decorated member:
 
 ## Decorator Evaluation Order
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 1. Parameter decorators â†’ Method/Accessor/Property decorators (for each instance member)
 2. Parameter decorators â†’ Method/Accessor/Property decorators (for each static member)
 3. Parameter decorators (for constructor)
@@ -559,6 +779,26 @@ The context parameter provides metadata about the decorated member:
 
 ## Metadata (Legacy)
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Requires: npm i reflect-metadata --save
 // Requires: --emitDecoratorMetadata
@@ -575,6 +815,26 @@ function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescrip
 
 ## Key Compiler Options
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Description |
 |--------|-------------|
 | `experimentalDecorators` | Enable legacy decorators |
@@ -582,6 +842,26 @@ function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescrip
 
 ## Best Practices
 
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 1. **Prefer standard decorators** (TS 5.0+) for new code
 2. **Type your decorator functions** â€” use `ClassMethodDecoratorContext` and generics
 3. **Use `addInitializer`** for constructor-side effects
@@ -596,7 +876,27 @@ function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescrip
 
 
 ## See Also
-- [[T01-TypeScript/generics]]
+
+## concept_id
+t03-ts-decorators
+
+## title
+TypeScript Decorators
+
+## aliases
+- T03-ts-decorators
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required- [[T01-TypeScript/generics]]
 - [[T02-TypeScript/typescript-strict-mode]]
 - [[T04-TypeScript/typescript-strict-mode]]
 - [[T05-TypeScript/type-inference]]

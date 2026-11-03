@@ -16,17 +16,56 @@ tags:
   - performance
   - mocking
   - best-practices
-  - --
 # Vitest: Best Practices, Performance & Security
 
 ## Overview
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Vitest is a next-generation testing framework powered by Vite. It provides fast unit testing, browser testing, component testing, and visual regression testing.
 
 **Requirements:** Vite >= 6.4.0, Node >= 22.12.0
 
 ## Installation
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 pnpm add -D vitest
 ```
@@ -45,6 +84,26 @@ pnpm add -D vitest
 
 ## Configuration
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### vitest.config.ts
 
 ```ts
@@ -167,6 +226,26 @@ beforeEach(() => {
 
 ## Writing Tests
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Basic Test
 
 ```ts
@@ -248,6 +327,26 @@ describe.each([
 
 ## Mocking
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### vi.fn() â€” Mock Functions
 
 ```ts
@@ -368,6 +467,26 @@ test('conditional mock', async () => {
 
 ## React Testing
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Testing Library Integration
 
 ```bash
@@ -428,6 +547,26 @@ test('useCounter hook', () => {
 
 ## Test Filtering & Annotations
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Test Filters
 
 ```ts
@@ -484,6 +623,26 @@ test('integration test', { tags: ['integration'] }, () => {
 
 ## Performance Optimization
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Parallel Test Execution
 
 ```ts
@@ -562,6 +721,26 @@ test('profile this test', async () => {
 
 ## Security Best Practices
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Isolated Test Environment
 
 ```ts
@@ -624,6 +803,26 @@ test('test 2', () => {
 
 ## Best Practices Checklist
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [x] **Use `vitest run`** for CI (no watch mode)
 - [x] **Enable `fileParallelism`** for speed
 - [x] **Use `clearMocks`** for isolation
@@ -644,6 +843,26 @@ test('test 2', () => {
 
 ## CLI Reference
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Command | Description |
 |---------|-------------|
 | `vitest` | Run tests in watch mode |
@@ -660,6 +879,26 @@ test('test 2', () => {
 
 ## Cross-References
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - See [React/modern-react-performance](D/React/modern-react-performance.md) for React testing patterns
 - See [vite-optimization-security](D/vite-optimization-security.md) for Vite configuration
 - See [Package Manager/pnpm-package-manager](D/Package Manager/pnpm-package-manager.md) for package management
@@ -669,6 +908,26 @@ test('test 2', () => {
 
 ## Decision Tree: Testing Strategy
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to test something?]
@@ -698,6 +957,26 @@ graph TD
 
 ## Procedural Guidance: Writing a Vitest Test
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Create Test File
 
 ```bash
@@ -767,6 +1046,26 @@ pnpm test -- --ui
 
 ## Copilot Instructions
 
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Writing unit tests for TypeScript/React code
 - Setting up Vitest configuration
@@ -817,7 +1116,27 @@ pnpm test -- --ui
 
 
 ## See Also
-- [[T01-Testing/playwright-e2e-testing]]
+
+## concept_id
+t03-vitest-testing
+
+## title
+Vitest: Best Practices, Performance & Security
+
+## aliases
+- T03-vitest-testing
+
+## category
+testing
+
+## concept_type
+test-pattern
+
+## research_status
+verified
+
+## project_adoption
+required- [[T01-Testing/playwright-e2e-testing]]
 - [[T02-Quality & Testing/test-driven-developments]]
 
 

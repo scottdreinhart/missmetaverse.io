@@ -9,17 +9,56 @@ tags:
   - react
   - typescript
   - project-structure
-  - --
 # *.logic.ts
 
 ## Definition
 
+## concept_id
+e02-logic-file-convention
+
+## title
+*.logic.ts
+
+## aliases
+- E02-Logic-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 `*.logic.ts` is **a file naming convention for TypeScript files that contain business logic, separated from UI components**.
 
 > "The *.logic.ts convention identifies TypeScript files that contain business logic." â€” React Docs
 
 ## Problem Addressed
 
+## concept_id
+e02-logic-file-convention
+
+## title
+*.logic.ts
+
+## aliases
+- E02-Logic-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 Without `*.logic.ts` convention:
 - **Confusion**: Don't know which files contain business logic
 - **Mixing concerns**: Business logic is mixed with UI
@@ -28,12 +67,52 @@ Without `*.logic.ts` convention:
 
 ## Scope and Boundaries
 
+## concept_id
+e02-logic-file-convention
+
+## title
+*.logic.ts
+
+## aliases
+- E02-Logic-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - `*.logic.ts` â‰  `*.view.tsx` (`*.logic.ts` is for business logic, `*.view.tsx` is for UI)
 - `*.logic.ts` = Business Logic (`*.logic.ts` is for business logic)
 - `*.logic.ts` is a **file naming convention**, not a pattern
 
 ## When to Apply
 
+## concept_id
+e02-logic-file-convention
+
+## title
+*.logic.ts
+
+## aliases
+- E02-Logic-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building React applications
 - when separating business logic from UI is important
 - when testing is important
@@ -41,6 +120,26 @@ Without `*.logic.ts` convention:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+e02-logic-file-convention
+
+## title
+*.logic.ts
+
+## aliases
+- E02-Logic-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” File conventions add naming complexity |
@@ -49,18 +148,78 @@ Without `*.logic.ts` convention:
 
 ## Common Misuses
 
+## concept_id
+e02-logic-file-convention
+
+## title
+*.logic.ts
+
+## aliases
+- E02-Logic-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything a logic file**: Not every file is a logic file
 - **Mixing concerns**: Logic files should not contain UI code
 - **Confusing with view**: Logic files are for business logic, views are for UI
 
 ## Related Concepts
 
+## concept_id
+e02-logic-file-convention
+
+## title
+*.logic.ts
+
+## aliases
+- E02-Logic-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Custom Hooks](Architecture/custom-hooks-composables.md) â€” Custom hooks implement `*.logic.ts`
 - [Presentational/Container Pattern](Architecture/presentational-container-pattern.md) â€” Presentational/container pattern supports `*.logic.ts`
 - [Component Composition](Architecture/component-composition.md) â€” Component composition supports `*.logic.ts`
 
 ## Project Observations
 
+## concept_id
+e02-logic-file-convention
+
+## title
+*.logic.ts
+
+## aliases
+- E02-Logic-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses `*.logic.ts`:
   - TypeScript supports `*.logic.ts` through module system
   - React supports `*.logic.ts` through custom hooks
@@ -72,6 +231,26 @@ Without `*.logic.ts` convention:
 
 ## Sources
 
+## concept_id
+e02-logic-file-convention
+
+## title
+*.logic.ts
+
+## aliases
+- E02-Logic-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 

@@ -1,5 +1,7 @@
 ﻿---
 slug: reproducible-builds
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Reproducible Builds

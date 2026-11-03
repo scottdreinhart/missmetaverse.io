@@ -1,5 +1,7 @@
 ﻿---
 slug: bulkhead-pattern
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Bulkhead Pattern

@@ -1,5 +1,7 @@
 ﻿---
 slug: swagger-openapi
+tags:
+  - source   - reference   - external
 source_id: swagger-openapi
 title: "OpenAPI Specification"
 author: "Linux Foundation"
@@ -23,7 +25,27 @@ access_limitations: Free public specification
 research_notes: "Official OpenAPI 3.1 specification. Primary source for REST API versioning, backward compatibility, and contract-first development patterns."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+swagger-openapi
+
+## title
+swagger-openapi
+
+## aliases
+- swagger-openapi
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

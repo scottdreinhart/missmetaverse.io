@@ -34,7 +34,27 @@ access_limitations: None
 research_notes: "MDN HTML documentation. Primary authoritative source for HTML elements, semantics, accessibility, and forms."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+mdn-html-2024
+
+## title
+mdn-html-2024
+
+## aliases
+- mdn-html-2024
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

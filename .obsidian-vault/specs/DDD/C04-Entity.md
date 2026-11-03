@@ -9,17 +9,56 @@ tags:
   - entity
   - domain-modeling
   - identity
-  - --
 # Entity
 
 ## Definition
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Entity is **a unit of identity in a domain model that is defined by its identity rather than its attributes**.
 
 > "An object not defined by its attributes, but by a continuum of identity and a link to other objects." â€” Eric Evans
 
 ## Problem Addressed
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without entities:
 - **Identity confusion**: Can't track objects through changes
 - **Equality issues**: Two objects with same attributes are considered equal
@@ -28,12 +67,52 @@ Without entities:
 
 ## Scope and Boundaries
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Entity â‰  Value Object (entity has identity, value object is defined by attributes)
 - Entity = Identity (entity is defined by its identity)
 - Entity is a **domain model building block**, not a pattern
 
 ## When to Apply
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building domain models
 - when object identity matters (not just attributes)
 - when objects have a lifecycle
@@ -41,6 +120,26 @@ Without entities:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Entities require identity management |
@@ -49,18 +148,78 @@ Without entities:
 
 ## Common Misuses
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything an entity**: Not everything needs identity â€” use value objects when appropriate
 - **Ignoring invariants**: Entities should maintain domain invariants
 - **Confusing with database row**: Entity identity â‰  database primary key (though they often align)
 
 ## Related Concepts
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Value Object](DDD/value-object.md) â€” Value objects are compared by attributes, entities by identity
 - [Aggregate](DDD/aggregate.md) â€” Aggregates contain entities and value objects
 - [Domain Service](DDD/domain-service.md) â€” Domain services operate on entities
 
 ## Project Observations
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses entities:
   - TypeScript classes can serve as entities
   - The project's architecture patterns note covers DDD concepts
@@ -71,6 +230,26 @@ Without entities:
 
 ## Sources
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
@@ -78,6 +257,26 @@ Without entities:
 
 ## Decision Tree: Entity vs Value Object
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to model object?]\n    A --> B{Identity matters?}
@@ -107,6 +306,26 @@ graph TD
 
 ## Procedural Guidance: Entity Implementation
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Entity with Identity
 
 ```typescript
@@ -290,6 +509,26 @@ export class CreateUserUseCase {
 
 ## Copilot Instructions
 
+## concept_id
+c04-entity
+
+## title
+Entity
+
+## aliases
+- C04-Entity
+
+## category
+domain-modeling
+
+## concept_type
+tactical-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Designing domain entities
 - Implementing entity identity

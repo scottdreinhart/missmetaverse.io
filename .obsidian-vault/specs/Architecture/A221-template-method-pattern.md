@@ -9,17 +9,56 @@ tags:
   - behavioral-patterns
   - patterns
   - design-patterns
-  - --
 # Template Method Pattern
 
 ## Definition
 
+## concept_id
+a221-template-method-pattern
+
+## title
+Template Method Pattern
+
+## aliases
+- A221-template-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Template Method Pattern is a **behavioral design pattern that defines the skeleton of an algorithm in a method, deferring some steps to subclasses**.
 
 > "The Template Method pattern defines the skeleton of an algorithm in a method, deferring some steps to subclasses." â€” GoF
 
 ## Problem Addressed
 
+## concept_id
+a221-template-method-pattern
+
+## title
+Template Method Pattern
+
+## aliases
+- A221-template-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without template method pattern:
 - **Duplication**: Algorithm steps are duplicated
 - **Inflexibility**: Can't change algorithm steps
@@ -28,12 +67,52 @@ Without template method pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a221-template-method-pattern
+
+## title
+Template Method Pattern
+
+## aliases
+- A221-template-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Template Method Pattern â‰  Strategy (template method pattern is for algorithms, strategy pattern is for algorithms)
 - Template Method Pattern â‰  Factory Method (template method pattern is for algorithms, factory method is for creation)
 - Template Method Pattern is a **behavioral pattern**, not a structural pattern
 
 ## When to Apply
 
+## concept_id
+a221-template-method-pattern
+
+## title
+Template Method Pattern
+
+## aliases
+- A221-template-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - When algorithms matter
 - When testing is important
@@ -41,6 +120,26 @@ Without template method pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a221-template-method-pattern
+
+## title
+Template Method Pattern
+
+## aliases
+- A221-template-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Template method pattern is complex |
@@ -49,18 +148,78 @@ Without template method pattern:
 
 ## Common Misuses
 
+## concept_id
+a221-template-method-pattern
+
+## title
+Template Method Pattern
+
+## aliases
+- A221-template-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything template**: Not everything needs template method pattern
 - **Confusing with strategy**: Template method pattern â‰  strategy
 - **Over-template**: Too many templates create complexity
 
 ## Related Concepts
 
+## concept_id
+a221-template-method-pattern
+
+## title
+Template Method Pattern
+
+## aliases
+- A221-template-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Template method pattern with DDD
 - [Strategy Pattern](Architecture/strategy-pattern.md) â€” Template method pattern with strategy
 - [Factory Method Pattern](Architecture/factory-method-pattern.md) â€” Template method pattern with factory method
 
 ## Project Observations
 
+## concept_id
+a221-template-method-pattern
+
+## title
+Template Method Pattern
+
+## aliases
+- A221-template-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses template method pattern:
   - The project's architecture patterns note covers template method pattern (from existing notes)
   - No evidence of template method pattern in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without template method pattern:
 
 ## Sources
 
+## concept_id
+a221-template-method-pattern
+
+## title
+Template Method Pattern
+
+## aliases
+- A221-template-method-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

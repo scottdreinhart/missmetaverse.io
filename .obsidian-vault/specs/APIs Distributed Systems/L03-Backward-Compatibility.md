@@ -10,17 +10,56 @@ tags:
   - api
   - versioning
   - compatibility
-  - --
 # Backward Compatibility
 
 ## Definition
 
+## concept_id
+l03-backward-compatibility
+
+## title
+Backward Compatibility
+
+## aliases
+- L03-Backward-Compatibility
+
+## category
+api-design
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Backward Compatibility is **the property that a new version of an API can be used by clients written for an older version without modification**.
 
 > "Backward compatibility ensures that new versions of an API can be used by clients written for older versions." â€” Swagger
 
 ## Problem Addressed
 
+## concept_id
+l03-backward-compatibility
+
+## title
+Backward Compatibility
+
+## aliases
+- L03-Backward-Compatibility
+
+## category
+api-design
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without backward compatibility:
 - **Breaking changes**: Clients break when API changes
 - **Updates**: All clients must be updated simultaneously
@@ -29,12 +68,52 @@ Without backward compatibility:
 
 ## Scope and Boundaries
 
+## concept_id
+l03-backward-compatibility
+
+## title
+Backward Compatibility
+
+## aliases
+- L03-Backward-Compatibility
+
+## category
+api-design
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Backward Compatibility â‰  Forward Compatibility (backward compatibility means old clients work with new API, forward compatibility means new clients work with old API)
 - Backward Compatibility = Stability (backward compatibility ensures stability)
 - Backward Compatibility is a **compatibility principle**, not a pattern
 
 ## When to Apply
 
+## concept_id
+l03-backward-compatibility
+
+## title
+Backward Compatibility
+
+## aliases
+- L03-Backward-Compatibility
+
+## category
+api-design
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building public APIs
 - when API consumers cannot be controlled
 - when API stability is important
@@ -42,6 +121,26 @@ Without backward compatibility:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+l03-backward-compatibility
+
+## title
+Backward Compatibility
+
+## aliases
+- L03-Backward-Compatibility
+
+## category
+api-design
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Maintaining backward compatibility adds complexity |
@@ -50,18 +149,78 @@ Without backward compatibility:
 
 ## Common Misuses
 
+## concept_id
+l03-backward-compatibility
+
+## title
+Backward Compatibility
+
+## aliases
+- L03-Backward-Compatibility
+
+## category
+api-design
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything backward compatible**: Not every change needs to be backward compatible
 - **Ignoring deprecation**: Old API surface should be deprecated
 - **Confusing with forward compatibility**: Backward compatibility is about old clients, forward compatibility is about new clients
 
 ## Related Concepts
 
+## concept_id
+l03-backward-compatibility
+
+## title
+Backward Compatibility
+
+## aliases
+- L03-Backward-Compatibility
+
+## category
+api-design
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [API Versioning](Architecture/api-versioning.md) â€” API versioning manages backward compatibility
 - [REST API Design](APIs Distributed Systems/rest-api-design.md) â€” REST API design considers backward compatibility
 - [Contract-First Development](Data-Driven Approaches/contract-first.md) â€” Contract-first development ensures backward compatibility
 
 ## Project Observations
 
+## concept_id
+l03-backward-compatibility
+
+## title
+Backward Compatibility
+
+## aliases
+- L03-Backward-Compatibility
+
+## category
+api-design
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses backward compatibility:
   - OpenAPI/Swagger supports backward compatibility
   - TypeScript can enforce backward compatibility through type system
@@ -73,6 +232,26 @@ Without backward compatibility:
 
 ## Sources
 
+## concept_id
+l03-backward-compatibility
+
+## title
+Backward Compatibility
+
+## aliases
+- L03-Backward-Compatibility
+
+## category
+api-design
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[]
 - [[Sources/react-docs-2026|react-docs-2026]]
 

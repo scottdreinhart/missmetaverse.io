@@ -1,5 +1,7 @@
 ﻿---
 slug: zustand-state-management
+tags:
+  - state-management   - frontend   - react
 ---
 
 # Zustand State Management

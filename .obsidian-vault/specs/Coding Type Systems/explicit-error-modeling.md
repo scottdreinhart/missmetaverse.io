@@ -1,5 +1,7 @@
 ﻿---
 slug: explicit-error-modeling
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Explicit Error Modeling

@@ -1,5 +1,7 @@
 ﻿---
 slug: internationalization-by-design
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Internationalization by Design

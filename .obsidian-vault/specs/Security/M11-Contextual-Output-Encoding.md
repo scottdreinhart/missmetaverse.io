@@ -10,17 +10,56 @@ tags:
   - security
   - xss
   - encoding
-  - --
 # Contextual Output Encoding
 
 ## Definition
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Contextual Output Encoding is **a security technique that encodes data based on the context in which it will be rendered to prevent injection attacks**.
 
 > "Output encoding encodes data based on the context in which it will be rendered to prevent injection attacks." â€” OWASP
 
 ## Problem Addressed
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without output encoding:
 - **XSS attacks**: Cross-site scripting attacks succeed
 - **Injection attacks**: Injection attacks succeed
@@ -29,12 +68,52 @@ Without output encoding:
 
 ## Scope and Boundaries
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Output Encoding â‰  Input Validation (output encoding encodes data on output, input validation validates data on input)
 - Output Encoding = Protection (output encoding protects against injection)
 - Output Encoding is a **security technique**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building web applications
 - when user input is rendered in the browser
 - when XSS attacks are a concern
@@ -42,6 +121,26 @@ Without output encoding:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Contextual encoding adds complexity |
@@ -50,18 +149,78 @@ Without output encoding:
 
 ## Common Misuses
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything encoded**: Not every output needs encoding
 - **Wrong context**: Encoding must match the context (HTML, JavaScript, CSS, etc.)
 - **Confusing with input validation**: Output encoding encodes data on output, input validation validates data on input
 
 ## Related Concepts
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Input Validation](Security/input-validation.md) â€” Input validation complements output encoding
 - [Content Security Policy](Security/content-security-policy.md) â€” Content security policy complements output encoding
 - [Security Principles](Security/security-principles.md) â€” Security principles include output encoding
 
 ## Project Observations
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses output encoding:
   - React automatically encodes output
   - TypeScript can enforce output encoding through type system
@@ -73,6 +232,26 @@ Without output encoding:
 
 ## Sources
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -80,6 +259,26 @@ Without output encoding:
 
 ## Decision Tree: Output Encoding Selection
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to render data?]\n    A --> B{What context?}
@@ -110,6 +309,26 @@ graph TD
 
 ## Procedural Guidance: Output Encoding Implementation
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: HTML Encoding
 
 ```typescript
@@ -315,6 +534,26 @@ describe('Output Encoding', () => {
 
 ## Copilot Instructions
 
+## concept_id
+m11-contextual-output-encoding
+
+## title
+Contextual Output Encoding
+
+## aliases
+- M11-Contextual-Output-Encoding
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Preventing XSS attacks
 - Encoding output for different contexts

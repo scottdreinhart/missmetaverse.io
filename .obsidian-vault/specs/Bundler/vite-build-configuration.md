@@ -1,5 +1,7 @@
 ﻿---
 slug: vite-build-configuration
+tags:
+  - build-tool   - bundler   - devops
 ---
 
 # Vite Build Configuration

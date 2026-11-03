@@ -1,5 +1,7 @@
 ﻿---
 slug: semantic-versioning
+tags:
+  - devops   - deployment   - cicd
 ---
 
 # Semantic Versioning

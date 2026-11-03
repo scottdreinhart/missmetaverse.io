@@ -1,5 +1,7 @@
 ﻿---
 slug: data-modeling
+tags:
+  - database   - data   - backend
 ---
 
 # Data Modeling

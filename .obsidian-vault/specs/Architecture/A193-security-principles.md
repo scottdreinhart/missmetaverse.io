@@ -22,17 +22,56 @@ tags:
   - threat-modeling
   - deny-by-default
   - complete-mediation
-  - --
 # Security Principles
 
 ## Overview
 
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Security principles guide the design and implementation of secure systems. These are not optional â€” they are foundational requirements.
 
 ---
 
 ## 1. Core Principles
 
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Principle of Least Privilege (POLP)
 
 **Every program and user should operate with the least privileges necessary.**
@@ -220,6 +259,26 @@ class SecureApplication {
 
 ## 2. Threat Mitigation
 
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Input Validation
 
 **Validate all input at every boundary.**
@@ -374,6 +433,26 @@ Example: Order System Threat Model
 
 ## 3. Access Control
 
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### RBAC (Role-Based Access Control)
 
 ```typescript
@@ -436,6 +515,26 @@ abac.addPolicy({
 
 ## 4. Data Protection
 
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Encryption
 
 ```typescript
@@ -506,6 +605,26 @@ interface OrderDto {
 
 ## Cross-References
 
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
 - [DDD Patterns](./Application Architecture/domain-driven-design.md)
@@ -516,6 +635,26 @@ interface OrderDto {
 
 ## Decision Tree: Security Patterns
 
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to secure something?]
@@ -549,6 +688,26 @@ graph TD
 
 ## Procedural Guidance: Security Checklist for New Features
 
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Threat Model
 
 ```bash
@@ -626,6 +785,26 @@ pnpm eslint --ext .ts src/
 
 ## Copilot Instructions
 
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Designing new features
 - Code review: checking for security vulnerabilities
@@ -676,7 +855,27 @@ pnpm eslint --ext .ts src/
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a193-security-principles
+
+## title
+Security Principles
+
+## aliases
+- A193-security-principles
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

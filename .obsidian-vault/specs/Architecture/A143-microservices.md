@@ -10,17 +10,56 @@ tags:
   - distributed-systems
   - architecture
   - patterns
-  - --
 # Microservices
 
 ## Definition
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Microservices is an **architecture style that structures an application as a collection of loosely coupled services**.
 
 > "Microservices is an architectural style that structures an application as a collection of loosely coupled services." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Monolithic architectures lead to:
 - **Scaling difficulty**: Hard to scale individual components
 - **Deployment difficulty**: Hard to deploy individual components
@@ -29,12 +68,52 @@ Monolithic architectures lead to:
 
 ## Scope and Boundaries
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Microservices â‰  Distributed Systems (microservices is an architecture style, distributed systems is a category)
 - Microservices â‰  SOA (microservices is a specific type of SOA)
 - Microservices is an **architecture style**, not a specific pattern
 
 ## When to Apply
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building large applications
 - When scaling is important
 - When multiple teams are involved
@@ -42,6 +121,26 @@ Monolithic architectures lead to:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Microservices are complex |
@@ -50,12 +149,52 @@ Monolithic architectures lead to:
 
 ## Common Misuses
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything microservices**: Not everything needs microservices
 - **Confusing with distributed systems**: Microservices â‰  distributed systems
 - **Over-microservices**: Too many microservices create complexity
 
 ## Related Concepts
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Modular Monolith](Application Architecture/modular-monolith-architecture.md) â€” Microservices vs. modular monolith
 - [Event-Driven Architecture](event-driven-architecture.md) â€” Microservices with EDA
 - [API Versioning](api-versioning.md) â€” Microservices with API versioning
@@ -65,6 +204,26 @@ Monolithic architectures lead to:
 
 ## Decision Tree: Service Communication Patterns
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to communicate between services?]
@@ -100,6 +259,26 @@ graph TD
 
 ## Procedural Guidance: Adding a New Service
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Define Service Scope
 
 ```bash
@@ -192,6 +371,26 @@ pnpm test:e2e services/user/
 
 ## Copilot Instructions
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Designing service boundaries
 - Deciding between monolith and microservices
@@ -242,6 +441,26 @@ pnpm test:e2e services/user/
 
 ## Project Observations
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses microservices:
   - The project's architecture patterns note covers microservices (from existing notes)
   - No evidence of microservices in existing code (src/ is empty)
@@ -253,6 +472,26 @@ pnpm test:e2e services/user/
 
 ## Service Boundaries
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### How to Define Service Boundaries
 
 ```
@@ -296,6 +535,26 @@ pnpm test:e2e services/user/
 
 ## Service Communication
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Synchronous (REST/gRPC)
 
 ```
@@ -334,6 +593,26 @@ Order Service â†’ [OrderPlaced] â†’ Notification Service
 
 ## Copilot Instructions
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Designing service boundaries
 - Deciding between monolith and microservices
@@ -384,6 +663,26 @@ Order Service â†’ [OrderPlaced] â†’ Notification Service
 
 ## Sources
 
+## concept_id
+a143-microservices
+
+## title
+Microservices
+
+## aliases
+- A143-microservices
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

@@ -9,17 +9,56 @@ tags:
   - commits
   - linting
   - patterns
-  - --
 # Conventional Commits
 
 ## Definition
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Conventional Commits is a **convention for writing commit messages**.
 
 > "Conventional Commits is a specification for adding human and system readable meaning to commit messages." â€” Conventional Commits
 
 ## Problem Addressed
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without conventional commits:
 - **Commit consistency**: Commits are inconsistent
 - **Changelog**: Changelog is hard to generate
@@ -28,12 +67,52 @@ Without conventional commits:
 
 ## Scope and Boundaries
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Conventional Commits â‰  commitlint (conventional commits is a convention, commitlint is a tool)
 - Conventional Commits â‰  Git (conventional commits is a convention, git is a tool)
 - Conventional Commits is a **convention**, not a tool
 
 ## When to Apply
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - when commit consistency matters
 - when changelog is important
@@ -41,6 +120,26 @@ Without conventional commits:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Conventional commits are complex |
@@ -49,18 +148,78 @@ Without conventional commits:
 
 ## Common Misuses
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything conventional commits**: Not everything needs conventional commits
 - **Confusing with commitlint**: Conventional commits â‰  commitlint
 - **Over-conventional-commits**: Too much conventional commits creates complexity
 
 ## Related Concepts
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [commitlint Patterns](Architecture/commitlint-patterns.md) â€” Conventional commits with commitlint
 - [Commit Management](../Commit%20Management/commit-management-integration.md) â€” Conventional commits with commit management
 - [Husky Patterns](Architecture/husky-patterns.md) â€” Conventional commits with Husky
 
 ## Project Observations
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses conventional commits:
   - The project's commit management note covers conventional commits (from existing notes)
   - No evidence of conventional commits in existing code (src/ is empty)
@@ -70,12 +229,52 @@ Without conventional commits:
 
 ## Sources
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 
 ## Decision Tree: Commit Message Type
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```mermaid
 graph TD
     A[Need to commit?]\n    A --> B{What changed?}
@@ -115,6 +314,26 @@ graph TD
 
 ## Procedural Guidance: Conventional Commits Setup
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Step 1: Install commitlint
 
 ```bash
@@ -193,6 +412,26 @@ pnpm changeset publish
 
 ## Copilot Instructions
 
+## concept_id
+a056-conventional-commits
+
+## title
+Conventional Commits
+
+## aliases
+- A056-conventional-commits
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### When to Read This Note
 - Writing commit messages
 - Setting up commit linting

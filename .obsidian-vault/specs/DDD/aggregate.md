@@ -1,5 +1,7 @@
 ﻿---
 slug: aggregate
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Aggregate

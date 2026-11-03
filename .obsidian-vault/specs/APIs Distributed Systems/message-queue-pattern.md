@@ -1,5 +1,7 @@
 ﻿---
 slug: message-queue-pattern
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Message Queue Pattern

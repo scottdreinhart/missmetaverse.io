@@ -9,17 +9,56 @@ tags:
   - security
   - zod
   - patterns
-  - --
 # Input Validation
 
 ## Definition
 
+## concept_id
+a125-input-validation
+
+## title
+Input Validation
+
+## aliases
+- A125-input-validation
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Input Validation is a **security practice for verifying that user input meets expected criteria**.
 
 > "Input validation is the process of verifying that user input meets expected criteria." â€” Wikipedia
 
 ## Problem Addressed
 
+## concept_id
+a125-input-validation
+
+## title
+Input Validation
+
+## aliases
+- A125-input-validation
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without input validation:
 - **Security**: Input is insecure
 - **Data integrity**: Data is inconsistent
@@ -28,12 +67,52 @@ Without input validation:
 
 ## Scope and Boundaries
 
+## concept_id
+a125-input-validation
+
+## title
+Input Validation
+
+## aliases
+- A125-input-validation
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Input Validation â‰  Sanitization (input validation checks input, sanitization cleans input)
 - Input Validation â‰  Type Checking (input validation checks input, type checking checks types)
 - Input Validation is a **security practice**, not a sanitization practice
 
 ## When to Apply
 
+## concept_id
+a125-input-validation
+
+## title
+Input Validation
+
+## aliases
+- A125-input-validation
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - when security matters
 - when data integrity is important
@@ -41,6 +120,26 @@ Without input validation:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a125-input-validation
+
+## title
+Input Validation
+
+## aliases
+- A125-input-validation
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Input validation is complex |
@@ -49,18 +148,78 @@ Without input validation:
 
 ## Common Misuses
 
+## concept_id
+a125-input-validation
+
+## title
+Input Validation
+
+## aliases
+- A125-input-validation
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything validated**: Not everything needs input validation
 - **Confusing with sanitization**: Input validation â‰  sanitization
 - **Over-validation**: Too much validation creates complexity
 
 ## Related Concepts
 
+## concept_id
+a125-input-validation
+
+## title
+Input Validation
+
+## aliases
+- A125-input-validation
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Schema-Driven Development](Architecture/schema-driven-development.md) â€” Input validation with schema
 - [Security Principles](Architecture/security-principles.md) â€” Input validation with security
 - [TypeScript Best Practices](../TypeScript/TypeScript/typescript-strict-mode.md) â€” Input validation with TypeScript
 
 ## Project Observations
 
+## concept_id
+a125-input-validation
+
+## title
+Input Validation
+
+## aliases
+- A125-input-validation
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses input validation:
   - The project's architecture patterns note covers input validation (from existing notes)
   - No evidence of input validation in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without input validation:
 
 ## Sources
 
+## concept_id
+a125-input-validation
+
+## title
+Input Validation
+
+## aliases
+- A125-input-validation
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

@@ -9,17 +9,56 @@ tags:
   - enterprise-patterns
   - patterns
   - architecture
-  - --
 # Transaction Script Pattern
 
 ## Definition
 
+## concept_id
+a225-transaction-script-pattern
+
+## title
+Transaction Script Pattern
+
+## aliases
+- A225-transaction-script-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Transaction Script Pattern is a **design pattern that organizes business logic into procedures where each transaction is a single unit of work**.
 
 > "The Transaction Script pattern organizes business logic into procedures where each transaction is a single unit of work." â€” Martin Fowler
 
 ## Problem Addressed
 
+## concept_id
+a225-transaction-script-pattern
+
+## title
+Transaction Script Pattern
+
+## aliases
+- A225-transaction-script-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without transaction script pattern:
 - **Complexity**: Business logic is complex
 - **Duplication**: Business logic is duplicated
@@ -28,12 +67,52 @@ Without transaction script pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a225-transaction-script-pattern
+
+## title
+Transaction Script Pattern
+
+## aliases
+- A225-transaction-script-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Transaction Script Pattern â‰  Service Layer (transaction script pattern is for transactions, service layer is for boundaries)
 - Transaction Script Pattern â‰  Business Logic (transaction script pattern is a pattern, business logic is a concept)
 - Transaction Script Pattern is a **design pattern**, not a business logic pattern
 
 ## When to Apply
 
+## concept_id
+a225-transaction-script-pattern
+
+## title
+Transaction Script Pattern
+
+## aliases
+- A225-transaction-script-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - when transaction coordination matters
 - when testing is important
@@ -41,6 +120,26 @@ Without transaction script pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a225-transaction-script-pattern
+
+## title
+Transaction Script Pattern
+
+## aliases
+- A225-transaction-script-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Transaction script pattern is complex |
@@ -49,18 +148,78 @@ Without transaction script pattern:
 
 ## Common Misuses
 
+## concept_id
+a225-transaction-script-pattern
+
+## title
+Transaction Script Pattern
+
+## aliases
+- A225-transaction-script-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything transaction script**: Not everything needs transaction script pattern
 - **Confusing with service layer**: Transaction script pattern â‰  service layer
 - **Over-transaction-script**: Too many transaction scripts create complexity
 
 ## Related Concepts
 
+## concept_id
+a225-transaction-script-pattern
+
+## title
+Transaction Script Pattern
+
+## aliases
+- A225-transaction-script-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Transaction script pattern with DDD
 - [Service Layer Pattern](Architecture/service-layer-pattern.md) â€” Transaction script pattern with service layer
 - [Business Logic](Architecture/business-logic.md) â€” Transaction script pattern with business logic
 
 ## Project Observations
 
+## concept_id
+a225-transaction-script-pattern
+
+## title
+Transaction Script Pattern
+
+## aliases
+- A225-transaction-script-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses transaction script pattern:
   - The project's architecture patterns note covers transaction script pattern (from existing notes)
   - No evidence of transaction script pattern in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without transaction script pattern:
 
 ## Sources
 
+## concept_id
+a225-transaction-script-pattern
+
+## title
+Transaction Script Pattern
+
+## aliases
+- A225-transaction-script-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

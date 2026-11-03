@@ -14,9 +14,28 @@ slug: A108-forum-debate-platform-requirements
 
 tags:
   - maturity/deprecated
-  - --
 ## 1. Executive Summary
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 This document defines the requirements for building a **custom message forum / debate platform** from the ground up. No Reddit, Discord, TikTok Battles, BattleCam, or similar off-the-shelf solutions. This is a greenfield project that will be architected using **Clean Architecture**, **Domain-Driven Design**, **CQRS**, **Event-Driven Architecture**, and **WebSockets** for real-time interactions.
 
 ### Why Build from Scratch?
@@ -48,9 +67,28 @@ This document defines the requirements for building a **custom message forum / d
 
 tags:
   - maturity/deprecated
-  - --
 ## 2. Architectural Style
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Recommended: Real-Time CQRS with WebSockets
 
 ```mermaid
@@ -146,9 +184,28 @@ graph TB
 
 tags:
   - maturity/deprecated
-  - --
 ## 3. Real-Time Communication Architecture
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 3.1 WebSocket Architecture
 
 ```mermaid
@@ -494,9 +551,28 @@ graph TB
 
 tags:
   - maturity/deprecated
-  - --
 ## 4. Core Domain Model (DDD)
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 4.1 Bounded Contexts
 
 ```mermaid
@@ -1011,9 +1087,28 @@ enum UserRole {
 
 tags:
   - maturity/deprecated
-  - --
 ## 5. Functional Requirements
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 5.1 Posts & Content
 
 | ID | Requirement | Priority | CQRS Side |
@@ -1271,9 +1366,28 @@ tags:
 
 tags:
   - maturity/deprecated
-  - --
 ## 6. Non-Functional Requirements
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 6.1 Performance
 
 | Metric | Target | Measurement |
@@ -1401,9 +1515,28 @@ graph TB
 
 tags:
   - maturity/deprecated
-  - --
 ## 7. Technical Architecture
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 7.1 Clean Architecture Layers
 
 ```mermaid
@@ -1684,9 +1817,28 @@ CREATE TABLE post_cache (
 
 tags:
   - maturity/deprecated
-  - --
 ## 8. API Design
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 8.1 REST API Endpoints
 
 ```
@@ -1871,9 +2023,28 @@ interface DebateResponse {
 
 tags:
   - maturity/deprecated
-  - --
 ## 9. Frontend Architecture (React 19)
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 9.1 Main App Structure
 
 ```
@@ -2081,9 +2252,28 @@ src/admin/
 
 tags:
   - maturity/deprecated
-  - --
 ## 10. Testing Strategy
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 10.1 Test Pyramid
 
 ```mermaid
@@ -2208,9 +2398,28 @@ describe('WebSocketServerService', () => {
 
 tags:
   - maturity/deprecated
-  - --
 ## 11. Deployment & DevOps
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 11.1 CI/CD Pipeline
 
 ```mermaid
@@ -2318,9 +2527,28 @@ graph TB
 
 tags:
   - maturity/deprecated
-  - --
 ## 12. Project Structure
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```
 forum-platform/
 â”œâ”€â”€ apps/
@@ -2401,9 +2629,28 @@ forum-platform/
 
 tags:
   - maturity/deprecated
-  - --
 ## 13. Development Phases
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Phase 1: Foundation (Weeks 1-2)
 - [ ] Project setup (monorepo, TypeScript, pnpm)
 - [ ] Domain model (Post, Vote, User aggregates)
@@ -2457,9 +2704,28 @@ tags:
 
 tags:
   - maturity/deprecated
-  - --
 ## 14. Risk Assessment
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Risk | Impact | Likelihood | Mitigation |
 |------|--------|------------|------------|
 | **Scope creep** | High | High | Strict MVP definition, change control |
@@ -2476,9 +2742,28 @@ tags:
 
 tags:
   - maturity/deprecated
-  - --
 ## 15. Success Criteria
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### MVP (Minimum Viable Product)
 - [ ] Post creation, editing, deletion
 - [ ] Upvote/downvote system
@@ -2514,9 +2799,28 @@ tags:
 
 tags:
   - maturity/deprecated
-  - --
 ## 16. Key Differentiators vs. Reddit/TikTok Battles
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Feature | Custom Forum | Reddit | Discord | TikTok Battles |
 |---------|-------------|--------|---------|----------------|
 | **Real-time** | Full control, WebSocket-native | Limited | Good | Good |
@@ -2533,9 +2837,28 @@ tags:
 
 tags:
   - maturity/deprecated
-  - --
 ## 17. References & Sources
 
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Architectural Patterns
 - [[Sources/martin-clean-architecture-2017|Clean Architecture]] â€” Robert C. Martin
 - [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] â€” Martin Fowler
@@ -2569,7 +2892,27 @@ tags:
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a108-forum-debate-platform-requirements
+
+## title
+Message Forum / Debate Platform â€” Requirements Specification
+
+## aliases
+- A108-forum-debate-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

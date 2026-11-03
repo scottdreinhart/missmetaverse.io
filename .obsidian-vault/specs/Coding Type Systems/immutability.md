@@ -1,5 +1,7 @@
 ﻿---
 slug: immutability
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Immutability

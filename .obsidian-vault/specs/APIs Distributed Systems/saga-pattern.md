@@ -1,5 +1,7 @@
 ﻿---
 slug: saga-pattern
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Saga Pattern

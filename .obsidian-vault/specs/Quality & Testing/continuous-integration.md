@@ -1,5 +1,7 @@
 ﻿---
 slug: continuous-integration
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Continuous Integration

@@ -1,5 +1,7 @@
 ﻿---
 slug: proxy-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Proxy Pattern

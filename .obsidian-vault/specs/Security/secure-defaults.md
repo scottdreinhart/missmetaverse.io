@@ -1,5 +1,7 @@
 ﻿---
 slug: secure-defaults
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Secure Defaults

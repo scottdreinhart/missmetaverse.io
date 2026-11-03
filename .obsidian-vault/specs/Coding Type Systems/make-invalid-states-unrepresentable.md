@@ -1,5 +1,7 @@
 ﻿---
 slug: make-invalid-states-unrepresentable
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Make Invalid States Unrepresentable

@@ -1,5 +1,7 @@
 ﻿---
 slug: discriminated-unions
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Discriminated Unions

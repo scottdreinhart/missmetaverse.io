@@ -1,5 +1,7 @@
 ﻿---
 slug: recharts-data-visualization
+tags:
+  - visualization   - charts   - frontend
 ---
 
 # Recharts Data Visualization

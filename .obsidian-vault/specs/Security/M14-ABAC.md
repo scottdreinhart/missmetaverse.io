@@ -9,17 +9,56 @@ tags:
   - security
   - access-control
   - authorization
-  - --
 # Attribute-Based Access Control (ABAC)
 
 ## Definition
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Attribute-Based Access Control (ABAC) is **an access control model where access decisions are based on attributes of the user, resource, and environment**.
 
 > "ABAC is an access control model where access decisions are based on attributes of the user, resource, and environment." â€” NIST
 
 ## Problem Addressed
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without ABAC:
 - **Rigid roles**: RBAC roles are too rigid
 - **Complex permissions**: Permissions are complex to manage with roles
@@ -28,12 +67,52 @@ Without ABAC:
 
 ## Scope and Boundaries
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - ABAC â‰  RBAC (ABAC uses attributes, RBAC uses roles)
 - ABAC = Attributes (ABAC uses attributes for access control)
 - ABAC is an **access control model**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building systems with complex access control requirements
 - when context matters for access decisions
 - when RBAC roles are too rigid
@@ -41,6 +120,26 @@ Without ABAC:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” ABAC adds access control complexity |
@@ -49,18 +148,78 @@ Without ABAC:
 
 ## Common Misuses
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything ABAC**: Not every system needs ABAC
 - **Over-engineering**: Simple systems don't need ABAC
 - **Confusing with RBAC**: ABAC uses attributes, RBAC uses roles
 
 ## Related Concepts
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [RBAC](Security/rbac.md) â€” RBAC is an alternative to ABAC
 - [Authorization](Security/authorization.md) â€” Authorization uses ABAC
 - [Separation of Duties](Security/separation-of-duties.md) â€” Separation of duties can be implemented through ABAC
 
 ## Project Observations
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses ABAC:
   - TypeScript can enforce ABAC through type system
   - The project's architecture patterns note covers security concepts
@@ -71,6 +230,26 @@ Without ABAC:
 
 ## Sources
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -78,6 +257,26 @@ Without ABAC:
 
 ## Decision Tree: ABAC Policy Design
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need access control?]\n    A --> B{Simple?}
@@ -108,6 +307,26 @@ graph TD
 
 ## Procedural Guidance: ABAC Implementation
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Define Attributes
 
 ```typescript
@@ -365,6 +584,26 @@ describe('PolicyEngine', () => {
 
 ## Copilot Instructions
 
+## concept_id
+m14-abac
+
+## title
+Attribute-Based Access Control (ABAC)
+
+## aliases
+- M14-ABAC
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Implementing ABAC access control
 - Designing access policies

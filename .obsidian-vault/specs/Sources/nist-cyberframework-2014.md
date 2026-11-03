@@ -1,5 +1,7 @@
 ﻿---
 slug: nist-cyberframework-2014
+tags:
+  - source   - reference   - external
 source_id: nist-cyberframework-2014
 title: "NIST Cybersecurity Framework"
 author: "National Institute of Standards and Technology"
@@ -23,7 +25,27 @@ access_limitations: None
 research_notes: "U.S. federal cybersecurity framework. The 2024 version 1.1 updates include Zero Trust architecture guidance. Primary source for Zero Trust and defense-in-depth principles."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+nist-cyberframework-2014
+
+## title
+nist-cyberframework-2014
+
+## aliases
+- nist-cyberframework-2014
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

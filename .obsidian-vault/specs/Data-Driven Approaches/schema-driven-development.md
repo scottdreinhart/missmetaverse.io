@@ -1,5 +1,7 @@
 ﻿---
 slug: schema-driven-development
+tags:
+  - data-driven   - declarative   - architecture
 ---
 
 # Schema-Driven Development

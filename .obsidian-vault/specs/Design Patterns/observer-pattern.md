@@ -1,5 +1,7 @@
 ﻿---
 slug: observer-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Observer Pattern

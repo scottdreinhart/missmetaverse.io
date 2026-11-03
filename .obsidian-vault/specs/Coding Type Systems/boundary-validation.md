@@ -1,5 +1,7 @@
 ﻿---
 slug: boundary-validation
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Boundary Validation

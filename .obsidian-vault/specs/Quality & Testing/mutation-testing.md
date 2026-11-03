@@ -1,5 +1,7 @@
 ﻿---
 slug: mutation-testing
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Mutation Testing

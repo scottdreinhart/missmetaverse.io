@@ -1,5 +1,7 @@
 ﻿---
 slug: contract-first-development
+tags:
+  - data-driven   - declarative   - architecture
 ---
 
 # Contract-First Development

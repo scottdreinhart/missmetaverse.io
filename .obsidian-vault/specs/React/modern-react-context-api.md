@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-context-api
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React Context API

@@ -1,5 +1,7 @@
 ﻿---
 slug: responsive-design
+tags:
+  - frontend   - web   - ui
 ---
 
 # Responsive Design

@@ -23,6 +23,26 @@ tags:
 
 ## Decorators (Standard)
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 TypeScript 5.0 introduced **standard-compliant decorators** (TC39 Stage 3), separate from the legacy `--experimentalDecorators` mode.
 
 ### Key Changes
@@ -59,6 +79,26 @@ class Person {
 
 ## `const` Type Parameters
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // Before TS 5.0 â€” required 'as const'
 const names1 = getNamesExactly({ names: ["Alice", "Bob", "Eve"] });
@@ -74,6 +114,26 @@ const names = getNamesExactly({ names: ["Alice", "Bob", "Eve"] });
 
 ## Multiple `extends` in tsconfig
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```json
 {
   "extends": ["@tsconfig/strictest/tsconfig.json", "../../../tsconfig.base.json"],
@@ -89,6 +149,26 @@ const names = getNamesExactly({ names: ["Alice", "Bob", "Eve"] });
 
 ## All Enums Are Union Enums
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 TypeScript 5.0 made **all enums** behave as union enums with literal member types, even computed members.
 
 ```typescript
@@ -99,6 +179,26 @@ enum Color { Red, Green, Blue }
 
 ## `--moduleResolution bundler`
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 New module resolution strategy for bundlers (Vite, esbuild, swc, Webpack, Parcel):
 
 ```json
@@ -117,6 +217,26 @@ New module resolution strategy for bundlers (Vite, esbuild, swc, Webpack, Parcel
 
 ## `--verbatimModuleSyntax`
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 Simplifies import handling â€” what you write is what you get:
 
 ```typescript
@@ -136,6 +256,26 @@ import { type xyz } from "xyz";
 
 ## `export type *` Support
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 // models/index.ts
 export type * as vehicles from "./vehicles";
@@ -148,6 +288,26 @@ function makeASpaceship() { return new vehicles.Spaceship(); } // Error!
 
 ## `@satisfies` in JSDoc
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```javascript
 // @ts-check
 /**
@@ -162,6 +322,26 @@ let myConfigSettings = {
 
 ## `@overload` in JSDoc
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```javascript
 // @ts-check
 /**
@@ -184,6 +364,26 @@ function printValue(value, maximumFractionDigits) { }
 
 ## Performance Improvements (TS 5.0)
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Metric | Improvement |
 |--------|-------------|
 | TypeScript Compiler startup | 89% faster |
@@ -194,6 +394,26 @@ function printValue(value, maximumFractionDigits) { }
 
 ## Breaking Changes & Deprecations
 
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Runtime Requirements
 - Minimum Node.js 10+ (targets ES2018)
 
@@ -227,7 +447,27 @@ function printValue(value, maximumFractionDigits) { }
 
 
 ## See Also
-- [[T01-TypeScript/generics]]
+
+## concept_id
+t07-ts-release-notes
+
+## title
+TypeScript 5.0+ Release Notes
+
+## aliases
+- T07-ts-release-notes
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required- [[T01-TypeScript/generics]]
 - [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
 - [[T04-TypeScript/typescript-strict-mode]]

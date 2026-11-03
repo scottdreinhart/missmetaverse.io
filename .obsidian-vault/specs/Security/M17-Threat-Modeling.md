@@ -9,17 +9,56 @@ tags:
   - security
   - design
   - risk
-  - --
 # Threat Modeling
 
 ## Definition
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Threat Modeling is **a security practice that identifies, quantifies, and addresses security risks in a system before it is built**.
 
 > "Threat modeling is an exercise intended to help you identify and prioritize the security risks your application faces, and define and prioritize the countermeasures you want to put in place to deal with those risks." â€” Microsoft
 
 ## Problem Addressed
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without threat modeling:
 - **Unknown threats**: Threats are not identified until it's too late
 - **Security holes**: Security holes are introduced during development
@@ -28,12 +67,52 @@ Without threat modeling:
 
 ## Scope and Boundaries
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Threat Modeling â‰  Security Testing (threat modeling identifies threats before building, security testing finds issues after building)
 - Threat Modeling = Prevention (threat modeling prevents security issues)
 - Threat Modeling is a **security practice**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When designing secure systems
 - when security is critical
 - when building new systems or features
@@ -41,6 +120,26 @@ Without threat modeling:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Time** â€” Threat modeling takes time |
@@ -49,18 +148,78 @@ Without threat modeling:
 
 ## Common Misuses
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything threat modeled**: Not every system needs formal threat modeling
 - **One-time effort**: Threat modeling should be repeated as the system evolves
 - **Confusing with security testing**: Threat modeling identifies threats before building, security testing finds issues after building
 
 ## Related Concepts
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Secure by Design](Security/secure-by-design.md) â€” Secure by design includes threat modeling
 - [Security Principles](Security/security-principles.md) â€” Security principles include threat modeling
 - [Trust Boundaries](Security/trust-boundaries.md) â€” Trust boundaries are identified through threat modeling
 
 ## Project Observations
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses threat modeling:
   - TypeScript supports threat modeling through type system
   - The project's architecture patterns note covers security concepts
@@ -71,6 +230,26 @@ Without threat modeling:
 
 ## Sources
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -78,12 +257,52 @@ Without threat modeling:
 
 ## Decision Tree: Threat Modeling
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Designing new feature?]\n    A --> B{Handles sensitive data?}\n    B -->|Yes| C[STRIDE analysis]\n    B -->|No| D{New architecture?}\n    D -->|Yes| E[Data flow diagram]\n    D -->|No| F[Simple review]\n    C --> G{Trust boundary crossing?}\n    G -->|Yes| H[Authentication check]\n    G -->|No| I[Input validation]\n    E --> J[Identify components]\n    J --> K[Identify data flows]\n    K --> L[Identify threats]\n    L --> M[Mitigate threats]\n```\n\n### Threat Analysis Method Selection\n\n| Method | When to Use | Complexity | Example |\n|--------|-------------|------------|---------|\n| **STRIDE** | All new features | Low | Spoofing, Tampering, Repudiation |\n| **PASTA** | Critical systems | High | Process for Attack Simulation |\n| **OWASP** | Web applications | Medium | OWASP Top 10 |\n| **Attack Trees** | Complex threats | High | Root cause analysis |\n\n---
 
 ## Procedural Guidance: Threat Modeling Implementation
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Create Data Flow Diagram
 
 ```typescript
@@ -303,6 +522,26 @@ export class ThreatMonitor {
 
 ## Copilot Instructions
 
+## concept_id
+m17-threat-modeling
+
+## title
+Threat Modeling
+
+## aliases
+- M17-Threat-Modeling
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Designing new features
 - Identifying security threats

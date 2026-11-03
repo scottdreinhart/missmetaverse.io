@@ -1,5 +1,7 @@
 ﻿---
 slug: load-balancing
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Load Balancing

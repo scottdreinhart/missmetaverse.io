@@ -28,10 +28,50 @@ tags:
 
 ## Overview
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Tailwind CSS v4.3 is a utility-first CSS framework that works by scanning all your HTML files, JavaScript components, and templates for class names, generating corresponding styles, and writing them to a static CSS file. It is **fast, flexible, and reliable â€” with zero-runtime**.
 
 ## Installation (Vite + React)
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```bash
 npm install tailwindcss @tailwindcss/vite
 ```
@@ -55,6 +95,26 @@ export default defineConfig({
 
 ## Content Scanning & Source Detection
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### How Tailwind Scans Files
 
 Tailwind CSS scans your source files for class names using **plain text scanning** â€” it doesn't need to parse your HTML/JSX. It looks for patterns that match class names.
@@ -97,6 +157,26 @@ When class names are constructed dynamically, Tailwind may not detect them:
 
 ## Responsive Design
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Default Breakpoints
 
 | Prefix | Min-Width | Screen Size |
@@ -173,6 +253,26 @@ Usage:
 
 ## Build Performance Optimization
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Tree-Shaking & PurgeCSS (v3) / Automatic (v4)
 
 **Tailwind v4** automatically tree-shakes unused CSS â€” no PurgeCSS configuration needed.
@@ -225,6 +325,26 @@ Use `@layer` to control cascade order and improve maintainability:
 
 ## Customization Best Practices
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Extending the Theme
 
 ```js
@@ -268,6 +388,26 @@ module.exports = {
 
 ## Security Best Practices
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Content Security Policy (CSP)
 
 Tailwind CSS generates deterministic class names, making it CSP-friendly:
@@ -298,6 +438,26 @@ Prefer Tailwind classes over inline styles for CSP compliance:
 
 ## Performance Tuning Checklist
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [x] **Use Vite plugin** for fastest build times
 - [x] **Enable production build** (`vite build`) for tree-shaking
 - [x] **Safelist dynamic classes** with `@source { inline() }`
@@ -311,6 +471,26 @@ Prefer Tailwind classes over inline styles for CSP compliance:
 
 ## Common Anti-Patterns
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Anti-Pattern | Better Alternative |
 |--------------|-------------------|
 | Inline styles | Tailwind utility classes |
@@ -322,6 +502,26 @@ Prefer Tailwind classes over inline styles for CSP compliance:
 
 ## Recommended Configuration for React + Vite + TypeScript
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```ts
 // vite.config.ts
 import { defineConfig } from 'vite'
@@ -357,12 +557,52 @@ export default defineConfig({
 
 ## Cross-References
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - See [TypeScript/typescript-strict-mode](D/TypeScript/typescript-strict-mode.md) for TypeScript integration patterns
 - See [Web Frontend/responsive-design](D/Web Frontend/responsive-design.md) for media query patterns and breakpoints
 - See [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
 
 ## Sources
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/tailwind-docs-2024|tailwind-docs-2024]]
 - [[Sources/mdn-css-2024|mdn-css-2024]]
 - See [css3-performance-security](D/css3-performance-security.md) for CSS3 performance fundamentals
@@ -372,6 +612,26 @@ export default defineConfig({
 
 ## Integration with Other Notes
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Read [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
 - Read [[Web Frontend/css-architecture]] for CSS fundamentals
 - Read [Web Frontend/responsive-design](D/Web Frontend/responsive-design.md) for media query patterns
@@ -382,6 +642,26 @@ export default defineConfig({
 
 ## Decision Tree: Tailwind Optimization
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to optimize Tailwind?]\n    A --> B{What issue?}
@@ -414,6 +694,26 @@ graph TD
 
 ## Procedural Guidance: Tailwind Performance Setup
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Configure Content Scanning
 
 ```typescript
@@ -507,6 +807,26 @@ export default defineConfig({
 
 ## Copilot Instructions
 
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Setting up Tailwind CSS for performance
 - Optimizing build speed
@@ -556,6 +876,26 @@ export default defineConfig({
 
 
 ## See Also
-- [[TC01-tailwind-css-patterns]]
+
+## concept_id
+tc02-tw-optimization-performance
+
+## title
+Tailwind CSS: Optimization, Performance & Best Practices
+
+## aliases
+- TC02-tw-optimization-performance
+
+## category
+css-framework
+
+## concept_type
+styling-pattern
+
+## research_status
+verified
+
+## project_adoption
+required- [[TC01-tailwind-css-patterns]]
 
 

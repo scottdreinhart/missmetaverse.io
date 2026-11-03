@@ -1,5 +1,7 @@
 ﻿---
 slug: value-object-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Value Object File Convention

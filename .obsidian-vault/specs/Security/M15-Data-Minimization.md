@@ -10,17 +10,56 @@ tags:
   - security
   - privacy
   - gdpr
-  - --
 # Data Minimization
 
 ## Definition
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Data Minimization is **a privacy principle that only collect, process, and retain the minimum amount of personal data necessary for the stated purpose**.
 
 > "Data minimization means that personal data shall be adequate, relevant, and limited to what is necessary for the purposes for which they are processed." â€” GDPR
 
 ## Problem Addressed
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Without data minimization:
 - **Privacy violations**: More data than necessary is collected
 - **Compliance issues**: Regulations require data minimization
@@ -29,12 +68,52 @@ Without data minimization:
 
 ## Scope and Boundaries
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - Data Minimization â‰  Retention Policies (data minimization limits collection, retention policies limit how long data is kept)
 - Data Minimization = Privacy (data minimization protects privacy)
 - Data Minimization is a **privacy principle**, not a pattern
 
 ## When to Apply
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building systems that handle personal data
 - when privacy regulations apply (GDPR, CCPA, etc.)
 - when security is important
@@ -42,6 +121,26 @@ Without data minimization:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Functionality**: Less data may limit functionality |
@@ -50,18 +149,78 @@ Without data minimization:
 
 ## Common Misuses
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything minimized**: Not every data point needs to be minimized
 - **Ignoring retention**: Data minimization applies to collection and retention
 - **Confusing with encryption**: Data minimization limits collection, encryption protects data
 
 ## Related Concepts
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Retention Policies](Data Databases/retention-policies.md) â€” Retention policies complement data minimization
 - [Data Encryption](Security/data-encryption.md) â€” Data encryption protects data
 - [Secrets Management](Security/secrets-management.md) â€” Secrets management protects sensitive data
 
 ## Project Observations
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses data minimization:
   - TypeScript can enforce data minimization through type system
   - Zod can validate data minimization through schemas
@@ -73,6 +232,26 @@ Without data minimization:
 
 ## Sources
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -80,6 +259,26 @@ Without data minimization:
 
 ## Decision Tree: Data Minimization Implementation
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to collect data?]\n    A --> B{Necessary?}
@@ -109,6 +308,26 @@ graph TD
 
 ## Procedural Guidance: Data Minimization Implementation
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Define Minimal Schemas
 
 ```typescript
@@ -364,6 +583,26 @@ describe('Data Minimization', () => {
 
 ## Copilot Instructions
 
+## concept_id
+m15-data-minimization
+
+## title
+Data Minimization
+
+## aliases
+- M15-Data-Minimization
+
+## category
+security
+
+## concept_type
+security-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Implementing data minimization
 - Creating minimal schemas

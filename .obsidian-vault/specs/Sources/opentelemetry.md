@@ -1,5 +1,7 @@
 ﻿---
 slug: opentelemetry
+tags:
+  - source   - reference   - external
 source_id: opentelemetry
 title: "OpenTelemetry Documentation"
 author: "CNCF OpenTelemetry"
@@ -20,7 +22,27 @@ access_limitations: Free public documentation (Apache 2.0)
 research_notes: "CNCF OpenTelemetry is the standard for observability. Covers the three pillars: logs, metrics, and distributed traces."
 
 ## See Also
-- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+
+## concept_id
+opentelemetry
+
+## title
+opentelemetry
+
+## aliases
+- opentelemetry
+
+## category
+external-reference
+
+## concept_type
+source
+
+## research_status
+referenced
+
+## project_adoption
+referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

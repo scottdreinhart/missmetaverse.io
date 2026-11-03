@@ -1,5 +1,7 @@
 ﻿---
 slug: singleton-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Singleton Pattern

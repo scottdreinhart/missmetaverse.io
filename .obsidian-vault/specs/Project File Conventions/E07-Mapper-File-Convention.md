@@ -9,17 +9,56 @@ tags:
   - react
   - typescript
   - project-structure
-  - --
 # *.mapper.ts
 
 ## Definition
 
+## concept_id
+e07-mapper-file-convention
+
+## title
+*.mapper.ts
+
+## aliases
+- E07-Mapper-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 `*.mapper.ts` is **a file naming convention for TypeScript files that contain data mapping logic between different representations (e.g., DTO to entity)**.
 
 > "The *.mapper.ts convention identifies TypeScript files that contain data mapping logic." â€” TypeScript Docs
 
 ## Problem Addressed
 
+## concept_id
+e07-mapper-file-convention
+
+## title
+*.mapper.ts
+
+## aliases
+- E07-Mapper-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 Without `*.mapper.ts` convention:
 - **Confusion**: Don't know which files contain mapping logic
 - **Mixing concerns**: Mapping logic is mixed with business logic
@@ -28,12 +67,52 @@ Without `*.mapper.ts` convention:
 
 ## Scope and Boundaries
 
+## concept_id
+e07-mapper-file-convention
+
+## title
+*.mapper.ts
+
+## aliases
+- E07-Mapper-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - `*.mapper.ts` â‰  `*.logic.ts` (`*.mapper.ts` is for mapping, `*.logic.ts` is for business logic)
 - `*.mapper.ts` = Mapping (`*.mapper.ts` is for data mapping)
 - `*.mapper.ts` is a **file naming convention**, not a pattern
 
 ## When to Apply
 
+## concept_id
+e07-mapper-file-convention
+
+## title
+*.mapper.ts
+
+## aliases
+- E07-Mapper-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building TypeScript applications with data transformation
 - when mapping between DTOs and entities is needed
 - when testing is important
@@ -41,6 +120,26 @@ Without `*.mapper.ts` convention:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+e07-mapper-file-convention
+
+## title
+*.mapper.ts
+
+## aliases
+- E07-Mapper-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” File conventions add naming complexity |
@@ -49,18 +148,78 @@ Without `*.mapper.ts` convention:
 
 ## Common Misuses
 
+## concept_id
+e07-mapper-file-convention
+
+## title
+*.mapper.ts
+
+## aliases
+- E07-Mapper-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything a mapper**: Not every transformation needs a mapper file
 - **Mixing concerns**: Mapper files should not contain business logic
 - **Confusing with logic**: Mapper files contain mapping logic, logic files contain business logic
 
 ## Related Concepts
 
+## concept_id
+e07-mapper-file-convention
+
+## title
+*.mapper.ts
+
+## aliases
+- E07-Mapper-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Data Transfer Objects](Architecture/data-transfer-objects.md) â€” DTOs use mappers
 - [Data Mapper Pattern](Architecture/data-mapper-pattern.md) â€” Data mapper pattern is related
 - [Logic File Convention](Project File Conventions/logic-file-convention.md) â€” Logic file convention separates business logic
 
 ## Project Observations
 
+## concept_id
+e07-mapper-file-convention
+
+## title
+*.mapper.ts
+
+## aliases
+- E07-Mapper-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses `*.mapper.ts`:
   - TypeScript supports `*.mapper.ts` through module system
   - React supports `*.mapper.ts` through data transformation
@@ -72,6 +231,26 @@ Without `*.mapper.ts` convention:
 
 ## Sources
 
+## concept_id
+e07-mapper-file-convention
+
+## title
+*.mapper.ts
+
+## aliases
+- E07-Mapper-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 

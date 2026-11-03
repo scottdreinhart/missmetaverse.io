@@ -9,17 +9,56 @@ tags:
   - react
   - typescript
   - project-structure
-  - --
 # *.entity.ts
 
 ## Definition
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 `*.entity.ts` is **a file naming convention for TypeScript files that contain DDD entity definitions**.
 
 > "The *.entity.ts convention identifies TypeScript files that contain DDD entity definitions." â€” TypeScript Docs
 
 ## Problem Addressed
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 Without `*.entity.ts` convention:
 - **Confusion**: Don't know which files contain entity definitions
 - **Mixing concerns**: Entities are mixed with business logic
@@ -28,12 +67,52 @@ Without `*.entity.ts` convention:
 
 ## Scope and Boundaries
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - `*.entity.ts` â‰  `*.value-object.ts` (`*.entity.ts` is for entities, `*.value-object.ts` is for value objects)
 - `*.entity.ts` = Entities (`*.entity.ts` is for entity definitions)
 - `*.entity.ts` is a **file naming convention**, not a pattern
 
 ## When to Apply
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - When building DDD applications
 - when entity pattern is used
 - when testing is important
@@ -41,6 +120,26 @@ Without `*.entity.ts` convention:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” File conventions add naming complexity |
@@ -49,18 +148,78 @@ Without `*.entity.ts` convention:
 
 ## Common Misuses
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Everything an entity**: Not every domain object needs an entity file
 - **Mixing concerns**: Entity files should not contain business logic
 - **Confusing with value object**: Entity files contain entities, value object files contain value objects
 
 ## Related Concepts
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Entity (DDD)](DDD/entity.md) â€” Entity pattern is the pattern behind `*.entity.ts`
 - [Value Object File Convention](Project File Conventions/value-object-file-convention.md) â€” Value object file convention is related
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” DDD patterns use `*.entity.ts`
 
 ## Project Observations
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - The project uses `*.entity.ts`:
   - TypeScript supports `*.entity.ts` through module system
   - React supports `*.entity.ts` through entity definitions
@@ -72,6 +231,26 @@ Without `*.entity.ts` convention:
 
 ## Sources
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
@@ -79,6 +258,26 @@ Without `*.entity.ts` convention:
 
 ## Decision Tree: Entity File Structure
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need entity file?]\n    A --> B{Simple entity?}
@@ -108,6 +307,26 @@ graph TD
 
 ## Procedural Guidance: Entity File Setup
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Create Entity File
 
 ```typescript
@@ -303,6 +522,26 @@ src/
 
 ## Copilot Instructions
 
+## concept_id
+e12-entity-file-convention
+
+## title
+*.entity.ts
+
+## aliases
+- E12-Entity-File-Convention
+
+## category
+conventions
+
+## concept_type
+file-structure
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Creating entity files
 - Organizing DDD file structure

@@ -1,5 +1,7 @@
 ﻿---
 slug: open-closed-principle
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Open/Closed Principle

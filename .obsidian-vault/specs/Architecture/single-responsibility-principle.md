@@ -1,5 +1,7 @@
 ﻿---
 slug: single-responsibility-principle
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # Single Responsibility Principle

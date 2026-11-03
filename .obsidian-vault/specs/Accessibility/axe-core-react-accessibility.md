@@ -1,5 +1,7 @@
 ﻿---
 slug: axe-core-react-accessibility
+tags:
+  - accessibility   - a11y   - frontend
 ---
 
 # @axe-core/react Accessibility

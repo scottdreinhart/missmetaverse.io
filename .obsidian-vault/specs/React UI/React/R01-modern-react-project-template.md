@@ -30,10 +30,50 @@ date: 2026-11-02
 
 ## Project Overview
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 Modern frontend project template based on React 18, TypeScript, and Vite. Suitable for building high-performance Single Page Applications (SPA) with integrated modern development toolchain and best practices.
 
 ## Tech Stack
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - **Frontend Framework**: React 18 + TypeScript
 - **Build Tool**: Vite
 - **State Management**: Zustand / Redux Toolkit
@@ -46,6 +86,26 @@ Modern frontend project template based on React 18, TypeScript, and Vite. Suitab
 
 ## Project Structure
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```
 react-project/
 â”œâ”€â”€ public/                 # Static assets
@@ -76,6 +136,26 @@ react-project/
 
 ## Development Guidelines
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Component Development Standards
 
 1. **Function Components First**: Use function components and Hooks
@@ -177,6 +257,26 @@ export default api;
 
 ## Environment Setup
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Development Requirements
 - Node.js >= 18.0.0
 - npm >= 8.0.0 or yarn >= 1.22.0
@@ -212,6 +312,26 @@ VITE_ENABLE_MOCK=false
 
 ## Routing Configuration
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ```tsx
 // App.tsx
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -236,6 +356,26 @@ export default App;
 
 ## Testing Strategy
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Unit Testing Example
 
 ```tsx
@@ -265,6 +405,26 @@ describe('Button Component', () => {
 
 ## Performance Optimization
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Code Splitting
 
 ```tsx
@@ -309,6 +469,26 @@ const ExpensiveComponent = memo(({ data, onUpdate }) => {
 
 ## Deployment Configuration
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Build Production Version
 
 ```bash
@@ -343,6 +523,26 @@ export default defineConfig({
 
 ## Common Issues
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Issue 1: Vite Development Server Slow Startup
 
 **Solution**:
@@ -359,6 +559,26 @@ export default defineConfig({
 
 ## Reference Resources
 
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required
 - [React Official Documentation](https://react.dev/)
 - [Vite Official Documentation](https://vitejs.dev/)
 - [TypeScript Official Documentation](https://www.typescriptlang.org/)
@@ -367,7 +587,27 @@ export default defineConfig({
 
 
 ## See Also
-- [[R02-Architecture/react-patterns]]
+
+## concept_id
+r01-modern-react-project-template
+
+## title
+Modern React Project Development Guide
+
+## aliases
+- R01-modern-react-project-template
+
+## category
+frontend-framework
+
+## concept_type
+ui-pattern
+
+## research_status
+verified
+
+## project_adoption
+required- [[R02-Architecture/react-patterns]]
 - [[R03-React/modern-react-performance]]
 
 

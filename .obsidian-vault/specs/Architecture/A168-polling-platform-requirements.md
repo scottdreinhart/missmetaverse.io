@@ -24,6 +24,26 @@ access_limitations: None
 
 ## 1. Executive Summary
 
+## concept_id
+a168-polling-platform-requirements
+
+## title
+Polling Platform Requirements
+
+## aliases
+- A168-polling-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 1.1 Purpose
 
 This document defines the comprehensive requirements for building a **Polling Platform** â€” a custom, from-scratch software system that enables users to create, manage, and analyze polls with real-time voting capabilities and automated report generation. The platform supports both simple and complex polling scenarios, including date-based and response-count-based poll expiration, anonymous and authenticated voting, and comprehensive analytics reporting.
@@ -64,6 +84,26 @@ The platform adheres to the following architectural principles:
 
 ## 2. Architectural Style
 
+## concept_id
+a168-polling-platform-requirements
+
+## title
+Polling Platform Requirements
+
+## aliases
+- A168-polling-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 2.1 Overview
 
 The platform follows **Clean Architecture** with **Domain-Driven Design (DDD)**, **Command Query Responsibility Segregation (CQRS)**, and **Event-Driven Architecture (EDA)**. This combination provides:
@@ -243,6 +283,26 @@ graph LR
 
 ## 3. Functional Requirements
 
+## concept_id
+a168-polling-platform-requirements
+
+## title
+Polling Platform Requirements
+
+## aliases
+- A168-polling-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 3.1 Poll Creation and Management
 
 #### 3.1.1 Create Poll
@@ -577,6 +637,26 @@ stateDiagram-v2
 
 ## 4. Non-Functional Requirements
 
+## concept_id
+a168-polling-platform-requirements
+
+## title
+Polling Platform Requirements
+
+## aliases
+- A168-polling-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 4.1 Performance
 
 - **NFR-PERF-001**: API response times:
@@ -695,6 +775,26 @@ stateDiagram-v2
 
 ## 5. Technical Details
 
+## concept_id
+a168-polling-platform-requirements
+
+## title
+Polling Platform Requirements
+
+## aliases
+- A168-polling-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 5.1 Technology Stack
 
 | Layer | Technology | Rationale |
@@ -1003,6 +1103,26 @@ sequenceDiagram
 
 ## 6. Project Planning
 
+## concept_id
+a168-polling-platform-requirements
+
+## title
+Polling Platform Requirements
+
+## aliases
+- A168-polling-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 6.1 Phased Delivery
 
 | Phase | Duration | Deliverables |
@@ -1054,6 +1174,26 @@ sequenceDiagram
 
 ## 7. Trade-off Analysis
 
+## concept_id
+a168-polling-platform-requirements
+
+## title
+Polling Platform Requirements
+
+## aliases
+- A168-polling-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 7.1 CQRS: Separate Read/Write Models
 
 | Aspect | Decision | Rationale |
@@ -1101,6 +1241,26 @@ sequenceDiagram
 
 ## 8. References
 
+## concept_id
+a168-polling-platform-requirements
+
+## title
+Polling Platform Requirements
+
+## aliases
+- A168-polling-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### 8.1 Vault Sources
 
 - [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) â€” Robert C. Martin's Clean Architecture principles
@@ -1159,7 +1319,27 @@ sequenceDiagram
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a168-polling-platform-requirements
+
+## title
+Polling Platform Requirements
+
+## aliases
+- A168-polling-platform-requirements
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

@@ -1,5 +1,7 @@
 ﻿---
 slug: metadata-driven-ui
+tags:
+  - data-driven   - declarative   - architecture
 ---
 
 # Metadata-Driven UI

@@ -43,6 +43,26 @@ tags:
 
 ## Project Structure
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### File Organization
 
 ```
@@ -78,6 +98,26 @@ import type { User, UserRole } from "@/types/user";
 
 ## Type Definitions
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Prefer Interfaces for Object Shapes
 
 ```typescript
@@ -124,6 +164,26 @@ function BadButton({ variant }: { variant: string }) {
 
 ## Functions
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Explicit Return Types
 
 ```typescript
@@ -169,6 +229,26 @@ const items = list.map(item => item.name);
 
 ## Generic Programming
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Keep Generics Simple
 
 ```typescript
@@ -202,6 +282,26 @@ function findItem<T>(items: T[], id: string): T | undefined {
 
 ## Error Handling
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Use Custom Error Classes
 
 ```typescript
@@ -249,6 +349,26 @@ try {
 
 ## React-Specific Best Practices
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Type React Components Properly
 
 ```typescript
@@ -285,6 +405,26 @@ const inputRef = useRef<HTMLInputElement>(null);
 
 ## Configuration Best Practices
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Recommended tsconfig.json
 
 ```jsonc
@@ -328,6 +468,26 @@ const inputRef = useRef<HTMLInputElement>(null);
 
 ## Code Quality Patterns
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Use Non-Null Assertion Sparingly
 
 ```typescript
@@ -389,6 +549,26 @@ function process(obj: unknown) {
 
 ## Anti-Patterns to Avoid
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Anti-Pattern | Problem | Alternative |
 |--------------|---------|-------------|
 | `any` type | Bypasses all type checking | Use `unknown` with narrowing |
@@ -402,6 +582,26 @@ function process(obj: unknown) {
 
 ## Key Takeaways
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 1. **Always use `strict: true`** â€” non-negotiable for type safety
 2. **Prefer `unknown` over `any`** â€” forces proper handling
 3. **Use literal types** â€” self-documenting, type-safe constraints
@@ -432,6 +632,26 @@ tags:
 ---
 ## Decision Tree: TypeScript Type Selection
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to define a type?]\n    A --> B{What type?}
@@ -478,6 +698,26 @@ tags:
 ---
 ## Procedural Guidance: TypeScript Setup
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Configure tsconfig.json
 
 ```jsonc
@@ -622,6 +862,26 @@ tags:
 ---
 ## Copilot Instructions
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Setting up TypeScript configuration
 - Defining types and interfaces
@@ -690,6 +950,26 @@ tags:
 ---
 ## Integration with Other Notes
 
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 - Read [[typescript-strict-mode]] for TypeScript strict mode configuration
 - Read [[TypeScript/typescript-strict-mode]] for TypeScript fundamentals
 - Read [[TypeScript/generics]] for advanced TypeScript types
@@ -700,7 +980,27 @@ tags:
 
 
 ## See Also
-- [[T01-TypeScript/generics]]
+
+## concept_id
+t02-ts-best-practices
+
+## title
+TypeScript Best Practices
+
+## aliases
+- T02-ts-best-practices
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required- [[T01-TypeScript/generics]]
 - [[T03-ts-decorators]]
 - [[T04-TypeScript/typescript-strict-mode]]
 - [[T05-TypeScript/type-inference]]

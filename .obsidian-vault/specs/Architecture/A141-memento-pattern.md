@@ -9,17 +9,56 @@ tags:
   - behavioral-patterns
   - patterns
   - design-patterns
-  - --
 # Memento Pattern
 
 ## Definition
 
+## concept_id
+a141-memento-pattern
+
+## title
+Memento Pattern
+
+## aliases
+- A141-memento-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Memento Pattern is a **behavioral design pattern that captures and externalizes an object's internal state so that the object can be restored to this state later**.
 
 > "The Memento pattern captures and externalizes an object's internal state so that the object can be restored to this state later." â€” GoF
 
 ## Problem Addressed
 
+## concept_id
+a141-memento-pattern
+
+## title
+Memento Pattern
+
+## aliases
+- A141-memento-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without memento pattern:
 - **State loss**: State is lost when object changes
 - **Coupling**: State is coupled to object
@@ -28,12 +67,52 @@ Without memento pattern:
 
 ## Scope and Boundaries
 
+## concept_id
+a141-memento-pattern
+
+## title
+Memento Pattern
+
+## aliases
+- A141-memento-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Memento Pattern â‰  Memento (memento pattern is a pattern, memento is an implementation)
 - Memento Pattern â‰  State (memento pattern is for state capture, state pattern is for state changes)
 - Memento Pattern is a **behavioral pattern**, not a structural pattern
 
 ## When to Apply
 
+## concept_id
+a141-memento-pattern
+
+## title
+Memento Pattern
+
+## aliases
+- A141-memento-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - When state capture matters
 - When testing is important
@@ -41,6 +120,26 @@ Without memento pattern:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a141-memento-pattern
+
+## title
+Memento Pattern
+
+## aliases
+- A141-memento-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Memento pattern is complex |
@@ -49,18 +148,78 @@ Without memento pattern:
 
 ## Common Misuses
 
+## concept_id
+a141-memento-pattern
+
+## title
+Memento Pattern
+
+## aliases
+- A141-memento-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything memento**: Not everything needs memento pattern
 - **Confusing with memento**: Memento pattern â‰  memento
 - **Over-memento**: Too many mementos create complexity
 
 ## Related Concepts
 
+## concept_id
+a141-memento-pattern
+
+## title
+Memento Pattern
+
+## aliases
+- A141-memento-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Memento pattern with DDD
 - [Memento](Architecture/memento.md) â€” Memento pattern with memento
 - [State Pattern](Architecture/state-pattern.md) â€” Memento pattern with state
 
 ## Project Observations
 
+## concept_id
+a141-memento-pattern
+
+## title
+Memento Pattern
+
+## aliases
+- A141-memento-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses memento pattern:
   - The project's architecture patterns note covers memento pattern (from existing notes)
   - No evidence of memento pattern in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without memento pattern:
 
 ## Sources
 
+## concept_id
+a141-memento-pattern
+
+## title
+Memento Pattern
+
+## aliases
+- A141-memento-pattern
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

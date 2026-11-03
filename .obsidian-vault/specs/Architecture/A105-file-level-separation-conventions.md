@@ -22,17 +22,56 @@ tags:
   - value-object
   - policy
   - event
-  - --
 # File-Level Separation Conventions
 
 ## Overview
 
+## concept_id
+a105-file-level-separation-conventions
+
+## title
+File-Level Separation Conventions
+
+## aliases
+- A105-file-level-separation-conventions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 File-level separation conventions define naming patterns and organizational rules for files within a codebase. These conventions make it easy to understand a file's purpose at a glance.
 
 ---
 
 ## 1. Naming Conventions
 
+## concept_id
+a105-file-level-separation-conventions
+
+## title
+File-Level Separation Conventions
+
+## aliases
+- A105-file-level-separation-conventions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### *.view.* â€” UI/View Layer
 
 **Files that handle presentation and user interface.**
@@ -500,6 +539,26 @@ class OrderCreatedHandler {
 
 ## 2. Directory Structure Example
 
+## concept_id
+a105-file-level-separation-conventions
+
+## title
+File-Level Separation Conventions
+
+## aliases
+- A105-file-level-separation-conventions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```
 src/
 â”œâ”€â”€ components/          # UI components (*.view.*)
@@ -557,6 +616,26 @@ src/
 
 ## 3. Convention Summary
 
+## concept_id
+a105-file-level-separation-conventions
+
+## title
+File-Level Separation Conventions
+
+## aliases
+- A105-file-level-separation-conventions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Suffix | Purpose | Example |
 |--------|---------|---------|
 | `*.view.*` | UI/Presentation | `OrderList.view.tsx` |
@@ -579,6 +658,26 @@ src/
 
 ## Cross-References
 
+## concept_id
+a105-file-level-separation-conventions
+
+## title
+File-Level Separation Conventions
+
+## aliases
+- A105-file-level-separation-conventions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
 - [DDD Patterns](./Application Architecture/domain-driven-design.md)
@@ -587,7 +686,27 @@ src/
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a105-file-level-separation-conventions
+
+## title
+File-Level Separation Conventions
+
+## aliases
+- A105-file-level-separation-conventions
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

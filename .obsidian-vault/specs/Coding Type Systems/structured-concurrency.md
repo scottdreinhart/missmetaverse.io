@@ -1,5 +1,7 @@
 ﻿---
 slug: structured-concurrency
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Structured Concurrency

@@ -24,10 +24,50 @@ tags:
 
 ## What is Narrowing?
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 Narrowing is the process by which TypeScript refines a type to a more specific type within a code block, based on runtime checks and control flow analysis.
 
 ## typeof Type Guards
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 function printAll(strs: string | string[] | null) {
   if (typeof strs === "object") {
@@ -44,6 +84,26 @@ function printAll(strs: string | string[] | null) {
 
 ## Truthiness Narrowing
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 function getUsersOnlineMessage(numUsersOnline: number) {
   if (numUsersOnline) {
@@ -61,6 +121,26 @@ function getUsersOnlineMessage(numUsersOnline: number) {
 
 ## Equality Narrowing
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 function example(x: string | number, y: string | boolean) {
   if (x === y) {
@@ -92,6 +172,26 @@ function multiplyValue(container: Container, factor: number) {
 
 ## `in` Operator Narrowing
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 type Fish = { swim: () => void };
 type Bird = { fly: () => void };
@@ -107,6 +207,26 @@ function move(animal: Fish | Bird) {
 
 ## `instanceof` Narrowing
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 function logValue(x: Date | string) {
   if (x instanceof Date) {
@@ -119,6 +239,26 @@ function logValue(x: Date | string) {
 
 ## Type Predicates
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 interface Fish { swim: () => void; }
 interface Bird { fly: () => void; }
@@ -142,6 +282,26 @@ const underWater: Fish[] = zoo.filter(isFish);
 
 ## Discriminated Unions
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 interface Circle {
   kind: "circle";
@@ -169,6 +329,26 @@ function getArea(shape: Shape) {
 
 ## Exhaustiveness Checking with `never`
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 type Shape = Circle | Square;
 
@@ -190,6 +370,26 @@ function getArea(shape: Shape) {
 
 ## Control Flow Analysis
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 TypeScript tracks types through code paths, re-narrowing at each branch:
 
 ```typescript
@@ -213,6 +413,26 @@ function example() {
 
 ## Assignments Narrow Types
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```typescript
 let x = Math.random() < 0.5 ? 10 : "hello world!";
 // x: string | number
@@ -228,12 +448,52 @@ console.log(x); // x: string (narrowed by assignment)
 
 ## Decision Tree: Type Narrowing
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```mermaid
 graph TD
     A[Need to narrow type?]\n    A --> B{Simple type?}\n    B -->|Yes| C[typeof check]\n    B -->|No| D{Has property?}\n    D -->|Yes| E[in operator]\n    D -->|No| F{Class instance?}\n    F -->|Yes| G[instanceof]\n    F -->|No| H{Discriminant?}\n    H -->|Yes| I[switch on discriminant]\n    H -->|No| J[Type predicate function]\n    C --> K[typeof x === 'string']\n    E --> L['prop' in obj]\n    G --> M[x instanceof Date]\n    I --> N[switch shape.kind]\n    J --> O[function isX(x): x is X]\n```\n\n### Narrowing Method Selection\n\n| Method | When to Use | Example |\n|--------|-------------|---------|\n| **typeof** | Primitive types | `typeof x === 'string'` |\n| **in** | Object properties | `'swim' in animal` |\n| **instanceof** | Class instances | `x instanceof Date` |\n| **switch** | Discriminated unions | `switch(shape.kind)` |\n| **Type predicate** | Custom narrowing | `function isFish(x): x is Fish` |\n| **Truthiness** | Nullable checks | `if (x)` |\n\n---
 
 ## Procedural Guidance: Type Narrowing Implementation
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Step 1: Use typeof Checks
 
 ```typescript
@@ -526,6 +786,26 @@ function example(): string | number {
 
 ## Copilot Instructions
 
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ### When to Read This Note
 - Narrowing union types
 - Implementing type guards
@@ -574,7 +854,27 @@ function example(): string | number {
 
 
 ## See Also
-- [[T01-TypeScript/generics]]
+
+## concept_id
+t05-ts-narrowing
+
+## title
+TypeScript Narrowing & Type Guards
+
+## aliases
+- T05-ts-narrowing
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required- [[T01-TypeScript/generics]]
 - [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
 - [[T04-TypeScript/typescript-strict-mode]]

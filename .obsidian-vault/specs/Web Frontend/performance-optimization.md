@@ -1,5 +1,7 @@
 ﻿---
 slug: performance-optimization
+tags:
+  - frontend   - web   - ui
 ---
 
 # Performance Optimization

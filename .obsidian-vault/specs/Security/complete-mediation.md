@@ -1,5 +1,7 @@
 ﻿---
 slug: complete-mediation
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Complete Mediation

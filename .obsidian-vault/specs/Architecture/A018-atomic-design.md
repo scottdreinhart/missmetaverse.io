@@ -12,17 +12,56 @@ tags:
   - react
   - components
   - frontend
-  - --
 # Atomic Design
 
 ## Overview
 
+## concept_id
+a018-atomic-design
+
+## title
+Atomic Design
+
+## aliases
+- A018-atomic-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Atomic Design is a methodology composed of five distinct stages working together to create interface design systems in a more deliberate and hierarchical manner. It is a **mental model** for constructing UIs, not a linear process.
 
 ---
 
 ## 1. The Five Stages
 
+## concept_id
+a018-atomic-design
+
+## title
+Atomic Design
+
+## aliases
+- A018-atomic-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
 â”‚                    ATOMIC DESIGN                                â”‚
@@ -345,6 +384,26 @@ export function ProductDetailPage({ product }: { product: Product }) {
 
 ## 2. Key Insights
 
+## concept_id
+a018-atomic-design
+
+## title
+Atomic Design
+
+## aliases
+- A018-atomic-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ### Atomic Design is NOT Linear
 
 ```
@@ -374,6 +433,26 @@ Atomic design allows you to **shift between abstract and concrete** â€” see
 
 ## 3. Advantages
 
+## concept_id
+a018-atomic-design
+
+## title
+Atomic Design
+
+## aliases
+- A018-atomic-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Advantage                | Description                                        |
 | ------------------------ | -------------------------------------------------- |
 | **Part and Whole**       | Shift between abstract components and concrete UIs |
@@ -386,6 +465,26 @@ Atomic design allows you to **shift between abstract and concrete** â€” see
 
 ## 4. File Organization
 
+## concept_id
+a018-atomic-design
+
+## title
+Atomic Design
+
+## aliases
+- A018-atomic-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 ```
 src/components/
 â”œâ”€â”€ atoms/
@@ -413,6 +512,26 @@ src/components/
 
 ## 5. When to Use Atomic Design
 
+## concept_id
+a018-atomic-design
+
+## title
+Atomic Design
+
+## aliases
+- A018-atomic-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - âœ… Building a **design system** with reusable components
 - âœ… Large teams needing **consistent UI patterns**
 - âœ… Complex interfaces with **many component variations**
@@ -426,6 +545,26 @@ src/components/
 
 ## Cross-References
 
+## concept_id
+a018-atomic-design
+
+## title
+Atomic Design
+
+## aliases
+- A018-atomic-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
 - [DDD Patterns](./Application Architecture/domain-driven-design.md)
@@ -436,6 +575,26 @@ src/components/
 
 ## Integration with Other Notes
 
+## concept_id
+a018-atomic-design
+
+## title
+Atomic Design
+
+## aliases
+- A018-atomic-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for clean architecture patterns
 - Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for SOLID design principles
 - Read [[Application Architecture/domain-driven-design]] for domain-driven design patterns
@@ -446,7 +605,27 @@ src/components/
 
 
 ## See Also
-- [[A001-abstract-factory-pattern]]
+
+## concept_id
+a018-atomic-design
+
+## title
+Atomic Design
+
+## aliases
+- A018-atomic-design
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended- [[A001-abstract-factory-pattern]]
 - [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]

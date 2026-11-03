@@ -1,5 +1,7 @@
 ﻿---
 slug: cryptography-basics
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Cryptography Basics

@@ -44,6 +44,27 @@ access_limitations: None
 
 ## 1. Architecture & Design
 
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 - [ ] **Follows Clean Architecture**: Domain logic is independent of frameworks, databases, and UI
 - [ ] **Respects Bounded Contexts**: No cross-context dependencies without proper boundaries
 - [ ] **Uses Appropriate Patterns**: CQRS for read/write separation, DDD for complex domains
@@ -66,6 +87,27 @@ access_limitations: None
 
 ## 2. TypeScript & Type Safety
 
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 - [ ] **No `any` types**: All types are explicitly defined
 - [ ] **No `as` casts**: Type assertions are avoided; use type guards instead
 - [ ] **Strict null checks**: No `!` non-null assertions without justification
@@ -87,6 +129,27 @@ access_limitations: None
 ---
 
 ## 3. Security
+
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 
 - [ ] **No hardcoded secrets**: API keys, passwords, tokens are in environment variables
 - [ ] **Input validation**: All user inputs are validated (Zod, Joi, or custom validators)
@@ -113,6 +176,27 @@ access_limitations: None
 
 ## 4. Testing
 
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 - [ ] **Unit tests exist**: For all business logic, utilities, and domain functions
 - [ ] **Test coverage â‰¥ 80%**: For new code (check with `pnpm test -- --coverage`)
 - [ ] **Integration tests exist**: For API endpoints, database operations, external services
@@ -137,6 +221,27 @@ access_limitations: None
 ---
 
 ## 5. Performance
+
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 
 - [ ] **No N+1 queries**: Database queries are optimized (use joins, batching, or DataLoader)
 - [ ] **Pagination implemented**: List endpoints use cursor-based pagination
@@ -163,6 +268,27 @@ access_limitations: None
 
 ## 6. Code Quality & Maintainability
 
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 - [ ] **No code duplication**: DRY principle followed, shared logic extracted
 - [ ] **Meaningful variable/function names**: `calculateTotalPrice()` not `calc()`
 - [ ] **Functions are small**: < 20 lines preferred, < 50 lines maximum
@@ -187,6 +313,27 @@ access_limitations: None
 ---
 
 ## 7. API Design
+
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 
 - [ ] **RESTful conventions**: Correct HTTP methods (GET, POST, PUT, PATCH, DELETE)
 - [ ] **Consistent response format**: All endpoints return `{ data, error, pagination }`
@@ -213,6 +360,27 @@ access_limitations: None
 
 ## 8. Git & Commits
 
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 - [ ] **Commit messages follow Conventional Commits**: `type(scope): description`
 - [ ] **Commits are atomic**: Each commit does one thing
 - [ ] **No merge commits from main**: Rebase instead of merge
@@ -235,6 +403,27 @@ access_limitations: None
 
 ## 9. Documentation
 
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
+
 - [ ] **README updated**: If new features, dependencies, or configurations were added
 - [ ] **JSDoc comments**: For public functions, classes, and interfaces
 - [ ] **API documentation**: OpenAPI/Swagger docs updated
@@ -255,6 +444,27 @@ access_limitations: None
 ---
 
 ## 10. Deployment & Operations
+
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 
 - [ ] **Environment variables documented**: All required env vars are listed
 - [ ] **Docker configuration**: Dockerfile/Docker-compose updated if changed
@@ -279,6 +489,27 @@ access_limitations: None
 ---
 
 ## Review Summary
+
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 
 ### Critical Failures (Must Fix Before Merge)
 - [ ] Security vulnerabilities
@@ -308,6 +539,27 @@ access_limitations: None
 ---
 
 ## Copilot Integration
+
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 
 ### Automated Checks (Run Before Manual Review)
 ```bash
@@ -357,6 +609,27 @@ pnpm run analyze
 *Based on: Industry best practices for code review*
 
 ## See Also
+
+## concept_id
+code-review-checklist
+
+## title
+code-review-checklist
+
+## aliases
+- code-review-checklist
+
+## category
+template
+
+## concept_type
+template
+
+## research_status
+verified
+
+## project_adoption
+template
 - [[adr-template]]
 - [[commit-message-template]]
 - [[pr-template]]

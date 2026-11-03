@@ -1,5 +1,7 @@
 ﻿---
 slug: builder-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Builder Pattern

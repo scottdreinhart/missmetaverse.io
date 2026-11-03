@@ -1,5 +1,7 @@
 ﻿---
 slug: parameterized-queries
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Parameterized Queries

@@ -1,5 +1,7 @@
 ﻿---
 slug: rate-limiting
+tags:
+  - api   - distributed-systems   - backend
 ---
 
 # Rate Limiting

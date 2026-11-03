@@ -1,5 +1,7 @@
 ﻿---
 slug: contextual-output-encoding
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Contextual Output Encoding

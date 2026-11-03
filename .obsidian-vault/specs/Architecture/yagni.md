@@ -1,5 +1,7 @@
 ﻿---
 slug: yagni
+tags:
+  - architecture   - design-patterns   - core-concepts
 ---
 
 # YAGNI

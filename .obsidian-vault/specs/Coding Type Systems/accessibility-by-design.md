@@ -1,5 +1,7 @@
 ﻿---
 slug: accessibility-by-design
+tags:
+  - coding   - type-system   - best-practices
 ---
 
 # Accessibility by Design

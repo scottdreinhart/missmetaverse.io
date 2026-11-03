@@ -1,5 +1,7 @@
 ﻿---
 slug: state-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # State Pattern

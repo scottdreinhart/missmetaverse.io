@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-fragments
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React Fragments

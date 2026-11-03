@@ -1,5 +1,7 @@
 ﻿---
 slug: modern-react-components
+tags:
+  - react   - frontend   - ui
 ---
 
 # React Modern React Components

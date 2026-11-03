@@ -1,5 +1,7 @@
 ﻿---
 slug: aggregate-root
+tags:
+  - ddd   - domain-driven-design   - architecture
 ---
 
 # Aggregate Root

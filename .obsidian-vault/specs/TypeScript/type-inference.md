@@ -1,5 +1,7 @@
 ﻿---
 slug: type-inference
+tags:
+  - typescript   - type-system   - coding
 ---
 
 # Type Inference

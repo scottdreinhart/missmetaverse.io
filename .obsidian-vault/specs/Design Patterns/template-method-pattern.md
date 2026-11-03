@@ -1,5 +1,7 @@
 ﻿---
 slug: template-method-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Template Method Pattern

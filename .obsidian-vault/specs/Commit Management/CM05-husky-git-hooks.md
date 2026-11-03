@@ -13,17 +13,56 @@ tags:
   - pre-commit
   - commit-msg
   - pre-push
-  - --
 # Husky Git Hooks
 
 ## Overview
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 Husky is an ultra-fast (2 kB gzipped, ~1ms execution), modern native git hooks manager for Node.js. It uses Git's `core.hooksPath` feature to manage hooks without modifying the `.git` directory.
 
 ---
 
 ## 1. Features
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 - **2 kB gzipped** with zero dependencies
 - **~1ms execution** â€” fastest hooks manager
 - Uses `core.hooksPath` â€” no `.git/hooks` modifications
@@ -38,6 +77,26 @@ Husky is an ultra-fast (2 kB gzipped, ~1ms execution), modern native git hooks m
 
 ## 2. Installation (Husky v9)
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Setup
 
 ```bash
@@ -82,6 +141,26 @@ npx husky add .husky/post-merge 'pnpm install --frozen-lockfile'
 
 ## 3. Available Hooks
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Client-Side Hooks
 
 | Hook | When It Runs | Common Use |
@@ -112,6 +191,26 @@ npx husky add .husky/post-merge 'pnpm install --frozen-lockfile'
 
 ## 4. Hook Examples
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### `.husky/pre-commit` â€” Lint Staged Files
 
 ```bash
@@ -191,6 +290,26 @@ fi
 
 ## 5. POSIX Shell Scripting
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Inline Linting (No Dependencies)
 
 ```bash
@@ -235,6 +354,26 @@ fi
 
 ## 6. Branch-Specific Hooks
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 Husky supports branch-specific hooks in Husky v9:
 
 ```bash
@@ -249,6 +388,26 @@ These hooks only run when on the specified branch.
 
 ## 7. Disabling Hooks
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Globally
 
 ```bash
@@ -280,6 +439,26 @@ mv .husky-disabled .husky
 
 ## 8. Troubleshooting
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Hooks Not Running
 
 ```bash
@@ -329,6 +508,26 @@ cat .husky/pre-commit
 
 ## 9. Complete Integration Example
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 ### Full `.husky/` Directory
 
 ```
@@ -382,6 +581,26 @@ fi
 
 ## Cross-References
 
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required
 - [Commitizen & cz-git](./commitizen-cz-git.md)
 - [Commitlint CLI & Config](./commitlint-cli-config.md)
 - [validate-branch-name](./validate-branch-name.md)
@@ -390,7 +609,27 @@ fi
 - [Linting & Husky Pipeline](./Integration/linting-husky-pipeline.md)
 
 ## See Also
-- [[CM01-commitizen-cz-git]]
+
+## concept_id
+cm05-husky-git-hooks
+
+## title
+Husky Git Hooks
+
+## aliases
+- CM05-husky-git-hooks
+
+## category
+version-control
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+required- [[CM01-commitizen-cz-git]]
 - [[CM02-commitlint-cli-config]]
 - [[CM03-commit-management-integration]]
 - [[CM04-conventional-changelog]]

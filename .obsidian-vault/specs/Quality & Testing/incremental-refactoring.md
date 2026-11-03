@@ -1,5 +1,7 @@
 ﻿---
 slug: incremental-refactoring
+tags:
+  - quality   - testing   - best-practices
 ---
 
 # Incremental Refactoring

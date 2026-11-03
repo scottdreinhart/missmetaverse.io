@@ -1,5 +1,7 @@
 ﻿---
 slug: defense-in-depth
+tags:
+  - security   - authentication   - best-practices
 ---
 
 # Defense in Depth

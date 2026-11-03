@@ -9,17 +9,56 @@ tags:
   - testing
   - red-green-refactor
   - design
-  - --
 # Test-Driven Development
 
 ## Definition
 
+## concept_id
+a223-test-driven-development
+
+## title
+Test-Driven Development
+
+## aliases
+- A223-test-driven-development
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Test-Driven Development (TDD) is a **software development process where tests are written before the implementation, following the Red-Green-Refactor cycle**.
 
 > "TDD is not about testing. It's about design. The tests drive the design of the code." â€” Kent Beck
 
 ## Problem Addressed
 
+## concept_id
+a223-test-driven-development
+
+## title
+Test-Driven Development
+
+## aliases
+- A223-test-driven-development
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without TDD:
 - **Poor design**: Code is written without thinking about design
 - **Low test coverage**: Tests are an afterthought
@@ -28,12 +67,52 @@ Without TDD:
 
 ## Scope and Boundaries
 
+## concept_id
+a223-test-driven-development
+
+## title
+Test-Driven Development
+
+## aliases
+- A223-test-driven-development
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - TDD â‰  Testing (TDD is a design process, testing is verification)
 - TDD â‰  Unit testing (TDD uses unit tests, but is about design)
 - TDD is a **development process**, not a testing strategy
 
 ## When to Apply
 
+## concept_id
+a223-test-driven-development
+
+## title
+Test-Driven Development
+
+## aliases
+- A223-test-driven-development
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building complex logic
 - When design matters
 - When test coverage is important
@@ -41,6 +120,26 @@ Without TDD:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a223-test-driven-development
+
+## title
+Test-Driven Development
+
+## aliases
+- A223-test-driven-development
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Time** â€” Writing tests first takes time |
@@ -49,18 +148,78 @@ Without TDD:
 
 ## Common Misuses
 
+## concept_id
+a223-test-driven-development
+
+## title
+Test-Driven Development
+
+## aliases
+- A223-test-driven-development
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything TDD**: Not everything needs TDD
 - **Confusing with testing**: TDD â‰  testing
 - **Skipping refactor**: Refactor is essential to TDD
 
 ## Related Concepts
 
+## concept_id
+a223-test-driven-development
+
+## title
+Test-Driven Development
+
+## aliases
+- A223-test-driven-development
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Continuous Integration](Architecture/continuous-integration.md) â€” TDD with CI
 - [Unit Testing](Architecture/quality-delivery-maintainability.md) â€” TDD uses unit tests
 - [Refactoring](Architecture/quality-delivery-maintainability.md) â€” TDD includes refactor
 
 ## Project Observations
 
+## concept_id
+a223-test-driven-development
+
+## title
+Test-Driven Development
+
+## aliases
+- A223-test-driven-development
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses TDD:
   - Vitest is configured for testing
   - The project's quality and delivery note covers TDD
@@ -71,6 +230,26 @@ Without TDD:
 
 ## Sources
 
+## concept_id
+a223-test-driven-development
+
+## title
+Test-Driven Development
+
+## aliases
+- A223-test-driven-development
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

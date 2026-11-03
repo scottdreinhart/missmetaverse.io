@@ -1,5 +1,7 @@
 ﻿---
 slug: decorator-pattern
+tags:
+  - design-patterns   - patterns   - reusable-solutions
 ---
 
 # Decorator Pattern

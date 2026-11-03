@@ -1,5 +1,7 @@
 ﻿---
 slug: entity-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Entity File Convention

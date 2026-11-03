@@ -9,17 +9,56 @@ tags:
   - owasp
   - testing
   - patterns
-  - --
 # Security Testing
 
 ## Definition
 
+## concept_id
+a194-security-testing
+
+## title
+Security Testing
+
+## aliases
+- A194-security-testing
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Security Testing is a **practice for testing software for security vulnerabilities**.
 
 > "Security testing is a process intended to reveal flaws in the security mechanisms of information system products." â€” Wikipedia
 
 ## Problem Addressed
 
+## concept_id
+a194-security-testing
+
+## title
+Security Testing
+
+## aliases
+- A194-security-testing
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without security testing:
 - **Vulnerabilities**: Software has security vulnerabilities
 - **Data breaches**: Sensitive data is exposed
@@ -28,12 +67,52 @@ Without security testing:
 
 ## Scope and Boundaries
 
+## concept_id
+a194-security-testing
+
+## title
+Security Testing
+
+## aliases
+- A194-security-testing
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Security Testing â‰  Penetration Testing (security testing is broader, penetration testing is specific)
 - Security Testing â‰  OWASP (security testing is a practice, OWASP is a standard)
 - Security Testing is a **practice**, not a standard
 
 ## When to Apply
 
+## concept_id
+a194-security-testing
+
+## title
+Security Testing
+
+## aliases
+- A194-security-testing
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building software
 - when security matters
 - when compliance is important
@@ -41,6 +120,26 @@ Without security testing:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a194-security-testing
+
+## title
+Security Testing
+
+## aliases
+- A194-security-testing
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Security testing is complex |
@@ -49,18 +148,78 @@ Without security testing:
 
 ## Common Misuses
 
+## concept_id
+a194-security-testing
+
+## title
+Security Testing
+
+## aliases
+- A194-security-testing
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything security tested**: Not everything needs security testing
 - **Confusing with penetration testing**: Security testing â‰  penetration testing
 - **Over-security-testing**: Too much security testing creates complexity
 
 ## Related Concepts
 
+## concept_id
+a194-security-testing
+
+## title
+Security Testing
+
+## aliases
+- A194-security-testing
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [OWASP Top 10](Architecture/owasp-top-10.md) â€” Security testing with OWASP
 - [Security Principles](Architecture/security-principles.md) â€” Security testing with security
 - [Automated Testing](Architecture/automated-testing.md) â€” Security testing with automated testing
 
 ## Project Observations
 
+## concept_id
+a194-security-testing
+
+## title
+Security Testing
+
+## aliases
+- A194-security-testing
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses security testing:
   - The project's security note covers security testing (from existing notes)
   - No evidence of security testing in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without security testing:
 
 ## Sources
 
+## concept_id
+a194-security-testing
+
+## title
+Security Testing
+
+## aliases
+- A194-security-testing
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 

@@ -18,11 +18,53 @@ tags:
 
 ## Overview
 
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 This note covers setting up a complete CI/CD pipeline using GitHub Actions for a React + Vite + TypeScript project. It includes linting, testing, building, security scanning, and deployment to various platforms.
 
 ---
 
 ## 1. Pipeline Overview
+
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ```
 â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
@@ -75,6 +117,27 @@ This note covers setting up a complete CI/CD pipeline using GitHub Actions for a
 ---
 
 ## 2. Main CI Workflow
+
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### `.github/workflows/ci.yml`
 
@@ -310,6 +373,27 @@ jobs:
 
 ## 3. E2E Testing Workflow
 
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### `.github/workflows/e2e.yml`
 
 ```yaml
@@ -376,6 +460,27 @@ jobs:
 ---
 
 ## 4. Deployment Workflows
+
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### Deploy to GitHub Pages
 
@@ -528,6 +633,27 @@ jobs:
 
 ## 5. Docker Build & Push Workflow
 
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### `.github/workflows/docker.yml`
 
 ```yaml
@@ -598,6 +724,27 @@ jobs:
 ---
 
 ## 6. Security Hardening
+
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 
 ### GitHub Actions Security Best Practices
 
@@ -677,6 +824,27 @@ updates:
 
 ## 7. Workflow Triggers & Conditions
 
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Common Trigger Patterns
 
 ```yaml
@@ -744,6 +912,27 @@ jobs:
 
 ## 8. Environment Variables in CI/CD
 
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 ### Setting Environment Variables
 
 ```yaml
@@ -773,6 +962,27 @@ secrets:
 
 ## Cross-References
 
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
 - [Integration Master Config](./integration-master-config.md)
 - [Docker & Nginx Deployment](./docker-nginx-deployment.md)
 - [Vite Optimization & Security](./vite-optimization-security.md)
@@ -782,6 +992,27 @@ secrets:
 - [TypeScript Best Practices](./TypeScript/TypeScript/typescript-strict-mode.md)
 
 ## See Also
+
+## concept_id
+i01-cicd-github-actions
+
+## title
+I01-cicd-github-actions
+
+## aliases
+- I01-cicd-github-actions
+
+## category
+integration
+
+## concept_type
+integration-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[I02-docker-nginx-deployment]]
 - [[I03-integration-master-config]]
 - [[I04-linting-husky-pipeline]]

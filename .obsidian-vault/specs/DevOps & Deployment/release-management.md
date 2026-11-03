@@ -1,5 +1,7 @@
 ﻿---
 slug: release-management
+tags:
+  - devops   - deployment   - cicd
 ---
 
 # Release Management

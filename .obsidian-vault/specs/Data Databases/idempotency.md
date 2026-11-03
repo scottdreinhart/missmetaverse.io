@@ -1,5 +1,7 @@
 ﻿---
 slug: idempotency
+tags:
+  - database   - data   - backend
 ---
 
 # Idempotency

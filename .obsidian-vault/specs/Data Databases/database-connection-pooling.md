@@ -1,5 +1,7 @@
 ﻿---
 slug: database-connection-pooling
+tags:
+  - database   - data   - backend
 ---
 
 # Database Connection Pooling

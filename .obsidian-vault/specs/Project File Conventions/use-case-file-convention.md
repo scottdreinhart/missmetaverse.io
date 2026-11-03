@@ -1,5 +1,7 @@
 ﻿---
 slug: use-case-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Use Case File Convention

@@ -1,5 +1,7 @@
 ﻿---
 slug: database-replication
+tags:
+  - database   - data   - backend
 ---
 
 # Database Replication

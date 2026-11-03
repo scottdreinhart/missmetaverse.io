@@ -1,5 +1,7 @@
 ﻿---
 slug: adapter-file-convention
+tags:
+  - conventions   - file-structure   - organization
 ---
 
 # Adapter File Convention

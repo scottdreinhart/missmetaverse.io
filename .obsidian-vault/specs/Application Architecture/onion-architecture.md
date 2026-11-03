@@ -1,5 +1,7 @@
 ﻿---
 slug: onion-architecture
+tags:
+  - architecture   - application-design   - patterns
 ---
 
 # Onion Architecture

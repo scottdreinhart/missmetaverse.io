@@ -23,6 +23,26 @@ tags:
 
 ## Top-Level Fields
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Field | Description |
 |-------|-------------|
 | `files` | Explicit list of files to include |
@@ -33,6 +53,26 @@ tags:
 
 ## Recommended tsconfig for React + Vite + TypeScript
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 ```json
 {
   "compilerOptions": {
@@ -62,6 +102,26 @@ tags:
 
 ## Type Checking Options
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Default | Description |
 |--------|---------|-------------|
 | `strict` | `true` | Enables all strict type-checking options |
@@ -84,6 +144,26 @@ tags:
 
 ## Module Resolution
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Description |
 |--------|-------------|
 | `module` | Module output format (`ESNext`, `CommonJS`, `Node16`, `NodeNext`, `Preserve`, etc.) |
@@ -103,6 +183,26 @@ tags:
 
 ## Emit Options
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Description |
 |--------|-------------|
 | `declaration` | Generate `.d.ts` files |
@@ -123,6 +223,26 @@ tags:
 
 ## JavaScript Support
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Description |
 |--------|-------------|
 | `allowJs` | Allow importing `.js` files |
@@ -131,6 +251,26 @@ tags:
 
 ## Interop Constraints
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Description |
 |--------|-------------|
 | `esModuleInterop` | Enable default imports from CommonJS |
@@ -142,6 +282,26 @@ tags:
 
 ## Language & Environment
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Description |
 |--------|-------------|
 | `target` | ECMAScript target version (`ES3`, `ES5`, `ES2015`â€“`ES2024`, `ESNext`) |
@@ -155,6 +315,26 @@ tags:
 
 ## Projects
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Description |
 |--------|-------------|
 | `composite` | Enforces constraints for project references |
@@ -165,6 +345,26 @@ tags:
 
 ## Completeness
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Description |
 |--------|-------------|
 | `skipLibCheck` | Skip type checking of declaration files |
@@ -172,6 +372,26 @@ tags:
 
 ## Watch Options
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 | Option | Description |
 |--------|-------------|
 | `watchFile` | Strategy for file watching (`useFsEvents`, `fixedPollingInterval`, etc.) |
@@ -182,6 +402,26 @@ tags:
 
 ## Key Decisions for This Project
 
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required
 Based on the project's tech stack (React 19 + Vite + TypeScript + pnpm):
 
 ```json
@@ -207,7 +447,27 @@ Based on the project's tech stack (React 19 + Vite + TypeScript + pnpm):
 
 
 ## See Also
-- [[T01-TypeScript/generics]]
+
+## concept_id
+t09-ts-tsconfig
+
+## title
+TypeScript tsconfig.json Reference
+
+## aliases
+- T09-ts-tsconfig
+
+## category
+type-system
+
+## concept_type
+coding-standards
+
+## research_status
+verified
+
+## project_adoption
+required- [[T01-TypeScript/generics]]
 - [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
 - [[T04-TypeScript/typescript-strict-mode]]

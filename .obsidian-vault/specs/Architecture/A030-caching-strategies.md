@@ -9,17 +9,56 @@ tags:
   - redis
   - performance
   - strategies
-  - --
 # Caching Strategies
 
 ## Definition
 
+## concept_id
+a030-caching-strategies
+
+## title
+Caching Strategies
+
+## aliases
+- A030-caching-strategies
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Caching Strategies are **techniques for storing data temporarily to improve performance**.
 
 > "Caching is a technique of storing data temporarily in a location that provides fast access to the data." â€” Wikipedia
 
 ## Problem Addressed
 
+## concept_id
+a030-caching-strategies
+
+## title
+Caching Strategies
+
+## aliases
+- A030-caching-strategies
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 Without caching strategies:
 - **Performance**: Data access is slow
 - **Scalability**: Hard to scale
@@ -28,12 +67,52 @@ Without caching strategies:
 
 ## Scope and Boundaries
 
+## concept_id
+a030-caching-strategies
+
+## title
+Caching Strategies
+
+## aliases
+- A030-caching-strategies
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - Caching Strategies â‰  Cache (caching strategies are techniques, cache is a storage mechanism)
 - Caching Strategies â‰  CDN (caching strategies are for data, CDN is for content)
 - Caching Strategies is a **technique**, not a storage mechanism
 
 ## When to Apply
 
+## concept_id
+a030-caching-strategies
+
+## title
+Caching Strategies
+
+## aliases
+- A030-caching-strategies
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - When building applications
 - when performance matters
 - when scalability is important
@@ -41,6 +120,26 @@ Without caching strategies:
 
 ## Tradeoffs and When to Avoid
 
+## concept_id
+a030-caching-strategies
+
+## title
+Caching Strategies
+
+## aliases
+- A030-caching-strategies
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 | Cost | Description |
 |------|-------------|
 | **Complexity** â€” Caching strategies are complex |
@@ -49,18 +148,78 @@ Without caching strategies:
 
 ## Common Misuses
 
+## concept_id
+a030-caching-strategies
+
+## title
+Caching Strategies
+
+## aliases
+- A030-caching-strategies
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - **Everything cached**: Not everything needs caching
 - **Confusing with cache**: Caching strategies â‰  cache
 - **Over-caching**: Too much caching creates complexity
 
 ## Related Concepts
 
+## concept_id
+a030-caching-strategies
+
+## title
+Caching Strategies
+
+## aliases
+- A030-caching-strategies
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [Cache-Aside Pattern](Architecture/cache-aside-pattern.md) â€” Caching strategies with cache-aside
 - [Redis](Architecture/redis.md) â€” Caching strategies with Redis
 - [CDN](Architecture/cdn.md) â€” Caching strategies with CDN
 
 ## Project Observations
 
+## concept_id
+a030-caching-strategies
+
+## title
+Caching Strategies
+
+## aliases
+- A030-caching-strategies
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - The project uses caching strategies:
   - The project's architecture patterns note covers caching strategies (from existing notes)
   - No evidence of caching strategies in existing code (src/ is empty)
@@ -70,6 +229,26 @@ Without caching strategies:
 
 ## Sources
 
+## concept_id
+a030-caching-strategies
+
+## title
+Caching Strategies
+
+## aliases
+- A030-caching-strategies
+
+## category
+architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
 - [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
