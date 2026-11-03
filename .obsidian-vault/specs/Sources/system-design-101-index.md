@@ -7,7 +7,7 @@ This is the master index for all ByteByteGo System Design 101 guides ingested in
 ## Source
 
 - **Original**: [ByteByteGo System Design 101](https://bytebytego.com/)
-- **Cheat Sheet**: [donnemartin/system-design-cheat-sheet](https://github.com/donnemartin/system-design-cheat-sheet)
+- **Cheat Sheet**: [donnemartin/system-design-cheat-sheet](https://github.com/donnemartin/system-design-primer)
 - **Citation Format**: `system-design-101/<category>/<guide-name>`
 
 ---
@@ -127,3 +127,4 @@ All guides use the citation format:
 - [x] ~200+ guides indexed with slugs
 - [x] Cross-references to vault notes created
 - [x] Source verification slugs added
+

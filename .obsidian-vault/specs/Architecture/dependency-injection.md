@@ -1,74 +1,139 @@
----
-slug: dependency-injection
-sources:
-  - https://martinfowler.com/articles/injection.html
-  - https://en.wikipedia.org/wiki/Dependency_injection
-date: 2026-11-02
-tags:
-  - dependency-injection
-  - inversion
-  - composition-root
-  - architecture
+# Dependency Injection
+
+> **Purpose:** Provide dependencies from outside rather than creating them internally.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Dependency Injection
+## concept_id
+`arch-dependency-injection`
+
+## title
+Dependency Injection
+
+## aliases
+- DI
+- Dependency Injection
+- Inversion of Control
+
+## category
+application-architecture
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Any application architecture
+- Testing and mocking
+- Loose coupling
+- Configuration management
+
+## tags
+- type/pattern
+- domain/architecture
+- status/verified
+- priority/high
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-dependency-inversion
+- arch-composition-root
+- arch-hexagonal-architecture
+- arch-clean-architecture
+- ddd-repository
+
+---
 
 ## Definition
 
-Dependency Injection (DI) is a **technique where objects receive their dependencies from external sources rather than creating them internally**. DI is a specific form of Inversion of Control.
-
-> "Dependency Injection is a 25-dollar term question. It means giving objects their instances — and their dependencies — via constructors, method calls, or the field they are set on." — Martin Fowler
+Dependency Injection is a design pattern where dependencies are provided to a component from outside, rather than the component creating them internally. This inverts the flow of control and enables loose coupling.
 
 ## Problem Addressed
 
-Without DI:
-- **Tight coupling**: Classes create their own dependencies
-- **Testing difficulty**: Hard to mock dependencies
-- **Configuration**: Dependencies are hardcoded
-- **Reusability**: Coupled classes can't be reused
+Without dependency injection:
+- Components create their own dependencies
+- Testing requires mocking complex dependencies
+- Components are tightly coupled
+- Configuration is scattered
 
 ## Scope and Boundaries
 
-- DI ≠ Dependency Inversion (DI is a technique, DIP is a principle)
-- DI is a form of Inversion of Control
-- DI enables Composition over Inheritance
+DI applies to:
+- Component initialization
+- Configuration management
+- Testing and mocking
+- Loose coupling
+
+DI does not apply to:
+- Value objects (no dependencies)
+- Static utilities
+- Simple factories
 
 ## When to Apply
 
-- When a class needs dependencies from external sources
-- When testing requires mock dependencies
-- When configuration needs to be externalized
-- When building modular systems
+- Components have multiple dependencies
+- Testing requires mocking
+- Configuration needs to be centralized
+- Loose coupling is desired
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Boilerplate** — More code for dependency wiring |
-| **Complexity** — DI containers add complexity |
-| **Hidden dependencies** — Hard to see what a class needs |
+- **Complexity**: DI containers can be complex
+- **Hidden dependencies**: Dependencies are not visible in code
+- **Not for simple cases**: Simple components don't need DI
+- **Debugging**: Stack traces can be longer
+
+## Implementation Guidance
+
+1. **Define interfaces**: Create abstractions for dependencies
+2. **Inject via constructor**: Pass dependencies through constructor
+3. **Use DI container**: Optional, for complex applications
+4. **Wire at composition root**: Configure dependencies in one place
+5. **Avoid service locator**: Use DI, not service locator pattern
+
+## Verification
+
+- [ ] Dependencies are injected, not created
+- [ ] Interfaces are used for dependencies
+- [ ] Composition root configures dependencies
+- [ ] Components can be tested in isolation
 
 ## Common Misuses
 
-- **DI everywhere**: Injecting dependencies that don't need it
-- **Service locator**: Using DI as a service locator (anti-pattern)
-- **Confusing with DIP**: DI is a technique, DIP is a principle
+- **Service locator**: Using service locator instead of DI
+- **DI container everywhere**: Not needed for simple cases
+- **Hidden dependencies**: Dependencies should be visible
+- **Over-engineering**: Not every class needs DI
 
 ## Related Concepts
 
-- [Dependency Inversion Principle](Architecture/solid-principles.md) — DIP enables DI
-- [Composition over Inheritance](Architecture/composition-over-inheritance.md) — DI enables composition
-- [Low Coupling](Architecture/low-coupling.md) — DI reduces coupling
+- [[Architecture/dependency-inversion-principle]] — Dependency Inversion Principle
+- [[Architecture/composition-root]] — Composition Root
+- [[Architecture/hexagonal-architecture]] — Hexagonal Architecture
+- [[DDD/repository]] — Repository Pattern
 
 ## Project Observations
 
-- TypeScript supports DI through:
-  - Constructor injection
-  - Interface-based design (`*.port.ts` files)
-  - Manual DI (no framework required)
-- No DI framework is configured (manual DI is sufficient for this project)
+The project uses TypeScript, which supports DI through:
+- Constructor injection
+- Factory functions
+- Dependency injection containers (optional)
+- Mock objects for testing
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/martin-oop-2000|martin-oop-2000]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Dependency Injection Note**

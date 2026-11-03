@@ -18,3 +18,11 @@ claims_supported:
   - state-machines
 access_limitations: Academic paper, freely available
 research_notes: "The original academic paper that formalized statecharts. Foundation for all modern state machine libraries including XState."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+

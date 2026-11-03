@@ -1,78 +1,141 @@
----
-slug: port-file-convention
-sources:
-  - https://www.typescriptlang.org/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Port File Convention
+
+> **Purpose:** Define interfaces for external concerns.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.port.ts
+## concept_id
+`project-port-file`
+
+## title
+*.port.ts File Convention
+
+## aliases
+- Port File Convention
+- *.port.ts
+- Port Interface
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Hexagonal architecture
+- Port and adapter pattern
+- Dependency inversion
+- Project organization
+
+## tags
+- type/convention
+- domain/architecture
+- status/verified
+- priority/high
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-adapter-file
+- project-view-file
+- project-logic-file
+- project-data-file
+- arch-hexagonal-architecture
+
+---
 
 ## Definition
 
-`*.port.ts` is **a file naming convention for TypeScript files that contain port interfaces (hexagonal architecture) defining boundaries between internal and external systems**.
-
-> "The *.port.ts convention identifies TypeScript files that contain port interfaces for hexagonal architecture." — TypeScript Docs
+The *.port.ts file convention designates files that define port interfaces — abstractions that the domain layer depends on for external concerns (databases, APIs, services).
 
 ## Problem Addressed
 
-Without `*.port.ts` convention:
-- **Confusion**: Don't know which files contain port interfaces
-- **Mixing concerns**: Ports are mixed with implementation
-- **Testing**: Hard to test ports separately
-- **Maintenance**: Hard to maintain ports
+Without file conventions:
+- Interfaces are scattered
+- Dependencies are unclear
+- Testing is difficult
+- Architecture is inconsistent
 
 ## Scope and Boundaries
 
-- `*.port.ts` ≠ `*.adapter.ts` (`*.port.ts` is for interfaces, `*.adapter.ts` is for implementations)
-- `*.port.ts` = Ports (`*.port.ts` is for port interfaces)
-- `*.port.ts` is a **file naming convention**, not a pattern
+Port files apply to:
+- Interface definitions
+- Port definitions
+- Dependency inversion
+- Hexagonal architecture
+
+Port files do not apply to:
+- Implementation code
+- Business logic
+- UI rendering
+- Data fetching
 
 ## When to Apply
 
-- When building hexagonal architecture applications
-- when port interfaces are used
-- when testing is important
-- when maintenance is important
+- Defining port interfaces
+- Implementing hexagonal architecture
+- Inverting dependencies
+- Building testable code
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every port needs a separate file |
+- **Over-splitting**: Not every interface needs separate file
+- **Not for implementation**: Port files should not contain implementation
+- **Not for logic**: Port files should not contain business logic
+- **Not for UI**: Port files should not render UI
+
+## Implementation Guidance
+
+1. **Define interfaces**: Define port interfaces
+2. **Keep ports simple**: Keep interfaces simple
+3. **Group related ports**: Group related ports together
+4. **Document ports**: Document port purpose
+5. **Implement ports**: Create adapter implementations
+
+## Verification
+
+- [ ] Interfaces are defined
+- [ ] Interfaces are simple
+- [ ] Related ports are grouped
+- [ ] Ports are documented
+- [ ] Implementations exist
 
 ## Common Misuses
 
-- **Everything a port**: Not every interface needs a port file
-- **Mixing concerns**: Port files should not contain implementation
-- **Confusing with adapter**: Port files contain interfaces, adapter files contain implementations
+- **Not defining interfaces**: Not defining port interfaces
+- **Not keeping simple**: Not keeping interfaces simple
+- **Not grouping**: Not grouping related ports
+- **Not documenting**: Not documenting ports
 
 ## Related Concepts
 
-- [Hexagonal Architecture](Architecture/hexagonal-architecture.md) — Hexagonal architecture uses ports
-- [Adapter File Convention](Project File Conventions/adapter-file-convention.md) — Adapter file convention implements ports
-- [Dependency Injection](Architecture/dependency-injection.md) — Dependency injection uses ports
+- [[Project File Conventions/adapter-file-convention]] — *.adapter.ts File Convention
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Architecture/hexagonal-architecture]] — Hexagonal Architecture
 
 ## Project Observations
 
-- The project uses `*.port.ts`:
-  - TypeScript supports `*.port.ts` through module system
-  - React supports `*.port.ts` through port interfaces
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.port.ts` in existing code (src/ is empty)
-- File naming conventions support `*.port.ts`:
-  - `*.port.ts` — Port files
-  - `*.adapter.ts` — Adapter files
+The project follows port file convention through:
+- *.port.ts files for interface definitions
+- *.adapter.ts files for implementations
+- Dependency injection
+- Hexagonal architecture
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Port File Convention Note**

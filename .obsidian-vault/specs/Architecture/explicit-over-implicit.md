@@ -1,74 +1,140 @@
----
-slug: explicit-over-implicit
-sources:
-  - https://pragmaticprogrammer.com/books/pp
-  - https://pragmaticprogrammer.com/titles/tpphr/
-date: 2026-11-02
-tags:
-  - explicit
-  - principles
-  - design
-  - pragmatie-programmer
+# Explicit over Implicit
+
+> **Purpose:** Make behavior and dependencies obvious.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Explicit over Implicit
+## concept_id
+`arch-explicit-over-implicit`
+
+## title
+Explicit over Implicit
+
+## aliases
+- Explicit over Implicit
+- Explicit is Better than Implicit
+- Clarity over Cleverness
+
+## category
+core-principles
+
+## concept_type
+design-principle
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Code design
+- API design
+- Configuration
+- Documentation
+
+## tags
+- type/principle
+- domain/architecture
+- domain/coding
+- status/verified
+- priority/high
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-fail-fast
+- arch-design-by-contract
+- arch-yagni
+- arch-kiss
+- arch-solid-principles
+
+---
 
 ## Definition
 
-Explicit over Implicit is the principle that **code should make its intentions, dependencies, and behavior clear and visible rather than hidden or automatic**.
-
-> "Explicit is better than implicit." — From The Zen of Python (Tim Peters)
+Explicit over Implicit is a principle that behavior, dependencies, and configuration should be obvious and visible rather than hidden or automatic.
 
 ## Problem Addressed
 
-Implicit behavior leads to:
-- **Hidden dependencies**: Hard to understand what a module needs
-- **Surprising behavior**: Automatic behavior that developers don't expect
-- **Testing difficulty**: Hard to test without understanding implicit behavior
-- **Debugging difficulty**: Hard to trace implicit data flow
+Without explicit over implicit:
+- Behavior is hard to understand
+- Dependencies are hidden
+- Configuration is mysterious
+- Debugging is difficult
 
 ## Scope and Boundaries
 
-- Explicit ≠ Verbose (clarity ≠ length)
-- Implicit has its place (conventions, defaults, inference)
-- The goal is **predictable implicit behavior**, not eliminating all implicit behavior
+Explicit applies to:
+- Code behavior
+- Dependencies
+- Configuration
+- Documentation
+
+Explicit does not apply to:
+- Implementation details (can be hidden)
+- Internal algorithms (can be complex)
+- Performance optimizations (can be hidden)
 
 ## When to Apply
 
-- When choosing between explicit and implicit approaches
-- When designing APIs
-- When configuring tools
-- When reviewing code for hidden behavior
+- Designing APIs
+- Creating configuration
+- Writing documentation
+- Building libraries
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Verbosity** — Explicit code is longer |
-| **Repetition** — Explicit code may repeat information |
-| **Developer experience** — Too much explicit code is tiring |
+- **Verbosity**: Explicit code can be verbose
+- **Repetition**: Explicit code can be repetitive
+- **Not for implementation**: Implementation details can be hidden
+- **Not for performance**: Performance optimizations can be hidden
+
+## Implementation Guidance
+
+1. **Be explicit**: Make behavior obvious
+2. **Document clearly**: Document behavior clearly
+3. **Avoid magic**: Avoid magic numbers and strings
+4. **Use clear names**: Use clear, descriptive names
+5. **Show dependencies**: Show dependencies explicitly
+
+## Verification
+
+- [ ] Behavior is obvious
+- [ ] Dependencies are visible
+- [ ] Configuration is clear
+- [ ] Documentation is complete
 
 ## Common Misuses
 
-- **Explicit everywhere**: No conventions, no defaults, no inference
-- **Implicit everywhere**: Magic behavior, hidden dependencies
-- **Confusing with verbosity**: Explicit ≠ verbose (you can be explicit and concise)
+- **Over-explicit**: Being explicit about everything
+- **Ignoring implementation**: Implementation details can be hidden
+- **Not documenting**: Not documenting behavior
+- **Using magic**: Using magic numbers and strings
 
 ## Related Concepts
 
-- **Principle of Least Astonishment** — Explicit code is less surprising
-- **Fail Fast** — Explicit errors are clearer than implicit failures
-- **Type Systems** — TypeScript types make types explicit
+- [[Architecture/fail-fast]] — Fail Fast
+- [[Architecture/design-by-contract]] — Design by Contract
+- [[Architecture/yagni]] — YAGNI
+- [[Architecture/kiss]] — KISS
 
 ## Project Observations
 
-- The project follows explicit over implicit:
-  - TypeScript explicit types (not inferred `any`)
-  - Explicit imports (not global variables)
-  - Explicit configuration (not magic values)
-  - Explicit error handling (not silent failures)
-- AGENTS.md explicitly prohibits implicit behavior ("Do not add a CSS-in-JS library")
+The project follows explicit over implicit through:
+- Clear function signatures
+- Explicit imports
+- Clear configuration
+- Comprehensive documentation
 
 ## Sources
 
-- [[Sources/martin-oop-2000|martin-oop-2000]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Explicit over Implicit Note**

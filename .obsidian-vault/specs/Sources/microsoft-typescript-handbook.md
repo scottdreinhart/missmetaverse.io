@@ -6,6 +6,14 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - domain/architecture
+  - type/concept
+  - status/complete
+  - type/reference
+  - domain/frontend
   - typescript
   - microsoft
   - typing
@@ -39,3 +47,13 @@ claims_supported:
   - type-narrowing
 access_limitations: None
 research_notes: "Official TypeScript documentation. Primary source for all TypeScript language feature definitions, type system behavior, and compiler options."
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

@@ -1,9 +1,17 @@
 ﻿---
 slug: system-design-101-api-web-development
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
   - system-design
   - api
   - web-development
@@ -81,3 +89,13 @@ Read these vault notes for deeper understanding:
 All guides use the citation format:
 - `system-design-101/api-web-development/<guide-name>` — Citation slug for verification
 - Original source: https://bytebytego.com/
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

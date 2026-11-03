@@ -35,3 +35,11 @@ claims_supported:
   - ci-cd
 access_limitations: Free public blog
 research_notes: "Martin Fowler's Bliki is the definitive reference for software architecture patterns, refactoring, TDD, CI/CD, and evolutionary architecture."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+

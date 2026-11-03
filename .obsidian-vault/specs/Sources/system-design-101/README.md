@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-index
 date: 2026-11-02
 tags:
@@ -12,7 +12,7 @@ tags:
 
 ## Overview
 
-This directory contains citation slugs for the [system-design-101](https://github.com/donnemartin/system-design-cheat-sheet) knowledge base — a comprehensive collection of system design guides, cheat sheets, and architectural patterns.
+This directory contains citation slugs for the [system-design-101](https://github.com/donnemartin/system-design-primer) knowledge base — a comprehensive collection of system design guides, cheat sheets, and architectural patterns.
 
 ## Categories (15 files)
 
@@ -732,3 +732,4 @@ This directory contains citation slugs for the [system-design-101](https://githu
 | `system-design-101/guides/do-you-know-why-meta-google-and-amazon-all-stop-using-leap-seconds` | Leap Seconds | Technical |
 | `system-design-101/guides/some-devops-books-i-find-enlightening` | DevOps Books | Technical |
 | `system-design-101/guides/who-are-the-fantastic-four-of-system-design` | System Design Icons | Technical |
+

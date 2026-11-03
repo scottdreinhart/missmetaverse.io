@@ -12,6 +12,19 @@ sources:
   - https://playwright.dev/docs/trace-viewer-intro
 date: 2025-01-15
 tags:
+  - priority/high
+  - maturity/deprecated
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/accessibility
+  - domain/database
   - playwright
   - e2e
   - testing
@@ -668,3 +681,12 @@ test('CSP headers are set', async ({ page }) => {
 - See [react-performance-security](D/react-performance-security.md) for React testing patterns
 - See [vite-optimization-security](D/vite-optimization-security.md) for Vite configuration
 - See [pnpm-best-practices](D/pnpm-best-practices.md) for package management
+
+## See Also
+- [[Copilot-Consumption-Guide]]
+- [[Project-Architecture-Mapping]]
+- [[Research-Status]]
+- [[vault-integration-map]]
+- [[_template-spec]]
+
+

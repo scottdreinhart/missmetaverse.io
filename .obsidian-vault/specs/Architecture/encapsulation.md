@@ -1,71 +1,139 @@
----
-slug: encapsulation
-sources:
-  - https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
-  - https://www.geeksforgeeks.org/what-is-encapsulation-in-object-oriented-programming/
-date: 2026-11-02
-tags:
-  - encapsulation
-  - principles
-  - oop
-  - information-hiding
+# Encapsulation
+
+> **Purpose:** Hide internal state and require interaction through methods.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Encapsulation
+## concept_id
+`arch-encapsulation`
+
+## title
+Encapsulation
+
+## aliases
+- Encapsulation
+- Information Hiding
+- Data Hiding
+
+## category
+core-principles
+
+## concept_type
+design-principle
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Class design
+- Module design
+- API design
+- Component design
+
+## tags
+- type/principle
+- domain/architecture
+- domain/coding
+- status/verified
+- priority/high
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-solid-principles
+- arch-information-hiding
+- arch-single-responsibility
+- arch-invariant-protection
+- arch-pure-functions
+
+---
 
 ## Definition
 
-Encapsulation is the principle of **bundling data and the methods that operate on that data into a single unit, while hiding internal implementation details**.
-
-> "Encapsulation is the process of combining data and functions into a single component while preventing the internal state from being accessed directly." — Object-oriented programming principle
+Encapsulation is the bundling of data and methods that operate on that data within a single unit, while hiding internal implementation details. Access is controlled through well-defined interfaces.
 
 ## Problem Addressed
 
 Without encapsulation:
-- **Uncontrolled mutation**: External code can modify internal state arbitrarily
-- **Inconsistent state**: No validation on state changes
-- **Fragile code**: Internal changes break external code
-- **Debugging difficulty**: Hard to track state changes
+- Internal state can be modified unexpectedly
+- Implementation changes break clients
+- Invariants cannot be enforced
+- Code is hard to maintain
 
 ## Scope and Boundaries
 
-- Encapsulation is about **bundling + hiding**, not just hiding
-- It applies at all levels: classes, modules, functions, variables
-- Encapsulation ≠ Information Hiding (encapsulation bundles, information hiding restricts access)
+Encapsulation applies to:
+- Class design
+- Module design
+- API design
+- Component design
+
+Encapsulation does not address:
+- Access control (that's security)
+- Data validation (that's business logic)
+- Error handling (that's resilience)
 
 ## When to Apply
 
-- When designing classes or modules
-- When managing shared state
-- When creating public APIs
-- When protecting invariants
+- Designing classes and modules
+- Creating APIs
+- Building components
+- Refactoring exposed state
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Over-encapsulation** | Too many layers of wrapping add complexity |
-| **False encapsulation** | Hiding without bundling (just private variables) |
-| **Testing difficulty** | Hard to test internal state |
+- **Over-encapsulation**: Too much hiding makes code hard to use
+- **Performance overhead**: Accessors can add overhead
+- **Not for data bags**: Simple data structures don't need encapsulation
+- **Not for prototypes**: Prototypes don't need encapsulation
+
+## Implementation Guidance
+
+1. **Hide state**: Make fields private or readonly
+2. **Provide accessors**: Create methods for controlled access
+3. **Enforce invariants**: Validate state changes
+4. **Expose interfaces**: Define clear interfaces
+5. **Document behavior**: Document what methods do, not how
+
+## Verification
+
+- [ ] Internal state is hidden
+- [ ] Access is controlled through methods
+- [ ] Invariants are enforced
+- [ ] Interfaces are well-defined
 
 ## Common Misuses
 
-- **Private everything**: Making all members private when some should be internal
-- **Getter/overload**: Using getters/setters that expose internal state
-- **Confusing with information hiding**: Encapsulation bundles, information hiding restricts
+- **Over-encapsulation**: Too much hiding makes code hard to use
+- **Public getters**: Exposing state through getters
+- **Ignoring invariants**: Not validating state changes
+- **Not documenting**: Not documenting behavior
 
 ## Related Concepts
 
-- **Information Hiding** — Encapsulation enables information hiding
-- **Single Responsibility Principle** — Each class encapsulates one responsibility
-- **Immutability** — Stronger form of encapsulation
+- [[Architecture/solid-principles]] — SOLID Principles
+- [[Architecture/information-hiding]] — Information Hiding
+- [[Architecture/single-responsibility-principle]] — Single Responsibility Principle
 
 ## Project Observations
 
-- TypeScript's class modifiers (`private`, `protected`, `public`) support encapsulation
-- Value objects (Money, Email, Address) encapsulate validation and behavior
-- File naming conventions (`*.entity.ts`, `*.value-object.ts`) encourage encapsulation
+The project follows encapsulation through:
+- Private fields in TypeScript classes
+- Getter and setter methods
+- Interface-based access
+- Readonly properties
 
 ## Sources
 
-- [[Sources/martin-oop-2000|martin-oop-2000]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Encapsulation Note**

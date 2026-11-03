@@ -6,6 +6,12 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/frontend
+  - domain/accessibility
   - html
   - mdn
   - web-standards
@@ -32,3 +38,12 @@ claims_supported:
   - html-structured-data
 access_limitations: None
 research_notes: "MDN HTML documentation. Primary authoritative source for HTML elements, semantics, accessibility, and forms."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

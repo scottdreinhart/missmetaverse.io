@@ -1,76 +1,140 @@
----
-slug: low-coupling
-sources:
-  - https://en.wikipedia.org/wiki/Coupling_(computer_programming)
-  - https://blog.cleancoder.com/uncle-bob/2014/08/14/TheCleanArchitecture.html
-date: 2026-11-02
-tags:
-  - coupling
-  - principles
-  - design
-  - modularity
-  - dependency-inversion
+# Low Coupling
+
+> **Purpose:** Minimize dependencies between modules.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Low Coupling
+## concept_id
+`arch-low-coupling`
+
+## title
+Low Coupling
+
+## aliases
+- Low Coupling
+- Loose Coupling
+- Coupling
+
+## category
+core-principles
+
+## concept_type
+design-principle
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Module design
+- Architecture design
+- API design
+- Component design
+
+## tags
+- type/principle
+- domain/architecture
+- domain/coding
+- status/verified
+- priority/high
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-solid-principles
+- arch-high-cohesion
+- arch-separation-of-concerns
+- arch-dependency-inversion
+- arch-composition-over-inheritance
+
+---
 
 ## Definition
 
-Low Coupling is the principle that **modules should have minimal dependencies on other modules**. Changes in one module should have minimal impact on other modules.
-
-> "Coupling is a measure of how closely connected two modules are. Low coupling is desirable." — Robert C. Martin
+Low Coupling is a design principle where dependencies between modules are minimized. Modules should be independent and interact through well-defined interfaces.
 
 ## Problem Addressed
 
-High coupling leads to:
-- **Fragile changes**: Changing one module breaks many others
-- **Testing difficulty**: Hard to test in isolation
-- **Reusability**: Coupled modules can't be reused independently
-- **Team coordination**: Developers block each other's work
+Without low coupling:
+- Changes in one module affect others
+- Testing requires mocking many dependencies
+- Reuse is difficult
+- Maintenance becomes error-prone
 
 ## Scope and Boundaries
 
-- Coupling is about **dependencies between modules**, not between functions within a module
-- Some coupling is necessary — the goal is **minimal necessary coupling**
-- Coupling ≠ Cohesion (they are complementary, not opposing)
+Low coupling applies to:
+- Module design
+- Architecture design
+- API design
+- Component design
+
+Low coupling does not address:
+- Cohesion within modules
+- Implementation details
+- Performance
 
 ## When to Apply
 
-- When designing module boundaries
-- When choosing between inheritance and composition
-- When evaluating dependency direction
-- When refactoring tightly-coupled code
+- Designing system architecture
+- Creating modules and components
+- Defining APIs
+- Refactoring tightly coupled code
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Indirection** | Too many abstractions add complexity |
-| **Performance** | Extra layers of indirection can impact performance |
-| **Over-engineering** | Abstracting before it's needed |
+- **Over-decoupling**: Too many abstractions increase complexity
+- **Communication overhead**: Decoupled modules need interfaces
+- **Not for simple code**: Simple code doesn't need low coupling
+- **Not for prototypes**: Prototypes don't need low coupling
+
+## Implementation Guidance
+
+1. **Use interfaces**: Define interfaces for dependencies
+2. **Inject dependencies**: Use dependency injection
+3. **Minimize dependencies**: Reduce number of dependencies
+4. **Use events**: Decouple modules through events
+5. **Enforce boundaries**: Prevent cross-boundary dependencies
+
+## Verification
+
+- [ ] Dependencies are minimized
+- [ ] Interfaces define communication
+- [ ] Modules are independent
+- [ ] Boundaries are enforced
 
 ## Common Misuses
 
-- **Zero coupling**: Trying to eliminate all dependencies (impossible)
-- **Interface obsession**: Creating interfaces for everything
-- **Ignoring transitive coupling**: A depends on B depends on C
+- **Over-decoupling**: Too many abstractions
+- **Ignoring cohesion**: Low coupling with low cohesion is bad
+- **Not using interfaces**: Direct dependencies instead of interfaces
+- **Violating boundaries**: Allowing cross-boundary dependencies
 
 ## Related Concepts
 
-- **Dependency Inversion Principle** — DIP enables low coupling
-- **High Cohesion** — High cohesion + low coupling = good design
-- **Composition over Inheritance** — Composition reduces coupling
-- **Low Coupling** — Complementary to High Cohesion
+- [[Architecture/solid-principles]] — SOLID Principles
+- [[Architecture/high-cohesion]] — High Cohesion
+- [[Architecture/separation-of-concerns]] — Separation of Concerns
+- [[Architecture/dependency-inversion-principle]] — Dependency Inversion Principle
 
 ## Project Observations
 
-- The project's architecture naturally supports low coupling:
-  - React components are loosely coupled via props
-  - Vite plugins are independent
-  - TypeScript interfaces define module boundaries
-- File naming conventions (`*.port.ts`, `*.adapter.ts`) support low coupling via dependency inversion
+The project follows low coupling through:
+- Interface-based design
+- Dependency injection
+- Event-driven communication
+- Clear API boundaries
 
 ## Sources
 
-- [[Sources/martin-oop-2000|martin-oop-2000]]
-- [[Sources/martin-clean-architecture-2017|martin-clean-architecture-2017]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Low Coupling Note**

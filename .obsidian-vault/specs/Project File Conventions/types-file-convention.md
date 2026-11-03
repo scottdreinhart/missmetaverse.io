@@ -1,77 +1,141 @@
----
-slug: types-file-convention
-sources:
-  - https://www.typescriptlang.org/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Types File Convention
+
+> **Purpose:** Centralize type definitions.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.types.ts
+## concept_id
+`project-types-file`
+
+## title
+*.types.ts File Convention
+
+## aliases
+- Types File Convention
+- *.types.ts
+- Type Definitions
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- TypeScript projects
+- Type definitions
+- Interface definitions
+- Project organization
+
+## tags
+- type/convention
+- domain/typescript
+- status/verified
+- priority/high
+
+## source_ids
+- typescript-documentation
+- goF-1994
+
+## related_concept_ids
+- project-schema-file
+- project-view-file
+- project-logic-file
+- project-data-file
+- coding-strict-typing
+
+---
 
 ## Definition
 
-`*.types.ts` is **a file naming convention for TypeScript files that contain type definitions, interfaces, and type aliases**.
-
-> "The *.types.ts convention identifies TypeScript files that contain type definitions and interfaces." — TypeScript Docs
+The *.types.ts file convention designates files that contain type definitions — interfaces, types, and enums that define the shape of data.
 
 ## Problem Addressed
 
-Without `*.types.ts` convention:
-- **Confusion**: Don't know which files contain type definitions
-- **Mixing concerns**: Types are mixed with implementation
-- **Testing**: Hard to test type definitions
-- **Maintenance**: Hard to maintain types
+Without file conventions:
+- Types are scattered
+- Type definitions are duplicated
+- Maintenance is error-prone
+- Consistency is lost
 
 ## Scope and Boundaries
 
-- `*.types.ts` ≠ `*.data.ts` (`*.types.ts` is for types, `*.data.ts` is for data definitions)
-- `*.types.ts` = Types (`*.types.ts` is for type definitions)
-- `*.types.ts` is a **file naming convention**, not a pattern
+Types files apply to:
+- Type definitions
+- Interface definitions
+- Enum definitions
+- Type aliases
+
+Types files do not apply to:
+- Implementation code
+- Business logic
+- UI rendering
+- Data fetching
 
 ## When to Apply
 
-- When building TypeScript applications
-- when type definitions are shared across modules
-- when testing is important
-- when maintenance is important
+- Defining types
+- Creating interfaces
+- Building enums
+- Organizing type definitions
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every type needs a separate file |
+- **Over-splitting**: Not every type needs separate file
+- **Not for logic**: Types files should not contain implementation
+- **Not for UI**: Types files should not render UI
+- **Not for data**: Types files should not fetch data
+
+## Implementation Guidance
+
+1. **Centralize types**: Put types in dedicated files
+2. **Export types**: Export types for reuse
+3. **Group related types**: Group related types together
+4. **Document types**: Document type purpose
+5. **Review types**: Review types regularly
+
+## Verification
+
+- [ ] Types are centralized
+- [ ] Types are exported
+- [ ] Related types are grouped
+- [ ] Types are documented
+- [ ] Types are reviewed
 
 ## Common Misuses
 
-- **Everything a type file**: Not every type needs a separate file
-- **Mixing concerns**: Type files should not contain implementation
-- **Confusing with schemas**: Type files contain TypeScript types, schema files contain validation schemas
+- **Not centralizing**: Not putting types in dedicated files
+- **Not exporting**: Not exporting types
+- **Not grouping**: Not grouping related types
+- **Not documenting**: Not documenting types
 
 ## Related Concepts
 
-- [Strict Typing](TypeScript/typescript-strict-mode.md) — Strict typing uses `*.types.ts`
-- [Discriminated Unions](Architecture/discriminated-unions.md) — Discriminated unions use `*.types.ts`
-- [Generics Patterns](Architecture/generics-patterns.md) — Generics use `*.types.ts`
+- [[Project File Conventions/schema-file-convention]] — *.schema.ts File Convention
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
 
 ## Project Observations
 
-- The project uses `*.types.ts`:
-  - TypeScript supports `*.types.ts` through module system
-  - React supports `*.types.ts` through type definitions
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.types.ts` in existing code (src/ is empty)
-- File naming conventions support `*.types.ts`:
-  - `*.types.ts` — Type files
-  - `*.schema.ts` — Schema files
+The project follows types file convention through:
+- *.types.ts files for type definitions
+- *.schema.ts files for validation
+- Clear type boundaries
+- Strict TypeScript
 
 ## Sources
 
-- [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Types File Convention Note**

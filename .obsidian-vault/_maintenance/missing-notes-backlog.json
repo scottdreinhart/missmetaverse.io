@@ -1,0 +1,965 @@
+﻿{
+    "total_missing":  113,
+    "missing_notes":  {
+                          "transaction-processing":  {
+                                                         "referenced_from":  [
+                                                                                 "system-design-101-payment-fintech",
+                                                                                 "system-design-101-payment-system"
+                                                                             ],
+                                                         "context":  [
+                                                                         "Line 43: - [[transaction-processing]] — Transaction patterns",
+                                                                         "Line 142: - [[transaction-processing]] — Transaction patterns"
+                                                                     ],
+                                                         "referenced_from_count":  2
+                                                     },
+                          "graphql-api-design":  {
+                                                     "referenced_from":  [
+                                                                             "system-design-101-api-design",
+                                                                             "system-design-101-api-web-development"
+                                                                         ],
+                                                     "context":  [
+                                                                     "Line 212: - [[graphql-api-design]] — GraphQL API design",
+                                                                     "Line 74: - [[graphql-api-design]] — GraphQL API design"
+                                                                 ],
+                                                     "referenced_from_count":  2
+                                                 },
+                          "real-time-systems":  {
+                                                    "referenced_from":  "system-design-101-chat-system",
+                                                    "context":  "Line 144: - [[real-time-systems]] — Real-time system design",
+                                                    "referenced_from_count":  1
+                                                },
+                          "infrastructure-as-code":  {
+                                                         "referenced_from":  "system-design-101-devops-cicd",
+                                                         "context":  "Line 68: - [[infrastructure-as-code]] — IaC patterns",
+                                                         "referenced_from_count":  1
+                                                     },
+                          "Quality Delivery/ci-cd-patterns":  {
+                                                                  "referenced_from":  [
+                                                                                          "pnpm-best-practices",
+                                                                                          "pnpm-workspace",
+                                                                                          "testing-patterns",
+                                                                                          "testing-patterns"
+                                                                                      ],
+                                                                  "context":  [
+                                                                                  "Line 650: - Read [[Quality Delivery/ci-cd-patterns]] for CI/CD deployment patterns",
+                                                                                  "Line 454: - Read [[Quality Delivery/ci-cd-patterns]] for CI/CD integration",
+                                                                                  "Line 555: - Read [[Quality Delivery/ci-cd-patterns]] for CI/CD testing integration"
+                                                                              ],
+                                                                  "referenced_from_count":  4
+                                                              },
+                          "devops-practices":  {
+                                                   "referenced_from":  "system-design-101-devops-cicd",
+                                                   "context":  "Line 66: - [[devops-practices]] — DevOps best practices",
+                                                   "referenced_from_count":  1
+                                               },
+                          "data-science":  {
+                                               "referenced_from":  "system-design-101-ai-machine-learning",
+                                               "context":  "Line 37: - [[data-science]] — Data science fundamentals",
+                                               "referenced_from_count":  1
+                                           },
+                          "security-best-practices":  {
+                                                          "referenced_from":  "security-principles",
+                                                          "context":  "Line 660: - Read [[security-best-practices]] for additional security patterns",
+                                                          "referenced_from_count":  1
+                                                      },
+                          "elasticsearch-patterns":  {
+                                                         "referenced_from":  [
+                                                                                 "system-design-101-caching-performance",
+                                                                                 "system-design-101-search-engine"
+                                                                             ],
+                                                         "context":  [
+                                                                         "Line 73: - [[elasticsearch-patterns]] — Elasticsearch usage",
+                                                                         "Line 106: - [[elasticsearch-patterns]] — Elasticsearch usage"
+                                                                     ],
+                                                         "referenced_from_count":  2
+                                                     },
+                          "abac":  {
+                                       "referenced_from":  [
+                                                               "M03-Complete-Mediation",
+                                                               "M13-RBAC",
+                                                               "M15-Data-Minimization"
+                                                           ],
+                                       "context":  [
+                                                       "Line 441: - read [[abac]] for ABAC patterns",
+                                                       "Line 32: - RBAC ≠ ABAC (RBAC uses roles, ABAC uses attributes)",
+                                                       "Line 394: - read [[abac]] for ABAC patterns"
+                                                   ],
+                                       "referenced_from_count":  3
+                                   },
+                          "Architecture/00-architecture-index":  {
+                                                                     "referenced_from":  [
+                                                                                             "Copilot-Consumption-Guide",
+                                                                                             "Project-Architecture-Mapping"
+                                                                                         ],
+                                                                     "context":  [
+                                                                                     "Line 13: Start with [[Architecture/00-architecture-index]] to identify the relevant category for the task.",
+                                                                                     "Line 140: - [[Architecture/00-architecture-index]] — Main index"
+                                                                                 ],
+                                                                     "referenced_from_count":  2
+                                                                 },
+                          "secure-by-design":  {
+                                                   "referenced_from":  [
+                                                                           "M06-Separation-of-Duties",
+                                                                           "M08-Secure-Defaults",
+                                                                           "M16-Secrets-Management",
+                                                                           "M17-Threat-Modeling"
+                                                                       ],
+                                                   "context":  [
+                                                                   "Line 384: - read [[secure-by-design]] for security principles",
+                                                                   "Line 60: - [Secure by Design](Security/secure-by-design.md) — Secure by design includes secure defaults",
+                                                                   "Line 356: - read [[secure-by-design]] for security principles"
+                                                               ],
+                                                   "referenced_from_count":  4
+                                               },
+                          "system-design-101/categories/database-and-storage":  {
+                                                                                    "referenced_from":  "system-design-101-source",
+                                                                                    "context":  "Line 37: - [[system-design-101/categories/database-and-storage]] — Database design",
+                                                                                    "referenced_from_count":  1
+                                                                                },
+                          "use-case":  {
+                                           "referenced_from":  [
+                                                                   "C10-Application-Service",
+                                                                   "C11-Use-Case"
+                                                               ],
+                                           "context":  [
+                                                           "Line 60: - [Use Case](DDD/use-case.md) — Application services often implement use cases",
+                                                           "Line 2: slug: use-case-ddd"
+                                                       ],
+                                           "referenced_from_count":  2
+                                       },
+                          "database-replication":  {
+                                                       "referenced_from":  [
+                                                                               "system-design-101-database-design",
+                                                                               "system-design-101-database-storage"
+                                                                           ],
+                                                       "context":  [
+                                                                       "Line 158: - [[database-replication]] — Replication patterns",
+                                                                       "Line 90: - [[database-replication]] — Replication patterns"
+                                                                   ],
+                                                       "referenced_from_count":  2
+                                                   },
+                          "dos-protection":  {
+                                                 "referenced_from":  "system-design-101-rate-limiting",
+                                                 "context":  "Line 116: - [[dos-protection]] — DDoS protection",
+                                                 "referenced_from_count":  1
+                                             },
+                          "parameterized-queries":  {
+                                                        "referenced_from":  "M11-Contextual-Output-Encoding",
+                                                        "context":  "Line 347: - read [[parameterized-queries]] for SQL injection prevention",
+                                                        "referenced_from_count":  1
+                                                    },
+                          "load-balancing":  {
+                                                 "referenced_from":  [
+                                                                         "system-design-101-high-availability",
+                                                                         "system-design-101-load-balancing",
+                                                                         "system-design-101-scalability"
+                                                                     ],
+                                                 "context":  [
+                                                                 "Line 204: - [[load-balancing]] — Load balancing patterns",
+                                                                 "Line 2: slug: system-design-101-load-balancing",
+                                                                 "Line 79: - [[load-balancing]] — Load balancing patterns"
+                                                             ],
+                                                 "referenced_from_count":  3
+                                             },
+                          "seo-best-practices":  {
+                                                     "referenced_from":  [
+                                                                             "html5-best-practices",
+                                                                             "system-design-101-devtools-productivity"
+                                                                         ],
+                                                     "context":  [
+                                                                     "Line 784: - Read [[seo-best-practices]] for SEO optimization",
+                                                                     "Line 47: - [[seo-best-practices]] — SEO optimization"
+                                                                 ],
+                                                     "referenced_from_count":  2
+                                                 },
+                          "chat-systems":  {
+                                               "referenced_from":  [
+                                                                       "system-design-101-chat-system",
+                                                                       "system-design-101-how-it-works"
+                                                                   ],
+                                               "context":  [
+                                                               "Line 142: - [[chat-systems]] — Chat system patterns",
+                                                               "Line 44: - [[chat-systems]] — Chat system patterns"
+                                                           ],
+                                               "referenced_from_count":  2
+                                           },
+                          "ml-systems":  {
+                                             "referenced_from":  [
+                                                                     "system-design-101-ai-machine-learning",
+                                                                     "system-design-101-ml-systems"
+                                                                 ],
+                                             "context":  [
+                                                             "Line 35: - [[ml-systems]] — ML system design",
+                                                             "Line 2: slug: system-design-101-ml-systems"
+                                                         ],
+                                             "referenced_from_count":  2
+                                         },
+                          "cqrs":  {
+                                       "referenced_from":  "system-design-101-message-queue",
+                                       "context":  "Line 150: - [[cqrs]] — CQRS pattern",
+                                       "referenced_from_count":  1
+                                   },
+                          "ddd":  {
+                                      "referenced_from":  "system-design-101-software-architecture",
+                                      "context":  "Line 32: | [Key Terms in DDD](https://bytebytego.com/guides/key-terms-in-domain-driven-design) | `system-design-101-ddd-terms` | DDD concepts |",
+                                      "referenced_from_count":  1
+                                  },
+                          "versioning-strategies":  {
+                                                        "referenced_from":  [
+                                                                                "system-design-101-api-design",
+                                                                                "system-design-101-api-web-development"
+                                                                            ],
+                                                        "context":  [
+                                                                        "Line 215: - [[versioning-strategies]] — API versioning strategies",
+                                                                        "Line 76: - [[versioning-strategies]] — API versioning strategies"
+                                                                    ],
+                                                        "referenced_from_count":  2
+                                                    },
+                          "responsive-design":  {
+                                                    "referenced_from":  [
+                                                                            "css-media-queries",
+                                                                            "css-media-queries"
+                                                                        ],
+                                                    "context":  [
+                                                                    "Line 367: - Read [[responsive-design]] for responsive design patterns",
+                                                                    "Line 367: - Read [[responsive-design]] for responsive design patterns"
+                                                                ],
+                                                    "referenced_from_count":  2
+                                                },
+                          "APIs Distributed Systems/rest-api-design":  {
+                                                                           "referenced_from":  "code-review-checklist",
+                                                                           "context":  "Line 194: 6. Read [[APIs Distributed Systems/rest-api-design]] for detailed API guidance",
+                                                                           "referenced_from_count":  1
+                                                                       },
+                          "data-warehousing":  {
+                                                   "referenced_from":  "system-design-101-data-warehousing",
+                                                   "context":  "Line 2: slug: system-design-101-data-warehousing",
+                                                   "referenced_from_count":  1
+                                               },
+                          "aggregate":  {
+                                            "referenced_from":  [
+                                                                    "C02-Bounded-Context",
+                                                                    "C04-Entity",
+                                                                    "C05-Value-Object",
+                                                                    "C07-Aggregate-Root",
+                                                                    "C08-Domain-Invariant"
+                                                                ],
+                                            "context":  [
+                                                            "Line 314: - Read [[aggregate]] for aggregate patterns",
+                                                            "Line 60: - [Aggregate](DDD/aggregate.md) — Aggregates contain entities and value objects",
+                                                            "Line 60: - [Aggregate](DDD/aggregate.md) — Aggregates contain value objects"
+                                                        ],
+                                            "referenced_from_count":  7
+                                        },
+                          "search-engine-design":  {
+                                                       "referenced_from":  [
+                                                                               "system-design-101-how-it-works",
+                                                                               "system-design-101-search-engine"
+                                                                           ],
+                                                       "context":  [
+                                                                       "Line 43: - [[search-engine-design]] — Search engine patterns",
+                                                                       "Line 105: - [[search-engine-design]] — Search engine patterns"
+                                                                   ],
+                                                       "referenced_from_count":  2
+                                                   },
+                          "system-design-101/categories/cloud-distributed-systems":  {
+                                                                                         "referenced_from":  "system-design-101-source",
+                                                                                         "context":  "Line 40: - [[system-design-101/categories/cloud-distributed-systems]] — Distributed systems",
+                                                                                         "referenced_from_count":  1
+                                                                                     },
+                          "grpc-design":  {
+                                              "referenced_from":  "system-design-101-api-design",
+                                              "context":  "Line 213: - [[grpc-design]] — gRPC design patterns",
+                                              "referenced_from_count":  1
+                                          },
+                          "system-design-101/categories/caching-performance":  {
+                                                                                   "referenced_from":  "system-design-101-source",
+                                                                                   "context":  "Line 38: - [[system-design-101/categories/caching-performance]] — Caching strategies",
+                                                                                   "referenced_from_count":  1
+                                                                               },
+                          "domain-invariant":  {
+                                                   "referenced_from":  [
+                                                                           "C01-Ubiquitous-Language",
+                                                                           "C04-Entity",
+                                                                           "C06-Aggregate",
+                                                                           "C07-Aggregate-Root",
+                                                                           "C09-Domain-Service"
+                                                                       ],
+                                                   "context":  [
+                                                                   "Line 404: - read [[domain-invariant]] for invariant documentation",
+                                                                   "Line 323: - read [[domain-invariant]] for domain invariant patterns",
+                                                                   "Line 61: - [Domain Invariant](DDD/domain-invariant.md) — Aggregates maintain domain invariants"
+                                                               ],
+                                                   "referenced_from_count":  7
+                                               },
+                          "repository-ddd-pattern":  {
+                                                         "referenced_from":  "C15-Specification-DDD-Pattern",
+                                                         "context":  "Line 61: - [Repository](DDD/repository-ddd-pattern.md) — Repositories often use specifications for queries",
+                                                         "referenced_from_count":  1
+                                                     },
+                          "performance-optimization":  {
+                                                           "referenced_from":  "react-performance",
+                                                           "context":  "Line 60: - [[performance-optimization|Performance Optimization]] — React performance with optimization",
+                                                           "referenced_from_count":  1
+                                                       },
+                          "ShadCN/shadcn-ui-patterns":  {
+                                                            "referenced_from":  [
+                                                                                    "css-fundamentals",
+                                                                                    "accessibility-a11y-patterns",
+                                                                                    "react-patterns",
+                                                                                    "tailwind-css-patterns",
+                                                                                    "tw-optimization-performance"
+                                                                                ],
+                                                            "context":  [
+                                                                            "Line 487: - [ShadCN UI](../ShadCN/shadcn-ui-patterns.md)",
+                                                                            "Line 327: - Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui accessibility",
+                                                                            "Line 759: - Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui component patterns"
+                                                                        ],
+                                                            "referenced_from_count":  6
+                                                        },
+                          "secrets-management":  {
+                                                     "referenced_from":  [
+                                                                             "M08-Secure-Defaults",
+                                                                             "M15-Data-Minimization"
+                                                                         ],
+                                                     "context":  [
+                                                                     "Line 345: - read [[secrets-management]] for secret configuration",
+                                                                     "Line 61: - [Secrets Management](Security/secrets-management.md) — Secrets management protects sensitive data"
+                                                                 ],
+                                                     "referenced_from_count":  2
+                                                 },
+                          "payment-systems":  {
+                                                  "referenced_from":  [
+                                                                          "system-design-101-payment-fintech",
+                                                                          "system-design-101-payment-system"
+                                                                      ],
+                                                  "context":  [
+                                                                  "Line 42: - [[payment-systems]] — Payment system patterns",
+                                                                  "Line 141: - [[payment-systems]] — Payment system patterns"
+                                                              ],
+                                                  "referenced_from_count":  2
+                                              },
+                          "programming-paradigms":  {
+                                                        "referenced_from":  "system-design-101-software-development",
+                                                        "context":  "Line 28: | [Top 8 Programming Paradigms](https://bytebytego.com/guides/top-8-programming-paradigms) | `system-design-101-8-paradigms` | 8 paradigms |",
+                                                        "referenced_from_count":  1
+                                                    },
+                          "devtools":  {
+                                           "referenced_from":  "system-design-101-devtools-productivity",
+                                           "context":  "Line 2: slug: system-design-101-devtools-productivity",
+                                           "referenced_from_count":  1
+                                       },
+                          "database-sharding":  {
+                                                    "referenced_from":  [
+                                                                            "system-design-101-database-design",
+                                                                            "system-design-101-database-storage"
+                                                                        ],
+                                                    "context":  [
+                                                                    "Line 157: - [[database-sharding]] — Sharding strategies",
+                                                                    "Line 52: | [Database Sharding Concepts](https://bytebytego.com/guides/key-concepts-to-understand-database-sharding) | `system-design-101-sharding` | Sharding strategies |"
+                                                                ],
+                                                    "referenced_from_count":  2
+                                                },
+                          "specification-ddd-pattern":  {
+                                                            "referenced_from":  [
+                                                                                    "C12-Repository-DDD-Pattern",
+                                                                                    "C15-Specification-DDD-Pattern"
+                                                                                ],
+                                                            "context":  [
+                                                                            "Line 387: - read [[specification-ddd-pattern]] for specification pattern",
+                                                                            "Line 2: slug: specification-ddd-pattern"
+                                                                        ],
+                                                            "referenced_from_count":  2
+                                                        },
+                          "feature-engineering":  {
+                                                      "referenced_from":  "system-design-101-ml-systems",
+                                                      "context":  "Line 123: - [[feature-engineering]] — Feature engineering patterns",
+                                                      "referenced_from_count":  1
+                                                  },
+                          "high-availability":  {
+                                                    "referenced_from":  "system-design-101-load-balancing",
+                                                    "context":  "Line 148: - [[high-availability]] — High availability design",
+                                                    "referenced_from_count":  1
+                                                },
+                          "microservices-architecture":  {
+                                                             "referenced_from":  [
+                                                                                     "system-design-101-api-styles",
+                                                                                     "system-design-101-citation-guide",
+                                                                                     "system-design-101-microservices",
+                                                                                     "system-design-101-source"
+                                                                                 ],
+                                                             "context":  [
+                                                                             "Line 109: - [[microservices-architecture]] — Microservice communication",
+                                                                             "Line 119: Vault Note: [[microservices-architecture]]",
+                                                                             "Line 93: - [[microservices-architecture]] — Microservice design in our architecture"
+                                                                         ],
+                                                             "referenced_from_count":  4
+                                                         },
+                          "immutability-coding":  {
+                                                      "referenced_from":  "N07-Pure-Functions",
+                                                      "context":  "Line 59: - [Immutability](Coding Type Systems/immutability-coding.md) — Immutability supports pure functions",
+                                                      "referenced_from_count":  1
+                                                  },
+                          "rest-api-cheatsheet":  {
+                                                      "referenced_from":  "system-design-101-api-styles",
+                                                      "context":  "Line 107: - [[rest-api-cheatsheet]] — REST API best practices",
+                                                      "referenced_from_count":  1
+                                                  },
+                          "video-streaming":  {
+                                                  "referenced_from":  "system-design-101-video-streaming",
+                                                  "context":  "Line 2: slug: system-design-101-video-streaming",
+                                                  "referenced_from_count":  1
+                                              },
+                          "rbac":  {
+                                       "referenced_from":  [
+                                                               "M03-Complete-Mediation",
+                                                               "M06-Separation-of-Duties",
+                                                               "M14-ABAC"
+                                                           ],
+                                       "context":  [
+                                                       "Line 442: - read [[rbac]] for RBAC patterns",
+                                                       "Line 32: - Separation of Duties ≠ RBAC (separation of duties is a principle, RBAC is an implementation)",
+                                                       "Line 25: - **Rigid roles**: RBAC roles are too rigid"
+                                                   ],
+                                       "referenced_from_count":  3
+                                   },
+                          "distributed-consensus":  {
+                                                        "referenced_from":  "system-design-101-consistency",
+                                                        "context":  "Line 109: - [[distributed-consensus]] — Distributed consensus algorithms",
+                                                        "referenced_from_count":  1
+                                                    },
+                          "media-processing":  {
+                                                   "referenced_from":  "system-design-101-video-streaming",
+                                                   "context":  "Line 144: - [[media-processing]] — Media processing patterns",
+                                                   "referenced_from_count":  1
+                                               },
+                          "pure-functions-coding":  {
+                                                        "referenced_from":  "N07-Pure-Functions",
+                                                        "context":  "Line 2: slug: pure-functions-coding",
+                                                        "referenced_from_count":  1
+                                                    },
+                          "networking-fundamentals":  {
+                                                          "referenced_from":  "system-design-101-computer-fundamentals",
+                                                          "context":  "Line 49: - [[networking-fundamentals]] — Networking basics",
+                                                          "referenced_from_count":  1
+                                                      },
+                          "cdn-patterns":  {
+                                               "referenced_from":  [
+                                                                       "system-design-101-caching-performance",
+                                                                       "system-design-101-caching",
+                                                                       "system-design-101-content-delivery",
+                                                                       "system-design-101-video-streaming"
+                                                                   ],
+                                               "context":  [
+                                                               "Line 71: - [[cdn-patterns]] — CDN patterns",
+                                                               "Line 183: - [[cdn-patterns]] — CDN patterns",
+                                                               "Line 83: - [[cdn-patterns]] — CDN patterns"
+                                                           ],
+                                               "referenced_from_count":  4
+                                           },
+                          "system-design-101/categories/software-architecture":  {
+                                                                                     "referenced_from":  "system-design-101-source",
+                                                                                     "context":  "Line 36: - [[system-design-101/categories/software-architecture]] — Architectural patterns",
+                                                                                     "referenced_from_count":  1
+                                                                                 },
+                          "cache-invalidation":  {
+                                                     "referenced_from":  [
+                                                                             "system-design-101-caching-performance",
+                                                                             "system-design-101-caching"
+                                                                         ],
+                                                     "context":  [
+                                                                     "Line 69: - [[cache-invalidation]] — Cache invalidation strategies",
+                                                                     "Line 181: - [[cache-invalidation]] — Cache invalidation strategies"
+                                                                 ],
+                                                     "referenced_from_count":  2
+                                                 },
+                          "TailwindsCSS/tailwind-css-patterns":  {
+                                                                     "referenced_from":  [
+                                                                                             "css-fundamentals",
+                                                                                             "css-media-queries",
+                                                                                             "css-media-queries",
+                                                                                             "shadcn-best-practices",
+                                                                                             "shadcn-best-practices"
+                                                                                         ],
+                                                                     "context":  [
+                                                                                     "Line 486: - [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md)",
+                                                                                     "Line 366: - Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS patterns",
+                                                                                     "Line 366: - Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS patterns"
+                                                                                 ],
+                                                                     "referenced_from_count":  7
+                                                                 },
+                          "graphql-adoption-patterns":  {
+                                                            "referenced_from":  "system-design-101-api-styles",
+                                                            "context":  "Line 108: - [[graphql-adoption-patterns]] — GraphQL implementation",
+                                                            "referenced_from_count":  1
+                                                        },
+                          "email-systems":  {
+                                                "referenced_from":  "system-design-101-how-it-works",
+                                                "context":  "Line 46: - [[email-systems]] — Email patterns",
+                                                "referenced_from_count":  1
+                                            },
+                          "financial-systems":  {
+                                                    "referenced_from":  [
+                                                                            "system-design-101-payment-fintech",
+                                                                            "system-design-101-payment-system"
+                                                                        ],
+                                                    "context":  [
+                                                                    "Line 44: - [[financial-systems]] — Financial system design",
+                                                                    "Line 9: - financial-systems"
+                                                                ],
+                                                    "referenced_from_count":  2
+                                                },
+                          "algorithms":  {
+                                             "referenced_from":  "system-design-101-software-development",
+                                             "context":  "Line 32: ### Data Structures \u0026 Algorithms",
+                                             "referenced_from_count":  1
+                                         },
+                          "Bundler/vite-configuration":  {
+                                                             "referenced_from":  [
+                                                                                     "pnpm-best-practices",
+                                                                                     "code-review-checklist"
+                                                                                 ],
+                                                             "context":  [
+                                                                             "Line 651: - read [[Bundler/vite-configuration]] for Vite configuration",
+                                                                             "Line 144: 6. Read [[Bundler/vite-configuration]] for bundle optimization"
+                                                                         ],
+                                                             "referenced_from_count":  2
+                                                         },
+                          "analytics-systems":  {
+                                                    "referenced_from":  "system-design-101-data-warehousing",
+                                                    "context":  "Line 96: - [[analytics-systems]] — Analytics system design",
+                                                    "referenced_from_count":  1
+                                                },
+                          "ai-agents":  {
+                                            "referenced_from":  "system-design-101-ai-machine-learning",
+                                            "context":  "Line 36: - [[ai-agents]] — AI agent patterns",
+                                            "referenced_from_count":  1
+                                        },
+                          "ubiquitous-language":  {
+                                                      "referenced_from":  "C02-Bounded-Context",
+                                                      "context":  "Line 59: - [Ubiquitous Language](DDD/ubiquitous-language.md) — Each bounded context has its own ubiquitous language",
+                                                      "referenced_from_count":  1
+                                                  },
+                          "domain-event":  {
+                                               "referenced_from":  "C03-Context-Map",
+                                               "context":  "Line 326: - read [[domain-event]] for domain event patterns",
+                                               "referenced_from_count":  1
+                                           },
+                          "linux-fundamentals":  {
+                                                     "referenced_from":  "system-design-101-devtools-productivity",
+                                                     "context":  "Line 46: - [[linux-fundamentals]] — Linux basics",
+                                                     "referenced_from_count":  1
+                                                 },
+                          "tcp-ip":  {
+                                         "referenced_from":  "system-design-101-computer-fundamentals",
+                                         "context":  "Line 51: - [[tcp-ip]] — TCP/IP protocol",
+                                         "referenced_from_count":  1
+                                     },
+                          "threat-modeling":  {
+                                                  "referenced_from":  [
+                                                                          "M07-Secure-by-Design",
+                                                                          "M09-Trust-Boundaries"
+                                                                      ],
+                                                  "context":  [
+                                                                  "Line 60: - [Threat Modeling](Security/threat-modeling.md) — Threat modeling supports secure by design",
+                                                                  "Line 356: - read [[threat-modeling]] for threat modeling"
+                                                              ],
+                                                  "referenced_from_count":  2
+                                              },
+                          "message-queues":  {
+                                                 "referenced_from":  [
+                                                                         "system-design-101-message-queue",
+                                                                         "system-design-101-notification-system"
+                                                                     ],
+                                                 "context":  [
+                                                                 "Line 148: - [[message-queues]] — Message queue patterns",
+                                                                 "Line 135: - [[message-queues]] — Message queue patterns"
+                                                             ],
+                                                 "referenced_from_count":  2
+                                             },
+                          "notification-systems":  {
+                                                       "referenced_from":  "system-design-101-notification-system",
+                                                       "context":  "Line 133: - [[notification-systems]] — Notification patterns",
+                                                       "referenced_from_count":  1
+                                                   },
+                          "Hypertext HTML/html-semantic-patterns":  {
+                                                                        "referenced_from":  "html5-best-practices",
+                                                                        "context":  "Line 785: - Read [[Hypertext HTML/html-semantic-patterns]] for HTML semantic patterns",
+                                                                        "referenced_from_count":  1
+                                                                    },
+                          "scalability-strategies":  {
+                                                         "referenced_from":  [
+                                                                                 "system-design-101-citation-guide",
+                                                                                 "system-design-101-cloud-distributed-systems",
+                                                                                 "system-design-101-high-availability",
+                                                                                 "system-design-101-load-balancing",
+                                                                                 "system-design-101-real-world-case-studies"
+                                                                             ],
+                                                         "context":  [
+                                                                         "Line 47: | 8 Must-Know Scalability Strategies | `system-design-101/guides/8-must-know-scalability-strategies` |",
+                                                                         "Line 71: - [[scalability-strategies]] — Scalability patterns",
+                                                                         "Line 201: - [[scalability-strategies]] — Scalability patterns"
+                                                                     ],
+                                                         "referenced_from_count":  7
+                                                     },
+                          "data-structures":  {
+                                                  "referenced_from":  "system-design-101-software-development",
+                                                  "context":  "Line 53: - [[data-structures]] — Data structures",
+                                                  "referenced_from_count":  1
+                                              },
+                          "context-map":  {
+                                              "referenced_from":  [
+                                                                      "C02-Bounded-Context",
+                                                                      "C13-Domain-Event"
+                                                                  ],
+                                              "context":  [
+                                                              "Line 60: - [Context Map](DDD/context-map.md) — Context map defines relationships between bounded contexts",
+                                                              "Line 400: - read [[context-map]] for integration patterns"
+                                                          ],
+                                              "referenced_from_count":  2
+                                          },
+                          "output-encoding":  {
+                                                  "referenced_from":  [
+                                                                          "M11-Contextual-Output-Encoding",
+                                                                          "M12-Parameterized-Queries"
+                                                                      ],
+                                                  "context":  [
+                                                                  "Line 2: slug: output-encoding",
+                                                                  "Line 412: - read [[output-encoding]] for output encoding"
+                                                              ],
+                                                  "referenced_from_count":  2
+                                              },
+                          "monitoring-and-alerting":  {
+                                                          "referenced_from":  [
+                                                                                  "system-design-101-devops-cicd",
+                                                                                  "system-design-101-high-availability",
+                                                                                  "system-design-101-monitoring"
+                                                                              ],
+                                                          "context":  [
+                                                                          "Line 70: - [[monitoring-and-alerting]] — Monitoring strategies",
+                                                                          "Line 206: - [[monitoring-and-alerting]] — Monitoring strategies",
+                                                                          "Line 17: Reference: [Guide: how-do-we-design-monitoring-and-alerting](https://bytebytego.com/guides/how-do-we-design-monitoring-and-alerting)"
+                                                                      ],
+                                                          "referenced_from_count":  3
+                                                      },
+                          "trust-boundaries":  {
+                                                   "referenced_from":  "M17-Threat-Modeling",
+                                                   "context":  "Line 61: - [Trust Boundaries](Security/trust-boundaries.md) — Trust boundaries are identified through threat modeling",
+                                                   "referenced_from_count":  1
+                                               },
+                          "etl-patterns":  {
+                                               "referenced_from":  "system-design-101-data-warehousing",
+                                               "context":  "Line 95: - [[etl-patterns]] — ETL patterns",
+                                               "referenced_from_count":  1
+                                           },
+                          "database-scaling":  {
+                                                   "referenced_from":  [
+                                                                           "system-design-101-citation-guide",
+                                                                           "system-design-101-citation-guide",
+                                                                           "system-design-101-scalability",
+                                                                           "system-design-101-source"
+                                                                       ],
+                                                   "context":  [
+                                                                   "Line 60: Example: Reading about database sharding in [[database-scaling]]",
+                                                                   "Line 60: Example: Reading about database sharding in [[database-scaling]]",
+                                                                   "Line 78: - [[database-scaling]] — Database scaling techniques"
+                                                               ],
+                                                   "referenced_from_count":  4
+                                               },
+                          "disaster-recovery":  {
+                                                    "referenced_from":  "system-design-101-high-availability",
+                                                    "context":  "Line 205: - [[disaster-recovery]] — Disaster recovery planning",
+                                                    "referenced_from_count":  1
+                                                },
+                          "aggregate-root":  {
+                                                 "referenced_from":  [
+                                                                         "C02-Bounded-Context",
+                                                                         "C03-Context-Map",
+                                                                         "C04-Entity",
+                                                                         "C06-Aggregate",
+                                                                         "C08-Domain-Invariant"
+                                                                     ],
+                                                 "context":  [
+                                                                 "Line 315: - Read [[aggregate-root]] for aggregate root patterns",
+                                                                 "Line 325: - read [[aggregate-root]] for aggregate root design",
+                                                                 "Line 321: - read [[aggregate-root]] for aggregate root patterns"
+                                                             ],
+                                                 "referenced_from_count":  9
+                                             },
+                          "database-indexing":  {
+                                                    "referenced_from":  [
+                                                                            "system-design-101-database-design",
+                                                                            "system-design-101-database-storage"
+                                                                        ],
+                                                    "context":  [
+                                                                    "Line 160: - [[database-indexing]] — Indexing strategies",
+                                                                    "Line 92: - [[database-indexing]] — Indexing strategies"
+                                                                ],
+                                                    "referenced_from_count":  2
+                                                },
+                          "cicd-pipeline":  {
+                                                "referenced_from":  "system-design-101-devops-cicd",
+                                                "context":  "Line 67: - [[cicd-pipeline]] — CI/CD pipeline design",
+                                                "referenced_from_count":  1
+                                            },
+                          "distributed-tracing":  {
+                                                      "referenced_from":  "system-design-101-monitoring",
+                                                      "context":  "Line 139: - [[distributed-tracing]] — Distributed tracing",
+                                                      "referenced_from_count":  1
+                                                  },
+                          "integration-patterns":  {
+                                                       "referenced_from":  "system-design-101-integration",
+                                                       "context":  "Line 117: - [[integration-patterns]] — Integration patterns",
+                                                       "referenced_from_count":  1
+                                                   },
+                          "container-orchestration":  {
+                                                          "referenced_from":  "system-design-101-devops-cicd",
+                                                          "context":  "Line 69: - [[container-orchestration]] — Container orchestration",
+                                                          "referenced_from_count":  1
+                                                      },
+                          "value-object":  {
+                                               "referenced_from":  [
+                                                                       "C01-Ubiquitous-Language",
+                                                                       "C04-Entity",
+                                                                       "C08-Domain-Invariant",
+                                                                       "C09-Domain-Service",
+                                                                       "C14-Factory-DDD-Pattern"
+                                                                   ],
+                                               "context":  [
+                                                               "Line 61: - [Value Object](DDD/value-object.md) — Value objects are named using the ubiquitous language",
+                                                               "Line 59: - [Value Object](DDD/value-object.md) — Value objects are compared by attributes, entities by identity",
+                                                               "Line 116: import { MoneyValueObject } from \u0027@/value-objects/money.vo\u0027"
+                                                           ],
+                                               "referenced_from_count":  6
+                                           },
+                          "information-retrieval":  {
+                                                        "referenced_from":  "system-design-101-search-engine",
+                                                        "context":  "Line 9: - information-retrieval",
+                                                        "referenced_from_count":  1
+                                                    },
+                          "React/react-patterns":  {
+                                                       "referenced_from":  [
+                                                                               "react-performance",
+                                                                               "react-security"
+                                                                           ],
+                                                       "context":  [
+                                                                       "Line 59: - [[React/react-patterns|React Patterns]] — React performance with React",
+                                                                       "Line 59: - [[React/react-patterns|React Patterns]] — React security with React"
+                                                                   ],
+                                                       "referenced_from_count":  2
+                                                   },
+                          "websockets":  {
+                                             "referenced_from":  "system-design-101-chat-system",
+                                             "context":  "Line 64: import { WebSocketServer, WebSocket } from \u0027ws\u0027",
+                                             "referenced_from_count":  1
+                                         },
+                          "cap-theorem":  {
+                                              "referenced_from":  [
+                                                                      "system-design-101-cloud-distributed-systems",
+                                                                      "system-design-101-consistency",
+                                                                      "system-design-101-database-storage"
+                                                                  ],
+                                              "context":  [
+                                                              "Line 75: - [[cap-theorem]] — CAP theorem patterns",
+                                                              "Line 107: - [[cap-theorem]] — CAP theorem patterns",
+                                                              "Line 93: - [[cap-theorem]] — CAP theorem patterns"
+                                                          ],
+                                              "referenced_from_count":  3
+                                          },
+                          "two-phase-commit":  {
+                                                   "referenced_from":  "system-design-101-consistency",
+                                                   "context":  "Line 110: - [[two-phase-commit]] — Two-phase commit protocol",
+                                                   "referenced_from_count":  1
+                                               },
+                          "sql-vs-nosql":  {
+                                               "referenced_from":  [
+                                                                       "system-design-101-database-design",
+                                                                       "system-design-101-database-storage"
+                                                                   ],
+                                               "context":  [
+                                                               "Line 156: - [[sql-vs-nosql]] — SQL vs NoSQL comparison",
+                                                               "Line 88: - [[sql-vs-nosql]] — SQL vs NoSQL comparison"
+                                                           ],
+                                               "referenced_from_count":  2
+                                           },
+                          "Cascading Stylesheets/css-fundamentals":  {
+                                                                         "referenced_from":  [
+                                                                                                 "shadcn-ui-patterns",
+                                                                                                 "shadcn-ui-patterns",
+                                                                                                 "tailwind-css-patterns",
+                                                                                                 "tw-optimization-performance",
+                                                                                                 "tw-optimization-performance"
+                                                                                             ],
+                                                                         "context":  [
+                                                                                         "Line 597: - Read [[Cascading Stylesheets/css-fundamentals]] for CSS fundamentals",
+                                                                                         "Line 597: - Read [[Cascading Stylesheets/css-fundamentals]] for CSS fundamentals",
+                                                                                         "Line 395: - [Cascading Stylesheets](../Cascading Stylesheets/css-fundamentals.md)"
+                                                                                     ],
+                                                                         "referenced_from_count":  5
+                                                                     },
+                          "application-service":  {
+                                                      "referenced_from":  [
+                                                                              "C02-Bounded-Context",
+                                                                              "C03-Context-Map",
+                                                                              "C04-Entity",
+                                                                              "C06-Aggregate",
+                                                                              "C07-Aggregate-Root"
+                                                                          ],
+                                                      "context":  [
+                                                                      "Line 316: - Read [[application-service]] for application service patterns",
+                                                                      "Line 327: - read [[application-service]] for application services",
+                                                                      "Line 324: - read [[application-service]] for application service patterns"
+                                                                  ],
+                                                      "referenced_from_count":  9
+                                                  },
+                          "Quality Delivery/logging-patterns":  {
+                                                                    "referenced_from":  "system-design-101-monitoring",
+                                                                    "context":  "Line 138: - [[Quality Delivery/logging-patterns]] — Logging best practices",
+                                                                    "referenced_from_count":  1
+                                                                },
+                          "operating-systems":  {
+                                                    "referenced_from":  "system-design-101-computer-fundamentals",
+                                                    "context":  "Line 50: - [[operating-systems]] — OS fundamentals",
+                                                    "referenced_from_count":  1
+                                                },
+                          "oop-principles":  {
+                                                 "referenced_from":  "system-design-101-software-development",
+                                                 "context":  "Line 55: - [[oop-principles]] — OOP principles",
+                                                 "referenced_from_count":  1
+                                             },
+                          "event-sourcing":  {
+                                                 "referenced_from":  [
+                                                                         "C11-Use-Case",
+                                                                         "C12-Repository-DDD-Pattern",
+                                                                         "M12-Parameterized-Queries",
+                                                                         "system-design-101-message-queue"
+                                                                     ],
+                                                 "context":  [
+                                                                 "Line 61: - [Event Sourcing](Data Databases/event-sourcing.md) — Use cases can be implemented with event sourcing",
+                                                                 "Line 389: - read [[event-sourcing]] for event sourcing repositories",
+                                                                 "Line 414: - read [[event-sourcing]] for event sourcing patterns"
+                                                             ],
+                                                 "referenced_from_count":  4
+                                             },
+                          "resiliency-patterns":  {
+                                                      "referenced_from":  [
+                                                                              "system-design-101-cloud-distributed-systems",
+                                                                              "system-design-101-high-availability"
+                                                                          ],
+                                                      "context":  [
+                                                                      "Line 47: | [Resiliency Patterns](https://bytebytego.com/guides/resiliency-patterns) | `system-design-101-resiliency` | Cloud design patterns |",
+                                                                      "Line 202: - [[resiliency-patterns]] — Resiliency patterns"
+                                                                  ],
+                                                      "referenced_from_count":  2
+                                                  },
+                          "databases":  {
+                                            "referenced_from":  [
+                                                                    "system-design-101-database-design",
+                                                                    "system-design-101-database-storage"
+                                                                ],
+                                            "context":  [
+                                                            "Line 155: - [[databases]] — Database selection guide",
+                                                            "Line 28: | [Types of Databases](https://bytebytego.com/guides/types-of-databases) | `system-design-101-db-types` | Relational, OLAP, NoSQL |"
+                                                        ],
+                                            "referenced_from_count":  2
+                                        },
+                          "domain-service":  {
+                                                 "referenced_from":  [
+                                                                         "C05-Value-Object",
+                                                                         "C08-Domain-Invariant",
+                                                                         "C10-Application-Service",
+                                                                         "C11-Use-Case"
+                                                                     ],
+                                                 "context":  [
+                                                                 "Line 407: - read [[domain-service]] for domain service patterns",
+                                                                 "Line 420: - read [[domain-service]] for domain service patterns",
+                                                                 "Line 59: - [Domain Service](DDD/domain-service.md) — Domain services contain domain logic, application services orchestrate them"
+                                                             ],
+                                                 "referenced_from_count":  4
+                                             },
+                          "separation-of-duties":  {
+                                                       "referenced_from":  [
+                                                                               "M03-Complete-Mediation",
+                                                                               "M13-RBAC",
+                                                                               "M14-ABAC"
+                                                                           ],
+                                                       "context":  [
+                                                                       "Line 445: - read [[separation-of-duties]] for separation of duties",
+                                                                       "Line 60: - [Separation of Duties](Security/separation-of-duties.md) — Separation of duties is implemented through RBAC",
+                                                                       "Line 61: - [Separation of Duties](Security/separation-of-duties.md) — Separation of duties can be implemented through ABAC"
+                                                                   ],
+                                                       "referenced_from_count":  3
+                                                   },
+                          "entity":  {
+                                         "referenced_from":  [
+                                                                 "C01-Ubiquitous-Language",
+                                                                 "C05-Value-Object",
+                                                                 "C06-Aggregate",
+                                                                 "C07-Aggregate-Root",
+                                                                 "C08-Domain-Invariant"
+                                                             ],
+                                         "context":  [
+                                                         "Line 60: - [Entity](DDD/entity.md) — Entities are named using the ubiquitous language",
+                                                         "Line 18: Value Object is **an object whose equality is based on value rather than identity — two value objects are equal if their attributes are equal**.",
+                                                         "Line 60: - [Entity](DDD/entity.md) — Aggregates contain entities"
+                                                     ],
+                                         "referenced_from_count":  8
+                                     },
+                          "model-serving":  {
+                                                "referenced_from":  "system-design-101-ml-systems",
+                                                "context":  "Line 100: // ml/model-serving.ts",
+                                                "referenced_from_count":  1
+                                            },
+                          "api-design":  {
+                                             "referenced_from":  "system-design-101-api-styles",
+                                             "context":  "Line 106: - [[api-design]] — API design principles",
+                                             "referenced_from_count":  1
+                                         },
+                          "bounded-context":  {
+                                                  "referenced_from":  [
+                                                                          "C01-Ubiquitous-Language",
+                                                                          "C02-Bounded-Context",
+                                                                          "C03-Context-Map",
+                                                                          "C06-Aggregate",
+                                                                          "C07-Aggregate-Root"
+                                                                      ],
+                                                  "context":  [
+                                                                  "Line 59: - [Bounded Context](DDD/bounded-context.md) — Each bounded context may have its own ubiquitous language",
+                                                                  "Line 2: slug: bounded-context",
+                                                                  "Line 59: - [Bounded Context](DDD/bounded-context.md) — Context map describes relationships between bounded contexts"
+                                                              ],
+                                                  "referenced_from_count":  6
+                                              },
+                          "Folder/file-name":  {
+                                                   "referenced_from":  "AGENTS",
+                                                   "context":  "Line 26: - Cross-folder wikilinks must include folder path: `[[Folder/file-name]]`",
+                                                   "referenced_from_count":  1
+                                               },
+                          "internationalization":  {
+                                                       "referenced_from":  "system-design-101-how-it-works",
+                                                       "context":  "Line 28: | [Design for Internationalization](https://bytebytego.com/guides/how-do-we-design-a-system-for-internationalization) | `system-design-101-i18n` | Internationalization |",
+                                                       "referenced_from_count":  1
+                                                   },
+                          "exhaustive-handling":  {
+                                                      "referenced_from":  "N07-Pure-Functions",
+                                                      "context":  "Line 293: - read [[exhaustive-handling]] for exhaustive pattern matching",
+                                                      "referenced_from_count":  1
+                                                  },
+                          "system-design-101/categories/security":  {
+                                                                        "referenced_from":  "system-design-101-source",
+                                                                        "context":  "Line 39: - [[system-design-101/categories/security]] — Security patterns",
+                                                                        "referenced_from_count":  1
+                                                                    },
+                          "secure-defaults":  {
+                                                  "referenced_from":  [
+                                                                          "M07-Secure-by-Design",
+                                                                          "M16-Secrets-Management"
+                                                                      ],
+                                                  "context":  [
+                                                                  "Line 369: - read [[secure-defaults]] for secure configuration",
+                                                                  "Line 355: - read [[secure-defaults]] for secure configuration"
+                                                              ],
+                                                  "referenced_from_count":  2
+                                              }
+                      }
+}

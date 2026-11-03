@@ -6,6 +6,15 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/architecture
+  - type/concept
+  - domain/frontend
+  - domain/optimization
+  - type/guide
   - tailwind
   - css
   - utility-first
@@ -33,3 +42,12 @@ claims_supported:
   - dark-mode
 access_limitations: None
 research_notes: "Official Tailwind CSS documentation. Primary source for all Tailwind CSS features, configuration, and best practices."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

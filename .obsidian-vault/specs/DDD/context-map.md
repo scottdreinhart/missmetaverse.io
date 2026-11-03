@@ -1,345 +1,142 @@
-﻿---
-slug: context-map
-sources:
-  - https://www.domainlanguage.com/ddd/reference/
-  - https://martinfowler.com/bliki/ContextMap.html
-date: 2026-11-02
-tags:
-  - ddd
-  - context-map
-  - domain-modeling
-  - integration
+# Context Map
+
+> **Purpose:** Document relationships between bounded contexts.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Context Map
+## concept_id
+`ddd-context-map`
+
+## title
+Context Map
+
+## aliases
+- Context Map
+- Bounded Context Map
+- DDD Context Map
+
+## category
+domain-modeling
+
+## concept_type
+strategic-pattern
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Multi-context systems
+- Microservices architecture
+- Enterprise integration
+- Domain isolation
+
+## tags
+- type/pattern
+- domain/ddd
+- domain/architecture
+- status/verified
+- priority/high
+
+## source_ids
+- evans-ddd-2003
+- martin-fowler-patterns
+
+## related_concept_ids
+- ddd-bounded-context
+- ddd-ubiquitous-language
+- ddd-anti-corruption-layer
+- arch-microservices
+- api-api-gateway
+
+---
 
 ## Definition
 
-Context Map is **a document that describes the relationships between bounded contexts and the integration patterns used between them**.
-
-> "The context map is a diagram that shows the relationships between bounded contexts." — Eric Evans
+A Context Map is a visual representation that documents the relationships between bounded contexts. It shows how contexts communicate and what patterns are used for integration.
 
 ## Problem Addressed
 
 Without context map:
-- **Integration chaos**: No clear understanding of how bounded contexts interact
-- **Coupling**: Bounded contexts become tightly coupled
-- **Dependency confusion**: Unknown dependencies between contexts
-- **Scaling issues**: Can't scale teams without clear boundaries
+- Relationships between contexts are unclear
+- Integration patterns are inconsistent
+- Dependencies are not managed
+- Communication is ad-hoc
 
 ## Scope and Boundaries
 
-- Context Map ≠ Bounded Context (context map describes relationships, bounded context is a single model)
-- Context Map = Integration (context map defines integration patterns)
-- Context Map is a **documentation artifact**, not a pattern
+Context map applies to:
+- Multi-context systems
+- Microservices architecture
+- Enterprise integration
+- Domain isolation
+
+Context map does not apply to:
+- Single-context systems
+- UI implementation
+- Database schema design
+- Performance optimization
 
 ## When to Apply
 
-- When building systems with multiple bounded contexts
-- when integration between contexts is complex
-- when scaling development teams
-- when onboarding new team members
+- Designing multi-context systems
+- Integrating microservices
+- Managing dependencies
+- Documenting relationships
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Effort** — Maintaining context map requires effort |
-| **Time** — Creating context map takes time |
-| **Over-documentation** — Don't create context maps for simple systems |
+- **Over-documenting**: Not all relationships need documentation
+- **Maintenance**: Context maps need maintenance
+- **Not for single-context**: Single-context systems don't need context map
+- **Not for UI**: UI implementation doesn't need context map
+
+## Implementation Guidance
+
+1. **Identify contexts**: List all bounded contexts
+2. **Document relationships**: Document how contexts communicate
+3. **Choose patterns**: Select integration patterns
+4. **Visualize**: Create visual representation
+5. **Maintain**: Update as system evolves
+
+## Verification
+
+- [ ] All contexts are documented
+- [ ] Relationships are documented
+- [ ] Integration patterns are selected
+- [ ] Visual representation exists
+- [ ] Context map is maintained
 
 ## Common Misuses
 
-- **One context map for everything**: Context maps should be living documents, updated as the system evolves
-- **Ignoring integration patterns**: Each relationship needs an explicit integration pattern
-- **Confusing with architecture diagram**: Context map focuses on relationships, not technical architecture
+- **Over-documenting**: Documenting all relationships
+- **Not maintaining**: Not updating context map
+- **Not visualizing**: Not creating visual representation
+- **Not choosing patterns**: Not selecting integration patterns
 
 ## Related Concepts
 
-- [Bounded Context](DDD/bounded-context.md) — Context map describes relationships between bounded contexts
-- [Anti-Corruption Layer](DDD/anti-corruption-layer.md) — Anti-corruption layer is an integration pattern
-- [Shared Kernel](DDD/context-map.md) — Shared kernel is an integration pattern
+- [[DDD/bounded-context]] — Bounded Context
+- [[DDD/ubiquitous-language]] — Ubiquitous Language
+- [[DDD/anti-corruption-layer]] — Anti-Corruption Layer
+- [[Architecture/microservices]] — Microservices
 
 ## Project Observations
 
-- The project uses context maps:
-  - The project's architecture patterns note covers DDD concepts
-  - TypeScript modules can serve as bounded context boundaries
-  - No evidence of context maps in existing code (src/ is empty)
-- File naming conventions support context maps:
-  - `*.integration.ts` — Integration files
-  - `*.bounded-context.ts` — Bounded context files
+The project uses TypeScript, which supports context map through:
+- Module boundaries
+- Package separation
+- API contracts
+- Event definitions
 
 ## Sources
 
-- [[Sources/evans-ddd-2003|evans-ddd-2003]]
-- [[Sources/fowler-ddd-2003|fowler-ddd-2003]]
+- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
 
 ---
 
-## Decision Tree: Integration Patterns
-
-```mermaid
-graph TD
-    A[Need to integrate bounded contexts?]
-    A --> B{Relationship type?}
-    B -->|Same model| C[Shared Kernel]
-    B -->|One-way sync| D[Customer-Supplier]
-    B -->|Two-way sync| E[Conformist]
-    B -->|No trust| F[Anti-Corruption Layer]
-    B -->|Loose coupling| G[Pub-Sub]
-    B -->|Direct mapping| H[Shared Database]
-    C --> I[Same team, same model]
-    D --> J[Upstream → Downstream]
-    E --> K[Downstream adopts upstream]
-    F --> L[Translate between models]
-    G --> M[Event bus, message queue]
-    H --> N[Shared schema, careful]
-```
-
-### Integration Pattern Selection
-
-| Pattern | When to Use | Complexity | Trust Level |
-|---------|-------------|------------|-------------|
-| **Shared Kernel** | Same team, shared domain | Low | High |
-| **Customer-Supplier** | Upstream controls, downstream consumes | Medium | Medium |
-| **Conformist** | Must adopt upstream model | Low | Low |
-| **Anti-Corruption Layer** | Untrusted external system | High | None |
-| **Pub-Sub** | Event-driven, loose coupling | Medium | Variable |
-| **Shared Database** | Legacy migration, performance | High | High |
-
----
-
-## Procedural Guidance: Context Map Implementation
-
-### Step 1: Identify Bounded Contexts
-
-```typescript
-// contexts/index.ts — Bounded context registry
-import { UserContext } from './user-context'
-import { OrderContext } from './order-context'
-import { PaymentContext } from './payment-context'
-
-export const boundedContexts = {
-  user: UserContext,
-  order: OrderContext,
-  payment: PaymentContext,
-} as const
-
-export type BoundedContextKey = keyof typeof boundedContexts
-```
-
-### Step 2: Define Integration Patterns
-
-```typescript
-// contexts/integration/customer-supplier.ts
-// Customer-Supplier: Upstream provides API, downstream consumes
-
-import { HttpClient } from '@/lib/http-client'
-
-export class CustomerSupplierIntegration {
-  private upstream: HttpClient
-
-  constructor() {
-    this.upstream = new HttpClient({
-      baseUrl: process.env.UPSTREAM_API_URL,
-      timeout: 5000,
-    })
-  }
-
-  // Downstream consumes upstream data
-  async getCustomerData(customerId: string) {
-    const response = await this.upstream.get(`/customers/${customerId}`)
-    return response.data
-  }
-
-  // Downstream sends events to upstream
-  async sendOrderEvent(event: OrderEvent) {
-    await this.upstream.post('/events', {
-      type: event.type,
-      payload: event.payload,
-    })
-  }
-}
-
-interface OrderEvent {
-  type: string
-  payload: Record<string, unknown>
-}
-```
-
-### Step 3: Implement Anti-Corruption Layer
-
-```typescript
-// contexts/integration/anti-corruption-layer.ts
-// Anti-Corruption Layer: Translate external model to internal model
-
-import { HttpClient } from '@/lib/http-client'
-import { User, UserId } from '@/domain/user'
-
-export class AntiCorruptionLayer {
-  private external: HttpClient
-
-  constructor() {
-    this.external = new HttpClient({
-      baseUrl: process.env.EXTERNAL_API_URL,
-    })
-  }
-
-  // Translate external user model to internal user model
-  async mapExternalUserToInternal(externalId: string): Promise<User> {
-    const externalUser = await this.external.get(`/users/${externalId}`)
-
-    // Transform external model to internal model
-    return User.create({
-      id: UserId.generate(),
-      name: externalUser.data.name,
-      email: externalUser.data.email_address, // Different field name
-      phone: externalUser.data.phone_number, // Different field name
-    })
-  }
-
-  // Translate internal user model to external user model
-  async mapInternalUserToExternal(user: User): Promise<Record<string, unknown>> {
-    return {
-      name: user.name.value,
-      email_address: user.email.value, // Different field name
-      phone_number: user.phone?.value, // Different field name
-    }
-  }
-}
-```
-
-### Step 4: Implement Pub-Sub Integration
-
-```typescript
-// contexts/integration/pub-sub.ts
-// Pub-Sub: Event bus for loose coupling
-
-import { EventEmitter } from 'events'
-
-export class EventBus extends EventEmitter {
-  static instance: EventBus
-
-  static getInstance(): EventBus {
-    if (!EventBus.instance) {
-      EventBus.instance = new EventBus()
-    }
-    return EventBus.instance
-  }
-
-  // Publish domain event
-  async publish(event: DomainEvent): Promise<void> {
-    this.emit(event.type, event)
-  }
-
-  // Subscribe to domain event
-  subscribe(eventType: string, handler: (event: DomainEvent) => void): void {
-    this.on(eventType, handler)
-  }
-}
-
-interface DomainEvent {
-  type: string
-  payload: Record<string, unknown>
-  timestamp: Date
-  eventId: string
-}
-```
-
-### Step 5: Create Context Map Document
-
-```typescript
-// docs/context-map.md
-// Context Map Document
-
-/**
- * Bounded Contexts:
- * 1. User Context — Manages user accounts
- * 2. Order Context — Manages orders
- * 3. Payment Context — Manages payments
- *
- * Integration Patterns:
- * 1. User Context → Order Context: Pub-Sub (user created events)
- * 2. Order Context → Payment Context: Customer-Supplier (order events)
- * 3. Payment Context → Order Context: Anti-Corruption Layer (payment status)
- */
-
-export const contextMap = {
-  contexts: ['user', 'order', 'payment'] as const,
-  integrations: [
-    {
-      from: 'user',
-      to: 'order',
-      pattern: 'pub-sub',
-      events: ['UserCreated', 'UserUpdated'],
-    },
-    {
-      from: 'order',
-      to: 'payment',
-      pattern: 'customer-supplier',
-      events: ['OrderCreated'],
-    },
-    {
-      from: 'payment',
-      to: 'order',
-      pattern: 'anti-corruption-layer',
-      events: ['PaymentCompleted', 'PaymentFailed'],
-    },
-  ],
-}
-```
-
----
-
-## Copilot Instructions
-
-### When to Read This Note
-- Designing system architecture with multiple bounded contexts
-- Integrating microservices or modules
-- Choosing integration patterns
-- Implementing anti-corruption layers
-- Setting up event-driven communication
-
-### What to Do With This Information
-1. **Identify bounded contexts**: Define clear context boundaries
-2. **Choose integration patterns**: Select appropriate patterns for each relationship
-3. **Implement anti-corruption layers**: Translate between different models
-4. **Use event bus**: For loose coupling between contexts
-5. **Document context map**: Keep context map updated
-
-### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `@prisma/client` — for database access
-- **npm Package**: `amqplib` — for RabbitMQ pub-sub
-- **npm Package**: `bullmq` — for job queues
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
-
-### Agents to Invoke
-- **Architecture Review Agent**: Run when designing new bounded contexts
-- **Security Review Agent**: Run when implementing integration patterns
-
-### Integration with Other Notes
-- read [[bounded-context]] for bounded context design
-- read [[aggregate-root]] for aggregate root design
-- read [[domain-event]] for domain event patterns
-- read [[application-service]] for application services
-- read [event-driven-architecture](D/event-driven-architecture.md) for event-driven patterns
-
-### Common Pitfalls
-- Don't create too many bounded contexts (start with 3-5)
-- Don't use shared databases (prefer API or event-based integration)
-- Don't ignore model translation (use anti-corruption layers)
-- Don't couple contexts tightly (use events for loose coupling)
-- Don't forget to document (keep context map updated)
-
-### Quick Validation Checklist
-- [ ] Are bounded contexts clearly defined?
-- [ ] Are integration patterns documented?
-- [ ] Are anti-corruption layers implemented?
-- [ ] Is event bus used for loose coupling?
-- [ ] Is context map kept up to date?
-- [ ] Are contexts independently deployable?
-
-
+**End of Context Map Note**

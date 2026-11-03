@@ -16,3 +16,11 @@ claims_supported:
   - table-driven-logic
 access_limitations: Free public blog
 research_notes: "Go blog's table-driven test pattern is the canonical reference for table-driven logic in software development."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+

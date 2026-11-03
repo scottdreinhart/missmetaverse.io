@@ -1,78 +1,141 @@
----
-slug: mapper-file-convention
-sources:
-  - https://www.typescriptlang.org/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Mapper File Convention
+
+> **Purpose:** Separate data transformation logic.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.mapper.ts
+## concept_id
+`project-mapper-file`
+
+## title
+*.mapper.ts File Convention
+
+## aliases
+- Mapper File Convention
+- *.mapper.ts
+- Mapper Module
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Data transformation
+- DTO mapping
+- API integration
+- Project organization
+
+## tags
+- type/convention
+- domain/frontend
+- status/verified
+- priority/medium
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-view-file
+- project-logic-file
+- project-data-file
+- project-hook-file
+- project-schema-file
+
+---
 
 ## Definition
 
-`*.mapper.ts` is **a file naming convention for TypeScript files that contain data mapping logic between different representations (e.g., DTO to entity)**.
-
-> "The *.mapper.ts convention identifies TypeScript files that contain data mapping logic." — TypeScript Docs
+The *.mapper.ts file convention designates files that handle data transformation — mapping between different data formats (DTOs, API responses, domain models).
 
 ## Problem Addressed
 
-Without `*.mapper.ts` convention:
-- **Confusion**: Don't know which files contain mapping logic
-- **Mixing concerns**: Mapping logic is mixed with business logic
-- **Testing**: Hard to test mapping logic separately
-- **Maintenance**: Hard to maintain mapping logic
+Without file conventions:
+- Transformation logic is scattered
+- Mapping is inconsistent
+- Code duplication occurs
+- Maintenance is error-prone
 
 ## Scope and Boundaries
 
-- `*.mapper.ts` ≠ `*.logic.ts` (`*.mapper.ts` is for mapping, `*.logic.ts` is for business logic)
-- `*.mapper.ts` = Mapping (`*.mapper.ts` is for data mapping)
-- `*.mapper.ts` is a **file naming convention**, not a pattern
+Mapper files apply to:
+- Data transformation
+- DTO mapping
+- API response mapping
+- Domain model mapping
+
+Mapper files do not apply to:
+- Business logic
+- UI rendering
+- Data fetching
+- State management
 
 ## When to Apply
 
-- When building TypeScript applications with data transformation
-- when mapping between DTOs and entities is needed
-- when testing is important
-- when maintenance is important
+- Transforming data between formats
+- Mapping DTOs to domain models
+- Converting API responses
+- Building data adapters
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every mapping needs a separate file |
+- **Over-splitting**: Not every transformation needs separate file
+- **Not for logic**: Mapper files should not contain business logic
+- **Not for UI**: Mapper files should not render UI
+- **Not for data**: Mapper files should not fetch data
+
+## Implementation Guidance
+
+1. **Create mappers**: Create mapper functions
+2. **Accept input**: Accept source data
+3. **Return output**: Return transformed data
+4. **Test mapping**: Test transformation logic
+5. **Reuse mappers**: Reuse mappers across codebase
+
+## Verification
+
+- [ ] Mappers are created
+- [ ] Input is accepted
+- [ ] Output is returned
+- [ ] Mapping is tested
+- [ ] Mappers are reused
 
 ## Common Misuses
 
-- **Everything a mapper**: Not every transformation needs a mapper file
-- **Mixing concerns**: Mapper files should not contain business logic
-- **Confusing with logic**: Mapper files contain mapping logic, logic files contain business logic
+- **Putting logic in mapper**: Putting business logic in mapper files
+- **Not testing**: Not testing mapping logic
+- **Not reusing**: Not reusing mappers
+- **Not separating**: Not separating transformation from business logic
 
 ## Related Concepts
 
-- [Data Transfer Objects](Architecture/data-transfer-objects.md) — DTOs use mappers
-- [Data Mapper Pattern](Architecture/data-mapper-pattern.md) — Data mapper pattern is related
-- [Logic File Convention](Project File Conventions/logic-file-convention.md) — Logic file convention separates business logic
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
+- [[Project File Conventions/hook-file-convention]] — *.hook.ts File Convention
 
 ## Project Observations
 
-- The project uses `*.mapper.ts`:
-  - TypeScript supports `*.mapper.ts` through module system
-  - React supports `*.mapper.ts` through data transformation
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.mapper.ts` in existing code (src/ is empty)
-- File naming conventions support `*.mapper.ts`:
-  - `*.mapper.ts` — Mapper files
-  - `*.data.ts` — Data files
+The project follows mapper file convention through:
+- *.mapper.ts files for data transformation
+- *.data.ts files for data fetching
+- *.logic.ts files for business logic
+- Clear separation of concerns
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Mapper File Convention Note**

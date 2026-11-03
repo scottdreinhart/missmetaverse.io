@@ -1,9 +1,18 @@
 ﻿---
 slug: system-design-101-consistency
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/deprecated
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - type/guide
+  - domain/frontend
+  - type/reference
+  - domain/database
   - system-design
   - consistency
   - distributed-systems
@@ -113,3 +122,13 @@ Read these vault notes for deeper understanding:
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [consistency-guide](https://bytebytego.com/guides/how-do-we-design-for-consistency-and-availability)
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

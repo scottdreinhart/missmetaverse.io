@@ -20,3 +20,11 @@ claims_supported:
   - unidirectional-data-flow
 access_limitations: Free public documentation (MIT licensed)
 research_notes: "Primary source for state machine and statechart patterns in JavaScript/TypeScript. David Harel's statecharts formalized in a practical JS library."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+

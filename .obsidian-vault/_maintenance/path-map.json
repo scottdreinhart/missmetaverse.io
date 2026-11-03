@@ -1,0 +1,35 @@
+﻿{
+    "new_files":  [
+                      {
+                          "path":  "Testing/playwright-e2e.md",
+                          "reason":  "Playwright E2E guide"
+                      },
+                      {
+                          "path":  "React/modern-react-project-template.md",
+                          "reason":  "Modern React project guide"
+                      }
+                  ],
+    "moves":  [
+
+              ],
+    "deleted":  [
+
+                ],
+    "renames":  [
+                    {
+                        "new":  "Architecture/css-fundamentals-original.md",
+                        "old":  "Architecture/css-fundamentals.md",
+                        "reason":  "Duplicate slug resolved"
+                    },
+                    {
+                        "new":  "Architecture/shadcn-ui-patterns-original.md",
+                        "old":  "Architecture/shadcn-ui-patterns.md",
+                        "reason":  "Duplicate slug resolved"
+                    },
+                    {
+                        "new":  "Architecture/tailwind-css-patterns-original.md",
+                        "old":  "Architecture/tailwind-css-patterns.md",
+                        "reason":  "Duplicate slug resolved"
+                    }
+                ]
+}

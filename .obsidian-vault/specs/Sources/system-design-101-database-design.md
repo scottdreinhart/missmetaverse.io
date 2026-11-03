@@ -1,9 +1,18 @@
 ﻿---
 slug: system-design-101-database-design
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/architecture
+  - type/concept
+  - domain/optimization
+  - type/guide
+  - domain/database
   - system-design
   - database
   - storage
@@ -163,3 +172,13 @@ Read these vault notes for deeper understanding:
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [database-design-guide](https://bytebytego.com/guides/how-do-we-design-a-database)
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

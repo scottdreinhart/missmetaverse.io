@@ -20,3 +20,11 @@ claims_supported:
   - contract-first
 access_limitations: Free public specification
 research_notes: "Official OpenAPI 3.1 specification. Primary source for REST API versioning, backward compatibility, and contract-first development patterns."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+

@@ -1,9 +1,21 @@
 ﻿---
 slug: system-design-101-citation-guide
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/architecture
+  - type/concept
+  - domain/optimization
+  - type/guide
+  - domain/frontend
+  - domain/devops
+  - domain/database
   - system-design
   - citations
   - verification
@@ -213,4 +225,7 @@ If a System Design 101 guide changes:
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [[Sources/system-design-101|system-design-101]]
-- GitHub: https://github.com/donnemartin/system-design-cheat-sheet
+- GitHub: https://github.com/donnemartin/system-design-primer
+
+
+

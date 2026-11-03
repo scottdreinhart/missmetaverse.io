@@ -11,6 +11,18 @@ verification_status: verified
 claims_supported: 25
 access_limitations: Free public standard
 ---
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/frontend
+  - type/guide
+  - domain/testing
+  - domain/optimization
+  - domain/accessibility
+  - status/complete
+  - type/reference
 
 # WCAG 2.1 — Web Content Accessibility Guidelines
 
@@ -122,3 +134,12 @@ Content must be robust enough to work with current and future assistive technolo
 
 *Source: W3C Web Accessibility Initiative (WAI)*
 *Last Verified: 2026-11-02*
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

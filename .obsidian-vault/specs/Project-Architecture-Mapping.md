@@ -1,11 +1,25 @@
 ﻿# Project Architecture Mapping
 
 > **Purpose:** Map researched concepts to actual project implementation.
-> **Last Updated:** 2026-11-02
+> **Last Updated:** 2026-11-03
 > **Project:** React 19 + Vite + TypeScript + Tailwind CSS + pnpm
 
 ---
 
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/devops
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Project Overview
 
 | Aspect | Value |
@@ -14,6 +28,86 @@
 | **AI Assistant** | GitHub Copilot (Qwen 3.6 35B A3B NVFP4) |
 | **Frontend Framework** | React 19 |
 | **Build Tool** | Vite |
+| **Type System** | TypeScript strict mode |
+| **Testing** | Playwright (E2E), Vitest (unit) |
+| **Styling** | Tailwind CSS, ShadCN UI |
+| **Linting** | ESLint with TypeScript plugin |
+| **Formatting** | Prettier |
+| **Package Manager** | pnpm |
+| **State Management** | Jotai |
+| **Validation** | Zod |
+| **Routing** | react-router |
+| **i18n** | i18next, react-i18next |
+| **Rich Text** | Tiptap |
+| **Sanitization** | DOMPurify |
+| **Accessibility** | @axe-core/react |
+| **Monitoring** | Sentry |
+| **Charts** | Recharts |
+| **Icons** | Lucide |
+| **Dates** | date-fns |
+
+---
+
+## Concept-to-Code Mapping
+
+| Concept | Note | Project Implementation | Status |
+|---------|------|------------------------|--------|
+| SOLID | [[Architecture/solid-principles]] | TypeScript classes and interfaces | declared |
+| Clean Architecture | [[Architecture/clean-architecture]] | Layered folder structure | declared |
+| DDD | [[Architecture/domain-driven-design]] | Domain models | declared |
+| Atomic Design | [[Architecture/atomic-design]] | UI components | declared |
+| REST | [[APIs Distributed Systems/rest]] | API endpoints | declared |
+| Security | [[Security/principle-of-least-privilege]] | Auth middleware | declared |
+| Testing | [[Quality & Testing/test-driven-development]] | Playwright, Vitest | declared |
+| Strict Typing | [[Coding Type Systems/strict-typing]] | TypeScript strict mode | declared |
+| DRY | [[Architecture/dry]] | Shared utilities | declared |
+| KISS | [[Architecture/kiss]] | Simple implementations | declared |
+| YAGNI | [[Architecture/yagni]] | Minimal features | declared |
+
+---
+
+## Command Mapping
+
+| Command | Purpose | Status |
+|---------|---------|--------|
+| quality:lint:* | Linting commands | declared |
+| quality:test:* | Testing commands | declared |
+| quality:arch:* | Architecture checks | declared |
+| run-gate.mjs | Quality gate orchestration | declared |
+| manifest.mjs | Command discovery | declared |
+
+---
+
+## Dependency Mapping
+
+| Dependency | Purpose | Status |
+|------------|---------|--------|
+| react | UI framework | declared |
+| typescript | Type checking | declared |
+| vite | Build tool | declared |
+| vitest | Unit testing | declared |
+| playwright | E2E testing | declared |
+| eslint | Linting | declared |
+| prettier | Formatting | declared |
+| tailwindcss | Styling | declared |
+| jotai | State management | declared |
+| zod | Schema validation | declared |
+| react-router | Routing | declared |
+| i18next | Internationalization | declared |
+| tiptap | Rich text editing | declared |
+| dompurify | HTML sanitization | declared |
+| @axe-core/react | Accessibility | declared |
+| sentry | Error monitoring | declared |
+| recharts | Charts | declared |
+| lucide | Icons | declared |
+| date-fns | Date handling | declared |
+
+---
+
+## Evidence Model
+
+| Evidence Type | Meaning |
+|---------------|---------|
 | **Language** | TypeScript (strict mode) |
 | **Styling** | Tailwind CSS |
 | **Package Manager** | pnpm |
@@ -23,6 +117,20 @@
 
 ---
 
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/devops
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Current State Assessment
 
 ### ✅ Implemented / Configured
@@ -67,6 +175,20 @@
 
 ---
 
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/devops
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Project-Specific Constraints (from AGENTS.md)
 
 These take precedence over generic recommendations:
@@ -80,6 +202,20 @@ These take precedence over generic recommendations:
 
 ---
 
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/devops
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## File Structure Conventions
 
 The project uses these file naming conventions (documented in [file-level-separation-conventions](D/file-level-separation-conventions.md)):
@@ -106,6 +242,20 @@ The project uses these file naming conventions (documented in [file-level-separa
 
 ---
 
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/devops
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Key Architectural Decisions
 
 | Decision | Rationale | Status |
@@ -123,6 +273,20 @@ The project uses these file naming conventions (documented in [file-level-separa
 
 ---
 
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/devops
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Unresolved Project Adoption Decisions
 
 | Decision | Options | Recommendation |
@@ -135,9 +299,33 @@ The project uses these file naming conventions (documented in [file-level-separa
 
 ---
 
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/devops
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Cross-References
 
 - [[Architecture/00-architecture-index]] — Main index
 - [[Research-Status]] — Research progress
 - [[Copilot-Consumption-Guide]] — How to use this KB
 - AGENTS.md — Project constraints
+
+
+## See Also
+- [[Copilot-Consumption-Guide]]
+- [[playwright-e2e]]
+- [[Research-Status]]
+- [[vault-integration-map]]
+- [[_template-spec]]
+
+

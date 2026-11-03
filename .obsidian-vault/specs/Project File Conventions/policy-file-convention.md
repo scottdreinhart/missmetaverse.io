@@ -1,78 +1,141 @@
----
-slug: policy-file-convention
-sources:
-  - https://www.typescriptlang.org/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Policy File Convention
+
+> **Purpose:** Define business rules and policies.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.policy.ts
+## concept_id
+`project-policy-file`
+
+## title
+*.policy.ts File Convention
+
+## aliases
+- Policy File Convention
+- *.policy.ts
+- Policy Module
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Business rules
+- Policy enforcement
+- Domain logic
+- Project organization
+
+## tags
+- type/convention
+- domain/ddd
+- status/verified
+- priority/medium
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-view-file
+- project-logic-file
+- project-data-file
+- project-hook-file
+- ddd-domain-invariant
+
+---
 
 ## Definition
 
-`*.policy.ts` is **a file naming convention for TypeScript files that contain business policies, rules, and constraints**.
-
-> "The *.policy.ts convention identifies TypeScript files that contain business policies and rules." — TypeScript Docs
+The *.policy.ts file convention designates files that define business policies — rules and constraints that govern domain behavior.
 
 ## Problem Addressed
 
-Without `*.policy.ts` convention:
-- **Confusion**: Don't know which files contain business policies
-- **Mixing concerns**: Policies are mixed with business logic
-- **Testing**: Hard to test policies separately
-- **Maintenance**: Hard to maintain policies
+Without file conventions:
+- Policies are scattered
+- Business rules are inconsistent
+- Enforcement is difficult
+- Architecture is inconsistent
 
 ## Scope and Boundaries
 
-- `*.policy.ts` ≠ `*.logic.ts` (`*.policy.ts` is for policies, `*.logic.ts` is for general business logic)
-- `*.policy.ts` = Policies (`*.policy.ts` is for business policies)
-- `*.policy.ts` is a **file naming convention**, not a pattern
+Policy files apply to:
+- Business rules
+- Policy enforcement
+- Domain constraints
+- Business logic
+
+Policy files do not apply to:
+- UI rendering
+- Data fetching
+- State management
+- User interaction
 
 ## When to Apply
 
-- When building applications with business policies
-- when policy pattern is used
-- when testing is important
-- when maintenance is important
+- Defining business rules
+- Implementing policies
+- Enforcing constraints
+- Building domain logic
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every policy needs a separate file |
+- **Over-splitting**: Not every rule needs policy file
+- **Not for UI**: Policy files should not render UI
+- **Not for data**: Policy files should not fetch data
+- **Not for state**: Policy files should not manage state
+
+## Implementation Guidance
+
+1. **Define policies**: Define policy classes or functions
+2. **Enforce rules**: Enforce business rules
+3. **Validate**: Validate against policies
+4. **Test policies**: Test policy enforcement
+5. **Document policies**: Document policy rationale
+
+## Verification
+
+- [ ] Policies are defined
+- [ ] Rules are enforced
+- [ ] Validation is done
+- [ ] Policies are tested
+- [ ] Policies are documented
 
 ## Common Misuses
 
-- **Everything a policy**: Not every rule needs a policy file
-- **Mixing concerns**: Policy files should not contain business logic
-- **Confusing with logic**: Policy files contain policies, logic files contain business logic
+- **Not defining policies**: Not defining policy files
+- **Not enforcing**: Not enforcing rules
+- **Not validating**: Not validating against policies
+- **Not testing**: Not testing policies
 
 ## Related Concepts
 
-- [Domain Invariant](DDD/domain-invariant.md) — Domain invariants are policies
-- [Specification Pattern](Architecture/specification-pattern.md) — Specification pattern implements policies
-- [Logic File Convention](Project File Conventions/logic-file-convention.md) — Logic file convention separates business logic
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
+- [[DDD/domain-invariant]] — Domain Invariant
 
 ## Project Observations
 
-- The project uses `*.policy.ts`:
-  - TypeScript supports `*.policy.ts` through module system
-  - React supports `*.policy.ts` through policy definitions
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.policy.ts` in existing code (src/ is empty)
-- File naming conventions support `*.policy.ts`:
-  - `*.policy.ts` — Policy files
-  - `*.logic.ts` — Logic files
+The project follows policy file convention through:
+- *.policy.ts files for business rules
+- *.logic.ts files for business logic
+- Domain-driven design
+- Clear policy boundaries
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Policy File Convention Note**

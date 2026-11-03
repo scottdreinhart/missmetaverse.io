@@ -1,78 +1,141 @@
----
-slug: value-object-file-convention
-sources:
-  - https://www.typescriptlang.org/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Value Object File Convention
+
+> **Purpose:** Define value objects in dedicated files.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.value-object.ts
+## concept_id
+`project-value-object-file`
+
+## title
+*.value-object.ts File Convention
+
+## aliases
+- Value Object File Convention
+- *.value-object.ts
+- Value Object Class
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Domain-driven design
+- Value object modeling
+- Immutable domain objects
+- Project organization
+
+## tags
+- type/convention
+- domain/ddd
+- status/verified
+- priority/high
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-entity-file
+- project-view-file
+- project-logic-file
+- project-data-file
+- ddd-value-object
+
+---
 
 ## Definition
 
-`*.value-object.ts` is **a file naming convention for TypeScript files that contain DDD value object definitions**.
-
-> "The *.value-object.ts convention identifies TypeScript files that contain DDD value object definitions." — TypeScript Docs
+The *.value-object.ts file convention designates files that define value objects — immutable domain objects defined by their attributes, not identity.
 
 ## Problem Addressed
 
-Without `*.value-object.ts` convention:
-- **Confusion**: Don't know which files contain value object definitions
-- **Mixing concerns**: Value objects are mixed with business logic
-- **Testing**: Hard to test value objects separately
-- **Maintenance**: Hard to maintain value objects
+Without file conventions:
+- Value objects are scattered
+- Domain model is inconsistent
+- Immutability is not enforced
+- Architecture is inconsistent
 
 ## Scope and Boundaries
 
-- `*.value-object.ts` ≠ `*.entity.ts` (`*.value-object.ts` is for value objects, `*.entity.ts` is for entities)
-- `*.value-object.ts` = Value Objects (`*.value-object.ts` is for value object definitions)
-- `*.value-object.ts` is a **file naming convention**, not a pattern
+Value object files apply to:
+- Value object definitions
+- Immutable domain objects
+- Objects defined by attributes
+- Domain classes
+
+Value object files do not apply to:
+- Entities (objects with identity)
+- DTOs
+- UI components
+- Business logic
 
 ## When to Apply
 
-- When building DDD applications
-- when value object pattern is used
-- when testing is important
-- when maintenance is important
+- Defining value objects
+- Modeling immutable domain objects
+- Building domain classes
+- Implementing DDD
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every value object needs a separate file |
+- **Over-splitting**: Not every value needs value object file
+- **Not for entities**: Entities should be in *.entity.ts files
+- **Not for DTOs**: DTOs should be in *.data.ts files
+- **Not for UI**: Value object files should not render UI
+
+## Implementation Guidance
+
+1. **Define value objects**: Define value object classes
+2. **Make immutable**: Make value objects immutable
+3. **Add validation**: Add validation in constructor
+4. **Implement equality**: Implement equality by attributes
+5. **Test value objects**: Test value object behavior
+
+## Verification
+
+- [ ] Value objects are defined
+- [ ] Value objects are immutable
+- [ ] Validation is added
+- [ ] Equality is implemented
+- [ ] Value objects are tested
 
 ## Common Misuses
 
-- **Everything a value object**: Not every domain object needs a value object file
-- **Mixing concerns**: Value object files should not contain business logic
-- **Confusing with entity**: Value object files contain value objects, entity files contain entities
+- **Not defining value objects**: Not defining value object files
+- **Not making immutable**: Not making value objects immutable
+- **Not validating**: Not validating in constructor
+- **Not testing**: Not testing value objects
 
 ## Related Concepts
 
-- [Value Object (DDD)](DDD/value-object.md) — Value object pattern is the pattern behind `*.value-object.ts`
-- [Entity File Convention](Project File Conventions/entity-file-convention.md) — Entity file convention is related
-- [DDD Patterns](Architecture/ddd-patterns.md) — DDD patterns use `*.value-object.ts`
+- [[Project File Conventions/entity-file-convention]] — *.entity.ts File Convention
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[DDD/value-object]] — Value Object
 
 ## Project Observations
 
-- The project uses `*.value-object.ts`:
-  - TypeScript supports `*.value-object.ts` through module system
-  - React supports `*.value-object.ts` through value object definitions
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.value-object.ts` in existing code (src/ is empty)
-- File naming conventions support `*.value-object.ts`:
-  - `*.value-object.ts` — Value object files
-  - `*.entity.ts` — Entity files
+The project follows value object file convention through:
+- *.value-object.ts files for value objects
+- *.entity.ts files for entities
+- Domain-driven design
+- Clear value object boundaries
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Value Object File Convention Note**

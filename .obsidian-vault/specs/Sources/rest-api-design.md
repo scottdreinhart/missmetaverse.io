@@ -19,3 +19,11 @@ claims_supported:
   - rest-api-design
 access_limitations: Academic paper, freely available
 research_notes: "Roy Fielding's doctoral dissertation that defined REST. The foundational reference for REST API design."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+

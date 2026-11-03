@@ -1,9 +1,20 @@
 ﻿---
 slug: system-design-101-scalability-strategies
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - type/guide
+  - domain/optimization
+  - domain/devops
+  - domain/database
   - system-design
   - scalability
   - performance
@@ -82,3 +93,6 @@ This guide covers 8 essential strategies for scaling systems to handle millions 
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [Guide: 8-must-know-scalability-strategies](https://bytebytego.com/guides/8-must-know-scalability-strategies)
+
+
+

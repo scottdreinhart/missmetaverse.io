@@ -6,6 +6,16 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - type/guide
+  - domain/frontend
   - vitest
   - testing
   - unit-testing
@@ -32,3 +42,12 @@ claims_supported:
   - unit-testing-patterns
 access_limitations: None
 research_notes: "Official Vitest documentation. Fast unit test framework powered by Vite. Primary source for Vitest configuration and testing patterns."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

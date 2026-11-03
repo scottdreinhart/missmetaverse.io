@@ -1,9 +1,19 @@
 ﻿---
 slug: system-design-101-high-availability
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/deprecated
+  - domain/backend
+  - type/reference
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/devops
+  - domain/database
   - system-design
   - availability
   - reliability
@@ -209,3 +219,13 @@ Read these vault notes for deeper understanding:
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [high-availability-guide](https://bytebytego.com/guides/how-do-we-design-for-high-availability)
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

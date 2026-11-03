@@ -6,6 +6,12 @@ sources:
 
 ---
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/frontend
+  - domain/accessibility
   - css
   - mdn
   - web-standards
@@ -40,3 +46,12 @@ claims_supported:
   - container-queries
 access_limitations: None
 research_notes: "MDN CSS documentation. Primary authoritative source for CSS specifications, features, and browser compatibility."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

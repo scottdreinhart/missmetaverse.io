@@ -130,12 +130,24 @@ Most orphans are **INTENTIONAL** — they're standalone notes or folder dumps. T
 - `_maintenance/add-sources.ps1` — Add sources metadata
 - `_maintenance/add-sources2.ps1` — Add sources to remaining files
 - `_maintenance/inventory-script.ps1` — Inventory script
+- `_maintenance/create-manifests.ps1` — JSON manifest creation script
 
-### Content Files
+### JSON Manifests Created
+- `_maintenance/inventory.json` — 581 files with metadata (size, lines, slug, title, sources, tags)
+- `_maintenance/refactor-manifest.json` — 6 operations with IDs, status, rationale, dependencies, results
+- `_maintenance/content-map.json` — Content file counts by category
+- `_maintenance/path-map.json` — File renames and moves with reasons
+
+### DOX Files Created
+- 26 AGENTS.md files across 3 levels (root, vault, domain)
+
+### Content Files Created
 - 19 stub files recreated in Architecture/
 - 18 original files updated with `-original` suffix slugs
 - 73 source files updated with sources metadata
 - 1 content file (css-media-queries.md) updated with sources
+- `specs/Testing/playwright-e2e.md` — Playwright E2E guide (504+ lines)
+- `specs/React/modern-react-project-template.md` — Modern React project guide (400+ lines)
 
 ---
 

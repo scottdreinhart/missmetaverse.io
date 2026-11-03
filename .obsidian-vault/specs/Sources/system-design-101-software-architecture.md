@@ -1,9 +1,17 @@
 ﻿---
 slug: system-design-101-software-architecture
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/frontend
+  - type/guide
+  - type/concept
+  - status/complete
+  - type/reference
+  - domain/architecture
   - system-design
   - architecture
   - software-design
@@ -51,3 +59,14 @@ Read these vault notes for deeper understanding:
 All guides use the citation format:
 - `system-design-101/software-architecture/<guide-name>` — Citation slug for verification
 - Original source: https://bytebytego.com/
+
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

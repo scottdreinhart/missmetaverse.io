@@ -1,9 +1,22 @@
 ﻿---
 slug: system-design-101-secure-systems
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - type/guide
+  - domain/optimization
+  - domain/frontend
+  - domain/devops
+  - domain/database
   - system-design
   - security
   - architecture
@@ -167,3 +180,13 @@ Read these vault notes for deeper understanding:
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [secure-system-guide](https://bytebytego.com/guides/how-do-we-design-a-secure-system)
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

@@ -6,6 +6,10 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
   - pnpm
   - package-manager
   - nodejs
@@ -33,3 +37,12 @@ claims_supported:
   - pnpm-best-practices
 access_limitations: None
 research_notes: "Official pnpm documentation. Primary source for pnpm workspace configuration, dependency management, and best practices."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

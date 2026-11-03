@@ -1,4 +1,4 @@
----
+﻿---
 slug: pr-template
 title: Pull Request Template
 description: Comprehensive PR template for structured pull requests with context, changes, testing, and review guidance.
@@ -6,6 +6,20 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - type/guide
+  - domain/optimization
+  - domain/frontend
+  - domain/accessibility
+  - domain/devops
+  - domain/database
   - pr
   - template
   - pull-request
@@ -283,3 +297,10 @@ JWT_REFRESH_EXPIRATION=7d
 
 *Template Version: 1.0*
 *Last Updated: 2026-11-02*
+
+## See Also
+- [[adr-template]]
+- [[code-review-checklist]]
+- [[commit-message-template]]
+
+

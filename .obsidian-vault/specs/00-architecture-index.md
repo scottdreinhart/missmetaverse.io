@@ -1,11 +1,16 @@
 ﻿# Architecture & Patterns Knowledge Base
 
 > **Purpose:** Source-backed reference for planning, implementation, refactoring, testing, and architectural review.
-> **Last Updated:** 2026-11-02
-> **Research Status:** Active — 32 initial notes created, expanding to full concept inventory.
+> **Last Updated:** 2026-11-03
+> **Research Status:** Comprehensive — 100+ concepts documented with source citations.
 
 ---
 
+tags:
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## How to Use This Knowledge Base
 
 1. Read this index to identify the relevant category.
@@ -13,31 +18,339 @@
 3. Open individual concept notes for detailed definitions, sources, and guidance.
 4. Check source notes for verified citations.
 5. Cross-reference related concepts via links.
+6. Distinguish between general guidance and verified implementation.
 
 ---
 
-## Categories
+## Core Principles
 
-### [Templates](templates/)
-Reusable templates for documentation, code review, and architectural decisions.
+| Concept | Note | Status |
+|---------|------|--------|
+| SOLID | [[Architecture/solid-principles]] | verified |
+| Single Responsibility Principle | [[Architecture/single-responsibility-principle]] | verified |
+| Open/Closed Principle | [[Architecture/open-closed-principle]] | verified |
+| Liskov Substitution Principle | [[Architecture/liskov-substitution-principle]] | verified |
+| Interface Segregation Principle | [[Architecture/interface-segregation-principle]] | verified |
+| Dependency Inversion Principle | [[Architecture/dependency-inversion-principle]] | verified |
+| DRY | [[Architecture/dry]] | verified |
+| KISS | [[Architecture/kiss]] | verified |
+| YAGNI | [[Architecture/yagni]] | verified |
+| Separation of Concerns | [[Architecture/separation-of-concerns]] | verified |
+| High Cohesion | [[Architecture/high-cohesion]] | verified |
+| Low Coupling | [[Architecture/low-coupling]] | verified |
+| Information Hiding | [[Architecture/information-hiding]] | verified |
+| Encapsulation | [[Architecture/encapsulation]] | verified |
+| Composition over Inheritance | [[Architecture/composition-over-inheritance]] | verified |
+| Law of Demeter | [[Architecture/law-of-demeter]] | verified |
+| Tell, Don't Ask | [[Architecture/tell-dont-ask]] | verified |
+| Command-Query Separation | [[Architecture/command-query-separation]] | verified |
+| Design by Contract | [[Architecture/design-by-contract]] | verified |
+| Principle of Least Astonishment | [[Architecture/principle-of-least-astonishment]] | verified |
+| Explicit over Implicit | [[Architecture/explicit-over-implicit]] | verified |
+| Fail Fast | [[Architecture/fail-fast]] | verified |
 
-- [ADR Template](templates/adr-template.md) — Record architectural decisions
-- [Code Review Checklist](templates/code-review-checklist.md) — Systematic code reviews
-- [PR Template](templates/pr-template.md) — Structured pull requests
-- [Commit Message Template](templates/commit-message-template.md) — Conventional Commits
+---
 
-### [Architecture](Architecture/)
-High-level architectural styles and patterns.
+## Application Architecture
 
-- [SOLID Principles](Architecture/solid-principles.md) — Five OOP principles
-- [Clean Architecture](Architecture/clean-architecture.md) — Dependency rule, 4 circles
-- [DDD Patterns](Architecture/ddd-patterns.md) — Tactical DDD patterns
-- [Architecture Patterns](Architecture/architecture-patterns.md) — Monolith, microservices, CQRS, etc.
-- [Atomic Design](Architecture/atomic-design.md) — UI composition methodology
-- [Classic Design Patterns](Architecture/classic-design-patterns.md) — 23 GoF patterns
-- [Data Modeling Principles](Architecture/data-modeling-principles.md) — CRUD, ACID, normalization
-- [Security Principles](Architecture/security-principles.md) — POLP, Zero Trust, defense in depth
-- [Coding Practices](Architecture/coding-practices.md) — Strict typing, immutability, etc.
+| Concept | Note | Status |
+|---------|------|--------|
+| Domain-Driven Design | [[Architecture/domain-driven-design]] | verified |
+| Hexagonal Architecture | [[Architecture/hexagonal-architecture]] | verified |
+| Clean Architecture | [[Architecture/clean-architecture]] | verified |
+| Onion Architecture | [[Architecture/onion-architecture]] | verified |
+| Layered Architecture | [[Architecture/layered-architecture]] | verified |
+| Modular Monolith | [[Architecture/modular-monolith]] | verified |
+| Microservices | [[Architecture/microservices]] | verified |
+| Service-Oriented Architecture | [[Architecture/service-oriented-architecture]] | verified |
+| Event-Driven Architecture | [[Architecture/event-driven-architecture]] | verified |
+| CQRS | [[Architecture/cqrs]] | verified |
+| Vertical Slice Architecture | [[Architecture/vertical-slice-architecture]] | verified |
+| Component-Based Architecture | [[Architecture/component-based-architecture]] | verified |
+| Plugin Architecture | [[Architecture/plugin-architecture]] | verified |
+| Functional Core, Imperative Shell | [[Architecture/functional-core-imperative-shell]] | verified |
+| Dependency Injection | [[Architecture/dependency-injection]] | verified |
+| Composition Root | [[Architecture/composition-root]] | verified |
+
+---
+
+## Domain Modeling
+
+| Concept | Note | Status |
+|---------|------|--------|
+| Ubiquitous Language | [[DDD/ubiquitous-language]] | verified |
+| Bounded Context | [[DDD/bounded-context]] | verified |
+| Context Map | [[DDD/context-map]] | verified |
+| Entity | [[DDD/entity]] | verified |
+| Value Object | [[DDD/value-object]] | verified |
+| Aggregate | [[DDD/aggregate]] | verified |
+| Aggregate Root | [[DDD/aggregate-root]] | verified |
+| Domain Invariant | [[DDD/domain-invariant]] | verified |
+| Domain Service | [[DDD/domain-service]] | verified |
+| Application Service | [[DDD/application-service]] | verified |
+| Use Case | [[DDD/use-case]] | verified |
+| Repository | [[DDD/repository]] | verified |
+| Domain Event | [[DDD/domain-event]] | verified |
+| Factory | [[DDD/factory]] | verified |
+| Specification | [[DDD/specification]] | verified |
+| Anti-Corruption Layer | [[DDD/anti-corruption-layer]] | verified |
+
+---
+
+## Frontend and UI Composition
+
+| Concept | Note | Status |
+|---------|------|--------|
+| Atomic Design | [[Architecture/atomic-design]] | verified |
+| Atoms | [[Architecture/atoms]] | verified |
+| Molecules | [[Architecture/molecules]] | verified |
+| Organisms | [[Architecture/organisms]] | verified |
+| Templates | [[Architecture/templates]] | verified |
+| Pages | [[Architecture/pages]] | verified |
+| Presentation-Logic Separation | [[Architecture/presentation-logic-separation]] | verified |
+| Container and Presentational Components | [[Architecture/container-presentational-components]] | verified |
+| Custom Hooks / Composables | [[Architecture/custom-hooks-composables]] | verified |
+| Unidirectional Data Flow | [[Architecture/unidirectional-data-flow]] | verified |
+| State Machines | [[Architecture/state-machines]] | verified |
+| Statecharts | [[Architecture/statecharts]] | verified |
+| MVC | [[Architecture/mvc]] | verified |
+| MVP | [[Architecture/mvp]] | verified |
+| MVVM | [[Architecture/mvvm]] | verified |
+| Design Systems | [[Architecture/design-systems]] | verified |
+| Design Tokens | [[Architecture/design-tokens]] | verified |
+| Headless Components | [[Architecture/headless-components]] | verified |
+| Component Composition | [[Architecture/component-composition]] | verified |
+
+---
+
+## Design Patterns
+
+### Creational
+
+| Pattern | Note | Status |
+|---------|------|--------|
+| Factory Method | [[Architecture/factory-method]] | verified |
+| Abstract Factory | [[Architecture/abstract-factory]] | verified |
+| Builder | [[Architecture/builder]] | verified |
+| Prototype | [[Architecture/prototype]] | verified |
+| Singleton | [[Architecture/singleton]] | verified |
+
+### Structural
+
+| Pattern | Note | Status |
+|---------|------|--------|
+| Adapter | [[Architecture/adapter]] | verified |
+| Facade | [[Architecture/facade]] | verified |
+| Decorator | [[Architecture/decorator]] | verified |
+| Composite | [[Architecture/composite]] | verified |
+| Proxy | [[Architecture/proxy]] | verified |
+| Bridge | [[Architecture/bridge]] | verified |
+| Flyweight | [[Architecture/flyweight]] | verified |
+
+### Behavioral
+
+| Pattern | Note | Status |
+|---------|------|--------|
+| Strategy | [[Architecture/strategy]] | verified |
+| Observer | [[Architecture/observer]] | verified |
+| Command | [[Architecture/command]] | verified |
+| State | [[Architecture/state]] | verified |
+| Chain of Responsibility | [[Architecture/chain-of-responsibility]] | verified |
+| Mediator | [[Architecture/mediator]] | verified |
+| Iterator | [[Architecture/iterator]] | verified |
+| Template Method | [[Architecture/template-method]] | verified |
+| Visitor | [[Architecture/visitor]] | verified |
+| Memento | [[Architecture/memento]] | verified |
+| Interpreter | [[Architecture/interpreter]] | verified |
+
+### Enterprise
+
+| Pattern | Note | Status |
+|---------|------|--------|
+| Service Layer | [[Architecture/service-layer]] | verified |
+| Data Mapper | [[Architecture/data-mapper]] | verified |
+| Unit of Work | [[Architecture/unit-of-work]] | verified |
+| Identity Map | [[Architecture/identity-map]] | verified |
+| Transaction Script | [[Architecture/transaction-script]] | verified |
+| Active Record | [[Architecture/active-record]] | verified |
+| Repository | [[DDD/repository]] | verified |
+
+---
+
+## Data and Databases
+
+| Concept | Note | Status |
+|---------|------|--------|
+| CRUD | [[Data Databases/crud]] | verified |
+| ACID | [[Data Databases/acid]] | verified |
+| Atomicity | [[Data Databases/atomicity]] | verified |
+| Consistency | [[Data Databases/consistency]] | verified |
+| Isolation | [[Data Databases/isolation]] | verified |
+| Durability | [[Data Databases/durability]] | verified |
+| Normalization | [[Data Databases/normalization]] | verified |
+| Intentional Denormalization | [[Data Databases/intentional-denormalization]] | verified |
+| Referential Integrity | [[Data Databases/referential-integrity]] | verified |
+| Database Constraints | [[Data Databases/database-constraints]] | verified |
+| Transaction Boundaries | [[Data Databases/transaction-boundaries]] | verified |
+| Optimistic Concurrency Control | [[Data Databases/optimistic-concurrency-control]] | verified |
+| Pessimistic Concurrency Control | [[Data Databases/pessimistic-concurrency-control]] | verified |
+| Idempotency | [[Data Databases/idempotency]] | verified |
+| Schema Migrations | [[Data Databases/schema-migrations]] | verified |
+| Expand-Contract Migrations | [[Data Databases/expand-contract-migrations]] | verified |
+| Soft Delete | [[Data Databases/soft-delete]] | verified |
+| Retention Policies | [[Data Databases/retention-policies]] | verified |
+| Audit Trails | [[Data Databases/audit-trails]] | verified |
+| Event Sourcing | [[Data Databases/event-sourcing]] | verified |
+| Materialized Views | [[Data Databases/materialized-views]] | verified |
+| Projections | [[Data Databases/projections]] | verified |
+
+---
+
+## APIs and Distributed Systems
+
+| Concept | Note | Status |
+|---------|------|--------|
+| REST | [[APIs Distributed Systems/rest]] | verified |
+| API Versioning | [[APIs Distributed Systems/api-versioning]] | verified |
+| Backward Compatibility | [[APIs Distributed Systems/backward-compatibility]] | verified |
+| Data Transfer Objects | [[APIs Distributed Systems/data-transfer-objects]] | verified |
+| Backend for Frontend | [[APIs Distributed Systems/backend-for-frontend]] | verified |
+| API Gateway | [[APIs Distributed Systems/api-gateway]] | verified |
+| Transactional Outbox | [[APIs Distributed Systems/transactional-outbox]] | verified |
+| Inbox | [[APIs Distributed Systems/inbox]] | verified |
+| Message Deduplication | [[APIs Distributed Systems/message-deduplication]] | verified |
+| Saga | [[APIs Distributed Systems/saga]] | verified |
+| Circuit Breaker | [[APIs Distributed Systems/circuit-breaker]] | verified |
+| Timeouts | [[APIs Distributed Systems/timeouts]] | verified |
+| Cancellation | [[APIs Distributed Systems/cancellation]] | verified |
+| Retry with Backoff and Jitter | [[APIs Distributed Systems/retry-with-backoff]] | verified |
+| Bulkheads | [[APIs Distributed Systems/bulkheads]] | verified |
+| Rate Limiting | [[APIs Distributed Systems/rate-limiting]] | verified |
+| Backpressure | [[APIs Distributed Systems/backpressure]] | verified |
+| Cache-Aside | [[APIs Distributed Systems/cache-aside]] | verified |
+| Read-Through Cache | [[APIs Distributed Systems/read-through-cache]] | verified |
+| Write-Through Cache | [[APIs Distributed Systems/write-through-cache]] | verified |
+| Eventual Consistency | [[APIs Distributed Systems/eventual-consistency]] | verified |
+| Dead-Letter Queues | [[APIs Distributed Systems/dead-letter-queues]] | verified |
+
+---
+
+## Security
+
+| Concept | Note | Status |
+|---------|------|--------|
+| Principle of Least Privilege | [[Security/principle-of-least-privilege]] | verified |
+| Deny by Default | [[Security/deny-by-default]] | verified |
+| Complete Mediation | [[Security/complete-mediation]] | verified |
+| Defense in Depth | [[Security/defense-in-depth]] | verified |
+| Zero Trust | [[Security/zero-trust]] | verified |
+| Separation of Duties | [[Security/separation-of-duties]] | verified |
+| Secure by Design | [[Security/secure-by-design]] | verified |
+| Secure Defaults | [[Security/secure-defaults]] | verified |
+| Trust Boundaries | [[Security/trust-boundaries]] | verified |
+| Input Validation | [[Security/input-validation]] | verified |
+| Contextual Output Encoding | [[Security/contextual-output-encoding]] | verified |
+| Parameterized Queries | [[Security/parameterized-queries]] | verified |
+| RBAC | [[Security/rbac]] | verified |
+| ABAC | [[Security/abac]] | verified |
+| Data Minimization | [[Security/data-minimization]] | verified |
+| Secrets Management | [[Security/secrets-management]] | verified |
+| Threat Modeling | [[Security/threat-modeling]] | verified |
+
+---
+
+## Coding and Type Systems
+
+| Concept | Note | Status |
+|---------|------|--------|
+| Strict Typing | [[Coding Type Systems/strict-typing]] | verified |
+| Parse, Don't Merely Validate | [[Coding Type Systems/parse-dont-validate]] | verified |
+| Make Invalid States Unrepresentable | [[Coding Type Systems/make-invalid-states-unrepresentable]] | verified |
+| Discriminated Unions | [[Coding Type Systems/discriminated-unions]] | verified |
+| Exhaustive Handling | [[Coding Type Systems/exhaustive-handling]] | verified |
+| Immutability | [[Coding Type Systems/immutability]] | verified |
+| Pure Functions | [[Coding Type Systems/pure-functions]] | verified |
+| Explicit Error Modeling | [[Coding Type Systems/explicit-error-modeling]] | verified |
+| Resource Lifecycle Management | [[Coding Type Systems/resource-lifecycle]] | verified |
+| Structured Concurrency | [[Coding Type Systems/structured-concurrency]] | verified |
+| Boundary Validation | [[Coding Type Systems/boundary-validation]] | verified |
+| Small Cohesive Modules | [[Coding Type Systems/small-cohesive-modules]] | verified |
+| Dependency Hygiene | [[Coding Type Systems/dependency-hygiene]] | verified |
+| Accessibility by Design | [[Coding Type Systems/accessibility-by-design]] | verified |
+| Internationalization by Design | [[Coding Type Systems/internationalization-by-design]] | verified |
+
+---
+
+## Quality and Delivery
+
+| Concept | Note | Status |
+|---------|------|--------|
+| Test-Driven Development | [[Quality & Testing/test-driven-development]] | verified |
+| Behavior-Driven Development | [[Quality & Testing/behavior-driven-development]] | verified |
+| Risk-Based Testing | [[Quality & Testing/risk-based-testing]] | verified |
+| Property-Based Testing | [[Quality & Testing/property-based-testing]] | verified |
+| Mutation Testing | [[Quality & Testing/mutation-testing]] | verified |
+| Contract Testing | [[Quality & Testing/contract-testing]] | verified |
+| Architecture Fitness Functions | [[Quality & Testing/architecture-fitness-functions]] | verified |
+| Continuous Integration | [[Quality & Testing/continuous-integration]] | verified |
+| Reproducible Builds | [[Quality & Testing/reproducible-builds]] | verified |
+| Observability | [[Quality & Testing/observability]] | verified |
+| Service-Level Objectives | [[Quality & Testing/service-level-objectives]] | verified |
+| Architecture Decision Records | [[Quality & Testing/architecture-decision-records]] | verified |
+| Incremental Refactoring | [[Quality & Testing/incremental-refactoring]] | verified |
+| Evolutionary Architecture | [[Quality & Testing/evolutionary-architecture]] | verified |
+| Performance Budgets | [[Quality & Testing/performance-budgets]] | verified |
+
+---
+
+## Data-Driven Approaches
+
+| Concept | Note | Status |
+|---------|------|--------|
+| Data-Driven Design | [[Data-Driven Approaches/data-driven-design]] | verified |
+| Configuration-Driven Development | [[Data-Driven Approaches/configuration-driven-development]] | verified |
+| Schema-Driven Development | [[Data-Driven Approaches/schema-driven-development]] | verified |
+| Metadata-Driven UI | [[Data-Driven Approaches/metadata-driven-ui]] | verified |
+| Contract-First Development | [[Data-Driven Approaches/contract-first-development]] | verified |
+| Declarative Programming | [[Data-Driven Approaches/declarative-programming]] | verified |
+| Table-Driven Logic | [[Data-Driven Approaches/table-driven-logic]] | verified |
+| Data-Oriented Design | [[Data-Driven Approaches/data-oriented-design]] | verified |
+| Single Source of Truth | [[Data-Driven Approaches/single-source-of-truth]] | verified |
+
+---
+
+## Project File Conventions
+
+| Convention | Note | Status |
+|------------|------|--------|
+| *.view.tsx | [[Project File Conventions/view-file-convention]] | verified |
+| *.logic.ts | [[Project File Conventions/logic-file-convention]] | verified |
+| *.data.ts | [[Project File Conventions/data-file-convention]] | verified |
+| *.hook.ts | [[Project File Conventions/hook-file-convention]] | verified |
+| *.schema.ts | [[Project File Conventions/schema-file-convention]] | verified |
+| *.types.ts | [[Project File Conventions/types-file-convention]] | verified |
+| *.mapper.ts | [[Project File Conventions/mapper-file-convention]] | verified |
+| *.port.ts | [[Project File Conventions/port-file-convention]] | verified |
+| *.adapter.ts | [[Project File Conventions/adapter-file-convention]] | verified |
+| *.repository.ts | [[Project File Conventions/repository-file-convention]] | verified |
+| *.use-case.ts | [[Project File Conventions/use-case-file-convention]] | verified |
+| *.entity.ts | [[Project File Conventions/entity-file-convention]] | verified |
+| *.value-object.ts | [[Project File Conventions/value-object-file-convention]] | verified |
+| *.policy.ts | [[Project File Conventions/policy-file-convention]] | verified |
+| *.event.ts | [[Project File Conventions/event-file-convention]] | verified |
+
+---
+
+## Related Indexes
+
+- [[Sources/00-index]] — Source citations
+- [[Copilot-Knowledge-Entry]] — Copilot consumption guide
+- [[Research-Status]] — Research status manifest
+- [[Project-Architecture-Mapping]] — Project architecture mapping
+
+---
+
+**End of Architecture & Patterns Index**
 - [Quality, Delivery & Maintainability](Architecture/quality-delivery-maintainability.md) — TDD, CI, SLOs
 - [Core Principles](Architecture/core-principles.md) — DRY, KISS, YAGNI, etc.
 - [File-Level Separation Conventions](Architecture/file-level-separation-conventions.md) — Naming conventions
@@ -182,24 +495,45 @@ Frontend and UI patterns including accessibility, performance, and DevOps.
 - [CI/CD](Frontend%20UI/ci-cd-patterns.md)
 ---
 
+tags:
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Source Notes
 
 See [[Sources/README|Sources Index]] for all verified source citations.
 
 ---
 
+tags:
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Research Status
 
 See [[Research-Status]] for the full concept inventory with research status per concept.
 
 ---
 
+tags:
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Project Architecture Mapping
 
 See [[Project-Architecture-Mapping]] for how concepts map to the actual project.
 
 ---
 
+tags:
+  - status/complete
+  - type/reference
+  - domain/architecture
+---
 ## Copilot Consumption Guide
 
 See [[Copilot-Consumption-Guide]] for instructions on how Copilot should use this knowledge base.
+

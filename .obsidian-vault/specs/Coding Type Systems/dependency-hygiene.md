@@ -1,77 +1,142 @@
----
-slug: dependency-hygiene
-sources:
-  - https://www.typescriptlang.org/
-  - https://pnpm.io/
-date: 2026-11-02
-tags:
-  - dependency-hygiene
-  - typescript
-  - type-system
-  - patterns
+# Dependency Hygiene
+
+> **Purpose:** Manage imports and dependencies carefully.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Dependency Hygiene
+## concept_id
+`coding-dependency-hygiene`
+
+## title
+Dependency Hygiene
+
+## aliases
+- Dependency Hygiene
+- Import Hygiene
+- Dependency Management
+
+## category
+coding-type-systems
+
+## concept_type
+coding-practice
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Import management
+- Package dependencies
+- Module design
+- Bundle optimization
+
+## tags
+- type/practice
+- domain/coding
+- domain/typescript
+- status/verified
+- priority/high
+
+## source_ids
+- typescript-documentation
+- goF-1994
+
+## related_concept_ids
+- arch-low-coupling
+- arch-high-cohesion
+- arch-separation-of-concerns
+- arch-dry
+- coding-small-cohesive-modules
+
+---
 
 ## Definition
 
-Dependency Hygiene is **a TypeScript pattern for managing dependencies between modules, ensuring clean dependency graphs and avoiding circular dependencies**.
-
-> "Dependency hygiene ensures that modules have clean dependency graphs and avoid circular dependencies." — TypeScript Docs
+Dependency Hygiene is a practice where imports and dependencies are managed carefully to minimize coupling, reduce bundle size, and improve maintainability.
 
 ## Problem Addressed
 
 Without dependency hygiene:
-- **Circular dependencies**: Modules have circular dependencies
-- **Tight coupling**: Modules are tightly coupled
-- **Testing**: Hard to test modules with circular dependencies
-- **Maintenance**: Hard to maintain modules with circular dependencies
+- Bundle size is large
+- Coupling is high
+- Maintenance is difficult
+- Performance suffers
 
 ## Scope and Boundaries
 
-- Dependency Hygiene ≠ Dependency Injection (dependency hygiene manages dependencies, dependency injection is a pattern)
-- Dependency Hygiene = Cleanliness (dependency hygiene ensures clean dependencies)
-- Dependency Hygiene is a **TypeScript pattern**, not a design pattern
+Dependency hygiene applies to:
+- Import management
+- Package dependencies
+- Module design
+- Bundle optimization
+
+Dependency hygiene does not apply to:
+- Runtime dependencies
+- External services
+- Database connections
+- Network connections
 
 ## When to Apply
 
-- When building TypeScript applications
-- when dependency management is important
-- when testing is important
-- when maintenance is important
+- Managing imports
+- Adding dependencies
+- Designing modules
+- Optimizing bundles
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — Dependency hygiene adds abstraction |
-| **Time** — Implementing dependency hygiene takes time |
-| **Over-hygiene**: Not every dependency needs hygiene |
+- **Over-optimization**: Optimizing too early
+- **Complexity**: Dynamic imports add complexity
+- **Not for simple code**: Simple code doesn't need dependency hygiene
+- **Not for prototypes**: Prototypes don't need dependency hygiene
+
+## Implementation Guidance
+
+1. **Import selectively**: Import only what is needed
+2. **Avoid deep imports**: Import from package root
+3. **Use tree-shaking**: Write code that can be tree-shaken
+4. **Review dependencies**: Review dependencies regularly
+5. **Minimize dependencies**: Remove unused dependencies
+
+## Verification
+
+- [ ] Imports are selective
+- [ ] Deep imports are avoided
+- [ ] Code can be tree-shaken
+- [ ] Dependencies are reviewed
+- [ ] Unused dependencies are removed
 
 ## Common Misuses
 
-- **Everything hygienic**: Not every dependency needs hygiene
-- **Ignoring circular dependencies**: Circular dependencies must be avoided
-- **Confusing with dependency injection**: Dependency hygiene manages dependencies, dependency injection is a pattern
+- **Importing everything**: Importing entire packages
+- **Deep imports**: Importing from deep paths
+- **Not reviewing**: Not reviewing dependencies
+- **Not removing**: Not removing unused dependencies
 
 ## Related Concepts
 
-- [Dependency Injection](Architecture/dependency-injection.md) — Dependency injection is a pattern for managing dependencies
-- [Low Coupling](Architecture/low-coupling.md) — Low coupling is a principle behind dependency hygiene
-- [pnpm Workspace](Architecture/pnpm-workspace.md) — pnpm workspace supports dependency hygiene
+- [[Architecture/low-coupling]] — Low Coupling
+- [[Architecture/high-cohesion]] — High Cohesion
+- [[Architecture/separation-of-concerns]] — Separation of Concerns
+- [[Architecture/dry]] — DRY Principle
 
 ## Project Observations
 
-- The project uses dependency hygiene:
-  - TypeScript supports dependency hygiene through module system
-  - pnpm supports dependency hygiene through workspace management
-  - The project's architecture patterns note covers TypeScript concepts
-  - No evidence of dependency hygiene in existing code (src/ is empty)
-- File naming conventions support dependency hygiene:
-  - `*.port.ts` — Port files
-  - `*.adapter.ts` — Adapter files
+The project follows dependency hygiene through:
+- Selective imports
+- Package root imports
+- Tree-shaking support
+- Dependency reviews
 
 ## Sources
 
-- [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Dependency Hygiene Note**

@@ -4,6 +4,23 @@
 > **Last Updated:** 2026-11-02
 
 ---
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/accessibility
+  - domain/devops
+  - domain/database
+  - status/complete
+  - type/reference
 
 ## How to Use This Knowledge Base
 
@@ -445,3 +462,12 @@ slug: example-enhanced-note
 - Don't forget eventual consistency (see [event-driven-architecture](D/event-driven-architecture.md))
 - Don't mix read/write logic in the same handler
 ```
+
+## See Also
+- [[playwright-e2e]]
+- [[Project-Architecture-Mapping]]
+- [[Research-Status]]
+- [[vault-integration-map]]
+- [[_template-spec]]
+
+

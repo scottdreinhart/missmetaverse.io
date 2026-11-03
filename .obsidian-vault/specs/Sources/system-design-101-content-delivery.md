@@ -1,9 +1,18 @@
 ﻿---
 slug: system-design-101-content-delivery
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/optimization
   - system-design
   - cdn
   - networking
@@ -88,3 +97,13 @@ Read these vault notes for deeper understanding:
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [cdn-guide](https://bytebytego.com/guides/how-do-we-design-a-cdn)
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

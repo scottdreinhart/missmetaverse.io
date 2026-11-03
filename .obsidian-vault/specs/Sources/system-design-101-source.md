@@ -1,9 +1,19 @@
 ﻿---
 slug: system-design-101
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/architecture
+  - type/concept
+  - domain/optimization
+  - type/guide
+  - domain/database
   - system-design
   - index
   - knowledge-base
@@ -123,4 +133,7 @@ Read these vault notes for deeper understanding:
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]] — Complete index of all guides
-- GitHub: https://github.com/donnemartin/system-design-cheat-sheet
+- GitHub: https://github.com/donnemartin/system-design-primer
+
+
+

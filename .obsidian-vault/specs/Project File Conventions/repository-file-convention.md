@@ -1,78 +1,141 @@
----
-slug: repository-file-convention
-sources:
-  - https://www.typescriptlang.org/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Repository File Convention
+
+> **Purpose:** Implement repository pattern for data access.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.repository.ts
+## concept_id
+`project-repository-file`
+
+## title
+*.repository.ts File Convention
+
+## aliases
+- Repository File Convention
+- *.repository.ts
+- Repository Implementation
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Domain-driven design
+- Repository pattern
+- Data access abstraction
+- Project organization
+
+## tags
+- type/convention
+- domain/ddd
+- status/verified
+- priority/high
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-port-file
+- project-adapter-file
+- project-view-file
+- project-logic-file
+- ddd-repository
+
+---
 
 ## Definition
 
-`*.repository.ts` is **a file naming convention for TypeScript files that contain repository implementations for data access**.
-
-> "The *.repository.ts convention identifies TypeScript files that contain repository implementations." — TypeScript Docs
+The *.repository.ts file convention designates files that implement the repository pattern — data access layers that provide collection-like interface for accessing domain objects.
 
 ## Problem Addressed
 
-Without `*.repository.ts` convention:
-- **Confusion**: Don't know which files contain repository implementations
-- **Mixing concerns**: Repositories are mixed with business logic
-- **Testing**: Hard to test repositories separately
-- **Maintenance**: Hard to maintain repositories
+Without file conventions:
+- Data access is scattered
+- Repositories are inconsistent
+- Testing is difficult
+- Architecture is inconsistent
 
 ## Scope and Boundaries
 
-- `*.repository.ts` ≠ `*.port.ts` (`*.repository.ts` is for implementations, `*.port.ts` is for interfaces)
-- `*.repository.ts` = Repositories (`*.repository.ts` is for repository implementations)
-- `*.repository.ts` is a **file naming convention**, not a pattern
+Repository files apply to:
+- Data access abstraction
+- Repository pattern implementation
+- Database operations
+- Domain object persistence
+
+Repository files do not apply to:
+- Business logic
+- UI rendering
+- Domain logic
+- State management
 
 ## When to Apply
 
-- When building applications with data access
-- when repository pattern is used
-- when testing is important
-- when maintenance is important
+- Implementing repository pattern
+- Abstracting data access
+- Building database layers
+- Testing domain logic
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every repository needs a separate file |
+- **Over-splitting**: Not every data access needs repository
+- **Not for logic**: Repository files should not contain business logic
+- **Not for UI**: Repository files should not render UI
+- **Not for domain**: Repository files should not contain domain logic
+
+## Implementation Guidance
+
+1. **Define interface**: Define repository interface
+2. **Implement**: Implement repository for data source
+3. **Use in domain**: Use repository in domain logic
+4. **Mock for testing**: Mock repository for testing
+5. **Keep simple**: Keep repository interface simple
+
+## Verification
+
+- [ ] Interface is defined
+- [ ] Repository is implemented
+- [ ] Repository is used in domain
+- [ ] Repository can be mocked
+- [ ] Interface is simple
 
 ## Common Misuses
 
-- **Everything a repository**: Not every data access needs a repository file
-- **Mixing concerns**: Repository files should not contain business logic
-- **Confusing with port**: Repository files contain implementations, port files contain interfaces
+- **Not defining interface**: Not defining repository interface
+- **Not implementing**: Not implementing repository
+- **Not mocking**: Not mocking repository for testing
+- **Not keeping simple**: Not keeping interface simple
 
 ## Related Concepts
 
-- [Repository Pattern](Architecture/repository-pattern.md) — Repository pattern is the pattern behind `*.repository.ts`
-- [Port File Convention](Project File Conventions/port-file-convention.md) — Port file convention defines repository interfaces
-- [Data Mapper Pattern](Architecture/data-mapper-pattern.md) — Data mapper pattern is related
+- [[Project File Conventions/port-file-convention]] — *.port.ts File Convention
+- [[Project File Conventions/adapter-file-convention]] — *.adapter.ts File Convention
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[DDD/repository]] — Repository Pattern
 
 ## Project Observations
 
-- The project uses `*.repository.ts`:
-  - TypeScript supports `*.repository.ts` through module system
-  - React supports `*.repository.ts` through data access
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.repository.ts` in existing code (src/ is empty)
-- File naming conventions support `*.repository.ts`:
-  - `*.repository.ts` — Repository files
-  - `*.port.ts` — Port files
+The project follows repository file convention through:
+- *.repository.ts files for data access
+- *.port.ts files for interfaces
+- Dependency injection
+- Domain-driven design
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Repository File Convention Note**

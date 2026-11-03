@@ -1,0 +1,92 @@
+﻿---
+slug: contract-testing
+sources:
+  - https://docs.pact.io/
+  - https://www.npmjs.com/package/bravado
+date: 2026-11-02
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/frontend
+  - domain/architecture
+  - type/concept
+  - domain/devops
+  - status/complete
+  - type/guide
+  - domain/testing
+  - contract-testing
+  - testing
+  - api
+  - pact
+---
+
+# Contract Testing
+
+## Definition
+
+Contract Testing is **a testing approach that verifies the interaction between two components (typically consumer and provider) matches a shared contract**.
+
+> "Contract testing verifies that interactions between two components match a shared contract, ensuring compatibility without integration testing." — Pact
+
+## Problem Addressed
+
+Without contract testing:
+- **Breaking changes**: Changes break consumers without warning
+- **Integration testing**: Integration tests are slow and fragile
+- **Deployment**: Services must be deployed together
+- **Compatibility**: Consumers and providers become incompatible
+
+## Scope and Boundaries
+
+- Contract Testing ≠ Integration Testing (contract testing verifies contracts, integration testing verifies full system behavior)
+- Contract Testing = Compatibility (contract testing ensures compatibility)
+- Contract Testing is a **testing approach**, not a pattern
+
+## When to Apply
+
+- When building microservices or APIs
+- when services are deployed independently
+- when breaking changes must be prevented
+- when integration tests are too slow or fragile
+
+## Tradeoffs and When to Avoid
+
+| Cost | Description |
+|------|-------------|
+| **Complexity** — Contract testing adds tooling complexity |
+| **Time** — Setting up contracts takes time |
+| **Over-contracting**: Not every interaction needs a contract |
+
+## Common Misuses
+
+- **Everything contracted**: Not every interaction needs a contract
+- **Over-specifying**: Contracts should be flexible enough to allow evolution
+- **Confusing with integration testing**: Contract testing verifies contracts, integration testing verifies full system behavior
+
+## Related Concepts
+
+- [Contract-First Development](Data-Driven Approaches/contract-first.md) — Contract-first development defines contracts before implementation
+- [Automated Testing](Quality Delivery/automated-testing.md) — Automated testing supports contract testing
+- [API Versioning](Architecture/api-versioning.md) — API versioning manages contract changes
+
+## Project Observations
+
+- The project uses contract testing:
+  - Pact supports contract testing
+  - OpenAPI/Swagger supports contract testing
+  - The project's architecture patterns note covers testing concepts
+  - No evidence of contract testing in existing code (src/ is empty)
+- File naming conventions support contract testing:
+  - `*.test.ts` — Test files
+  - `*.spec.ts` — Spec files
+
+## Sources
+
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/react-docs-2026|react-docs-2026]]
+
+
+
+

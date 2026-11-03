@@ -1,75 +1,142 @@
----
-slug: exhaustive-handling
-sources:
-  - https://www.typescriptlang.org/
-  - https://react.dev/
-date: 2026-11-02
-tags:
-  - exhaustive-handling
-  - typescript
-  - type-system
-  - patterns
+# Exhaustive Handling
+
+> **Purpose:** Ensure all cases are handled in type-safe way.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Exhaustive Handling
+## concept_id
+`coding-exhaustive-handling`
+
+## title
+Exhaustive Handling
+
+## aliases
+- Exhaustive Handling
+- Exhaustive Switch
+- Exhaustive Pattern Matching
+
+## category
+coding-type-systems
+
+## concept_type
+coding-practice
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Switch statements
+- Pattern matching
+- State machines
+- Event handling
+
+## tags
+- type/practice
+- domain/coding
+- domain/typescript
+- status/verified
+- priority/high
+
+## source_ids
+- typescript-documentation
+- goF-1994
+
+## related_concept_ids
+- coding-discriminated-unions
+- coding-make-invalid-states-unrepresentable
+- coding-strict-typing
+- coding-immutability
+- coding-pure-functions
+
+---
 
 ## Definition
 
-Exhaustive Handling is **a TypeScript pattern that ensures all possible cases are handled, typically using discriminated unions and the `never` type**.
-
-> "Exhaustive handling ensures that all possible cases in a discriminated union are handled, using the `never` type to catch missing cases." — TypeScript Docs
+Exhaustive Handling is a practice where all possible cases in a type are handled, ensuring no case is accidentally missed. This is enforced by the TypeScript type system.
 
 ## Problem Addressed
 
 Without exhaustive handling:
-- **Missing cases**: Not all cases are handled
-- **Runtime errors**: Runtime errors when unhandled cases occur
-- **Maintenance**: Adding new cases requires updating all handlers
-- **Type safety**: Type system doesn't catch missing cases
+- Cases are accidentally missed
+- New variants break existing code
+- Runtime errors occur
+- Testing is incomplete
 
 ## Scope and Boundaries
 
-- Exhaustive Handling ≠ Type Narrowing (exhaustive handling ensures all cases are handled, type narrowing narrows types)
-- Exhaustive Handling = Completeness (exhaustive handling ensures completeness)
-- Exhaustive Handling is a **TypeScript pattern**, not a design pattern
+Exhaustive handling applies to:
+- Switch statements
+- Pattern matching
+- State machines
+- Event handling
+
+Exhaustive handling does not apply to:
+- Simple if-else chains
+- Optional handling
+- Fallback cases
+- Default cases
 
 ## When to Apply
 
-- When using discriminated unions
-- when all cases must be handled
-- when new cases may be added in the future
-- when type safety is important
+- Handling discriminated unions
+- Implementing state machines
+- Processing events
+- Handling API responses
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — Exhaustive handling adds boilerplate |
-| **Time** — Writing exhaustive handlers takes time |
-| **Over-exhaustive**: Not every union needs exhaustive handling |
+- **Over-engineering**: Not all cases need exhaustive handling
+- **Fallback cases**: Fallback cases may be acceptable
+- **Optional handling**: Optional handling may be acceptable
+- **Default cases**: Default cases may be acceptable
+
+## Implementation Guidance
+
+1. **Use discriminated unions**: For type-safe variants
+2. **Use switch statements**: For exhaustive handling
+3. **Use never type**: For compile-time errors on missing cases
+4. **Test all cases**: Test all variants
+5. **Review changes**: Review changes to variants
+
+## Verification
+
+- [ ] All cases are handled
+- [ ] Switch statements are exhaustive
+- [ ] Never type is used for missing cases
+- [ ] All variants are tested
+- [ ] Changes are reviewed
 
 ## Common Misuses
 
-- **Everything exhaustive**: Not every union needs exhaustive handling
-- **Ignoring the never type**: The `never` type is key to exhaustive handling
-- **Confusing with type narrowing**: Exhaustive handling ensures all cases are handled, type narrowing narrows types
+- **Ignoring cases**: Not handling all cases
+- **Using default**: Using default case instead of handling all
+- **Not testing**: Not testing all cases
+- **Over-engineering**: Not all cases need exhaustive handling
 
 ## Related Concepts
 
-- [Discriminated Unions](Architecture/discriminated-unions.md) — Discriminated unions enable exhaustive handling
-- [Type Guards](Architecture/type-guards.md) — Type guards enable exhaustive handling
-- [Type Narrowing](Architecture/type-narrowing.md) — Type narrowing is related to exhaustive handling
+- [[Coding Type Systems/discriminated-unions]] — Discriminated Unions
+- [[Coding Type Systems/make-invalid-states-unrepresentable]] — Make Invalid States Unrepresentable
+- [[Coding Type Systems/strict-typing]] — Strict Typing
+- [[Coding Type Systems/immutability]] — Immutability
 
 ## Project Observations
 
-- The project uses exhaustive handling:
-  - TypeScript supports exhaustive handling through discriminated unions
-  - The project's architecture patterns note covers TypeScript concepts
-  - No evidence of exhaustive handling in existing code (src/ is empty)
-- File naming conventions support exhaustive handling:
-  - `*.types.ts` — Type files
-  - `*.schema.ts` — Schema files
+The project uses TypeScript, which supports exhaustive handling through:
+- Discriminated unions
+- Switch statements
+- Never type
+- Type guards
 
 ## Sources
 
-- [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
+- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Exhaustive Handling Note**

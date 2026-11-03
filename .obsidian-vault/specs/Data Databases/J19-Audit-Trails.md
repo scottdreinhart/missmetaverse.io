@@ -1,0 +1,92 @@
+﻿---
+slug: audit-trails
+sources:
+  - https://www.postgresql.org/docs/
+  - https://dev.mysql.com/doc/
+date: 2026-11-02
+tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/optimization
+  - status/complete
+  - type/reference
+  - domain/database
+  - database
+  - audit
+  - data-modeling
+  - compliance
+---
+
+# Audit Trails
+
+## Definition
+
+Audit Trails are **a chronological record of system activities that provides evidence of when events occurred, who was involved, and what actions were taken**.
+
+> "An audit trail is a security-relevant chronological record of actions taken by users and systems." — OWASP
+
+## Problem Addressed
+
+Without audit trails:
+- **No accountability**: Can't track who did what
+- **Compliance issues**: Regulations require audit trails
+- **Forensics**: Can't investigate security incidents
+- **Debugging**: Can't trace system behavior
+
+## Scope and Boundaries
+
+- Audit Trails ≠ Logging (audit trails are structured and tamper-proof, logging is for debugging)
+- Audit Trails = Accountability (audit trails provide accountability)
+- Audit Trails is a **compliance requirement**, not a pattern
+
+## When to Apply
+
+- When building systems that handle regulated data
+- when compliance requires audit trails
+- when security incident investigation is needed
+- when accountability is important
+
+## Tradeoffs and When to Avoid
+
+| Cost | Description |
+|------|-------------|
+| **Storage** — Audit trails consume storage |
+| **Performance** — Writing audit trails adds overhead |
+| **Privacy** — Audit trails may contain sensitive data |
+
+## Common Misuses
+
+- **Auditing everything**: Don't audit everything, focus on what matters
+- **Ignoring tamper-proof**: Audit trails must be tamper-proof
+- **Confusing with logging**: Audit trails are structured and tamper-proof, logging is for debugging
+
+## Related Concepts
+
+- [Retention Policies](Data Databases/retention-policies.md) — Retention policies apply to audit trails
+- [Logging](Security/logging.md) — Logging complements audit trails
+- [Data Minimization](Security/data-minimization.md) — Data minimization applies to audit trails
+
+## Project Observations
+
+- The project uses audit trails:
+  - PostgreSQL supports audit trails
+  - MySQL supports audit trails
+  - The project's architecture patterns note covers database concepts
+  - No evidence of audit trails in existing code (src/ is empty)
+- File naming conventions support audit trails:
+  - `*.event.ts` — Event files
+  - `*.policy.ts` — Policy files
+
+## Sources
+
+- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/react-docs-2026|react-docs-2026]]
+
+
+
+

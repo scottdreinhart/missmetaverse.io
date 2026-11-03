@@ -1,7 +1,21 @@
----
+﻿---
 slug: vault-integration-map
 date: 2026-01-01
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/accessibility
+  - domain/devops
+  - domain/database
   - integration
   - architecture
   - navigation
@@ -364,3 +378,12 @@ These source files exist but are not cited by any note. They may be:
 - Read `00-architecture-index` for a categorized list of all notes
 - Read `Research-Status` for research progress tracking
 - Read individual note Copilot Instructions for topic-specific guidance
+
+## See Also
+- [[Copilot-Consumption-Guide]]
+- [[playwright-e2e]]
+- [[Project-Architecture-Mapping]]
+- [[Research-Status]]
+- [[_template-spec]]
+
+

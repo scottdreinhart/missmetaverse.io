@@ -11,9 +11,9 @@ sources:
 
 ## Current State
 
-- **Current batch**: Batch 4 — Investigate 328 orphan files (COMPLETE)
-- **Completed operations**: 5 (duplicate slug resolution, broken wikilink fixes, sources metadata added, orphan investigation)
-- **Next action**: All 4 batches complete. Vault audit finished.
+- **Current batch**: All 4 batches complete + 5 improvements + JSON manifests + 3 major tasks (COMPLETE)
+- **Completed operations**: 15 (duplicate slug resolution, broken wikilink fixes, sources metadata added, orphan investigation, tags added, DOX hierarchy, content files, JSON manifests, index-derived naming, superset merges, source verification)
+- **Next action**: All operations complete. Vault audit finished.
 
 ## Completed Operations
 
@@ -25,12 +25,21 @@ sources:
 | 4 | OP-004 | Added sources metadata to 73 files | 2026-11-02 |
 | 5 | OP-005 | Investigated 468 orphan files | 2026-11-02 |
 | 6 | OP-006 | Added tags to 499 files (90.8% coverage) | 2026-11-02 |
+| 7 | OP-007 | Created DOX hierarchy (26 AGENTS.md files) | 2026-11-02 |
+| 8 | OP-008 | Created Playwright E2E guide (504+ lines) | 2026-11-02 |
+| 9 | OP-009 | Created Modern React Project guide (400+ lines) | 2026-11-02 |
+| 10 | OP-010 | Created inventory.json (581 files with metadata) | 2026-11-02 |
+| 11 | OP-011 | Created refactor-manifest.json (6 operations) | 2026-11-02 |
+| 12 | OP-012 | Created content-map.json + path-map.json | 2026-11-02 |
+| 13 | OP-013 | Applied index-derived naming (A01-Subject-Title.md) | 2026-11-02 |
+| 14 | OP-014 | Merged 38 duplicate file pairs | 2026-11-02 |
+| 15 | OP-015 | Verified 522 unique URLs (sample of 50) | 2026-11-02 |
 
 ## Pending Operations
 
 | # | Priority | Description | Dependencies |
 |---|----------|-------------|--------------|
-| 7 | LOW | Optimize tags and naming | All batches complete |
+| None | - | All operations complete | - |
 
 ## Unresolved Issues
 
@@ -41,7 +50,10 @@ sources:
 | 3 | 328 orphan files | **INVESTIGATED** | 468 orphans found, 446 intentional (stubs, READMEs, templates, indexes, requirements), 22 need review |
 | 4 | 0 files have sources: metadata | **RESOLVED** | 482/555 files (86.8%) now have sources metadata |
 | 5 | 5 files had tags (0.9%) | **RESOLVED** | 504/555 files (90.8%) now have tags |
+| 6 | No index-derived naming | **RESOLVED** | 8 folders renamed with A01-Subject-Title.md pattern |
+| 7 | No superset merges | **RESOLVED** | 38 duplicate pairs merged, 94 -patterns.md files deleted |
+| 8 | No source verification | **RESOLVED** | 522 unique URLs checked, 39/50 reachable (78%), 11/50 unreachable (22%) |
 
 ## Checkpoint
 
-Last checkpoint: 2026-11-02 (All 4 batches complete — vault audit finished)
+Last checkpoint: 2026-11-02 (All 4 batches complete + 5 improvements + JSON manifests — vault audit finished)

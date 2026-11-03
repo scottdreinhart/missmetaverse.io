@@ -6,6 +6,12 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/architecture
+  - type/concept
   - vertical-slices
   - architecture
   - clean-architecture
@@ -28,3 +34,12 @@ claims_supported:
   - cqrs
 access_limitations: Free public blog
 research_notes: "Jimmy Bogard's primary source for Vertical Slice Architecture. Contrasts with traditional layered architecture and shows integration with CQRS/Mediator."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+- [[fowler-ddd-2003]]
+
+

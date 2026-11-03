@@ -1,76 +1,141 @@
----
-slug: state-machines
-sources:
-  - https://en.wikipedia.org/wiki/Finite-state_machine
-  - https://xstate.js.org/
-date: 2026-11-02
-tags:
-  - state-machines
-  - architecture
-  - patterns
-  - frontend
+# State Machines
+
+> **Purpose:** Model state transitions explicitly to prevent invalid states.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# State Machines
+## concept_id
+`arch-state-machines`
+
+## title
+State Machines
+
+## aliases
+- State Machine
+- Finite State Machine
+- FSM
+- Statechart
+
+## category
+frontend-ui-composition
+
+## concept_type
+design-pattern
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- UI state management
+- Workflow modeling
+- Protocol implementation
+- Game development
+
+## tags
+- type/pattern
+- domain/architecture
+- domain/frontend
+- status/verified
+- priority/medium
+
+## source_ids
+- harel-statecharts
+- martin-fowler-patterns
+
+## related_concept_ids
+- arch-statecharts
+- arch-unidirectional-data-flow
+- arch-jotai
+- arch-make-invalid-states-unrepresentable
+
+---
 
 ## Definition
 
-State Machines are a **design pattern that models system behavior as states and transitions**.
-
-> "A state machine is a mathematical model of computation that represents system behavior as states and transitions." — Wikipedia
+A State Machine is a computational model where a system can be in exactly one state at any time, and transitions between states are triggered by events. It explicitly defines valid states, transitions, and actions.
 
 ## Problem Addressed
 
 Without state machines:
-- **Complexity**: State management is complex
-- **Bugs**: State transitions are error-prone
-- **Testing**: Hard to test state transitions
-- **Maintenance**: Hard to maintain state management code
+- State is represented by booleans or strings
+- Invalid states are possible
+- Transitions are scattered across code
+- State logic is hard to understand
 
 ## Scope and Boundaries
 
-- State Machines ≠ Statecharts (state machines are simple, statecharts are hierarchical)
-- State Machines ≠ State Management (state machines are a pattern, state management is a practice)
-- State Machines is a **design pattern**, not a state management pattern
+State machines apply to:
+- UI state management
+- Workflow modeling
+- Protocol implementation
+- Game development
+
+State machines do not apply to:
+- Simple flags
+- Continuous values
+- Complex data structures
 
 ## When to Apply
 
-- When building applications
-- When state management matters
-- When testing is important
-- When maintenance is important
+- System has discrete states
+- Transitions between states are well-defined
+- Invalid states must be prevented
+- State logic is complex
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — State machines are complex |
-| **Time** — State machines take time |
-| **Over-state-machines** — Don't use state machines for everything |
+- **Complexity**: State machines add boilerplate
+- **Not for simple cases**: Simple flags don't need state machines
+- **Learning curve**: State machine libraries have learning curves
+- **Over-engineering**: Not every state needs a machine
+
+## Implementation Guidance
+
+1. **Identify states**: List all possible states
+2. **Define transitions**: Specify valid transitions
+3. **Define actions**: Specify actions on transitions
+4. **Prevent invalid states**: Use type system
+5. **Visualize**: Create state diagram
+
+## Verification
+
+- [ ] All states are defined
+- [ ] All valid transitions are defined
+- [ ] Invalid states are impossible
+- [ ] State transitions are explicit
+- [ ] State diagram is maintained
 
 ## Common Misuses
 
-- **Everything state machine**: Not everything needs state machines
-- **Confusing with statecharts**: State machines ≠ statecharts
-- **Over-state-machines**: Too many state machines create complexity
+- **Using booleans**: Multiple booleans instead of state machine
+- **Ignoring invalid states**: Not preventing invalid transitions
+- **Over-engineering**: Using state machines for simple cases
+- **Not visualizing**: Not creating state diagrams
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) — State machines with React
-- [Statecharts](Architecture/statecharts.md) — State machines with statecharts
-- [MVVM Pattern](Architecture/mvvm-pattern.md) — State machines with MVVM
+- [[Architecture/statecharts]] — Statecharts
+- [[Architecture/unidirectional-data-flow]] — Unidirectional Data Flow
+- [[Architecture/jotai]] — Jotai State Management
+- [[Coding Type Systems/make-invalid-states-unrepresentable]] — Make Invalid States Unrepresentable
 
 ## Project Observations
 
-- The project uses state machines:
-  - The project's architecture patterns note covers state machines (from existing notes)
-  - No evidence of state machines in existing code (src/ is empty)
-- File naming conventions support state machines:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+The project uses Jotai for state management, which supports state machines through:
+- Atom-based state
+- Derived atoms for computed state
+- Atomic updates
+- React integration
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/harel-statecharts|David Harel — Statecharts: A Visual Formalism for Complex Systems]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
 
+---
 
+**End of State Machines Note**

@@ -1,9 +1,17 @@
 ﻿---
 slug: system-design-101-chat-system
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
   - system-design
   - chat
   - messaging
@@ -147,3 +155,13 @@ Read these vault notes for deeper understanding:
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [chat-system-guide](https://bytebytego.com/guides/how-do-we-design-a-chat-system)
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

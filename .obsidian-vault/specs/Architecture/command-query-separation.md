@@ -1,73 +1,139 @@
----
-slug: command-query-separation
-sources:
-  - https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
-  - https://en.wikipedia.org/wiki/CQRS
-date: 2026-11-02
-tags:
-  - cqs
-  - cqrs
-  - principles
-  - design
+# Command-Query Separation
+
+> **Purpose:** Methods should either do something or return something, not both.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Command-Query Separation (CQS)
+## concept_id
+`arch-command-query-separation`
+
+## title
+Command-Query Separation
+
+## aliases
+- CQS
+- Command-Query Separation
+- Command-Query Separation Principle
+
+## category
+core-principles
+
+## concept_type
+design-principle
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Method design
+- API design
+- Service design
+- Domain modeling
+
+## tags
+- type/principle
+- domain/architecture
+- domain/coding
+- status/verified
+- priority/medium
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-pure-functions
+- arch-immutability
+- arch-explicit-error-modeling
+- arch-fail-fast
+- arch-single-responsibility
+
+---
 
 ## Definition
 
-Command-Query Separation is the principle that **methods should either do something (command) or return something (query), not both**. A method should not have side effects when it is a query, and a command should not return meaningful data.
-
-> "Every method should either do something or answer something, but not both." — Bertrand Meyer (1988)
+Command-Query Separation states that methods should either change state (command) or return information (query), but not both. This makes code more predictable and easier to understand.
 
 ## Problem Addressed
 
-Violating CQS leads to:
-- **Unpredictable code**: Calling a method for its return value may have hidden side effects
-- **Testing difficulty**: Hard to test without triggering side effects
-- **Caching problems**: Can't cache query results if they have side effects
-- **Reasoning difficulty**: Hard to understand what a method does
+Without CQS:
+- Methods have unexpected side effects
+- Code is harder to reason about
+- Testing is more difficult
+- Debugging is harder
 
 ## Scope and Boundaries
 
-- CQS is about **method behavior**, not about architecture
-- CQS ≠ CQRS (CQRS is an architectural pattern that extends CQS)
-- CQS is a guideline, not an absolute rule (some methods need both)
+CQS applies to:
+- Method design
+- API design
+- Service design
+- Domain modeling
+
+CQS does not apply to:
+- Methods that need to return status and change state
+- Logging methods
+- Caching methods
 
 ## When to Apply
 
-- When designing method interfaces
-- When refactoring methods with side effects and return values
-- When designing APIs
-- When reviewing code for hidden side effects
+- Designing methods
+- Creating APIs
+- Refactoring methods with side effects
+- Building services
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **More methods** — Separating commands and queries increases method count |
-| **Boilerplate** — Extra methods for what could be one |
-| **Performance** — Separate calls may be less efficient |
+- **Methods that need both**: Some methods need to return status and change state
+- **Logging methods**: Logging methods often return status
+- **Caching methods**: Caching methods often return cached value
+- **Over-restriction**: Not all methods should follow CQS
+
+## Implementation Guidance
+
+1. **Separate commands and queries**: Methods should do one or the other
+2. **Use void for commands**: Commands should return void
+3. **Use return values for queries**: Queries should return values
+4. **Document exceptions**: Document when a method breaks CQS
+5. **Test separately**: Test commands and queries separately
+
+## Verification
+
+- [ ] Commands return void
+- [ ] Queries have no side effects
+- [ ] Methods do one or the other
+- [ ] Exceptions are documented
 
 ## Common Misuses
 
-- **Confusing with CQRS**: CQS is a method-level principle, CQRS is an architectural pattern
-- **Over-applying**: Not all methods need strict CQS
-- **Ignoring return values**: Commands can return status codes
+- **Ignoring CQS**: Methods that both change state and return values
+- **Over-restriction**: Not all methods should follow CQS
+- **Not documenting**: Not documenting when a method breaks CQS
+- **Ignoring logging**: Logging methods often return status
 
 ## Related Concepts
 
-- **CQRS** — Architectural extension of CQS
-- **Pure Functions** — Functions that only query (no side effects)
-- **Side Effects** — CQS prevents hidden side effects
+- [[Coding Type Systems/pure-functions]] — Pure Functions
+- [[Coding Type Systems/immutability]] — Immutability
+- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
 
 ## Project Observations
 
-- TypeScript's type system supports CQS through explicit return types
-- File naming conventions support CQS:
-  - `*.logic.ts` — Business logic (commands)
-  - `*.data.ts` — Data access (queries)
-- No evidence of CQS violations in existing code
+The project follows CQS through:
+- Clear separation of commands and queries
+- Void return types for commands
+- Return values for queries
+- Pure functions for queries
 
 ## Sources
 
-- [[Sources/martin-oop-2000|martin-oop-2000]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Command-Query Separation Note**

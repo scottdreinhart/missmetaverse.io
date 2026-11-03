@@ -16,3 +16,11 @@ claims_supported:
   - bff
 access_limitations: Free public report
 research_notes: "ThoughtWorks Technology Radar provides guidance on technology adoption patterns including the Backend for Frontend (BFF) pattern."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+

@@ -6,6 +6,20 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/accessibility
+  - domain/devops
+  - domain/database
   - code-review
   - checklist
   - quality
@@ -341,3 +355,10 @@ pnpm run analyze
 *Template Version: 1.0*
 *Last Updated: 2026-11-02*
 *Based on: Industry best practices for code review*
+
+## See Also
+- [[adr-template]]
+- [[commit-message-template]]
+- [[pr-template]]
+
+

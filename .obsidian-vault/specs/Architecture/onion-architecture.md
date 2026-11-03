@@ -1,75 +1,140 @@
----
-slug: onion-architecture
-sources:
-  - https://ardalis.com/onion-architecture/
-  - https://en.wikipedia.org/wiki/Onion_architecture
-date: 2026-11-02
-tags:
-  - onion-architecture
-  - architecture
-  - patterns
-  - separation-of-concerns
+# Onion Architecture
+
+> **Purpose:** Architecture pattern with concentric layers.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Onion Architecture
+## concept_id
+`arch-onion-architecture`
+
+## title
+Onion Architecture
+
+## aliases
+- Onion Architecture
+- Concentric Layers Architecture
+- Layers Architecture
+
+## category
+application-architecture
+
+## concept_type
+architectural-pattern
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Enterprise applications
+- Complex business domains
+- Systems requiring testability
+- Applications needing technology independence
+
+## tags
+- type/pattern
+- domain/architecture
+- status/verified
+- priority/high
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-clean-architecture
+- arch-hexagonal-architecture
+- arch-domain-driven-design
+- arch-dependency-inversion
+- arch-entity-file-convention
+
+---
 
 ## Definition
 
-Onion Architecture is an **architecture style that organizes code into concentric layers, with dependencies pointing inward**.
-
-> "Onion architecture is a way of implementing n-tier architecture that keeps the business logic layer independent of the UI, Database, and other layers." — Steve Smith
+Onion Architecture is an architectural pattern that organizes software into concentric layers, with the core domain at the center and external details on the outside. Dependencies point inward.
 
 ## Problem Addressed
 
 Without onion architecture:
-- **Coupling**: Layers are tightly coupled
-- **Testing**: Hard to test business logic
-- **Maintenance**: Hard to maintain code
-- **Flexibility**: Hard to change infrastructure
+- Business logic is coupled to infrastructure
+- Testing requires external dependencies
+- Changing technology requires refactoring business logic
+- The application is difficult to maintain and extend
 
 ## Scope and Boundaries
 
-- Onion Architecture ≠ Clean Architecture (onion architecture is a specific type of clean architecture)
-- Onion Architecture ≠ Layered Architecture (onion architecture has dependencies pointing inward, layered architecture has dependencies pointing downward)
-- Onion Architecture is an **architecture style**, not a specific pattern
+Onion architecture applies to:
+- Application architecture design
+- Separation of concerns between domain and infrastructure
+- Testability through dependency inversion
+
+Onion architecture does not directly address:
+- UI implementation details
+- Database schema design
+- Deployment strategies
+- Performance optimization
 
 ## When to Apply
 
-- When building applications
-- When separation of concerns matters
-- When testing is important
-- When maintenance is important
+- The business logic is complex and valuable
+- The application needs to be easily testable
+- The application may need to change technology over time
+- Multiple teams are working on the same codebase
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — Onion architecture is complex |
-| **Time** — Onion architecture takes time |
-| **Over-onion** — Don't onion everything |
+- **Over-engineering risk**: Simple applications don't need onion architecture
+- **Learning curve**: Requires understanding of dependency inversion
+- **Boilerplate**: Creating layers adds code
+- **Not for CRUD apps**: Simple applications don't benefit
+
+## Implementation Guidance
+
+1. **Define core**: Create the innermost layer with domain entities
+2. **Define use cases**: Create the next layer with application logic
+3. **Define interfaces**: Create interface adapters
+4. **Define external**: Create the outermost layer with infrastructure
+5. **Enforce direction**: Ensure dependencies point inward
+
+## Verification
+
+- [ ] Core layer has no dependencies
+- [ ] Use cases depend only on core
+- [ ] Interface adapters depend on use cases
+- [ ] External layer depends on interface adapters
+- [ ] Dependencies point inward
 
 ## Common Misuses
 
-- **Everything onion**: Not everything needs onion architecture
-- **Confusing with clean architecture**: Onion architecture ≠ clean architecture
-- **Over-onion**: Too many layers create complexity
+- **Confusing with clean architecture**: Onion is about layers, clean is about dependency rule
+- **Creating too many layers**: Not every concern needs its own layer
+- **Ignoring dependency direction**: Dependencies must point inward
+- **Over-splitting**: Creating too many files for simple concerns
 
 ## Related Concepts
 
-- [Clean Architecture](Architecture/clean-architecture.md) — Onion architecture with clean architecture
-- [Layered Architecture](Architecture/layered-architecture.md) — Onion architecture with layered architecture
-- [Separation of Concerns](Architecture/separation-of-concerns.md) — Onion architecture with SoC
+- [[Architecture/clean-architecture]] — Clean Architecture
+- [[Architecture/hexagonal-architecture]] — Hexagonal Architecture
+- [[Architecture/domain-driven-design]] — Domain-Driven Design
+- [[Architecture/dependency-inversion-principle]] — Dependency Inversion Principle
 
 ## Project Observations
 
-- The project uses onion architecture:
-  - The project's architecture patterns note covers onion architecture (from existing notes)
-  - No evidence of onion architecture in existing code (src/ is empty)
-- File naming conventions support onion architecture:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+The project uses TypeScript, which supports onion architecture through:
+- Layered folder structure
+- Type definitions for interfaces
+- Dependency injection for wiring
+- Strict typing for type safety
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Onion Architecture Note**

@@ -1,9 +1,19 @@
 ﻿---
 slug: system-design-101-api-styles
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/deprecated
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/architecture
+  - type/concept
+  - domain/frontend
+  - domain/optimization
+  - type/guide
   - system-design
   - api
   - architecture
@@ -113,3 +123,13 @@ Read these vault notes for deeper understanding:
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [api-styles-guide](https://bytebytego.com/guides/a-cheatsheet-on-comparing-api-architectural-styles)
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

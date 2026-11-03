@@ -6,6 +6,16 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/deprecated
+  - domain/security
+  - type/reference
+  - domain/architecture
+  - type/concept
+  - domain/optimization
+  - status/complete
+  - type/guide
+  - domain/frontend
   - react
   - meta
   - frontend
@@ -35,3 +45,13 @@ claims_supported:
   - react-performance
 access_limitations: None
 research_notes: "Official React documentation (react.dev). Replaced the old docs site (reactjs.org) in late 2023. Covers React 19 features including Server Components, Actions, and the new compiler."
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

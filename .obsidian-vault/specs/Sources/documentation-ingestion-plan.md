@@ -1,9 +1,25 @@
-# Documentation Ingestion Plan
+﻿# Documentation Ingestion Plan
 
 > **Date:** 2026-11-02
 > **Goal:** Absorb authoritative documentation from official sources to improve citation quality and content depth
 
 ---
+tags:
+  - priority/high
+  - maturity/deprecated
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - domain/optimization
+  - domain/accessibility
+  - domain/database
+  - status/complete
+  - type/reference
 
 ## Current State
 
@@ -389,3 +405,12 @@ These are the most critical sources — they power 80%+ of the vault's concepts.
 | Source diversity | Low | High |
 | Broken citations | 0 | 0 |
 | Documentation coverage | ~10% | ~60% |
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[evans-ddd-2003]]
+- [[fowler-ddd-2003]]
+
+

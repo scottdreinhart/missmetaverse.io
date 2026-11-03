@@ -1,9 +1,18 @@
 ﻿---
 slug: system-design-101-ml-systems
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/optimization
   - system-design
   - machine-learning
   - ml-systems
@@ -127,3 +136,13 @@ Read these vault notes for deeper understanding:
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [ml-systems-guide](https://bytebytego.com/guides/how-do-we-design-ml-systems)
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

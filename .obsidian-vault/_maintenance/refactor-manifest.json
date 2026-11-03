@@ -1,0 +1,50 @@
+﻿[
+    {
+        "id":  "OP-001",
+        "description":  "Resolved 20 duplicate slug pairs",
+        "completed":  "2026-11-02",
+        "result":  "0 duplicate pairs, 486 unique slugs",
+        "status":  "complete",
+        "files_affected":  37
+    },
+    {
+        "id":  "OP-002",
+        "description":  "Fixed 732 broken wikilinks",
+        "completed":  "2026-11-02",
+        "result":  "299 intentional broken links remaining",
+        "status":  "complete",
+        "files_affected":  200
+    },
+    {
+        "id":  "OP-003",
+        "description":  "Added sources metadata to 73 files",
+        "completed":  "2026-11-02",
+        "result":  "482/555 files with sources",
+        "status":  "complete",
+        "files_affected":  73
+    },
+    {
+        "id":  "OP-004",
+        "description":  "Investigated 468 orphan files",
+        "completed":  "2026-11-02",
+        "result":  "446 intentional, 22 need review",
+        "status":  "complete",
+        "files_affected":  468
+    },
+    {
+        "id":  "OP-005",
+        "description":  "Added tags to 499 files",
+        "completed":  "2026-11-02",
+        "result":  "504/555 files with tags",
+        "status":  "complete",
+        "files_affected":  499
+    },
+    {
+        "id":  "OP-006",
+        "description":  "Created DOX hierarchy with 26 AGENTS.md files",
+        "completed":  "2026-11-02",
+        "result":  "3-level hierarchy created",
+        "status":  "complete",
+        "files_affected":  26
+    }
+]

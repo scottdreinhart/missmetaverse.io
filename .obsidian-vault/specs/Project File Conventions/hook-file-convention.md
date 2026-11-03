@@ -1,78 +1,141 @@
----
-slug: hook-file-convention
-sources:
-  - https://react.dev/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Hook File Convention
+
+> **Purpose:** Encapsulate reusable logic in custom hooks.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.hook.ts
+## concept_id
+`project-hook-file`
+
+## title
+*.hook.ts File Convention
+
+## aliases
+- Hook File Convention
+- *.hook.ts
+- Custom Hook
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- React applications
+- Reusable logic
+- State management
+- Project organization
+
+## tags
+- type/convention
+- domain/frontend
+- status/verified
+- priority/high
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-view-file
+- project-logic-file
+- project-data-file
+- project-schema-file
+- arch-custom-hooks-composables
+
+---
 
 ## Definition
 
-`*.hook.ts` is **a file naming convention for React custom hook files that encapsulate reusable stateful logic**.
-
-> "The *.hook.ts convention identifies React custom hook files that encapsulate reusable stateful logic." — React Docs
+The *.hook.ts file convention designates files that contain custom React hooks — reusable logic that encapsulates state, effects, and side effects.
 
 ## Problem Addressed
 
-Without `*.hook.ts` convention:
-- **Confusion**: Don't know which files contain custom hooks
-- **Mixing concerns**: Hooks are mixed with components
-- **Testing**: Hard to test hooks separately
-- **Maintenance**: Hard to maintain hooks
+Without file conventions:
+- Reusable logic is scattered
+- Hooks are inconsistent
+- Code duplication occurs
+- Maintenance is error-prone
 
 ## Scope and Boundaries
 
-- `*.hook.ts` ≠ `*.view.tsx` (`*.hook.ts` is for hooks, `*.view.tsx` is for UI)
-- `*.hook.ts` = Hooks (`*.hook.ts` is for custom hooks)
-- `*.hook.ts` is a **file naming convention**, not a pattern
+Hook files apply to:
+- Reusable state logic
+- Side effects
+- Event handling
+- Data fetching
+
+Hook files do not apply to:
+- Business logic
+- UI rendering
+- Data transformation
+- API integration
 
 ## When to Apply
 
-- When building React applications
-- when custom hooks are used
-- when testing is important
-- when maintenance is important
+- Creating reusable logic
+- Encapsulating state
+- Handling side effects
+- Building custom hooks
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every hook needs a separate file |
+- **Over-splitting**: Not every piece of logic needs a hook
+- **Not for business logic**: Hooks should not contain business logic
+- **Not for UI**: Hooks should not render UI
+- **Not for data**: Hooks should not fetch data
+
+## Implementation Guidance
+
+1. **Name hooks**: Name hooks with use prefix
+2. **Keep hooks focused**: Each hook should do one thing
+3. **Accept dependencies**: Accept dependencies as parameters
+4. **Return values**: Return values and functions
+5. **Test hooks**: Test hooks independently
+
+## Verification
+
+- [ ] Hooks are named correctly
+- [ ] Hooks are focused
+- [ ] Dependencies are accepted
+- [ ] Values are returned
+- [ ] Hooks are tested
 
 ## Common Misuses
 
-- **Everything a hook**: Not every piece of logic needs a hook
-- **Mixing concerns**: Hooks should not contain UI code
-- **Confusing with logic**: Hooks encapsulate stateful logic, logic files contain business logic
+- **Putting logic in hook**: Putting business logic in hooks
+- **Not naming**: Not naming hooks with use prefix
+- **Not testing**: Not testing hooks
+- **Not focusing**: Not keeping hooks focused
 
 ## Related Concepts
 
-- [Custom Hooks](Architecture/custom-hooks-composables.md) — Custom hooks are the pattern behind `*.hook.ts`
-- [Logic File Convention](Project File Conventions/logic-file-convention.md) — Logic file convention separates business logic
-- [View File Convention](Project File Conventions/view-file-convention.md) — View file convention separates UI
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
+- [[Architecture/custom-hooks-composables]] — Custom Hooks / Composables
 
 ## Project Observations
 
-- The project uses `*.hook.ts`:
-  - React supports `*.hook.ts` through custom hook system
-  - TypeScript supports `*.hook.ts` through module system
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.hook.ts` in existing code (src/ is empty)
-- File naming conventions support `*.hook.ts`:
-  - `*.hook.ts` — Hook files
-  - `*.view.tsx` — View files
+The project follows hook file convention through:
+- *.hook.ts files for custom hooks
+- *.view.tsx files for UI
+- *.logic.ts files for business logic
+- Clear separation of concerns
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Hook File Convention Note**

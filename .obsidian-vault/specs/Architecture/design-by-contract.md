@@ -1,77 +1,142 @@
----
-slug: design-by-contract
-sources:
-  - https://en.wikipedia.org/wiki/Design_by_contract
-  - https://en.wikipedia.org/wiki/Contract_(software_development)
-date: 2026-11-02
-tags:
-  - dbc
-  - principles
-  - design
-  - preconditions
-  - postconditions
-  - invariants
+# Design by Contract
+
+> **Purpose:** Define formal contracts for method interactions.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Design by Contract
+## concept_id
+`arch-design-by-contract`
+
+## title
+Design by Contract
+
+## aliases
+- DbC
+- Design by Contract
+- Contract Programming
+
+## category
+core-principles
+
+## concept_type
+design-principle
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Method design
+- API design
+- Service design
+- Domain modeling
+
+## tags
+- type/principle
+- domain/architecture
+- domain/coding
+- status/verified
+- priority/medium
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-fail-fast
+- arch-explicit-error-modeling
+- arch-input-validation
+- arch-boundary-validation
+- arch-pure-functions
+
+---
 
 ## Definition
 
-Design by Contract (DbC) is the principle that **classes and methods define formal, precise, and verifiable interface contracts** — preconditions (what must be true before), postconditions (what must be true after), and invariants (what must always be true).
-
-> "Design by Contract is a software engineering approach that defines formal, precise, and verifiable interface contracts for software components." — Bertrand Meyer (1986)
+Design by Contract is a principle where methods define formal contracts with preconditions (what must be true before calling), postconditions (what will be true after calling), and invariants (what must always be true).
 
 ## Problem Addressed
 
-Without contracts:
-- **Unexpected behavior**: Methods fail with unclear errors
-- **Debugging difficulty**: Hard to find where invariants are violated
-- **Testing difficulty**: Tests must cover all edge cases manually
-- **Documentation gap**: Interfaces are unclear
+Without Design by Contract:
+- Method requirements are unclear
+- Errors are discovered late
+- Documentation is incomplete
+- Testing is difficult
 
 ## Scope and Boundaries
 
-- DbC is about **formal specifications**, not just documentation
-- Preconditions = caller's responsibility
-- Postconditions = callee's responsibility
-- Invariants = always true
+DbC applies to:
+- Method design
+- API design
+- Service design
+- Domain modeling
+
+DbC does not apply to:
+- UI implementation
+- Infrastructure code
+- Configuration
+- Logging
 
 ## When to Apply
 
-- When designing public APIs
-- When critical invariants must be maintained
-- When building libraries used by others
-- When debugging complex state transitions
+- Designing public APIs
+- Creating service interfaces
+- Building domain models
+- Critical business logic
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Boilerplate** — Contracts add code |
-| **Performance** — Runtime checks add overhead |
-| **Maintenance** — Contracts must be updated with code |
+- **Overhead**: Checking contracts adds overhead
+- **Complexity**: Contracts can be complex to define
+- **Not for internal code**: Internal code may not need contracts
+- **Not for prototypes**: Prototypes don't need contracts
+
+## Implementation Guidance
+
+1. **Define preconditions**: Specify what must be true before calling
+2. **Define postconditions**: Specify what will be true after calling
+3. **Define invariants**: Specify what must always be true
+4. **Check contracts**: Validate contracts at runtime
+5. **Document contracts**: Document contracts clearly
+
+## Verification
+
+- [ ] Preconditions are defined
+- [ ] Postconditions are defined
+- [ ] Invariants are defined
+- [ ] Contracts are checked
+- [ ] Contracts are documented
 
 ## Common Misuses
 
-- **Over-specification**: Contracting every method
-- **False contracts**: Writing contracts that aren't enforced
-- **Confusing with validation**: DbC is about interfaces, validation is about data
+- **Over-constraining**: Too many contracts make code rigid
+- **Ignoring postconditions**: Not checking what methods return
+- **Not documenting**: Not documenting contracts
+- **Not checking**: Not validating contracts at runtime
 
 ## Related Concepts
 
-- **Input Validation** — DbC is a formal version of input validation
-- **Type Systems** — TypeScript types are a form of contract
-- **Fail Fast** — DbC enables fail-fast behavior
+- [[Architecture/fail-fast]] — Fail Fast
+- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
+- [[Security/input-validation]] — Input Validation
+- [[Coding Type Systems/boundary-validation]] — Boundary Validation
 
 ## Project Observations
 
-- TypeScript's type system provides compile-time contracts
-- Zod schemas (`*.schema.ts`) provide runtime contracts
-- File naming conventions support DbC:
-  - `*.schema.ts` — Define contracts
-  - `*.policy.ts` — Define business rules (invariants)
-- No evidence of DbC violations in existing code
+The project follows Design by Contract through:
+- TypeScript type system
+- Zod schema validation
+- Runtime type checking
+- Clear API documentation
 
 ## Sources
 
-- [[Sources/martin-oop-2000|martin-oop-2000]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Design by Contract Note**

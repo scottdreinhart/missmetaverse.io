@@ -1,78 +1,141 @@
----
-slug: schema-file-convention
-sources:
-  - https://zod.dev/
-  - https://www.typescriptlang.org/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Schema File Convention
+
+> **Purpose:** Define data schemas in dedicated files.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.schema.ts
+## concept_id
+`project-schema-file`
+
+## title
+*.schema.ts File Convention
+
+## aliases
+- Schema File Convention
+- *.schema.ts
+- Schema Module
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Data validation
+- API contracts
+- Form validation
+- Project organization
+
+## tags
+- type/convention
+- domain/frontend
+- status/verified
+- priority/high
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-view-file
+- project-logic-file
+- project-data-file
+- project-hook-file
+- data-driven-schema-driven
+
+---
 
 ## Definition
 
-`*.schema.ts` is **a file naming convention for TypeScript files that contain data validation schemas (e.g., Zod schemas)**.
-
-> "The *.schema.ts convention identifies TypeScript files that contain data validation schemas." — Zod Docs
+The *.schema.ts file convention designates files that define data schemas — validation rules, type definitions, and transformation logic using tools like Zod.
 
 ## Problem Addressed
 
-Without `*.schema.ts` convention:
-- **Confusion**: Don't know which files contain validation schemas
-- **Mixing concerns**: Schemas are mixed with business logic
-- **Testing**: Hard to test schemas separately
-- **Maintenance**: Hard to maintain schemas
+Without file conventions:
+- Schemas are scattered
+- Validation is inconsistent
+- Types are duplicated
+- Maintenance is error-prone
 
 ## Scope and Boundaries
 
-- `*.schema.ts` ≠ `*.data.ts` (`*.schema.ts` is for validation schemas, `*.data.ts` is for data definitions)
-- `*.schema.ts` = Schemas (`*.schema.ts` is for validation schemas)
-- `*.schema.ts` is a **file naming convention**, not a pattern
+Schema files apply to:
+- Data validation
+- Type definitions
+- Transformation logic
+- API contracts
+
+Schema files do not apply to:
+- Business logic
+- UI rendering
+- Data fetching
+- State management
 
 ## When to Apply
 
-- When building React applications with validation
-- when Zod or similar validation libraries are used
-- when testing is important
-- when maintenance is important
+- Defining validation rules
+- Creating type definitions
+- Building API contracts
+- Validating form data
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every schema needs a separate file |
+- **Over-splitting**: Not every type needs separate schema file
+- **Not for logic**: Schema files should not contain business logic
+- **Not for UI**: Schema files should not render UI
+- **Not for data**: Schema files should not fetch data
+
+## Implementation Guidance
+
+1. **Define schemas**: Define schemas for data
+2. **Export schemas**: Export schemas for reuse
+3. **Validate data**: Use schemas to validate data
+4. **Infer types**: Infer TypeScript types from schemas
+5. **Test schemas**: Test schema validation
+
+## Verification
+
+- [ ] Schemas are defined
+- [ ] Schemas are exported
+- [ ] Data is validated
+- [ ] Types are inferred
+- [ ] Schemas are tested
 
 ## Common Misuses
 
-- **Everything a schema**: Not every validation needs a separate schema file
-- **Mixing concerns**: Schema files should not contain business logic
-- **Confusing with types**: Schema files contain validation schemas, type files contain TypeScript types
+- **Not defining schemas**: Not defining schemas
+- **Not exporting**: Not exporting schemas
+- **Not validating**: Not validating data
+- **Not testing**: Not testing schemas
 
 ## Related Concepts
 
-- [Zod Patterns](Architecture/zod-patterns.md) — Zod patterns use `*.schema.ts`
-- [Input Validation](Security/input-validation.md) — Input validation uses schemas
-- [Boundary Validation](Coding Type Systems/boundary-validation.md) — Boundary validation uses schemas
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
+- [[Project File Conventions/hook-file-convention]] — *.hook.ts File Convention
 
 ## Project Observations
 
-- The project uses `*.schema.ts`:
-  - Zod supports `*.schema.ts` through schema definitions
-  - TypeScript supports `*.schema.ts` through module system
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.schema.ts` in existing code (src/ is empty)
-- File naming conventions support `*.schema.ts`:
-  - `*.schema.ts` — Schema files
-  - `*.data.ts` — Data files
+The project follows schema file convention through:
+- *.schema.ts files for validation
+- Zod schemas for runtime validation
+- Type inference from schemas
+- Clear validation boundaries
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Schema File Convention Note**

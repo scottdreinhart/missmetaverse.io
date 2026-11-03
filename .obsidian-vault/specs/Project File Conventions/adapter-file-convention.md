@@ -1,78 +1,141 @@
----
-slug: adapter-file-convention
-sources:
-  - https://www.typescriptlang.org/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Adapter File Convention
+
+> **Purpose:** Implement port interfaces for external concerns.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.adapter.ts
+## concept_id
+`project-adapter-file`
+
+## title
+*.adapter.ts File Convention
+
+## aliases
+- Adapter File Convention
+- *.adapter.ts
+- Adapter Implementation
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Hexagonal architecture
+- Port and adapter pattern
+- External integration
+- Project organization
+
+## tags
+- type/convention
+- domain/architecture
+- status/verified
+- priority/high
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-port-file
+- project-view-file
+- project-logic-file
+- project-data-file
+- arch-hexagonal-architecture
+
+---
 
 ## Definition
 
-`*.adapter.ts` is **a file naming convention for TypeScript files that contain adapter implementations connecting ports to external systems**.
-
-> "The *.adapter.ts convention identifies TypeScript files that contain adapter implementations." — TypeScript Docs
+The *.adapter.ts file convention designates files that implement port interfaces — concrete implementations that connect the domain layer to external concerns (databases, APIs, services).
 
 ## Problem Addressed
 
-Without `*.adapter.ts` convention:
-- **Confusion**: Don't know which files contain adapter implementations
-- **Mixing concerns**: Adapters are mixed with business logic
-- **Testing**: Hard to test adapters separately
-- **Maintenance**: Hard to maintain adapters
+Without file conventions:
+- Implementations are scattered
+- Adapters are inconsistent
+- Testing is difficult
+- Architecture is inconsistent
 
 ## Scope and Boundaries
 
-- `*.adapter.ts` ≠ `*.port.ts` (`*.adapter.ts` is for implementations, `*.port.ts` is for interfaces)
-- `*.adapter.ts` = Adapters (`*.adapter.ts` is for adapter implementations)
-- `*.adapter.ts` is a **file naming convention**, not a pattern
+Adapter files apply to:
+- Port implementations
+- External integration
+- Database access
+- API clients
+
+Adapter files do not apply to:
+- Business logic
+- UI rendering
+- Domain logic
+- State management
 
 ## When to Apply
 
-- When building hexagonal architecture applications
-- when adapter implementations are used
-- when testing is important
-- when maintenance is important
+- Implementing port interfaces
+- Integrating with external systems
+- Building database access
+- Creating API clients
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every adapter needs a separate file |
+- **Over-splitting**: Not every implementation needs separate file
+- **Not for logic**: Adapter files should not contain business logic
+- **Not for UI**: Adapter files should not render UI
+- **Not for domain**: Adapter files should not contain domain logic
+
+## Implementation Guidance
+
+1. **Implement ports**: Implement port interfaces
+2. **Handle external**: Handle external concerns
+3. **Transform data**: Transform data between external and internal formats
+4. **Handle errors**: Handle errors from external systems
+5. **Test adapters**: Test adapter implementations
+
+## Verification
+
+- [ ] Ports are implemented
+- [ ] External concerns are handled
+- [ ] Data is transformed
+- [ ] Errors are handled
+- [ ] Adapters are tested
 
 ## Common Misuses
 
-- **Everything an adapter**: Not every integration needs an adapter file
-- **Mixing concerns**: Adapter files should not contain business logic
-- **Confusing with port**: Adapter files contain implementations, port files contain interfaces
+- **Not implementing ports**: Not implementing port interfaces
+- **Not transforming**: Not transforming data
+- **Not handling errors**: Not handling errors
+- **Not testing**: Not testing adapters
 
 ## Related Concepts
 
-- [Adapter Pattern](Architecture/adapter-pattern.md) — Adapter pattern is the pattern behind `*.adapter.ts`
-- [Port File Convention](Project File Conventions/port-file-convention.md) — Port file convention defines interfaces
-- [Hexagonal Architecture](Architecture/hexagonal-architecture.md) — Hexagonal architecture uses adapters
+- [[Project File Conventions/port-file-convention]] — *.port.ts File Convention
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Architecture/hexagonal-architecture]] — Hexagonal Architecture
 
 ## Project Observations
 
-- The project uses `*.adapter.ts`:
-  - TypeScript supports `*.adapter.ts` through module system
-  - React supports `*.adapter.ts` through adapter implementations
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.adapter.ts` in existing code (src/ is empty)
-- File naming conventions support `*.adapter.ts`:
-  - `*.adapter.ts` — Adapter files
-  - `*.port.ts` — Port files
+The project follows adapter file convention through:
+- *.adapter.ts files for implementations
+- *.port.ts files for interfaces
+- Dependency injection
+- Hexagonal architecture
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Adapter File Convention Note**

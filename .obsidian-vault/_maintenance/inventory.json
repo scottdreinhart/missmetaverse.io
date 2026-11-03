@@ -1,0 +1,5231 @@
+﻿[
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  206,
+        "path":  "specs\\00-architecture-index.md",
+        "title":  null,
+        "size":  8823
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  65,
+        "path":  "specs\\AGENTS.md",
+        "title":  null,
+        "size":  2521
+    },
+    {
+        "has_tags":  false,
+        "slug":  "example-enhanced-note",
+        "has_sources":  false,
+        "lines":  448,
+        "path":  "specs\\Copilot-Consumption-Guide.md",
+        "title":  null,
+        "size":  14606
+    },
+    {
+        "has_tags":  true,
+        "slug":  "playwright-e2e",
+        "has_sources":  true,
+        "lines":  671,
+        "path":  "specs\\playwright-e2e.md",
+        "title":  null,
+        "size":  16490
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  144,
+        "path":  "specs\\Project-Architecture-Mapping.md",
+        "title":  null,
+        "size":  5747
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  442,
+        "path":  "specs\\Research-Status.md",
+        "title":  null,
+        "size":  22261
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vault-integration-map",
+        "has_sources":  false,
+        "lines":  367,
+        "path":  "specs\\vault-integration-map.md",
+        "title":  null,
+        "size":  14979
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  270,
+        "path":  "specs\\_template-spec.md",
+        "title":  null,
+        "size":  5657
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\APIs Distributed Systems\\AGENTS.md",
+        "title":  null,
+        "size":  767
+    },
+    {
+        "has_tags":  true,
+        "slug":  "backpressure",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\backpressure.md",
+        "title":  null,
+        "size":  2766
+    },
+    {
+        "has_tags":  true,
+        "slug":  "backward-compatibility",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\backward-compatibility.md",
+        "title":  null,
+        "size":  2842
+    },
+    {
+        "has_tags":  true,
+        "slug":  "bff",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\bff.md",
+        "title":  null,
+        "size":  2520
+    },
+    {
+        "has_tags":  true,
+        "slug":  "cancellation",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\cancellation.md",
+        "title":  null,
+        "size":  2752
+    },
+    {
+        "has_tags":  true,
+        "slug":  "dtos",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\dtos.md",
+        "title":  null,
+        "size":  2529
+    },
+    {
+        "has_tags":  true,
+        "slug":  "inbox-pattern",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\inbox-pattern.md",
+        "title":  null,
+        "size":  2835
+    },
+    {
+        "has_tags":  true,
+        "slug":  "message-deduplication",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\message-deduplication.md",
+        "title":  null,
+        "size":  2977
+    },
+    {
+        "has_tags":  true,
+        "slug":  "read-through-cache",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\read-through-cache.md",
+        "title":  null,
+        "size":  2787
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  38,
+        "path":  "specs\\APIs Distributed Systems\\README.md",
+        "title":  null,
+        "size":  2063
+    },
+    {
+        "has_tags":  true,
+        "slug":  "timeouts",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\timeouts.md",
+        "title":  null,
+        "size":  2628
+    },
+    {
+        "has_tags":  true,
+        "slug":  "write-through-cache",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\APIs Distributed Systems\\write-through-cache.md",
+        "title":  null,
+        "size":  2749
+    },
+    {
+        "has_tags":  true,
+        "slug":  "abstract-factory-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\abstract-factory-pattern.md",
+        "title":  null,
+        "size":  2731
+    },
+    {
+        "has_tags":  true,
+        "slug":  "abstract-factory-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\abstract-factory-patterns.md",
+        "title":  null,
+        "size":  2915
+    },
+    {
+        "has_tags":  true,
+        "slug":  "accessibility-a11y-patterns",
+        "has_sources":  true,
+        "lines":  81,
+        "path":  "specs\\Architecture\\accessibility-a11y-patterns.md",
+        "title":  null,
+        "size":  2500
+    },
+    {
+        "has_tags":  true,
+        "slug":  "accessibility-a11y",
+        "has_sources":  true,
+        "lines":  130,
+        "path":  "specs\\Architecture\\accessibility-a11y.md",
+        "title":  null,
+        "size":  4763
+    },
+    {
+        "has_tags":  true,
+        "slug":  "accessibility-by-design",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\accessibility-by-design.md",
+        "title":  null,
+        "size":  2405
+    },
+    {
+        "has_tags":  true,
+        "slug":  "active-record-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\active-record-pattern.md",
+        "title":  null,
+        "size":  2537
+    },
+    {
+        "has_tags":  true,
+        "slug":  "active-record-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\active-record-patterns.md",
+        "title":  null,
+        "size":  2852
+    },
+    {
+        "has_tags":  true,
+        "slug":  "adapter-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\adapter-pattern.md",
+        "title":  null,
+        "size":  2371
+    },
+    {
+        "has_tags":  true,
+        "slug":  "adapter-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\adapter-patterns.md",
+        "title":  null,
+        "size":  2569
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  34,
+        "path":  "specs\\Architecture\\AGENTS.md",
+        "title":  null,
+        "size":  1145
+    },
+    {
+        "has_tags":  true,
+        "slug":  "alerting-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\alerting-patterns-stub.md",
+        "title":  null,
+        "size":  145
+    },
+    {
+        "has_tags":  true,
+        "slug":  "alerting-patterns-original",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\alerting-patterns.md",
+        "title":  null,
+        "size":  2303
+    },
+    {
+        "has_tags":  true,
+        "slug":  "alerting",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\alerting.md",
+        "title":  null,
+        "size":  2152
+    },
+    {
+        "has_tags":  true,
+        "slug":  "anti-corruption-layer-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\anti-corruption-layer-pattern.md",
+        "title":  null,
+        "size":  2718
+    },
+    {
+        "has_tags":  true,
+        "slug":  "anti-corruption-layer-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\anti-corruption-layer-patterns.md",
+        "title":  null,
+        "size":  3092
+    },
+    {
+        "has_tags":  true,
+        "slug":  "anti-corruption-layer",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\anti-corruption-layer.md",
+        "title":  null,
+        "size":  2532
+    },
+    {
+        "has_tags":  true,
+        "slug":  "api-gateway-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\api-gateway-pattern.md",
+        "title":  null,
+        "size":  2423
+    },
+    {
+        "has_tags":  true,
+        "slug":  "api-gateway-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\api-gateway-patterns.md",
+        "title":  null,
+        "size":  2470
+    },
+    {
+        "has_tags":  true,
+        "slug":  "api-gateway",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\api-gateway.md",
+        "title":  null,
+        "size":  2417
+    },
+    {
+        "has_tags":  true,
+        "slug":  "api-rate-limiting",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\api-rate-limiting.md",
+        "title":  null,
+        "size":  2477
+    },
+    {
+        "has_tags":  true,
+        "slug":  "api-versioning",
+        "has_sources":  true,
+        "lines":  74,
+        "path":  "specs\\Architecture\\api-versioning.md",
+        "title":  null,
+        "size":  2319
+    },
+    {
+        "has_tags":  true,
+        "slug":  "architecture-decision-records",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\architecture-decision-records.md",
+        "title":  null,
+        "size":  2486
+    },
+    {
+        "has_tags":  true,
+        "slug":  "architecture-patterns",
+        "has_sources":  true,
+        "lines":  640,
+        "path":  "specs\\Architecture\\architecture-patterns.md",
+        "title":  null,
+        "size":  19407
+    },
+    {
+        "has_tags":  true,
+        "slug":  "atomic-design-methodology",
+        "has_sources":  true,
+        "lines":  15,
+        "path":  "specs\\Architecture\\atomic-design-methodology-stub.md",
+        "title":  null,
+        "size":  249
+    },
+    {
+        "has_tags":  true,
+        "slug":  "atomic-design-methodology-original",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\atomic-design-methodology.md",
+        "title":  null,
+        "size":  2345
+    },
+    {
+        "has_tags":  true,
+        "slug":  "atomic-design-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\atomic-design-patterns.md",
+        "title":  null,
+        "size":  2485
+    },
+    {
+        "has_tags":  true,
+        "slug":  "atomic-design",
+        "has_sources":  true,
+        "lines":  446,
+        "path":  "specs\\Architecture\\atomic-design.md",
+        "title":  null,
+        "size":  13266
+    },
+    {
+        "has_tags":  true,
+        "slug":  "authentication",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\authentication.md",
+        "title":  null,
+        "size":  2266
+    },
+    {
+        "has_tags":  true,
+        "slug":  "authorization",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\authorization.md",
+        "title":  null,
+        "size":  2275
+    },
+    {
+        "has_tags":  true,
+        "slug":  "automated-testing",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\automated-testing.md",
+        "title":  null,
+        "size":  2375
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  1904,
+        "path":  "specs\\Architecture\\blogging-platform-requirements.md",
+        "title":  null,
+        "size":  57944
+    },
+    {
+        "has_tags":  true,
+        "slug":  "bridge-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\bridge-pattern.md",
+        "title":  null,
+        "size":  2345
+    },
+    {
+        "has_tags":  true,
+        "slug":  "bridge-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\bridge-patterns.md",
+        "title":  null,
+        "size":  2550
+    },
+    {
+        "has_tags":  true,
+        "slug":  "builder-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\builder-pattern.md",
+        "title":  null,
+        "size":  2509
+    },
+    {
+        "has_tags":  true,
+        "slug":  "builder-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\builder-patterns.md",
+        "title":  null,
+        "size":  2597
+    },
+    {
+        "has_tags":  true,
+        "slug":  "bulkheads-pattern",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\bulkheads-pattern.md",
+        "title":  null,
+        "size":  2308
+    },
+    {
+        "has_tags":  true,
+        "slug":  "cache-aside-pattern",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\cache-aside-pattern.md",
+        "title":  null,
+        "size":  2361
+    },
+    {
+        "has_tags":  true,
+        "slug":  "caching-strategies",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\caching-strategies.md",
+        "title":  null,
+        "size":  2211
+    },
+    {
+        "has_tags":  true,
+        "slug":  "chain-of-responsibility-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\chain-of-responsibility-pattern.md",
+        "title":  null,
+        "size":  2706
+    },
+    {
+        "has_tags":  true,
+        "slug":  "chain-of-responsibility-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\chain-of-responsibility-patterns.md",
+        "title":  null,
+        "size":  3054
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ci-cd-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\ci-cd-patterns-stub.md",
+        "title":  null,
+        "size":  132
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ci-cd-patterns-original",
+        "has_sources":  true,
+        "lines":  329,
+        "path":  "specs\\Architecture\\ci-cd-patterns.md",
+        "title":  null,
+        "size":  8951
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ci-cd",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\ci-cd.md",
+        "title":  null,
+        "size":  2128
+    },
+    {
+        "has_tags":  true,
+        "slug":  "circuit-breaker-pattern",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\circuit-breaker-pattern.md",
+        "title":  null,
+        "size":  2418
+    },
+    {
+        "has_tags":  true,
+        "slug":  "classic-design-patterns",
+        "has_sources":  true,
+        "lines":  1074,
+        "path":  "specs\\Architecture\\classic-design-patterns.md",
+        "title":  null,
+        "size":  27278
+    },
+    {
+        "has_tags":  true,
+        "slug":  "clean-architecture",
+        "has_sources":  true,
+        "lines":  604,
+        "path":  "specs\\Architecture\\clean-architecture.md",
+        "title":  null,
+        "size":  19236
+    },
+    {
+        "has_tags":  true,
+        "slug":  "code-quality",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\code-quality.md",
+        "title":  null,
+        "size":  2366
+    },
+    {
+        "has_tags":  true,
+        "slug":  "code-review-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\code-review-patterns.md",
+        "title":  null,
+        "size":  2520
+    },
+    {
+        "has_tags":  true,
+        "slug":  "code-review",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\code-review.md",
+        "title":  null,
+        "size":  2406
+    },
+    {
+        "has_tags":  true,
+        "slug":  "coding-practices",
+        "has_sources":  true,
+        "lines":  652,
+        "path":  "specs\\Architecture\\coding-practices.md",
+        "title":  null,
+        "size":  16298
+    },
+    {
+        "has_tags":  true,
+        "slug":  "command-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\command-pattern.md",
+        "title":  null,
+        "size":  2388
+    },
+    {
+        "has_tags":  true,
+        "slug":  "command-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\command-patterns.md",
+        "title":  null,
+        "size":  2559
+    },
+    {
+        "has_tags":  true,
+        "slug":  "command-query-separation",
+        "has_sources":  true,
+        "lines":  74,
+        "path":  "specs\\Architecture\\command-query-separation.md",
+        "title":  null,
+        "size":  2483
+    },
+    {
+        "has_tags":  true,
+        "slug":  "commitlint-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\commitlint-patterns.md",
+        "title":  null,
+        "size":  2365
+    },
+    {
+        "has_tags":  true,
+        "slug":  "component-based-architecture",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Architecture\\component-based-architecture.md",
+        "title":  null,
+        "size":  2883
+    },
+    {
+        "has_tags":  true,
+        "slug":  "component-composition-pattern",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\component-composition-pattern.md",
+        "title":  null,
+        "size":  2450
+    },
+    {
+        "has_tags":  true,
+        "slug":  "component-composition-pattern-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\component-composition-patterns.md",
+        "title":  null,
+        "size":  2865
+    },
+    {
+        "has_tags":  true,
+        "slug":  "component-composition",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\component-composition.md",
+        "title":  null,
+        "size":  2431
+    },
+    {
+        "has_tags":  true,
+        "slug":  "composite-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\composite-pattern.md",
+        "title":  null,
+        "size":  2432
+    },
+    {
+        "has_tags":  true,
+        "slug":  "composite-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\composite-patterns.md",
+        "title":  null,
+        "size":  2721
+    },
+    {
+        "has_tags":  true,
+        "slug":  "composition-over-inheritance",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Architecture\\composition-over-inheritance.md",
+        "title":  null,
+        "size":  2638
+    },
+    {
+        "has_tags":  true,
+        "slug":  "composition-root-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\composition-root-patterns.md",
+        "title":  null,
+        "size":  2600
+    },
+    {
+        "has_tags":  true,
+        "slug":  "composition-root",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\composition-root.md",
+        "title":  null,
+        "size":  2414
+    },
+    {
+        "has_tags":  true,
+        "slug":  "configuration-driven-development",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\configuration-driven-development.md",
+        "title":  null,
+        "size":  2675
+    },
+    {
+        "has_tags":  true,
+        "slug":  "container-presentational-pattern",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Architecture\\container-presentational-pattern.md",
+        "title":  null,
+        "size":  2979
+    },
+    {
+        "has_tags":  true,
+        "slug":  "content-security-policy",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\content-security-policy.md",
+        "title":  null,
+        "size":  2107
+    },
+    {
+        "has_tags":  true,
+        "slug":  "continuous-deployment",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\continuous-deployment.md",
+        "title":  null,
+        "size":  2304
+    },
+    {
+        "has_tags":  true,
+        "slug":  "continuous-integration",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\continuous-integration.md",
+        "title":  null,
+        "size":  2371
+    },
+    {
+        "has_tags":  true,
+        "slug":  "conventional-commits-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\conventional-commits-patterns.md",
+        "title":  null,
+        "size":  2991
+    },
+    {
+        "has_tags":  true,
+        "slug":  "conventional-commits",
+        "has_sources":  true,
+        "lines":  247,
+        "path":  "specs\\Architecture\\conventional-commits.md",
+        "title":  null,
+        "size":  7849
+    },
+    {
+        "has_tags":  true,
+        "slug":  "core-principles",
+        "has_sources":  true,
+        "lines":  537,
+        "path":  "specs\\Architecture\\core-principles.md",
+        "title":  null,
+        "size":  14243
+    },
+    {
+        "has_tags":  true,
+        "slug":  "cors-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\cors-patterns.md",
+        "title":  null,
+        "size":  2285
+    },
+    {
+        "has_tags":  true,
+        "slug":  "cqrs-pattern",
+        "has_sources":  true,
+        "lines":  111,
+        "path":  "specs\\Architecture\\cqrs-pattern.md",
+        "title":  null,
+        "size":  4280
+    },
+    {
+        "has_tags":  true,
+        "slug":  "css-fundamentals-stub",
+        "has_sources":  true,
+        "lines":  15,
+        "path":  "specs\\Architecture\\css-fundamentals-stub.md",
+        "title":  null,
+        "size":  233
+    },
+    {
+        "has_tags":  true,
+        "slug":  "css-fundamentals-original",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\css-fundamentals.md",
+        "title":  null,
+        "size":  2216
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  1312,
+        "path":  "specs\\Architecture\\custom-cms-requirements.md",
+        "title":  null,
+        "size":  38713
+    },
+    {
+        "has_tags":  true,
+        "slug":  "custom-hooks-composables",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\custom-hooks-composables.md",
+        "title":  null,
+        "size":  2339
+    },
+    {
+        "has_tags":  true,
+        "slug":  "custom-hooks-pattern",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\custom-hooks-pattern.md",
+        "title":  null,
+        "size":  2280
+    },
+    {
+        "has_tags":  true,
+        "slug":  "custom-hooks-pattern-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\custom-hooks-patterns.md",
+        "title":  null,
+        "size":  2578
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-driven-design",
+        "has_sources":  true,
+        "lines":  74,
+        "path":  "specs\\Architecture\\data-driven-design.md",
+        "title":  null,
+        "size":  2486
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-encryption",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\data-encryption.md",
+        "title":  null,
+        "size":  2253
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-mapper-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\data-mapper-pattern.md",
+        "title":  null,
+        "size":  2443
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-mapper-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\data-mapper-patterns.md",
+        "title":  null,
+        "size":  2735
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-modeling-principles",
+        "has_sources":  true,
+        "lines":  463,
+        "path":  "specs\\Architecture\\data-modeling-principles.md",
+        "title":  null,
+        "size":  11767
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-modeling",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\data-modeling.md",
+        "title":  null,
+        "size":  2227
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-transfer-objects",
+        "has_sources":  true,
+        "lines":  74,
+        "path":  "specs\\Architecture\\data-transfer-objects.md",
+        "title":  null,
+        "size":  2342
+    },
+    {
+        "has_tags":  true,
+        "slug":  "database-design",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\database-design.md",
+        "title":  null,
+        "size":  2214
+    },
+    {
+        "has_tags":  true,
+        "slug":  "database-migrations",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\database-migrations.md",
+        "title":  null,
+        "size":  2366
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ddd-patterns",
+        "has_sources":  true,
+        "lines":  659,
+        "path":  "specs\\Architecture\\ddd-patterns.md",
+        "title":  null,
+        "size":  19418
+    },
+    {
+        "has_tags":  true,
+        "slug":  "dead-letter-queues",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\dead-letter-queues.md",
+        "title":  null,
+        "size":  2262
+    },
+    {
+        "has_tags":  true,
+        "slug":  "declarative-programming",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\declarative-programming.md",
+        "title":  null,
+        "size":  2484
+    },
+    {
+        "has_tags":  true,
+        "slug":  "decorator-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\decorator-pattern.md",
+        "title":  null,
+        "size":  2406
+    },
+    {
+        "has_tags":  true,
+        "slug":  "decorator-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\decorator-patterns.md",
+        "title":  null,
+        "size":  2630
+    },
+    {
+        "has_tags":  true,
+        "slug":  "dependency-injection-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\dependency-injection-patterns.md",
+        "title":  null,
+        "size":  2958
+    },
+    {
+        "has_tags":  true,
+        "slug":  "dependency-injection",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\dependency-injection.md",
+        "title":  null,
+        "size":  2497
+    },
+    {
+        "has_tags":  true,
+        "slug":  "dependency-management-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\dependency-management-patterns.md",
+        "title":  null,
+        "size":  2681
+    },
+    {
+        "has_tags":  true,
+        "slug":  "dependency-management",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\dependency-management.md",
+        "title":  null,
+        "size":  2536
+    },
+    {
+        "has_tags":  true,
+        "slug":  "deployment-patterns-stub",
+        "has_sources":  false,
+        "lines":  11,
+        "path":  "specs\\Architecture\\deployment-patterns-stub.md",
+        "title":  null,
+        "size":  135
+    },
+    {
+        "has_tags":  true,
+        "slug":  "deployment-patterns-original",
+        "has_sources":  true,
+        "lines":  281,
+        "path":  "specs\\Architecture\\deployment-patterns.md",
+        "title":  null,
+        "size":  7148
+    },
+    {
+        "has_tags":  true,
+        "slug":  "deployment",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\deployment.md",
+        "title":  null,
+        "size":  2118
+    },
+    {
+        "has_tags":  true,
+        "slug":  "design-by-contract",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Architecture\\design-by-contract.md",
+        "title":  null,
+        "size":  2531
+    },
+    {
+        "has_tags":  true,
+        "slug":  "design-patterns-overview-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\design-patterns-overview-patterns.md",
+        "title":  null,
+        "size":  3111
+    },
+    {
+        "has_tags":  true,
+        "slug":  "design-patterns-overview",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\design-patterns-overview.md",
+        "title":  null,
+        "size":  2440
+    },
+    {
+        "has_tags":  true,
+        "slug":  "design-systems-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\design-systems-patterns.md",
+        "title":  null,
+        "size":  2485
+    },
+    {
+        "has_tags":  true,
+        "slug":  "design-systems",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\design-systems.md",
+        "title":  null,
+        "size":  2366
+    },
+    {
+        "has_tags":  true,
+        "slug":  "design-tokens",
+        "has_sources":  true,
+        "lines":  82,
+        "path":  "specs\\Architecture\\design-tokens.md",
+        "title":  null,
+        "size":  2797
+    },
+    {
+        "has_tags":  true,
+        "slug":  "discriminated-unions",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\discriminated-unions.md",
+        "title":  null,
+        "size":  2486
+    },
+    {
+        "has_tags":  true,
+        "slug":  "docker-deployment-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\docker-deployment-patterns-stub.md",
+        "title":  null,
+        "size":  161
+    },
+    {
+        "has_tags":  true,
+        "slug":  "docker-deployment-patterns-original",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\docker-deployment-patterns.md",
+        "title":  null,
+        "size":  2415
+    },
+    {
+        "has_tags":  true,
+        "slug":  "docker-deployment",
+        "has_sources":  true,
+        "lines":  332,
+        "path":  "specs\\Architecture\\docker-deployment.md",
+        "title":  null,
+        "size":  8262
+    },
+    {
+        "has_tags":  true,
+        "slug":  "dry-principle",
+        "has_sources":  true,
+        "lines":  74,
+        "path":  "specs\\Architecture\\dry-principle.md",
+        "title":  null,
+        "size":  2751
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  2533,
+        "path":  "specs\\Architecture\\ecommerce-platform-requirements.md",
+        "title":  null,
+        "size":  81256
+    },
+    {
+        "has_tags":  true,
+        "slug":  "encapsulation",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\encapsulation.md",
+        "title":  null,
+        "size":  2561
+    },
+    {
+        "has_tags":  true,
+        "slug":  "error-handling",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\error-handling.md",
+        "title":  null,
+        "size":  2310
+    },
+    {
+        "has_tags":  true,
+        "slug":  "eslint-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\eslint-patterns.md",
+        "title":  null,
+        "size":  2205
+    },
+    {
+        "has_tags":  true,
+        "slug":  "event-driven-architecture",
+        "has_sources":  true,
+        "lines":  115,
+        "path":  "specs\\Architecture\\event-driven-architecture.md",
+        "title":  null,
+        "size":  4524
+    },
+    {
+        "has_tags":  true,
+        "slug":  "eventual-consistency",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\eventual-consistency.md",
+        "title":  null,
+        "size":  2389
+    },
+    {
+        "has_tags":  true,
+        "slug":  "explicit-error-modeling",
+        "has_sources":  true,
+        "lines":  74,
+        "path":  "specs\\Architecture\\explicit-error-modeling.md",
+        "title":  null,
+        "size":  2415
+    },
+    {
+        "has_tags":  true,
+        "slug":  "explicit-over-implicit",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\explicit-over-implicit.md",
+        "title":  null,
+        "size":  2423
+    },
+    {
+        "has_tags":  true,
+        "slug":  "facade-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\facade-pattern.md",
+        "title":  null,
+        "size":  2252
+    },
+    {
+        "has_tags":  true,
+        "slug":  "facade-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\facade-patterns.md",
+        "title":  null,
+        "size":  2468
+    },
+    {
+        "has_tags":  true,
+        "slug":  "factory-method-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\factory-method-pattern.md",
+        "title":  null,
+        "size":  2679
+    },
+    {
+        "has_tags":  true,
+        "slug":  "factory-method-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\factory-method-patterns.md",
+        "title":  null,
+        "size":  3027
+    },
+    {
+        "has_tags":  true,
+        "slug":  "factory-pattern-ddd",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\factory-pattern-ddd.md",
+        "title":  null,
+        "size":  2401
+    },
+    {
+        "has_tags":  true,
+        "slug":  "factory-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\factory-pattern.md",
+        "title":  null,
+        "size":  2407
+    },
+    {
+        "has_tags":  true,
+        "slug":  "factory-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\factory-patterns.md",
+        "title":  null,
+        "size":  2597
+    },
+    {
+        "has_tags":  true,
+        "slug":  "fail-fast",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\fail-fast.md",
+        "title":  null,
+        "size":  2371
+    },
+    {
+        "has_tags":  true,
+        "slug":  "file-level-separation-conventions",
+        "has_sources":  true,
+        "lines":  588,
+        "path":  "specs\\Architecture\\file-level-separation-conventions.md",
+        "title":  null,
+        "size":  14951
+    },
+    {
+        "has_tags":  true,
+        "slug":  "flyweight-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\flyweight-pattern.md",
+        "title":  null,
+        "size":  2401
+    },
+    {
+        "has_tags":  true,
+        "slug":  "flyweight-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\flyweight-patterns.md",
+        "title":  null,
+        "size":  2584
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  2514,
+        "path":  "specs\\Architecture\\forum-debate-platform-requirements.md",
+        "title":  null,
+        "size":  76366
+    },
+    {
+        "has_tags":  true,
+        "slug":  "functional-core-shell-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\functional-core-shell-patterns.md",
+        "title":  null,
+        "size":  3131
+    },
+    {
+        "has_tags":  true,
+        "slug":  "functional-core-shell",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\functional-core-shell.md",
+        "title":  null,
+        "size":  2843
+    },
+    {
+        "has_tags":  true,
+        "slug":  "generics-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\generics-patterns.md",
+        "title":  null,
+        "size":  2228
+    },
+    {
+        "has_tags":  true,
+        "slug":  "git-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\git-patterns-stub.md",
+        "title":  null,
+        "size":  135
+    },
+    {
+        "has_tags":  true,
+        "slug":  "git-patterns-original",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\git-patterns.md",
+        "title":  null,
+        "size":  2067
+    },
+    {
+        "has_tags":  true,
+        "slug":  "git",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\git.md",
+        "title":  null,
+        "size":  1969
+    },
+    {
+        "has_tags":  true,
+        "slug":  "github-actions-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\github-actions-patterns-stub.md",
+        "title":  null,
+        "size":  158
+    },
+    {
+        "has_tags":  true,
+        "slug":  "github-actions-patterns-original",
+        "has_sources":  true,
+        "lines":  337,
+        "path":  "specs\\Architecture\\github-actions-patterns.md",
+        "title":  null,
+        "size":  8890
+    },
+    {
+        "has_tags":  true,
+        "slug":  "github-actions",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\github-actions.md",
+        "title":  null,
+        "size":  2297
+    },
+    {
+        "has_tags":  true,
+        "slug":  "graphql-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\graphql-patterns.md",
+        "title":  null,
+        "size":  2112
+    },
+    {
+        "has_tags":  true,
+        "slug":  "hashing-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\hashing-patterns.md",
+        "title":  null,
+        "size":  2162
+    },
+    {
+        "has_tags":  true,
+        "slug":  "headless-components",
+        "has_sources":  true,
+        "lines":  71,
+        "path":  "specs\\Architecture\\headless-components.md",
+        "title":  null,
+        "size":  2225
+    },
+    {
+        "has_tags":  true,
+        "slug":  "headless-ui-pattern",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\headless-ui-pattern.md",
+        "title":  null,
+        "size":  2295
+    },
+    {
+        "has_tags":  true,
+        "slug":  "headless-ui-pattern-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\headless-ui-patterns.md",
+        "title":  null,
+        "size":  2597
+    },
+    {
+        "has_tags":  true,
+        "slug":  "high-cohesion",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\high-cohesion.md",
+        "title":  null,
+        "size":  2549
+    },
+    {
+        "has_tags":  true,
+        "slug":  "html-semantic-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\html-semantic-patterns-stub.md",
+        "title":  null,
+        "size":  149
+    },
+    {
+        "has_tags":  true,
+        "slug":  "html-semantic-patterns-original",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\html-semantic-patterns.md",
+        "title":  null,
+        "size":  2363
+    },
+    {
+        "has_tags":  true,
+        "slug":  "husky-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\husky-patterns.md",
+        "title":  null,
+        "size":  2105
+    },
+    {
+        "has_tags":  true,
+        "slug":  "identity-map-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\identity-map-pattern.md",
+        "title":  null,
+        "size":  2518
+    },
+    {
+        "has_tags":  true,
+        "slug":  "identity-map-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\identity-map-patterns.md",
+        "title":  null,
+        "size":  2807
+    },
+    {
+        "has_tags":  true,
+        "slug":  "immutable-data",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\immutable-data.md",
+        "title":  null,
+        "size":  2444
+    },
+    {
+        "has_tags":  true,
+        "slug":  "information-hiding",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\information-hiding.md",
+        "title":  null,
+        "size":  2655
+    },
+    {
+        "has_tags":  true,
+        "slug":  "input-validation",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\input-validation.md",
+        "title":  null,
+        "size":  2345
+    },
+    {
+        "has_tags":  true,
+        "slug":  "internationalization-by-design",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Architecture\\internationalization-by-design.md",
+        "title":  null,
+        "size":  2435
+    },
+    {
+        "has_tags":  true,
+        "slug":  "interpreter-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\interpreter-pattern.md",
+        "title":  null,
+        "size":  2495
+    },
+    {
+        "has_tags":  true,
+        "slug":  "iterator-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\iterator-pattern.md",
+        "title":  null,
+        "size":  2503
+    },
+    {
+        "has_tags":  true,
+        "slug":  "iterator-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\iterator-patterns.md",
+        "title":  null,
+        "size":  2612
+    },
+    {
+        "has_tags":  true,
+        "slug":  "jwt-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\jwt-patterns.md",
+        "title":  null,
+        "size":  2163
+    },
+    {
+        "has_tags":  true,
+        "slug":  "kiss-principle",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\kiss-principle.md",
+        "title":  null,
+        "size":  2441
+    },
+    {
+        "has_tags":  true,
+        "slug":  "law-of-demeter",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Architecture\\law-of-demeter.md",
+        "title":  null,
+        "size":  2511
+    },
+    {
+        "has_tags":  true,
+        "slug":  "layered-architecture-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\layered-architecture-patterns.md",
+        "title":  null,
+        "size":  2680
+    },
+    {
+        "has_tags":  true,
+        "slug":  "layered-architecture",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\layered-architecture.md",
+        "title":  null,
+        "size":  2474
+    },
+    {
+        "has_tags":  true,
+        "slug":  "lazy-loading-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\lazy-loading-patterns.md",
+        "title":  null,
+        "size":  2726
+    },
+    {
+        "has_tags":  true,
+        "slug":  "linting",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\linting.md",
+        "title":  null,
+        "size":  2266
+    },
+    {
+        "has_tags":  true,
+        "slug":  "logging-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\logging-patterns-stub.md",
+        "title":  null,
+        "size":  142
+    },
+    {
+        "has_tags":  true,
+        "slug":  "logging-patterns-original",
+        "has_sources":  true,
+        "lines":  306,
+        "path":  "specs\\Architecture\\logging-patterns.md",
+        "title":  null,
+        "size":  8315
+    },
+    {
+        "has_tags":  true,
+        "slug":  "logging",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\logging.md",
+        "title":  null,
+        "size":  2143
+    },
+    {
+        "has_tags":  true,
+        "slug":  "low-coupling",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\low-coupling.md",
+        "title":  null,
+        "size":  2624
+    },
+    {
+        "has_tags":  true,
+        "slug":  "make-invalid-states-unrepresentable",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\make-invalid-states-unrepresentable.md",
+        "title":  null,
+        "size":  2572
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mediator-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\mediator-pattern.md",
+        "title":  null,
+        "size":  2507
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mediator-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\mediator-patterns.md",
+        "title":  null,
+        "size":  2584
+    },
+    {
+        "has_tags":  true,
+        "slug":  "memento-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\memento-pattern.md",
+        "title":  null,
+        "size":  2387
+    },
+    {
+        "has_tags":  true,
+        "slug":  "memento-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\memento-patterns.md",
+        "title":  null,
+        "size":  2642
+    },
+    {
+        "has_tags":  true,
+        "slug":  "microservices-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\microservices-patterns.md",
+        "title":  null,
+        "size":  2698
+    },
+    {
+        "has_tags":  true,
+        "slug":  "microservices",
+        "has_sources":  true,
+        "lines":  388,
+        "path":  "specs\\Architecture\\microservices.md",
+        "title":  null,
+        "size":  14581
+    },
+    {
+        "has_tags":  true,
+        "slug":  "modular-monolith",
+        "has_sources":  true,
+        "lines":  207,
+        "path":  "specs\\Architecture\\modular-monolith.md",
+        "title":  null,
+        "size":  6279
+    },
+    {
+        "has_tags":  true,
+        "slug":  "monitoring-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\monitoring-patterns-stub.md",
+        "title":  null,
+        "size":  149
+    },
+    {
+        "has_tags":  true,
+        "slug":  "monitoring-patterns-original",
+        "has_sources":  true,
+        "lines":  320,
+        "path":  "specs\\Architecture\\monitoring-patterns.md",
+        "title":  null,
+        "size":  8773
+    },
+    {
+        "has_tags":  true,
+        "slug":  "monitoring",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\monitoring.md",
+        "title":  null,
+        "size":  2180
+    },
+    {
+        "has_tags":  true,
+        "slug":  "monorepo-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\monorepo-patterns.md",
+        "title":  null,
+        "size":  2278
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mvc-pattern",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\mvc-pattern.md",
+        "title":  null,
+        "size":  2139
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mvc-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\mvc-patterns.md",
+        "title":  null,
+        "size":  2365
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mvp-pattern",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\mvp-pattern.md",
+        "title":  null,
+        "size":  2116
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mvp-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\mvp-patterns.md",
+        "title":  null,
+        "size":  2345
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mvvm-pattern",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\mvvm-pattern.md",
+        "title":  null,
+        "size":  2089
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mvvm-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\mvvm-patterns.md",
+        "title":  null,
+        "size":  2357
+    },
+    {
+        "has_tags":  true,
+        "slug":  "nginx-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\nginx-patterns-stub.md",
+        "title":  null,
+        "size":  136
+    },
+    {
+        "has_tags":  true,
+        "slug":  "nginx-patterns-original",
+        "has_sources":  true,
+        "lines":  330,
+        "path":  "specs\\Architecture\\nginx-patterns.md",
+        "title":  null,
+        "size":  9190
+    },
+    {
+        "has_tags":  true,
+        "slug":  "nginx",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\nginx.md",
+        "title":  null,
+        "size":  2067
+    },
+    {
+        "has_tags":  true,
+        "slug":  "nosql-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\nosql-patterns.md",
+        "title":  null,
+        "size":  2096
+    },
+    {
+        "has_tags":  true,
+        "slug":  "oauth-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\oauth-patterns.md",
+        "title":  null,
+        "size":  2257
+    },
+    {
+        "has_tags":  true,
+        "slug":  "observability",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\observability.md",
+        "title":  null,
+        "size":  2381
+    },
+    {
+        "has_tags":  true,
+        "slug":  "observer-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\observer-pattern.md",
+        "title":  null,
+        "size":  2474
+    },
+    {
+        "has_tags":  true,
+        "slug":  "observer-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\observer-patterns.md",
+        "title":  null,
+        "size":  2626
+    },
+    {
+        "has_tags":  true,
+        "slug":  "onion-architecture-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\onion-architecture-patterns.md",
+        "title":  null,
+        "size":  2752
+    },
+    {
+        "has_tags":  true,
+        "slug":  "onion-architecture",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\onion-architecture.md",
+        "title":  null,
+        "size":  2588
+    },
+    {
+        "has_tags":  true,
+        "slug":  "openid-connect",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\openid-connect.md",
+        "title":  null,
+        "size":  2307
+    },
+    {
+        "has_tags":  true,
+        "slug":  "orm-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\orm-patterns.md",
+        "title":  null,
+        "size":  2046
+    },
+    {
+        "has_tags":  true,
+        "slug":  "parse-dont-validate",
+        "has_sources":  true,
+        "lines":  70,
+        "path":  "specs\\Architecture\\parse-dont-validate.md",
+        "title":  null,
+        "size":  2401
+    },
+    {
+        "has_tags":  true,
+        "slug":  "penetration-testing",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\penetration-testing.md",
+        "title":  null,
+        "size":  2438
+    },
+    {
+        "has_tags":  true,
+        "slug":  "performance-optimization-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\performance-optimization-patterns-stub.md",
+        "title":  null,
+        "size":  182
+    },
+    {
+        "has_tags":  true,
+        "slug":  "performance-optimization-patterns-original",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\performance-optimization-patterns.md",
+        "title":  null,
+        "size":  2716
+    },
+    {
+        "has_tags":  true,
+        "slug":  "performance-optimization",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\performance-optimization.md",
+        "title":  null,
+        "size":  2464
+    },
+    {
+        "has_tags":  true,
+        "slug":  "playwright-patterns",
+        "has_sources":  true,
+        "lines":  294,
+        "path":  "specs\\Architecture\\playwright-patterns.md",
+        "title":  null,
+        "size":  8425
+    },
+    {
+        "has_tags":  true,
+        "slug":  "plugin-architecture-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\plugin-architecture-patterns.md",
+        "title":  null,
+        "size":  2673
+    },
+    {
+        "has_tags":  true,
+        "slug":  "plugin-architecture",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\plugin-architecture.md",
+        "title":  null,
+        "size":  2458
+    },
+    {
+        "has_tags":  true,
+        "slug":  "pnpm-workspace-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\pnpm-workspace-stub.md",
+        "title":  null,
+        "size":  141
+    },
+    {
+        "has_tags":  true,
+        "slug":  "pnpm-workspace-original",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\pnpm-workspace.md",
+        "title":  null,
+        "size":  2236
+    },
+    {
+        "has_tags":  true,
+        "slug":  "polling-platform-requirements",
+        "has_sources":  false,
+        "lines":  1158,
+        "path":  "specs\\Architecture\\polling-platform-requirements.md",
+        "title":  null,
+        "size":  48277
+    },
+    {
+        "has_tags":  true,
+        "slug":  "presentation-logic-separation",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Architecture\\presentation-logic-separation.md",
+        "title":  null,
+        "size":  2906
+    },
+    {
+        "has_tags":  true,
+        "slug":  "presentational-container-pattern",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\presentational-container-pattern.md",
+        "title":  null,
+        "size":  2673
+    },
+    {
+        "has_tags":  true,
+        "slug":  "presentational-container-pattern-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\presentational-container-patterns.md",
+        "title":  null,
+        "size":  3013
+    },
+    {
+        "has_tags":  true,
+        "slug":  "principle-of-least-astonishment",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\principle-of-least-astonishment.md",
+        "title":  null,
+        "size":  2580
+    },
+    {
+        "has_tags":  true,
+        "slug":  "profiling-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\profiling-patterns-stub.md",
+        "title":  null,
+        "size":  149
+    },
+    {
+        "has_tags":  true,
+        "slug":  "profiling-patterns-original",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\profiling-patterns.md",
+        "title":  null,
+        "size":  2553
+    },
+    {
+        "has_tags":  true,
+        "slug":  "profiling",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\profiling.md",
+        "title":  null,
+        "size":  2376
+    },
+    {
+        "has_tags":  true,
+        "slug":  "project-structure-mapping",
+        "has_sources":  false,
+        "lines":  462,
+        "path":  "specs\\Architecture\\project-structure-mapping.md",
+        "title":  null,
+        "size":  17068
+    },
+    {
+        "has_tags":  true,
+        "slug":  "prototype-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\prototype-pattern.md",
+        "title":  null,
+        "size":  2403
+    },
+    {
+        "has_tags":  true,
+        "slug":  "prototype-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\prototype-patterns.md",
+        "title":  null,
+        "size":  2685
+    },
+    {
+        "has_tags":  true,
+        "slug":  "proxy-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\proxy-pattern.md",
+        "title":  null,
+        "size":  2292
+    },
+    {
+        "has_tags":  true,
+        "slug":  "proxy-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\proxy-patterns.md",
+        "title":  null,
+        "size":  2475
+    },
+    {
+        "has_tags":  true,
+        "slug":  "pure-functions",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\pure-functions.md",
+        "title":  null,
+        "size":  2569
+    },
+    {
+        "has_tags":  true,
+        "slug":  "quality-delivery-maintainability",
+        "has_sources":  true,
+        "lines":  593,
+        "path":  "specs\\Architecture\\quality-delivery-maintainability.md",
+        "title":  null,
+        "size":  14729
+    },
+    {
+        "has_tags":  true,
+        "slug":  "rate-limiting",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\rate-limiting.md",
+        "title":  null,
+        "size":  2262
+    },
+    {
+        "has_tags":  true,
+        "slug":  "react-performance",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\react-performance.md",
+        "title":  null,
+        "size":  2317
+    },
+    {
+        "has_tags":  true,
+        "slug":  "react-security",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\react-security.md",
+        "title":  null,
+        "size":  2186
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  32,
+        "path":  "specs\\Architecture\\README.md",
+        "title":  null,
+        "size":  1585
+    },
+    {
+        "has_tags":  true,
+        "slug":  "redis-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\redis-patterns.md",
+        "title":  null,
+        "size":  2081
+    },
+    {
+        "has_tags":  true,
+        "slug":  "refactoring-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\refactoring-patterns.md",
+        "title":  null,
+        "size":  2510
+    },
+    {
+        "has_tags":  true,
+        "slug":  "refactoring",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\refactoring.md",
+        "title":  null,
+        "size":  2432
+    },
+    {
+        "has_tags":  true,
+        "slug":  "repository-pattern-ddd",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\repository-pattern-ddd.md",
+        "title":  null,
+        "size":  2486
+    },
+    {
+        "has_tags":  true,
+        "slug":  "repository-pattern",
+        "has_sources":  true,
+        "lines":  225,
+        "path":  "specs\\Architecture\\repository-pattern.md",
+        "title":  null,
+        "size":  8182
+    },
+    {
+        "has_tags":  true,
+        "slug":  "repository-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\repository-patterns.md",
+        "title":  null,
+        "size":  2733
+    },
+    {
+        "has_tags":  true,
+        "slug":  "rest-api-design",
+        "has_sources":  true,
+        "lines":  130,
+        "path":  "specs\\Architecture\\rest-api-design.md",
+        "title":  null,
+        "size":  4759
+    },
+    {
+        "has_tags":  true,
+        "slug":  "retry-with-backoff",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\retry-with-backoff.md",
+        "title":  null,
+        "size":  2340
+    },
+    {
+        "has_tags":  true,
+        "slug":  "saga-pattern",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\saga-pattern.md",
+        "title":  null,
+        "size":  2424
+    },
+    {
+        "has_tags":  true,
+        "slug":  "schema-driven-development",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\schema-driven-development.md",
+        "title":  null,
+        "size":  2464
+    },
+    {
+        "has_tags":  true,
+        "slug":  "security-principles",
+        "has_sources":  true,
+        "lines":  676,
+        "path":  "specs\\Architecture\\security-principles.md",
+        "title":  null,
+        "size":  19603
+    },
+    {
+        "has_tags":  true,
+        "slug":  "security-testing",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\security-testing.md",
+        "title":  null,
+        "size":  2387
+    },
+    {
+        "has_tags":  true,
+        "slug":  "semantic-release-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\semantic-release-patterns.md",
+        "title":  null,
+        "size":  2973
+    },
+    {
+        "has_tags":  true,
+        "slug":  "semantic-release",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\semantic-release.md",
+        "title":  null,
+        "size":  2467
+    },
+    {
+        "has_tags":  true,
+        "slug":  "semantic-versioning-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\semantic-versioning-patterns.md",
+        "title":  null,
+        "size":  2699
+    },
+    {
+        "has_tags":  true,
+        "slug":  "semantic-versioning",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\semantic-versioning.md",
+        "title":  null,
+        "size":  2364
+    },
+    {
+        "has_tags":  true,
+        "slug":  "separation-of-concerns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Architecture\\separation-of-concerns.md",
+        "title":  null,
+        "size":  2797
+    },
+    {
+        "has_tags":  true,
+        "slug":  "separation-of-conventions",
+        "has_sources":  true,
+        "lines":  74,
+        "path":  "specs\\Architecture\\separation-of-conventions.md",
+        "title":  null,
+        "size":  2549
+    },
+    {
+        "has_tags":  true,
+        "slug":  "service-layer-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\service-layer-pattern.md",
+        "title":  null,
+        "size":  2565
+    },
+    {
+        "has_tags":  true,
+        "slug":  "service-layer-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\service-layer-patterns.md",
+        "title":  null,
+        "size":  2884
+    },
+    {
+        "has_tags":  true,
+        "slug":  "service-mesh-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\service-mesh-patterns.md",
+        "title":  null,
+        "size":  2555
+    },
+    {
+        "has_tags":  true,
+        "slug":  "service-mesh",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\service-mesh.md",
+        "title":  null,
+        "size":  2365
+    },
+    {
+        "has_tags":  true,
+        "slug":  "shadcn-ui-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\shadcn-ui-patterns-stub.md",
+        "title":  null,
+        "size":  137
+    },
+    {
+        "has_tags":  true,
+        "slug":  "shadcn-ui-patterns-original",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\shadcn-ui-patterns.md",
+        "title":  null,
+        "size":  2295
+    },
+    {
+        "has_tags":  true,
+        "slug":  "singleton-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\singleton-pattern.md",
+        "title":  null,
+        "size":  2392
+    },
+    {
+        "has_tags":  true,
+        "slug":  "singleton-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\singleton-patterns.md",
+        "title":  null,
+        "size":  2676
+    },
+    {
+        "has_tags":  true,
+        "slug":  "soa",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Architecture\\soa.md",
+        "title":  null,
+        "size":  2732
+    },
+    {
+        "has_tags":  true,
+        "slug":  "solid-principles",
+        "has_sources":  true,
+        "lines":  481,
+        "path":  "specs\\Architecture\\solid-principles.md",
+        "title":  null,
+        "size":  15348
+    },
+    {
+        "has_tags":  true,
+        "slug":  "specification-pattern-ddd",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\specification-pattern-ddd.md",
+        "title":  null,
+        "size":  2505
+    },
+    {
+        "has_tags":  true,
+        "slug":  "specification-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\specification-pattern.md",
+        "title":  null,
+        "size":  2495
+    },
+    {
+        "has_tags":  true,
+        "slug":  "specification-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\specification-patterns.md",
+        "title":  null,
+        "size":  2728
+    },
+    {
+        "has_tags":  true,
+        "slug":  "sql-fundamentals",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\sql-fundamentals.md",
+        "title":  null,
+        "size":  2062
+    },
+    {
+        "has_tags":  true,
+        "slug":  "state-machines-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\state-machines-patterns.md",
+        "title":  null,
+        "size":  2506
+    },
+    {
+        "has_tags":  true,
+        "slug":  "state-machines",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\state-machines.md",
+        "title":  null,
+        "size":  2335
+    },
+    {
+        "has_tags":  true,
+        "slug":  "state-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\state-pattern.md",
+        "title":  null,
+        "size":  2316
+    },
+    {
+        "has_tags":  true,
+        "slug":  "state-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\state-patterns.md",
+        "title":  null,
+        "size":  2538
+    },
+    {
+        "has_tags":  true,
+        "slug":  "statecharts-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\statecharts-patterns.md",
+        "title":  null,
+        "size":  2445
+    },
+    {
+        "has_tags":  true,
+        "slug":  "statecharts",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\statecharts.md",
+        "title":  null,
+        "size":  2318
+    },
+    {
+        "has_tags":  true,
+        "slug":  "static-analysis-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\static-analysis-patterns.md",
+        "title":  null,
+        "size":  2487
+    },
+    {
+        "has_tags":  true,
+        "slug":  "static-analysis",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\static-analysis.md",
+        "title":  null,
+        "size":  2364
+    },
+    {
+        "has_tags":  true,
+        "slug":  "strategy-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\strategy-pattern.md",
+        "title":  null,
+        "size":  2397
+    },
+    {
+        "has_tags":  true,
+        "slug":  "strategy-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\strategy-patterns.md",
+        "title":  null,
+        "size":  2585
+    },
+    {
+        "has_tags":  true,
+        "slug":  "tailwind-css-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\tailwind-css-patterns-stub.md",
+        "title":  null,
+        "size":  146
+    },
+    {
+        "has_tags":  true,
+        "slug":  "tailwind-css-patterns-original",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\tailwind-css-patterns.md",
+        "title":  null,
+        "size":  2347
+    },
+    {
+        "has_tags":  true,
+        "slug":  "tdd-pattern",
+        "has_sources":  true,
+        "lines":  75,
+        "path":  "specs\\Architecture\\tdd-pattern.md",
+        "title":  null,
+        "size":  2351
+    },
+    {
+        "has_tags":  true,
+        "slug":  "tell-dont-ask",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\tell-dont-ask.md",
+        "title":  null,
+        "size":  2559
+    },
+    {
+        "has_tags":  true,
+        "slug":  "template-method-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\template-method-pattern.md",
+        "title":  null,
+        "size":  2615
+    },
+    {
+        "has_tags":  true,
+        "slug":  "template-method-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\template-method-patterns.md",
+        "title":  null,
+        "size":  2811
+    },
+    {
+        "has_tags":  true,
+        "slug":  "test-driven-development",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\test-driven-development.md",
+        "title":  null,
+        "size":  2287
+    },
+    {
+        "has_tags":  true,
+        "slug":  "transaction-script-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\transaction-script-pattern.md",
+        "title":  null,
+        "size":  2751
+    },
+    {
+        "has_tags":  true,
+        "slug":  "transaction-script-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\transaction-script-patterns.md",
+        "title":  null,
+        "size":  2987
+    },
+    {
+        "has_tags":  true,
+        "slug":  "transactional-outbox",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\transactional-outbox.md",
+        "title":  null,
+        "size":  2376
+    },
+    {
+        "has_tags":  true,
+        "slug":  "type-guards",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\type-guards.md",
+        "title":  null,
+        "size":  2310
+    },
+    {
+        "has_tags":  true,
+        "slug":  "type-narrowing",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\type-narrowing.md",
+        "title":  null,
+        "size":  2316
+    },
+    {
+        "has_tags":  true,
+        "slug":  "unidirectional-data-flow",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\unidirectional-data-flow.md",
+        "title":  null,
+        "size":  2457
+    },
+    {
+        "has_tags":  true,
+        "slug":  "unit-of-work-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\unit-of-work-pattern.md",
+        "title":  null,
+        "size":  2600
+    },
+    {
+        "has_tags":  true,
+        "slug":  "unit-of-work-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\unit-of-work-patterns.md",
+        "title":  null,
+        "size":  2807
+    },
+    {
+        "has_tags":  true,
+        "slug":  "use-case-driven-design-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\use-case-driven-design-patterns.md",
+        "title":  null,
+        "size":  2724
+    },
+    {
+        "has_tags":  true,
+        "slug":  "use-case-driven-design",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\use-case-driven-design.md",
+        "title":  null,
+        "size":  2483
+    },
+    {
+        "has_tags":  true,
+        "slug":  "version-control-patterns-stub",
+        "has_sources":  false,
+        "lines":  12,
+        "path":  "specs\\Architecture\\version-control-patterns-stub.md",
+        "title":  null,
+        "size":  159
+    },
+    {
+        "has_tags":  true,
+        "slug":  "version-control-patterns-original",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\version-control-patterns.md",
+        "title":  null,
+        "size":  2389
+    },
+    {
+        "has_tags":  true,
+        "slug":  "version-control",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\version-control.md",
+        "title":  null,
+        "size":  2265
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vertical-slice-architecture-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\vertical-slice-architecture-patterns.md",
+        "title":  null,
+        "size":  2975
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vertical-slice-architecture",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\vertical-slice-architecture.md",
+        "title":  null,
+        "size":  2715
+    },
+    {
+        "has_tags":  true,
+        "slug":  "visitor-pattern",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\visitor-pattern.md",
+        "title":  null,
+        "size":  2433
+    },
+    {
+        "has_tags":  true,
+        "slug":  "visitor-pattern-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\visitor-patterns.md",
+        "title":  null,
+        "size":  2687
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vite-configuration-stub",
+        "has_sources":  true,
+        "lines":  14,
+        "path":  "specs\\Architecture\\vite-configuration-stub.md",
+        "title":  null,
+        "size":  178
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vite-configuration-original",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\vite-configuration.md",
+        "title":  null,
+        "size":  2287
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vite-optimization",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\vite-optimization.md",
+        "title":  null,
+        "size":  2232
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vitest-patterns",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Architecture\\vitest-patterns.md",
+        "title":  null,
+        "size":  2136
+    },
+    {
+        "has_tags":  true,
+        "slug":  "websockets-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\websockets-patterns.md",
+        "title":  null,
+        "size":  2296
+    },
+    {
+        "has_tags":  true,
+        "slug":  "yagni-principle",
+        "has_sources":  true,
+        "lines":  72,
+        "path":  "specs\\Architecture\\yagni-principle.md",
+        "title":  null,
+        "size":  2414
+    },
+    {
+        "has_tags":  true,
+        "slug":  "zod-patterns",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Architecture\\zod-patterns.md",
+        "title":  null,
+        "size":  2027
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\Bundler\\AGENTS.md",
+        "title":  null,
+        "size":  686
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  21,
+        "path":  "specs\\Bundler\\README.md",
+        "title":  null,
+        "size":  618
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vite-configuration",
+        "has_sources":  true,
+        "lines":  510,
+        "path":  "specs\\Bundler\\vite-configuration.md",
+        "title":  null,
+        "size":  11667
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vite-optimization-security",
+        "has_sources":  true,
+        "lines":  724,
+        "path":  "specs\\Bundler\\vite-optimization-security.md",
+        "title":  null,
+        "size":  18269
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\Cascading Stylesheets\\AGENTS.md",
+        "title":  null,
+        "size":  656
+    },
+    {
+        "has_tags":  true,
+        "slug":  "css-fundamentals",
+        "has_sources":  true,
+        "lines":  737,
+        "path":  "specs\\Cascading Stylesheets\\css-fundamentals.md",
+        "title":  null,
+        "size":  14393
+    },
+    {
+        "has_tags":  false,
+        "slug":  "css-media-queries",
+        "has_sources":  true,
+        "lines":  584,
+        "path":  "specs\\Cascading Stylesheets\\css-media-queries.md",
+        "title":  null,
+        "size":  16180
+    },
+    {
+        "has_tags":  true,
+        "slug":  "css3-performance-security",
+        "has_sources":  true,
+        "lines":  468,
+        "path":  "specs\\Cascading Stylesheets\\css3-performance-security.md",
+        "title":  null,
+        "size":  9695
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  20,
+        "path":  "specs\\Cascading Stylesheets\\README.md",
+        "title":  null,
+        "size":  552
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  28,
+        "path":  "specs\\Coding Type Systems\\AGENTS.md",
+        "title":  null,
+        "size":  610
+    },
+    {
+        "has_tags":  true,
+        "slug":  "boundary-validation",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Coding Type Systems\\boundary-validation.md",
+        "title":  null,
+        "size":  2754
+    },
+    {
+        "has_tags":  true,
+        "slug":  "dependency-hygiene",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Coding Type Systems\\dependency-hygiene.md",
+        "title":  null,
+        "size":  2830
+    },
+    {
+        "has_tags":  true,
+        "slug":  "exhaustive-handling",
+        "has_sources":  true,
+        "lines":  76,
+        "path":  "specs\\Coding Type Systems\\exhaustive-handling.md",
+        "title":  null,
+        "size":  2742
+    },
+    {
+        "has_tags":  true,
+        "slug":  "immutability-coding",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Coding Type Systems\\immutability-coding.md",
+        "title":  null,
+        "size":  2677
+    },
+    {
+        "has_tags":  true,
+        "slug":  "pure-functions-coding",
+        "has_sources":  true,
+        "lines":  310,
+        "path":  "specs\\Coding Type Systems\\pure-functions-coding.md",
+        "title":  null,
+        "size":  9504
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  30,
+        "path":  "specs\\Coding Type Systems\\README.md",
+        "title":  null,
+        "size":  1792
+    },
+    {
+        "has_tags":  true,
+        "slug":  "resource-lifecycle",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Coding Type Systems\\resource-lifecycle.md",
+        "title":  null,
+        "size":  2987
+    },
+    {
+        "has_tags":  true,
+        "slug":  "small-cohesive-modules",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Coding Type Systems\\small-cohesive-modules.md",
+        "title":  null,
+        "size":  2863
+    },
+    {
+        "has_tags":  true,
+        "slug":  "structured-concurrency",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Coding Type Systems\\structured-concurrency.md",
+        "title":  null,
+        "size":  2983
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  28,
+        "path":  "specs\\Commit Management\\AGENTS.md",
+        "title":  null,
+        "size":  681
+    },
+    {
+        "has_tags":  true,
+        "slug":  "commit-management-integration",
+        "has_sources":  true,
+        "lines":  515,
+        "path":  "specs\\Commit Management\\commit-management-integration.md",
+        "title":  null,
+        "size":  15826
+    },
+    {
+        "has_tags":  true,
+        "slug":  "commitizen-cz-git",
+        "has_sources":  true,
+        "lines":  410,
+        "path":  "specs\\Commit Management\\commitizen-cz-git.md",
+        "title":  null,
+        "size":  12420
+    },
+    {
+        "has_tags":  true,
+        "slug":  "commitlint-cli-config",
+        "has_sources":  true,
+        "lines":  476,
+        "path":  "specs\\Commit Management\\commitlint-cli-config.md",
+        "title":  null,
+        "size":  13233
+    },
+    {
+        "has_tags":  true,
+        "slug":  "conventional-changelog",
+        "has_sources":  true,
+        "lines":  334,
+        "path":  "specs\\Commit Management\\conventional-changelog.md",
+        "title":  null,
+        "size":  8357
+    },
+    {
+        "has_tags":  true,
+        "slug":  "husky-git-hooks",
+        "has_sources":  true,
+        "lines":  391,
+        "path":  "specs\\Commit Management\\husky-git-hooks.md",
+        "title":  null,
+        "size":  8267
+    },
+    {
+        "has_tags":  true,
+        "slug":  "release-it",
+        "has_sources":  true,
+        "lines":  616,
+        "path":  "specs\\Commit Management\\release-it.md",
+        "title":  null,
+        "size":  12545
+    },
+    {
+        "has_tags":  true,
+        "slug":  "validate-branch-name",
+        "has_sources":  true,
+        "lines":  259,
+        "path":  "specs\\Commit Management\\validate-branch-name.md",
+        "title":  null,
+        "size":  5377
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\Data Databases\\AGENTS.md",
+        "title":  null,
+        "size":  743
+    },
+    {
+        "has_tags":  true,
+        "slug":  "audit-trails",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\audit-trails.md",
+        "title":  null,
+        "size":  2566
+    },
+    {
+        "has_tags":  true,
+        "slug":  "db-constraints",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\db-constraints.md",
+        "title":  null,
+        "size":  2645
+    },
+    {
+        "has_tags":  true,
+        "slug":  "denormalization",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\denormalization.md",
+        "title":  null,
+        "size":  2653
+    },
+    {
+        "has_tags":  true,
+        "slug":  "expand-contract",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\expand-contract.md",
+        "title":  null,
+        "size":  2657
+    },
+    {
+        "has_tags":  true,
+        "slug":  "idempotency",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Data Databases\\idempotency.md",
+        "title":  null,
+        "size":  2697
+    },
+    {
+        "has_tags":  true,
+        "slug":  "materialized-views",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\materialized-views.md",
+        "title":  null,
+        "size":  2704
+    },
+    {
+        "has_tags":  true,
+        "slug":  "normalization",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\normalization.md",
+        "title":  null,
+        "size":  2755
+    },
+    {
+        "has_tags":  true,
+        "slug":  "pessimistic-cc",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\pessimistic-cc.md",
+        "title":  null,
+        "size":  2759
+    },
+    {
+        "has_tags":  true,
+        "slug":  "projections",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Data Databases\\projections.md",
+        "title":  null,
+        "size":  2574
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  37,
+        "path":  "specs\\Data Databases\\README.md",
+        "title":  null,
+        "size":  1978
+    },
+    {
+        "has_tags":  true,
+        "slug":  "referential-integrity",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\referential-integrity.md",
+        "title":  null,
+        "size":  2861
+    },
+    {
+        "has_tags":  true,
+        "slug":  "retention-policies",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\retention-policies.md",
+        "title":  null,
+        "size":  2828
+    },
+    {
+        "has_tags":  true,
+        "slug":  "schema-migrations",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\schema-migrations.md",
+        "title":  null,
+        "size":  2554
+    },
+    {
+        "has_tags":  true,
+        "slug":  "soft-delete",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\soft-delete.md",
+        "title":  null,
+        "size":  2593
+    },
+    {
+        "has_tags":  true,
+        "slug":  "transaction-boundaries",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data Databases\\transaction-boundaries.md",
+        "title":  null,
+        "size":  2822
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  27,
+        "path":  "specs\\Data-Driven Approaches\\AGENTS.md",
+        "title":  null,
+        "size":  567
+    },
+    {
+        "has_tags":  true,
+        "slug":  "contract-first",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data-Driven Approaches\\contract-first.md",
+        "title":  null,
+        "size":  2756
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-oriented-design",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Data-Driven Approaches\\data-oriented-design.md",
+        "title":  null,
+        "size":  2807
+    },
+    {
+        "has_tags":  true,
+        "slug":  "metadata-driven-ui",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Data-Driven Approaches\\metadata-driven-ui.md",
+        "title":  null,
+        "size":  2848
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  24,
+        "path":  "specs\\Data-Driven Approaches\\README.md",
+        "title":  null,
+        "size":  1254
+    },
+    {
+        "has_tags":  true,
+        "slug":  "single-source-of-truth",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Data-Driven Approaches\\single-source-of-truth.md",
+        "title":  null,
+        "size":  2824
+    },
+    {
+        "has_tags":  true,
+        "slug":  "table-driven-logic",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Data-Driven Approaches\\table-driven-logic.md",
+        "title":  null,
+        "size":  2777
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\DDD\\AGENTS.md",
+        "title":  null,
+        "size":  773
+    },
+    {
+        "has_tags":  true,
+        "slug":  "aggregate-root",
+        "has_sources":  true,
+        "lines":  414,
+        "path":  "specs\\DDD\\aggregate-root.md",
+        "title":  null,
+        "size":  12362
+    },
+    {
+        "has_tags":  true,
+        "slug":  "aggregate",
+        "has_sources":  true,
+        "lines":  389,
+        "path":  "specs\\DDD\\aggregate.md",
+        "title":  null,
+        "size":  11903
+    },
+    {
+        "has_tags":  true,
+        "slug":  "application-service",
+        "has_sources":  true,
+        "lines":  397,
+        "path":  "specs\\DDD\\application-service.md",
+        "title":  null,
+        "size":  12868
+    },
+    {
+        "has_tags":  true,
+        "slug":  "bounded-context",
+        "has_sources":  true,
+        "lines":  334,
+        "path":  "specs\\DDD\\bounded-context.md",
+        "title":  null,
+        "size":  10510
+    },
+    {
+        "has_tags":  true,
+        "slug":  "context-map",
+        "has_sources":  true,
+        "lines":  346,
+        "path":  "specs\\DDD\\context-map.md",
+        "title":  null,
+        "size":  10752
+    },
+    {
+        "has_tags":  true,
+        "slug":  "domain-event",
+        "has_sources":  true,
+        "lines":  418,
+        "path":  "specs\\DDD\\domain-event.md",
+        "title":  null,
+        "size":  12204
+    },
+    {
+        "has_tags":  true,
+        "slug":  "domain-invariant",
+        "has_sources":  true,
+        "lines":  438,
+        "path":  "specs\\DDD\\domain-invariant.md",
+        "title":  null,
+        "size":  14124
+    },
+    {
+        "has_tags":  true,
+        "slug":  "domain-service",
+        "has_sources":  true,
+        "lines":  385,
+        "path":  "specs\\DDD\\domain-service.md",
+        "title":  null,
+        "size":  12805
+    },
+    {
+        "has_tags":  true,
+        "slug":  "entity-ddd",
+        "has_sources":  true,
+        "lines":  342,
+        "path":  "specs\\DDD\\entity.md",
+        "title":  null,
+        "size":  10089
+    },
+    {
+        "has_tags":  true,
+        "slug":  "factory-ddd-pattern",
+        "has_sources":  true,
+        "lines":  353,
+        "path":  "specs\\DDD\\factory-ddd-pattern.md",
+        "title":  null,
+        "size":  10289
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  31,
+        "path":  "specs\\DDD\\README.md",
+        "title":  null,
+        "size":  1428
+    },
+    {
+        "has_tags":  true,
+        "slug":  "repository-ddd-pattern",
+        "has_sources":  true,
+        "lines":  407,
+        "path":  "specs\\DDD\\repository-ddd-pattern.md",
+        "title":  null,
+        "size":  12184
+    },
+    {
+        "has_tags":  true,
+        "slug":  "specification-ddd-pattern",
+        "has_sources":  true,
+        "lines":  344,
+        "path":  "specs\\DDD\\specification-ddd-pattern.md",
+        "title":  null,
+        "size":  10888
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ubiquitous-language",
+        "has_sources":  true,
+        "lines":  422,
+        "path":  "specs\\DDD\\ubiquitous-language.md",
+        "title":  null,
+        "size":  12239
+    },
+    {
+        "has_tags":  true,
+        "slug":  "use-case-ddd",
+        "has_sources":  true,
+        "lines":  438,
+        "path":  "specs\\DDD\\use-case.md",
+        "title":  null,
+        "size":  13532
+    },
+    {
+        "has_tags":  true,
+        "slug":  "value-object",
+        "has_sources":  true,
+        "lines":  426,
+        "path":  "specs\\DDD\\value-object.md",
+        "title":  null,
+        "size":  12904
+    },
+    {
+        "has_tags":  true,
+        "slug":  "accessiblity-a11y-patterns.md",
+        "has_sources":  true,
+        "lines":  347,
+        "path":  "specs\\Frontend UI\\accessibility-a11y-patterns.md",
+        "title":  null,
+        "size":  10467
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  30,
+        "path":  "specs\\Frontend UI\\AGENTS.md",
+        "title":  null,
+        "size":  778
+    },
+    {
+        "has_tags":  true,
+        "slug":  "alerting-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\alerting-patterns.md",
+        "title":  null,
+        "size":  2542
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ci-cd-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\ci-cd-patterns.md",
+        "title":  null,
+        "size":  2593
+    },
+    {
+        "has_tags":  true,
+        "slug":  "deployment-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\deployment-patterns.md",
+        "title":  null,
+        "size":  2640
+    },
+    {
+        "has_tags":  true,
+        "slug":  "docker-deployment-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\docker-deployment-patterns.md",
+        "title":  null,
+        "size":  2578
+    },
+    {
+        "has_tags":  true,
+        "slug":  "git-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\git-patterns.md",
+        "title":  null,
+        "size":  2372
+    },
+    {
+        "has_tags":  true,
+        "slug":  "github-actions-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\github-actions-patterns.md",
+        "title":  null,
+        "size":  2640
+    },
+    {
+        "has_tags":  true,
+        "slug":  "logging-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\logging-patterns.md",
+        "title":  null,
+        "size":  2459
+    },
+    {
+        "has_tags":  true,
+        "slug":  "monitoring-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\monitoring-patterns.md",
+        "title":  null,
+        "size":  2589
+    },
+    {
+        "has_tags":  true,
+        "slug":  "nginx-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\nginx-patterns.md",
+        "title":  null,
+        "size":  2424
+    },
+    {
+        "has_tags":  true,
+        "slug":  "performance-optimization-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\performance-optimization-patterns.md",
+        "title":  null,
+        "size":  2831
+    },
+    {
+        "has_tags":  true,
+        "slug":  "profiling-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\profiling-patterns.md",
+        "title":  null,
+        "size":  2707
+    },
+    {
+        "has_tags":  true,
+        "slug":  "version-control-patterns",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Frontend UI\\version-control-patterns.md",
+        "title":  null,
+        "size":  2608
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\Hypertext HTML\\AGENTS.md",
+        "title":  null,
+        "size":  666
+    },
+    {
+        "has_tags":  true,
+        "slug":  "html-semantic-patterns",
+        "has_sources":  true,
+        "lines":  324,
+        "path":  "specs\\Hypertext HTML\\html-semantic-patterns.md",
+        "title":  null,
+        "size":  8118
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  20,
+        "path":  "specs\\Hypertext HTML\\README.md",
+        "title":  null,
+        "size":  572
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  28,
+        "path":  "specs\\Hypertext Markup\\AGENTS.md",
+        "title":  null,
+        "size":  556
+    },
+    {
+        "has_tags":  true,
+        "slug":  "html5-best-practices",
+        "has_sources":  true,
+        "lines":  801,
+        "path":  "specs\\Hypertext Markup\\html5-best-practices.md",
+        "title":  null,
+        "size":  22046
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  20,
+        "path":  "specs\\Hypertext Markup\\README.md",
+        "title":  null,
+        "size":  574
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  27,
+        "path":  "specs\\Integration\\AGENTS.md",
+        "title":  null,
+        "size":  565
+    },
+    {
+        "has_tags":  true,
+        "slug":  "cicd-github-actions",
+        "has_sources":  true,
+        "lines":  784,
+        "path":  "specs\\Integration\\cicd-github-actions.md",
+        "title":  null,
+        "size":  23330
+    },
+    {
+        "has_tags":  true,
+        "slug":  "docker-nginx-deployment",
+        "has_sources":  true,
+        "lines":  615,
+        "path":  "specs\\Integration\\docker-nginx-deployment.md",
+        "title":  null,
+        "size":  19238
+    },
+    {
+        "has_tags":  true,
+        "slug":  "integration-master-config",
+        "has_sources":  true,
+        "lines":  603,
+        "path":  "specs\\Integration\\integration-master-config.md",
+        "title":  null,
+        "size":  21427
+    },
+    {
+        "has_tags":  true,
+        "slug":  "linting-husky-pipeline",
+        "has_sources":  true,
+        "lines":  493,
+        "path":  "specs\\Integration\\linting-husky-pipeline.md",
+        "title":  null,
+        "size":  12593
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ts-path-resolution",
+        "has_sources":  true,
+        "lines":  478,
+        "path":  "specs\\Integration\\ts-path-resolution.md",
+        "title":  null,
+        "size":  14367
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  28,
+        "path":  "specs\\Package Manager\\AGENTS.md",
+        "title":  null,
+        "size":  661
+    },
+    {
+        "has_tags":  true,
+        "slug":  "pnpm-best-practices",
+        "has_sources":  true,
+        "lines":  669,
+        "path":  "specs\\Package Manager\\pnpm-best-practices.md",
+        "title":  null,
+        "size":  15393
+    },
+    {
+        "has_tags":  true,
+        "slug":  "pnpm-workspace",
+        "has_sources":  true,
+        "lines":  472,
+        "path":  "specs\\Package Manager\\pnpm-workspace.md",
+        "title":  null,
+        "size":  9564
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  20,
+        "path":  "specs\\Package Manager\\README.md",
+        "title":  null,
+        "size":  579
+    },
+    {
+        "has_tags":  true,
+        "slug":  "adapter-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\adapter-file-convention.md",
+        "title":  null,
+        "size":  2729
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\data-file-convention.md",
+        "title":  null,
+        "size":  2657
+    },
+    {
+        "has_tags":  true,
+        "slug":  "entity-file-convention",
+        "has_sources":  true,
+        "lines":  354,
+        "path":  "specs\\Project File Conventions\\entity-file-convention.md",
+        "title":  null,
+        "size":  11114
+    },
+    {
+        "has_tags":  true,
+        "slug":  "event-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\event-file-convention.md",
+        "title":  null,
+        "size":  2533
+    },
+    {
+        "has_tags":  true,
+        "slug":  "hook-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\hook-file-convention.md",
+        "title":  null,
+        "size":  2547
+    },
+    {
+        "has_tags":  true,
+        "slug":  "logic-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\logic-file-convention.md",
+        "title":  null,
+        "size":  2604
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mapper-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\mapper-file-convention.md",
+        "title":  null,
+        "size":  2705
+    },
+    {
+        "has_tags":  true,
+        "slug":  "policy-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\policy-file-convention.md",
+        "title":  null,
+        "size":  2647
+    },
+    {
+        "has_tags":  true,
+        "slug":  "port-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\port-file-convention.md",
+        "title":  null,
+        "size":  2683
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  30,
+        "path":  "specs\\Project File Conventions\\README.md",
+        "title":  null,
+        "size":  1537
+    },
+    {
+        "has_tags":  true,
+        "slug":  "repository-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\repository-file-convention.md",
+        "title":  null,
+        "size":  2787
+    },
+    {
+        "has_tags":  true,
+        "slug":  "schema-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\schema-file-convention.md",
+        "title":  null,
+        "size":  2630
+    },
+    {
+        "has_tags":  true,
+        "slug":  "types-file-convention",
+        "has_sources":  true,
+        "lines":  78,
+        "path":  "specs\\Project File Conventions\\types-file-convention.md",
+        "title":  null,
+        "size":  2615
+    },
+    {
+        "has_tags":  true,
+        "slug":  "use-case-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\use-case-file-convention.md",
+        "title":  null,
+        "size":  2782
+    },
+    {
+        "has_tags":  true,
+        "slug":  "value-object-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\value-object-file-convention.md",
+        "title":  null,
+        "size":  2795
+    },
+    {
+        "has_tags":  true,
+        "slug":  "view-file-convention",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Project File Conventions\\view-file-convention.md",
+        "title":  null,
+        "size":  2621
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\Quality Delivery\\AGENTS.md",
+        "title":  null,
+        "size":  711
+    },
+    {
+        "has_tags":  true,
+        "slug":  "architecture-fitness",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\architecture-fitness.md",
+        "title":  null,
+        "size":  3091
+    },
+    {
+        "has_tags":  true,
+        "slug":  "bdd",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\bdd.md",
+        "title":  null,
+        "size":  2550
+    },
+    {
+        "has_tags":  true,
+        "slug":  "contract-testing",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\contract-testing.md",
+        "title":  null,
+        "size":  2826
+    },
+    {
+        "has_tags":  true,
+        "slug":  "evolutionary-architecture",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\evolutionary-architecture.md",
+        "title":  null,
+        "size":  2957
+    },
+    {
+        "has_tags":  true,
+        "slug":  "incremental-refactoring",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\incremental-refactoring.md",
+        "title":  null,
+        "size":  2795
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mutation-testing",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\mutation-testing.md",
+        "title":  null,
+        "size":  2740
+    },
+    {
+        "has_tags":  true,
+        "slug":  "performance-budgets",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\performance-budgets.md",
+        "title":  null,
+        "size":  2706
+    },
+    {
+        "has_tags":  true,
+        "slug":  "property-based-testing",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\property-based-testing.md",
+        "title":  null,
+        "size":  2912
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  30,
+        "path":  "specs\\Quality Delivery\\README.md",
+        "title":  null,
+        "size":  1578
+    },
+    {
+        "has_tags":  true,
+        "slug":  "reproducible-builds",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\reproducible-builds.md",
+        "title":  null,
+        "size":  2627
+    },
+    {
+        "has_tags":  true,
+        "slug":  "risk-based-testing",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\risk-based-testing.md",
+        "title":  null,
+        "size":  2818
+    },
+    {
+        "has_tags":  true,
+        "slug":  "slo",
+        "has_sources":  true,
+        "lines":  79,
+        "path":  "specs\\Quality Delivery\\slo.md",
+        "title":  null,
+        "size":  2371
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\React\\AGENTS.md",
+        "title":  null,
+        "size":  727
+    },
+    {
+        "has_tags":  true,
+        "slug":  "modern-react-project-template",
+        "has_sources":  true,
+        "lines":  367,
+        "path":  "specs\\React\\modern-react-project-template.md",
+        "title":  null,
+        "size":  8780
+    },
+    {
+        "has_tags":  true,
+        "slug":  "react-patterns",
+        "has_sources":  true,
+        "lines":  775,
+        "path":  "specs\\React\\react-patterns.md",
+        "title":  null,
+        "size":  18953
+    },
+    {
+        "has_tags":  true,
+        "slug":  "react-performance-security",
+        "has_sources":  true,
+        "lines":  605,
+        "path":  "specs\\React\\react-performance-security.md",
+        "title":  null,
+        "size":  16743
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  22,
+        "path":  "specs\\React\\README.md",
+        "title":  null,
+        "size":  716
+    },
+    {
+        "has_tags":  true,
+        "slug":  "abac",
+        "has_sources":  true,
+        "lines":  416,
+        "path":  "specs\\Security\\abac.md",
+        "title":  null,
+        "size":  11871
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\Security\\AGENTS.md",
+        "title":  null,
+        "size":  753
+    },
+    {
+        "has_tags":  true,
+        "slug":  "complete-mediation",
+        "has_sources":  true,
+        "lines":  462,
+        "path":  "specs\\Security\\complete-mediation.md",
+        "title":  null,
+        "size":  13561
+    },
+    {
+        "has_tags":  true,
+        "slug":  "data-minimization",
+        "has_sources":  true,
+        "lines":  414,
+        "path":  "specs\\Security\\data-minimization.md",
+        "title":  null,
+        "size":  12308
+    },
+    {
+        "has_tags":  true,
+        "slug":  "output-encoding",
+        "has_sources":  true,
+        "lines":  365,
+        "path":  "specs\\Security\\output-encoding.md",
+        "title":  null,
+        "size":  11137
+    },
+    {
+        "has_tags":  true,
+        "slug":  "parameterized-queries",
+        "has_sources":  true,
+        "lines":  431,
+        "path":  "specs\\Security\\parameterized-queries.md",
+        "title":  null,
+        "size":  12879
+    },
+    {
+        "has_tags":  true,
+        "slug":  "rbac",
+        "has_sources":  true,
+        "lines":  384,
+        "path":  "specs\\Security\\rbac.md",
+        "title":  null,
+        "size":  11099
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  32,
+        "path":  "specs\\Security\\README.md",
+        "title":  null,
+        "size":  1639
+    },
+    {
+        "has_tags":  true,
+        "slug":  "secrets-management",
+        "has_sources":  true,
+        "lines":  374,
+        "path":  "specs\\Security\\secrets-management.md",
+        "title":  null,
+        "size":  11183
+    },
+    {
+        "has_tags":  true,
+        "slug":  "secure-by-design",
+        "has_sources":  true,
+        "lines":  390,
+        "path":  "specs\\Security\\secure-by-design.md",
+        "title":  null,
+        "size":  10901
+    },
+    {
+        "has_tags":  true,
+        "slug":  "secure-defaults",
+        "has_sources":  true,
+        "lines":  364,
+        "path":  "specs\\Security\\secure-defaults.md",
+        "title":  null,
+        "size":  10082
+    },
+    {
+        "has_tags":  true,
+        "slug":  "separation-of-duties",
+        "has_sources":  true,
+        "lines":  403,
+        "path":  "specs\\Security\\separation-of-duties.md",
+        "title":  null,
+        "size":  11431
+    },
+    {
+        "has_tags":  true,
+        "slug":  "threat-modeling",
+        "has_sources":  true,
+        "lines":  354,
+        "path":  "specs\\Security\\threat-modeling.md",
+        "title":  null,
+        "size":  11223
+    },
+    {
+        "has_tags":  true,
+        "slug":  "trust-boundaries",
+        "has_sources":  true,
+        "lines":  376,
+        "path":  "specs\\Security\\trust-boundaries.md",
+        "title":  null,
+        "size":  11541
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\ShadCN\\AGENTS.md",
+        "title":  null,
+        "size":  718
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  20,
+        "path":  "specs\\ShadCN\\README.md",
+        "title":  null,
+        "size":  564
+    },
+    {
+        "has_tags":  true,
+        "slug":  "shadcn-best-practices",
+        "has_sources":  true,
+        "lines":  700,
+        "path":  "specs\\ShadCN\\shadcn-best-practices.md",
+        "title":  null,
+        "size":  18975
+    },
+    {
+        "has_tags":  true,
+        "slug":  "shadcn-ui-patterns",
+        "has_sources":  true,
+        "lines":  815,
+        "path":  "specs\\ShadCN\\shadcn-ui-patterns.md",
+        "title":  null,
+        "size":  22946
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  32,
+        "path":  "specs\\Sources\\AGENTS.md",
+        "title":  null,
+        "size":  942
+    },
+    {
+        "has_tags":  true,
+        "slug":  "aws-api-gateway",
+        "has_sources":  true,
+        "lines":  31,
+        "path":  "specs\\Sources\\aws-api-gateway.md",
+        "title":  "AWS API Gateway Documentation",
+        "size":  817
+    },
+    {
+        "has_tags":  true,
+        "slug":  "aws-elasticache",
+        "has_sources":  true,
+        "lines":  32,
+        "path":  "specs\\Sources\\aws-elasticache.md",
+        "title":  "AWS ElastiCache Documentation",
+        "size":  799
+    },
+    {
+        "has_tags":  true,
+        "slug":  "bogard-vertical-slice",
+        "has_sources":  true,
+        "lines":  31,
+        "path":  "specs\\Sources\\bogard-vertical-slice.md",
+        "title":  "Vertical Slice Architecture",
+        "size":  840
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  392,
+        "path":  "specs\\Sources\\documentation-ingestion-plan.md",
+        "title":  null,
+        "size":  24785
+    },
+    {
+        "has_tags":  true,
+        "slug":  "evans-ddd-2003",
+        "has_sources":  true,
+        "lines":  43,
+        "path":  "specs\\Sources\\evans-ddd-2003.md",
+        "title":  "Domain-Driven Design: Tackling Complexity in the Heart of Software",
+        "size":  1321
+    },
+    {
+        "has_tags":  true,
+        "slug":  "fowler-ddd-2003",
+        "has_sources":  true,
+        "lines":  34,
+        "path":  "specs\\Sources\\fowler-ddd-2003.md",
+        "title":  "Annals of Software Engineering — Domain Design",
+        "size":  855
+    },
+    {
+        "has_tags":  true,
+        "slug":  "fowler-patterns-2002",
+        "has_sources":  true,
+        "lines":  39,
+        "path":  "specs\\Sources\\fowler-patterns-2002.md",
+        "title":  "Patterns of Enterprise Application Architecture",
+        "size":  1076
+    },
+    {
+        "has_tags":  true,
+        "slug":  "frost-atomic-design-2016",
+        "has_sources":  true,
+        "lines":  41,
+        "path":  "specs\\Sources\\frost-atomic-design-2016.md",
+        "title":  "Atomic Design",
+        "size":  1024
+    },
+    {
+        "has_tags":  true,
+        "slug":  "gdpr-eu",
+        "has_sources":  true,
+        "lines":  30,
+        "path":  "specs\\Sources\\gdpr-eu.md",
+        "title":  "GDPR — General Data Protection Regulation",
+        "size":  745
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  19,
+        "path":  "specs\\Sources\\go-blog.md",
+        "title":  "Go Programming Language Blog",
+        "size":  563
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  41,
+        "path":  "specs\\Sources\\goF-1994.md",
+        "title":  "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "size":  1517
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  21,
+        "path":  "specs\\Sources\\harel-statecharts.md",
+        "title":  "Statecharts: A Visual Formalism for Complex Systems",
+        "size":  689
+    },
+    {
+        "has_tags":  true,
+        "slug":  "martin-clean-architecture-2017",
+        "has_sources":  true,
+        "lines":  37,
+        "path":  "specs\\Sources\\martin-clean-architecture-2017.md",
+        "title":  "The Clean Architecture",
+        "size":  1065
+    },
+    {
+        "has_tags":  true,
+        "slug":  "martin-oop-2000",
+        "has_sources":  true,
+        "lines":  32,
+        "path":  "specs\\Sources\\martin-oop-2000.md",
+        "title":  "Design Principles and Design Patterns",
+        "size":  860
+    },
+    {
+        "has_tags":  true,
+        "slug":  "martin-srp-2014",
+        "has_sources":  true,
+        "lines":  31,
+        "path":  "specs\\Sources\\martin-srp-2014.md",
+        "title":  "The Single Responsibility Principle",
+        "size":  913
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  38,
+        "path":  "specs\\Sources\\martinfowler-bliki.md",
+        "title":  "Martin Fowler",
+        "size":  1012
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mdn-css-2024",
+        "has_sources":  true,
+        "lines":  43,
+        "path":  "specs\\Sources\\mdn-css-2024.md",
+        "title":  "MDN Web Docs — CSS",
+        "size":  973
+    },
+    {
+        "has_tags":  true,
+        "slug":  "mdn-html-2024",
+        "has_sources":  true,
+        "lines":  35,
+        "path":  "specs\\Sources\\mdn-html-2024.md",
+        "title":  "MDN Web Docs — HTML",
+        "size":  852
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  31,
+        "path":  "specs\\Sources\\microsoft-azure.md",
+        "title":  "Azure Architecture Center",
+        "size":  868
+    },
+    {
+        "has_tags":  true,
+        "slug":  "microsoft-distributed-systems",
+        "has_sources":  true,
+        "lines":  40,
+        "path":  "specs\\Sources\\microsoft-distributed-systems.md",
+        "title":  "Azure Distributed Patterns \u0026 Best Practices",
+        "size":  1212
+    },
+    {
+        "has_tags":  true,
+        "slug":  "microsoft-typescript-handbook",
+        "has_sources":  true,
+        "lines":  42,
+        "path":  "specs\\Sources\\microsoft-typescript-handbook.md",
+        "title":  "TypeScript Handbook",
+        "size":  1140
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  23,
+        "path":  "specs\\Sources\\nist-cyberframework-2014.md",
+        "title":  "NIST Cybersecurity Framework",
+        "size":  782
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  20,
+        "path":  "specs\\Sources\\opentelemetry.md",
+        "title":  "OpenTelemetry Documentation",
+        "size":  668
+    },
+    {
+        "has_tags":  true,
+        "slug":  "owasp-top-ten-2021",
+        "has_sources":  true,
+        "lines":  34,
+        "path":  "specs\\Sources\\owasp-top-ten-2021.md",
+        "title":  "OWASP Top Ten",
+        "size":  904
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  21,
+        "path":  "specs\\Sources\\pattern-surface.md",
+        "title":  "PatternS — Design System Patterns",
+        "size":  642
+    },
+    {
+        "has_tags":  true,
+        "slug":  "playwright-docs-2024",
+        "has_sources":  true,
+        "lines":  41,
+        "path":  "specs\\Sources\\playwright-docs-2024.md",
+        "title":  "Playwright Documentation",
+        "size":  903
+    },
+    {
+        "has_tags":  true,
+        "slug":  "pnpm-docs-2024",
+        "has_sources":  true,
+        "lines":  36,
+        "path":  "specs\\Sources\\pnpm-docs-2024.md",
+        "title":  "pnpm Documentation",
+        "size":  798
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  22,
+        "path":  "specs\\Sources\\radix-ui-docs-2024.md",
+        "title":  "Radix UI Primitives",
+        "size":  686
+    },
+    {
+        "has_tags":  true,
+        "slug":  "react-docs-2026",
+        "has_sources":  true,
+        "lines":  38,
+        "path":  "specs\\Sources\\react-docs-2026.md",
+        "title":  "React Documentation",
+        "size":  1007
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  83,
+        "path":  "specs\\Sources\\README.md",
+        "title":  null,
+        "size":  2683
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  22,
+        "path":  "specs\\Sources\\rest-api-design.md",
+        "title":  "REST API Design Guidelines",
+        "size":  680
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  21,
+        "path":  "specs\\Sources\\seemann-dd.md",
+        "title":  "Dependency Injection in .NET",
+        "size":  690
+    },
+    {
+        "has_tags":  true,
+        "slug":  "shadcn-ui-docs-2024",
+        "has_sources":  true,
+        "lines":  42,
+        "path":  "specs\\Sources\\shadcn-ui-docs-2024.md",
+        "title":  "shadcn/ui Documentation",
+        "size":  878
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  23,
+        "path":  "specs\\Sources\\swagger-openapi.md",
+        "title":  "OpenAPI Specification",
+        "size":  724
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-ai-machine-learning",
+        "has_sources":  true,
+        "lines":  44,
+        "path":  "specs\\Sources\\system-design-101-ai-machine-learning.md",
+        "title":  null,
+        "size":  1531
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-api-design",
+        "has_sources":  true,
+        "lines":  221,
+        "path":  "specs\\Sources\\system-design-101-api-design.md",
+        "title":  null,
+        "size":  4845
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-api-styles",
+        "has_sources":  true,
+        "lines":  116,
+        "path":  "specs\\Sources\\system-design-101-api-styles.md",
+        "title":  null,
+        "size":  3385
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-api-web-development",
+        "has_sources":  true,
+        "lines":  84,
+        "path":  "specs\\Sources\\system-design-101-api-web-development.md",
+        "title":  null,
+        "size":  6071
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-caching-performance",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\Sources\\system-design-101-caching-performance.md",
+        "title":  null,
+        "size":  4862
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-caching",
+        "has_sources":  true,
+        "lines":  190,
+        "path":  "specs\\Sources\\system-design-101-caching.md",
+        "title":  null,
+        "size":  4991
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-chat-system",
+        "has_sources":  true,
+        "lines":  150,
+        "path":  "specs\\Sources\\system-design-101-chat-system.md",
+        "title":  null,
+        "size":  4356
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-citation-guide",
+        "has_sources":  true,
+        "lines":  217,
+        "path":  "specs\\Sources\\system-design-101-citation-guide.md",
+        "title":  null,
+        "size":  8636
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-cloud-distributed-systems",
+        "has_sources":  true,
+        "lines":  82,
+        "path":  "specs\\Sources\\system-design-101-cloud-distributed-systems.md",
+        "title":  null,
+        "size":  5354
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-computer-fundamentals",
+        "has_sources":  true,
+        "lines":  58,
+        "path":  "specs\\Sources\\system-design-101-computer-fundamentals.md",
+        "title":  null,
+        "size":  2663
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-consistency",
+        "has_sources":  true,
+        "lines":  116,
+        "path":  "specs\\Sources\\system-design-101-consistency.md",
+        "title":  null,
+        "size":  3357
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-content-delivery",
+        "has_sources":  true,
+        "lines":  91,
+        "path":  "specs\\Sources\\system-design-101-content-delivery.md",
+        "title":  null,
+        "size":  2201
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-data-warehousing",
+        "has_sources":  true,
+        "lines":  102,
+        "path":  "specs\\Sources\\system-design-101-data-warehousing.md",
+        "title":  null,
+        "size":  2532
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-database-design",
+        "has_sources":  true,
+        "lines":  166,
+        "path":  "specs\\Sources\\system-design-101-database-design.md",
+        "title":  null,
+        "size":  4065
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-database-storage",
+        "has_sources":  true,
+        "lines":  101,
+        "path":  "specs\\Sources\\system-design-101-database-storage.md",
+        "title":  null,
+        "size":  7226
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-devops-cicd",
+        "has_sources":  true,
+        "lines":  77,
+        "path":  "specs\\Sources\\system-design-101-devops-cicd.md",
+        "title":  null,
+        "size":  4294
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-devtools-productivity",
+        "has_sources":  true,
+        "lines":  55,
+        "path":  "specs\\Sources\\system-design-101-devtools-productivity.md",
+        "title":  null,
+        "size":  2768
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-high-availability",
+        "has_sources":  true,
+        "lines":  212,
+        "path":  "specs\\Sources\\system-design-101-high-availability.md",
+        "title":  null,
+        "size":  5570
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-how-it-works",
+        "has_sources":  true,
+        "lines":  53,
+        "path":  "specs\\Sources\\system-design-101-how-it-works.md",
+        "title":  null,
+        "size":  2980
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  130,
+        "path":  "specs\\Sources\\system-design-101-index.md",
+        "title":  null,
+        "size":  4644
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-integration",
+        "has_sources":  true,
+        "lines":  123,
+        "path":  "specs\\Sources\\system-design-101-integration.md",
+        "title":  null,
+        "size":  2978
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-load-balancing",
+        "has_sources":  true,
+        "lines":  155,
+        "path":  "specs\\Sources\\system-design-101-load-balancing.md",
+        "title":  null,
+        "size":  3475
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-message-queue",
+        "has_sources":  true,
+        "lines":  157,
+        "path":  "specs\\Sources\\system-design-101-message-queue.md",
+        "title":  null,
+        "size":  4294
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-microservices",
+        "has_sources":  true,
+        "lines":  103,
+        "path":  "specs\\Sources\\system-design-101-microservices.md",
+        "title":  null,
+        "size":  3035
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-ml-systems",
+        "has_sources":  true,
+        "lines":  130,
+        "path":  "specs\\Sources\\system-design-101-ml-systems.md",
+        "title":  null,
+        "size":  3794
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-monitoring",
+        "has_sources":  true,
+        "lines":  145,
+        "path":  "specs\\Sources\\system-design-101-monitoring.md",
+        "title":  null,
+        "size":  3509
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-notification-system",
+        "has_sources":  true,
+        "lines":  141,
+        "path":  "specs\\Sources\\system-design-101-notification-system.md",
+        "title":  null,
+        "size":  4140
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-payment-fintech",
+        "has_sources":  true,
+        "lines":  52,
+        "path":  "specs\\Sources\\system-design-101-payment-fintech.md",
+        "title":  null,
+        "size":  2593
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-payment-system",
+        "has_sources":  true,
+        "lines":  149,
+        "path":  "specs\\Sources\\system-design-101-payment-system.md",
+        "title":  null,
+        "size":  4401
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-permission-systems",
+        "has_sources":  true,
+        "lines":  153,
+        "path":  "specs\\Sources\\system-design-101-permission-systems.md",
+        "title":  null,
+        "size":  4391
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-rate-limiting",
+        "has_sources":  true,
+        "lines":  122,
+        "path":  "specs\\Sources\\system-design-101-rate-limiting.md",
+        "title":  null,
+        "size":  2783
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-real-world-case-studies",
+        "has_sources":  true,
+        "lines":  60,
+        "path":  "specs\\Sources\\system-design-101-real-world-case-studies.md",
+        "title":  null,
+        "size":  4116
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-scalability-strategies",
+        "has_sources":  true,
+        "lines":  85,
+        "path":  "specs\\Sources\\system-design-101-scalability.md",
+        "title":  null,
+        "size":  2549
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-search-engine",
+        "has_sources":  true,
+        "lines":  113,
+        "path":  "specs\\Sources\\system-design-101-search-engine.md",
+        "title":  null,
+        "size":  2467
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-secure-systems",
+        "has_sources":  true,
+        "lines":  170,
+        "path":  "specs\\Sources\\system-design-101-secure-systems.md",
+        "title":  null,
+        "size":  4874
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-security-overview",
+        "has_sources":  true,
+        "lines":  80,
+        "path":  "specs\\Sources\\system-design-101-security.md",
+        "title":  null,
+        "size":  5491
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-software-architecture",
+        "has_sources":  true,
+        "lines":  54,
+        "path":  "specs\\Sources\\system-design-101-software-architecture.md",
+        "title":  null,
+        "size":  2797
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-software-development",
+        "has_sources":  true,
+        "lines":  62,
+        "path":  "specs\\Sources\\system-design-101-software-development.md",
+        "title":  null,
+        "size":  3340
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101",
+        "has_sources":  true,
+        "lines":  127,
+        "path":  "specs\\Sources\\system-design-101-source.md",
+        "title":  null,
+        "size":  4589
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-video-streaming",
+        "has_sources":  true,
+        "lines":  150,
+        "path":  "specs\\Sources\\system-design-101-video-streaming.md",
+        "title":  null,
+        "size":  4118
+    },
+    {
+        "has_tags":  true,
+        "slug":  "tailwind-docs-2024",
+        "has_sources":  true,
+        "lines":  36,
+        "path":  "specs\\Sources\\tailwind-docs-2024.md",
+        "title":  "Tailwind CSS Documentation",
+        "size":  855
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  19,
+        "path":  "specs\\Sources\\thoughtworks-radar.md",
+        "title":  "ThoughtWorks Technology Radar",
+        "size":  582
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vite-docs-2024",
+        "has_sources":  true,
+        "lines":  39,
+        "path":  "specs\\Sources\\vite-docs-2024.md",
+        "title":  "Vite Documentation",
+        "size":  1027
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vitest-docs-2024",
+        "has_sources":  true,
+        "lines":  35,
+        "path":  "specs\\Sources\\vitest-docs-2024.md",
+        "title":  "Vitest Documentation",
+        "size":  809
+    },
+    {
+        "has_tags":  false,
+        "slug":  "w3c-i18n",
+        "has_sources":  false,
+        "lines":  147,
+        "path":  "specs\\Sources\\w3c-i18n.md",
+        "title":  null,
+        "size":  5031
+    },
+    {
+        "has_tags":  false,
+        "slug":  "wcag-21",
+        "has_sources":  false,
+        "lines":  125,
+        "path":  "specs\\Sources\\wcag-21.md",
+        "title":  null,
+        "size":  5142
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  25,
+        "path":  "specs\\Sources\\wikipedia.md",
+        "title":  "Wikipedia — Software Engineering",
+        "size":  773
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  23,
+        "path":  "specs\\Sources\\xstate-docs.md",
+        "title":  "XState Documentation",
+        "size":  712
+    },
+    {
+        "has_tags":  true,
+        "slug":  "system-design-101-index",
+        "has_sources":  false,
+        "lines":  735,
+        "path":  "specs\\Sources\\system-design-101\\README.md",
+        "title":  null,
+        "size":  64399
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\TailwindsCSS\\AGENTS.md",
+        "title":  null,
+        "size":  726
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  20,
+        "path":  "specs\\TailwindsCSS\\README.md",
+        "title":  null,
+        "size":  573
+    },
+    {
+        "has_tags":  true,
+        "slug":  "tailwind-css-patterns",
+        "has_sources":  true,
+        "lines":  582,
+        "path":  "specs\\TailwindsCSS\\tailwind-css-patterns.md",
+        "title":  null,
+        "size":  14725
+    },
+    {
+        "has_tags":  true,
+        "slug":  "tw-optimization-performance",
+        "has_sources":  true,
+        "lines":  547,
+        "path":  "specs\\TailwindsCSS\\tw-optimization-performance.md",
+        "title":  null,
+        "size":  13360
+    },
+    {
+        "has_tags":  true,
+        "slug":  "adr-template",
+        "has_sources":  false,
+        "lines":  230,
+        "path":  "specs\\templates\\adr-template.md",
+        "title":  null,
+        "size":  8442
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\templates\\AGENTS.md",
+        "title":  null,
+        "size":  767
+    },
+    {
+        "has_tags":  true,
+        "slug":  "code-review-checklist",
+        "has_sources":  false,
+        "lines":  344,
+        "path":  "specs\\templates\\code-review-checklist.md",
+        "title":  null,
+        "size":  14079
+    },
+    {
+        "has_tags":  true,
+        "slug":  "commit-message-template",
+        "has_sources":  false,
+        "lines":  305,
+        "path":  "specs\\templates\\commit-message-template.md",
+        "title":  null,
+        "size":  7807
+    },
+    {
+        "has_tags":  true,
+        "slug":  "pr-template",
+        "has_sources":  false,
+        "lines":  286,
+        "path":  "specs\\templates\\pr-template.md",
+        "title":  null,
+        "size":  8192
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  63,
+        "path":  "specs\\templates\\README.md",
+        "title":  null,
+        "size":  2525
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  30,
+        "path":  "specs\\Testing\\AGENTS.md",
+        "title":  null,
+        "size":  691
+    },
+    {
+        "has_tags":  true,
+        "slug":  "playwright-e2e",
+        "has_sources":  true,
+        "lines":  726,
+        "path":  "specs\\Testing\\playwright-e2e.md",
+        "title":  null,
+        "size":  21584
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  22,
+        "path":  "specs\\Testing\\README.md",
+        "title":  null,
+        "size":  713
+    },
+    {
+        "has_tags":  true,
+        "slug":  "testing-patterns",
+        "has_sources":  true,
+        "lines":  817,
+        "path":  "specs\\Testing\\testing-patterns.md",
+        "title":  null,
+        "size":  21166
+    },
+    {
+        "has_tags":  true,
+        "slug":  "vitest-testing",
+        "has_sources":  true,
+        "lines":  817,
+        "path":  "specs\\Testing\\vitest-testing.md",
+        "title":  null,
+        "size":  18667
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\TypeScript\\AGENTS.md",
+        "title":  null,
+        "size":  720
+    },
+    {
+        "has_tags":  false,
+        "slug":  null,
+        "has_sources":  false,
+        "lines":  29,
+        "path":  "specs\\TypeScript\\README.md",
+        "title":  null,
+        "size":  1309
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ts-advanced-types",
+        "has_sources":  true,
+        "lines":  408,
+        "path":  "specs\\TypeScript\\ts-advanced-types.md",
+        "title":  null,
+        "size":  11374
+    },
+    {
+        "has_tags":  false,
+        "slug":  "ts-best-practices",
+        "has_sources":  true,
+        "lines":  610,
+        "path":  "specs\\TypeScript\\ts-best-practices.md",
+        "title":  null,
+        "size":  15294
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ts-decorators",
+        "has_sources":  true,
+        "lines":  585,
+        "path":  "specs\\TypeScript\\ts-decorators.md",
+        "title":  null,
+        "size":  14813
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ts-fundamentals",
+        "has_sources":  true,
+        "lines":  253,
+        "path":  "specs\\TypeScript\\ts-fundamentals.md",
+        "title":  null,
+        "size":  6894
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ts-narrowing",
+        "has_sources":  true,
+        "lines":  563,
+        "path":  "specs\\TypeScript\\ts-narrowing.md",
+        "title":  null,
+        "size":  13300
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ts-optimization-performance",
+        "has_sources":  true,
+        "lines":  246,
+        "path":  "specs\\TypeScript\\ts-optimization-performance.md",
+        "title":  null,
+        "size":  5328
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ts-release-notes",
+        "has_sources":  true,
+        "lines":  217,
+        "path":  "specs\\TypeScript\\ts-release-notes.md",
+        "title":  null,
+        "size":  5232
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ts-security-best-practices",
+        "has_sources":  true,
+        "lines":  471,
+        "path":  "specs\\TypeScript\\ts-security-best-practices.md",
+        "title":  null,
+        "size":  12179
+    },
+    {
+        "has_tags":  true,
+        "slug":  "ts-tsconfig",
+        "has_sources":  true,
+        "lines":  197,
+        "path":  "specs\\TypeScript\\ts-tsconfig.md",
+        "title":  null,
+        "size":  7177
+    },
+    {
+        "has_tags":  true,
+        "slug":  "typescript-strict-mode",
+        "has_sources":  true,
+        "lines":  643,
+        "path":  "specs\\TypeScript\\typescript-strict-mode.md",
+        "title":  null,
+        "size":  15473
+    }
+]

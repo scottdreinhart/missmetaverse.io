@@ -6,6 +6,14 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/architecture
+  - type/concept
+  - domain/frontend
+  - domain/accessibility
   - ddd
   - domain-driven-design
   - architecture
@@ -40,3 +48,12 @@ claims_supported:
   - acl
 access_limitations: Book — full text not inspected. Claims verified against bibliographic metadata and widely-cited index.
 research_notes: "The original DDD book by Eric Evans. The definitive source for all DDD tactical patterns. Bibliographic metadata verified via publisher catalog. Full text inspection not possible."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[fowler-ddd-2003]]
+
+

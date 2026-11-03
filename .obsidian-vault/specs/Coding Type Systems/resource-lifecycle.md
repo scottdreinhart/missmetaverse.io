@@ -1,77 +1,142 @@
----
-slug: resource-lifecycle
-sources:
-  - https://www.typescriptlang.org/
-  - https://nodejs.org/
-date: 2026-11-02
-tags:
-  - resource-lifecycle
-  - typescript
-  - type-system
-  - patterns
+# Resource Lifecycle Management
+
+> **Purpose:** Manage resource creation and destruction explicitly.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Resource Lifecycle Management
+## concept_id
+`coding-resource-lifecycle`
+
+## title
+Resource Lifecycle Management
+
+## aliases
+- Resource Lifecycle Management
+- RAII
+- Resource Management
+- Cleanup
+
+## category
+coding-type-systems
+
+## concept_type
+coding-practice
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- File handling
+- Database connections
+- Network connections
+- Memory management
+
+## tags
+- type/practice
+- domain/coding
+- domain/typescript
+- status/verified
+- priority/high
+
+## source_ids
+- typescript-documentation
+- goF-1994
+
+## related_concept_ids
+- coding-immutability
+- coding-structured-concurrency
+- coding-explicit-error-modeling
+- arch-fail-fast
+- coding-resource-lifecycle
+
+---
 
 ## Definition
 
-Resource Lifecycle Management is **a TypeScript pattern for managing the creation, use, and cleanup of resources such as file handles, network connections, and memory**.
-
-> "Resource lifecycle management ensures that resources are properly created, used, and cleaned up to prevent leaks." — Node.js Docs
+Resource Lifecycle Management is a practice where resources are created and destroyed explicitly, ensuring proper cleanup and preventing leaks.
 
 ## Problem Addressed
 
 Without resource lifecycle management:
-- **Resource leaks**: Resources are not cleaned up
-- **Memory leaks**: Memory is not freed
-- **File handle leaks**: File handles are not closed
-- **Network connection leaks**: Network connections are not closed
+- Resources are leaked
+- Cleanup is forgotten
+- Errors leave resources in bad state
+- System becomes unstable
 
 ## Scope and Boundaries
 
-- Resource Lifecycle ≠ Garbage Collection (resource lifecycle manages resources manually, garbage collection manages memory automatically)
-- Resource Lifecycle = Cleanup (resource lifecycle ensures cleanup)
-- Resource Lifecycle is a **TypeScript pattern**, not a design pattern
+Resource lifecycle management applies to:
+- File handling
+- Database connections
+- Network connections
+- Memory management
+
+Resource lifecycle management does not apply to:
+- Primitive types
+- Simple objects
+- Garbage-collected objects
+- Temporary variables
 
 ## When to Apply
 
-- When building Node.js applications
-- when resources need to be managed manually
-- when resource leaks are a concern
-- when testing is important
+- Handling files
+- Managing connections
+- Allocating memory
+- Using external resources
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — Resource lifecycle adds boilerplate |
-| **Time** — Implementing resource lifecycle takes time |
-| **Over-management**: Not every resource needs manual lifecycle management |
+- **Complexity**: Resource management adds complexity
+- **Not for simple objects**: Simple objects don't need lifecycle management
+- **Not for primitives**: Primitives don't need lifecycle management
+- **Not for temporary variables**: Temporary variables don't need lifecycle management
+
+## Implementation Guidance
+
+1. **Create explicitly**: Create resources explicitly
+2. **Use finally**: Use finally blocks for cleanup
+3. **Use try-with-resources**: Use try-with-resources pattern
+4. **Handle errors**: Handle errors during cleanup
+5. **Test cleanup**: Test resource cleanup
+
+## Verification
+
+- [ ] Resources are created explicitly
+- [ ] Cleanup is guaranteed
+- [ ] Errors are handled during cleanup
+- [ ] Cleanup is tested
 
 ## Common Misuses
 
-- **Everything managed**: Not every resource needs manual lifecycle management
-- **Ignoring cleanup**: Resources must be cleaned up in all code paths
-- **Confusing with garbage collection**: Resource lifecycle manages resources manually, garbage collection manages memory automatically
+- **Forgetting cleanup**: Forgetting to clean up resources
+- **Not handling errors**: Not handling errors during cleanup
+- **Over-engineering**: Not all resources need lifecycle management
+- **Not testing**: Not testing resource cleanup
 
 ## Related Concepts
 
-- [Pure Functions](Coding Type Systems/pure-functions-coding.md) — Pure functions benefit from resource lifecycle management
-- [Explicit Error Modeling](Architecture/explicit-error-modeling.md) — Explicit error modeling supports resource lifecycle management
-- [Fail Fast](Architecture/fail-fast.md) — Fail fast supports resource lifecycle management
+- [[Coding Type Systems/immutability]] — Immutability
+- [[Coding Type Systems/structured-concurrency]] — Structured Concurrency
+- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
+- [[Architecture/fail-fast]] — Fail Fast
 
 ## Project Observations
 
-- The project uses resource lifecycle management:
-  - Node.js supports resource lifecycle management through `finally` blocks
-  - TypeScript supports resource lifecycle management through type system
-  - The project's architecture patterns note covers TypeScript concepts
-  - No evidence of resource lifecycle management in existing code (src/ is empty)
-- File naming conventions support resource lifecycle management:
-  - `*.resource.ts` — Resource files
-  - `*.lifecycle.ts` — Lifecycle files
+The project uses TypeScript, which supports resource lifecycle management through:
+- Async/await
+- Finally blocks
+- Try-with-resources pattern
+- Disposable interfaces
 
 ## Sources
 
-- [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Resource Lifecycle Management Note**

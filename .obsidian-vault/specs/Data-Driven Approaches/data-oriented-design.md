@@ -1,77 +1,141 @@
----
-slug: data-oriented-design
-sources:
-  - https://en.wikipedia.org/wiki/Data-oriented_design
-  - https://www.youtube.com/watch?v=N_E_0y6EU6o
-date: 2026-11-02
-tags:
-  - data-oriented
-  - performance
-  - architecture
-  - design
+# Data-Oriented Design
+
+> **Purpose:** Optimize for data access patterns.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Data-Oriented Design
+## concept_id
+`data-driven-data-oriented`
+
+## title
+Data-Oriented Design
+
+## aliases
+- Data-Oriented Design
+- Data-Oriented Architecture
+- Data-First Architecture
+
+## category
+data-driven-approaches
+
+## concept_type
+design-approach
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Performance-critical systems
+- Game development
+- Data processing
+- High-throughput systems
+
+## tags
+- type/approach
+- domain/architecture
+- status/verified
+- priority/medium
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- data-driven-design
+- data-driven-declarative
+- data-driven-table-driven
+- coding-small-cohesive-modules
+- arch-high-cohesion
+
+---
 
 ## Definition
 
-Data-Oriented Design is **an architecture approach that prioritizes data layout and access patterns over object-oriented hierarchies to optimize performance**.
-
-> "Data-oriented design organizes data for efficient access and processing, rather than organizing code around object hierarchies." — Wikipedia
+Data-Oriented Design is an approach where software is designed around data structures and access patterns rather than around actions or objects. It optimizes for cache efficiency and data locality.
 
 ## Problem Addressed
 
 Without data-oriented design:
-- **Cache misses**: Poor cache utilization
-- **Performance**: Slow performance due to poor data layout
-- **Scalability**: Can't scale to handle large datasets
-- **Memory**: Inefficient memory usage
+- Cache misses are frequent
+- Performance is poor
+- Data access is scattered
+- Systems don't scale
 
 ## Scope and Boundaries
 
-- Data-Oriented Design ≠ OOP (data-oriented prioritizes data layout, OOP prioritizes object hierarchies)
-- Data-Oriented Design = Performance (data-oriented design optimizes performance)
-- Data-Oriented Design is an **architecture approach**, not a pattern
+Data-oriented design applies to:
+- Performance-critical systems
+- Game development
+- Data processing
+- High-throughput systems
+
+Data-oriented design does not apply to:
+- UI applications
+- Business logic
+- CRUD applications
+- Web applications
 
 ## When to Apply
 
-- When building performance-critical systems
-- when processing large datasets
-- when cache performance matters
-- when game engines or real-time systems are involved
+- Building performance-critical systems
+- Developing games
+- Processing large datasets
+- Building high-throughput systems
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — Data-oriented design is less intuitive |
-| **Time** — Designing data layouts takes time |
-| **Readability** — Code may be less readable |
+- **Complexity**: Data-oriented design adds complexity
+- **Not for UI**: UI applications don't need data-oriented design
+- **Not for business logic**: Business logic doesn't need data-oriented design
+- **Not for CRUD**: CRUD applications don't need data-oriented design
+
+## Implementation Guidance
+
+1. **Analyze access patterns**: Analyze how data is accessed
+2. **Design data structures**: Design data structures for access patterns
+3. **Optimize for cache**: Optimize for cache efficiency
+4. **Minimize indirection**: Minimize pointer chasing
+5. **Test performance**: Test performance with real data
+
+## Verification
+
+- [ ] Access patterns are analyzed
+- [ ] Data structures are designed
+- [ ] Cache efficiency is optimized
+- [ ] Indirection is minimized
+- [ ] Performance is tested
 
 ## Common Misuses
 
-- **Everything data-oriented**: Not every system needs data-oriented design
-- **Ignoring maintainability**: Don't sacrifice maintainability for performance
-- **Confusing with DDD**: Data-oriented design is about performance, DDD is about domain modeling
+- **Not analyzing**: Not analyzing access patterns
+- **Not designing**: Not designing data structures
+- **Not optimizing**: Not optimizing for cache
+- **Not testing**: Not testing performance
 
 ## Related Concepts
 
-- [Performance Optimization](Frontend UI/performance-optimization-patterns.md) — Performance optimization benefits from data-oriented design
-- [Profiling](Frontend UI/profiling-patterns.md) — Profiling identifies data-oriented design opportunities
-- [Separation of Concerns](Architecture/separation-of-concerns.md) — Separation of concerns applies to data-oriented design
+- [[Data-Driven Approaches/data-driven-design]] — Data-Driven Design
+- [[Data-Driven Approaches/declarative-programming]] — Declarative Programming
+- [[Data-Driven Approaches/table-driven-logic]] — Table-Driven Logic
+- [[Coding Type Systems/small-cohesive-modules]] — Small Cohesive Modules
 
 ## Project Observations
 
-- The project uses data-oriented design:
-  - TypeScript supports data-oriented design through data structures
-  - The project's architecture patterns note covers design approaches
-  - No evidence of data-oriented design in existing code (src/ is empty)
-- File naming conventions support data-oriented design:
-  - `*.data.ts` — Data files
-  - `*.logic.ts` — Logic files
+The project follows data-oriented design through:
+- Efficient data structures
+- Cache-friendly access patterns
+- Minimal indirection
+- Performance testing
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Data-Oriented Design Note**

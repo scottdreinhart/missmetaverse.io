@@ -1,74 +1,141 @@
----
-slug: fail-fast
-sources:
-  - https://en.wikipedia.org/wiki/Fail-fast
-  - https://en.wikipedia.org/wiki/Fail-safe
-date: 2026-11-02
-tags:
-  - fail-fast
-  - principles
-  - error-handling
-  - debugging
+# Fail Fast
+
+> **Purpose:** Detect and report errors as early as possible.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Fail Fast
+## concept_id
+`arch-fail-fast`
+
+## title
+Fail Fast
+
+## aliases
+- Fail Fast
+- Early Failure
+- Immediate Failure
+
+## category
+core-principles
+
+## concept_type
+design-principle
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Input validation
+- Error handling
+- Testing
+- Debugging
+
+## tags
+- type/principle
+- domain/architecture
+- domain/coding
+- status/verified
+- priority/high
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-design-by-contract
+- arch-explicit-error-modeling
+- arch-input-validation
+- arch-boundary-validation
+- arch-pure-functions
+
+---
 
 ## Definition
 
-Fail Fast is the principle that **systems should detect and report errors as early as possible**, rather than allowing invalid states to propagate.
-
-> "Fail fast means that a program should immediately detect and report conditions that could lead to errors." — Software engineering principle
+Fail Fast is a principle where errors are detected and reported as early as possible, rather than allowing invalid states to propagate through the system.
 
 ## Problem Addressed
 
-Not failing fast leads to:
-- **Delayed errors**: Bugs manifest far from their source
-- **Data corruption**: Invalid data propagates through the system
-- **Debugging difficulty**: Hard to trace back to the root cause
-- **Security risks**: Invalid states may create vulnerabilities
+Without fail fast:
+- Errors are discovered late
+- Debugging is difficult
+- Invalid states propagate
+- User experience suffers
 
 ## Scope and Boundaries
 
-- Fail Fast ≠ Crash immediately (graceful failure is still fail fast)
-- Fail Fast ≠ No error handling (it's about early detection)
-- Fail Fast is about **detection timing**, not **failure handling**
+Fail fast applies to:
+- Input validation
+- Error handling
+- Testing
+- Debugging
+
+Fail fast does not apply to:
+- Graceful degradation
+- Retry logic
+- Fallback mechanisms
+- User-facing error messages
 
 ## When to Apply
 
-- When validating input
-- When checking preconditions
-- When checking invariants
-- When checking postconditions
+- Validating input
+- Checking preconditions
+- Testing code
+- Debugging issues
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Performance** — Early checks add overhead |
-| **Over-validation** — Checking too many things |
-| **User experience** — Early errors may frustrate users |
+- **User experience**: Failing fast may frustrate users
+- **Graceful degradation**: Some systems should degrade gracefully
+- **Retry logic**: Some failures should be retried
+- **Fallback mechanisms**: Some failures should use fallbacks
+
+## Implementation Guidance
+
+1. **Validate early**: Check input at method entry
+2. **Use assertions**: Use assertions for internal checks
+3. **Throw early**: Throw exceptions on invalid input
+4. **Document failures**: Document when and why methods fail
+5. **Test failures**: Test failure paths
+
+## Verification
+
+- [ ] Input is validated early
+- [ ] Assertions are used for internal checks
+- [ ] Exceptions are thrown on invalid input
+- [ ] Failure paths are tested
 
 ## Common Misuses
 
-- **Fail everywhere**: Checking everything at every level
-- **Fail silently**: Not failing fast but also not handling the error
-- **Confusing with fail-safe**: Fail-fast detects early, fail-safe handles gracefully
+- **Failing everywhere**: Not all failures should be immediate
+- **Ignoring user experience**: Failing fast may frustrate users
+- **Not testing failures**: Not testing failure paths
+- **Not documenting**: Not documenting when methods fail
 
 ## Related Concepts
 
-- **Design by Contract** — Fail fast is a practical application
-- **Input Validation** — Fail fast at boundaries
-- **Type Systems** — TypeScript catches errors at compile time (fail fast)
+- [[Architecture/design-by-contract]] — Design by Contract
+- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
+- [[Security/input-validation]] — Input Validation
+- [[Coding Type Systems/boundary-validation]] — Boundary Validation
 
 ## Project Observations
 
-- The project follows fail fast:
-  - TypeScript strict mode catches errors at compile time
-  - Zod schemas validate at runtime (fail fast at boundaries)
-  - Commitlint validates commit messages (fail fast in git workflow)
-  - ESLint catches errors before runtime
-- No evidence of fail-fast violations in existing configuration
+The project follows fail fast through:
+- Zod schema validation
+- TypeScript type checking
+- Runtime type checking
+- Clear error messages
 
 ## Sources
 
-- [[Sources/martin-oop-2000|martin-oop-2000]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Fail Fast Note**

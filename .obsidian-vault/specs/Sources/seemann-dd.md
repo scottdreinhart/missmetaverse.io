@@ -18,3 +18,11 @@ claims_supported:
   - composition-root
 access_limitations: Paid book
 research_notes: "Definitive reference for Dependency Injection in .NET. Defines Composition Root pattern and contrasts DI containers with manual composition."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+

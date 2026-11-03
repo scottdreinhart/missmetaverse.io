@@ -6,6 +6,14 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
   - shadcn
   - ui
   - components
@@ -39,3 +47,12 @@ claims_supported:
   - component-composition
 access_limitations: None
 research_notes: "Official shadcn/ui documentation. Covers installation, components, theming, and customization. Built on Radix UI primitives and Tailwind CSS."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

@@ -1,78 +1,141 @@
----
-slug: event-file-convention
-sources:
-  - https://www.typescriptlang.org/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Event File Convention
+
+> **Purpose:** Define domain events in dedicated files.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.event.ts
+## concept_id
+`project-event-file`
+
+## title
+*.event.ts File Convention
+
+## aliases
+- Event File Convention
+- *.event.ts
+- Domain Event
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Domain-driven design
+- Event-driven architecture
+- Domain events
+- Project organization
+
+## tags
+- type/convention
+- domain/ddd
+- status/verified
+- priority/high
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-view-file
+- project-logic-file
+- project-data-file
+- project-hook-file
+- ddd-domain-event
+
+---
 
 ## Definition
 
-`*.event.ts` is **a file naming convention for TypeScript files that contain domain event definitions**.
-
-> "The *.event.ts convention identifies TypeScript files that contain domain event definitions." — TypeScript Docs
+The *.event.ts file convention designates files that define domain events — objects that capture something that happened in the domain.
 
 ## Problem Addressed
 
-Without `*.event.ts` convention:
-- **Confusion**: Don't know which files contain event definitions
-- **Mixing concerns**: Events are mixed with business logic
-- **Testing**: Hard to test events separately
-- **Maintenance**: Hard to maintain events
+Without file conventions:
+- Events are scattered
+- Event definitions are inconsistent
+- Handling is difficult
+- Architecture is inconsistent
 
 ## Scope and Boundaries
 
-- `*.event.ts` ≠ `*.logic.ts` (`*.event.ts` is for events, `*.logic.ts` is for business logic)
-- `*.event.ts` = Events (`*.event.ts` is for event definitions)
-- `*.event.ts` is a **file naming convention**, not a pattern
+Event files apply to:
+- Domain event definitions
+- Event data structures
+- Event metadata
+- Event handling
+
+Event files do not apply to:
+- UI events
+- System events
+- Infrastructure events
+- Log entries
 
 ## When to Apply
 
-- When building event-driven applications
-- when domain events are used
-- when testing is important
-- when maintenance is important
+- Defining domain events
+- Modeling state changes
+- Implementing event-driven architecture
+- Building domain events
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every event needs a separate file |
+- **Over-eventing**: Not every state change needs an event
+- **Not for UI**: Event files should not handle UI events
+- **Not for system**: Event files should not handle system events
+- **Not for infrastructure**: Event files should not handle infrastructure events
+
+## Implementation Guidance
+
+1. **Define events**: Define event classes
+2. **Add data**: Add relevant event data
+3. **Add metadata**: Add event metadata (timestamp, aggregate ID)
+4. **Test events**: Test event structure
+5. **Document events**: Document event purpose
+
+## Verification
+
+- [ ] Events are defined
+- [ ] Data is added
+- [ ] Metadata is added
+- [ ] Events are tested
+- [ ] Events are documented
 
 ## Common Misuses
 
-- **Everything an event**: Not every notification needs an event file
-- **Mixing concerns**: Event files should not contain business logic
-- **Confusing with logic**: Event files contain events, logic files contain business logic
+- **Not defining events**: Not defining event files
+- **Not adding data**: Not adding event data
+- **Not adding metadata**: Not adding event metadata
+- **Not testing**: Not testing events
 
 ## Related Concepts
 
-- [Domain Event](DDD/domain-event.md) — Domain event pattern is the pattern behind `*.event.ts`
-- [Event-Driven Architecture](Architecture/event-driven-architecture.md) — Event-driven architecture uses `*.event.ts`
-- [Logic File Convention](Project File Conventions/logic-file-convention.md) — Logic file convention separates business logic
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
+- [[DDD/domain-event]] — Domain Event
 
 ## Project Observations
 
-- The project uses `*.event.ts`:
-  - TypeScript supports `*.event.ts` through module system
-  - React supports `*.event.ts` through event definitions
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.event.ts` in existing code (src/ is empty)
-- File naming conventions support `*.event.ts`:
-  - `*.event.ts` — Event files
-  - `*.logic.ts` — Logic files
+The project follows event file convention through:
+- *.event.ts files for domain events
+- *.logic.ts files for event handling
+- Domain-driven design
+- Clear event boundaries
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Event File Convention Note**

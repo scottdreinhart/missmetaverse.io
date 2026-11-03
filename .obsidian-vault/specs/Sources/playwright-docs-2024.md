@@ -6,6 +6,14 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - type/guide
   - playwright
   - testing
   - e2e
@@ -38,3 +46,12 @@ claims_supported:
   - test-isolation
 access_limitations: None
 research_notes: "Official Playwright documentation. Primary source for E2E testing patterns, configuration, and best practices."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

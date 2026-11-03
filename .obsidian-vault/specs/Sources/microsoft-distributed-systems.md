@@ -6,6 +6,12 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/architecture
+  - type/concept
   - distributed-systems
   - microsoft
   - architecture
@@ -37,3 +43,12 @@ claims_supported:
   - dead-letter-queues
 access_limitations: Free public documentation
 research_notes: "Primary source for distributed systems patterns in the vault. Covers all transactional and resilience patterns used in microservices architectures."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

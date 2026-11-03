@@ -1,9 +1,19 @@
 ﻿---
 slug: system-design-101-microservices
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - type/guide
+  - domain/devops
+  - domain/database
   - system-design
   - microservices
   - architecture
@@ -100,3 +110,6 @@ This guide covers essential best practices for designing and implementing micros
 
 - [[Sources/system-design-101-index|system-design-101-index]]
 - [Guide: 9-best-practices-for-building-microservices](https://bytebytego.com/guides/9-best-practices-for-building-microservices)
+
+
+

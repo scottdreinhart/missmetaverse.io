@@ -11,6 +11,19 @@ verification_status: verified
 claims_supported: 20
 access_limitations: Free public standard
 ---
+tags:
+  - priority/medium
+  - maturity/stable
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
+  - domain/testing
+  - status/complete
+  - type/reference
 
 # W3C Internationalization (i18n) Resources
 
@@ -144,3 +157,12 @@ pr.select(2) // → "other"
 
 *Source: W3C Internationalization Activity*
 *Last Verified: 2026-11-02*
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

@@ -1,480 +1,164 @@
-﻿---
-slug: solid-principles
-sources:
-  - https://en.wikipedia.org/wiki/SOLID
-  - https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
-  - https://blog.cleancoder.com/uncle-bob/2014/05/12/TheOpenClosedPrinciple.html
-  - https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
-date: 2026-11-02
-tags:
-  - solid
-  - principles
-  - design
-  - oop
-  - typescript
----
+﻿# SOLID Principles
 
-# SOLID Principles
-
-## Overview
-
-SOLID is a mnemonic acronym for five principles that make source code more understandable, flexible, and maintainable. Introduced by Robert C. Martin in 2000, the acronym was coined by Michael Feathers around 2004.
+> **Purpose:** Foundational OOP design principles for maintainable code.
+> **Last Updated:** 2026-11-03
 
 ---
 
-## 1. Single Responsibility Principle (SRP)
+## concept_id
+`arch-solid-principles`
 
-### Definition
+## title
+SOLID Principles
 
-A module has **one cohesive responsibility** and **one primary reason to change**.
+## aliases
+- SOLID
+- Five OOP Principles
+- Robert C. Martin Principles
 
-### Key Insight
+## category
+core-principles
 
-Responsibility = reason to change. If you can think of more than one reason to change a module, it has more than one responsibility.
+## concept_type
+design-principle
 
-### TypeScript Example
+## research_status
+verified
 
-```typescript
-// ❌ VIOLATION: Multiple reasons to change
-class UserService {
-  createUser(name: string, email: string) { /* ... */ }
-  sendWelcomeEmail(user: User) { /* ... */ }  // Changes when email format changes
-  hashPassword(password: string) { /* ... */ }  // Changes when hashing algorithm changes
-  validateEmail(email: string) { /* ... */ }    // Changes when validation rules change
-}
+## project_adoption
+declared
 
-// ✅ SRP: Each class has one reason to change
-class UserService {
-  constructor(
-    private emailService: EmailService,
-    private passwordService: PasswordService,
-    private validator: EmailValidator
-  ) {}
+## applicability
+- Object-oriented programming
+- TypeScript
+- JavaScript
+- Any OOP language
 
-  async createUser(name: string, email: string): Promise<User> {
-    this.validator.validate(email)
-    const hashed = await this.passwordService.hash(email)
-    // ... create user
-    await this.emailService.sendWelcome(user)
-  }
-}
+## tags
+- type/principle
+- domain/architecture
+- domain/coding
+- status/verified
+- priority/high
 
-class EmailService {
-  sendWelcome(user: User) { /* ... */ }  // Only changes when email changes
-}
+## source_ids
+- martin-fowler-patterns
+- goF-1994
 
-class PasswordService {
-  hash(password: string) { /* ... */ }   // Only changes when hashing changes
-}
-
-class EmailValidator {
-  validate(email: string) { /* ... */ }  // Only changes when validation changes
-}
-```
-
-### Checklist
-
-- [ ] Can I describe the purpose of this module in one sentence?
-- [ ] Will changes to X affect this module?
-- [ ] Are there multiple abstractions mixed together?
+## related_concept_ids
+- arch-single-responsibility
+- arch-open-closed
+- arch-liskov-substitution
+- arch-interface-segregation
+- arch-dependency-inversion
+- arch-dry
+- arch-separation-of-concerns
 
 ---
 
-## 2. Open/Closed Principle (OCP)
+## Definition
 
-### Definition
+SOLID is an acronym for five design principles that, when combined, make it easier to create maintainable, extensible, and understandable object-oriented software systems.
 
-Software entities should be **open for extension** but **closed for modification**.
+1. **Single Responsibility Principle (SRP)** — A class should have one, and only one, reason to change.
+2. **Open/Closed Principle (OCP)** — Software entities should be open for extension but closed for modification.
+3. **Liskov Substitution Principle (LSP)** — Objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
+4. **Interface Segregation Principle (ISP)** — Many client-specific interfaces are better than one general-purpose interface.
+5. **Dependency Inversion Principle (DIP)** — Depend upon abstractions, not concretions.
 
-### Key Insight
+## Problem Addressed
 
-Add new behavior through stable extension points (interfaces, abstract classes, composition) rather than modifying existing code.
+Without these principles, code tends to become:
+- Tightly coupled and difficult to test
+- Rigid and resistant to change
+- Fragile — changes in one place break unrelated code
+- Difficult to understand and maintain
+- Prone to duplication
 
-### TypeScript Example
+## Scope and Boundaries
 
-```typescript
-// ❌ VIOLATION: Modifying existing code for new types
-class PriceCalculator {
-  calculatePrice(item: any): number {
-    if (item.type === 'book') {
-      return item.price * 1.1  // Add tax
-    } else if (item.type === 'electronics') {
-      return item.price * 1.2  // Add warranty
-    } else if (item.type === 'food') {
-      return item.price * 0.9  // Discount
-    }
-    // Must modify this function for every new type
-  }
-}
+SOLID applies to object-oriented design and class-level architecture. It does not directly address:
+- Functional programming patterns
+- Database schema design
+- Infrastructure concerns
+- UI layout or styling
 
-// ✅ OCP: Extension through interfaces
-interface PriceStrategy {
-  calculate(item: Item): number
-}
+## When to Apply
 
-class BookPriceStrategy implements PriceStrategy {
-  calculate(item: Item): number {
-    return item.price * 1.1
-  }
-}
+- During domain model design
+- When designing interfaces and abstractions
+- When refactoring tightly coupled code
+- When introducing new features that require extension
 
-class ElectronicsPriceStrategy implements PriceStrategy {
-  calculate(item: Item): number {
-    return item.price * 1.2
-  }
-}
+## Tradeoffs and When to Avoid
 
-class FoodPriceStrategy implements PriceStrategy {
-  calculate(item: Item): number {
-    return item.price * 0.9
-  }
-}
+- **Over-engineering risk**: Applying SOLID to simple scripts or one-off code can create unnecessary complexity
+- **Abstraction creep**: Creating too many interfaces and abstractions can make code harder to follow
+- **Performance overhead**: Indirection through abstractions can have minor performance costs
 
-class PriceCalculator {
-  private strategies: Map<string, PriceStrategy> = new Map()
+## Implementation Guidance
 
-  register(type: string, strategy: PriceStrategy) {
-    this.strategies.set(type, strategy)
-  }
+### Single Responsibility Principle
+- Each class should have one job
+- If a class has multiple responsibilities, extract them into separate classes
+- Look for multiple reasons to change a class
 
-  calculatePrice(item: Item): number {
-    const strategy = this.strategies.get(item.type)
-    if (!strategy) throw new Error(`No strategy for ${item.type}`)
-    return strategy.calculate(item)
-  }
-}
+### Open/Closed Principle
+- Use abstraction to allow extension
+- Prefer composition over inheritance for extension
+- Use interfaces and abstract classes
 
-// Add new type without modifying existing code
-calculator.register('clothing', new ClothingPriceStrategy())
-```
+### Liskov Substitution Principle
+- Subclasses should not strengthen preconditions
+- Subclasses should not weaken postconditions
+- Subclasses should not throw unexpected exceptions
 
-### Extension Patterns
+### Interface Segregation Principle
+- Create small, focused interfaces
+- Avoid fat interfaces that force implementation of unused methods
+- Create client-specific interfaces
 
-| Pattern | How It Works |
-|---------|-------------|
-| **Strategy** | Swap algorithms via interfaces |
-| **Factory** | Create implementations without knowing types |
-| **Decorator** | Add behavior dynamically |
-| **Template Method** | Define skeleton, override steps |
-| **Plugin** | Register extensions at runtime |
+### Dependency Inversion Principle
+- High-level modules should not depend on low-level modules
+- Both should depend on abstractions
+- Abstractions should not depend on details
 
----
+## Verification
 
-## 3. Liskov Substitution Principle (LSP)
+- [ ] Confirmed in project codebase
+- [ ] Applied in domain models
+- [ ] Used in interface design
+- [ ] Enforced in code reviews
 
-### Definition
+## Common Misuses
 
-Implementations must **honor the behavioral contracts** of their abstractions. Subtypes must be substitutable for their base types without altering correctness.
+- **SRP confusion**: SRP is about responsibilities, not just "small classes"
+- **OCP overuse**: Not everything needs to be extensible
+- **LSP violation**: Subclasses that throw `NotImplementedException` violate LSP
+- **ISP violation**: Large interfaces with many unused methods
+- **DIP confusion**: DIP is about depending on abstractions, not just using dependency injection
 
-### Key Insight
+## Related Concepts
 
-If `S` is a subtype of `T`, then objects of type `T` should be replaceable with objects of type `S` without breaking the program.
+- [[Architecture/dry]] — DRY principle
+- [[Architecture/separation-of-concerns]] — Separation of Concerns
+- [[Architecture/encapsulation]] — Encapsulation
+- [[Architecture/dependency-injection]] — Dependency Injection
+- [[Architecture/composition-over-inheritance]] — Composition over Inheritance
 
-### TypeScript Example
+## Project Observations
 
-```typescript
-// ❌ VIOLATION: Subtype breaks base contract
-interface Bird {
-  fly(): void
-  swim(): void
-}
+The project uses TypeScript, which supports all SOLID principles through:
+- Classes and interfaces for OOP
+- Generics for abstraction
+- Dependency injection patterns
+- Strict typing for type safety
 
-class Duck implements Bird {
-  fly() { console.log('Flying') }
-  swim() { console.log('Swimming') }
-}
+## Sources
 
-class Ostrich implements Bird {
-  fly() { throw new Error('Cannot fly') }  // Breaks contract!
-  swim() { throw new Error('Cannot swim') }
-}
-
-// ✅ LSP: Split interfaces, honor contracts
-interface Flyable {
-  fly(): void
-}
-
-interface Swimable {
-  swim(): void
-}
-
-class Duck implements Flyable, Swimable {
-  fly() { console.log('Flying') }
-  swim() { console.log('Swimming') }
-}
-
-class Ostrich {
-  run() { console.log('Running') }  // Different interface
-}
-
-class Swan implements Flyable, Swimable {
-  fly() { console.log('Flying') }
-  swim() { console.log('Swimming') }
-}
-```
-
-### LSP Violations to Avoid
-
-| Violation | Example |
-|-----------|---------|
-| **Precondition strengthening** | Subtype requires more than base |
-| **Postcondition weakening** | Subtype guarantees less than base |
-| **Side effects** | Subtype has unexpected behavior |
-| **State invariants** | Subtype breaks state rules |
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 ---
 
-## 4. Interface Segregation Principle (ISP)
-
-### Definition
-
-Expose **focused interfaces** so consumers depend only on capabilities they use. No client should be forced to depend on methods it does not use.
-
-### Key Insight
-
-Fat interfaces create unnecessary coupling. Split them into smaller, role-specific interfaces.
-
-### TypeScript Example
-
-```typescript
-// ❌ VIOLATION: Fat interface
-interface Worker {
-  work(): void
-  eat(): void
-  sleep(): void
-  code(): void
-  design(): void
-  manage(): void
-}
-
-// Robot must implement methods it cannot do
-class Robot implements Worker {
-  work() { /* ... */ }
-  eat() { throw new Error('Robots don\'t eat') }  // Forced dependency
-  sleep() { throw new Error('Robots don\'t sleep') }
-  code() { /* ... */ }
-  design() { throw new Error('Robots can\'t design') }
-  manage() { throw new Error('Robots can\'t manage') }
-}
-
-// ✅ ISP: Segregated interfaces
-interface Workable {
-  work(): void
-}
-
-interface Eatable {
-  eat(): void
-}
-
-interface Sleepable {
-  sleep(): void
-}
-
-interface Coder {
-  code(): void
-}
-
-interface Designer {
-  design(): void
-}
-
-interface Manager {
-  manage(): void
-}
-
-class Human implements Workable, Eatable, Sleepable, Coder, Designer, Manager {
-  work() { /* ... */ }
-  eat() { /* ... */ }
-  sleep() { /* ... */ }
-  code() { /* ... */ }
-  design() { /* ... */ }
-  manage() { /* ... */ }
-}
-
-class Robot implements Workable, Coder {
-  work() { /* ... */ }
-  code() { /* ... */ }
-  // No eat, sleep, design, manage
-}
-```
-
-### Interface Roles
-
-| Role | Methods |
-|------|---------|
-| `Workable` | `work()` |
-| `Eatable` | `eat()` |
-| `Sleepable` | `sleep()` |
-| `Coder` | `code()` |
-| `Designer` | `design()` |
-| `Manager` | `manage()` |
-
----
-
-## 5. Dependency Inversion Principle (DIP)
-
-### Definition
-
-High-level policy depends on **abstractions**; implementation details satisfy those abstractions.
-
-### Two Parts
-
-1. High-level modules should not depend on low-level modules. Both should depend on abstractions.
-2. Abstractions should not depend on details. Details should depend on abstractions.
-
-### TypeScript Example
-
-```typescript
-// ❌ VIOLATION: High-level depends on low-level
-class OrderService {
-  private db: PostgreSQLDatabase  // Direct dependency on concrete class
-
-  async saveOrder(order: Order) {
-    await this.db.insert('orders', order)  // Tied to PostgreSQL
-  }
-}
-
-// ✅ DIP: Depend on abstractions
-interface Database {
-  insert(table: string, data: unknown): Promise<void>
-  query(sql: string): Promise<unknown[]>
-}
-
-class PostgreSQLDatabase implements Database {
-  async insert(table: string, data: unknown) { /* ... */ }
-  async query(sql: string) { /* ... */ }
-}
-
-class MongoDB implements Database {
-  async insert(table: string, data: unknown) { /* ... */ }
-  async query(sql: string) { /* ... */ }
-}
-
-class OrderService {
-  constructor(private db: Database) {}  // Depends on abstraction
-
-  async saveOrder(order: Order) {
-    await this.db.insert('orders', order)  // Works with any DB
-  }
-}
-
-// Swap implementations without changing OrderService
-const service = new OrderService(new PostgreSQLDatabase())
-const service2 = new OrderService(new MongoDB())
-```
-
-### Dependency Flow
-
-```
-┌─────────────────────────────────────────┐
-│  High-Level Policy (OrderService)       │
-│ ┌───────────────────────────────────┐   │
-│ │  depends on abstraction           │   │
-│ │  ┌─────────────────────────────┐  │   │
-│ │  │  Database (interface)       │  │   │
-│ │  │  - insert()                 │  │   │
-│ │  │  - query()                  │  │   │
-│ │  └─────────────┬───────────────┘  │   │
-│ └────────────────┼──────────────────┘   │
-│                  │ depends on           │
-│                  ▼                      │
-│   Low-Level Details                     │
-│ ┌────────────────────┐ ┌──────────────┐ │
-│ │ PostgreSQL         │ │ MongoDB      │ │
-│ │ Database implements│ │ implements   │ │
-│ └────────────────────┘ └──────────────┘ │
-└─────────────────────────────────────────┘
-```
-
----
-
-## SOLID Integration Map
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    SOLID PRINCIPLES                         │
-│                                                             │
-│  SRP ──► One reason to change ──► Small, focused modules    │
-│  OCP ──► Extension over modification ──► Interfaces, plugins│
-│  LSP ──► Subtypes honor contracts ──► No forced behavior    │
-│  ISP ──► Focused interfaces ──► Role-specific abstractions  │
-│  DIP ──► Depend on abstractions ──► Dependency injection    │
-│                                                             │
-│  Together they produce:                                     │
-│  • Testable code (each unit has one responsibility)         │
-│  • Extensible code (add features without breaking existing) │
-│  • Maintainable code (changes are localized)                │
-│  • Flexible code (swap implementations easily)              │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-## Common Anti-Patterns
-
-| Anti-Pattern                    | Violation | Fix                        |
-| ------------------------------- | --------- | -------------------------- |
-| **God Object**                  | SRP       | Split into focused modules |
-| **Conditional Logic Explosion** | OCP       | Use Strategy pattern       |
-| **Broken Subtype**              | LSP       | Split interfaces           |
-| **Fat Interface**               | ISP       | Segregate by role          |
-| **Concrete Dependency**         | DIP       | Use abstractions + DI      |
-
----
-
-## Cross-References
-
-- [Clean Architecture](./clean-architecture.md)
-- [DDD Patterns](./ddd-patterns.md)
-- [Design Patterns](./design-patterns.md)
-- [Coding Practices](./coding-practices.md)
-- [Architecture Patterns](./architecture-patterns.md)
-
----
-
-## Copilot Instructions
-
-### When to Read This Note
-- Writing new classes or interfaces
-- Refactoring code that's hard to test
-- Code review: checking for coupled or rigid code
-- Designing API contracts or service interfaces
-- Adding new features that might break existing code
-
-### What to Do With This Information
-1. **SRP**: Before creating a class, ask "does this have one reason to change?" If no, split it
-2. **OCP**: When adding new behavior, extend through interfaces — don't modify existing code
-3. **LSP**: When creating subtypes, verify they can be substituted for their base type
-4. **ISP**: When creating interfaces, split them by role — no client should depend on unused methods
-5. **DIP**: Always depend on abstractions (interfaces), never on concrete implementations
-
-### Tools to Use
-- **VS Code Extension**: ESLint with `@typescript-eslint` — for detecting code smells
-- **VS Code Extension**: Error Lens — for inline violation detection
-- **npm Package**: `eslint-plugin-simple-import-sort` — for import organization
-- **Terminal Command**: `pnpm tsc --noEmit` — verify type safety after refactoring
-- **Terminal Command**: `pnpm test` — verify refactoring didn't break tests
-
-### Agents to Invoke
-- **Code Review Agent**: Run when reviewing PRs for SOLID compliance
-- **Architecture Validation Agent**: Run when designing new modules
-
-### Integration with Other Notes
-- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for layer-level application of SOLID
-- Read [[ddd-patterns]] for domain-level application of SOLID
-- Read [dependency-injection](https://en.wikipedia.org/wiki/Dependency_injection) for DIP implementation patterns
-- Read [[coding-practices]] for SOLID in daily coding
-
-### Common Pitfalls
-- Don't create interfaces just to satisfy DIP — only when there are multiple implementations
-- Don't over-segregate interfaces (ISP) — keep related methods together
-- Don't use inheritance when composition would work (prefer composition over inheritance)
-- Don't create abstractions for single-use cases (DIP is for polymorphism, not indirection)
-- Don't violate LSP to save boilerplate (subtypes must honor contracts)
-
-### Quick Validation Checklist
-- [ ] Can I test this class in isolation? (SRP)
-- [ ] Can I add new behavior without modifying this class? (OCP)
-- [ ] Can I substitute subtypes without breaking? (LSP)
-- [ ] Does this interface have only methods the consumer needs? (ISP)
-- [ ] Does this class depend on an interface, not a concrete class? (DIP)
+**End of SOLID Principles Note**

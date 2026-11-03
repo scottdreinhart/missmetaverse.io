@@ -1,0 +1,778 @@
+﻿{
+    "broken_links":  143,
+    "broken_link_details":  {
+                                "cache-invalidation":  [
+                                                           "system-design-101-caching-performance.md",
+                                                           "system-design-101-caching.md"
+                                                       ],
+                                "financial-systems":  [
+                                                          "system-design-101-payment-fintech.md",
+                                                          "system-design-101-payment-system.md"
+                                                      ],
+                                "video-streaming":  [
+                                                        "system-design-101-video-streaming.md"
+                                                    ],
+                                "system-design-101/categories/database-and-storage":  [
+                                                                                          "system-design-101-source.md"
+                                                                                      ],
+                                "model-serving":  [
+                                                      "system-design-101-ml-systems.md"
+                                                  ],
+                                "distributed-consensus":  [
+                                                              "system-design-101-consistency.md"
+                                                          ],
+                                "secrets-management":  [
+                                                           "M08-Secure-Defaults.md",
+                                                           "M15-Data-Minimization.md"
+                                                       ],
+                                "chat-systems":  [
+                                                     "system-design-101-chat-system.md",
+                                                     "system-design-101-how-it-works.md"
+                                                 ],
+                                "etl-patterns":  [
+                                                     "system-design-101-data-warehousing.md"
+                                                 ],
+                                "message-queues":  [
+                                                       "system-design-101-message-queue.md",
+                                                       "system-design-101-notification-system.md"
+                                                   ],
+                                "database-sharding":  [
+                                                          "system-design-101-database-design.md",
+                                                          "system-design-101-database-storage.md"
+                                                      ],
+                                "cqrs":  [
+                                             "system-design-101-message-queue.md"
+                                         ],
+                                "domain-invariant":  [
+                                                         "C01-Ubiquitous-Language.md",
+                                                         "C04-Entity.md",
+                                                         "C06-Aggregate.md",
+                                                         "C07-Aggregate-Root.md",
+                                                         "C09-Domain-Service.md",
+                                                         "C14-Factory-DDD-Pattern.md",
+                                                         "C15-Specification-DDD-Pattern.md"
+                                                     ],
+                                "pure-functions-coding":  [
+                                                              "N07-Pure-Functions.md"
+                                                          ],
+                                "scalability-strategies":  [
+                                                               "system-design-101-citation-guide.md",
+                                                               "system-design-101-cloud-distributed-systems.md",
+                                                               "system-design-101-high-availability.md",
+                                                               "system-design-101-load-balancing.md",
+                                                               "system-design-101-real-world-case-studies.md",
+                                                               "system-design-101-scalability.md",
+                                                               "system-design-101-source.md"
+                                                           ],
+                                "internationalization":  [
+                                                             "system-design-101-how-it-works.md"
+                                                         ],
+                                "input-validation":  [
+                                                         "A183-react-security.md"
+                                                     ],
+                                "APIs Distributed Systems/rest-api-design":  [
+                                                                                 "code-review-checklist.md"
+                                                                             ],
+                                "Quality Delivery/logging-patterns":  [
+                                                                          "system-design-101-monitoring.md"
+                                                                      ],
+                                "disaster-recovery":  [
+                                                          "system-design-101-high-availability.md"
+                                                      ],
+                                "linux-fundamentals":  [
+                                                           "system-design-101-devtools-productivity.md"
+                                                       ],
+                                "specification-ddd-pattern":  [
+                                                                  "C12-Repository-DDD-Pattern.md",
+                                                                  "C15-Specification-DDD-Pattern.md"
+                                                              ],
+                                "secure-defaults":  [
+                                                        "M07-Secure-by-Design.md",
+                                                        "M16-Secrets-Management.md"
+                                                    ],
+                                "graphql-api-design":  [
+                                                           "system-design-101-api-design.md",
+                                                           "system-design-101-api-web-development.md"
+                                                       ],
+                                "\u0027eslint --fix\u0027":  [
+                                                                 "I04-linting-husky-pipeline.md"
+                                                             ],
+                                "ubiquitous-language":  [
+                                                            "C02-Bounded-Context.md"
+                                                        ],
+                                "database-replication":  [
+                                                             "system-design-101-database-design.md",
+                                                             "system-design-101-database-storage.md"
+                                                         ],
+                                "context-map":  [
+                                                    "C02-Bounded-Context.md",
+                                                    "C13-Domain-Event.md"
+                                                ],
+                                "accessibility-by-design":  [
+                                                                "A003-accessibility-a11y.md"
+                                                            ],
+                                "seo-best-practices":  [
+                                                           "system-design-101-devtools-productivity.md",
+                                                           "HM01-html5-best-practices.md"
+                                                       ],
+                                "react-security":  [
+                                                       "A193-security-principles.md"
+                                                   ],
+                                "notification-systems":  [
+                                                             "system-design-101-notification-system.md"
+                                                         ],
+                                "entity":  [
+                                               "C01-Ubiquitous-Language.md",
+                                               "C05-Value-Object.md",
+                                               "C06-Aggregate.md",
+                                               "C07-Aggregate-Root.md",
+                                               "C08-Domain-Invariant.md",
+                                               "C09-Domain-Service.md",
+                                               "C10-Application-Service.md",
+                                               "C14-Factory-DDD-Pattern.md"
+                                           ],
+                                "load-balancing":  [
+                                                       "system-design-101-high-availability.md",
+                                                       "system-design-101-load-balancing.md",
+                                                       "system-design-101-scalability.md"
+                                                   ],
+                                "trust-boundaries":  [
+                                                         "M17-Threat-Modeling.md"
+                                                     ],
+                                "Cascading Stylesheets/css-fundamentals":  [
+                                                                               "SC02-shadcn-ui-patterns.md",
+                                                                               "SC02-shadcn-ui-patterns.md",
+                                                                               "TC01-tailwind-css-patterns.md",
+                                                                               "TC02-tw-optimization-performance.md",
+                                                                               "TC02-tw-optimization-performance.md"
+                                                                           ],
+                                "exhaustive-handling":  [
+                                                            "N07-Pure-Functions.md"
+                                                        ],
+                                "fowler-ddd-2003":  [
+                                                        "aws-cloud-services.md",
+                                                        "aws-cloud-services.md",
+                                                        "bogard-vertical-slice.md",
+                                                        "documentation-ingestion-plan.md",
+                                                        "evans-ddd-2003.md"
+                                                    ],
+                                "distributed-tracing":  [
+                                                            "system-design-101-monitoring.md"
+                                                        ],
+                                "transaction-processing":  [
+                                                               "system-design-101-payment-fintech.md",
+                                                               "system-design-101-payment-system.md"
+                                                           ],
+                                "vite-optimization":  [
+                                                          "A182-react-performance.md"
+                                                      ],
+                                "ts-narrowing":  [
+                                                     "T01-ts-advanced-types.md",
+                                                     "T02-ts-best-practices.md",
+                                                     "T02-ts-best-practices.md",
+                                                     "T10-typescript-strict-mode.md",
+                                                     "T10-typescript-strict-mode.md"
+                                                 ],
+                                "ts-best-practices":  [
+                                                          "T10-typescript-strict-mode.md",
+                                                          "T10-typescript-strict-mode.md"
+                                                      ],
+                                "oop-principles":  [
+                                                       "system-design-101-software-development.md"
+                                                   ],
+                                "repository-ddd-pattern":  [
+                                                               "C15-Specification-DDD-Pattern.md"
+                                                           ],
+                                "ts-fundamentals":  [
+                                                        "T02-ts-best-practices.md",
+                                                        "T02-ts-best-practices.md",
+                                                        "T10-typescript-strict-mode.md",
+                                                        "T10-typescript-strict-mode.md"
+                                                    ],
+                                "ts-tsconfig":  [
+                                                    "T02-ts-best-practices.md",
+                                                    "T02-ts-best-practices.md",
+                                                    "T10-typescript-strict-mode.md",
+                                                    "T10-typescript-strict-mode.md"
+                                                ],
+                                "database-indexing":  [
+                                                          "system-design-101-database-design.md",
+                                                          "system-design-101-database-storage.md"
+                                                      ],
+                                "two-phase-commit":  [
+                                                         "system-design-101-consistency.md"
+                                                     ],
+                                "domain-service":  [
+                                                       "C05-Value-Object.md",
+                                                       "C08-Domain-Invariant.md",
+                                                       "C10-Application-Service.md",
+                                                       "C11-Use-Case.md"
+                                                   ],
+                                "grpc-design":  [
+                                                    "system-design-101-api-design.md"
+                                                ],
+                                "typescript-strict-mode":  [
+                                                               "T01-ts-advanced-types.md",
+                                                               "T02-ts-best-practices.md",
+                                                               "T02-ts-best-practices.md",
+                                                               "T03-ts-decorators.md",
+                                                               "T05-ts-narrowing.md"
+                                                           ],
+                                "Quality Delivery/ci-cd-patterns":  [
+                                                                        "PM01-pnpm-best-practices.md",
+                                                                        "PM02-pnpm-workspace.md",
+                                                                        "T02-testing-patterns.md",
+                                                                        "T02-testing-patterns.md"
+                                                                    ],
+                                "integration-patterns":  [
+                                                             "system-design-101-integration.md"
+                                                         ],
+                                "Folder/file-name":  [
+                                                         "AGENTS.md"
+                                                     ],
+                                "coding-practices":  [
+                                                         "A206-solid-principles.md"
+                                                     ],
+                                "shadcn-best-practices":  [
+                                                              "SC02-shadcn-ui-patterns.md",
+                                                              "SC02-shadcn-ui-patterns.md"
+                                                          ],
+                                "media-processing":  [
+                                                         "system-design-101-video-streaming.md"
+                                                     ],
+                                "graphql-adoption-patterns":  [
+                                                                  "system-design-101-api-styles.md"
+                                                              ],
+                                "parameterized-queries":  [
+                                                              "M11-Contextual-Output-Encoding.md"
+                                                          ],
+                                "operating-systems":  [
+                                                          "system-design-101-computer-fundamentals.md"
+                                                      ],
+                                "cicd-pipeline":  [
+                                                      "system-design-101-devops-cicd.md"
+                                                  ],
+                                "ai-agents":  [
+                                                  "system-design-101-ai-machine-learning.md"
+                                              ],
+                                "React/react-patterns":  [
+                                                             "A182-react-performance.md",
+                                                             "A183-react-security.md"
+                                                         ],
+                                "information-retrieval":  [
+                                                              "system-design-101-search-engine.md"
+                                                          ],
+                                "versioning-strategies":  [
+                                                              "system-design-101-api-design.md",
+                                                              "system-design-101-api-web-development.md"
+                                                          ],
+                                "elasticsearch-patterns":  [
+                                                               "system-design-101-caching-performance.md",
+                                                               "system-design-101-search-engine.md"
+                                                           ],
+                                "abac":  [
+                                             "M03-Complete-Mediation.md",
+                                             "M13-RBAC.md",
+                                             "M15-Data-Minimization.md"
+                                         ],
+                                "tcp-ip":  [
+                                               "system-design-101-computer-fundamentals.md"
+                                           ],
+                                "system-design-101/categories/security":  [
+                                                                              "system-design-101-source.md"
+                                                                          ],
+                                "ddd-patterns":  [
+                                                     "A017-architecture-patterns.md",
+                                                     "A017-architecture-patterns.md",
+                                                     "A018-atomic-design.md",
+                                                     "A036-clean-architecture.md",
+                                                     "A039-coding-practices.md",
+                                                     "A093-event-driven-architecture.md",
+                                                     "A168-polling-platform-requirements.md",
+                                                     "A174-project-structure-mapping.md",
+                                                     "A186-repository-pattern.md",
+                                                     "A206-solid-principles.md"
+                                                 ],
+                                "css-media-queries":  [
+                                                          "CS02-css-fundamentals.md"
+                                                      ],
+                                "dos-protection":  [
+                                                       "system-design-101-rate-limiting.md"
+                                                   ],
+                                "vitest-testing":  [
+                                                       "T02-testing-patterns.md",
+                                                       "T02-testing-patterns.md"
+                                                   ],
+                                "aws-elasticache":  [
+                                                        "aws-cloud-services.md",
+                                                        "bogard-vertical-slice.md",
+                                                        "documentation-ingestion-plan.md",
+                                                        "evans-ddd-2003.md",
+                                                        "frost-atomic-design-2016.md",
+                                                        "gdpr-eu.md",
+                                                        "go-blog.md",
+                                                        "goF-1994.md",
+                                                        "harel-statecharts.md",
+                                                        "martin-fowler-patterns.md",
+                                                        "martin-fowler-patterns.md",
+                                                        "martinfowler-bliki.md",
+                                                        "mdn-css-2024.md",
+                                                        "mdn-html-2024.md",
+                                                        "microsoft-azure.md",
+                                                        "microsoft-distributed-systems.md",
+                                                        "microsoft-typescript-handbook.md",
+                                                        "nist-cyberframework-2014.md",
+                                                        "opentelemetry.md",
+                                                        "owasp-top-ten-2021.md",
+                                                        "pattern-surface.md",
+                                                        "playwright-docs-2024.md",
+                                                        "pnpm-docs-2024.md",
+                                                        "radix-ui-docs-2024.md",
+                                                        "react-docs-2026.md",
+                                                        "rest-api-design.md",
+                                                        "seemann-dd.md",
+                                                        "shadcn-ui-docs-2024.md",
+                                                        "swagger-openapi.md",
+                                                        "system-design-101-ai-machine-learning.md",
+                                                        "system-design-101-api-design.md",
+                                                        "system-design-101-api-styles.md",
+                                                        "system-design-101-api-web-development.md",
+                                                        "system-design-101-caching-performance.md",
+                                                        "system-design-101-caching.md",
+                                                        "system-design-101-chat-system.md",
+                                                        "system-design-101-cloud-distributed-systems.md",
+                                                        "system-design-101-computer-fundamentals.md",
+                                                        "system-design-101-consistency.md",
+                                                        "system-design-101-content-delivery.md",
+                                                        "system-design-101-data-warehousing.md",
+                                                        "system-design-101-database-design.md",
+                                                        "system-design-101-database-storage.md",
+                                                        "system-design-101-devops-cicd.md",
+                                                        "system-design-101-devtools-productivity.md",
+                                                        "system-design-101-high-availability.md",
+                                                        "system-design-101-how-it-works.md",
+                                                        "system-design-101-integration.md",
+                                                        "system-design-101-load-balancing.md",
+                                                        "system-design-101-message-queue.md",
+                                                        "system-design-101-ml-systems.md",
+                                                        "system-design-101-monitoring.md",
+                                                        "system-design-101-notification-system.md",
+                                                        "system-design-101-payment-fintech.md",
+                                                        "system-design-101-payment-system.md",
+                                                        "system-design-101-permission-systems.md",
+                                                        "system-design-101-rate-limiting.md",
+                                                        "system-design-101-real-world-case-studies.md",
+                                                        "system-design-101-search-engine.md",
+                                                        "system-design-101-secure-systems.md",
+                                                        "system-design-101-security.md",
+                                                        "system-design-101-software-architecture.md",
+                                                        "system-design-101-software-development.md",
+                                                        "system-design-101-video-streaming.md",
+                                                        "tailwind-docs-2024.md",
+                                                        "thoughtworks-radar.md",
+                                                        "vite-docs-2024.md",
+                                                        "vitest-docs-2024.md",
+                                                        "w3c-i18n.md",
+                                                        "wcag-21.md",
+                                                        "wikipedia.md",
+                                                        "xstate-docs.md"
+                                                    ],
+                                "database-scaling":  [
+                                                         "system-design-101-citation-guide.md",
+                                                         "system-design-101-citation-guide.md",
+                                                         "system-design-101-scalability.md",
+                                                         "system-design-101-source.md"
+                                                     ],
+                                "secure-by-design":  [
+                                                         "M06-Separation-of-Duties.md",
+                                                         "M08-Secure-Defaults.md",
+                                                         "M16-Secrets-Management.md",
+                                                         "M17-Threat-Modeling.md"
+                                                     ],
+                                "ts-security-best-practices":  [
+                                                                   "T01-ts-advanced-types.md",
+                                                                   "T02-ts-best-practices.md",
+                                                                   "T02-ts-best-practices.md",
+                                                                   "T03-ts-decorators.md",
+                                                                   "T05-ts-narrowing.md",
+                                                                   "T10-typescript-strict-mode.md",
+                                                                   "T10-typescript-strict-mode.md"
+                                                               ],
+                                "microservices-architecture":  [
+                                                                   "system-design-101-api-styles.md",
+                                                                   "system-design-101-citation-guide.md",
+                                                                   "system-design-101-microservices.md",
+                                                                   "system-design-101-source.md"
+                                                               ],
+                                "email-systems":  [
+                                                      "system-design-101-how-it-works.md"
+                                                  ],
+                                "data-warehousing":  [
+                                                         "system-design-101-data-warehousing.md"
+                                                     ],
+                                "websockets":  [
+                                                   "system-design-101-chat-system.md"
+                                               ],
+                                "high-availability":  [
+                                                          "system-design-101-load-balancing.md"
+                                                      ],
+                                "devops-practices":  [
+                                                         "system-design-101-devops-cicd.md"
+                                                     ],
+                                "output-encoding":  [
+                                                        "M11-Contextual-Output-Encoding.md",
+                                                        "M12-Parameterized-Queries.md"
+                                                    ],
+                                "devtools":  [
+                                                 "system-design-101-devtools-productivity.md"
+                                             ],
+                                "sql-vs-nosql":  [
+                                                     "system-design-101-database-design.md",
+                                                     "system-design-101-database-storage.md"
+                                                 ],
+                                "responsive-design":  [
+                                                          "CS03-css-media-queries.md",
+                                                          "CS03-css-media-queries.md"
+                                                      ],
+                                "ts-advanced-types":  [
+                                                          "T02-ts-best-practices.md",
+                                                          "T02-ts-best-practices.md",
+                                                          "T03-ts-decorators.md",
+                                                          "T05-ts-narrowing.md",
+                                                          "T10-typescript-strict-mode.md",
+                                                          "T10-typescript-strict-mode.md"
+                                                      ],
+                                "separation-of-duties":  [
+                                                             "M03-Complete-Mediation.md",
+                                                             "M13-RBAC.md",
+                                                             "M14-ABAC.md"
+                                                         ],
+                                "infrastructure-as-code":  [
+                                                               "system-design-101-devops-cicd.md"
+                                                           ],
+                                "bounded-context":  [
+                                                        "C01-Ubiquitous-Language.md",
+                                                        "C02-Bounded-Context.md",
+                                                        "C03-Context-Map.md",
+                                                        "C06-Aggregate.md",
+                                                        "C07-Aggregate-Root.md",
+                                                        "C13-Domain-Event.md"
+                                                    ],
+                                "system-design-101/categories/caching-performance":  [
+                                                                                         "system-design-101-source.md"
+                                                                                     ],
+                                "aws-api-gateway":  [
+                                                        "aws-cloud-services.md",
+                                                        "bogard-vertical-slice.md",
+                                                        "documentation-ingestion-plan.md",
+                                                        "evans-ddd-2003.md",
+                                                        "frost-atomic-design-2016.md",
+                                                        "gdpr-eu.md",
+                                                        "go-blog.md",
+                                                        "goF-1994.md",
+                                                        "harel-statecharts.md",
+                                                        "martin-fowler-patterns.md",
+                                                        "martin-fowler-patterns.md",
+                                                        "martinfowler-bliki.md",
+                                                        "mdn-css-2024.md",
+                                                        "mdn-html-2024.md",
+                                                        "microsoft-azure.md",
+                                                        "microsoft-distributed-systems.md",
+                                                        "microsoft-typescript-handbook.md",
+                                                        "nist-cyberframework-2014.md",
+                                                        "opentelemetry.md",
+                                                        "owasp-top-ten-2021.md",
+                                                        "pattern-surface.md",
+                                                        "playwright-docs-2024.md",
+                                                        "pnpm-docs-2024.md",
+                                                        "radix-ui-docs-2024.md",
+                                                        "react-docs-2026.md",
+                                                        "rest-api-design.md",
+                                                        "seemann-dd.md",
+                                                        "shadcn-ui-docs-2024.md",
+                                                        "swagger-openapi.md",
+                                                        "system-design-101-ai-machine-learning.md",
+                                                        "system-design-101-api-design.md",
+                                                        "system-design-101-api-styles.md",
+                                                        "system-design-101-api-web-development.md",
+                                                        "system-design-101-caching-performance.md",
+                                                        "system-design-101-caching.md",
+                                                        "system-design-101-chat-system.md",
+                                                        "system-design-101-cloud-distributed-systems.md",
+                                                        "system-design-101-computer-fundamentals.md",
+                                                        "system-design-101-consistency.md",
+                                                        "system-design-101-content-delivery.md",
+                                                        "system-design-101-data-warehousing.md",
+                                                        "system-design-101-database-design.md",
+                                                        "system-design-101-database-storage.md",
+                                                        "system-design-101-devops-cicd.md",
+                                                        "system-design-101-devtools-productivity.md",
+                                                        "system-design-101-high-availability.md",
+                                                        "system-design-101-how-it-works.md",
+                                                        "system-design-101-integration.md",
+                                                        "system-design-101-load-balancing.md",
+                                                        "system-design-101-message-queue.md",
+                                                        "system-design-101-ml-systems.md",
+                                                        "system-design-101-monitoring.md",
+                                                        "system-design-101-notification-system.md",
+                                                        "system-design-101-payment-fintech.md",
+                                                        "system-design-101-payment-system.md",
+                                                        "system-design-101-permission-systems.md",
+                                                        "system-design-101-rate-limiting.md",
+                                                        "system-design-101-real-world-case-studies.md",
+                                                        "system-design-101-search-engine.md",
+                                                        "system-design-101-secure-systems.md",
+                                                        "system-design-101-security.md",
+                                                        "system-design-101-software-architecture.md",
+                                                        "system-design-101-software-development.md",
+                                                        "system-design-101-video-streaming.md",
+                                                        "tailwind-docs-2024.md",
+                                                        "thoughtworks-radar.md",
+                                                        "vite-docs-2024.md",
+                                                        "vitest-docs-2024.md",
+                                                        "w3c-i18n.md",
+                                                        "wcag-21.md",
+                                                        "wikipedia.md",
+                                                        "xstate-docs.md"
+                                                    ],
+                                "rest-api-cheatsheet":  [
+                                                            "system-design-101-api-styles.md"
+                                                        ],
+                                "system-design-101/categories/software-architecture":  [
+                                                                                           "system-design-101-source.md"
+                                                                                       ],
+                                "payment-systems":  [
+                                                        "system-design-101-payment-fintech.md",
+                                                        "system-design-101-payment-system.md"
+                                                    ],
+                                "application-service":  [
+                                                            "C02-Bounded-Context.md",
+                                                            "C03-Context-Map.md",
+                                                            "C04-Entity.md",
+                                                            "C06-Aggregate.md",
+                                                            "C07-Aggregate-Root.md",
+                                                            "C09-Domain-Service.md",
+                                                            "C11-Use-Case.md",
+                                                            "C12-Repository-DDD-Pattern.md",
+                                                            "C13-Domain-Event.md"
+                                                        ],
+                                "search-engine-design":  [
+                                                             "system-design-101-how-it-works.md",
+                                                             "system-design-101-search-engine.md"
+                                                         ],
+                                "container-orchestration":  [
+                                                                "system-design-101-devops-cicd.md"
+                                                            ],
+                                "databases":  [
+                                                  "system-design-101-database-design.md",
+                                                  "system-design-101-database-storage.md"
+                                              ],
+                                "immutability-coding":  [
+                                                            "N07-Pure-Functions.md"
+                                                        ],
+                                "event-sourcing":  [
+                                                       "C11-Use-Case.md",
+                                                       "C12-Repository-DDD-Pattern.md",
+                                                       "M12-Parameterized-Queries.md",
+                                                       "system-design-101-message-queue.md"
+                                                   ],
+                                "networking-fundamentals":  [
+                                                                "system-design-101-computer-fundamentals.md"
+                                                            ],
+                                "react-patterns":  [
+                                                       "R03-react-performance-security.md"
+                                                   ],
+                                "real-time-systems":  [
+                                                          "system-design-101-chat-system.md"
+                                                      ],
+                                "modular-monolith":  [
+                                                         "A017-architecture-patterns.md",
+                                                         "A017-architecture-patterns.md",
+                                                         "A059-cqrs-pattern.md",
+                                                         "A143-microservices.md",
+                                                         "A143-microservices.md",
+                                                         "A168-polling-platform-requirements.md"
+                                                     ],
+                                "value-object":  [
+                                                     "C01-Ubiquitous-Language.md",
+                                                     "C04-Entity.md",
+                                                     "C08-Domain-Invariant.md",
+                                                     "C09-Domain-Service.md",
+                                                     "C14-Factory-DDD-Pattern.md",
+                                                     "C15-Specification-DDD-Pattern.md"
+                                                 ],
+                                "api-design":  [
+                                                   "system-design-101-api-styles.md"
+                                               ],
+                                "security-best-practices":  [
+                                                                "A193-security-principles.md"
+                                                            ],
+                                "ml-systems":  [
+                                                   "system-design-101-ai-machine-learning.md",
+                                                   "system-design-101-ml-systems.md"
+                                               ],
+                                "rbac":  [
+                                             "M03-Complete-Mediation.md",
+                                             "M06-Separation-of-Duties.md",
+                                             "M14-ABAC.md"
+                                         ],
+                                "react-performance-security":  [
+                                                                   "R02-react-patterns.md",
+                                                                   "R02-react-patterns.md"
+                                                               ],
+                                "data-science":  [
+                                                     "system-design-101-ai-machine-learning.md"
+                                                 ],
+                                "system-design-101/guides/[guide-name":  [
+                                                                             "system-design-101-citation-guide.md"
+                                                                         ],
+                                "resiliency-patterns":  [
+                                                            "system-design-101-cloud-distributed-systems.md",
+                                                            "system-design-101-high-availability.md"
+                                                        ],
+                                "tw-optimization-performance":  [
+                                                                    "TC01-tailwind-css-patterns.md"
+                                                                ],
+                                "Bundler/vite-configuration":  [
+                                                                   "PM01-pnpm-best-practices.md",
+                                                                   "code-review-checklist.md"
+                                                               ],
+                                "Hypertext HTML/html-semantic-patterns":  [
+                                                                              "HM01-html5-best-practices.md"
+                                                                          ],
+                                "domain-event":  [
+                                                     "C03-Context-Map.md"
+                                                 ],
+                                "algorithms":  [
+                                                   "system-design-101-software-development.md"
+                                               ],
+                                "Architecture/00-architecture-index":  [
+                                                                           "Copilot-Consumption-Guide.md",
+                                                                           "Project-Architecture-Mapping.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md",
+                                                                           "00-index.md"
+                                                                       ],
+                                "TailwindsCSS/tailwind-css-patterns":  [
+                                                                           "CS02-css-fundamentals.md",
+                                                                           "CS03-css-media-queries.md",
+                                                                           "CS03-css-media-queries.md",
+                                                                           "SC01-shadcn-best-practices.md",
+                                                                           "SC01-shadcn-best-practices.md",
+                                                                           "SC02-shadcn-ui-patterns.md",
+                                                                           "SC02-shadcn-ui-patterns.md"
+                                                                       ],
+                                "threat-modeling":  [
+                                                        "M07-Secure-by-Design.md",
+                                                        "M09-Trust-Boundaries.md"
+                                                    ],
+                                "use-case":  [
+                                                 "C10-Application-Service.md",
+                                                 "C11-Use-Case.md"
+                                             ],
+                                "ts-optimization-performance":  [
+                                                                    "T02-ts-best-practices.md",
+                                                                    "T02-ts-best-practices.md",
+                                                                    "T10-typescript-strict-mode.md",
+                                                                    "T10-typescript-strict-mode.md"
+                                                                ],
+                                "analytics-systems":  [
+                                                          "system-design-101-data-warehousing.md"
+                                                      ],
+                                "monitoring-and-alerting":  [
+                                                                "system-design-101-devops-cicd.md",
+                                                                "system-design-101-high-availability.md",
+                                                                "system-design-101-monitoring.md"
+                                                            ],
+                                "ddd":  [
+                                            "system-design-101-software-architecture.md"
+                                        ],
+                                "aggregate":  [
+                                                  "C02-Bounded-Context.md",
+                                                  "C04-Entity.md",
+                                                  "C05-Value-Object.md",
+                                                  "C07-Aggregate-Root.md",
+                                                  "C08-Domain-Invariant.md",
+                                                  "C09-Domain-Service.md",
+                                                  "C10-Application-Service.md"
+                                              ],
+                                "data-structures":  [
+                                                        "system-design-101-software-development.md"
+                                                    ],
+                                "ShadCN/shadcn-ui-patterns":  [
+                                                                  "FU01-accessibility-a11y-patterns.md",
+                                                                  "R02-react-patterns.md",
+                                                                  "CS02-css-fundamentals.md",
+                                                                  "TC01-tailwind-css-patterns.md",
+                                                                  "TC02-tw-optimization-performance.md",
+                                                                  "TC02-tw-optimization-performance.md"
+                                                              ],
+                                "cap-theorem":  [
+                                                    "system-design-101-cloud-distributed-systems.md",
+                                                    "system-design-101-consistency.md",
+                                                    "system-design-101-database-storage.md"
+                                                ],
+                                "security-principles":  [
+                                                            "A183-react-security.md"
+                                                        ],
+                                "feature-engineering":  [
+                                                            "system-design-101-ml-systems.md"
+                                                        ],
+                                "cdn-patterns":  [
+                                                     "system-design-101-caching-performance.md",
+                                                     "system-design-101-caching.md",
+                                                     "system-design-101-content-delivery.md",
+                                                     "system-design-101-video-streaming.md"
+                                                 ],
+                                "performance-optimization":  [
+                                                                 "A182-react-performance.md"
+                                                             ],
+                                "testing-patterns":  [
+                                                         "T03-vitest-testing.md"
+                                                     ],
+                                "aggregate-root":  [
+                                                       "C02-Bounded-Context.md",
+                                                       "C03-Context-Map.md",
+                                                       "C04-Entity.md",
+                                                       "C06-Aggregate.md",
+                                                       "C08-Domain-Invariant.md",
+                                                       "C10-Application-Service.md",
+                                                       "C12-Repository-DDD-Pattern.md",
+                                                       "C13-Domain-Event.md",
+                                                       "C14-Factory-DDD-Pattern.md"
+                                                   ],
+                                "pnpm-best-practices":  [
+                                                            "PM02-pnpm-workspace.md"
+                                                        ],
+                                "system-design-101/categories/cloud-distributed-systems":  [
+                                                                                               "system-design-101-source.md"
+                                                                                           ],
+                                "project-structure-mapping":  [
+                                                                  "A017-architecture-patterns.md",
+                                                                  "A143-microservices.md",
+                                                                  "A143-microservices.md",
+                                                                  "A144-modular-monolith.md",
+                                                                  "A186-repository-pattern.md",
+                                                                  "A189-rest-api-design.md"
+                                                              ],
+                                "programming-paradigms":  [
+                                                              "system-design-101-software-development.md"
+                                                          ]
+                            },
+    "verification_date":  "2026-11-03",
+    "total_links":  1546
+}

@@ -1,77 +1,142 @@
----
-slug: structured-concurrency
-sources:
-  - https://www.typescriptlang.org/
-  - https://nodejs.org/
-date: 2026-11-02
-tags:
-  - structured-concurrency
-  - typescript
-  - type-system
-  - patterns
+# Structured Concurrency
+
+> **Purpose:** Manage concurrent tasks with clear lifecycle.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Structured Concurrency
+## concept_id
+`coding-structured-concurrency`
+
+## title
+Structured Concurrency
+
+## aliases
+- Structured Concurrency
+- Structured Concurrency Management
+- Concurrency Lifecycle
+
+## category
+coding-type-systems
+
+## concept_type
+coding-practice
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Async operations
+- Parallel processing
+- Task management
+- Error handling
+
+## tags
+- type/practice
+- domain/coding
+- domain/typescript
+- status/verified
+- priority/medium
+
+## source_ids
+- typescript-documentation
+- goF-1994
+
+## related_concept_ids
+- coding-resource-lifecycle
+- coding-immutability
+- coding-explicit-error-modeling
+- coding-pure-functions
+- arch-fail-fast
+
+---
 
 ## Definition
 
-Structured Concurrency is **a programming pattern where concurrent operations are organized into hierarchical structures, ensuring proper cleanup and error propagation**.
-
-> "Structured concurrency organizes concurrent operations into hierarchical structures, ensuring proper cleanup and error propagation." — Wikipedia
+Structured Concurrency is a practice where concurrent tasks are managed with clear lifecycle boundaries. Tasks are created, executed, and cleaned up in a structured way.
 
 ## Problem Addressed
 
 Without structured concurrency:
-- **Orphaned tasks**: Tasks run without proper cleanup
-- **Error propagation**: Errors are not propagated properly
-- **Resource leaks**: Resources are not cleaned up
-- **Debugging**: Hard to debug concurrent code
+- Tasks are orphaned
+- Errors are lost
+- Cleanup is forgotten
+- Debugging is difficult
 
 ## Scope and Boundaries
 
-- Structured Concurrency ≠ Async/Await (structured concurrency organizes concurrent operations, async/await is a syntax)
-- Structured Concurrency = Organization (structured concurrency organizes concurrent operations)
-- Structured Concurrency is a **programming pattern**, not a design pattern
+Structured concurrency applies to:
+- Async operations
+- Parallel processing
+- Task management
+- Error handling
+
+Structured concurrency does not apply to:
+- Simple callbacks
+- Event handlers
+- UI updates
+- Network requests
 
 ## When to Apply
 
-- When building concurrent applications
-- when error propagation is important
-- when resource cleanup is critical
-- when debugging concurrent code is important
+- Managing async operations
+- Processing in parallel
+- Coordinating tasks
+- Handling errors
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — Structured concurrency adds abstraction |
-| **Time** — Implementing structured concurrency takes time |
-| **Over-structured**: Not every concurrent operation needs structure |
+- **Complexity**: Structured concurrency adds complexity
+- **Not for simple callbacks**: Simple callbacks don't need structured concurrency
+- **Not for event handlers**: Event handlers don't need structured concurrency
+- **Not for UI updates**: UI updates don't need structured concurrency
+
+## Implementation Guidance
+
+1. **Define scope**: Define concurrency scope
+2. **Create tasks**: Create tasks within scope
+3. **Wait for completion**: Wait for all tasks to complete
+4. **Handle errors**: Handle errors from all tasks
+5. **Cleanup**: Clean up resources
+
+## Verification
+
+- [ ] Concurrency scope is defined
+- [ ] Tasks are created within scope
+- [ ] Completion is waited for
+- [ ] Errors are handled
+- [ ] Resources are cleaned up
 
 ## Common Misuses
 
-- **Everything structured**: Not every concurrent operation needs structure
-- **Ignoring errors**: Errors must be handled in structured concurrency
-- **Confusing with async/await**: Structured concurrency organizes concurrent operations, async/await is a syntax
+- **Orphaned tasks**: Creating tasks outside scope
+- **Ignoring errors**: Not handling errors from tasks
+- **Not waiting**: Not waiting for completion
+- **Not cleaning up**: Not cleaning up resources
 
 ## Related Concepts
 
-- [Resource Lifecycle](Coding Type Systems/resource-lifecycle.md) — Resource lifecycle benefits from structured concurrency
-- [Explicit Error Modeling](Architecture/explicit-error-modeling.md) — Explicit error modeling supports structured concurrency
-- [Pure Functions](Coding Type Systems/pure-functions-coding.md) — Pure functions benefit from structured concurrency
+- [[Coding Type Systems/resource-lifecycle]] — Resource Lifecycle Management
+- [[Coding Type Systems/immutability]] — Immutability
+- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
+- [[Architecture/fail-fast]] — Fail Fast
 
 ## Project Observations
 
-- The project uses structured concurrency:
-  - TypeScript supports structured concurrency through type system
-  - Node.js supports structured concurrency through async/await
-  - The project's architecture patterns note covers TypeScript concepts
-  - No evidence of structured concurrency in existing code (src/ is empty)
-- File naming conventions support structured concurrency:
-  - `*.concurrency.ts` — Concurrency files
-  - `*.async.ts` — Async files
+The project uses TypeScript, which supports structured concurrency through:
+- Promise.all
+- AbortController
+- Async/await
+- Error handling
 
 ## Sources
 
-- [[Sources/microsoft-typescript-handbook|microsoft-typescript-handbook]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Structured Concurrency Note**

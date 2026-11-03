@@ -1,77 +1,141 @@
----
-slug: table-driven-logic
-sources:
-  - https://go.dev/blog/table-driven-tests
-  - https://en.wikipedia.org/wiki/Table-driven_testing
-date: 2026-11-02
-tags:
-  - table-driven
-  - testing
-  - logic
-  - data-driven
+# Table-Driven Logic
+
+> **Purpose:** Use tables to drive behavior instead of conditionals.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Table-Driven Logic
+## concept_id
+`data-driven-table-driven`
+
+## title
+Table-Driven Logic
+
+## aliases
+- Table-Driven Logic
+- Table-Driven Testing
+- Data-Driven Logic
+
+## category
+data-driven-approaches
+
+## concept_type
+coding-practice
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Test cases
+- Configuration
+- Rule engines
+- State machines
+
+## tags
+- type/practice
+- domain/coding
+- status/verified
+- priority/medium
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- data-driven-design
+- data-driven-declarative
+- data-driven-configuration-driven
+- coding-pure-functions
+- coding-table-driven-logic
+
+---
 
 ## Definition
 
-Table-Driven Logic is **a design approach where business logic is implemented by looking up values or behaviors in a table rather than using conditional statements**.
-
-> "Table-driven logic replaces conditional statements with table lookups, making code more maintainable and testable." — Wikipedia
+Table-Driven Logic is a practice where behavior is driven by data tables rather than conditional statements. This makes code more maintainable and testable.
 
 ## Problem Addressed
 
 Without table-driven logic:
-- **Complex conditionals**: Complex if/else or switch statements
-- **Duplication**: Same logic repeated in multiple places
-- **Testing difficulty**: Hard to test all branches
-- **Maintenance**: Adding new cases requires modifying code
+- Code has many conditionals
+- Adding cases requires code changes
+- Testing is difficult
+- Code is hard to maintain
 
 ## Scope and Boundaries
 
-- Table-Driven Logic ≠ Configuration (table-driven logic is code-based, configuration is external)
-- Table-Driven Logic = Simplicity (table-driven logic simplifies complex conditionals)
-- Table-Driven Logic is a **coding technique**, not a pattern
+Table-driven logic applies to:
+- Test cases
+- Configuration
+- Rule engines
+- State machines
+
+Table-driven logic does not apply to:
+- Complex algorithms
+- Performance-critical code
+- Real-time systems
+- UI implementation
 
 ## When to Apply
 
-- When implementing complex conditional logic
-- when testing all branches is important
-- when adding new cases frequently
-- when logic is data-driven
+- Writing test cases
+- Implementing rule engines
+- Configuring behavior
+- Implementing state machines
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — Tables add indirection |
-| **Time** — Setting up tables takes time |
-| **Over-table** — Simple conditionals don't need tables |
+- **Not for complex logic**: Complex logic may not fit in tables
+- **Performance**: Table lookups can be slower
+- **Not for performance**: Performance-critical code should not use tables
+- **Not for real-time**: Real-time systems should not use tables
+
+## Implementation Guidance
+
+1. **Define table**: Define data table
+2. **Drive behavior**: Let table drive behavior
+3. **Test table**: Test with different table data
+4. **Document table**: Document table structure
+5. **Maintain table**: Keep table up to date
+
+## Verification
+
+- [ ] Table is defined
+- [ ] Behavior is driven by table
+- [ ] Table is tested
+- [ ] Table is documented
+- [ ] Table is maintained
 
 ## Common Misuses
 
-- **Everything table-driven**: Not every conditional needs a table
-- **Over-engineering**: Simple if/else doesn't need a table
-- **Confusing with configuration**: Table-driven logic is code-based, configuration is external
+- **Not defining table**: Not defining data tables
+- **Not testing**: Not testing with different data
+- **Not documenting**: Not documenting table structure
+- **Not maintaining**: Not keeping table up to date
 
 ## Related Concepts
 
-- [Data-Driven Design](Data-Driven Approaches/data-driven-design.md) — Data-driven design is related to table-driven logic
-- [Schema-Driven Development](Data-Driven Approaches/schema-driven-development.md) — Schema-driven development can use table-driven logic
-- [Declarative Programming](Data-Driven Approaches/declarative-programming.md) — Declarative programming is related to table-driven logic
+- [[Data-Driven Approaches/data-driven-design]] — Data-Driven Design
+- [[Data-Driven Approaches/declarative-programming]] — Declarative Programming
+- [[Data-Driven Approaches/configuration-driven-development]] — Configuration-Driven Development
+- [[Coding Type Systems/pure-functions]] — Pure Functions
 
 ## Project Observations
 
-- The project uses table-driven logic:
-  - TypeScript supports table-driven logic through objects and arrays
-  - The project's architecture patterns note covers coding techniques
-  - No evidence of table-driven logic in existing code (src/ is empty)
-- File naming conventions support table-driven logic:
-  - `*.logic.ts` — Logic files
-  - `*.data.ts` — Data files
+The project follows table-driven logic through:
+- Test case tables
+- Configuration tables
+- Rule tables
+- State tables
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Table-Driven Logic Note**

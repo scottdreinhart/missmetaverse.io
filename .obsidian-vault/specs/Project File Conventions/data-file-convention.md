@@ -1,78 +1,141 @@
----
-slug: data-file-convention
-sources:
-  - https://react.dev/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# Data File Convention
+
+> **Purpose:** Separate data layer from business logic.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.data.ts
+## concept_id
+`project-data-file`
+
+## title
+*.data.ts File Convention
+
+## aliases
+- Data File Convention
+- *.data.ts
+- Data Module
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- React applications
+- Data fetching
+- API integration
+- Project organization
+
+## tags
+- type/convention
+- domain/frontend
+- status/verified
+- priority/high
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-view-file
+- project-logic-file
+- project-hook-file
+- project-schema-file
+- arch-port-file-convention
+
+---
 
 ## Definition
 
-`*.data.ts` is **a file naming convention for TypeScript files that contain data definitions, constants, and configuration data**.
-
-> "The *.data.ts convention identifies TypeScript files that contain data definitions and constants." — React Docs
+The *.data.ts file convention designates files that handle data layer concerns — data fetching, API integration, and data transformation.
 
 ## Problem Addressed
 
-Without `*.data.ts` convention:
-- **Confusion**: Don't know which files contain data definitions
-- **Mixing concerns**: Data is mixed with business logic
-- **Testing**: Hard to test data definitions separately
-- **Maintenance**: Hard to maintain data definitions
+Without file conventions:
+- Data fetching is scattered
+- API integration is inconsistent
+- Data transformation is repeated
+- Maintenance is error-prone
 
 ## Scope and Boundaries
 
-- `*.data.ts` ≠ `*.logic.ts` (`*.data.ts` is for data, `*.logic.ts` is for business logic)
-- `*.data.ts` = Data (`*.data.ts` is for data definitions)
-- `*.data.ts` is a **file naming convention**, not a pattern
+Data files apply to:
+- Data fetching
+- API integration
+- Data transformation
+- Data caching
+
+Data files do not apply to:
+- Business logic
+- UI rendering
+- User interaction
+- State management
 
 ## When to Apply
 
-- When building React applications
-- when separating data from business logic is important
-- when testing is important
-- when maintenance is important
+- Fetching data from APIs
+- Integrating with external services
+- Transforming data
+- Caching data
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every data file needs a separate file |
+- **Over-splitting**: Not every data operation needs separate file
+- **Not for logic**: Data files should not contain business logic
+- **Not for UI**: Data files should not render UI
+- **Not for state**: Data files should not manage state
+
+## Implementation Guidance
+
+1. **Separate data**: Keep data operations separate
+2. **Use hooks**: Use custom hooks for data fetching
+3. **Handle errors**: Handle errors gracefully
+4. **Cache data**: Cache data when appropriate
+5. **Test data**: Test data operations
+
+## Verification
+
+- [ ] Data operations are separate
+- [ ] Hooks are used
+- [ ] Errors are handled
+- [ ] Data is cached
+- [ ] Operations are tested
 
 ## Common Misuses
 
-- **Everything a data file**: Not every data definition needs a separate file
-- **Mixing concerns**: Data files should not contain business logic
-- **Confusing with types**: Data files contain data, type files contain types
+- **Putting logic in data**: Putting business logic in data files
+- **Not handling errors**: Not handling errors
+- **Not caching**: Not caching data
+- **Not testing**: Not testing data operations
 
 ## Related Concepts
 
-- [Types File Convention](Project File Conventions/types-file-convention.md) — Types file convention is related
-- [Logic File Convention](Project File Conventions/logic-file-convention.md) — Logic file convention separates business logic
-- [Schema File Convention](Project File Conventions/schema-file-convention.md) — Schema file convention defines data schemas
+- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Project File Conventions/hook-file-convention]] — *.hook.ts File Convention
+- [[Project File Conventions/port-file-convention]] — *.port.ts File Convention
 
 ## Project Observations
 
-- The project uses `*.data.ts`:
-  - TypeScript supports `*.data.ts` through module system
-  - React supports `*.data.ts` through data definitions
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.data.ts` in existing code (src/ is empty)
-- File naming conventions support `*.data.ts`:
-  - `*.data.ts` — Data files
-  - `*.types.ts` — Type files
+The project follows data file convention through:
+- *.data.ts files for data operations
+- *.logic.ts files for business logic
+- *.hook.ts files for reusable logic
+- Clear separation of concerns
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Data File Convention Note**

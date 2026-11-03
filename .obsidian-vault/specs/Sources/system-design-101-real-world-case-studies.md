@@ -1,9 +1,20 @@
 ﻿---
 slug: system-design-101-real-world-case-studies
 sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
+  - https://github.com/donnemartin/system-design-primer
 date: 2026-11-02
 tags:
+  - priority/high
+  - maturity/deprecated
+  - domain/backend
+  - type/reference
+  - domain/security
+  - domain/architecture
+  - type/concept
+  - domain/optimization
+  - type/guide
+  - domain/devops
+  - domain/database
   - system-design
   - case-studies
   - architecture
@@ -57,3 +68,13 @@ Read these vault notes for deeper understanding:
 All guides use the citation format:
 - `system-design-101/real-world-case-studies/<guide-name>` — Citation slug for verification
 - Original source: https://bytebytego.com/
+
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

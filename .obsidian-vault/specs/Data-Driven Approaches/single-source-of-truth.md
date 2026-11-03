@@ -1,77 +1,142 @@
----
-slug: single-source-of-truth
-sources:
-  - https://en.wikipedia.org/wiki/Single_source_of_truth
-  - https://martinfowler.com/bliki/SingleSourceOfTruth.html
-date: 2026-11-02
-tags:
-  - single-source-of-truth
-  - data-modeling
-  - consistency
-  - architecture
+# Single Source of Truth
+
+> **Purpose:** Ensure data exists in only one place.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Single Source of Truth
+## concept_id
+`data-driven-single-source`
+
+## title
+Single Source of Truth
+
+## aliases
+- SSOT
+- Single Source of Truth
+- Source of Truth
+- Golden Record
+
+## category
+data-driven-approaches
+
+## concept_type
+design-principle
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- State management
+- Data architecture
+- Database design
+- Application architecture
+
+## tags
+- type/principle
+- domain/architecture
+- status/verified
+- priority/high
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- data-driven-design
+- data-driven-configuration-driven
+- data-driven-schema-driven
+- arch-dry
+- arch-high-cohesion
+
+---
 
 ## Definition
 
-Single Source of Truth is **an architecture principle that states that every piece of knowledge must have a single, unambiguous, authoritative representation within a system**.
-
-> "A single source of truth is a unique, authoritative source of data for a given data domain." — Martin Fowler
+Single Source of Truth is a principle where each piece of data has exactly one authoritative source. This prevents inconsistency and ensures data integrity.
 
 ## Problem Addressed
 
 Without single source of truth:
-- **Inconsistency**: Same data stored in multiple places with different values
-- **Confusion**: Don't know which data is correct
-- **Updates**: Updating one copy but not others
-- **Trust**: Can't trust any data
+- Data is duplicated
+- Inconsistencies arise
+- Updates are error-prone
+- Trust in data is lost
 
 ## Scope and Boundaries
 
-- Single Source of Truth ≠ Database (single source of truth is a principle, database is a tool)
-- Single Source of Truth = Consistency (single source of truth ensures consistency)
-- Single Source of Truth is an **architecture principle**, not a pattern
+Single source of truth applies to:
+- State management
+- Data architecture
+- Database design
+- Application architecture
+
+Single source of truth does not apply to:
+- Caches (derived data)
+- Projections (derived data)
+- Backups (copies)
+- Archives (historical data)
 
 ## When to Apply
 
-- When building systems with multiple data sources
-- when data consistency is critical
-- when multiple components access the same data
-- when data conflicts occur
+- Designing state management
+- Building data architecture
+- Designing databases
+- Building applications
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — Single source of truth requires careful design |
-| **Time** — Establishing single source of truth takes time |
-| **Bottleneck** — Single source can become a bottleneck |
+- **Performance**: Single source can be a bottleneck
+- **Not for caches**: Caches are derived data
+- **Not for projections**: Projections are derived data
+- **Not for backups**: Backups are copies
+
+## Implementation Guidance
+
+1. **Identify data**: Identify all data in system
+2. **Define source**: Define authoritative source for each data
+3. **Enforce**: Enforce single source through architecture
+4. **Derive others**: Derive other data from source
+5. **Monitor**: Monitor for violations
+
+## Verification
+
+- [ ] Data sources are identified
+- [ ] Authoritative source is defined
+- [ ] Single source is enforced
+- [ ] Other data is derived
+- [ ] Violations are monitored
 
 ## Common Misuses
 
-- **Everything single source**: Not every piece of data needs a single source
-- **Ignoring caching**: Caching is not a separate source of truth
-- **Confusing with database**: Single source of truth is a principle, database is a tool
+- **Duplicating data**: Duplicating data without deriving
+- **Not enforcing**: Not enforcing single source
+- **Not deriving**: Not deriving other data
+- **Not monitoring**: Not monitoring for violations
 
 ## Related Concepts
 
-- [Data-Driven Design](Data-Driven Approaches/data-driven-design.md) — Data-driven design relies on single source of truth
-- [Immutable Data](Architecture/immutable-data.md) — Immutable data supports single source of truth
-- [Caching Strategies](Data Databases/caching-strategies.md) — Caching strategies must respect single source of truth
+- [[Data-Driven Approaches/data-driven-design]] — Data-Driven Design
+- [[Data-Driven Approaches/configuration-driven-development]] — Configuration-Driven Development
+- [[Data-Driven Approaches/schema-driven-development]] — Schema-Driven Development
+- [[Architecture/dry]] — DRY Principle
 
 ## Project Observations
 
-- The project uses single source of truth:
-  - TypeScript supports single source of truth through type system
-  - The project's architecture patterns note covers architecture principles
-  - No evidence of single source of truth in existing code (src/ is empty)
-- File naming conventions support single source of truth:
-  - `*.data.ts` — Data files
-  - `*.types.ts` — Type files
+The project follows single source of truth through:
+- Centralized state management (Jotai)
+- Single database
+- Derived data from source
+- Clear data ownership
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Single Source of Truth Note**

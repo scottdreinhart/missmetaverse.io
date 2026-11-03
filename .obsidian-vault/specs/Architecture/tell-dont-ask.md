@@ -1,71 +1,140 @@
----
-slug: tell-dont-ask
-sources:
-  - https://en.wikipedia.org/wiki/Principle_of_Least_Knowledge
-  - https://www.artima.com/intv/bloch13.html
-date: 2026-11-02
-tags:
-  - tell-dont-ask
-  - principles
-  - oop
-  - demeter
+# Tell, Don't Ask
+
+> **Purpose:** Tell objects what to do, don't ask them for data and decide.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Tell, Don't Ask
+## concept_id
+`arch-tell-dont-ask`
+
+## title
+Tell, Don't Ask
+
+## aliases
+- Tell, Don't Ask
+- Information Expert
+- Delegate Behavior
+
+## category
+core-principles
+
+## concept_type
+design-principle
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Object design
+- Domain modeling
+- API design
+- Service design
+
+## tags
+- type/principle
+- domain/architecture
+- domain/coding
+- status/verified
+- priority/medium
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-law-of-demeter
+- arch-encapsulation
+- arch-pure-functions
+- arch-single-responsibility
+- arch-high-cohesion
+
+---
 
 ## Definition
 
-Tell, Don't Ask is the principle that **you should tell objects what to do, not ask them for their data and make decisions based on it**.
-
-> "Tell, don't ask. Don't ask an object for its state and then make a decision based on that state. Tell the object what you want done, and let it decide how to do it." — Martin Fowler
+Tell, Don't Ask is a principle where you tell an object what to do rather than asking it for data and making decisions based on that data. This keeps behavior with the data.
 
 ## Problem Addressed
 
-Asking leads to:
-- **Logic leakage**: Business logic spread across multiple objects
-- **Fragile code**: Decisions break when internal state changes
-- **Violation of encapsulation**: External code depends on internal state
-- **Testing difficulty**: Tests must understand internal state
+Without Tell, Don't Ask:
+- Behavior is scattered across multiple objects
+- Domain logic is in the wrong place
+- Objects are passive data containers
+- Code is hard to understand
 
 ## Scope and Boundaries
 
-- Tell, Don't Ask is about **delegating behavior**, not just data access
-- It's a practical application of the Law of Demeter
-- It's not about never reading data — it's about not making decisions based on it
+Tell, Don't Ask applies to:
+- Object design
+- Domain modeling
+- API design
+- Service design
+
+Tell, Don't Ask does not apply to:
+- Query methods (asking for data is OK)
+- DTOs (data transfer objects)
+- Configuration objects
 
 ## When to Apply
 
-- When writing code that checks an object's state and acts on it
-- When designing object interfaces
-- When refactoring logic that lives outside the relevant object
-- When reviewing code for encapsulation violations
+- Designing domain objects
+- Creating APIs
+- Refactoring scattered behavior
+- Building services
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Anemic domain model** — Putting all logic in the object can make it bloated |
-| **Over-delegation** — Not all decisions belong in the object |
-| **Testing difficulty** — Harder to test internal decision logic |
+- **Anemic domain model**: Objects with only data
+- **God objects**: Objects that do too much
+- **Not for DTOs**: Data transfer objects should be passive
+- **Not for configuration**: Configuration objects should be passive
+
+## Implementation Guidance
+
+1. **Put behavior with data**: Methods should be on the object that owns the data
+2. **Tell, don't ask**: Tell objects what to do, don't ask for data
+3. **Avoid getters**: Minimize getter methods
+4. **Use delegates**: Delegate behavior to the right object
+5. **Keep objects active**: Objects should have behavior
+
+## Verification
+
+- [ ] Behavior is with the data
+- [ ] Objects are told what to do
+- [ ] Getters are minimized
+- [ ] Objects have behavior
 
 ## Common Misuses
 
-- **Anemic domain model**: Objects that only hold data, with all logic outside
-- **God objects**: Putting too much logic in one object
-- **Confusing with encapsulation**: Tell, Don't Ask is about behavior, encapsulation is about state
+- **Anemic domain model**: Objects with only data
+- **God objects**: Objects that do too much
+- **Not for DTOs**: Data transfer objects should be passive
+- **Ignoring queries**: Asking for data is OK for queries
 
 ## Related Concepts
 
-- **Law of Demeter** — Tell, Don't Ask is a practical application
-- **Single Responsibility Principle** — Each object handles its own decisions
-- **Encapsulation** — Tell, Don't Ask respects encapsulation
+- [[Architecture/law-of-demeter]] — Law of Demeter
+- [[Architecture/encapsulation]] — Encapsulation
+- [[Coding Type Systems/pure-functions]] — Pure Functions
+- [[Architecture/single-responsibility-principle]] — Single Responsibility Principle
 
 ## Project Observations
 
-- TypeScript's type system supports Tell, Don't Ask through explicit interfaces
-- DDD patterns (entities, value objects) naturally support Tell, Don't Ask
-- File naming conventions (`*.entity.ts`, `*.policy.ts`) encourage putting logic in the right place
+The project follows Tell, Don't Ask through:
+- Domain objects with behavior
+- Service methods that tell objects what to do
+- Minimized getters
+- Active domain models
 
 ## Sources
 
-- [[Sources/martin-oop-2000|martin-oop-2000]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
+
+---
+
+**End of Tell, Don't Ask Note**

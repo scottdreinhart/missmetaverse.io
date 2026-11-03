@@ -1,0 +1,265 @@
+﻿{
+    "audit_date":  "2026-11-03",
+    "merge_opportunities":  {
+                                "cross_folder_similar":  [
+                                                             {
+                                                                 "file2":  "/playwright-docs-2024.md",
+                                                                 "recommendation":  "Cross-folder duplicates - merge or differentiate",
+                                                                 "file1":  "/playwright-e2e.md"
+                                                             },
+                                                             {
+                                                                 "file2":  "/T01-ts-advanced-types.md",
+                                                                 "recommendation":  "Cross-folder duplicates - merge or differentiate",
+                                                                 "file1":  "/T01-playwright-e2e.md"
+                                                             },
+                                                             {
+                                                                 "file2":  "/T02-ts-best-practices.md",
+                                                                 "recommendation":  "Cross-folder duplicates - merge or differentiate",
+                                                                 "file1":  "/T02-testing-patterns.md"
+                                                             },
+                                                             {
+                                                                 "file2":  "/T03-ts-decorators.md",
+                                                                 "recommendation":  "Cross-folder duplicates - merge or differentiate",
+                                                                 "file1":  "/T03-vitest-testing.md"
+                                                             }
+                                                         ],
+                                "small_files":  [
+                                                    {
+                                                        "count":  39,
+                                                        "files":  "aws-api-gateway.md, aws-elasticache.md, bogard-vertical-slice.md, evans-ddd-2003.md, fowler-ddd-2003.md, fowler-patterns-2002.md, frost-atomic-design-2016.md, gdpr-eu.md, go-blog.md, goF-1994.md, harel-statecharts.md, martin-clean-architecture-2017.md, martin-oop-2000.md, martin-srp-2014.md, martinfowler-bliki.md, mdn-css-2024.md, mdn-html-2024.md, microsoft-azure.md, microsoft-distributed-systems.md, microsoft-typescript-handbook.md, nist-cyberframework-2014.md, opentelemetry.md, owasp-top-ten-2021.md, pattern-surface.md, playwright-docs-2024.md, pnpm-docs-2024.md, radix-ui-docs-2024.md, react-docs-2026.md, rest-api-design.md, seemann-dd.md, shadcn-ui-docs-2024.md, swagger-openapi.md, system-design-101-ai-machine-learning.md, tailwind-docs-2024.md, thoughtworks-radar.md, vite-docs-2024.md, vitest-docs-2024.md, wikipedia.md, xstate-docs.md",
+                                                        "recommendation":  "Consider merging small files into parent topic",
+                                                        "folder":  "Sources",
+                                                        "type":  "small_files"
+                                                    }
+                                                ]
+                            },
+    "structure_analysis":  {
+                               "total_folders":  1,
+                               "folder_details":  [
+                                                      {
+                                                          "size_kb":  26.74,
+                                                          "lines":  800,
+                                                          "name":  "APIs Distributed Systems",
+                                                          "files":  10,
+                                                          "avg_size_kb":  2.67
+                                                      },
+                                                      {
+                                                          "size_kb":  1141.02,
+                                                          "lines":  37391,
+                                                          "name":  "Architecture",
+                                                          "files":  261,
+                                                          "avg_size_kb":  4.37
+                                                      },
+                                                      {
+                                                          "size_kb":  29.23,
+                                                          "lines":  1234,
+                                                          "name":  "Bundler",
+                                                          "files":  2,
+                                                          "avg_size_kb":  14.62
+                                                      },
+                                                      {
+                                                          "size_kb":  39.32,
+                                                          "lines":  1790,
+                                                          "name":  "Cascading Stylesheets",
+                                                          "files":  3,
+                                                          "avg_size_kb":  13.11
+                                                      },
+                                                      {
+                                                          "size_kb":  28.65,
+                                                          "lines":  854,
+                                                          "name":  "Coding Type Systems",
+                                                          "files":  8,
+                                                          "avg_size_kb":  3.58
+                                                      },
+                                                      {
+                                                          "size_kb":  74.24,
+                                                          "lines":  3001,
+                                                          "name":  "Commit Management",
+                                                          "files":  7,
+                                                          "avg_size_kb":  10.61
+                                                      },
+                                                      {
+                                                          "size_kb":  36.79,
+                                                          "lines":  1104,
+                                                          "name":  "Data Databases",
+                                                          "files":  14,
+                                                          "avg_size_kb":  2.63
+                                                      },
+                                                      {
+                                                          "size_kb":  13.68,
+                                                          "lines":  392,
+                                                          "name":  "Data-Driven Approaches",
+                                                          "files":  5,
+                                                          "avg_size_kb":  2.74
+                                                      },
+                                                      {
+                                                          "size_kb":  175.46,
+                                                          "lines":  5854,
+                                                          "name":  "DDD",
+                                                          "files":  15,
+                                                          "avg_size_kb":  11.7
+                                                      },
+                                                      {
+                                                          "size_kb":  40.48,
+                                                          "lines":  1296,
+                                                          "name":  "Frontend UI",
+                                                          "files":  13,
+                                                          "avg_size_kb":  3.11
+                                                      },
+                                                      {
+                                                          "size_kb":  7.93,
+                                                          "lines":  324,
+                                                          "name":  "Hypertext HTML",
+                                                          "files":  1,
+                                                          "avg_size_kb":  7.93
+                                                      },
+                                                      {
+                                                          "size_kb":  21.53,
+                                                          "lines":  801,
+                                                          "name":  "Hypertext Markup",
+                                                          "files":  1,
+                                                          "avg_size_kb":  21.53
+                                                      },
+                                                      {
+                                                          "size_kb":  88.82,
+                                                          "lines":  2973,
+                                                          "name":  "Integration",
+                                                          "files":  5,
+                                                          "avg_size_kb":  17.76
+                                                      },
+                                                      {
+                                                          "size_kb":  24.37,
+                                                          "lines":  1141,
+                                                          "name":  "Package Manager",
+                                                          "files":  2,
+                                                          "avg_size_kb":  12.19
+                                                      },
+                                                      {
+                                                          "size_kb":  47.31,
+                                                          "lines":  1459,
+                                                          "name":  "Project File Conventions",
+                                                          "files":  15,
+                                                          "avg_size_kb":  3.15
+                                                      },
+                                                      {
+                                                          "size_kb":  29.68,
+                                                          "lines":  869,
+                                                          "name":  "Quality Delivery",
+                                                          "files":  11,
+                                                          "avg_size_kb":  2.7
+                                                      },
+                                                      {
+                                                          "size_kb":  43.43,
+                                                          "lines":  1747,
+                                                          "name":  "React",
+                                                          "files":  3,
+                                                          "avg_size_kb":  14.48
+                                                      },
+                                                      {
+                                                          "size_kb":  135.95,
+                                                          "lines":  4733,
+                                                          "name":  "Security",
+                                                          "files":  12,
+                                                          "avg_size_kb":  11.33
+                                                      },
+                                                      {
+                                                          "size_kb":  40.94,
+                                                          "lines":  1515,
+                                                          "name":  "ShadCN",
+                                                          "files":  2,
+                                                          "avg_size_kb":  20.47
+                                                      },
+                                                      {
+                                                          "size_kb":  222.81,
+                                                          "lines":  6591,
+                                                          "name":  "Sources",
+                                                          "files":  81,
+                                                          "avg_size_kb":  2.75
+                                                      },
+                                                      {
+                                                          "size_kb":  27.43,
+                                                          "lines":  1129,
+                                                          "name":  "TailwindsCSS",
+                                                          "files":  2,
+                                                          "avg_size_kb":  13.71
+                                                      },
+                                                      {
+                                                          "size_kb":  37.62,
+                                                          "lines":  1165,
+                                                          "name":  "templates",
+                                                          "files":  4,
+                                                          "avg_size_kb":  9.4
+                                                      },
+                                                      {
+                                                          "size_kb":  59.98,
+                                                          "lines":  2361,
+                                                          "name":  "Testing",
+                                                          "files":  3,
+                                                          "avg_size_kb":  19.99
+                                                      },
+                                                      {
+                                                          "size_kb":  104.55,
+                                                          "lines":  4193,
+                                                          "name":  "TypeScript",
+                                                          "files":  10,
+                                                          "avg_size_kb":  10.46
+                                                      }
+                                                  ],
+                               "total_files":  null
+                           },
+    "content_overlap":  [
+                            {
+                                "recommendation":  "Consider consolidating or creating cross-reference index",
+                                "total_files":  19,
+                                "folders":  "Data Databases, Data-Driven Approaches",
+                                "theme":  "Data \u0026 Storage"
+                            },
+                            {
+                                "recommendation":  "Consider consolidating or creating cross-reference index",
+                                "total_files":  284,
+                                "folders":  "Architecture, DDD, Coding Type Systems",
+                                "theme":  "Architecture Patterns"
+                            },
+                            {
+                                "recommendation":  "Consider consolidating or creating cross-reference index",
+                                "total_files":  14,
+                                "folders":  "Testing, Quality Delivery",
+                                "theme":  "Testing \u0026 Quality"
+                            },
+                            {
+                                "recommendation":  "Consider consolidating or creating cross-reference index",
+                                "total_files":  20,
+                                "folders":  "Bundler, Integration, Frontend UI",
+                                "theme":  "DevOps \u0026 Deployment"
+                            }
+                        ],
+    "new_categories":  [
+
+                       ],
+    "cross_links":  {
+
+                    },
+    "tag_taxonomy":  {
+                         "current_tags":  2014,
+                         "suggestions":  [
+                                             {
+                                                 "existing":  "",
+                                                 "recommendation":  "Add missing tags: high, medium, low",
+                                                 "missing":  "high, medium, low",
+                                                 "theme":  "priority"
+                                             },
+                                             {
+                                                 "existing":  "Complete",
+                                                 "recommendation":  "Add missing tags: draft, review, archived",
+                                                 "missing":  "draft, review, archived",
+                                                 "theme":  "status"
+                                             },
+                                             {
+                                                 "existing":  "reference",
+                                                 "recommendation":  "Add missing tags: concept, pattern, guide, tutorial",
+                                                 "missing":  "concept, pattern, guide, tutorial",
+                                                 "theme":  "type"
+                                             }
+                                         ]
+                     }
+}

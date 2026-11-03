@@ -1,78 +1,140 @@
----
-slug: separation-of-concerns
-sources:
-  - https://en.wikipedia.org/wiki/Separation_of_concerns
-  - https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
-date: 2026-11-02
-tags:
-  - separation-of-concerns
-  - principles
-  - dijkstra
-  - architecture
+# Separation of Concerns
+
+> **Purpose:** Divide program into distinct sections with separate responsibilities.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# Separation of Concerns
+## concept_id
+`arch-separation-of-concerns`
+
+## title
+Separation of Concerns
+
+## aliases
+- SoC
+- Separation of Concerns
+- Concern Separation
+
+## category
+core-principles
+
+## concept_type
+design-principle
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- Software architecture
+- Module design
+- Layer design
+- Component design
+
+## tags
+- type/principle
+- domain/architecture
+- domain/coding
+- status/verified
+- priority/high
+
+## source_ids
+- martin-fowler-patterns
+- goF-1994
+
+## related_concept_ids
+- arch-solid-principles
+- arch-single-responsibility
+- arch-high-cohesion
+- arch-low-coupling
+- arch-dry
+
+---
 
 ## Definition
 
-Separation of Concerns (SoC) is the principle of **dividing a computer program into distinct sections such that each section addresses a separate concern**. A concern is any feature or behavior that affects a program.
-
-> "The basic idea is to separate a system into parts, where each part handles a distinct concern." — Edsger W. Dijkstra (1974)
+Separation of Concerns is a design principle that divides a computer program into distinct sections, where each section addresses a separate concern. A concern is any feature or interest of the program.
 
 ## Problem Addressed
 
-Without SoC:
-- **Tangled code**: Multiple responsibilities mixed in one module
-- **Cohesive changes**: Changing one feature requires modifying many places
-- **Testing difficulty**: Hard to test isolated behavior
-- **Team coordination**: Multiple developers interfere with each other's work
+Without separation of concerns:
+- Code becomes tangled and difficult to understand
+- Changes in one area affect unrelated areas
+- Testing becomes difficult
+- Maintenance becomes error-prone
 
 ## Scope and Boundaries
 
-- SoC is a **fundamental design principle**, not a specific pattern
-- It applies at all levels: modules, classes, functions, files
-- SoC is **not** the same as Separation of Concerns in UI (which is a specific architectural pattern)
+Separation of concerns applies to:
+- Architecture design
+- Module design
+- Layer design
+- Component design
+
+Separation of concerns does not address:
+- Implementation details within a concern
+- Performance optimization
+- Security implementation
 
 ## When to Apply
 
-- When designing module boundaries
-- When organizing code into files and directories
-- When choosing an architectural style
-- When reviewing code for mixed responsibilities
+- Designing system architecture
+- Creating modules and components
+- Defining layers and boundaries
+- Refactoring tangled code
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Over-separation** | Too many layers add complexity and indirection |
-| **Fragmentation** | Related code spread across too many files |
-| **Boilerplate** | More interfaces and abstractions to maintain |
+- **Over-separation**: Creating too many layers increases complexity
+- **Communication overhead**: Separated concerns need to communicate
+- **Not for simple programs**: Simple programs don't need separation
+- **Not for prototypes**: Prototypes don't need separation
+
+## Implementation Guidance
+
+1. **Identify concerns**: List all concerns in the system
+2. **Separate concerns**: Create distinct sections for each concern
+3. **Define interfaces**: Create clear interfaces between concerns
+4. **Minimize coupling**: Keep coupling between concerns minimal
+5. **Enforce boundaries**: Prevent cross-concern dependencies
+
+## Verification
+
+- [ ] Each concern is in a distinct section
+- [ ] Interfaces define communication between concerns
+- [ ] Coupling between concerns is minimal
+- [ ] Boundaries are enforced
 
 ## Common Misuses
 
-- **Granularity obsession**: Separating at the function level when module-level is sufficient
-- **Ignoring cross-cutting concerns**: Logging, error handling, validation span all layers
-- **Confusing with file separation**: More files ≠ better separation
+- **Over-separation**: Creating too many layers
+- **Ignoring communication**: Not defining clear interfaces
+- **Violating boundaries**: Allowing cross-concern dependencies
+- **Not for simple programs**: Simple programs don't need separation
 
 ## Related Concepts
 
-- **Single Responsibility Principle** — SoC at the module level
-- **High Cohesion** — Related concerns grouped together
-- **Low Coupling** — Independent concerns separated
-- **Clean Architecture** — SoC at the architectural level
+- [[Architecture/solid-principles]] — SOLID Principles
+- [[Architecture/single-responsibility-principle]] — Single Responsibility Principle
+- [[Architecture/high-cohesion]] — High Cohesion
+- [[Architecture/low-coupling]] — Low Coupling
 
 ## Project Observations
 
-- File naming conventions (`*.view.tsx`, `*.logic.ts`, `*.data.ts`) enforce SoC at the file level
-- The project's architecture (React + Vite + TypeScript) naturally separates concerns:
-  - React handles UI
-  - Vite handles build
-  - TypeScript handles types
-  - Tailwind handles styling
-- No evidence of mixed concerns in existing configuration
+The project follows separation of concerns through:
+- Layered architecture
+- Separate modules for concerns
+- Clear interfaces between layers
+- Type definitions for boundaries
 
 ## Sources
 
-- [[Sources/martin-oop-2000|martin-oop-2000]]
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of Separation of Concerns Note**

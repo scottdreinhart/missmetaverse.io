@@ -6,6 +6,14 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/frontend
+  - type/guide
+  - domain/architecture
+  - type/concept
   - atomic-design
   - ui
   - components
@@ -38,3 +46,12 @@ claims_supported:
   - ui-composition
 access_limitations: None (book available online)
 research_notes: "Brad Frost's book on Atomic Design methodology. Available at atomicdesign.bradfrost.com. Primary source for the five stages of UI composition."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

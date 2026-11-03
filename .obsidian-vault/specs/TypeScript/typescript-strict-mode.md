@@ -1,642 +1,141 @@
-﻿---
-slug: typescript-strict-mode
-sources:
-  - https://www.typescriptlang.org/tsconfig#strict
-date: 2026-11-02
-tags:
-  - typescript
-  - strict-mode
-  - strict
-  - compiler-options
----
-slug: typescript-strict-mode
-sources:
-  - https://www.typescriptlang.org/docs/handbook/type-compatibility.html
-  - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
-  - https://typescript.tv/
-date: 2026-11-02
-tags:
-  - typescript
-  - strict-mode
-  - type-safety
-  - generics
-  - utility-types
-  - type-guards
-  - discriminated-unions
-  - template-literal-types
-  - conditional-types
-  - mapped-types
----
+# TypeScript Strict Mode
 
-# TypeScript Strict Mode & Type Safety
-
-## Overview
-
-TypeScript's strict mode enables all strict type-checking options, providing maximum type safety at compile time.
+> **Purpose:** Enable strict TypeScript compiler options.
+> **Last Updated:** 2026-11-03
 
 ---
 
-## 1. Strict Compiler Options
+## concept_id
+`typescript-strict-mode`
 
-```json
-// tsconfig.json
-{
-  "compilerOptions": {
-    "strict": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "noImplicitThis": true,
-    "alwaysStrict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "exactOptionalPropertyTypes": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "skipLibCheck": true
-  }
-}
-```
+## title
+TypeScript Strict Mode
 
----
+## aliases
+- TypeScript Strict Mode
+- strict: true
+- TypeScript Strict
 
-## 2. Null Safety
+## category
+typescript
 
-### Non-Null Assertion vs Optional Chaining
+## concept_type
+configuration
 
-```typescript
-interface User {
-  name: string
-  address?: { city: string }
-}
+## research_status
+verified
 
-// ❌ Non-null assertion (bypasses safety)
-function getCity(user: User): string {
-  return user.address!.city  // Crashes if address is undefined
-}
+## project_adoption
+declared
 
-// ✅ Optional chaining (safe)
-function getCity(user: User): string | undefined {
-  return user.address?.city
-}
+## applicability
+- TypeScript projects
+- Type safety
+- Error prevention
+- Code quality
 
-// ✅ Nullish coalescing with default
-function getCity(user: User): string {
-  return user.address?.city ?? 'Unknown'
-}
-```
+## tags
+- type/configuration
+- domain/typescript
+- status/verified
+- priority/high
 
-### Type Guards for Null
+## source_ids
+- typescript-documentation
+- goF-1994
 
-```typescript
-function processUser(input: User | null): void {
-  // Explicit null check
-  if (input === null) {
-    throw new Error('User is required')
-  }
-
-  // TypeScript narrows the type
-  console.log(input.name)  // Safe
-}
-
-// Type predicate
-function isUser(value: unknown): value is User {
-  return (
-    typeof value === 'object' &&
-    value !== null &&
-    'name' in value &&
-    typeof (value as User).name === 'string'
-  )
-}
-```
+## related_concept_ids
+- coding-strict-typing
+- coding-compile-time-checks
+- coding-type-inference
+- coding-generics
+- coding-no-explicit-any
 
 ---
 
-## 3. Generics
+## Definition
 
-### Generic Constraints
+TypeScript Strict Mode enables all strict compiler options to catch errors early and enforce type safety. It includes options like strictNullChecks, noImplicitAny, strictFunctionTypes, etc.
 
-```typescript
-interface HasId {
-  id: string
-}
+## Problem Addressed
 
-// Generic with constraint
-function findById<T extends HasId>(items: T[], id: string): T | undefined {
-  return items.find(item => item.id === id)
-}
+Without strict mode:
+- Type errors occur at runtime
+- null/undefined errors are common
+- Type inference is unreliable
+- Code quality is lower
 
-// Multiple constraints
-interface HasId { id: string }
-interface HasName { name: string }
+## Scope and Boundaries
 
-function process<T extends HasId & HasName>(item: T): void {
-  console.log(`${item.id}: ${item.name}`)
-}
+Strict mode applies to:
+- TypeScript compilation
+- Type checking
+- Error prevention
+- Code quality
 
-// Generic with default
-class Cache<T = string> {
-  private store: Map<string, T> = new Map()
+Strict mode does not apply to:
+- JavaScript projects
+- Runtime behavior
+- Performance
+- Bundle size
 
-  set(key: string, value: T): void {
-    this.store.set(key, value)
-  }
+## When to Apply
 
-  get(key: string): T | undefined {
-    return this.store.get(key)
-  }
-}
+- Starting new TypeScript projects
+- Migrating JavaScript to TypeScript
+- Improving code quality
+- Enforcing type safety
 
-const stringCache = new Cache<string>()
-const numberCache = new Cache<number>()
-const defaultCache = new Cache()  // Cache<string>
-```
+## Tradeoffs and When to Avoid
 
-### Conditional Types
+- **Learning curve**: Strict mode has learning curve
+- **Migration effort**: Migrating existing code takes effort
+- **Not for JavaScript**: Strict mode only applies to TypeScript
+- **Not for runtime**: Strict mode doesn't affect runtime
 
-```typescript
-// Extract type from union
-type ExtractString<T> = T extends string ? T : never
-type Result = ExtractString<'hello' | 42 | true>  // 'hello'
+## Implementation Guidance
 
-// Exclude type from union
-type ExcludeNumber<T> = T extends number ? never : T
-type Result2 = ExcludeNumber<'hello' | 42 | true>  // 'hello' | true
+1. **Enable strict**: Set "strict": true in tsconfig.json
+2. **Fix errors**: Fix all strict mode errors
+3. **Avoid any**: Avoid using `any` type
+4. **Use unknown**: Use `unknown` for runtime data
+5. **Test**: Test after enabling strict mode
 
-// Infer in conditional types
-type ElementType<T> = T extends (infer E)[] ? E : T
-type Result3 = ElementType<string[]>  // string
-type Result4 = ElementType<number>   // number
+## Verification
 
-// Recursive conditional types
-type DeepPartial<T> = {
-  [P in keyof T]?: T[P] extends object ? DeepPartial<T[P]> : T[P]
-}
+- [ ] Strict mode is enabled
+- [ ] All strict errors are fixed
+- [ ] `any` type is avoided
+- [ ] `unknown` is used for runtime data
+- [ ] Code is tested
 
-interface Config {
-  database: {
-    host: string
-    port: number
-  }
-  features: string[]
-}
+## Common Misuses
 
-type PartialConfig = DeepPartial<Config>
-// {
-//   database?: {
-//     host?: string
-//     port?: number
-//   }
-//   features?: string[]
-// }
-```
+- **Not enabling**: Not enabling strict mode
+- **Using any**: Using `any` type to avoid errors
+- **Not fixing**: Not fixing strict mode errors
+- **Not testing**: Not testing after enabling
 
----
+## Related Concepts
 
-## 4. Utility Types
+- [[Coding Type Systems/strict-typing]] — Strict Typing
+- [[Coding Type Systems/compile-time-checks]] — Compile-Time Checks
+- [[Coding Type Systems/type-inference]] — Type Inference
+- [[Coding Type Systems/generics]] — Generics
 
-```typescript
-interface User {
-  id: string
-  name: string
-  email: string
-  password?: string
-}
+## Project Observations
 
-// Partial — make all properties optional
-type PartialUser = Partial<User>
-// { id?: string; name?: string; email?: string; password?: string }
+The project uses TypeScript with strict mode enabled through:
+- "strict": true in tsconfig.json
+- Type safety enforcement
+- Error prevention
+- Code quality improvement
 
-// Required — make all properties required
-type RequiredUser = Required<User>
-// { id: string; name: string; email: string; password: string }
+## Sources
 
-// Readonly — make all properties readonly
-type ReadonlyUser = Readonly<User>
-// readonly id: string; readonly name: string; ...
-
-// Pick — select specific properties
-type UserSummary = Pick<User, 'id' | 'name'>
-// { id: string; name: string }
-
-// Omit — exclude specific properties
-type UserWithoutPassword = Omit<User, 'password'>
-// { id: string; name: string; email: string }
-
-// Record — map types
-type RolePermissions = Record<'admin' | 'user' | 'guest', string[]>
-// { admin: string[]; user: string[]; guest: string[] }
-
-// Extract — extract from union
-type StringOrNumber = 'a' | 'b' | 1 | 2
-type OnlyStrings = Extract<StringOrNumber, string>  // 'a' | 'b'
-
-// Exclude — exclude from union
-type OnlyNumbers = Exclude<StringOrNumber, string>  // 1 | 2
-
-// Parameters — extract function parameters
-function createUser(name: string, age: number): User { /* ... */ }
-type CreateUserParams = Parameters<typeof createUser>
-// [name: string, age: number]
-
-// ReturnType — extract function return type
-type CreateUserReturn = ReturnType<typeof createUser>
-// User
-
-// InstanceType — extract instance type from constructor
-class UserClass {
-  constructor(public name: string) {}
-}
-type UserInstance = InstanceType<typeof UserClass>
-// { name: string }
-
-// NonNullable — remove null and undefined
-type NonNullableUser = NonNullable<User['password']>
-// string (removes undefined)
-```
+- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 ---
 
-## 5. Advanced Type Patterns
-
-### Template Literal Types
-
-```typescript
-// Event system with typed events
-type EventName = 'user:login' | 'user:logout' | 'order:created'
-
-interface EventPayload {
-  'user:login': { userId: string }
-  'user:logout': { userId: string }
-  'order:created': { orderId: string }
-}
-
-function emit<K extends EventName>(event: K, payload: EventPayload[K]): void {
-  console.log(event, payload)
-}
-
-emit('user:login', { userId: '123' })  // ✅ Type-safe
-// emit('user:login', { wrong: 'field' })  // ❌ Compile error
-
-// Route types
-type Route = '/users' | '/users/:id' | '/orders'
-
-function navigate(route: Route): void {
-  console.log(`Navigating to ${route}`)
-}
-
-// Union types
-type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE'
-type Status = 'success' | 'error'
-
-type Response<T> = {
-  status: Status
-  data?: T
-  error?: string
-}
-```
-
-### Mapped Types
-
-```typescript
-// Make all properties optional
-type Optional<T> = {
-  [P in keyof T]?: T[P]
-}
-
-// Make all properties readonly
-type ReadonlyAll<T> = {
-  readonly [P in keyof T]: T[P]
-}
-
-// Remove optional properties
-type RequiredAll<T> = {
-  [P in keyof T]-?: T[P]
-}
-
-// Add prefix to all keys
-type Prefixed<T, Prefix extends string> = {
-  [P in keyof T as `${Prefix}${Extract<P, string>}`]: T[P]
-}
-
-interface Config {
-  host: string
-  port: number
-}
-
-type PrefixedConfig = Prefixed<Config, 'db_'>
-// { db_host: string; db_port: number }
-
-// Filter keys
-type OnlyStrings<T> = {
-  [P in keyof T as T[P] extends string ? P : never]: T[P]
-}
-
-interface Mixed {
-  name: string
-  age: number
-  email: string
-}
-
-type StringFields = OnlyStrings<Mixed>
-// { name: string; email: string }
-```
-
----
-
-## 6. Type-Safe APIs
-
-### Result Type Pattern
-
-```typescript
-type Result<T, E = Error> =
-  | { success: true; data: T }
-  | { success: false; error: E }
-
-async function fetchUser(id: string): Promise<Result<User, NotFoundError | NetworkError>> {
-  try {
-    const response = await fetch(`/api/users/${id}`)
-    if (!response.ok) {
-      if (response.status === 404) {
-        return { success: false, error: new NotFoundError(id) }
-      }
-      return { success: false, error: new NetworkError(response.statusText) }
-    }
-    const user = await response.json()
-    return { success: true, data: user }
-  } catch (error) {
-    return { success: false, error: error as NetworkError }
-  }
-}
-
-// Usage — exhaustive handling
-const result = await fetchUser('123')
-if (result.success) {
-  console.log(result.data.name)
-} else {
-  console.error(result.error.message)
-}
-```
-
-### Type-Safe Event Emitter
-
-```typescript
-type Listener<T> = (data: T) => void
-
-class TypedEventEmitter<TEvents extends Record<string, unknown>> {
-  private listeners = new Map<keyof TEvents, Set<Listener<any>>>()
-
-  on<K extends keyof TEvents>(event: K, listener: Listener<TEvents[K]>): void {
-    if (!this.listeners.has(event)) {
-      this.listeners.set(event, new Set())
-    }
-    this.listeners.get(event)!.add(listener as Listener<any>)
-  }
-
-  emit<K extends keyof TEvents>(event: K, data: TEvents[K]): void {
-    this.listeners.get(event)?.forEach(listener => listener(data))
-  }
-}
-
-// Define event map
-interface AppEvents {
-  'user:login': { userId: string; timestamp: Date }
-  'user:logout': { userId: string }
-  'order:created': { orderId: string; total: number }
-}
-
-const emitter = new TypedEventEmitter<AppEvents>()
-
-emitter.on('user:login', (data) => {
-  console.log(`${data.userId} logged in at ${data.timestamp}`)
-  // TypeScript knows data has userId and timestamp
-})
-
-// emitter.on('user:login', (data) => { console.log(data.wrong) })  // ❌ Error
-```
-
----
-
-## Cross-References
-
-- [React Patterns](./react-patterns.md)
-- [Testing Patterns](./testing-patterns.md)
-- [Coding Practices](./coding-practices.md)
-
----
-
-## Integration with Other Notes
-
-- Read [[ts-best-practices]] for TypeScript best practices
-- Read [[ts-fundamentals]] for TypeScript fundamentals
-- Read [[ts-advanced-types]] for advanced TypeScript types
-- Read [[ts-narrowing]] for type narrowing patterns
-- Read [[ts-security-best-practices]] for TypeScript security best practices
-- Read [[ts-optimization-performance]] for TypeScript optimization
-- Read [[ts-tsconfig]] for tsconfig.json configuration
-- Read [react-patterns](D/react-patterns.md) for React patterns
-
----
-
-## Decision Tree: TypeScript Strict Mode
-
-```mermaid
-graph TD
-    A[Need TypeScript strictness?]\n    A --> B{What level?}
-    B -->|Full strict| C[strict: true]
-    B -->|Partial| D[Select options]
-    B -->|None| E[Not recommended]
-    C --> F{Null checks?}
-    F -->|Yes| G[strictNullChecks]
-    F -->|No| H[Skip]
-    C --> I{Property init?}
-    I -->|Yes| J[strictPropertyInitialization]
-    I -->|No| K[Skip]
-    G --> L{Union types?}
-    L -->|Yes| M[Type guards]
-    L -->|No| N[Direct access]
-```
-
-### When to Use Each Strict Option
-
-| Option | When to Use | Example |
-|---------|-------------|---------|
-| **strictNullChecks** | All projects | string \| null |
-| **noImplicitAny** | All projects | Prevents any |
-| **strictPropertyInitialization** | Classes | Ensure init |
-| **strictFunctionTypes** | Function params | Contravariance |
-| **strictBindCallApply** | All projects | Bind/call/apply |
-
----
-
-## Procedural Guidance: TypeScript Strict Setup
-
-### Step 1: Configure tsconfig.json
-
-```jsonc
-// tsconfig.json
-{
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "noUncheckedIndexedAccess": true,
-    "noImplicitOverride": true,
-    "useUnknownInCatchVariables": true
-  },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"]
-}
-```
-
-### Step 2: Enable Strict Null Checks
-
-```typescript
-// ❌ Without strictNullChecks
-function getName(user: User): string {
-  return user.name // May be undefined!
-}
-
-// ✅ With strictNullChecks
-function getName(user: User): string {
-  if (!user.name) throw new Error('Name required')
-  return user.name
-}
-
-// Or use optional chaining
-function getDisplayName(user: User): string {
-  return user.name ?? 'Anonymous'
-}
-```
-
-### Step 3: Type Guards
-
-```typescript
-function isUser(value: unknown): value is User {
-  return (
-    typeof value === 'object' &&
-    value !== null &&
-    'id' in value &&
-    'name' in value &&
-    'email' in value
-  )
-}
-
-// Usage
-function processUser(input: unknown) {
-  if (isUser(input)) {
-    // TypeScript knows input is User here
-    console.log(input.name)
-  } else {
-    throw new Error('Invalid user')
-  }
-}
-```
-
-### Step 4: Discriminated Unions
-
-```typescript
-type Success = {
-  status: 'success'
-  data: User
-}
-
-type Error = {
-  status: 'error'
-  error: string
-}
-
-type Result = Success | Error
-
-function handleResult(result: Result) {
-  switch (result.status) {
-    case 'success':
-      return result.data.name // TypeScript knows data exists
-    case 'error':
-      return result.error // TypeScript knows error exists
-    default: {
-      const _exhaustiveCheck: never = result
-      return `Unknown status: ${_exhaustiveCheck}`
-    }
-  }
-}
-```
-
-### Step 5: Test Strict Mode
-
-```bash
-# Type check without emitting
-pnpm tsc --noEmit
-
-# Check with strict mode
-pnpm tsc --strict
-
-# Show all errors
-pnpm tsc --noEmit --pretty
-```
-
----
-
-## Copilot Instructions
-
-### When to Read This Note
-- Setting up TypeScript strict mode
-- Enabling strict null checks
-- Implementing type guards
-- Using discriminated unions
-- Testing TypeScript types
-
-### What to Do With This Information
-1. **Enable strict mode**: Use full strict mode for all projects
-2. **Strict null checks**: Always check for null/undefined
-3. **Type guards**: Validate at runtime with type predicates
-4. **Discriminated unions**: Use for state machines
-5. **Test types**: Use expectTypeOf to verify types
-
-### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline TypeScript error display
-- **npm Package**: `vitest` — for type testing with expectTypeOf
-- **Terminal Command**: `pnpm tsc --noEmit` — type check without emitting
-- **Terminal Command**: `pnpm tsc --strict` — enable strict mode
-
-### Agents to Invoke
-- **Code Review Agent**: Run when reviewing PRs with TypeScript changes
-- **Security Review Agent**: Run when adding new types
-
-### Integration with Other Notes
-- Read [[ts-best-practices]] for TypeScript best practices
-- Read [[ts-fundamentals]] for TypeScript fundamentals
-- Read [[ts-advanced-types]] for advanced TypeScript types
-- Read [[ts-narrowing]] for type narrowing patterns
-- Read [[ts-security-best-practices]] for TypeScript security best practices
-- Read [[ts-optimization-performance]] for TypeScript optimization
-- Read [[ts-tsconfig]] for tsconfig.json configuration
-- Read [react-patterns](D/react-patterns.md) for React patterns
-
-### Common Pitfalls
-- Don't use any type (use unknown instead)
-- Don't skip null checks (always check for null/undefined)
-- Don't ignore strict property initialization (initialize in constructor)
-- Don't use type assertions (use type guards instead)
-- Don't skip exhaustiveness checking (use never)
-
-### Quick Validation Checklist
-- [ ] Is strict mode enabled?
-- [ ] Are strictNullChecks enabled?
-- [ ] Are type guards used for runtime validation?
-- [ ] Are discriminated unions used for state?
-- [ ] Are properties initialized in constructor?
-- [ ] Is tsconfig configured properly?
-
+**End of TypeScript Strict Mode Note**

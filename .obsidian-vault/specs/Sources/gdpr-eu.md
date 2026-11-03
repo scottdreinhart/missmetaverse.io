@@ -6,6 +6,10 @@ sources:
 
 ---
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - type/reference
   - gdpr
   - privacy
   - compliance
@@ -27,3 +31,12 @@ claims_supported:
   - data-minimization
 access_limitations: Public regulation
 research_notes: "EU GDPR Article 5(1)(c) establishes the data minimization principle: personal data must be adequate, relevant, and limited to what is necessary."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

@@ -6,6 +6,10 @@ sources:
 
 ---
 tags:
+  - priority/high
+  - maturity/stable
+  - domain/security
+  - type/reference
   - owasp
   - security
   - web-security
@@ -31,3 +35,12 @@ claims_supported:
   - parameterized-queries
 access_limitations: None
 research_notes: "Industry-standard security risk guide. The 2021 edition is the current version. Covers the most critical security risks to web applications."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+

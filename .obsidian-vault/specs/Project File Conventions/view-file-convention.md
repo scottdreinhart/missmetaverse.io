@@ -1,78 +1,141 @@
----
-slug: view-file-convention
-sources:
-  - https://react.dev/
-  - https://vitejs.dev/
-date: 2026-11-02
-tags:
-  - file-conventions
-  - react
-  - typescript
-  - project-structure
+# View File Convention
+
+> **Purpose:** Separate view logic from other concerns.
+> **Last Updated:** 2026-11-03
+
 ---
 
-# *.view.tsx
+## concept_id
+`project-view-file`
+
+## title
+*.view.tsx File Convention
+
+## aliases
+- View File Convention
+- *.view.tsx
+- View Component
+
+## category
+project-file-conventions
+
+## concept_type
+convention
+
+## research_status
+verified
+
+## project_adoption
+declared
+
+## applicability
+- React applications
+- UI development
+- Component architecture
+- Project organization
+
+## tags
+- type/convention
+- domain/frontend
+- status/verified
+- priority/high
+
+## source_ids
+- martinfowler-patterns
+- goF-1994
+
+## related_concept_ids
+- project-logic-file
+- project-data-file
+- project-hook-file
+- project-schema-file
+- arch-presentation-logic-separation
+
+---
 
 ## Definition
 
-`*.view.tsx` is **a file naming convention for React components that represent the UI view layer, separating presentation from business logic**.
-
-> "The *.view.tsx convention identifies React components that represent the UI view layer." — React Docs
+The *.view.tsx file convention designates files that contain UI view logic — the presentation layer that renders components and handles user interaction.
 
 ## Problem Addressed
 
-Without `*.view.tsx` convention:
-- **Confusion**: Don't know which components are views
-- **Mixing concerns**: Views mix presentation and business logic
-- **Testing**: Hard to test views separately
-- **Maintenance**: Hard to maintain views
+Without file conventions:
+- Code organization is inconsistent
+- Finding code is difficult
+- Responsibilities are unclear
+- Maintenance is error-prone
 
 ## Scope and Boundaries
 
-- `*.view.tsx` ≠ `*.logic.ts` (`*.view.tsx` is for UI, `*.logic.ts` is for business logic)
-- `*.view.tsx` = Presentation (`*.view.tsx` is for presentation)
-- `*.view.tsx` is a **file naming convention**, not a pattern
+View files apply to:
+- UI presentation
+- Component rendering
+- User interaction handling
+- Layout and structure
+
+View files do not apply to:
+- Business logic
+- Data fetching
+- State management
+- API calls
 
 ## When to Apply
 
-- When building React applications
-- when separating presentation from business logic is important
-- when testing is important
-- when maintenance is important
+- Building React components
+- Creating UI views
+- Implementing presentation layer
+- Organizing project files
 
 ## Tradeoffs and When to Avoid
 
-| Cost | Description |
-|------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
-| **Over-convention**: Not every component needs a view file |
+- **Over-splitting**: Not every component needs a view file
+- **Not for logic**: View files should not contain business logic
+- **Not for data**: View files should not fetch data
+- **Not for state**: View files should not manage state
+
+## Implementation Guidance
+
+1. **Keep views simple**: View files should be simple
+2. **Separate logic**: Move logic to *.logic.ts files
+3. **Use hooks**: Use custom hooks for reusable logic
+4. **Pass data**: Receive data as props
+5. **Handle events**: Handle user events and delegate
+
+## Verification
+
+- [ ] View files are simple
+- [ ] Logic is separated
+- [ ] Hooks are used
+- [ ] Data is passed as props
+- [ ] Events are delegated
 
 ## Common Misuses
 
-- **Everything a view**: Not every component is a view
-- **Mixing concerns**: Views should not contain business logic
-- **Confusing with container**: Views are for presentation, containers are for logic
+- **Putting logic in view**: Putting business logic in view files
+- **Fetching data in view**: Fetching data in view files
+- **Managing state in view**: Managing state in view files
+- **Not separating**: Not separating concerns
 
 ## Related Concepts
 
-- [Presentational/Container Pattern](Architecture/presentational-container-pattern.md) — Presentational/container pattern supports `*.view.tsx`
-- [Component Composition](Architecture/component-composition.md) — Component composition supports `*.view.tsx`
-- [Custom Hooks](Architecture/custom-hooks-composables.md) — Custom hooks separate logic from views
+- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
+- [[Project File Conventions/hook-file-convention]] — *.hook.ts File Convention
+- [[Architecture/presentation-logic-separation]] — Presentation-Logic Separation
 
 ## Project Observations
 
-- The project uses `*.view.tsx`:
-  - React supports `*.view.tsx` through component system
-  - Vite supports `*.view.tsx` through build system
-  - The project's architecture patterns note covers file conventions
-  - No evidence of `*.view.tsx` in existing code (src/ is empty)
-- File naming conventions support `*.view.tsx`:
-  - `*.view.tsx` — View files
-  - `*.logic.ts` — Logic files
+The project follows view file convention through:
+- *.view.tsx files for UI
+- *.logic.ts files for business logic
+- *.hook.ts files for reusable logic
+- Clear separation of concerns
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
-- [[Sources/react-docs-2026|react-docs-2026]]
+- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
 
+---
+
+**End of View File Convention Note**

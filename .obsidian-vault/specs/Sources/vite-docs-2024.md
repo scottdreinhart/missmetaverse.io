@@ -6,6 +6,14 @@ sources:
 
 ---
 tags:
+  - priority/medium
+  - maturity/stable
+  - domain/security
+  - type/reference
+  - domain/optimization
+  - type/guide
+  - domain/frontend
+  - domain/accessibility
   - vite
   - bundler
   - build-tool
@@ -36,3 +44,12 @@ claims_supported:
   - vite-env-vars
 access_limitations: None
 research_notes: "Official Vite documentation at vite.dev. Covers configuration, plugins, optimization, SSR, library mode, and environment variables. Primary source for all Vite-related concepts."
+
+## See Also
+- [[aws-api-gateway]]
+- [[aws-elasticache]]
+- [[bogard-vertical-slice]]
+- [[documentation-ingestion-plan]]
+- [[evans-ddd-2003]]
+
+
