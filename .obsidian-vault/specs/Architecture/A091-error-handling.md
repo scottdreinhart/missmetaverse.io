@@ -1,33 +1,22 @@
----
+﻿---
 slug: error-handling
 sources:
   - https://en.wikipedia.org/wiki/Error_handling
   - https://www.typescriptlang.org/docs/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - error-handling
   - typescript
   - exceptions
   - patterns
----
-
+  - --
 # Error Handling
 
 ## Definition
 
 Error Handling is a **programming practice for dealing with unexpected or erroneous conditions**.
 
-> "Error handling is the process of responding to and recovering from error conditions in software." — Wikipedia
+> "Error handling is the process of responding to and recovering from error conditions in software." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,8 +28,8 @@ Without error handling:
 
 ## Scope and Boundaries
 
-- Error Handling ≠ Exception Handling (error handling is broader, exception handling is specific)
-- Error Handling ≠ Logging (error handling is response, logging is recording)
+- Error Handling â‰  Exception Handling (error handling is broader, exception handling is specific)
+- Error Handling â‰  Logging (error handling is response, logging is recording)
 - Error Handling is a **practice**, not a specific technique
 
 ## When to Apply
@@ -54,21 +43,21 @@ Without error handling:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Error handling is complex |
-| **Time** — Error handling takes time |
-| **Over-handling** — Don't handle everything |
+| **Complexity** â€” Error handling is complex |
+| **Time** â€” Error handling takes time |
+| **Over-handling** â€” Don't handle everything |
 
 ## Common Misuses
 
 - **Everything handled**: Not everything needs error handling
-- **Confusing with exception handling**: Error handling ≠ exception handling
+- **Confusing with exception handling**: Error handling â‰  exception handling
 - **Over-handling**: Too much error handling creates complexity
 
 ## Related Concepts
 
-- [Explicit Error Modeling](Architecture/explicit-error-modeling.md) — Error handling with TypeScript
-- [Fail Fast](Architecture/fail-fast.md) — Error handling with fail fast
-- [Observability](Architecture/observability.md) — Error handling with observability
+- [Explicit Error Modeling](Architecture/explicit-error-modeling.md) â€” Error handling with TypeScript
+- [Fail Fast](Architecture/fail-fast.md) â€” Error handling with fail fast
+- [Observability](Architecture/observability.md) â€” Error handling with observability
 
 ## Project Observations
 
@@ -76,8 +65,8 @@ Without error handling:
   - The project's quality and delivery note covers error handling (from existing notes)
   - No evidence of error handling in existing code (src/ is empty)
 - File naming conventions support error handling:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

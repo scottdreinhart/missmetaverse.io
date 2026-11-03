@@ -1,9 +1,11 @@
+﻿---
+slug: service-mesh
+---
+
 # Service Mesh
 
 > **Purpose:** Manage services with Service Mesh.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `service-mesh`
@@ -50,8 +52,6 @@ declared
 - sidecar-pattern
 - api-gateway
 - service-discovery
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Service Mesh does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/service-mesh]] — Service Mesh
-- [[APIs Distributed Systems/sidecar-pattern]] — Sidecar Pattern
-- [[APIs Distributed Systems/api-gateway]] — API Gateway
-- [[APIs Distributed Systems/service-discovery]] — Service Discovery
+- [[APIs Distributed Systems/service-mesh]] â€” Service Mesh
+- [[APIs Distributed Systems/sidecar-pattern]] â€” Sidecar Pattern
+- [[APIs Distributed Systems/api-gateway]] â€” API Gateway
+- [[APIs Distributed Systems/service-discovery]] â€” Service Discovery
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Service Mesh through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of Service Mesh Note**

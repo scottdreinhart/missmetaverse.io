@@ -1,9 +1,11 @@
+﻿---
+slug: modern-react-proptypes
+---
+
 # React Modern React PropTypes
 
 > **Purpose:** Validate props with PropTypes.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `modern-react-proptypes`
@@ -50,8 +52,6 @@ declared
 - modern-react-hooks
 - modern-react-components
 - modern-react-proptypes-validation
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ PropTypes do not apply to:
 
 ## Related Concepts
 
-- [[React/modern-react-project-template]] — Modern React Project Template
-- [[React/modern-react-hooks]] — Modern React Hooks
-- [[React/modern-react-components]] — Modern React Components
-- [[React/modern-react-proptypes-validation]] — Modern React PropTypes Validation
+- [[React/modern-react-project-template]] â€” Modern React Project Template
+- [[React/modern-react-hooks]] â€” Modern React Hooks
+- [[React/modern-react-components]] â€” Modern React Components
+- [[React/modern-react-proptypes-validation]] â€” Modern React PropTypes Validation
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React PropTypes through:
 ## Sources
 
 - [[Sources/react-documentation|React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Modern React PropTypes Note**

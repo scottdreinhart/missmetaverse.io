@@ -1,9 +1,11 @@
+﻿---
+slug: performance-budgets
+---
+
 # Performance Budgets
 
 > **Purpose:** Set and enforce performance targets.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-performance-budgets`
@@ -49,8 +51,6 @@ declared
 - testing-slo
 - testing-architecture-fitness
 - arch-quality-gate
-
----
 
 ## Definition
 
@@ -117,9 +117,9 @@ Performance budgets do not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/observability]] — Observability
-- [[Quality & Testing/service-level-objectives]] — Service-Level Objectives
-- [[Quality & Testing/architecture-fitness-functions]] — Architecture Fitness Functions
+- [[Quality & Testing/observability]] â€” Observability
+- [[Quality & Testing/service-level-objectives]] â€” Service-Level Objectives
+- [[Quality & Testing/architecture-fitness-functions]] â€” Architecture Fitness Functions
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project follows performance budgets through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Performance Budgets Note**

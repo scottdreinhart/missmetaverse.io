@@ -1,32 +1,22 @@
----
+﻿---
 slug: bulkheads-pattern
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/bulkhead
   - https://en.wikipedia.org/wiki/Bulkhead_pattern
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - bulkhead
   - resilience
   - distributed-systems
   - patterns
----
-
+  - --
 # Bulkheads Pattern
 
 ## Definition
 
 The Bulkheads pattern is a **resilience pattern that isolates resources so that a failure in one component doesn't exhaust resources in another**.
 
-> "The bulkhead pattern isolates elements of functionality so that a failure in one doesn't take down all functionality." — Microsoft Azure Architecture
+> "The bulkhead pattern isolates elements of functionality so that a failure in one doesn't take down all functionality." â€” Microsoft Azure Architecture
 
 ## Problem Addressed
 
@@ -38,8 +28,8 @@ Without bulkheads:
 
 ## Scope and Boundaries
 
-- Bulkheads ≠ Circuit Breaker (bulkheads isolate resources, circuit breakers stop calls)
-- Bulkheads ≠ Rate Limiting (bulkheads isolate, rate limiting controls)
+- Bulkheads â‰  Circuit Breaker (bulkheads isolate resources, circuit breakers stop calls)
+- Bulkheads â‰  Rate Limiting (bulkheads isolate, rate limiting controls)
 - Bulkheads is a **resource isolation pattern**
 
 ## When to Apply
@@ -53,21 +43,21 @@ Without bulkheads:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — More isolation layers |
-| **Resource waste** — Reserved resources may be unused |
-| **Configuration** — Need to tune isolation |
+| **Complexity** â€” More isolation layers |
+| **Resource waste** â€” Reserved resources may be unused |
+| **Configuration** â€” Need to tune isolation |
 
 ## Common Misuses
 
 - **Every component**: Not every component needs bulkheads
 - **Over-isolation**: Too many isolated resources
-- **Confusing with circuit breaker**: Bulkheads ≠ circuit breaker
+- **Confusing with circuit breaker**: Bulkheads â‰  circuit breaker
 
 ## Related Concepts
 
-- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) — Complementary pattern
-- [Rate Limiting](Architecture/rate-limiting.md) — Complementary pattern
-- [Resilience](Architecture/circuit-breaker-pattern.md) — Resilience patterns
+- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) â€” Complementary pattern
+- [Rate Limiting](Architecture/rate-limiting.md) â€” Complementary pattern
+- [Resilience](Architecture/circuit-breaker-pattern.md) â€” Resilience patterns
 
 ## Project Observations
 

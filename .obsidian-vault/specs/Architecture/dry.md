@@ -1,9 +1,11 @@
+﻿---
+slug: dry
+---
+
 # DRY Principle
 
 > **Purpose:** Eliminate duplicated knowledge, not just duplicated code.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-dry`
@@ -51,8 +53,6 @@ declared
 - arch-high-cohesion
 - arch-single-responsibility
 - arch-composition-over-inheritance
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ DRY does not mean:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/separation-of-concerns]] — Separation of Concerns
-- [[Architecture/high-cohesion]] — High Cohesion
-- [[Architecture/single-responsibility-principle]] — Single Responsibility Principle
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/separation-of-concerns]] â€” Separation of Concerns
+- [[Architecture/high-cohesion]] â€” High Cohesion
+- [[Architecture/single-responsibility-principle]] â€” Single Responsibility Principle
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses TypeScript, which supports DRY through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of DRY Principle Note**

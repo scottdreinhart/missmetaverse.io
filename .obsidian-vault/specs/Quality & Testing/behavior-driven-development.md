@@ -1,9 +1,11 @@
+﻿---
+slug: behavior-driven-development
+---
+
 # Behavior-Driven Development
 
 > **Purpose:** Define behavior through examples to align teams.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-bdd`
@@ -49,8 +51,6 @@ declared
 - testing-risk-based-testing
 - testing-contract-testing
 - arch-incremental-refactoring
-
----
 
 ## Definition
 
@@ -115,9 +115,9 @@ BDD does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/test-driven-development]] — Test-Driven Development
-- [[Quality & Testing/risk-based-testing]] — Risk-Based Testing
-- [[Quality & Testing/contract-testing]] — Contract Testing
+- [[Quality & Testing/test-driven-development]] â€” Test-Driven Development
+- [[Quality & Testing/risk-based-testing]] â€” Risk-Based Testing
+- [[Quality & Testing/contract-testing]] â€” Contract Testing
 
 ## Project Observations
 
@@ -129,9 +129,7 @@ The project uses Playwright for E2E testing, which supports BDD through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Behavior-Driven Development Note**

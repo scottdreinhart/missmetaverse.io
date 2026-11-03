@@ -1,35 +1,22 @@
----
+﻿---
 slug: abac
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - abac
   - security
   - access-control
   - authorization
----
-
+  - --
 # Attribute-Based Access Control (ABAC)
 
 ## Definition
 
 Attribute-Based Access Control (ABAC) is **an access control model where access decisions are based on attributes of the user, resource, and environment**.
 
-> "ABAC is an access control model where access decisions are based on attributes of the user, resource, and environment." — NIST
+> "ABAC is an access control model where access decisions are based on attributes of the user, resource, and environment." â€” NIST
 
 ## Problem Addressed
 
@@ -41,7 +28,7 @@ Without ABAC:
 
 ## Scope and Boundaries
 
-- ABAC ≠ RBAC (ABAC uses attributes, RBAC uses roles)
+- ABAC â‰  RBAC (ABAC uses attributes, RBAC uses roles)
 - ABAC = Attributes (ABAC uses attributes for access control)
 - ABAC is an **access control model**, not a pattern
 
@@ -56,8 +43,8 @@ Without ABAC:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — ABAC adds access control complexity |
-| **Time** — Implementing ABAC takes time |
+| **Complexity** â€” ABAC adds access control complexity |
+| **Time** â€” Implementing ABAC takes time |
 | **Performance**: ABAC evaluations can be slow |
 
 ## Common Misuses
@@ -68,9 +55,9 @@ Without ABAC:
 
 ## Related Concepts
 
-- [RBAC](Security/rbac.md) — RBAC is an alternative to ABAC
-- [Authorization](Security/authorization.md) — Authorization uses ABAC
-- [Separation of Duties](Security/separation-of-duties.md) — Separation of duties can be implemented through ABAC
+- [RBAC](Security/rbac.md) â€” RBAC is an alternative to ABAC
+- [Authorization](Security/authorization.md) â€” Authorization uses ABAC
+- [Separation of Duties](Security/separation-of-duties.md) â€” Separation of duties can be implemented through ABAC
 
 ## Project Observations
 
@@ -79,8 +66,8 @@ Without ABAC:
   - The project's architecture patterns note covers security concepts
   - No evidence of ABAC in existing code (src/ is empty)
 - File naming conventions support ABAC:
-  - `*.guard.ts` — Guard files
-  - `*.middleware.ts` — Middleware files
+  - `*.guard.ts` â€” Guard files
+  - `*.middleware.ts` â€” Middleware files
 
 ## Sources
 
@@ -393,11 +380,11 @@ describe('PolicyEngine', () => {
 5. **Test policies**: Verify access control with unit tests
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `express` — for middleware
-- **npm Package**: `vitest` — for testing policies
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm audit` — check for vulnerabilities
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `express` â€” for middleware
+- **npm Package**: `vitest` â€” for testing policies
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm audit` â€” check for vulnerabilities
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when adding new ABAC policies

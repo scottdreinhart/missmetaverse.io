@@ -1,33 +1,22 @@
----
+﻿---
 slug: denormalization
 sources:
   - https://www.postgresql.org/docs/
   - https://dev.mysql.com/doc/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - database
   - denormalization
   - data-modeling
   - performance
----
-
+  - --
 # Intentional Denormalization
 
 ## Definition
 
 Intentional Denormalization is **the deliberate introduction of redundancy into a normalized database to improve read performance**.
 
-> "Denormalization is the intentional introduction of redundancy into a normalized database to improve read performance." — Wikipedia
+> "Denormalization is the intentional introduction of redundancy into a normalized database to improve read performance." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without denormalization:
 
 ## Scope and Boundaries
 
-- Denormalization ≠ Normalization (denormalization introduces redundancy, normalization reduces it)
+- Denormalization â‰  Normalization (denormalization introduces redundancy, normalization reduces it)
 - Denormalization = Performance (denormalization improves read performance)
 - Denormalization is a **database design principle**, not a pattern
 
@@ -54,9 +43,9 @@ Without denormalization:
 
 | Cost | Description |
 |------|-------------|
-| **Redundancy** — Data is stored multiple times |
-| **Update anomalies** — Updates must be propagated |
-| **Complexity** — More complex data management |
+| **Redundancy** â€” Data is stored multiple times |
+| **Update anomalies** â€” Updates must be propagated |
+| **Complexity** â€” More complex data management |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without denormalization:
 
 ## Related Concepts
 
-- [Normalization](Data Databases/normalization.md) — Normalization is the opposite of denormalization
-- [Caching Strategies](Data Databases/caching-strategies.md) — Caching can reduce the need for denormalization
-- [Database Design](Data Databases/database-design.md) — Database design includes denormalization decisions
+- [Normalization](Data Databases/normalization.md) â€” Normalization is the opposite of denormalization
+- [Caching Strategies](Data Databases/caching-strategies.md) â€” Caching can reduce the need for denormalization
+- [Database Design](Data Databases/database-design.md) â€” Database design includes denormalization decisions
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without denormalization:
   - The project's architecture patterns note covers database concepts
   - No evidence of denormalized databases in existing code (src/ is empty)
 - File naming conventions support denormalization:
-  - `*.schema.ts` — Schema files
-  - `*.migration.ts` — Migration files
+  - `*.schema.ts` â€” Schema files
+  - `*.migration.ts` â€” Migration files
 
 ## Sources
 

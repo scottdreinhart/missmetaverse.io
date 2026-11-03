@@ -1,9 +1,11 @@
+﻿---
+slug: modern-react-portals
+---
+
 # React Modern React Portals
 
 > **Purpose:** Render children outside parent with React Portals.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `modern-react-portals`
@@ -50,8 +52,6 @@ declared
 - modern-react-hooks
 - modern-react-components
 - modern-react-portals-modal
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Portals do not apply to:
 
 ## Related Concepts
 
-- [[React/modern-react-project-template]] — Modern React Project Template
-- [[React/modern-react-hooks]] — Modern React Hooks
-- [[React/modern-react-components]] — Modern React Components
-- [[React/modern-react-portals-modal]] — Modern React Portals Modal
+- [[React/modern-react-project-template]] â€” Modern React Project Template
+- [[React/modern-react-hooks]] â€” Modern React Hooks
+- [[React/modern-react-components]] â€” Modern React Components
+- [[React/modern-react-portals-modal]] â€” Modern React Portals Modal
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React Portals through:
 ## Sources
 
 - [[Sources/react-documentation|React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Modern React Portals Note**

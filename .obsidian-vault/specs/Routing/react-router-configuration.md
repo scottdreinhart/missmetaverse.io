@@ -1,9 +1,11 @@
+﻿---
+slug: react-router-configuration
+---
+
 # React Router Configuration
 
 > **Purpose:** Configure React Router for client-side routing.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `react-router-configuration`
@@ -50,8 +52,6 @@ declared
 - react-modern-react-hooks
 - react-modern-react-components
 - react-modern-react-state
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ React Router does not apply to:
 
 ## Related Concepts
 
-- [[React/modern-react-project-template]] — Modern React Project Template
-- [[React/modern-react-react-hooks]] — React Hooks
-- [[React/modern-react-react-components]] — React Components
-- [[React/modern-react-react-state]] — React State
+- [[React/modern-react-project-template]] â€” Modern React Project Template
+- [[React/modern-react-react-hooks]] â€” React Hooks
+- [[React/modern-react-react-components]] â€” React Components
+- [[React/modern-react-react-state]] â€” React State
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React Router through:
 ## Sources
 
 - [[Sources/react-router-documentation|React Router Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Router Configuration Note**

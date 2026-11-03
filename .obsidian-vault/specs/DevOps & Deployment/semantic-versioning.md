@@ -1,9 +1,11 @@
+﻿---
+slug: semantic-versioning
+---
+
 # Semantic Versioning
 
 > **Purpose:** Manage version numbers with Semantic Versioning.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `semantic-versioning`
@@ -50,8 +52,6 @@ declared
 - api-versioning
 - dependency-management
 - release-management
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Semantic Versioning does not apply to:
 
 ## Related Concepts
 
-- [[Commit Management/conventional-commits]] — Conventional Commits
-- [[APIs Distributed Systems/api-versioning]] — API Versioning
-- [[DevOps & Deployment/dependency-management]] — Dependency Management
-- [[DevOps & Deployment/release-management]] — Release Management
+- [[Commit Management/conventional-commits]] â€” Conventional Commits
+- [[APIs Distributed Systems/api-versioning]] â€” API Versioning
+- [[DevOps & Deployment/dependency-management]] â€” Dependency Management
+- [[DevOps & Deployment/release-management]] â€” Release Management
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Semantic Versioning through:
 ## Sources
 
 - [[Sources/semver-specification|Semantic Versioning Specification]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Semantic Versioning Note**

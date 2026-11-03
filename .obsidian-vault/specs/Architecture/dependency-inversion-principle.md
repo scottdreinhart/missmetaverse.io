@@ -1,9 +1,11 @@
+﻿---
+slug: dependency-inversion-principle
+---
+
 # Dependency Inversion Principle
 
 > **Purpose:** Depend on abstractions, not concretions.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-dependency-inversion`
@@ -51,8 +53,6 @@ declared
 - arch-low-coupling
 - arch-high-cohesion
 - arch-separation-of-concerns
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ DIP does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/dependency-injection]] — Dependency Injection
-- [[Architecture/low-coupling]] — Low Coupling
-- [[Architecture/high-cohesion]] — High Cohesion
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/dependency-injection]] â€” Dependency Injection
+- [[Architecture/low-coupling]] â€” Low Coupling
+- [[Architecture/high-cohesion]] â€” High Cohesion
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses TypeScript, which supports DIP through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Dependency Inversion Principle Note**

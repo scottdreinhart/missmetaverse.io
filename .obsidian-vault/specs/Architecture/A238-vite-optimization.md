@@ -1,34 +1,22 @@
----
+﻿---
 slug: vite-optimization
 sources:
   - https://vite.dev/guide/build.html#production
   - https://vite.dev/guide/optimizations.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - vite
   - optimization
   - bundler
   - patterns
----
-
+  - --
 # Vite Optimization
 
 ## Definition
 
 Vite Optimization is a **practice for optimizing Vite builds for production**.
 
-> "Vite optimization is the process of optimizing Vite builds for production." — Vite Docs
+> "Vite optimization is the process of optimizing Vite builds for production." â€” Vite Docs
 
 ## Problem Addressed
 
@@ -40,8 +28,8 @@ Without Vite optimization:
 
 ## Scope and Boundaries
 
-- Vite Optimization ≠ Vite (Vite optimization is a practice, Vite is a tool)
-- Vite Optimization ≠ Bundling (Vite optimization is a practice, bundling is a technique)
+- Vite Optimization â‰  Vite (Vite optimization is a practice, Vite is a tool)
+- Vite Optimization â‰  Bundling (Vite optimization is a practice, bundling is a technique)
 - Vite Optimization is a **practice**, not a tool
 
 ## When to Apply
@@ -55,21 +43,21 @@ Without Vite optimization:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Vite optimization is complex |
-| **Time** — Vite optimization takes time |
-| **Over-optimization** — Don't optimize everything |
+| **Complexity** â€” Vite optimization is complex |
+| **Time** â€” Vite optimization takes time |
+| **Over-optimization** â€” Don't optimize everything |
 
 ## Common Misuses
 
 - **Everything optimized**: Not everything needs Vite optimization
-- **Confusing with Vite**: Vite optimization ≠ Vite
+- **Confusing with Vite**: Vite optimization â‰  Vite
 - **Over-optimization**: Too much optimization creates complexity
 
 ## Related Concepts
 
-- [Vite Configuration](Architecture/vite-configuration.md) — Vite optimization with configuration
-- [React Patterns](../React/react-patterns) — Vite optimization with React
-- [Bundler Configuration](../Bundler/vite-optimization-security.md) — Vite optimization with bundling
+- [Vite Configuration](Architecture/vite-configuration.md) â€” Vite optimization with configuration
+- [React Patterns](../React/react-patterns) â€” Vite optimization with React
+- [Bundler Configuration](../Bundler/vite-optimization-security.md) â€” Vite optimization with bundling
 
 ## Project Observations
 
@@ -77,8 +65,8 @@ Without Vite optimization:
   - The project's Vite note covers Vite optimization (from existing notes)
   - No evidence of Vite optimization in existing code (src/ is empty)
 - File naming conventions support Vite optimization:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

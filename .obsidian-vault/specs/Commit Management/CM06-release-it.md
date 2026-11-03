@@ -1,27 +1,18 @@
----
+﻿---
 slug: release-it
 sources:
   - https://github.com/release-it/release-it
   - https://release-it.org/
 date: 2026-11-02
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
   - release-it
   - versioning
   - automated-releases
   - npm-publish
   - changelog
   - semver
----
-
+  - --
 # release-it
 
 ## Overview
@@ -59,7 +50,7 @@ pnpm add -D release-it
 {
   "$schema": "https://unpkg.com/release-it@21/schema/release-it.json",
 
-  // ─── Git ────────────────────────────────────────────
+  // â”€â”€â”€ Git â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   "git": {
     "commitMessage": "chore: release v${version}",
     "tagAnnotation": "v${version}",
@@ -75,7 +66,7 @@ pnpm add -D release-it
     "pushArgs": ["--follow-tags", "--sign-tags"]
   },
 
-  // ─── GitHub ─────────────────────────────────────────
+  // â”€â”€â”€ GitHub â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   "github": {
     "release": true,
     "releaseName": "v${version}",
@@ -93,7 +84,7 @@ pnpm add -D release-it
     "tokenUrl": "https://github.com/settings/tokens"
   },
 
-  // ─── npm ────────────────────────────────────────────
+  // â”€â”€â”€ npm â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   "npm": {
     "publish": true,
     "publishArgs": ["--access", "public"],
@@ -103,7 +94,7 @@ pnpm add -D release-it
     "message": "bump version to v${version}"
   },
 
-  // ─── Hooks ──────────────────────────────────────────
+  // â”€â”€â”€ Hooks â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   "hooks": {
     "before:init": ["pnpm lint", "pnpm test:run"],
     "before:release": ["pnpm build"],
@@ -111,7 +102,7 @@ pnpm add -D release-it
     "after:release": ["echo \"Successfully released ${name} v${version} to ${repo.repository}\""]
   },
 
-  // ─── Plugins ────────────────────────────────────────
+  // â”€â”€â”€ Plugins â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   "plugins": {
     "@release-it/conventional-changelog": {
       "preset": "conventionalcommits",
@@ -120,16 +111,16 @@ pnpm add -D release-it
     }
   },
 
-  // ─── Pre-releases ───────────────────────────────────
+  // â”€â”€â”€ Pre-releases â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   "npm": {
     "preRelease": "beta"
   },
 
-  // ─── CI Mode ────────────────────────────────────────
+  // â”€â”€â”€ CI Mode â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   // Automatically enabled in CI environments
   // Use --ci flag for manual CI mode
 
-  // ─── Verbose ────────────────────────────────────────
+  // â”€â”€â”€ Verbose â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   // verbose: 1  // Log hook output
   // verbose: 2  // Log all internal commands
 }
@@ -300,15 +291,15 @@ pnpm add -D @release-it/conventional-changelog
       "writers": [
         {
           "group": "feat",
-          "section": "✨ Features"
+          "section": "âœ¨ Features"
         },
         {
           "group": "fix",
-          "section": "🐛 Bug Fixes"
+          "section": "ðŸ› Bug Fixes"
         },
         {
           "group": "perf",
-          "section": "⚡ Performance"
+          "section": "âš¡ Performance"
         }
       ]
     }
@@ -383,17 +374,17 @@ npx release-it --changelog
 ### Available Variables
 
 ```
-${version}           — New version
-${latestVersion}     — Latest version
-${changelog}         — Changelog text
-${name}              — Package name
-${repo.owner}        — Repository owner
-${repo.repository}   — Repository name
-${repo.remote}       — Remote name (origin)
-${repo.protocol}     — Protocol (https/git)
-${repo.host}         — Host (github.com)
-${branchName}        — Current branch
-${releaseUrl}        — Release URL
+${version}           â€” New version
+${latestVersion}     â€” Latest version
+${changelog}         â€” Changelog text
+${name}              â€” Package name
+${repo.owner}        â€” Repository owner
+${repo.repository}   â€” Repository name
+${repo.remote}       â€” Remote name (origin)
+${repo.protocol}     â€” Protocol (https/git)
+${repo.host}         â€” Host (github.com)
+${branchName}        â€” Current branch
+${releaseUrl}        â€” Release URL
 ```
 
 ---
@@ -598,19 +589,19 @@ jobs:
 
 ### Do's
 
-- ✅ Use `--ci` mode in CI/CD pipelines
-- ✅ Configure hooks for pre-release validation (lint, test)
-- ✅ Use `@release-it/conventional-changelog` for automated changelogs
-- ✅ Use `--dry-run` before actual releases
-- ✅ Sign your commits and tags for security
-- ✅ Use GitHub OIDC for token-free publishing
+- âœ… Use `--ci` mode in CI/CD pipelines
+- âœ… Configure hooks for pre-release validation (lint, test)
+- âœ… Use `@release-it/conventional-changelog` for automated changelogs
+- âœ… Use `--dry-run` before actual releases
+- âœ… Sign your commits and tags for security
+- âœ… Use GitHub OIDC for token-free publishing
 
 ### Don'ts
 
-- ❌ Don't run release-it on feature branches
-- ❌ Don't skip pre-release validation hooks
-- ❌ Don't use `--no-hooks` in production releases
-- ❌ Don't forget to configure `requireBranch`
+- âŒ Don't run release-it on feature branches
+- âŒ Don't skip pre-release validation hooks
+- âŒ Don't use `--no-hooks` in production releases
+- âŒ Don't forget to configure `requireBranch`
 
 ---
 

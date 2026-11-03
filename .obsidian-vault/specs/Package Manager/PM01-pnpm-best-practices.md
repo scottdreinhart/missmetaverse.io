@@ -1,4 +1,4 @@
----
+﻿---
 slug: pnpm-best-practices
 sources:
   - https://pnpm.io/cli/install
@@ -8,27 +8,13 @@ sources:
   - https://pnpm.io
 date: 2025-01-15
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
-
   - pnpm
   - package-manager
   - performance
   - security
   - workspace
   - best-practices
----
-
+  - --
 # pnpm: Best Practices, Security & Performance
 
 ## Overview
@@ -43,21 +29,21 @@ pnpm stores packages in a global store keyed by their integrity hash. Each proje
 
 ```
 Global Store:
-├── .store/
-│   ├── lodash@4.17.21/
-│   │   └── index.js (hardlinked)
-│   └── react@19.0.0/
-│       └── index.js (hardlinked)
+â”œâ”€â”€ .store/
+â”‚   â”œâ”€â”€ lodash@4.17.21/
+â”‚   â”‚   â””â”€â”€ index.js (hardlinked)
+â”‚   â””â”€â”€ react@19.0.0/
+â”‚       â””â”€â”€ index.js (hardlinked)
 
 Project node_modules:
-├── node_modules/
-│   ├── lodash -> ../../.store/lodash@4.17.21/index.js (hardlink)
-│   └── react -> ../../.store/react@19.0.0/index.js (hardlink)
+â”œâ”€â”€ node_modules/
+â”‚   â”œâ”€â”€ lodash -> ../../.store/lodash@4.17.21/index.js (hardlink)
+â”‚   â””â”€â”€ react -> ../../.store/react@19.0.0/index.js (hardlink)
 ```
 
 ### Strict Node Modules
 
-By default, pnpm enforces a strict `node_modules` structure — only explicitly declared dependencies are accessible. This prevents "phantom dependencies."
+By default, pnpm enforces a strict `node_modules` structure â€” only explicitly declared dependencies are accessible. This prevents "phantom dependencies."
 
 ```json
 // package.json
@@ -72,7 +58,7 @@ By default, pnpm enforces a strict `node_modules` structure — only explicitly 
 // GOOD: Explicitly declared dependency
 import React from 'react';
 
-// BAD: Phantom dependency — will fail with pnpm
+// BAD: Phantom dependency â€” will fail with pnpm
 import lodash from 'lodash'; // Not in dependencies!
 ```
 
@@ -321,11 +307,11 @@ pnpm install --update-checks
 ### .env Security
 
 ```bash
-# .env.local (never commit — contains secrets)
+# .env.local (never commit â€” contains secrets)
 DB_PASSWORD=secret
 API_KEY=secret123
 
-# .env (safe to commit — only VITE_ prefix exposed to client)
+# .env (safe to commit â€” only VITE_ prefix exposed to client)
 VITE_APP_TITLE=My App
 ```
 
@@ -336,9 +322,9 @@ VITE_APP_TITLE=My App
 pnpm uses hardlinks, so installing the same package across 100 projects uses disk space for only one copy:
 
 ```
-100 projects × lodash@4.17.21
-npm: 100 × 1.3MB = 130MB
-pnpm: 1 × 1.3MB + symlinks = ~1.5MB
+100 projects Ã— lodash@4.17.21
+npm: 100 Ã— 1.3MB = 130MB
+pnpm: 1 Ã— 1.3MB + symlinks = ~1.5MB
 ```
 
 ### Fast Installation
@@ -389,8 +375,8 @@ This deduplicates compatible dependency versions across the workspace, reducing 
 # pnpm-workspace.yaml
 settings:
   node-modules:
-    linker: isolated  # Default — strict node_modules
-    # linker: hoisted  # Flat structure (like npm/yarn — discouraged)
+    linker: isolated  # Default â€” strict node_modules
+    # linker: hoisted  # Flat structure (like npm/yarn â€” discouraged)
     # linker: pnp      # Plug'n'Play (no node_modules)
 ```
 
@@ -468,9 +454,9 @@ interface ImportMeta {
 
 ## Best Practices Checklist
 
-- [x] **Use `pnpm-lock.yaml`** — commit to version control
+- [x] **Use `pnpm-lock.yaml`** â€” commit to version control
 - [x] **Use `--frozen-lockfile` in CI**
-- [x] **Never use `--shamefully-hoist`** — keep strict node_modules
+- [x] **Never use `--shamefully-hoist`** â€” keep strict node_modules
 - [x] **Add `.pnpm-store` to `.gitignore`** (global store)
 - [x] **Add `.vitest/` to `.gitignore`** (test artifacts)
 - [x] **Use workspace protocols** for monorepos
@@ -648,12 +634,12 @@ jobs:
 5. **Cache pnpm store**: Cache in CI for faster installs
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline pnpm error display
-- **npm Package**: `@pnpm/logger` — for pnpm logging
-- **Terminal Command**: `pnpm install` — install dependencies
-- **Terminal Command**: `pnpm add <package>` — add dependency
-- **Terminal Command**: `pnpm remove <package>` — remove dependency
-- **Terminal Command**: `pnpm list` — list installed packages
+- **VS Code Extension**: Error Lens â€” for inline pnpm error display
+- **npm Package**: `@pnpm/logger` â€” for pnpm logging
+- **Terminal Command**: `pnpm install` â€” install dependencies
+- **Terminal Command**: `pnpm add <package>` â€” add dependency
+- **Terminal Command**: `pnpm remove <package>` â€” remove dependency
+- **Terminal Command**: `pnpm list` â€” list installed packages
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when adding new dependencies

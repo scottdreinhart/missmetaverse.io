@@ -1,9 +1,11 @@
+﻿---
+slug: conventional-commits
+---
+
 # Conventional Commits
 
 > **Purpose:** Standardize commit messages with Conventional Commits.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `conventional-commits`
@@ -49,8 +51,6 @@ declared
 - commitlint-cli-config
 - conventional-changelog
 - husky-git-hooks
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Conventional Commits does not apply to:
 
 ## Related Concepts
 
-- [[Commit Management/commitizen-cz-git]] — Commitizen CZ Git
-- [[Commit Management/commitlint-cli-config]] — Commitlint CLI Config
-- [[Commit Management/conventional-changelog]] — Conventional Changelog
-- [[Commit Management/husky-git-hooks]] — Husky Git Hooks
+- [[Commit Management/commitizen-cz-git]] â€” Commitizen CZ Git
+- [[Commit Management/commitlint-cli-config]] â€” Commitlint CLI Config
+- [[Commit Management/conventional-changelog]] â€” Conventional Changelog
+- [[Commit Management/husky-git-hooks]] â€” Husky Git Hooks
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Conventional Commits through:
 ## Sources
 
 - [[Sources/conventional-commits-specification|Conventional Commits Specification]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Conventional Commits Note**

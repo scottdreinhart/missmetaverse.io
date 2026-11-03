@@ -1,35 +1,22 @@
----
+﻿---
 slug: information-hiding
 sources:
   - https://en.wikipedia.org/wiki/Information_hiding
   - https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD339.PDF
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - information-hiding
   - encapsulation
   - principles
   - dijkstra
----
-
+  - --
 # Information Hiding
 
 ## Definition
 
 Information Hiding is the principle that **a module should hide internal details and expose only what is necessary for interaction**. Other modules should not depend on internal implementation details.
 
-> "Information hiding is the distribution of functions among program components in such a way as to minimize the amount of information that must be known by one program component in order to write or read another." — David Parnas (1972)
+> "Information hiding is the distribution of functions among program components in such a way as to minimize the amount of information that must be known by one program component in order to write or read another." â€” David Parnas (1972)
 
 ## Problem Addressed
 
@@ -43,7 +30,7 @@ Without information hiding:
 
 - Information hiding is about **access control**, not just encapsulation
 - It applies at all levels: modules, classes, functions, variables
-- Information hiding ≠ Privacy (a security concept)
+- Information hiding â‰  Privacy (a security concept)
 
 ## When to Apply
 
@@ -68,9 +55,9 @@ Without information hiding:
 
 ## Related Concepts
 
-- **Encapsulation** — Bundling data and behavior together
-- **Single Responsibility Principle** — Hides implementation details of a single concern
-- **Low Coupling** — Information hiding enables low coupling
+- **Encapsulation** â€” Bundling data and behavior together
+- **Single Responsibility Principle** â€” Hides implementation details of a single concern
+- **Low Coupling** â€” Information hiding enables low coupling
 
 ## Project Observations
 

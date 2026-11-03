@@ -1,33 +1,22 @@
----
+﻿---
 slug: continuous-integration
 sources:
   - https://learn.microsoft.com/en-us/azure/architecture/framework/devops/ci-cd
   - https://www.redhat.com/en/topics/devops/what-is-continuous-integration
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - ci
   - devops
   - github-actions
   - delivery
----
-
+  - --
 # Continuous Integration (CI)
 
 ## Definition
 
 CI is a **development practice where code changes are automatically built, tested, and validated on every commit**. The goal is to detect errors early and frequently.
 
-> "Continuous Integration (CI) is a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily — leading to multiple integrations per day." — Martin Fowler
+> "Continuous Integration (CI) is a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily â€” leading to multiple integrations per day." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -39,9 +28,9 @@ Without CI:
 
 ## Scope and Boundaries
 
-- CI ≠ CD (CI is integration, CD includes delivery/deployment)
+- CI â‰  CD (CI is integration, CD includes delivery/deployment)
 - CI is a **practice**, not a tool
-- CI ≠ Continuous Deployment (CI stops at validation)
+- CI â‰  Continuous Deployment (CI stops at validation)
 
 ## When to Apply
 
@@ -54,9 +43,9 @@ Without CI:
 
 | Cost | Description |
 |------|-------------|
-| **Infrastructure** — CI requires servers/services |
-| **Pipeline time** — Builds add delay to development |
-| **Maintenance** — Pipelines need maintenance |
+| **Infrastructure** â€” CI requires servers/services |
+| **Pipeline time** â€” Builds add delay to development |
+| **Maintenance** â€” Pipelines need maintenance |
 
 ## Common Misuses
 
@@ -66,14 +55,14 @@ Without CI:
 
 ## Related Concepts
 
-- [CI/CD GitHub Actions](../Integration/cicd-github-actions.md) — GitHub Actions CI/CD
-- [Testing Patterns](../Testing/testing-patterns.md) — Tests run in CI
-- [Commit Management](../Commit%20Management/commit-management-integration.md) — CI validates commits
+- [CI/CD GitHub Actions](../Integration/cicd-github-actions.md) â€” GitHub Actions CI/CD
+- [Testing Patterns](../Testing/testing-patterns.md) â€” Tests run in CI
+- [Commit Management](../Commit%20Management/commit-management-integration.md) â€” CI validates commits
 
 ## Project Observations
 
 - The project has GitHub Actions configured for CI/CD
-- Pipeline stages: validate → test → build → security → deploy
+- Pipeline stages: validate â†’ test â†’ build â†’ security â†’ deploy
 - No evidence of CI pipeline failures (project is in initial setup)
 
 ## Sources

@@ -1,9 +1,11 @@
+﻿---
+slug: principle-of-least-astonishment
+---
+
 # Principle of Least Astonishment
 
 > **Purpose:** Design systems that behave as users expect.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-principle-of-least-astonishment`
@@ -52,8 +54,6 @@ declared
 - arch-yagni
 - arch-fail-fast
 - arch-design-by-contract
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ PLA does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/explicit-over-implicit]] — Explicit over Implicit
-- [[Architecture/kiss]] — KISS
-- [[Architecture/yagni]] — YAGNI
-- [[Architecture/fail-fast]] — Fail Fast
+- [[Architecture/explicit-over-implicit]] â€” Explicit over Implicit
+- [[Architecture/kiss]] â€” KISS
+- [[Architecture/yagni]] â€” YAGNI
+- [[Architecture/fail-fast]] â€” Fail Fast
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project follows PLA through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Principle of Least Astonishment Note**

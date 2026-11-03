@@ -1,4 +1,4 @@
----
+﻿---
 slug: composition-over-inheritance
 sources:
   - https://en.wikipedia.org/wiki/Composition_over_inheritance
@@ -6,28 +6,19 @@ sources:
   - https://martinfowler.com/bliki/CompositionOverInheritance.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - composition
   - inheritance
   - principles
   - design
   - martin-fowler
----
-
+  - --
 # Composition over Inheritance
 
 ## Definition
 
 Composition over Inheritance is the principle that **classes should achieve polymorphism through composition (having other objects) rather than inheritance (extending classes)**.
 
-> "Favor object composition over class inheritance." — From the GoF Design Patterns book
+> "Favor object composition over class inheritance." â€” From the GoF Design Patterns book
 
 ## Problem Addressed
 
@@ -39,7 +30,7 @@ Inheritance leads to:
 
 ## Scope and Boundaries
 
-- Composition ≠ Inheritance (they are alternatives, not complementary)
+- Composition â‰  Inheritance (they are alternatives, not complementary)
 - Composition is about **having-a** relationship, inheritance is about **is-a**
 - Composition requires more boilerplate but is more flexible
 
@@ -66,10 +57,10 @@ Inheritance leads to:
 
 ## Related Concepts
 
-- **Low Coupling** — Composition reduces coupling
-- **Dependency Inversion Principle** — DIP enables composition
-- **Strategy Pattern** — Behavioral pattern using composition
-- **Decorator Pattern** — Structural pattern using composition
+- **Low Coupling** â€” Composition reduces coupling
+- **Dependency Inversion Principle** â€” DIP enables composition
+- **Strategy Pattern** â€” Behavioral pattern using composition
+- **Decorator Pattern** â€” Structural pattern using composition
 
 ## Project Observations
 

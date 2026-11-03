@@ -1,4 +1,4 @@
----
+﻿---
 slug: bogard-vertical-slice
 sources:
   - https://www.jimmybogard.com/
@@ -6,12 +6,6 @@ sources:
 
 ---
 tags:
-
-
-
-
-
-
   - vertical-slices
   - architecture
   - clean-architecture

@@ -1,4 +1,4 @@
----
+﻿---
 slug: integration-master-config
 sources:
   - https://vite.dev/config/
@@ -8,27 +8,14 @@ sources:
   - https://pnpm.io/workspaces
 date: 2026-11-02
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
   - integration
   - vite
   - typescript
   - pnpm
   - configuration
   - master-config
----
-
+  - --
 # Integration Master Config
 
 ## Overview
@@ -37,7 +24,7 @@ This note consolidates all configuration files that serve as the single source o
 
 ---
 
-## 1. `vite.config.ts` — The Build Orchestrator
+## 1. `vite.config.ts` â€” The Build Orchestrator
 
 ### Complete Configuration
 
@@ -52,13 +39,13 @@ export default defineConfig(({ command, mode }) => {
   const isProd = command === 'build'
 
   return {
-    // ─── Core ───────────────────────────────────────────
+    // â”€â”€â”€ Core â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     root: '.',                    // Project root (where index.html lives)
     base: '/',                    // Base URL for the application
     envDir: './config/env',       // Directory for .env files
     envPrefix: 'VITE_',           // Prefix for env vars exposed to client
 
-    // ─── Plugins ────────────────────────────────────────
+    // â”€â”€â”€ Plugins â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     plugins: [
       react(),                    // Official React plugin (SWC-based)
       // reactRefresh(),         // Included in react() plugin
@@ -66,7 +53,7 @@ export default defineConfig(({ command, mode }) => {
       // vitePluginCompression,  // gzip/brotli (optional)
     ],
 
-    // ─── Resolve / Path Aliases ─────────────────────────
+    // â”€â”€â”€ Resolve / Path Aliases â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     resolve: {
       alias: {
         '@': resolve(__dirname, 'src'),
@@ -81,7 +68,7 @@ export default defineConfig(({ command, mode }) => {
       // tsconfigPaths: true,     // Alternative to manual alias
     },
 
-    // ─── TypeScript ─────────────────────────────────────
+    // â”€â”€â”€ TypeScript â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     oxc: {
       // Transpilation target (dev)
       target: 'esnext',
@@ -90,7 +77,7 @@ export default defineConfig(({ command, mode }) => {
       },
     },
 
-    // ─── Server / Dev ───────────────────────────────────
+    // â”€â”€â”€ Server / Dev â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     server: {
       port: 5173,
       strictPort: true,           // Exit if port in use
@@ -115,7 +102,7 @@ export default defineConfig(({ command, mode }) => {
       },
     },
 
-    // ─── Build ──────────────────────────────────────────
+    // â”€â”€â”€ Build â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     build: {
       target: 'es2022',           // Modern browser target
       cssTarget: 'es2022',        // CSS features target
@@ -125,7 +112,7 @@ export default defineConfig(({ command, mode }) => {
       minify: isDev ? false : 'esbuild',  // Dev: no minify, Prod: esbuild
       // minify: isDev ? false : 'terser', // terser for more thorough minification (slower)
       cssCodeSplit: true,         // Per-component CSS extraction
-      assetsInlineLimit: 4096,    // 4KB — inline small assets as base64
+      assetsInlineLimit: 4096,    // 4KB â€” inline small assets as base64
       // Rollup options
       rollupOptions: {
         output: {
@@ -157,7 +144,7 @@ export default defineConfig(({ command, mode }) => {
       emptyOutDir: true,
     },
 
-    // ─── CSS ────────────────────────────────────────────
+    // â”€â”€â”€ CSS â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     css: {
       modules: {
         localsConvention: 'camelCaseOnly',  // .my-class -> myClass
@@ -178,14 +165,14 @@ export default defineConfig(({ command, mode }) => {
       },
     },
 
-    // ─── Preview ────────────────────────────────────────
+    // â”€â”€â”€ Preview â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     preview: {
       port: 4173,
       strictPort: true,
       open: false,
     },
 
-    // ─── Dependencies Optimization ──────────────────────
+    // â”€â”€â”€ Dependencies Optimization â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     optimizeDeps: {
       include: [
         'react',
@@ -204,7 +191,7 @@ export default defineConfig(({ command, mode }) => {
       // force: true,
     },
 
-    // ─── Experimental ───────────────────────────────────
+    // â”€â”€â”€ Experimental â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     experimental: {
       // Build performance improvements
       buildAssetsDir: '_build',
@@ -212,10 +199,10 @@ export default defineConfig(({ command, mode }) => {
       // ssrPayloadExposes: [],
     },
 
-    // ─── Log Level ──────────────────────────────────────
+    // â”€â”€â”€ Log Level â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     logLevel: isDev ? 'info' : 'warn',
 
-    // ─── External ───────────────────────────────────────
+    // â”€â”€â”€ External â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     // Packages to exclude from bundling
     // external: ['some-external'],
   }
@@ -227,7 +214,7 @@ export default defineConfig(({ command, mode }) => {
 ```typescript
 import react from '@vitejs/plugin-react'
 
-// Default (SWC-based — recommended)
+// Default (SWC-based â€” recommended)
 react()
 
 // With options
@@ -245,14 +232,14 @@ react({
 
 ---
 
-## 2. `tsconfig.json` — TypeScript Configuration
+## 2. `tsconfig.json` â€” TypeScript Configuration
 
 ### Complete Configuration
 
 ```json
 {
   "compilerOptions": {
-    // ─── Language & Environment ───────────────────────
+    // â”€â”€â”€ Language & Environment â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "target": "ES2022",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "jsx": "react-jsx",
@@ -261,7 +248,7 @@ react({
     "resolveJsonModule": true,
     "allowJs": true,
 
-    // ─── Type Checking ────────────────────────────────
+    // â”€â”€â”€ Type Checking â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -272,15 +259,15 @@ react({
     "exactOptionalPropertyTypes": false,
     "noImplicitOverride": true,
 
-    // ─── Isolated Modules (Required for Oxc/esbuild) ──
+    // â”€â”€â”€ Isolated Modules (Required for Oxc/esbuild) â”€â”€
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
 
-    // ─── Emit ─────────────────────────────────────────
+    // â”€â”€â”€ Emit â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "noEmit": true,               // Vite handles transpilation
     "skipLibCheck": true,         // Skip type checking of declaration files
 
-    // ─── Module Resolution ────────────────────────────
+    // â”€â”€â”€ Module Resolution â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
@@ -292,21 +279,21 @@ react({
       "@styles/*": ["src/styles/*"]
     },
 
-    // ─── Completeness ─────────────────────────────────
+    // â”€â”€â”€ Completeness â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "preserveConstEnums": true,
     "suppressImplicitAnyIndexErrors": true,
 
-    // ─── Decorators ───────────────────────────────────
+    // â”€â”€â”€ Decorators â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "experimentalDecorators": true,
     "emitDecoratorMetadata": false,  // Partially supported by Oxc
 
-    // ─── Types ────────────────────────────────────────
+    // â”€â”€â”€ Types â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "types": ["vite/client"]
   },
 
-  // ─── Include / Exclude ──────────────────────────────
+  // â”€â”€â”€ Include / Exclude â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
@@ -324,7 +311,7 @@ react({
     "**/*.spec.tsx"
   ],
 
-  // ─── References (for monorepos) ─────────────────────
+  // â”€â”€â”€ References (for monorepos) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   // "references": [
   //   { "path": "./packages/core" },
   //   { "path": "./packages/ui" }
@@ -336,7 +323,7 @@ react({
 
 | Option | Value | Why |
 |--------|-------|-----|
-| `isolatedModules` | `true` | Required by Oxc transformer — each file transpiled in isolation |
+| `isolatedModules` | `true` | Required by Oxc transformer â€” each file transpiled in isolation |
 | `verbatimModuleSyntax` | `true` | Enforces proper `import type` syntax (TS 5.0+) |
 | `jsx` | `react-jsx` | React 19 automatic JSX runtime (faster, smaller output) |
 | `moduleResolution` | `bundler` | Works with Vite's module resolution |
@@ -346,7 +333,7 @@ react({
 
 ---
 
-## 3. `package.json` — Scripts & Dependencies
+## 3. `package.json` â€” Scripts & Dependencies
 
 ### Complete Configuration
 
@@ -357,17 +344,17 @@ react({
   "private": true,
   "type": "module",
   "scripts": {
-    // ─── Development ──────────────────────────────────
+    // â”€â”€â”€ Development â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "dev": "vite",
     "start": "vite",
     "serve": "vite",
 
-    // ─── Building ─────────────────────────────────────
+    // â”€â”€â”€ Building â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "build": "tsc --noEmit && vite build",
     "build:analyze": "vite build --mode analyze",
     "build:preview": "vite preview",
 
-    // ─── Testing ──────────────────────────────────────
+    // â”€â”€â”€ Testing â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "test": "vitest",
     "test:run": "vitest run",
     "test:watch": "vitest watch",
@@ -376,26 +363,26 @@ react({
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:headed": "playwright test --headed",
 
-    // ─── Linting & Formatting ─────────────────────────
+    // â”€â”€â”€ Linting & Formatting â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "lint": "eslint . --ext .ts,.tsx --report-unused-disable-directives",
     "lint:fix": "eslint . --ext .ts,.tsx --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,css,json,md}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css,json,md}\"",
 
-    // ─── Type Checking ────────────────────────────────
+    // â”€â”€â”€ Type Checking â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "type-check": "tsc --noEmit",
     "type-check:watch": "tsc --noEmit --watch",
 
-    // ─── Husky / Pre-commit ───────────────────────────
+    // â”€â”€â”€ Husky / Pre-commit â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "prepare": "husky install",
     "precommit": "lint-staged",
 
-    // ─── Docker ───────────────────────────────────────
+    // â”€â”€â”€ Docker â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "docker:build": "docker build -t missmetaverse-io .",
     "docker:run": "docker run -p 80:80 missmetaverse-io",
     "docker:dev": "docker build -t missmetaverse-io-dev --target dev .",
 
-    // ─── Cleanup ──────────────────────────────────────
+    // â”€â”€â”€ Cleanup â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "clean": "rm -rf dist .vite node_modules/.vite",
     "cleanup": "pnpm clean && pnpm store prune"
   },
@@ -406,32 +393,32 @@ react({
     // ... other dependencies
   },
   "devDependencies": {
-    // ─── Core ─────────────────────────────────────────
+    // â”€â”€â”€ Core â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "vite": "^6.x.x",
     "@vitejs/plugin-react": "^4.x.x",
     "typescript": "^5.x.x",
 
-    // ─── Styling ──────────────────────────────────────
+    // â”€â”€â”€ Styling â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "tailwindcss": "^4.x.x",
     "@tailwindcss/vite": "^4.x.x",
 
-    // ─── Testing ──────────────────────────────────────
+    // â”€â”€â”€ Testing â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "vitest": "^3.x.x",
     "@testing-library/react": "^16.x.x",
     "@testing-library/jest-dom": "^6.x.x",
     "playwright": "^1.x.x",
 
-    // ─── Linting / Formatting ─────────────────────────
+    // â”€â”€â”€ Linting / Formatting â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "eslint": "^9.x.x",
     "@typescript-eslint/eslint-plugin": "^8.x.x",
     "@typescript-eslint/parser": "^8.x.x",
     "prettier": "^3.x.x",
     "lint-staged": "^15.x.x",
 
-    // ─── Husky ────────────────────────────────────────
+    // â”€â”€â”€ Husky â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     "husky": "^9.x.x",
 
-    // ─── Docker ───────────────────────────────────────
+    // â”€â”€â”€ Docker â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     // Docker is managed outside package.json typically
   },
   "lint-staged": {
@@ -448,7 +435,7 @@ react({
 
 ---
 
-## 4. `pnpm-workspace.yaml` — Workspace Configuration
+## 4. `pnpm-workspace.yaml` â€” Workspace Configuration
 
 ### For Monorepo Setup
 
@@ -494,42 +481,42 @@ settings:
 ### How Tools Read Configuration
 
 ```
-┌────────────────────────────────────────────────────────┐
-│                  MASTER CONFIGURATIONS                 │
-│                                                        │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  │
-│  │ vite.config  │  │ tsconfig.json│  │ package.json │  │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘  │
-│         │                 │                 │          │
-│         ▼                 ▼                 ▼          │
-│  ┌──────────────────────────────────────────────────┐  │
-│  │              TOOL INTEGRATION LAYER              │  │
-│  │                                                  │  │
-│  │  Vite reads:   tsconfig paths (if enabled)       │  │
-│  │  Vite reads:   package.json scripts              │  │
-│  │  Vite reads:   tsconfig jsx, target, module      │  │
-│  │  tsc reads:    tsconfig.json (full config)       │  │
-│  │  ESLint reads: tsconfig paths (for resolution)   │  │
-│  │  Vitest reads: vite.config (aliases, globals)    │  │
-│  │  Playwright:   tsconfig paths (for types)        │  │
-│  │  pnpm reads:   pnpm-workspace.yaml               │  │
-│  │  Husky reads:  package.json scripts              │  │
-│  │  Docker:       vite.config (build output)        │  │
-│  └──────────────────────────────────────────────────┘  │
-└────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                  MASTER CONFIGURATIONS                 â”‚
+â”‚                                                        â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”‚
+â”‚  â”‚ vite.config  â”‚  â”‚ tsconfig.jsonâ”‚  â”‚ package.json â”‚  â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”˜  â””â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”˜  â”‚
+â”‚         â”‚                 â”‚                 â”‚          â”‚
+â”‚         â–¼                 â–¼                 â–¼          â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”‚
+â”‚  â”‚              TOOL INTEGRATION LAYER              â”‚  â”‚
+â”‚  â”‚                                                  â”‚  â”‚
+â”‚  â”‚  Vite reads:   tsconfig paths (if enabled)       â”‚  â”‚
+â”‚  â”‚  Vite reads:   package.json scripts              â”‚  â”‚
+â”‚  â”‚  Vite reads:   tsconfig jsx, target, module      â”‚  â”‚
+â”‚  â”‚  tsc reads:    tsconfig.json (full config)       â”‚  â”‚
+â”‚  â”‚  ESLint reads: tsconfig paths (for resolution)   â”‚  â”‚
+â”‚  â”‚  Vitest reads: vite.config (aliases, globals)    â”‚  â”‚
+â”‚  â”‚  Playwright:   tsconfig paths (for types)        â”‚  â”‚
+â”‚  â”‚  pnpm reads:   pnpm-workspace.yaml               â”‚  â”‚
+â”‚  â”‚  Husky reads:  package.json scripts              â”‚  â”‚
+â”‚  â”‚  Docker:       vite.config (build output)        â”‚  â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ### Path Resolution Across Tools
 
 | Tool | Configuration | Path Alias Support |
 |------|--------------|-------------------|
-| **Vite (dev)** | `resolve.alias` in `vite.config.ts` | ✅ Full support |
-| **Vite (build)** | `resolve.alias` in `vite.config.ts` | ✅ Full support |
-| **TypeScript** | `paths` in `tsconfig.json` | ✅ Full support |
-| **Vitest** | `resolve.alias` in `vite.config.ts` | ✅ Inherits from Vite |
-| **ESLint** | `@typescript-eslint/resolver` + `tsconfigPaths` | ✅ With plugin |
-| **Playwright** | `tsconfig.json` paths | ✅ Via TypeScript |
-| **Node.js** | None (requires `--paths` flag) | ⚠️ Limited |
+| **Vite (dev)** | `resolve.alias` in `vite.config.ts` | âœ… Full support |
+| **Vite (build)** | `resolve.alias` in `vite.config.ts` | âœ… Full support |
+| **TypeScript** | `paths` in `tsconfig.json` | âœ… Full support |
+| **Vitest** | `resolve.alias` in `vite.config.ts` | âœ… Inherits from Vite |
+| **ESLint** | `@typescript-eslint/resolver` + `tsconfigPaths` | âœ… With plugin |
+| **Playwright** | `tsconfig.json` paths | âœ… Via TypeScript |
+| **Node.js** | None (requires `--paths` flag) | âš ï¸ Limited |
 
 ### Recommended Approach
 
@@ -543,11 +530,11 @@ settings:
 
 ```
 config/env/
-├── .env                  # Base environment
-├── .env.local            # Local overrides (gitignored)
-├── .env.development      # Development mode
-├── .env.production       # Production mode
-└── .env.test             # Test mode
+â”œâ”€â”€ .env                  # Base environment
+â”œâ”€â”€ .env.local            # Local overrides (gitignored)
+â”œâ”€â”€ .env.development      # Development mode
+â”œâ”€â”€ .env.production       # Production mode
+â””â”€â”€ .env.test             # Test mode
 ```
 
 ### Usage Pattern

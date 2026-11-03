@@ -1,9 +1,11 @@
+﻿---
+slug: domain-event
+---
+
 # Domain Event
 
 > **Purpose:** Capture something that happened in the domain.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `ddd-domain-event`
@@ -51,8 +53,6 @@ declared
 - arch-event-driven-architecture
 - api-transactional-outbox
 - arch-event-file-convention
-
----
 
 ## Definition
 
@@ -119,9 +119,9 @@ Domain events do not apply to:
 
 ## Related Concepts
 
-- [[DDD/aggregate]] — Aggregate
-- [[Architecture/event-driven-architecture]] — Event-Driven Architecture
-- [[APIs Distributed Systems/transactional-outbox]] — Transactional Outbox
+- [[DDD/aggregate]] â€” Aggregate
+- [[Architecture/event-driven-architecture]] â€” Event-Driven Architecture
+- [[APIs Distributed Systems/transactional-outbox]] â€” Transactional Outbox
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses TypeScript, which supports domain events through:
 
 ## Sources
 
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Domain Event Note**

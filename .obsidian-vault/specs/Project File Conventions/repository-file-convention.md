@@ -1,9 +1,11 @@
+﻿---
+slug: repository-file-convention
+---
+
 # Repository File Convention
 
 > **Purpose:** Implement repository pattern for data access.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-repository-file`
@@ -51,11 +53,9 @@ declared
 - project-logic-file
 - ddd-repository
 
----
-
 ## Definition
 
-The *.repository.ts file convention designates files that implement the repository pattern — data access layers that provide collection-like interface for accessing domain objects.
+The *.repository.ts file convention designates files that implement the repository pattern â€” data access layers that provide collection-like interface for accessing domain objects.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Repository files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/port-file-convention]] — *.port.ts File Convention
-- [[Project File Conventions/adapter-file-convention]] — *.adapter.ts File Convention
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[DDD/repository]] — Repository Pattern
+- [[Project File Conventions/port-file-convention]] â€” *.port.ts File Convention
+- [[Project File Conventions/adapter-file-convention]] â€” *.adapter.ts File Convention
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[DDD/repository]] â€” Repository Pattern
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows repository file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Repository File Convention Note**

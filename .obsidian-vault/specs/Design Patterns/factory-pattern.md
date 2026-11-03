@@ -1,9 +1,11 @@
+﻿---
+slug: factory-pattern
+---
+
 # Factory Pattern
 
 > **Purpose:** Abstract object creation with Factory Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `factory-pattern`
@@ -50,8 +52,6 @@ declared
 - abstract-factory-pattern
 - builder-pattern
 - dependency-injection
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Factory does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/factory-pattern]] — Factory Pattern
-- [[Design Patterns/abstract-factory-pattern]] — Abstract Factory Pattern
-- [[Design Patterns/builder-pattern]] — Builder Pattern
-- [[Architecture/dependency-injection]] — Dependency Injection
+- [[Design Patterns/factory-pattern]] â€” Factory Pattern
+- [[Design Patterns/abstract-factory-pattern]] â€” Abstract Factory Pattern
+- [[Design Patterns/builder-pattern]] â€” Builder Pattern
+- [[Architecture/dependency-injection]] â€” Dependency Injection
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Factory Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Factory Pattern Note**

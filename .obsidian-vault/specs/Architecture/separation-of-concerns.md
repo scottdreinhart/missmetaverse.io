@@ -1,9 +1,11 @@
+﻿---
+slug: separation-of-concerns
+---
+
 # Separation of Concerns
 
 > **Purpose:** Divide program into distinct sections with separate responsibilities.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-separation-of-concerns`
@@ -51,8 +53,6 @@ declared
 - arch-high-cohesion
 - arch-low-coupling
 - arch-dry
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Separation of concerns does not address:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/single-responsibility-principle]] — Single Responsibility Principle
-- [[Architecture/high-cohesion]] — High Cohesion
-- [[Architecture/low-coupling]] — Low Coupling
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/single-responsibility-principle]] â€” Single Responsibility Principle
+- [[Architecture/high-cohesion]] â€” High Cohesion
+- [[Architecture/low-coupling]] â€” Low Coupling
 
 ## Project Observations
 
@@ -132,9 +132,7 @@ The project follows separation of concerns through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Separation of Concerns Note**

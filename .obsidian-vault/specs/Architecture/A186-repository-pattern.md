@@ -1,34 +1,23 @@
----
+﻿---
 slug: repository-pattern
 sources:
   - https://martinfowler.com/eaaDev/repository.html
   - https://en.wikipedia.org/wiki/Repository_pattern
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
   - repository-pattern
   - ddd
   - data-access
   - patterns
----
-
+  - --
 # Repository Pattern
 
 ## Definition
 
 Repository Pattern is a **design pattern that provides an abstraction over data access, mediating between domain and data mapping layers**.
 
-> "A Repository mediates between the domain and data mapping layers, acting like an in-memory collection of domain objects." — Martin Fowler
+> "A Repository mediates between the domain and data mapping layers, acting like an in-memory collection of domain objects." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -40,8 +29,8 @@ Without repository pattern:
 
 ## Scope and Boundaries
 
-- Repository Pattern ≠ Data Mapper (repository pattern is an abstraction, data mapper is a specific pattern)
-- Repository Pattern ≠ Unit of Work (repository pattern is for data access, unit of work is for transactions)
+- Repository Pattern â‰  Data Mapper (repository pattern is an abstraction, data mapper is a specific pattern)
+- Repository Pattern â‰  Unit of Work (repository pattern is for data access, unit of work is for transactions)
 - Repository Pattern is a **design pattern**, not a data access pattern
 
 ## When to Apply
@@ -55,21 +44,21 @@ Without repository pattern:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Repository pattern is complex |
-| **Time** — Repository pattern takes time |
-| **Over-repository** — Don't use repository for everything |
+| **Complexity** â€” Repository pattern is complex |
+| **Time** â€” Repository pattern takes time |
+| **Over-repository** â€” Don't use repository for everything |
 
 ## Common Misuses
 
 - **Everything repository**: Not everything needs repository pattern
-- **Confusing with data mapper**: Repository pattern ≠ data mapper
+- **Confusing with data mapper**: Repository pattern â‰  data mapper
 - **Over-repository**: Too many repositories create complexity
 
 ## Related Concepts
 
-- [DDD Patterns](ddd-patterns.md) — Repository pattern with DDD
-- [Data Mapper](data-mapper-pattern.md) — Repository pattern with data mapper
-- [Unit of Work](unit-of-work-pattern.md) — Repository pattern with unit of work
+- [DDD Patterns](ddd-patterns.md) â€” Repository pattern with DDD
+- [Data Mapper](data-mapper-pattern.md) â€” Repository pattern with data mapper
+- [Unit of Work](unit-of-work-pattern.md) â€” Repository pattern with unit of work
 
 ## Project Observations
 
@@ -77,8 +66,8 @@ Without repository pattern:
   - The project's architecture patterns note covers repository pattern (from existing notes)
   - No evidence of repository pattern in existing code (src/ is empty)
 - File naming conventions support repository pattern:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ---
 
@@ -195,12 +184,12 @@ export class InMemoryUserRepository implements UserRepository {
 5. **Never query directly**: Domain code should never call database queries directly
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for type inference when creating repository interfaces
-- **VS Code Extension**: Error Lens — for inline error detection
-- **npm Package**: `prisma` — for ORM with type-safe repositories
-- **npm Package**: `typeorm` — alternative ORM with built-in repository pattern
-- **Terminal Command**: `pnpm add prisma @prisma/client` — install Prisma
-- **Terminal Command**: `pnpm add -D @types/supertest` — for API testing with repositories
+- **VS Code Extension**: TypeScript Hero â€” for type inference when creating repository interfaces
+- **VS Code Extension**: Error Lens â€” for inline error detection
+- **npm Package**: `prisma` â€” for ORM with type-safe repositories
+- **npm Package**: `typeorm` â€” alternative ORM with built-in repository pattern
+- **Terminal Command**: `pnpm add prisma @prisma/client` â€” install Prisma
+- **Terminal Command**: `pnpm add -D @types/supertest` â€” for API testing with repositories
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when creating new repositories to verify layer placement

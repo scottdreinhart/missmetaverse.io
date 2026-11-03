@@ -1,9 +1,11 @@
+﻿---
+slug: hook-file-convention
+---
+
 # Hook File Convention
 
 > **Purpose:** Encapsulate reusable logic in custom hooks.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-hook-file`
@@ -51,11 +53,9 @@ declared
 - project-schema-file
 - arch-custom-hooks-composables
 
----
-
 ## Definition
 
-The *.hook.ts file convention designates files that contain custom React hooks — reusable logic that encapsulates state, effects, and side effects.
+The *.hook.ts file convention designates files that contain custom React hooks â€” reusable logic that encapsulates state, effects, and side effects.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Hook files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
-- [[Architecture/custom-hooks-composables]] — Custom Hooks / Composables
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
+- [[Architecture/custom-hooks-composables]] â€” Custom Hooks / Composables
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows hook file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Hook File Convention Note**

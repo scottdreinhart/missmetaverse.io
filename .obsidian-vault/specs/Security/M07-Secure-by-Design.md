@@ -1,33 +1,23 @@
----
+﻿---
 slug: secure-by-design
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
   - secure-by-design
   - security
   - design
   - principles
----
-
+  - --
 # Secure by Design
 
 ## Definition
 
 Secure by Design is **a security principle that security is built into the system from the beginning, not added as an afterthought**.
 
-> "Secure by design means that security is built into the system from the beginning, not added as an afterthought." — OWASP
+> "Secure by design means that security is built into the system from the beginning, not added as an afterthought." â€” OWASP
 
 ## Problem Addressed
 
@@ -39,7 +29,7 @@ Without secure by design:
 
 ## Scope and Boundaries
 
-- Secure by Design ≠ Security Testing (secure by design prevents security issues, security testing finds them)
+- Secure by Design â‰  Security Testing (secure by design prevents security issues, security testing finds them)
 - Secure by Design = Prevention (secure by design prevents security issues)
 - Secure by Design is a **security principle**, not a pattern
 
@@ -54,8 +44,8 @@ Without secure by design:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — Secure by design takes more time upfront |
-| **Complexity** — Secure by design adds complexity |
+| **Time** â€” Secure by design takes more time upfront |
+| **Complexity** â€” Secure by design adds complexity |
 | **Expertise**: Requires security expertise |
 
 ## Common Misuses
@@ -66,9 +56,9 @@ Without secure by design:
 
 ## Related Concepts
 
-- [Security Principles](Security/security-principles.md) — Security principles include secure by design
-- [Threat Modeling](Security/threat-modeling.md) — Threat modeling supports secure by design
-- [Input Validation](Security/input-validation.md) — Input validation is part of secure by design
+- [Security Principles](Security/security-principles.md) â€” Security principles include secure by design
+- [Threat Modeling](Security/threat-modeling.md) â€” Threat modeling supports secure by design
+- [Input Validation](Security/input-validation.md) â€” Input validation is part of secure by design
 
 ## Project Observations
 
@@ -78,8 +68,8 @@ Without secure by design:
   - The project's architecture patterns note covers security concepts
   - No evidence of secure by design in existing code (src/ is empty)
 - File naming conventions support secure by design:
-  - `*.schema.ts` — Schema files
-  - `*.guard.ts` — Guard files
+  - `*.schema.ts` â€” Schema files
+  - `*.guard.ts` â€” Guard files
 
 ## Sources
 
@@ -230,7 +220,7 @@ import { Request, Response, NextFunction } from 'express'
 import helmet from 'helmet'
 import rateLimit from 'express-rate-limit'
 
-// Helmet — Set secure headers
+// Helmet â€” Set secure headers
 export const securityHeaders = helmet()
 
 // Rate limiting
@@ -364,12 +354,12 @@ describe('Security', () => {
 5. **Test security**: Write security tests
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `zod` — for validation
-- **npm Package**: `helmet` — for security headers
-- **npm Package**: `express-rate-limit` — for rate limiting
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm audit` — check vulnerabilities
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `zod` â€” for validation
+- **npm Package**: `helmet` â€” for security headers
+- **npm Package**: `express-rate-limit` â€” for rate limiting
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm audit` â€” check vulnerabilities
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when implementing security controls

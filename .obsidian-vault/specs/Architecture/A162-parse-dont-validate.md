@@ -1,34 +1,22 @@
----
+﻿---
 slug: parse-dont-validate
 sources:
   - https://hynek.me/articles/validate-before-parsing/
   - https://gleb-tarasov.com/blog/parse-dont-validate/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - parsing
   - validation
   - typescript
   - type-systems
----
-
+  - --
 # Parse, Don't Merely Validate
 
 ## Definition
 
 Parse, Don't Validate is the principle that **input should be parsed into typed values rather than validated as raw strings**. Parsing enforces invariants at the boundary, while validation only checks.
 
-> "Parse don't validate: convert raw input into typed values at the boundary, so the rest of your code works with guaranteed valid data." — Gleb T.
+> "Parse don't validate: convert raw input into typed values at the boundary, so the rest of your code works with guaranteed valid data." â€” Gleb T.
 
 ## Problem Addressed
 
@@ -39,7 +27,7 @@ Validation-only leads to:
 
 ## Scope and Boundaries
 
-- Parsing ≠ Validation (parsing creates, validation checks)
+- Parsing â‰  Validation (parsing creates, validation checks)
 - Parsing is a **boundary concern**, validation is a **domain concern**
 - TypeScript types don't validate runtime input (need parsing at boundaries)
 
@@ -53,9 +41,9 @@ Validation-only leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Parsing complexity** — Parsing logic can be complex |
-| **Error messages** — Parse errors may be less user-friendly |
-| **Performance** — Parsing adds overhead |
+| **Parsing complexity** â€” Parsing logic can be complex |
+| **Error messages** â€” Parse errors may be less user-friendly |
+| **Performance** â€” Parsing adds overhead |
 
 ## Common Misuses
 
@@ -65,9 +53,9 @@ Validation-only leads to:
 
 ## Related Concepts
 
-- [Boundary Validation](Architecture/coding-practices.md) — Parse at boundaries
-- [Make Invalid States Unrepresentable](Architecture/coding-practices.md) — Parsing enforces invariants
-- [Strict Typing](Architecture/coding-practices.md) — Parsed values are strongly typed
+- [Boundary Validation](Architecture/coding-practices.md) â€” Parse at boundaries
+- [Make Invalid States Unrepresentable](Architecture/coding-practices.md) â€” Parsing enforces invariants
+- [Strict Typing](Architecture/coding-practices.md) â€” Parsed values are strongly typed
 
 ## Project Observations
 

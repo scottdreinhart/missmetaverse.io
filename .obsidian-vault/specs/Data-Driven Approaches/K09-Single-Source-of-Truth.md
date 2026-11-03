@@ -1,32 +1,22 @@
----
+﻿---
 slug: single-source-of-truth
 sources:
   - https://en.wikipedia.org/wiki/Single_source_of_truth
   - https://martinfowler.com/bliki/SingleSourceOfTruth.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - single-source-of-truth
   - data-modeling
   - consistency
   - architecture
----
-
+  - --
 # Single Source of Truth
 
 ## Definition
 
 Single Source of Truth is **an architecture principle that states that every piece of knowledge must have a single, unambiguous, authoritative representation within a system**.
 
-> "A single source of truth is a unique, authoritative source of data for a given data domain." — Martin Fowler
+> "A single source of truth is a unique, authoritative source of data for a given data domain." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without single source of truth:
 
 ## Scope and Boundaries
 
-- Single Source of Truth ≠ Database (single source of truth is a principle, database is a tool)
+- Single Source of Truth â‰  Database (single source of truth is a principle, database is a tool)
 - Single Source of Truth = Consistency (single source of truth ensures consistency)
 - Single Source of Truth is an **architecture principle**, not a pattern
 
@@ -53,9 +43,9 @@ Without single source of truth:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Single source of truth requires careful design |
-| **Time** — Establishing single source of truth takes time |
-| **Bottleneck** — Single source can become a bottleneck |
+| **Complexity** â€” Single source of truth requires careful design |
+| **Time** â€” Establishing single source of truth takes time |
+| **Bottleneck** â€” Single source can become a bottleneck |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without single source of truth:
 
 ## Related Concepts
 
-- [Data-Driven Design](Data-Driven Approaches/data-driven-design.md) — Data-driven design relies on single source of truth
-- [Immutable Data](Architecture/immutable-data.md) — Immutable data supports single source of truth
-- [Caching Strategies](Data Databases/caching-strategies.md) — Caching strategies must respect single source of truth
+- [Data-Driven Design](Data-Driven Approaches/data-driven-design.md) â€” Data-driven design relies on single source of truth
+- [Immutable Data](Architecture/immutable-data.md) â€” Immutable data supports single source of truth
+- [Caching Strategies](Data Databases/caching-strategies.md) â€” Caching strategies must respect single source of truth
 
 ## Project Observations
 
@@ -76,8 +66,8 @@ Without single source of truth:
   - The project's architecture patterns note covers architecture principles
   - No evidence of single source of truth in existing code (src/ is empty)
 - File naming conventions support single source of truth:
-  - `*.data.ts` — Data files
-  - `*.types.ts` — Type files
+  - `*.data.ts` â€” Data files
+  - `*.types.ts` â€” Type files
 
 ## Sources
 

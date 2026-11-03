@@ -1,9 +1,11 @@
+﻿---
+slug: jotai-state-management
+---
+
 # Jotai State Management
 
 > **Purpose:** Manage application state with Jotai.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `jotai-state-management`
@@ -49,8 +51,6 @@ declared
 - zustand-state-management
 - recoil-state-management
 - mobx-state-management
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Jotai does not apply to:
 
 ## Related Concepts
 
-- [[React/modern-react-project-template]] — Modern React Project Template
-- [[State Management/zustand-state-management]] — Zustand State Management
-- [[State Management/recoil-state-management]] — Recoil State Management
-- [[State Management/mobx-state-management]] — MobX State Management
+- [[React/modern-react-project-template]] â€” Modern React Project Template
+- [[State Management/zustand-state-management]] â€” Zustand State Management
+- [[State Management/recoil-state-management]] â€” Recoil State Management
+- [[State Management/mobx-state-management]] â€” MobX State Management
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Jotai through:
 ## Sources
 
 - [[Sources/jotai-documentation|Jotai Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Jotai State Management Note**

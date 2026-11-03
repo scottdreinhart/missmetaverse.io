@@ -1,9 +1,11 @@
+﻿---
+slug: database-replication
+---
+
 # Database Replication
 
 > **Purpose:** Ensure availability with Database Replication.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `database-replication`
@@ -50,8 +52,6 @@ declared
 - high-availability
 - read-replicas
 - disaster-recovery
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Replication does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/database-replication]] — Database Replication
-- [[Data Databases/high-availability]] — High Availability
-- [[Data Databases/read-replicas]] — Read Replicas
-- [[Data Databases/disaster-recovery]] — Disaster Recovery
+- [[Data Databases/database-replication]] â€” Database Replication
+- [[Data Databases/high-availability]] â€” High Availability
+- [[Data Databases/read-replicas]] â€” Read Replicas
+- [[Data Databases/disaster-recovery]] â€” Disaster Recovery
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Database Replication through:
 
 ## Sources
 
-- [[Sources/database-design-hoffer|Database Design — Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Replication Note**

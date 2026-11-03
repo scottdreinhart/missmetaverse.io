@@ -1,9 +1,11 @@
+﻿---
+slug: release-management
+---
+
 # Release Management
 
 > **Purpose:** Manage releases with Release Management.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `release-management`
@@ -50,8 +52,6 @@ declared
 - semantic-versioning
 - release-planning
 - release-notes
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Release Management does not apply to:
 
 ## Related Concepts
 
-- [[DevOps & Deployment/release-management]] — Release Management
-- [[DevOps & Deployment/semantic-versioning]] — Semantic Versioning
-- [[DevOps & Deployment/release-planning]] — Release Planning
-- [[DevOps & Deployment/release-notes]] — Release Notes
+- [[DevOps & Deployment/release-management]] â€” Release Management
+- [[DevOps & Deployment/semantic-versioning]] â€” Semantic Versioning
+- [[DevOps & Deployment/release-planning]] â€” Release Planning
+- [[DevOps & Deployment/release-notes]] â€” Release Notes
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Release Management through:
 ## Sources
 
 - [[Sources/semver-specification|Semantic Versioning Specification]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Release Management Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: factory
+---
+
 # Factory
 
 > **Purpose:** Create objects with Factory.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `factory`
@@ -50,8 +52,6 @@ declared
 - domain-factory
 - object-factory
 - creation-logic
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Factory does not apply to:
 
 ## Related Concepts
 
-- [[DDD/factory]] — Factory
-- [[DDD/domain-factory]] — Domain Factory
-- [[DDD/object-factory]] — Object Factory
-- [[DDD/creation-logic]] — Creation Logic
+- [[DDD/factory]] â€” Factory
+- [[DDD/domain-factory]] â€” Domain Factory
+- [[DDD/object-factory]] â€” Object Factory
+- [[DDD/creation-logic]] â€” Creation Logic
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Factory through:
 ## Sources
 
 - [[Sources/evans-ddd|Domain-Driven Design by Eric Evans]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Factory Note**

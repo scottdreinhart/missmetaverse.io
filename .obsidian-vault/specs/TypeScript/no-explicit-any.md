@@ -1,9 +1,11 @@
+﻿---
+slug: no-explicit-any
+---
+
 # No Explicit Any
 
 > **Purpose:** Avoid using `any` type to maintain type safety.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-no-explicit-any`
@@ -50,8 +52,6 @@ declared
 - coding-compile-time-checks
 - coding-type-inference
 - coding-generics
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ No explicit any does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[TypeScript/typescript-strict-mode]] — TypeScript Strict Mode
-- [[Coding Type Systems/compile-time-checks]] — Compile-Time Checks
-- [[Coding Type Systems/type-inference]] — Type Inference
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[TypeScript/typescript-strict-mode]] â€” TypeScript Strict Mode
+- [[Coding Type Systems/compile-time-checks]] â€” Compile-Time Checks
+- [[Coding Type Systems/type-inference]] â€” Type Inference
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows no explicit any through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of No Explicit Any Note**

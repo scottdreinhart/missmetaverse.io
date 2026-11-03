@@ -1,33 +1,22 @@
----
+﻿---
 slug: tdd-pattern
 sources:
   - https://en.wikipedia.org/wiki/Test-driven_development
   - https://docs.microsoft.com/en-us/azure/architecture/framework/devops/test
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - tdd
   - testing
   - red-green-refactor
   - design
----
-
+  - --
 # Test-Driven Development (TDD)
 
 ## Definition
 
 TDD is a development approach where **tests are written before implementation code**, following the Red-Green-Refactor cycle.
 
-> "TDD is not about testing. TDD is a design process." — Kent Beck
+> "TDD is not about testing. TDD is a design process." â€” Kent Beck
 
 ## Problem Addressed
 
@@ -39,8 +28,8 @@ Testing after implementation leads to:
 
 ## Scope and Boundaries
 
-- TDD ≠ Testing (TDD is a design process, testing is verification)
-- TDD ≠ 100% coverage (TDD produces good tests, not necessarily complete coverage)
+- TDD â‰  Testing (TDD is a design process, testing is verification)
+- TDD â‰  100% coverage (TDD produces good tests, not necessarily complete coverage)
 - TDD is a **development methodology**, not a testing framework
 
 ## When to Apply
@@ -54,9 +43,9 @@ Testing after implementation leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Learning curve** — TDD requires practice |
-| **Slower initial development** — Writing tests first takes time |
-| **Not for everything** — UI exploration may not benefit |
+| **Learning curve** â€” TDD requires practice |
+| **Slower initial development** â€” Writing tests first takes time |
+| **Not for everything** â€” UI exploration may not benefit |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Testing after implementation leads to:
 
 ## Related Concepts
 
-- [Testing Patterns](../Testing/testing-patterns.md) — Vitest, Playwright
-- [Property-Based Testing](Architecture/quality-delivery-maintainability.md) — Complementary to TDD
-- [Risk-Based Testing](Architecture/quality-delivery-maintainability.md) — Focus testing effort
+- [Testing Patterns](../Testing/testing-patterns.md) â€” Vitest, Playwright
+- [Property-Based Testing](Architecture/quality-delivery-maintainability.md) â€” Complementary to TDD
+- [Risk-Based Testing](Architecture/quality-delivery-maintainability.md) â€” Focus testing effort
 
 ## Project Observations
 

@@ -1,9 +1,11 @@
+﻿---
+slug: specification
+---
+
 # Specification
 
 > **Purpose:** Validate with Specification.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `specification`
@@ -50,8 +52,6 @@ declared
 - specification-pattern
 - business-rule
 - validation-rule
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Specification does not apply to:
 
 ## Related Concepts
 
-- [[DDD/specification]] — Specification
-- [[DDD/specification-pattern]] — Specification Pattern
-- [[DDD/business-rule]] — Business Rule
-- [[DDD/validation-rule]] — Validation Rule
+- [[DDD/specification]] â€” Specification
+- [[DDD/specification-pattern]] â€” Specification Pattern
+- [[DDD/business-rule]] â€” Business Rule
+- [[DDD/validation-rule]] â€” Validation Rule
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Specification through:
 ## Sources
 
 - [[Sources/evans-ddd|Domain-Driven Design by Eric Evans]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Specification Note**

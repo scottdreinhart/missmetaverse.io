@@ -1,9 +1,11 @@
+﻿---
+slug: tiptap-rich-text-editor
+---
+
 # Tiptap Rich Text Editor
 
 > **Purpose:** Configure Tiptap for rich text editing.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `tiptap-rich-text-editor`
@@ -50,8 +52,6 @@ declared
 - tiptap-rich-text
 - tiptap-content-editing
 - tiptap-wysiwyg
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Tiptap does not apply to:
 
 ## Related Concepts
 
-- [[Tiptap/tiptap-editor-configuration]] — Tiptap Editor Configuration
-- [[Tiptap/tiptap-rich-text]] — Tiptap Rich Text
-- [[Tiptap/tiptap-content-editing]] — Tiptap Content Editing
-- [[Tiptap/tiptap-wysiwyg]] — Tiptap WYSIWYG
+- [[Tiptap/tiptap-editor-configuration]] â€” Tiptap Editor Configuration
+- [[Tiptap/tiptap-rich-text]] â€” Tiptap Rich Text
+- [[Tiptap/tiptap-content-editing]] â€” Tiptap Content Editing
+- [[Tiptap/tiptap-wysiwyg]] â€” Tiptap WYSIWYG
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Tiptap through:
 ## Sources
 
 - [[Sources/tiptap-documentation|Tiptap Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Tiptap Rich Text Editor Note**

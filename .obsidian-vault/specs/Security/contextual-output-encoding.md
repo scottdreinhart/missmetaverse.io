@@ -1,9 +1,11 @@
+﻿---
+slug: contextual-output-encoding
+---
+
 # Contextual Output Encoding
 
 > **Purpose:** Encode output with Contextual Output Encoding.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `contextual-output-encoding`
@@ -50,8 +52,6 @@ declared
 - output-encoding
 - html-encoding
 - xss-prevention
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Contextual Output Encoding does not apply to:
 
 ## Related Concepts
 
-- [[Security/contextual-output-encoding]] — Contextual Output Encoding
-- [[Security/output-encoding]] — Output Encoding
-- [[Security/html-encoding]] — HTML Encoding
-- [[Security/xss-prevention]] — XSS Prevention
+- [[Security/contextual-output-encoding]] â€” Contextual Output Encoding
+- [[Security/output-encoding]] â€” Output Encoding
+- [[Security/html-encoding]] â€” HTML Encoding
+- [[Security/xss-prevention]] â€” XSS Prevention
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Contextual Output Encoding through:
 ## Sources
 
 - [[Sources/owasp-top-10|OWASP Top 10]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Contextual Output Encoding Note**

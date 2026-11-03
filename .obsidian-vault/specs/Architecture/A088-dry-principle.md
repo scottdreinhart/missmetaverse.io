@@ -1,31 +1,22 @@
----
+﻿---
 slug: dry-principle
 sources:
   - https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
   - https://www.agilealliance.org/glossary/dry/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - dry
   - principles
   - code-quality
   - maintainability
----
-
+  - --
 # DRY (Don't Repeat Yourself)
 
 ## Definition
 
 DRY states that **every piece of knowledge must have a single, unambiguous, authoritative representation within a system**. Duplication of knowledge, not duplication of code, is the target.
 
-> "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system." — Kevin Sullivan (coined the term)
+> "Every piece of knowledge must have a single, unambiguous, authoritative representation within a system." â€” Kevin Sullivan (coined the term)
 
 ## Problem Addressed
 
@@ -64,9 +55,9 @@ Duplicated knowledge leads to:
 
 ## Related Concepts
 
-- **Single Source of Truth** — Data-level DRY
-- **Separation of Concerns** — Structural DRY
-- **High Cohesion** — DRY within modules
+- **Single Source of Truth** â€” Data-level DRY
+- **Separation of Concerns** â€” Structural DRY
+- **High Cohesion** â€” DRY within modules
 
 ## Project Observations
 

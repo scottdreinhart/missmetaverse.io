@@ -1,9 +1,11 @@
+﻿---
+slug: onion-architecture
+---
+
 # Onion Architecture
 
 > **Purpose:** Structure apps with Onion Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `onion-architecture`
@@ -50,8 +52,6 @@ declared
 - hexagonal-architecture
 - clean-architecture
 - domain-centric
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Onion Architecture does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/onion-architecture]] — Onion Architecture
-- [[Application Architecture/hexagonal-architecture]] — Hexagonal Architecture
-- [[Application Architecture/clean-architecture]] — Clean Architecture
-- [[Application Architecture/domain-centric]] — Domain Centric
+- [[Application Architecture/onion-architecture]] â€” Onion Architecture
+- [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Application Architecture/clean-architecture]] â€” Clean Architecture
+- [[Application Architecture/domain-centric]] â€” Domain Centric
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Onion Architecture through:
 
 ## Sources
 
-- [[Sources/onion-architecture-chambers|Onion Architecture — Scott Chambers]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/onion-architecture-chambers|Onion Architecture â€” Scott Chambers]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Onion Architecture Note**

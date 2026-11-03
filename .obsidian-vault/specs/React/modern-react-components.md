@@ -1,9 +1,11 @@
+﻿---
+slug: modern-react-components
+---
+
 # React Modern React Components
 
 > **Purpose:** Build React components effectively.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `modern-react-components`
@@ -50,8 +52,6 @@ declared
 - modern-react-hooks
 - modern-react-state
 - modern-react-components-composition
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ React components do not apply to:
 
 ## Related Concepts
 
-- [[React/modern-react-project-template]] — Modern React Project Template
-- [[React/modern-react-hooks]] — Modern React Hooks
-- [[React/modern-react-state]] — Modern React State
-- [[React/modern-react-components-composition]] — Modern React Component Composition
+- [[React/modern-react-project-template]] â€” Modern React Project Template
+- [[React/modern-react-hooks]] â€” Modern React Hooks
+- [[React/modern-react-state]] â€” Modern React State
+- [[React/modern-react-components-composition]] â€” Modern React Component Composition
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React components through:
 ## Sources
 
 - [[Sources/react-documentation|React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Modern React Components Note**

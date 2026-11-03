@@ -1,31 +1,22 @@
----
+﻿---
 slug: metadata-driven-ui
 sources:
   - https://react.dev/
   - https://json-schema.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - metadata-driven
   - ui
   - react
   - dynamic-forms
----
-
+  - --
 # Metadata-Driven UI
 
 ## Definition
 
 Metadata-Driven UI is **a design approach where UI components are generated from metadata or schema definitions rather than being hard-coded**.
 
-> "Metadata-driven UI generates user interfaces from metadata definitions, enabling dynamic and configurable interfaces." — Wikipedia
+> "Metadata-driven UI generates user interfaces from metadata definitions, enabling dynamic and configurable interfaces." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without metadata-driven UI:
 
 ## Scope and Boundaries
 
-- Metadata-Driven UI ≠ Component Library (metadata-driven UI generates UI from metadata, component library provides reusable components)
+- Metadata-Driven UI â‰  Component Library (metadata-driven UI generates UI from metadata, component library provides reusable components)
 - Metadata-Driven UI = Configuration (metadata-driven UI is configured through metadata)
 - Metadata-Driven UI is a **design approach**, not a pattern
 
@@ -52,9 +43,9 @@ Without metadata-driven UI:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Metadata-driven UI adds abstraction complexity |
-| **Time** — Designing metadata schemas takes time |
-| **Flexibility** — May not support all UI patterns |
+| **Complexity** â€” Metadata-driven UI adds abstraction complexity |
+| **Time** â€” Designing metadata schemas takes time |
+| **Flexibility** â€” May not support all UI patterns |
 
 ## Common Misuses
 
@@ -64,9 +55,9 @@ Without metadata-driven UI:
 
 ## Related Concepts
 
-- [Schema-Driven Development](Data-Driven Approaches/schema-driven-development.md) — Schema-driven development is related to metadata-driven UI
-- [Design Systems](Frontend UI/design-systems.md) — Design systems provide foundations for metadata-driven UI
-- [React Performance](Performance/react-performance.md) — Metadata-driven UI must consider performance
+- [Schema-Driven Development](Data-Driven Approaches/schema-driven-development.md) â€” Schema-driven development is related to metadata-driven UI
+- [Design Systems](Frontend UI/design-systems.md) â€” Design systems provide foundations for metadata-driven UI
+- [React Performance](Performance/react-performance.md) â€” Metadata-driven UI must consider performance
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without metadata-driven UI:
   - The project's architecture patterns note covers UI concepts
   - No evidence of metadata-driven UI in existing code (src/ is empty)
 - File naming conventions support metadata-driven UI:
-  - `*.schema.ts` — Schema files
-  - `*.types.ts` — Type files
+  - `*.schema.ts` â€” Schema files
+  - `*.types.ts` â€” Type files
 
 ## Sources
 

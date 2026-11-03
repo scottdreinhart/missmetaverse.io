@@ -1,9 +1,11 @@
+﻿---
+slug: entity
+---
+
 # Entity
 
 > **Purpose:** Domain object identified by its unique identity.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `ddd-entity`
@@ -50,8 +52,6 @@ declared
 - ddd-entity
 - arch-entity-file-convention
 - ddd-domain-invariant
-
----
 
 ## Definition
 
@@ -115,10 +115,10 @@ Entities do not apply to:
 
 ## Related Concepts
 
-- [[DDD/value-object]] — Value Object
-- [[DDD/aggregate]] — Aggregate
-- [[Architecture/entity-file-convention]] — Entity File Convention
-- [[DDD/domain-invariant]] — Domain Invariant
+- [[DDD/value-object]] â€” Value Object
+- [[DDD/aggregate]] â€” Aggregate
+- [[Architecture/entity-file-convention]] â€” Entity File Convention
+- [[DDD/domain-invariant]] â€” Domain Invariant
 
 ## Project Observations
 
@@ -130,9 +130,7 @@ The project uses TypeScript, which supports entities through:
 
 ## Sources
 
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Entity Note**

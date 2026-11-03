@@ -1,9 +1,11 @@
+﻿---
+slug: singleton-pattern
+---
+
 # Singleton Pattern
 
 > **Purpose:** Ensure single instance with Singleton Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `singleton-pattern`
@@ -49,8 +51,6 @@ declared
 - dependency-injection
 - service-locator
 - state-management
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Singleton does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/singleton-pattern]] — Singleton Pattern
-- [[Architecture/dependency-injection]] — Dependency Injection
-- [[Design Patterns/service-locator]] — Service Locator
-- [[State Management/state-management]] — State Management
+- [[Design Patterns/singleton-pattern]] â€” Singleton Pattern
+- [[Architecture/dependency-injection]] â€” Dependency Injection
+- [[Design Patterns/service-locator]] â€” Service Locator
+- [[State Management/state-management]] â€” State Management
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Singleton Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Singleton Pattern Note**

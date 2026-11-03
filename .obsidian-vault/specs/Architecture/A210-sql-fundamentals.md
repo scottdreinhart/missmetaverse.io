@@ -1,32 +1,22 @@
----
+﻿---
 slug: sql-fundamentals
 sources:
   - https://www.postgresql.org/
   - https://www.mysql.com/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - sql
   - database
   - postgresql
   - mysql
----
-
+  - --
 # SQL Fundamentals
 
 ## Definition
 
 SQL Fundamentals are the **basic concepts and syntax for querying and manipulating relational databases**.
 
-> "SQL (Structured Query Language) is a standard language for storing, manipulating and retrieving data in relational databases." — Wikipedia
+> "SQL (Structured Query Language) is a standard language for storing, manipulating and retrieving data in relational databases." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -38,8 +28,8 @@ Without SQL fundamentals:
 
 ## Scope and Boundaries
 
-- SQL ≠ NoSQL (SQL is for relational databases, NoSQL is for non-relational databases)
-- SQL ≠ ORM (SQL is a language, ORM is a tool)
+- SQL â‰  NoSQL (SQL is for relational databases, NoSQL is for non-relational databases)
+- SQL â‰  ORM (SQL is a language, ORM is a tool)
 - SQL is a **language**, not a tool
 
 ## When to Apply
@@ -53,21 +43,21 @@ Without SQL fundamentals:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — SQL is complex |
-| **Time** — SQL takes time |
-| **Over-SQL** — Don't use SQL for everything |
+| **Complexity** â€” SQL is complex |
+| **Time** â€” SQL takes time |
+| **Over-SQL** â€” Don't use SQL for everything |
 
 ## Common Misuses
 
 - **Everything SQL**: Not everything needs SQL
-- **Confusing with NoSQL**: SQL ≠ NoSQL
+- **Confusing with NoSQL**: SQL â‰  NoSQL
 - **Over-SQL**: Too much SQL creates complexity
 
 ## Related Concepts
 
-- [Database Design](Architecture/database-design.md) — SQL with database design
-- [ORM](Architecture/orm.md) — SQL with ORM
-- [Data Mapper Pattern](Architecture/data-mapper-pattern.md) — SQL with data mapper
+- [Database Design](Architecture/database-design.md) â€” SQL with database design
+- [ORM](Architecture/orm.md) â€” SQL with ORM
+- [Data Mapper Pattern](Architecture/data-mapper-pattern.md) â€” SQL with data mapper
 
 ## Project Observations
 
@@ -75,8 +65,8 @@ Without SQL fundamentals:
   - The project's architecture patterns note covers SQL (from existing notes)
   - No evidence of SQL in existing code (src/ is empty)
 - File naming conventions support SQL:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

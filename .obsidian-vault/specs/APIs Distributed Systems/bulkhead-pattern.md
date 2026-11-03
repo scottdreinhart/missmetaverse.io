@@ -1,9 +1,11 @@
+﻿---
+slug: bulkhead-pattern
+---
+
 # Bulkhead Pattern
 
 > **Purpose:** Isolate failures with Bulkhead Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `bulkhead-pattern`
@@ -50,8 +52,6 @@ declared
 - circuit-breaker-pattern
 - thread-pool-pattern
 - connection-pool
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Bulkhead does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/bulkhead-pattern]] — Bulkhead Pattern
-- [[APIs Distributed Systems/circuit-breaker-pattern]] — Circuit Breaker Pattern
-- [[APIs Distributed Systems/thread-pool-pattern]] — Thread Pool Pattern
-- [[APIs Distributed Systems/connection-pool]] — Connection Pool
+- [[APIs Distributed Systems/bulkhead-pattern]] â€” Bulkhead Pattern
+- [[APIs Distributed Systems/circuit-breaker-pattern]] â€” Circuit Breaker Pattern
+- [[APIs Distributed Systems/thread-pool-pattern]] â€” Thread Pool Pattern
+- [[APIs Distributed Systems/connection-pool]] â€” Connection Pool
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Bulkhead Pattern through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of Bulkhead Pattern Note**

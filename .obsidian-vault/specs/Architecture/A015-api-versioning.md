@@ -1,32 +1,23 @@
----
+﻿---
 slug: api-versioning
 sources:
   - https://swagger.io/blog/api-versioning/
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
   - api
   - versioning
   - rest
   - backward-compatibility
----
-
+  - --
 # API Versioning
 
 ## Definition
 
 API Versioning is the practice of **managing changes to an API while maintaining backward compatibility for existing consumers**.
 
-> "API versioning allows you to evolve your API without breaking existing clients." — Microsoft API Design Guide
+> "API versioning allows you to evolve your API without breaking existing clients." â€” Microsoft API Design Guide
 
 ## Problem Addressed
 
@@ -38,8 +29,8 @@ Without versioning:
 
 ## Scope and Boundaries
 
-- Versioning ≠ Changelog (versioning is for APIs, changelog is for releases)
-- Versioning ≠ Semantic versioning (API versioning is different from package versioning)
+- Versioning â‰  Changelog (versioning is for APIs, changelog is for releases)
+- Versioning â‰  Semantic versioning (API versioning is different from package versioning)
 - Versioning is a **lifecycle management practice**, not a technical pattern
 
 ## When to Apply
@@ -53,29 +44,29 @@ Without versioning:
 
 | Cost | Description |
 |------|-------------|
-| **Maintenance** — Multiple versions to maintain |
-| **Complexity** — Routing between versions |
-| **Documentation** — Multiple versions to document |
+| **Maintenance** â€” Multiple versions to maintain |
+| **Complexity** â€” Routing between versions |
+| **Documentation** â€” Multiple versions to document |
 
 ## Common Misuses
 
 - **Versioning everything**: Not every change needs a version
-- **Confusing with semver**: API versioning ≠ package versioning
+- **Confusing with semver**: API versioning â‰  package versioning
 - **Version in URL only**: Multiple versioning strategies exist
 
 ## Related Concepts
 
-- [REST](Architecture/architecture-patterns.md) — REST API versioning
-- [Backward Compatibility](Architecture/architecture-patterns.md) — Versioning enables compatibility
-- [DTOs](Architecture/architecture-patterns.md) — Versioned data transfer
+- [REST](Architecture/architecture-patterns.md) â€” REST API versioning
+- [Backward Compatibility](Architecture/architecture-patterns.md) â€” Versioning enables compatibility
+- [DTOs](Architecture/architecture-patterns.md) â€” Versioned data transfer
 
 ## Project Observations
 
 - No API is implemented yet (src/ is empty)
 - The project's architecture patterns note covers API versioning
 - File naming conventions support API versioning:
-  - `*.schema.ts` — Versioned schemas
-  - `*.dto.ts` — Versioned data transfer
+  - `*.schema.ts` â€” Versioned schemas
+  - `*.dto.ts` â€” Versioned data transfer
 
 ## Sources
 

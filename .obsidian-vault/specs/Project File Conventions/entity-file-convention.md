@@ -1,9 +1,11 @@
+﻿---
+slug: entity-file-convention
+---
+
 # Entity File Convention
 
 > **Purpose:** Define domain entities in dedicated files.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-entity-file`
@@ -51,11 +53,9 @@ declared
 - project-data-file
 - ddd-entity
 
----
-
 ## Definition
 
-The *.entity.ts file convention designates files that define domain entities — objects with identity that change over time.
+The *.entity.ts file convention designates files that define domain entities â€” objects with identity that change over time.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Entity files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/value-object-file-convention]] — *.value-object.ts File Convention
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[DDD/entity]] — Entity
+- [[Project File Conventions/value-object-file-convention]] â€” *.value-object.ts File Convention
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[DDD/entity]] â€” Entity
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows entity file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Entity File Convention Note**

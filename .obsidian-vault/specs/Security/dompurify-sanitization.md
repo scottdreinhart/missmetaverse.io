@@ -1,9 +1,11 @@
+﻿---
+slug: dompurify-sanitization
+---
+
 # DOMPurify Sanitization
 
 > **Purpose:** Sanitize HTML with DOMPurify.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `dompurify-sanitization`
@@ -50,8 +52,6 @@ declared
 - dompurify-xss-prevention
 - dompurify-configuration
 - dompurify-content-security
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ DOMPurify does not apply to:
 
 ## Related Concepts
 
-- [[DOMPurify/dompurify-html-sanitization]] — DOMPurify HTML Sanitization
-- [[DOMPurify/dompurify-xss-prevention]] — DOMPurify XSS Prevention
-- [[DOMPurify/dompurify-configuration]] — DOMPurify Configuration
-- [[DOMPurify/dompurify-content-security]] — DOMPurify Content Security
+- [[DOMPurify/dompurify-html-sanitization]] â€” DOMPurify HTML Sanitization
+- [[DOMPurify/dompurify-xss-prevention]] â€” DOMPurify XSS Prevention
+- [[DOMPurify/dompurify-configuration]] â€” DOMPurify Configuration
+- [[DOMPurify/dompurify-content-security]] â€” DOMPurify Content Security
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses DOMPurify through:
 ## Sources
 
 - [[Sources/dompurify-documentation|DOMPurify Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of DOMPurify Sanitization Note**

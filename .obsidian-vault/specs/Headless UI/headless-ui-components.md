@@ -1,9 +1,11 @@
+﻿---
+slug: headless-ui-components
+---
+
 # Headless UI Components
 
 > **Purpose:** Build accessible UI components with Headless UI.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `headless-ui-components`
@@ -50,8 +52,6 @@ declared
 - headless-ui-custom-styling
 - headless-ui-configuration
 - headless-ui-react
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Headless UI does not apply to:
 
 ## Related Concepts
 
-- [[Headless UI/headless-ui-accessible-components]] — Headless UI Accessible Components
-- [[Headless UI/headless-ui-custom-styling]] — Headless UI Custom Styling
-- [[Headless UI/headless-ui-configuration]] — Headless UI Configuration
-- [[Headless UI/headless-ui-react]] — Headless UI React
+- [[Headless UI/headless-ui-accessible-components]] â€” Headless UI Accessible Components
+- [[Headless UI/headless-ui-custom-styling]] â€” Headless UI Custom Styling
+- [[Headless UI/headless-ui-configuration]] â€” Headless UI Configuration
+- [[Headless UI/headless-ui-react]] â€” Headless UI React
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Headless UI through:
 ## Sources
 
 - [[Sources/headless-ui-documentation|Headless UI Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Headless UI Components Note**

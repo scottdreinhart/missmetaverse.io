@@ -1,4 +1,4 @@
----
+﻿---
 slug: husky-git-hooks
 sources:
   - https://typicode.github.io/husky/
@@ -7,20 +7,13 @@ sources:
   - https://typicode.github.io/husky/troubleshoot.html
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
   - husky
   - git-hooks
   - pre-commit
   - commit-msg
   - pre-push
----
-
+  - --
 # Husky Git Hooks
 
 ## Overview
@@ -32,8 +25,8 @@ Husky is an ultra-fast (2 kB gzipped, ~1ms execution), modern native git hooks m
 ## 1. Features
 
 - **2 kB gzipped** with zero dependencies
-- **~1ms execution** — fastest hooks manager
-- Uses `core.hooksPath` — no `.git/hooks` modifications
+- **~1ms execution** â€” fastest hooks manager
+- Uses `core.hooksPath` â€” no `.git/hooks` modifications
 - Supports all 13 client-side Git hooks
 - Works on macOS, Linux, Windows
 - Works with Git GUIs, Node version managers, monorepos
@@ -55,7 +48,7 @@ pnpm add -D husky
 npx husky init
 
 # This creates:
-# .husky/pre-commit  — default hook
+# .husky/pre-commit  â€” default hook
 # package.json "prepare" script
 ```
 
@@ -119,7 +112,7 @@ npx husky add .husky/post-merge 'pnpm install --frozen-lockfile'
 
 ## 4. Hook Examples
 
-### `.husky/pre-commit` — Lint Staged Files
+### `.husky/pre-commit` â€” Lint Staged Files
 
 ```bash
 #!/usr/bin/env sh
@@ -129,7 +122,7 @@ npx husky add .husky/post-merge 'pnpm install --frozen-lockfile'
 npx lint-staged
 ```
 
-### `.husky/commit-msg` — Validate Commit Message
+### `.husky/commit-msg` â€” Validate Commit Message
 
 ```bash
 #!/usr/bin/env sh
@@ -139,7 +132,7 @@ npx lint-staged
 npx --no -- commitlint --edit "$1"
 ```
 
-### `.husky/pre-push` — Run Tests
+### `.husky/pre-push` â€” Run Tests
 
 ```bash
 #!/usr/bin/env sh
@@ -149,7 +142,7 @@ npx --no -- commitlint --edit "$1"
 pnpm test:run
 ```
 
-### `.husky/post-merge` — Reinstall Dependencies
+### `.husky/post-merge` â€” Reinstall Dependencies
 
 ```bash
 #!/usr/bin/env sh
@@ -161,7 +154,7 @@ if [ -f "package.json" ]; then
 fi
 ```
 
-### `.husky/pre-rebase` — Prevent Rebasing Main
+### `.husky/pre-rebase` â€” Prevent Rebasing Main
 
 ```bash
 #!/usr/bin/env sh
@@ -174,7 +167,7 @@ if [ "$1" = "main" ] || [ "$1" = "master" ]; then
 fi
 ```
 
-### `.husky/prepare-commit-msg` — Add Conventional Commit Template
+### `.husky/prepare-commit-msg` â€” Add Conventional Commit Template
 
 ```bash
 #!/usr/bin/env sh
@@ -201,7 +194,7 @@ fi
 ### Inline Linting (No Dependencies)
 
 ```bash
-# .husky/pre-commit — Inline Prettier
+# .husky/pre-commit â€” Inline Prettier
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
@@ -340,11 +333,11 @@ cat .husky/pre-commit
 
 ```
 .husky/
-├── pre-commit          # Lint staged files
-├── commit-msg          # Validate commit message
-├── pre-push            # Run tests before push
-├── post-merge          # Reinstall deps after merge
-└── prepare-commit-msg  # Add commit template
+â”œâ”€â”€ pre-commit          # Lint staged files
+â”œâ”€â”€ commit-msg          # Validate commit message
+â”œâ”€â”€ pre-push            # Run tests before push
+â”œâ”€â”€ post-merge          # Reinstall deps after merge
+â””â”€â”€ prepare-commit-msg  # Add commit template
 ```
 
 ### `.husky/pre-commit`

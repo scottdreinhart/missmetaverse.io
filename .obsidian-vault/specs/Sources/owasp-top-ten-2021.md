@@ -1,4 +1,4 @@
----
+﻿---
 slug: owasp-top-ten-2021
 sources:
   - https://owasp.org/
@@ -6,10 +6,6 @@ sources:
 
 ---
 tags:
-
-
-
-
   - owasp
   - security
   - web-security

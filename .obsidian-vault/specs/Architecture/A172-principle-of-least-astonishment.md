@@ -1,33 +1,23 @@
----
+﻿---
 slug: principle-of-least-astonishment
 sources:
   - https://en.wikipedia.org/wiki/Principle_of_least_astonishment
   - https://pragmaticprogrammer.com/books/ppola
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
   - least-astonishment
   - principles
   - ux
   - design
----
-
+  - --
 # Principle of Least Astonishment (PoLA)
 
 ## Definition
 
 The Principle of Least Astonishment states that **a module should behave in ways that surprise users the least**. Code should do what users expect, not what is technically clever.
 
-> "The POA states that a module should behave in ways that most developers will expect it to behave." — Pragmatic Programmer
+> "The POA states that a module should behave in ways that most developers will expect it to behave." â€” Pragmatic Programmer
 
 ## Problem Addressed
 
@@ -41,7 +31,7 @@ Violating PoLA leads to:
 
 - PoLA is about **developer experience**, not just user experience
 - It applies to APIs, CLI tools, configuration, and code conventions
-- PoLA ≠ User-friendliness (it's about predictability, not ease of use)
+- PoLA â‰  User-friendliness (it's about predictability, not ease of use)
 
 ## When to Apply
 
@@ -54,9 +44,9 @@ Violating PoLA leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Convention over innovation** — Following conventions may limit creative solutions |
-| **Domain-specific expectations** — What's intuitive varies by domain |
-| **Legacy compatibility** — Changing to be less surprising may break existing code |
+| **Convention over innovation** â€” Following conventions may limit creative solutions |
+| **Domain-specific expectations** â€” What's intuitive varies by domain |
+| **Legacy compatibility** â€” Changing to be less surprising may break existing code |
 
 ## Common Misuses
 
@@ -66,9 +56,9 @@ Violating PoLA leads to:
 
 ## Related Concepts
 
-- **Explicit over Implicit** — PoLA is a specific application
-- **Fail Fast** — PoLA requires clear, predictable failure modes
-- **Type Systems** — TypeScript types make behavior predictable
+- **Explicit over Implicit** â€” PoLA is a specific application
+- **Fail Fast** â€” PoLA requires clear, predictable failure modes
+- **Type Systems** â€” TypeScript types make behavior predictable
 
 ## Project Observations
 
@@ -76,7 +66,7 @@ Violating PoLA leads to:
   - TypeScript strict mode (predictable types)
   - Conventional commits (predictable git workflow)
   - Standard file naming (predictable structure)
-  - Standard tool choices (Vite, React, Tailwind — well-known behavior)
+  - Standard tool choices (Vite, React, Tailwind â€” well-known behavior)
 - No evidence of PoLA violations in existing configuration
 
 ## Sources

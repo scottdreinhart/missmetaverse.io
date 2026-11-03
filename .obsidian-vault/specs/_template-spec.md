@@ -1,4 +1,6 @@
-﻿---
+---
+slug: _template-spec
+slug: _template-spec
 title: 
 date: 
 status: draft
@@ -6,6 +8,8 @@ author:
 related_adr: 
 category: 
 ---
+slug: _template-spec
+slug: _template-spec
 
 # Spec: {{title}}
 
@@ -264,6 +268,8 @@ FEATURE_API_KEY=your-key-here
 - [ ] Copilot instructions are embedded
 
 ---
+slug: _template-spec
+slug: _template-spec
 
 *Spec Version: 1.0*
 *Last Updated: {{date}}*

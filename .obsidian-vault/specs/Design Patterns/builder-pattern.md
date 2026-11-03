@@ -1,9 +1,11 @@
+﻿---
+slug: builder-pattern
+---
+
 # Builder Pattern
 
 > **Purpose:** Construct complex objects with Builder Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `builder-pattern`
@@ -50,8 +52,6 @@ declared
 - factory-pattern
 - abstract-factory-pattern
 - immutable-objects
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Builder does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/builder-pattern]] — Builder Pattern
-- [[Design Patterns/factory-pattern]] — Factory Pattern
-- [[Design Patterns/abstract-factory-pattern]] — Abstract Factory Pattern
-- [[Design Patterns/immutable-objects]] — Immutable Objects
+- [[Design Patterns/builder-pattern]] â€” Builder Pattern
+- [[Design Patterns/factory-pattern]] â€” Factory Pattern
+- [[Design Patterns/abstract-factory-pattern]] â€” Abstract Factory Pattern
+- [[Design Patterns/immutable-objects]] â€” Immutable Objects
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Builder Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Builder Pattern Note**

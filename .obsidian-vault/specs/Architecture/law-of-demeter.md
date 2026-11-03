@@ -1,9 +1,11 @@
+﻿---
+slug: law-of-demeter
+---
+
 # Law of Demeter
 
 > **Purpose:** Only talk to your immediate friends.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-law-of-demeter`
@@ -52,8 +54,6 @@ declared
 - arch-high-cohesion
 - arch-separation-of-concerns
 - arch-tell-dont-ask
-
----
 
 ## Definition
 
@@ -124,10 +124,10 @@ Law of Demeter does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/low-coupling]] — Low Coupling
-- [[Architecture/high-cohesion]] — High Cohesion
-- [[Architecture/separation-of-concerns]] — Separation of Concerns
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/low-coupling]] â€” Low Coupling
+- [[Architecture/high-cohesion]] â€” High Cohesion
+- [[Architecture/separation-of-concerns]] â€” Separation of Concerns
 
 ## Project Observations
 
@@ -139,9 +139,7 @@ The project follows Law of Demeter through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Law of Demeter Note**

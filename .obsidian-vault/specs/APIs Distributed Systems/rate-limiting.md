@@ -1,9 +1,11 @@
+﻿---
+slug: rate-limiting
+---
+
 # Rate Limiting
 
 > **Purpose:** Control rate with Rate Limiting.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `rate-limiting`
@@ -50,8 +52,6 @@ declared
 - throttling
 - request-limiting
 - api-rate-limiting
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Rate Limiting does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/rate-limiting]] — Rate Limiting
-- [[APIs Distributed Systems/throttling]] — Throttling
-- [[APIs Distributed Systems/request-limiting]] — Request Limiting
-- [[APIs Distributed Systems/api-rate-limiting]] — API Rate Limiting
+- [[APIs Distributed Systems/rate-limiting]] â€” Rate Limiting
+- [[APIs Distributed Systems/throttling]] â€” Throttling
+- [[APIs Distributed Systems/request-limiting]] â€” Request Limiting
+- [[APIs Distributed Systems/api-rate-limiting]] â€” API Rate Limiting
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Rate Limiting through:
 ## Sources
 
 - [[Sources/rate-limiting-guide|Rate Limiting Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Rate Limiting Note**

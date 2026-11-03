@@ -1,9 +1,11 @@
+﻿---
+slug: jwt-token-management
+---
+
 # JWT Token Management
 
 > **Purpose:** Manage authentication with JWT tokens.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `jwt-token-management`
@@ -50,8 +52,6 @@ declared
 - oauth2-authentication
 - token-validation
 - claims-management
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ JWT does not apply to:
 
 ## Related Concepts
 
-- [[Security/jwt-token-management]] — JWT Token Management
-- [[Security/oauth2-authentication]] — OAuth 2.0 Authentication
-- [[Security/token-validation]] — Token Validation
-- [[Security/claims-management]] — Claims Management
+- [[Security/jwt-token-management]] â€” JWT Token Management
+- [[Security/oauth2-authentication]] â€” OAuth 2.0 Authentication
+- [[Security/token-validation]] â€” Token Validation
+- [[Security/claims-management]] â€” Claims Management
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses JWT Token Management through:
 
 ## Sources
 
-- [[Sources/jwt-io-spec|JWT Specification — jwt.io]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/jwt-io-spec|JWT Specification â€” jwt.io]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of JWT Token Management Note**

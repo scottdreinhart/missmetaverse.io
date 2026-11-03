@@ -1,33 +1,22 @@
----
+﻿---
 slug: custom-hooks-composables
 sources:
   - https://react.dev/reference/react
   - https://vuejs.org/guide/extras/composition-api-faq.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - react
   - hooks
   - composables
   - patterns
----
-
+  - --
 # Custom Hooks / Composables
 
 ## Definition
 
 Custom Hooks (React) / Composables (Vue) are **reusable functions that encapsulate stateful logic and side effects**. They enable code sharing between components without changing the component hierarchy.
 
-> "A custom hook is a JavaScript function that can use React hooks." — React Documentation
+> "A custom hook is a JavaScript function that can use React hooks." â€” React Documentation
 
 ## Problem Addressed
 
@@ -39,8 +28,8 @@ Without custom hooks:
 
 ## Scope and Boundaries
 
-- Custom Hooks ≠ Higher-Order Components (HOCs)
-- Custom Hooks ≠ Render Props (different pattern for sharing logic)
+- Custom Hooks â‰  Higher-Order Components (HOCs)
+- Custom Hooks â‰  Render Props (different pattern for sharing logic)
 - Custom Hooks are **React-specific** (Vue uses Composables)
 
 ## When to Apply
@@ -54,9 +43,9 @@ Without custom hooks:
 
 | Cost | Description |
 |------|-------------|
-| **Abstraction** — Too many hooks add complexity |
-| **Naming** — Hook names should be clear |
-| **Testing** — Hooks need proper testing setup |
+| **Abstraction** â€” Too many hooks add complexity |
+| **Naming** â€” Hook names should be clear |
+| **Testing** â€” Hooks need proper testing setup |
 
 ## Common Misuses
 
@@ -66,16 +55,16 @@ Without custom hooks:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) — Custom hooks are a core pattern
-- [Component Composition](Architecture/atomic-design.md) — Hooks enable composition
-- [Pure Functions](Architecture/pure-functions.md) — Hook logic should be pure
+- [React Patterns](../React/react-patterns) â€” Custom hooks are a core pattern
+- [Component Composition](Architecture/atomic-design.md) â€” Hooks enable composition
+- [Pure Functions](Architecture/pure-functions.md) â€” Hook logic should be pure
 
 ## Project Observations
 
 - The project's React patterns note covers custom hooks
 - File naming conventions support hooks:
-  - `*.hook.ts` — Custom hook files
-  - `*.logic.ts` — Hook business logic
+  - `*.hook.ts` â€” Custom hook files
+  - `*.logic.ts` â€” Hook business logic
 - No evidence of custom hook violations in existing code
 
 ## Sources

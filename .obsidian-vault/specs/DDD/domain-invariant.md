@@ -1,9 +1,11 @@
+﻿---
+slug: domain-invariant
+---
+
 # Domain Invariant
 
 > **Purpose:** Enforce invariants with Domain Invariant.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `domain-invariant`
@@ -50,8 +52,6 @@ declared
 - business-rule
 - constraint
 - consistency-rule
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Domain Invariant does not apply to:
 
 ## Related Concepts
 
-- [[DDD/domain-invariant]] — Domain Invariant
-- [[DDD/business-rule]] — Business Rule
-- [[DDD/constraint]] — Constraint
-- [[DDD/consistency-rule]] — Consistency Rule
+- [[DDD/domain-invariant]] â€” Domain Invariant
+- [[DDD/business-rule]] â€” Business Rule
+- [[DDD/constraint]] â€” Constraint
+- [[DDD/consistency-rule]] â€” Consistency Rule
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Domain Invariants through:
 ## Sources
 
 - [[Sources/evans-ddd|Domain-Driven Design by Eric Evans]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Domain Invariant Note**

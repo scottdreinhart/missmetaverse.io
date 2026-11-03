@@ -1,9 +1,11 @@
+﻿---
+slug: ubiquitous-language
+---
+
 # Ubiquitous Language
 
 > **Purpose:** Shared language between domain experts and developers.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `ddd-ubiquitous-language`
@@ -53,11 +55,9 @@ declared
 - ddd-aggregate
 - arch-domain-driven-design
 
----
-
 ## Definition
 
-Ubiquitous Language is a strategic DDD pattern where developers and domain experts collaboratively create a precise, shared language that is used consistently throughout the project — in code, documentation, and conversations.
+Ubiquitous Language is a strategic DDD pattern where developers and domain experts collaboratively create a precise, shared language that is used consistently throughout the project â€” in code, documentation, and conversations.
 
 ## Problem Addressed
 
@@ -117,9 +117,9 @@ Ubiquitous language does not address:
 
 ## Related Concepts
 
-- [[DDD/bounded-context]] — Bounded Context
-- [[DDD/context-map]] — Context Map
-- [[Architecture/domain-driven-design]] — Domain-Driven Design
+- [[DDD/bounded-context]] â€” Bounded Context
+- [[DDD/context-map]] â€” Context Map
+- [[Architecture/domain-driven-design]] â€” Domain-Driven Design
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project uses TypeScript, which supports ubiquitous language through:
 
 ## Sources
 
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Ubiquitous Language Note**

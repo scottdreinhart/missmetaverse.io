@@ -1,34 +1,23 @@
----
+﻿---
 slug: bounded-context
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/BoundedContext.html
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
   - ddd
   - bounded-context
   - domain-modeling
   - architecture
----
-
+  - --
 # Bounded Context
 
 ## Definition
 
 Bounded Context is **a explicit boundary within which a domain model is valid and a ubiquitous language applies**.
 
-> "Each context map has a bounded context that defines the applicability of the model." — Eric Evans
+> "Each context map has a bounded context that defines the applicability of the model." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -40,7 +29,7 @@ Without bounded contexts:
 
 ## Scope and Boundaries
 
-- Bounded Context ≠ Context Map (bounded context is a single model, context map is the relationship between bounded contexts)
+- Bounded Context â‰  Context Map (bounded context is a single model, context map is the relationship between bounded contexts)
 - Bounded Context = Model (bounded context defines the boundary of a model)
 - Bounded Context is an **architectural boundary**, not a pattern
 
@@ -55,9 +44,9 @@ Without bounded contexts:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Bounded contexts add architectural complexity |
-| **Time** — Defining boundaries takes time |
-| **Over-bounded** — Don't create bounded contexts for simple domains |
+| **Complexity** â€” Bounded contexts add architectural complexity |
+| **Time** â€” Defining boundaries takes time |
+| **Over-bounded** â€” Don't create bounded contexts for simple domains |
 
 ## Common Misuses
 
@@ -67,9 +56,9 @@ Without bounded contexts:
 
 ## Related Concepts
 
-- [Ubiquitous Language](DDD/ubiquitous-language.md) — Each bounded context has its own ubiquitous language
-- [Context Map](DDD/context-map.md) — Context map defines relationships between bounded contexts
-- [Anti-Corruption Layer](DDD/anti-corruption-layer.md) — Anti-corruption layer protects a bounded context
+- [Ubiquitous Language](DDD/ubiquitous-language.md) â€” Each bounded context has its own ubiquitous language
+- [Context Map](DDD/context-map.md) â€” Context map defines relationships between bounded contexts
+- [Anti-Corruption Layer](DDD/anti-corruption-layer.md) â€” Anti-corruption layer protects a bounded context
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without bounded contexts:
   - TypeScript modules can serve as bounded context boundaries
   - No evidence of bounded contexts in existing code (src/ is empty)
 - File naming conventions support bounded contexts:
-  - `*.bounded-context.ts` — Bounded context files
-  - `*.use-case.ts` — Use case files
+  - `*.bounded-context.ts` â€” Bounded context files
+  - `*.use-case.ts` â€” Use case files
 
 ## Sources
 
@@ -123,7 +112,7 @@ graph TD
 ### Step 1: Identify Subdomains
 
 ```typescript
-// domains/user/user-context.ts — Core Subdomain
+// domains/user/user-context.ts â€” Core Subdomain
 export class UserContext {
   // Core business logic for user management
   async createUser(data: CreateUserInput): Promise<User> {
@@ -131,7 +120,7 @@ export class UserContext {
   }
 }
 
-// domains/order/order-context.ts — Core Subdomain
+// domains/order/order-context.ts â€” Core Subdomain
 export class OrderContext {
   // Core business logic for order management
   async createOrder(data: CreateOrderInput): Promise<Order> {
@@ -139,7 +128,7 @@ export class OrderContext {
   }
 }
 
-// domains/reporting/reporting-context.ts — Support Subdomain
+// domains/reporting/reporting-context.ts â€” Support Subdomain
 export class ReportingContext {
   // Support business logic for reporting
   async generateReport(type: ReportType): Promise<Report> {
@@ -187,7 +176,7 @@ export const contextMap: ContextMapping[] = [
 ### Step 3: Implement Anti-Corruption Layer
 
 ```typescript
-// contexts/user/ac-l.ts — Anti-Corruption Layer
+// contexts/user/ac-l.ts â€” Anti-Corruption Layer
 import { LegacyUserService } from '@/legacy/user-service'
 import { User } from '@/domains/user/user.entity'
 
@@ -222,7 +211,7 @@ export class UserAntiCorruptionLayer {
 ### Step 4: Define Integration Patterns
 
 ```typescript
-// events/user-events.ts — Published Language
+// events/user-events.ts â€” Published Language
 export class UserCreatedEvent {
   constructor(
     public readonly userId: string,
@@ -241,7 +230,7 @@ export class UserUpdatedEvent {
   ) {}
 }
 
-// handlers/order-handler.ts — Conformist Pattern
+// handlers/order-handler.ts â€” Conformist Pattern
 import { UserCreatedEvent } from '@/events/user-events'
 
 export class OrderUserHandler {
@@ -307,11 +296,11 @@ describe('UserAntiCorruptionLayer', () => {
 5. **Test boundaries**: Verify context isolation
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `vitest` — for testing bounded contexts
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `vitest` â€” for testing bounded contexts
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when defining new bounded contexts

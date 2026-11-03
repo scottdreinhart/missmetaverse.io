@@ -1,9 +1,11 @@
+﻿---
+slug: facade-pattern
+---
+
 # Facade Pattern
 
 > **Purpose:** Simplify complex systems with Facade Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `facade-pattern`
@@ -50,8 +52,6 @@ declared
 - api-gateway-pattern
 - mediator-pattern
 - adapter-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Facade does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/facade-pattern]] — Facade Pattern
-- [[Design Patterns/api-gateway-pattern]] — API Gateway Pattern
-- [[Design Patterns/mediator-pattern]] — Mediator Pattern
-- [[Design Patterns/adapter-pattern]] — Adapter Pattern
+- [[Design Patterns/facade-pattern]] â€” Facade Pattern
+- [[Design Patterns/api-gateway-pattern]] â€” API Gateway Pattern
+- [[Design Patterns/mediator-pattern]] â€” Mediator Pattern
+- [[Design Patterns/adapter-pattern]] â€” Adapter Pattern
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Facade Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Facade Pattern Note**

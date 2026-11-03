@@ -1,4 +1,4 @@
----
+﻿---
 slug: tailwind-docs-2024
 sources:
   - https://tailwindcss.com/docs
@@ -6,15 +6,6 @@ sources:
 
 ---
 tags:
-
-
-
-
-
-
-
-
-
   - tailwind
   - css
   - utility-first

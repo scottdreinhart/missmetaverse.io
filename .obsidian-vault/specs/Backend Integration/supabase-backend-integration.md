@@ -1,9 +1,11 @@
+﻿---
+slug: supabase-backend-integration
+---
+
 # Supabase Backend Integration
 
 > **Purpose:** Integrate Supabase for backend services.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `supabase-backend-integration`
@@ -50,8 +52,6 @@ declared
 - supabase-database
 - supabase-storage
 - supabase-realtime
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Supabase does not apply to:
 
 ## Related Concepts
 
-- [[Supabase/supabase-authentication]] — Supabase Authentication
-- [[Supabase/supabase-database]] — Supabase Database
-- [[Supabase/supabase-storage]] — Supabase Storage
-- [[Supabase/supabase-realtime]] — Supabase Realtime
+- [[Supabase/supabase-authentication]] â€” Supabase Authentication
+- [[Supabase/supabase-database]] â€” Supabase Database
+- [[Supabase/supabase-storage]] â€” Supabase Storage
+- [[Supabase/supabase-realtime]] â€” Supabase Realtime
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Supabase through:
 ## Sources
 
 - [[Sources/supabase-documentation|Supabase Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Supabase Backend Integration Note**

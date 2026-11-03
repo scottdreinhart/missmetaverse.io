@@ -1,9 +1,11 @@
+﻿---
+slug: aggregate-root
+---
+
 # Aggregate Root
 
 > **Purpose:** Model aggregates with Aggregate Root.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `aggregate-root`
@@ -50,8 +52,6 @@ declared
 - ar
 - aggregate-root-entity
 - root-entity
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Aggregate Root does not apply to:
 
 ## Related Concepts
 
-- [[DDD/aggregate-root]] — Aggregate Root
-- [[DDD/ar]] — AR
-- [[DDD/aggregate-root-entity]] — Aggregate Root Entity
-- [[DDD/root-entity]] — Root Entity
+- [[DDD/aggregate-root]] â€” Aggregate Root
+- [[DDD/ar]] â€” AR
+- [[DDD/aggregate-root-entity]] â€” Aggregate Root Entity
+- [[DDD/root-entity]] â€” Root Entity
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Aggregate Root through:
 ## Sources
 
 - [[Sources/evans-ddd|Domain-Driven Design by Eric Evans]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Aggregate Root Note**

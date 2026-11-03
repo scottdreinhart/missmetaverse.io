@@ -1,9 +1,11 @@
+﻿---
+slug: interface-segregation-principle
+---
+
 # Interface Segregation Principle
 
 > **Purpose:** Many client-specific interfaces are better than one general-purpose interface.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-interface-segregation`
@@ -51,8 +53,6 @@ declared
 - arch-low-coupling
 - arch-high-cohesion
 - arch-separation-of-concerns
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ ISP does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/dependency-inversion-principle]] — Dependency Inversion Principle
-- [[Architecture/low-coupling]] — Low Coupling
-- [[Architecture/high-cohesion]] — High Cohesion
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion Principle
+- [[Architecture/low-coupling]] â€” Low Coupling
+- [[Architecture/high-cohesion]] â€” High Cohesion
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses TypeScript, which supports ISP through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Interface Segregation Principle Note**

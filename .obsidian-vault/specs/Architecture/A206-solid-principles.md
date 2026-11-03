@@ -1,4 +1,4 @@
----
+﻿---
 slug: solid-principles
 sources:
   - https://en.wikipedia.org/wiki/SOLID
@@ -7,25 +7,12 @@ sources:
   - https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - solid
   - principles
   - design
   - oop
   - typescript
----
-
+  - --
 # SOLID Principles
 
 ## Overview
@@ -47,7 +34,7 @@ Responsibility = reason to change. If you can think of more than one reason to c
 ### TypeScript Example
 
 ```typescript
-// ❌ VIOLATION: Multiple reasons to change
+// âŒ VIOLATION: Multiple reasons to change
 class UserService {
   createUser(name: string, email: string) { /* ... */ }
   sendWelcomeEmail(user: User) { /* ... */ }  // Changes when email format changes
@@ -55,7 +42,7 @@ class UserService {
   validateEmail(email: string) { /* ... */ }    // Changes when validation rules change
 }
 
-// ✅ SRP: Each class has one reason to change
+// âœ… SRP: Each class has one reason to change
 class UserService {
   constructor(
     private emailService: EmailService,
@@ -105,7 +92,7 @@ Add new behavior through stable extension points (interfaces, abstract classes, 
 ### TypeScript Example
 
 ```typescript
-// ❌ VIOLATION: Modifying existing code for new types
+// âŒ VIOLATION: Modifying existing code for new types
 class PriceCalculator {
   calculatePrice(item: any): number {
     if (item.type === 'book') {
@@ -119,7 +106,7 @@ class PriceCalculator {
   }
 }
 
-// ✅ OCP: Extension through interfaces
+// âœ… OCP: Extension through interfaces
 interface PriceStrategy {
   calculate(item: Item): number
 }
@@ -185,7 +172,7 @@ If `S` is a subtype of `T`, then objects of type `T` should be replaceable with 
 ### TypeScript Example
 
 ```typescript
-// ❌ VIOLATION: Subtype breaks base contract
+// âŒ VIOLATION: Subtype breaks base contract
 interface Bird {
   fly(): void
   swim(): void
@@ -201,7 +188,7 @@ class Ostrich implements Bird {
   swim() { throw new Error('Cannot swim') }
 }
 
-// ✅ LSP: Split interfaces, honor contracts
+// âœ… LSP: Split interfaces, honor contracts
 interface Flyable {
   fly(): void
 }
@@ -249,7 +236,7 @@ Fat interfaces create unnecessary coupling. Split them into smaller, role-specif
 ### TypeScript Example
 
 ```typescript
-// ❌ VIOLATION: Fat interface
+// âŒ VIOLATION: Fat interface
 interface Worker {
   work(): void
   eat(): void
@@ -269,7 +256,7 @@ class Robot implements Worker {
   manage() { throw new Error('Robots can\'t manage') }
 }
 
-// ✅ ISP: Segregated interfaces
+// âœ… ISP: Segregated interfaces
 interface Workable {
   work(): void
 }
@@ -337,7 +324,7 @@ High-level policy depends on **abstractions**; implementation details satisfy th
 ### TypeScript Example
 
 ```typescript
-// ❌ VIOLATION: High-level depends on low-level
+// âŒ VIOLATION: High-level depends on low-level
 class OrderService {
   private db: PostgreSQLDatabase  // Direct dependency on concrete class
 
@@ -346,7 +333,7 @@ class OrderService {
   }
 }
 
-// ✅ DIP: Depend on abstractions
+// âœ… DIP: Depend on abstractions
 interface Database {
   insert(table: string, data: unknown): Promise<void>
   query(sql: string): Promise<unknown[]>
@@ -378,24 +365,24 @@ const service2 = new OrderService(new MongoDB())
 ### Dependency Flow
 
 ```
-┌─────────────────────────────────────────┐
-│  High-Level Policy (OrderService)       │
-│ ┌───────────────────────────────────┐   │
-│ │  depends on abstraction           │   │
-│ │  ┌─────────────────────────────┐  │   │
-│ │  │  Database (interface)       │  │   │
-│ │  │  - insert()                 │  │   │
-│ │  │  - query()                  │  │   │
-│ │  └─────────────┬───────────────┘  │   │
-│ └────────────────┼──────────────────┘   │
-│                  │ depends on           │
-│                  ▼                      │
-│   Low-Level Details                     │
-│ ┌────────────────────┐ ┌──────────────┐ │
-│ │ PostgreSQL         │ │ MongoDB      │ │
-│ │ Database implements│ │ implements   │ │
-│ └────────────────────┘ └──────────────┘ │
-└─────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  High-Level Policy (OrderService)       â”‚
+â”‚ â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”   â”‚
+â”‚ â”‚  depends on abstraction           â”‚   â”‚
+â”‚ â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”  â”‚   â”‚
+â”‚ â”‚  â”‚  Database (interface)       â”‚  â”‚   â”‚
+â”‚ â”‚  â”‚  - insert()                 â”‚  â”‚   â”‚
+â”‚ â”‚  â”‚  - query()                  â”‚  â”‚   â”‚
+â”‚ â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜  â”‚   â”‚
+â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜   â”‚
+â”‚                  â”‚ depends on           â”‚
+â”‚                  â–¼                      â”‚
+â”‚   Low-Level Details                     â”‚
+â”‚ â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â” â”‚
+â”‚ â”‚ PostgreSQL         â”‚ â”‚ MongoDB      â”‚ â”‚
+â”‚ â”‚ Database implementsâ”‚ â”‚ implements   â”‚ â”‚
+â”‚ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜ â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
@@ -403,21 +390,21 @@ const service2 = new OrderService(new MongoDB())
 ## SOLID Integration Map
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    SOLID PRINCIPLES                         │
-│                                                             │
-│  SRP ──► One reason to change ──► Small, focused modules    │
-│  OCP ──► Extension over modification ──► Interfaces, plugins│
-│  LSP ──► Subtypes honor contracts ──► No forced behavior    │
-│  ISP ──► Focused interfaces ──► Role-specific abstractions  │
-│  DIP ──► Depend on abstractions ──► Dependency injection    │
-│                                                             │
-│  Together they produce:                                     │
-│  • Testable code (each unit has one responsibility)         │
-│  • Extensible code (add features without breaking existing) │
-│  • Maintainable code (changes are localized)                │
-│  • Flexible code (swap implementations easily)              │
-└─────────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                    SOLID PRINCIPLES                         â”‚
+â”‚                                                             â”‚
+â”‚  SRP â”€â”€â–º One reason to change â”€â”€â–º Small, focused modules    â”‚
+â”‚  OCP â”€â”€â–º Extension over modification â”€â”€â–º Interfaces, pluginsâ”‚
+â”‚  LSP â”€â”€â–º Subtypes honor contracts â”€â”€â–º No forced behavior    â”‚
+â”‚  ISP â”€â”€â–º Focused interfaces â”€â”€â–º Role-specific abstractions  â”‚
+â”‚  DIP â”€â”€â–º Depend on abstractions â”€â”€â–º Dependency injection    â”‚
+â”‚                                                             â”‚
+â”‚  Together they produce:                                     â”‚
+â”‚  â€¢ Testable code (each unit has one responsibility)         â”‚
+â”‚  â€¢ Extensible code (add features without breaking existing) â”‚
+â”‚  â€¢ Maintainable code (changes are localized)                â”‚
+â”‚  â€¢ Flexible code (swap implementations easily)              â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
@@ -455,17 +442,17 @@ const service2 = new OrderService(new MongoDB())
 
 ### What to Do With This Information
 1. **SRP**: Before creating a class, ask "does this have one reason to change?" If no, split it
-2. **OCP**: When adding new behavior, extend through interfaces — don't modify existing code
+2. **OCP**: When adding new behavior, extend through interfaces â€” don't modify existing code
 3. **LSP**: When creating subtypes, verify they can be substituted for their base type
-4. **ISP**: When creating interfaces, split them by role — no client should depend on unused methods
+4. **ISP**: When creating interfaces, split them by role â€” no client should depend on unused methods
 5. **DIP**: Always depend on abstractions (interfaces), never on concrete implementations
 
 ### Tools to Use
-- **VS Code Extension**: ESLint with `@typescript-eslint` — for detecting code smells
-- **VS Code Extension**: Error Lens — for inline violation detection
-- **npm Package**: `eslint-plugin-simple-import-sort` — for import organization
-- **Terminal Command**: `pnpm tsc --noEmit` — verify type safety after refactoring
-- **Terminal Command**: `pnpm test` — verify refactoring didn't break tests
+- **VS Code Extension**: ESLint with `@typescript-eslint` â€” for detecting code smells
+- **VS Code Extension**: Error Lens â€” for inline violation detection
+- **npm Package**: `eslint-plugin-simple-import-sort` â€” for import organization
+- **Terminal Command**: `pnpm tsc --noEmit` â€” verify type safety after refactoring
+- **Terminal Command**: `pnpm test` â€” verify refactoring didn't break tests
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing PRs for SOLID compliance
@@ -478,8 +465,8 @@ const service2 = new OrderService(new MongoDB())
 - Read [[coding-practices]] for SOLID in daily coding
 
 ### Common Pitfalls
-- Don't create interfaces just to satisfy DIP — only when there are multiple implementations
-- Don't over-segregate interfaces (ISP) — keep related methods together
+- Don't create interfaces just to satisfy DIP â€” only when there are multiple implementations
+- Don't over-segregate interfaces (ISP) â€” keep related methods together
 - Don't use inheritance when composition would work (prefer composition over inheritance)
 - Don't create abstractions for single-use cases (DIP is for polymorphism, not indirection)
 - Don't violate LSP to save boilerplate (subtypes must honor contracts)

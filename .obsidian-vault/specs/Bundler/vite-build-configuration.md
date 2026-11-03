@@ -1,9 +1,11 @@
+﻿---
+slug: vite-build-configuration
+---
+
 # Vite Build Configuration
 
 > **Purpose:** Configure Vite for fast development and production builds.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `vite-build-configuration`
@@ -49,8 +51,6 @@ declared
 - bundler-vite-plugins
 - bundler-build-optimization
 - bundler-development-server
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Vite configuration does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/vite-configuration]] — Vite Configuration
-- [[Bundler/vite-plugins]] — Vite Plugins
-- [[Bundler/build-optimization]] — Build Optimization
-- [[Bundler/development-server]] — Development Server
+- [[Architecture/vite-configuration]] â€” Vite Configuration
+- [[Bundler/vite-plugins]] â€” Vite Plugins
+- [[Bundler/build-optimization]] â€” Build Optimization
+- [[Bundler/development-server]] â€” Development Server
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Vite through:
 ## Sources
 
 - [[Sources/vite-documentation|Vite Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Vite Build Configuration Note**

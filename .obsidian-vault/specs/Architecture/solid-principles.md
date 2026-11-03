@@ -1,9 +1,11 @@
+﻿---
+slug: solid-principles
+---
+
 # SOLID Principles
 
 > **Purpose:** Foundational OOP design principles for maintainable code.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-solid-principles`
@@ -54,24 +56,22 @@ declared
 - arch-dry
 - arch-separation-of-concerns
 
----
-
 ## Definition
 
 SOLID is an acronym for five design principles that, when combined, make it easier to create maintainable, extensible, and understandable object-oriented software systems.
 
-1. **Single Responsibility Principle (SRP)** — A class should have one, and only one, reason to change.
-2. **Open/Closed Principle (OCP)** — Software entities should be open for extension but closed for modification.
-3. **Liskov Substitution Principle (LSP)** — Objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
-4. **Interface Segregation Principle (ISP)** — Many client-specific interfaces are better than one general-purpose interface.
-5. **Dependency Inversion Principle (DIP)** — Depend upon abstractions, not concretions.
+1. **Single Responsibility Principle (SRP)** â€” A class should have one, and only one, reason to change.
+2. **Open/Closed Principle (OCP)** â€” Software entities should be open for extension but closed for modification.
+3. **Liskov Substitution Principle (LSP)** â€” Objects of a superclass shall be replaceable with objects of its subclasses without breaking the application.
+4. **Interface Segregation Principle (ISP)** â€” Many client-specific interfaces are better than one general-purpose interface.
+5. **Dependency Inversion Principle (DIP)** â€” Depend upon abstractions, not concretions.
 
 ## Problem Addressed
 
 Without these principles, code tends to become:
 - Tightly coupled and difficult to test
 - Rigid and resistant to change
-- Fragile — changes in one place break unrelated code
+- Fragile â€” changes in one place break unrelated code
 - Difficult to understand and maintain
 - Prone to duplication
 
@@ -140,11 +140,11 @@ SOLID applies to object-oriented design and class-level architecture. It does no
 
 ## Related Concepts
 
-- [[Architecture/dry]] — DRY principle
-- [[Architecture/separation-of-concerns]] — Separation of Concerns
-- [[Architecture/encapsulation]] — Encapsulation
-- [[Architecture/dependency-injection]] — Dependency Injection
-- [[Architecture/composition-over-inheritance]] — Composition over Inheritance
+- [[Architecture/dry]] â€” DRY principle
+- [[Architecture/separation-of-concerns]] â€” Separation of Concerns
+- [[Architecture/encapsulation]] â€” Encapsulation
+- [[Architecture/dependency-injection]] â€” Dependency Injection
+- [[Architecture/composition-over-inheritance]] â€” Composition over Inheritance
 
 ## Project Observations
 
@@ -156,9 +156,7 @@ The project uses TypeScript, which supports all SOLID principles through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of SOLID Principles Note**

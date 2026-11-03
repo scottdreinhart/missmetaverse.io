@@ -1,9 +1,11 @@
+﻿---
+slug: retry-backoff-jitter
+---
+
 # Retry with Backoff and Jitter
 
 > **Purpose:** Handle transient failures with Retry Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `retry-backoff-jitter`
@@ -50,8 +52,6 @@ declared
 - exponential-backoff
 - jitter-pattern
 - circuit-breaker
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Retry does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/retry-pattern]] — Retry Pattern
-- [[APIs Distributed Systems/exponential-backoff]] — Exponential Backoff
-- [[APIs Distributed Systems/jitter-pattern]] — Jitter Pattern
-- [[APIs Distributed Systems/circuit-breaker]] — Circuit Breaker
+- [[APIs Distributed Systems/retry-pattern]] â€” Retry Pattern
+- [[APIs Distributed Systems/exponential-backoff]] â€” Exponential Backoff
+- [[APIs Distributed Systems/jitter-pattern]] â€” Jitter Pattern
+- [[APIs Distributed Systems/circuit-breaker]] â€” Circuit Breaker
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Retry with Backoff and Jitter through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of Retry with Backoff and Jitter Note**

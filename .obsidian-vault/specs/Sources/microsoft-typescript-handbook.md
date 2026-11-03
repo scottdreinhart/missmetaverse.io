@@ -1,4 +1,4 @@
----
+﻿---
 slug: microsoft-typescript-handbook
 sources:
   - https://learn.microsoft.com/
@@ -6,14 +6,6 @@ sources:
 
 ---
 tags:
-
-
-
-
-
-
-
-
   - typescript
   - microsoft
   - typing

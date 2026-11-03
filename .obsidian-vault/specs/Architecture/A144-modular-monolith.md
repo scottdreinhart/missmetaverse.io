@@ -1,35 +1,23 @@
----
+﻿---
 slug: modular-monolith
 sources:
   - https://martinfowler.com/bliki/ModularMonolith.html
   - https://www.infoq.com/articles/modular-monolith/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
   - modular-monolith
   - architecture
   - monolith
   - microservices
----
-
+  - --
 # Modular Monolith
 
 ## Definition
 
 A Modular Monolith is a **single deployed application that maintains explicit internal module boundaries**. It combines the simplicity of a monolith with the organizational benefits of modular design.
 
-> "A modular monolith is a single deployment unit with well-defined module boundaries." — Martin Fowler
+> "A modular monolith is a single deployment unit with well-defined module boundaries." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -40,7 +28,7 @@ Monoliths without modules lead to:
 
 ## Scope and Boundaries
 
-- Modular Monolith ≠ Microservices (single deployment unit)
+- Modular Monolith â‰  Microservices (single deployment unit)
 - Modules are **logical boundaries**, not physical deployments
 - Modules can evolve into microservices later if needed
 
@@ -55,9 +43,9 @@ Monoliths without modules lead to:
 
 | Cost | Description |
 |------|-------------|
-| **Single deployment** — Can't scale modules independently |
-| **Shared database** — Modules share the same data layer |
-| **Single point of failure** — All modules go down together |
+| **Single deployment** â€” Can't scale modules independently |
+| **Shared database** â€” Modules share the same data layer |
+| **Single point of failure** â€” All modules go down together |
 
 ## Common Misuses
 
@@ -67,9 +55,9 @@ Monoliths without modules lead to:
 
 ## Related Concepts
 
-- [Microservices](Architecture/architecture-patterns.md) — Alternative for scaling
-- [Clean Architecture](Architecture/clean-architecture.md) — Module boundaries
-- [DDD Patterns](Architecture/ddd-patterns.md) — Module design
+- [Microservices](Architecture/architecture-patterns.md) â€” Alternative for scaling
+- [Clean Architecture](Architecture/clean-architecture.md) â€” Module boundaries
+- [DDD Patterns](Architecture/ddd-patterns.md) â€” Module design
 
 ## Project Observations
 
@@ -130,11 +118,11 @@ mkdir -p src/modules/{users,orders,payments,notifications}
 ```bash
 # Each module has its own structure
 src/modules/users/
-├── users.controller.ts
-├── users.service.ts
-├── users.repository.ts
-├── users.types.ts
-└── users.test.ts
+â”œâ”€â”€ users.controller.ts
+â”œâ”€â”€ users.service.ts
+â”œâ”€â”€ users.repository.ts
+â”œâ”€â”€ users.types.ts
+â””â”€â”€ users.test.ts
 ```
 
 ### Step 3: Configure Module Imports
@@ -192,12 +180,12 @@ pnpm test modules/orders/
 2. **Define clear module boundaries** before writing code
 3. **Enforce boundaries** with ESLint rules
 4. **Test modules independently**
-5. **Don't create microservices prematurely** — modules can evolve later
+5. **Don't create microservices prematurely** â€” modules can evolve later
 
 ### Tools to Use
-- **VS Code Extension**: ESLint — for enforcing module boundaries
-- **npm Package**: `eslint-plugin-no-restricted-imports` — for cross-module import prevention
-- **Terminal Command**: `pnpm add -D eslint-plugin-no-restricted-imports` — install boundary enforcement
+- **VS Code Extension**: ESLint â€” for enforcing module boundaries
+- **npm Package**: `eslint-plugin-no-restricted-imports` â€” for cross-module import prevention
+- **Terminal Command**: `pnpm add -D eslint-plugin-no-restricted-imports` â€” install boundary enforcement
 
 ### Integration with Other Notes
 - Read [microservices](https://martinfowler.com/microservices.html) for when to consider microservices

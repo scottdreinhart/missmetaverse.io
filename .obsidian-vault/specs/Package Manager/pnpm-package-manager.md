@@ -1,9 +1,11 @@
+﻿---
+slug: pnpm-package-manager
+---
+
 # pnpm Package Manager
 
 > **Purpose:** Manage dependencies with pnpm.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `pnpm-package-manager`
@@ -50,8 +52,6 @@ declared
 - pnpm-workspace
 - npm-package-manager
 - yarn-package-manager
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ pnpm does not apply to:
 
 ## Related Concepts
 
-- [[Package Manager/pnpm-best-practices]] — pnpm Best Practices
-- [[Package Manager/pnpm-workspace]] — pnpm Workspace
-- [[Package Manager/npm-package-manager]] — npm Package Manager
-- [[Package Manager/yarn-package-manager]] — yarn Package Manager
+- [[Package Manager/pnpm-best-practices]] â€” pnpm Best Practices
+- [[Package Manager/pnpm-workspace]] â€” pnpm Workspace
+- [[Package Manager/npm-package-manager]] â€” npm Package Manager
+- [[Package Manager/yarn-package-manager]] â€” yarn Package Manager
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses pnpm through:
 ## Sources
 
 - [[Sources/pnpm-documentation|pnpm Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of pnpm Package Manager Note**

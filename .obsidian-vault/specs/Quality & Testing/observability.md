@@ -1,9 +1,11 @@
+﻿---
+slug: observability
+---
+
 # Observability
 
 > **Purpose:** Make system behavior visible through logs, metrics, and traces.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-observability`
@@ -49,8 +51,6 @@ declared
 - testing-slo
 - testing-architecture-fitness
 - arch-quality-gate
-
----
 
 ## Definition
 
@@ -117,9 +117,9 @@ Observability does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/continuous-integration]] — Continuous Integration
-- [[Quality & Testing/service-level-objectives]] — Service-Level Objectives
-- [[Quality & Testing/architecture-fitness-functions]] — Architecture Fitness Functions
+- [[Quality & Testing/continuous-integration]] â€” Continuous Integration
+- [[Quality & Testing/service-level-objectives]] â€” Service-Level Objectives
+- [[Quality & Testing/architecture-fitness-functions]] â€” Architecture Fitness Functions
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project follows observability through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Observability Note**

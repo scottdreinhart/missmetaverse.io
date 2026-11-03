@@ -1,32 +1,22 @@
----
+﻿---
 slug: factory-ddd-pattern
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/Factory.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - ddd
   - factory
   - domain-modeling
   - object-creation
----
-
+  - --
 # Factory (DDD)
 
 ## Definition
 
 Factory (DDD) is **an object or method responsible for creating domain objects, encapsulating creation logic and ensuring objects are created in valid states**.
 
-> "A factory is an operation that creates a new domain object, ensuring it is created in a valid state." — Eric Evans
+> "A factory is an operation that creates a new domain object, ensuring it is created in a valid state." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without factories:
 
 ## Scope and Boundaries
 
-- Factory ≠ Constructor (factory is a separate method/class, constructor is built-in)
+- Factory â‰  Constructor (factory is a separate method/class, constructor is built-in)
 - Factory = Creation (factory encapsulates object creation logic)
 - Factory is a **domain model building block**, not a pattern
 
@@ -53,9 +43,9 @@ Without factories:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Factories add an abstraction layer |
-| **Time** — Implementing factories takes time |
-| **Over-factory** — Simple objects may not need a factory |
+| **Complexity** â€” Factories add an abstraction layer |
+| **Time** â€” Implementing factories takes time |
+| **Over-factory** â€” Simple objects may not need a factory |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without factories:
 
 ## Related Concepts
 
-- [Aggregate Root](DDD/aggregate-root.md) — Aggregate roots often contain factory methods
-- [Value Object](DDD/value-object.md) — Value objects may need factories for creation
-- [Domain Invariant](DDD/domain-invariant.md) — Factories ensure objects are created in valid states
+- [Aggregate Root](DDD/aggregate-root.md) â€” Aggregate roots often contain factory methods
+- [Value Object](DDD/value-object.md) â€” Value objects may need factories for creation
+- [Domain Invariant](DDD/domain-invariant.md) â€” Factories ensure objects are created in valid states
 
 ## Project Observations
 
@@ -76,8 +66,8 @@ Without factories:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of factories in existing code (src/ is empty)
 - File naming conventions support factories:
-  - `*.factory.ts` — Factory files
-  - `*.entity.ts` — Entity files
+  - `*.factory.ts` â€” Factory files
+  - `*.entity.ts` â€” Entity files
 
 ## Sources
 
@@ -135,7 +125,7 @@ export class User {
     this.createdAt = new Date()
   }
 
-  // ✅ Factory method — validates and creates
+  // âœ… Factory method â€” validates and creates
   static create(email: string, name: string): User {
     // Validate email
     const emailVO = Email.create(email)
@@ -147,7 +137,7 @@ export class User {
     return new User(crypto.randomUUID(), emailVO, nameVO, new Date())
   }
 
-  // ✅ Alternative factory method
+  // âœ… Alternative factory method
   static createWithId(id: string, email: string, name: string): User {
     const emailVO = Email.create(email)
     const nameVO = UserName.create(name)
@@ -327,11 +317,11 @@ interface OrderItem {
 5. **Encapsulate creation**: Hide creation complexity
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `zod` — for validation schemas
-- **npm Package**: `class-validator` — for decorator-based validation
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `zod` â€” for validation schemas
+- **npm Package**: `class-validator` â€” for decorator-based validation
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **DDD Review Agent**: Run when designing factories

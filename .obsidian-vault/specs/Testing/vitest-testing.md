@@ -1,9 +1,11 @@
+﻿---
+slug: vitest-testing
+---
+
 # Vitest Testing
 
 > **Purpose:** Unit testing with Vitest.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `vitest-testing`
@@ -49,8 +51,6 @@ declared
 - testing-bdd
 - testing-property-based
 - testing-mutation
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Vitest does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/test-driven-development]] — Test-Driven Development
-- [[Quality & Testing/behavior-driven-development]] — Behavior-Driven Development
-- [[Quality & Testing/property-based-testing]] — Property-Based Testing
-- [[Quality & Testing/mutation-testing]] — Mutation Testing
+- [[Quality & Testing/test-driven-development]] â€” Test-Driven Development
+- [[Quality & Testing/behavior-driven-development]] â€” Behavior-Driven Development
+- [[Quality & Testing/property-based-testing]] â€” Property-Based Testing
+- [[Quality & Testing/mutation-testing]] â€” Mutation Testing
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Vitest through:
 ## Sources
 
 - [[Sources/vitest-documentation|Vitest Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Vitest Testing Note**

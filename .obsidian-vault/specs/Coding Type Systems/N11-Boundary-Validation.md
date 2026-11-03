@@ -1,35 +1,22 @@
----
+﻿---
 slug: boundary-validation
 sources:
   - https://www.typescriptlang.org/
   - https://zod.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - boundary-validation
   - typescript
   - type-system
   - patterns
----
-
+  - --
 # Boundary Validation
 
 ## Definition
 
 Boundary Validation is **a TypeScript pattern for validating data at system boundaries (APIs, databases, external services) using runtime type checking**.
 
-> "Boundary validation ensures that data entering or leaving the system is validated at the boundary using runtime type checking." — Zod Docs
+> "Boundary validation ensures that data entering or leaving the system is validated at the boundary using runtime type checking." â€” Zod Docs
 
 ## Problem Addressed
 
@@ -41,7 +28,7 @@ Without boundary validation:
 
 ## Scope and Boundaries
 
-- Boundary Validation ≠ Input Validation (boundary validation is at system boundaries, input validation is at user input)
+- Boundary Validation â‰  Input Validation (boundary validation is at system boundaries, input validation is at user input)
 - Boundary Validation = Protection (boundary validation protects the system)
 - Boundary Validation is a **TypeScript pattern**, not a design pattern
 
@@ -56,8 +43,8 @@ Without boundary validation:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Boundary validation adds boilerplate |
-| **Time** — Implementing boundary validation takes time |
+| **Complexity** â€” Boundary validation adds boilerplate |
+| **Time** â€” Implementing boundary validation takes time |
 | **Over-validation**: Not every boundary needs validation |
 
 ## Common Misuses
@@ -68,9 +55,9 @@ Without boundary validation:
 
 ## Related Concepts
 
-- [Input Validation](Security/input-validation.md) — Input validation is a form of boundary validation
-- [Parse Don't Validate](Architecture/parse-dont-validate.md) — Parse don't validate is related to boundary validation
-- [Zod Patterns](Architecture/zod-patterns.md) — Zod enables boundary validation
+- [Input Validation](Security/input-validation.md) â€” Input validation is a form of boundary validation
+- [Parse Don't Validate](Architecture/parse-dont-validate.md) â€” Parse don't validate is related to boundary validation
+- [Zod Patterns](Architecture/zod-patterns.md) â€” Zod enables boundary validation
 
 ## Project Observations
 
@@ -80,8 +67,8 @@ Without boundary validation:
   - The project's architecture patterns note covers TypeScript concepts
   - No evidence of boundary validation in existing code (src/ is empty)
 - File naming conventions support boundary validation:
-  - `*.schema.ts` — Schema files
-  - `*.guard.ts` — Guard files
+  - `*.schema.ts` â€” Schema files
+  - `*.guard.ts` â€” Guard files
 
 ## Sources
 

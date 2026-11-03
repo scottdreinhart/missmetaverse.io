@@ -1,31 +1,22 @@
----
+﻿---
 slug: port-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.port.ts
 
 ## Definition
 
 `*.port.ts` is **a file naming convention for TypeScript files that contain port interfaces (hexagonal architecture) defining boundaries between internal and external systems**.
 
-> "The *.port.ts convention identifies TypeScript files that contain port interfaces for hexagonal architecture." — TypeScript Docs
+> "The *.port.ts convention identifies TypeScript files that contain port interfaces for hexagonal architecture." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.port.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.port.ts` ≠ `*.adapter.ts` (`*.port.ts` is for interfaces, `*.adapter.ts` is for implementations)
+- `*.port.ts` â‰  `*.adapter.ts` (`*.port.ts` is for interfaces, `*.adapter.ts` is for implementations)
 - `*.port.ts` = Ports (`*.port.ts` is for port interfaces)
 - `*.port.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.port.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every port needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.port.ts` convention:
 
 ## Related Concepts
 
-- [Hexagonal Architecture](Architecture/hexagonal-architecture.md) — Hexagonal architecture uses ports
-- [Adapter File Convention](Project File Conventions/adapter-file-convention.md) — Adapter file convention implements ports
-- [Dependency Injection](Architecture/dependency-injection.md) — Dependency injection uses ports
+- [Hexagonal Architecture](Architecture/hexagonal-architecture.md) â€” Hexagonal architecture uses ports
+- [Adapter File Convention](Project File Conventions/adapter-file-convention.md) â€” Adapter file convention implements ports
+- [Dependency Injection](Architecture/dependency-injection.md) â€” Dependency injection uses ports
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.port.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.port.ts` in existing code (src/ is empty)
 - File naming conventions support `*.port.ts`:
-  - `*.port.ts` — Port files
-  - `*.adapter.ts` — Adapter files
+  - `*.port.ts` â€” Port files
+  - `*.adapter.ts` â€” Adapter files
 
 ## Sources
 

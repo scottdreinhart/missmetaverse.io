@@ -1,9 +1,11 @@
+﻿---
+slug: explicit-error-modeling
+---
+
 # Explicit Error Modeling
 
 > **Purpose:** Represent errors as types, not exceptions.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-explicit-error-modeling`
@@ -52,8 +54,6 @@ declared
 - coding-explicit-over-implicit
 - arch-fail-fast
 - arch-command-query-separation
-
----
 
 ## Definition
 
@@ -120,10 +120,10 @@ Explicit error modeling does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Coding Type Systems/parse-dont-validate]] — Parse, Don't Merely Validate
-- [[Architecture/fail-fast]] — Fail Fast
-- [[Architecture/command-query-separation]] — Command-Query Separation
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Coding Type Systems/parse-dont-validate]] â€” Parse, Don't Merely Validate
+- [[Architecture/fail-fast]] â€” Fail Fast
+- [[Architecture/command-query-separation]] â€” Command-Query Separation
 
 ## Project Observations
 
@@ -135,9 +135,7 @@ The project uses TypeScript, which supports explicit error modeling through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Explicit Error Modeling Note**

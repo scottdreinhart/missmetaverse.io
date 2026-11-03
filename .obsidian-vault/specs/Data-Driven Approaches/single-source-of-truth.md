@@ -1,9 +1,11 @@
+﻿---
+slug: single-source-of-truth
+---
+
 # Single Source of Truth
 
 > **Purpose:** Ensure data exists in only one place.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `data-driven-single-source`
@@ -51,8 +53,6 @@ declared
 - data-driven-schema-driven
 - arch-dry
 - arch-high-cohesion
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ Single source of truth does not apply to:
 
 ## Related Concepts
 
-- [[Data-Driven Approaches/data-driven-design]] — Data-Driven Design
-- [[Data-Driven Approaches/configuration-driven-development]] — Configuration-Driven Development
-- [[Data-Driven Approaches/schema-driven-development]] — Schema-Driven Development
-- [[Architecture/dry]] — DRY Principle
+- [[Data-Driven Approaches/data-driven-design]] â€” Data-Driven Design
+- [[Data-Driven Approaches/configuration-driven-development]] â€” Configuration-Driven Development
+- [[Data-Driven Approaches/schema-driven-development]] â€” Schema-Driven Development
+- [[Architecture/dry]] â€” DRY Principle
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project follows single source of truth through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Single Source of Truth Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: docker-containerization
+---
+
 # Docker Containerization
 
 > **Purpose:** Containerize applications with Docker.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `docker-containerization`
@@ -50,8 +52,6 @@ declared
 - docker-compose
 - dockerfile-optimization
 - container-orchestration
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Docker does not apply to:
 
 ## Related Concepts
 
-- [[DevOps & Deployment/docker-containerization]] — Docker Containerization
-- [[DevOps & Deployment/docker-compose]] — Docker Compose
-- [[DevOps & Deployment/dockerfile-optimization]] — Dockerfile Optimization
-- [[DevOps & Deployment/container-orchestration]] — Container Orchestration
+- [[DevOps & Deployment/docker-containerization]] â€” Docker Containerization
+- [[DevOps & Deployment/docker-compose]] â€” Docker Compose
+- [[DevOps & Deployment/dockerfile-optimization]] â€” Dockerfile Optimization
+- [[DevOps & Deployment/container-orchestration]] â€” Container Orchestration
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Docker through:
 ## Sources
 
 - [[Sources/docker-documentation|Docker Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Docker Containerization Note**

@@ -1,4 +1,4 @@
----
+﻿---
 slug: vite-configuration
 sources:
   - https://vitejs.dev/guide/
@@ -6,18 +6,6 @@ sources:
   - https://vitejs.dev/guide/features.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - vite
   - bundler
   - configuration
@@ -26,8 +14,7 @@ tags:
   - ssr
   - library-mode
   - environment-variables
----
-
+  - --
 # Vite Configuration
 
 ## Overview
@@ -103,7 +90,7 @@ VITE_APP_TITLE=My App Dev
 VITE_API_URL=https://api.example.com
 VITE_APP_TITLE=My App
 
-// vite.config.ts — load custom env
+// vite.config.ts â€” load custom env
 export default defineConfig({
   envPrefix: 'VITE_',
 })
@@ -210,14 +197,14 @@ export default defineConfig({
 ### Tree Shaking
 
 ```typescript
-// ✅ Tree-shakeable — named exports
+// âœ… Tree-shakeable â€” named exports
 export function formatDate(date: Date): string { /* ... */ }
 export function parseDate(str: string): Date { /* ... */ }
 
-// Usage — only used functions are bundled
+// Usage â€” only used functions are bundled
 import { formatDate } from './utils'
 
-// ❌ Not tree-shakeable — default export
+// âŒ Not tree-shakeable â€” default export
 export default {
   formatDate,
   parseDate,
@@ -252,7 +239,7 @@ export default defineConfig({
   },
 })
 
-// server.ts — SSR entry
+// server.ts â€” SSR entry
 import express from 'express'
 import { createServer as createViteServer } from 'vite'
 
@@ -286,7 +273,7 @@ createServer()
 ## 6. Library Mode
 
 ```typescript
-// vite.config.ts — Library build
+// vite.config.ts â€” Library build
 export default defineConfig({
   build: {
     lib: {
@@ -487,12 +474,12 @@ pnpm preview
 5. **Test locally**: Always preview production builds before deploying
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline build error display
-- **VS Code Extension**: GitLens — for understanding config history
-- **npm Package**: `@vitejs/plugin-react` — for React support
-- **npm Package**: `vite-plugin-tailwind` — for Tailwind CSS
-- **Terminal Command**: `pnpm build` — build for production
-- **Terminal Command**: `pnpm preview` — preview production build
+- **VS Code Extension**: Error Lens â€” for inline build error display
+- **VS Code Extension**: GitLens â€” for understanding config history
+- **npm Package**: `@vitejs/plugin-react` â€” for React support
+- **npm Package**: `vite-plugin-tailwind` â€” for Tailwind CSS
+- **Terminal Command**: `pnpm build` â€” build for production
+- **Terminal Command**: `pnpm preview` â€” preview production build
 
 ### Agents to Invoke
 - **Performance Review Agent**: Run when optimizing production builds

@@ -1,9 +1,11 @@
+﻿---
+slug: threat-modeling
+---
+
 # Threat Modeling
 
 > **Purpose:** Analyze threats with Threat Modeling.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `threat-modeling`
@@ -50,8 +52,6 @@ declared
 - security-threat-analysis
 - stride
 - attack-trees
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Threat Modeling does not apply to:
 
 ## Related Concepts
 
-- [[Security/threat-modeling]] — Threat Modeling
-- [[Security/security-threat-analysis]] — Security Threat Analysis
-- [[Security/stride]] — STRIDE
-- [[Security/attack-trees]] — Attack Trees
+- [[Security/threat-modeling]] â€” Threat Modeling
+- [[Security/security-threat-analysis]] â€” Security Threat Analysis
+- [[Security/stride]] â€” STRIDE
+- [[Security/attack-trees]] â€” Attack Trees
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Threat Modeling through:
 ## Sources
 
 - [[Sources/threat-modeling-guide|Threat Modeling Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Threat Modeling Note**

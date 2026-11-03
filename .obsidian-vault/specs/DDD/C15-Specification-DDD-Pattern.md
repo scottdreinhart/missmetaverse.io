@@ -1,32 +1,22 @@
----
+﻿---
 slug: specification-ddd-pattern
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/SpecificationPattern.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - ddd
   - specification
   - domain-modeling
   - business-rules
----
-
+  - --
 # Specification (DDD)
 
 ## Definition
 
 Specification (DDD) is **a pattern that encapsulates a business rule as a composable predicate**.
 
-> "A specification is a pattern that encapsulates a business rule as a predicate that can be composed with other specifications." — Eric Evans
+> "A specification is a pattern that encapsulates a business rule as a predicate that can be composed with other specifications." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without specifications:
 
 ## Scope and Boundaries
 
-- Specification ≠ Query (specification expresses business rules, query expresses data access)
+- Specification â‰  Query (specification expresses business rules, query expresses data access)
 - Specification = Predicate (specification is a predicate that can be composed)
 - Specification is a **domain model building block**, not a pattern
 
@@ -53,9 +43,9 @@ Without specifications:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Specifications add an abstraction layer |
-| **Time** — Implementing specifications takes time |
-| **Over-specification** — Simple rules may not need a specification |
+| **Complexity** â€” Specifications add an abstraction layer |
+| **Time** â€” Implementing specifications takes time |
+| **Over-specification** â€” Simple rules may not need a specification |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without specifications:
 
 ## Related Concepts
 
-- [Domain Invariant](DDD/domain-invariant.md) — Specifications can express domain invariants
-- [Entity](DDD/entity.md) — Specifications often evaluate entities
-- [Repository](DDD/repository-ddd-pattern.md) — Repositories often use specifications for queries
+- [Domain Invariant](DDD/domain-invariant.md) â€” Specifications can express domain invariants
+- [Entity](DDD/entity.md) â€” Specifications often evaluate entities
+- [Repository](DDD/repository-ddd-pattern.md) â€” Repositories often use specifications for queries
 
 ## Project Observations
 
@@ -76,8 +66,8 @@ Without specifications:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of specifications in existing code (src/ is empty)
 - File naming conventions support specifications:
-  - `*.spec.ts` — Spec files
-  - `*.policy.ts` — Policy files
+  - `*.spec.ts` â€” Spec files
+  - `*.policy.ts` â€” Policy files
 
 ## Sources
 
@@ -318,11 +308,11 @@ export class FindActiveUsersService {
 5. **Use in services**: For business rule validation
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `@prisma/client` — for Prisma ORM
-- **npm Package**: `typeorm` — for TypeORM
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `@prisma/client` â€” for Prisma ORM
+- **npm Package**: `typeorm` â€” for TypeORM
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **DDD Review Agent**: Run when designing specifications

@@ -1,9 +1,11 @@
+﻿---
+slug: modular-monolith-architecture
+---
+
 # Modular Monolith Architecture
 
 > **Purpose:** Structure apps with Modular Monolith.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `modular-monolith-architecture`
@@ -50,8 +52,6 @@ declared
 - microservices-architecture
 - layered-architecture
 - hexagonal-architecture
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Modular Monolith does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/modular-monolith-architecture]] — Modular Monolith Architecture
-- [[Application Architecture/microservices-architecture]] — Microservices Architecture
-- [[Application Architecture/layered-architecture]] — Layered Architecture
-- [[Application Architecture/hexagonal-architecture]] — Hexagonal Architecture
+- [[Application Architecture/modular-monolith-architecture]] â€” Modular Monolith Architecture
+- [[Application Architecture/microservices-architecture]] â€” Microservices Architecture
+- [[Application Architecture/layered-architecture]] â€” Layered Architecture
+- [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Modular Monolith Architecture through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of Modular Monolith Architecture Note**

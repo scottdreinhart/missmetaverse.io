@@ -1,31 +1,22 @@
----
+﻿---
 slug: data-oriented-design
 sources:
   - https://en.wikipedia.org/wiki/Data-oriented_design
   - https://www.youtube.com/watch?v=N_E_0y6EU6o
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - data-oriented
   - performance
   - architecture
   - design
----
-
+  - --
 # Data-Oriented Design
 
 ## Definition
 
 Data-Oriented Design is **an architecture approach that prioritizes data layout and access patterns over object-oriented hierarchies to optimize performance**.
 
-> "Data-oriented design organizes data for efficient access and processing, rather than organizing code around object hierarchies." — Wikipedia
+> "Data-oriented design organizes data for efficient access and processing, rather than organizing code around object hierarchies." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without data-oriented design:
 
 ## Scope and Boundaries
 
-- Data-Oriented Design ≠ OOP (data-oriented prioritizes data layout, OOP prioritizes object hierarchies)
+- Data-Oriented Design â‰  OOP (data-oriented prioritizes data layout, OOP prioritizes object hierarchies)
 - Data-Oriented Design = Performance (data-oriented design optimizes performance)
 - Data-Oriented Design is an **architecture approach**, not a pattern
 
@@ -52,9 +43,9 @@ Without data-oriented design:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Data-oriented design is less intuitive |
-| **Time** — Designing data layouts takes time |
-| **Readability** — Code may be less readable |
+| **Complexity** â€” Data-oriented design is less intuitive |
+| **Time** â€” Designing data layouts takes time |
+| **Readability** â€” Code may be less readable |
 
 ## Common Misuses
 
@@ -64,9 +55,9 @@ Without data-oriented design:
 
 ## Related Concepts
 
-- [Performance Optimization](Frontend UI/performance-optimization-patterns.md) — Performance optimization benefits from data-oriented design
-- [Profiling](Frontend UI/profiling-patterns.md) — Profiling identifies data-oriented design opportunities
-- [Separation of Concerns](Architecture/separation-of-concerns.md) — Separation of concerns applies to data-oriented design
+- [Performance Optimization](Frontend UI/performance-optimization-patterns.md) â€” Performance optimization benefits from data-oriented design
+- [Profiling](Frontend UI/profiling-patterns.md) â€” Profiling identifies data-oriented design opportunities
+- [Separation of Concerns](Architecture/separation-of-concerns.md) â€” Separation of concerns applies to data-oriented design
 
 ## Project Observations
 
@@ -75,8 +66,8 @@ Without data-oriented design:
   - The project's architecture patterns note covers design approaches
   - No evidence of data-oriented design in existing code (src/ is empty)
 - File naming conventions support data-oriented design:
-  - `*.data.ts` — Data files
-  - `*.logic.ts` — Logic files
+  - `*.data.ts` â€” Data files
+  - `*.logic.ts` â€” Logic files
 
 ## Sources
 

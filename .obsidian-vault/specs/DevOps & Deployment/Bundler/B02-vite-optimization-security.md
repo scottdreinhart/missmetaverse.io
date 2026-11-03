@@ -1,4 +1,4 @@
----
+﻿---
 slug: vite-optimization-security
 sources:
   - https://vite.dev/guide/build.html
@@ -9,28 +9,14 @@ sources:
   - https://vite.dev/guide/why
 date: 2025-01-15
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
   - vite
   - build
   - optimization
   - security
   - performance
   - best-practices
----
-
+  - --
 # Vite: Optimization, Security & Best Practices
 
 ## Overview
@@ -41,7 +27,7 @@ Vite is a next-generation frontend build tool that leverages native ESM in devel
 
 ### Instant Server Start
 
-Vite serves source code natively via the browser's ESM support — no bundling needed in dev:
+Vite serves source code natively via the browser's ESM support â€” no bundling needed in dev:
 
 ```ts
 // vite.config.ts
@@ -256,7 +242,7 @@ export default defineConfig({
 VITE_APP_TITLE=My App
 VITE_API_URL=https://api.example.com
 
-# DANGEROUS: Never put secrets here — they're bundled into client code!
+# DANGEROUS: Never put secrets here â€” they're bundled into client code!
 VITE_API_KEY=secret123
 
 # SAFE: Server-only (no VITE_ prefix)
@@ -265,10 +251,10 @@ JWT_SECRET=secret
 ```
 
 ```tsx
-// Client-side — only VITE_ vars are available
+// Client-side â€” only VITE_ vars are available
 console.log(import.meta.env.VITE_APP_TITLE) // "My App"
-console.log(import.meta.env.DB_PASSWORD) // undefined — NOT exposed
-console.log(import.meta.env.VITE_API_KEY) // "secret123" — DANGEROUS!
+console.log(import.meta.env.DB_PASSWORD) // undefined â€” NOT exposed
+console.log(import.meta.env.VITE_API_KEY) // "secret123" â€” DANGEROUS!
 ```
 
 ### Protecting Secrets
@@ -315,9 +301,9 @@ vite build --mode staging
 vite build --mode development
 
 # NODE_ENV vs Mode
-# vite build → NODE_ENV=production, mode=production
-# vite build --mode development → NODE_ENV=production, mode=development
-# NODE_ENV=development vite build → NODE_ENV=development, mode=production
+# vite build â†’ NODE_ENV=production, mode=production
+# vite build --mode development â†’ NODE_ENV=production, mode=development
+# NODE_ENV=development vite build â†’ NODE_ENV=development, mode=production
 ```
 
 ## Performance Optimization
@@ -465,7 +451,7 @@ export default defineConfig({
 DB_PASSWORD=secret
 JWT_SECRET=secret
 
-# .env (safe — only VITE_ exposed to client)
+# .env (safe â€” only VITE_ exposed to client)
 VITE_APP_TITLE=My App
 
 # Command-line override (highest priority)
@@ -704,12 +690,12 @@ export default defineConfig({
 5. **Analyze bundle**: Use rollup-plugin-visualizer to analyze bundle size
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline Vite error display
-- **npm Package**: `vite-plugin-compression` — for gzip/brotli compression
-- **npm Package**: `rollup-plugin-visualizer` — for bundle analysis
-- **Terminal Command**: `pnpm build` — build for production
-- **Terminal Command**: `pnpm preview` — preview production build
-- **Terminal Command**: `pnpm add -D rollup-plugin-visualizer` — install bundle analyzer
+- **VS Code Extension**: Error Lens â€” for inline Vite error display
+- **npm Package**: `vite-plugin-compression` â€” for gzip/brotli compression
+- **npm Package**: `rollup-plugin-visualizer` â€” for bundle analysis
+- **Terminal Command**: `pnpm build` â€” build for production
+- **Terminal Command**: `pnpm preview` â€” preview production build
+- **Terminal Command**: `pnpm add -D rollup-plugin-visualizer` â€” install bundle analyzer
 
 ### Agents to Invoke
 - **Performance Review Agent**: Run when optimizing Vite builds

@@ -1,9 +1,11 @@
+﻿---
+slug: circuit-breaker-pattern
+---
+
 # Circuit Breaker Pattern
 
 > **Purpose:** Prevent cascading failures with Circuit Breaker.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `circuit-breaker-pattern`
@@ -50,8 +52,6 @@ declared
 - retry-pattern
 - timeout-pattern
 - bulkhead-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Circuit Breaker does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/circuit-breaker-pattern]] — Circuit Breaker Pattern
-- [[APIs Distributed Systems/retry-pattern]] — Retry Pattern
-- [[APIs Distributed Systems/timeout-pattern]] — Timeout Pattern
-- [[APIs Distributed Systems/bulkhead-pattern]] — Bulkhead Pattern
+- [[APIs Distributed Systems/circuit-breaker-pattern]] â€” Circuit Breaker Pattern
+- [[APIs Distributed Systems/retry-pattern]] â€” Retry Pattern
+- [[APIs Distributed Systems/timeout-pattern]] â€” Timeout Pattern
+- [[APIs Distributed Systems/bulkhead-pattern]] â€” Bulkhead Pattern
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Circuit Breaker Pattern through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of Circuit Breaker Pattern Note**

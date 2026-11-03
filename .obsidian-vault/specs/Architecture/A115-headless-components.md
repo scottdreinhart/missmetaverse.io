@@ -1,32 +1,22 @@
----
+﻿---
 slug: headless-components
 sources:
   - https://www.radix-ui.com/primitives/docs/overview/introduction
   - https://headlessui.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - headless
   - radix-ui
   - accessibility
   - components
----
-
+  - --
 # Headless Components
 
 ## Definition
 
 Headless Components are **UI components that provide behavior and accessibility without styling**. They give full control over appearance while handling complex interactions.
 
-> "Headless UI components are unstyled, fully accessible interactive components." — Headless UI
+> "Headless UI components are unstyled, fully accessible interactive components." â€” Headless UI
 
 ## Problem Addressed
 
@@ -37,8 +27,8 @@ Styled components lead to:
 
 ## Scope and Boundaries
 
-- Headless ≠ No UI (headless components have UI, just no styles)
-- Headless ≠ Lightweight (behavior can be complex)
+- Headless â‰  No UI (headless components have UI, just no styles)
+- Headless â‰  Lightweight (behavior can be complex)
 - Headless is a **component pattern**, not a framework
 
 ## When to Apply
@@ -52,9 +42,9 @@ Styled components lead to:
 
 | Cost | Description |
 |------|-------------|
-| **Styling responsibility** — You must style everything |
-| **Accessibility responsibility** — You must ensure accessibility |
-| **Learning curve** — Headless patterns are complex |
+| **Styling responsibility** â€” You must style everything |
+| **Accessibility responsibility** â€” You must ensure accessibility |
+| **Learning curve** â€” Headless patterns are complex |
 
 ## Common Misuses
 
@@ -64,9 +54,9 @@ Styled components lead to:
 
 ## Related Concepts
 
-- [ShadCN UI](../ShadCN/shadcn-ui-patterns.md) — Built on Radix UI (headless)
-- [Radix UI](Sources/radix-ui-docs-2024.md) — Headless primitives
-- [Accessibility by Design](Architecture/accessibility-by-design.md) — Headless ensures accessibility
+- [ShadCN UI](../ShadCN/shadcn-ui-patterns.md) â€” Built on Radix UI (headless)
+- [Radix UI](Sources/radix-ui-docs-2024.md) â€” Headless primitives
+- [Accessibility by Design](Architecture/accessibility-by-design.md) â€” Headless ensures accessibility
 
 ## Project Observations
 

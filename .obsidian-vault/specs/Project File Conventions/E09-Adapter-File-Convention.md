@@ -1,31 +1,22 @@
----
+﻿---
 slug: adapter-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.adapter.ts
 
 ## Definition
 
 `*.adapter.ts` is **a file naming convention for TypeScript files that contain adapter implementations connecting ports to external systems**.
 
-> "The *.adapter.ts convention identifies TypeScript files that contain adapter implementations." — TypeScript Docs
+> "The *.adapter.ts convention identifies TypeScript files that contain adapter implementations." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.adapter.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.adapter.ts` ≠ `*.port.ts` (`*.adapter.ts` is for implementations, `*.port.ts` is for interfaces)
+- `*.adapter.ts` â‰  `*.port.ts` (`*.adapter.ts` is for implementations, `*.port.ts` is for interfaces)
 - `*.adapter.ts` = Adapters (`*.adapter.ts` is for adapter implementations)
 - `*.adapter.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.adapter.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every adapter needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.adapter.ts` convention:
 
 ## Related Concepts
 
-- [Adapter Pattern](Architecture/adapter-pattern.md) — Adapter pattern is the pattern behind `*.adapter.ts`
-- [Port File Convention](Project File Conventions/port-file-convention.md) — Port file convention defines interfaces
-- [Hexagonal Architecture](Architecture/hexagonal-architecture.md) — Hexagonal architecture uses adapters
+- [Adapter Pattern](Architecture/adapter-pattern.md) â€” Adapter pattern is the pattern behind `*.adapter.ts`
+- [Port File Convention](Project File Conventions/port-file-convention.md) â€” Port file convention defines interfaces
+- [Hexagonal Architecture](Architecture/hexagonal-architecture.md) â€” Hexagonal architecture uses adapters
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.adapter.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.adapter.ts` in existing code (src/ is empty)
 - File naming conventions support `*.adapter.ts`:
-  - `*.adapter.ts` — Adapter files
-  - `*.port.ts` — Port files
+  - `*.adapter.ts` â€” Adapter files
+  - `*.port.ts` â€” Port files
 
 ## Sources
 

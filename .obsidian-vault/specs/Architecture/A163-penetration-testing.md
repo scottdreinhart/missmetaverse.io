@@ -1,33 +1,22 @@
----
+﻿---
 slug: penetration-testing
 sources:
   - https://owasp.org/www-project-web-security-testing-guide/
   - https://owasp.org/www-project-top-ten/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - penetration-testing
   - owasp
   - testing
   - patterns
----
-
+  - --
 # Penetration Testing
 
 ## Definition
 
 Penetration Testing is a **practice for testing software by simulating attacks**.
 
-> "Penetration testing is an authorized simulated attack on a computer system, performed to evaluate its security." — Wikipedia
+> "Penetration testing is an authorized simulated attack on a computer system, performed to evaluate its security." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,8 +28,8 @@ Without penetration testing:
 
 ## Scope and Boundaries
 
-- Penetration Testing ≠ Security Testing (penetration testing is specific, security testing is broader)
-- Penetration Testing ≠ OWASP (penetration testing is a practice, OWASP is a standard)
+- Penetration Testing â‰  Security Testing (penetration testing is specific, security testing is broader)
+- Penetration Testing â‰  OWASP (penetration testing is a practice, OWASP is a standard)
 - Penetration Testing is a **practice**, not a standard
 
 ## When to Apply
@@ -54,21 +43,21 @@ Without penetration testing:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Penetration testing is complex |
-| **Time** — Penetration testing takes time |
-| **Over-penetration-testing** — Don't over-test security |
+| **Complexity** â€” Penetration testing is complex |
+| **Time** â€” Penetration testing takes time |
+| **Over-penetration-testing** â€” Don't over-test security |
 
 ## Common Misuses
 
 - **Everything penetration tested**: Not everything needs penetration testing
-- **Confusing with security testing**: Penetration testing ≠ security testing
+- **Confusing with security testing**: Penetration testing â‰  security testing
 - **Over-penetration-testing**: Too much penetration testing creates complexity
 
 ## Related Concepts
 
-- [OWASP Top 10](Architecture/owasp-top-10.md) — Penetration testing with OWASP
-- [Security Principles](Architecture/security-principles.md) — Penetration testing with security
-- [Security Testing](Architecture/security-testing.md) — Penetration testing with security testing
+- [OWASP Top 10](Architecture/owasp-top-10.md) â€” Penetration testing with OWASP
+- [Security Principles](Architecture/security-principles.md) â€” Penetration testing with security
+- [Security Testing](Architecture/security-testing.md) â€” Penetration testing with security testing
 
 ## Project Observations
 
@@ -76,8 +65,8 @@ Without penetration testing:
   - The project's security note covers penetration testing (from existing notes)
   - No evidence of penetration testing in existing code (src/ is empty)
 - File naming conventions support penetration testing:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

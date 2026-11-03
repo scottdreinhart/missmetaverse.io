@@ -1,9 +1,11 @@
+﻿---
+slug: anti-corruption-layer
+---
+
 # Anti-Corruption Layer
 
 > **Purpose:** Protect domain model from external system limitations.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `ddd-anti-corruption-layer`
@@ -51,8 +53,6 @@ declared
 - arch-hexagonal-architecture
 - arch-adapter
 - arch-port-file-convention
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ ACL does not apply to:
 
 ## Related Concepts
 
-- [[DDD/bounded-context]] — Bounded Context
-- [[DDD/context-map]] — Context Map
-- [[Architecture/hexagonal-architecture]] — Hexagonal Architecture
-- [[Architecture/adapter]] — Adapter Pattern
+- [[DDD/bounded-context]] â€” Bounded Context
+- [[DDD/context-map]] â€” Context Map
+- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Architecture/adapter]] â€” Adapter Pattern
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project uses TypeScript, which supports ACL through:
 
 ## Sources
 
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Anti-Corruption Layer Note**

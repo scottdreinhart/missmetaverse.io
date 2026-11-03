@@ -1,28 +1,18 @@
----
+﻿---
 slug: atomic-design
 sources:
   - https://atomicdesign.bradfrost.com/chapter-2/
   - https://bradfrost.com/blog/post/atomic-web-design/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
   - atomic-design
   - ui-composition
   - design-systems
   - react
   - components
   - frontend
----
-
+  - --
 # Atomic Design
 
 ## Overview
@@ -34,14 +24,14 @@ Atomic Design is a methodology composed of five distinct stages working together
 ## 1. The Five Stages
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    ATOMIC DESIGN                                │
-│                                                                 │
-│  Atoms ──► Molecules ──► Organisms ──► Templates ──► Pages      │
-│                                                                 │
-│  Basic building blocks   Simple    Complex    Layout     Real   │
-│  of UI                 components  sections  structures  content│
-└─────────────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                    ATOMIC DESIGN                                â”‚
+â”‚                                                                 â”‚
+â”‚  Atoms â”€â”€â–º Molecules â”€â”€â–º Organisms â”€â”€â–º Templates â”€â”€â–º Pages      â”‚
+â”‚                                                                 â”‚
+â”‚  Basic building blocks   Simple    Complex    Layout     Real   â”‚
+â”‚  of UI                 components  sections  structures  contentâ”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ### Stage 1: Atoms
@@ -239,7 +229,7 @@ export function ProductCard({ image, title, price, seller, onAddToCart }: Produc
   )
 }
 
-// organisms/ProductGrid.tsx — Repeats ProductCard molecule
+// organisms/ProductGrid.tsx â€” Repeats ProductCard molecule
 interface ProductGridProps {
   products: Product[]
   onAddToCart: (id: string) => void
@@ -358,11 +348,11 @@ export function ProductDetailPage({ product }: { product: Product }) {
 ### Atomic Design is NOT Linear
 
 ```
-❌ WRONG: Step 1 → Step 2 → Step 3 → Step 4 → Step 5
-✅ RIGHT: All stages work concurrently as a mental model
+âŒ WRONG: Step 1 â†’ Step 2 â†’ Step 3 â†’ Step 4 â†’ Step 5
+âœ… RIGHT: All stages work concurrently as a mental model
 ```
 
-Atomic design allows you to **shift between abstract and concrete** — seeing components in isolation and in context simultaneously.
+Atomic design allows you to **shift between abstract and concrete** â€” seeing components in isolation and in context simultaneously.
 
 ### Separation of Structure and Content
 
@@ -371,7 +361,7 @@ Atomic design allows you to **shift between abstract and concrete** — seeing c
 | **Templates** | Content structure (skeleton) |
 | **Pages**     | Real content in structure    |
 
-> "You can create good experiences without knowing the content. What you can't do is create good experiences without knowing your content structure." — Mark Boulton
+> "You can create good experiences without knowing the content. What you can't do is create good experiences without knowing your content structure." â€” Mark Boulton
 
 ### Hierarchy Language
 
@@ -398,39 +388,39 @@ Atomic design allows you to **shift between abstract and concrete** — seeing c
 
 ```
 src/components/
-├── atoms/
-│   ├── Button.tsx
-│   ├── Input.tsx
-│   ├── Label.tsx
-│   └── Avatar.tsx
-├── molecules/
-│   ├── SearchForm.tsx
-│   ├── FormField.tsx
-│   └── UserAvatar.tsx
-├── organisms/
-│   ├── Header.tsx
-│   ├── ProductCard.tsx
-│   └── ProductGrid.tsx
-├── templates/
-│   ├── PageTemplate.tsx
-│   └── DashboardTemplate.tsx
-└── pages/
-    ├── HomePage.tsx
-    └── ProductDetailPage.tsx
+â”œâ”€â”€ atoms/
+â”‚   â”œâ”€â”€ Button.tsx
+â”‚   â”œâ”€â”€ Input.tsx
+â”‚   â”œâ”€â”€ Label.tsx
+â”‚   â””â”€â”€ Avatar.tsx
+â”œâ”€â”€ molecules/
+â”‚   â”œâ”€â”€ SearchForm.tsx
+â”‚   â”œâ”€â”€ FormField.tsx
+â”‚   â””â”€â”€ UserAvatar.tsx
+â”œâ”€â”€ organisms/
+â”‚   â”œâ”€â”€ Header.tsx
+â”‚   â”œâ”€â”€ ProductCard.tsx
+â”‚   â””â”€â”€ ProductGrid.tsx
+â”œâ”€â”€ templates/
+â”‚   â”œâ”€â”€ PageTemplate.tsx
+â”‚   â””â”€â”€ DashboardTemplate.tsx
+â””â”€â”€ pages/
+    â”œâ”€â”€ HomePage.tsx
+    â””â”€â”€ ProductDetailPage.tsx
 ```
 
 ---
 
 ## 5. When to Use Atomic Design
 
-- ✅ Building a **design system** with reusable components
-- ✅ Large teams needing **consistent UI patterns**
-- ✅ Complex interfaces with **many component variations**
-- ✅ Need to **test components in isolation**
+- âœ… Building a **design system** with reusable components
+- âœ… Large teams needing **consistent UI patterns**
+- âœ… Complex interfaces with **many component variations**
+- âœ… Need to **test components in isolation**
 
-- ❌ Simple pages with few components (overkill)
-- ❌ Prototyping (start simpler)
-- ❌ Small projects (use basic component structure)
+- âŒ Simple pages with few components (overkill)
+- âŒ Prototyping (start simpler)
+- âŒ Small projects (use basic component structure)
 
 ---
 

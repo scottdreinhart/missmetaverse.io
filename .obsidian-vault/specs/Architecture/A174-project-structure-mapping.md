@@ -1,4 +1,4 @@
----
+﻿---
 slug: project-structure-mapping
 title: Project Structure Mapping
 description: Maps architectural patterns and concepts to actual file/folder structure in the project.
@@ -6,19 +6,7 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
   - project-structure
   - clean-architecture
   - ddd
@@ -44,101 +32,101 @@ access_limitations: None
 
 ```
 src/
-├── main.ts                          # Application entry point
-├── app.ts                           # App factory (wires dependencies)
-│
-├── entities/                        # Circle 1: Entities (innermost)
-│   ├── user.entity.ts
-│   ├── order.entity.ts
-│   └── ...
-│
-├── value-objects/                   # Value Objects
-│   ├── money.vo.ts
-│   ├── email.vo.ts
-│   └── ...
-│
-├── domains/                         # Domain Layer (DDD bounded contexts)
-│   ├── user/
-│   │   ├── user.repository.ts       # Repository interface
-│   │   ├── user.service.ts          # Domain service
-│   │   └── user.events.ts           # Domain events
-│   ├── order/
-│   │   ├── order.repository.ts
-│   │   ├── order.service.ts
-│   │   └── order.events.ts
-│   └── ...
-│
-├── usecases/                        # Circle 2: Use Cases
-│   ├── create-user.usecase.ts
-│   ├── place-order.usecase.ts
-│   └── ...
-│
-├── commands/                        # CQRS: Command Handlers
-│   ├── create-user.command.ts
-│   ├── update-user.command.ts
-│   └── ...
-│
-├── queries/                         # CQRS: Query Handlers
-│   ├── get-user.query.ts
-│   ├── list-users.query.ts
-│   └── ...
-│
-├── adapters/                        # Circle 3: Interface Adapters
-│   ├── controllers/                 # HTTP controllers
-│   │   ├── user.controller.ts
-│   │   └── order.controller.ts
-│   ├── gateways/                    # External service adapters
-│   │   ├── email.gateway.ts
-│   │   ├── payment.gateway.ts
-│   │   └── database.gateway.ts
-│   └── presenters/                  # Response formatters
-│       ├── user.presenter.ts
-│       └── order.presenter.ts
-│
-├── frameworks/                      # Circle 4: Frameworks (outermost)
-│   ├── web/                         # Web framework setup
-│   │   ├── server.ts
-│   │   ├── middleware.ts
-│   │   └── routes.ts
-│   ├── database/                    # Database setup
-│   │   ├── connection.ts
-│   │   └── migrations/
-│   └── config/                      # Configuration
-│       ├── app.config.ts
-│       └── env.config.ts
-│
-├── ports/                           # Port interfaces (defined in domain, implemented in adapters)
-│   ├── user-repository.port.ts
-│   ├── email-service.port.ts
-│   └── ...
-│
-├── shared/                          # Cross-cutting utilities
-│   ├── errors/                      # Custom error classes
-│   │   ├── domain-error.ts
-│   │   ├── validation-error.ts
-│   │   └── not-found-error.ts
-│   ├── types/                       # Shared TypeScript types
-│   │   ├── result.ts
-│   │   └── pagination.ts
-│   └── utils/                       # Utility functions
-│       ├── generate-id.ts
-│       └── validate-email.ts
-│
-├── tests/                           # Test files
-│   ├── unit/                        # Unit tests
-│   │   ├── entities/
-│   │   ├── usecases/
-│   │   └── value-objects/
-│   ├── integration/                 # Integration tests
-│   │   ├── controllers/
-│   │   └── gateways/
-│   └── e2e/                         # E2E tests
-│       └── features/
-│
-└── events/                          # Event handlers
-    ├── user-created.handler.ts
-    ├── order-placed.handler.ts
-    └── ...
+â”œâ”€â”€ main.ts                          # Application entry point
+â”œâ”€â”€ app.ts                           # App factory (wires dependencies)
+â”‚
+â”œâ”€â”€ entities/                        # Circle 1: Entities (innermost)
+â”‚   â”œâ”€â”€ user.entity.ts
+â”‚   â”œâ”€â”€ order.entity.ts
+â”‚   â””â”€â”€ ...
+â”‚
+â”œâ”€â”€ value-objects/                   # Value Objects
+â”‚   â”œâ”€â”€ money.vo.ts
+â”‚   â”œâ”€â”€ email.vo.ts
+â”‚   â””â”€â”€ ...
+â”‚
+â”œâ”€â”€ domains/                         # Domain Layer (DDD bounded contexts)
+â”‚   â”œâ”€â”€ user/
+â”‚   â”‚   â”œâ”€â”€ user.repository.ts       # Repository interface
+â”‚   â”‚   â”œâ”€â”€ user.service.ts          # Domain service
+â”‚   â”‚   â””â”€â”€ user.events.ts           # Domain events
+â”‚   â”œâ”€â”€ order/
+â”‚   â”‚   â”œâ”€â”€ order.repository.ts
+â”‚   â”‚   â”œâ”€â”€ order.service.ts
+â”‚   â”‚   â””â”€â”€ order.events.ts
+â”‚   â””â”€â”€ ...
+â”‚
+â”œâ”€â”€ usecases/                        # Circle 2: Use Cases
+â”‚   â”œâ”€â”€ create-user.usecase.ts
+â”‚   â”œâ”€â”€ place-order.usecase.ts
+â”‚   â””â”€â”€ ...
+â”‚
+â”œâ”€â”€ commands/                        # CQRS: Command Handlers
+â”‚   â”œâ”€â”€ create-user.command.ts
+â”‚   â”œâ”€â”€ update-user.command.ts
+â”‚   â””â”€â”€ ...
+â”‚
+â”œâ”€â”€ queries/                         # CQRS: Query Handlers
+â”‚   â”œâ”€â”€ get-user.query.ts
+â”‚   â”œâ”€â”€ list-users.query.ts
+â”‚   â””â”€â”€ ...
+â”‚
+â”œâ”€â”€ adapters/                        # Circle 3: Interface Adapters
+â”‚   â”œâ”€â”€ controllers/                 # HTTP controllers
+â”‚   â”‚   â”œâ”€â”€ user.controller.ts
+â”‚   â”‚   â””â”€â”€ order.controller.ts
+â”‚   â”œâ”€â”€ gateways/                    # External service adapters
+â”‚   â”‚   â”œâ”€â”€ email.gateway.ts
+â”‚   â”‚   â”œâ”€â”€ payment.gateway.ts
+â”‚   â”‚   â””â”€â”€ database.gateway.ts
+â”‚   â””â”€â”€ presenters/                  # Response formatters
+â”‚       â”œâ”€â”€ user.presenter.ts
+â”‚       â””â”€â”€ order.presenter.ts
+â”‚
+â”œâ”€â”€ frameworks/                      # Circle 4: Frameworks (outermost)
+â”‚   â”œâ”€â”€ web/                         # Web framework setup
+â”‚   â”‚   â”œâ”€â”€ server.ts
+â”‚   â”‚   â”œâ”€â”€ middleware.ts
+â”‚   â”‚   â””â”€â”€ routes.ts
+â”‚   â”œâ”€â”€ database/                    # Database setup
+â”‚   â”‚   â”œâ”€â”€ connection.ts
+â”‚   â”‚   â””â”€â”€ migrations/
+â”‚   â””â”€â”€ config/                      # Configuration
+â”‚       â”œâ”€â”€ app.config.ts
+â”‚       â””â”€â”€ env.config.ts
+â”‚
+â”œâ”€â”€ ports/                           # Port interfaces (defined in domain, implemented in adapters)
+â”‚   â”œâ”€â”€ user-repository.port.ts
+â”‚   â”œâ”€â”€ email-service.port.ts
+â”‚   â””â”€â”€ ...
+â”‚
+â”œâ”€â”€ shared/                          # Cross-cutting utilities
+â”‚   â”œâ”€â”€ errors/                      # Custom error classes
+â”‚   â”‚   â”œâ”€â”€ domain-error.ts
+â”‚   â”‚   â”œâ”€â”€ validation-error.ts
+â”‚   â”‚   â””â”€â”€ not-found-error.ts
+â”‚   â”œâ”€â”€ types/                       # Shared TypeScript types
+â”‚   â”‚   â”œâ”€â”€ result.ts
+â”‚   â”‚   â””â”€â”€ pagination.ts
+â”‚   â””â”€â”€ utils/                       # Utility functions
+â”‚       â”œâ”€â”€ generate-id.ts
+â”‚       â””â”€â”€ validate-email.ts
+â”‚
+â”œâ”€â”€ tests/                           # Test files
+â”‚   â”œâ”€â”€ unit/                        # Unit tests
+â”‚   â”‚   â”œâ”€â”€ entities/
+â”‚   â”‚   â”œâ”€â”€ usecases/
+â”‚   â”‚   â””â”€â”€ value-objects/
+â”‚   â”œâ”€â”€ integration/                 # Integration tests
+â”‚   â”‚   â”œâ”€â”€ controllers/
+â”‚   â”‚   â””â”€â”€ gateways/
+â”‚   â””â”€â”€ e2e/                         # E2E tests
+â”‚       â””â”€â”€ features/
+â”‚
+â””â”€â”€ events/                          # Event handlers
+    â”œâ”€â”€ user-created.handler.ts
+    â”œâ”€â”€ order-placed.handler.ts
+    â””â”€â”€ ...
 ```
 
 ---
@@ -215,18 +203,18 @@ src/
 ## Dependency Rules
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  frameworks/        → Can import from: adapters/, ports/ │
-│  adapters/          → Can import from: usecases/, ports/ │
-│  commands/          → Can import from: domains/, shared/ │
-│  queries/           → Can import from: domains/, shared/ │
-│  usecases/          → Can import from: entities/, domains/│
-│  domains/           → Can import from: entities/, value-objects/, shared/ │
-│  entities/          → Can import from: value-objects/, shared/ │
-│  value-objects/     → Can import from: shared/ only      │
-│  ports/             → Can import from: shared/ only      │
-│  shared/            → No imports (leaf module)           │
-└─────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  frameworks/        â†’ Can import from: adapters/, ports/ â”‚
+â”‚  adapters/          â†’ Can import from: usecases/, ports/ â”‚
+â”‚  commands/          â†’ Can import from: domains/, shared/ â”‚
+â”‚  queries/           â†’ Can import from: domains/, shared/ â”‚
+â”‚  usecases/          â†’ Can import from: entities/, domains/â”‚
+â”‚  domains/           â†’ Can import from: entities/, value-objects/, shared/ â”‚
+â”‚  entities/          â†’ Can import from: value-objects/, shared/ â”‚
+â”‚  value-objects/     â†’ Can import from: shared/ only      â”‚
+â”‚  ports/             â†’ Can import from: shared/ only      â”‚
+â”‚  shared/            â†’ No imports (leaf module)           â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 
 Rule: Dependencies point INWARDS only.
 Outer folders can import inner folders.
@@ -338,21 +326,21 @@ graph TD
 
 ```
 Is it a core business entity?
-  → entities/
+  â†’ entities/
 Is it an immutable value object?
-  → value-objects/
+  â†’ value-objects/
 Is it a business logic use case?
-  → usecases/
+  â†’ usecases/
 Is it a CQRS command or query?
-  → commands/ or queries/
+  â†’ commands/ or queries/
 Is it an API endpoint?
-  → adapters/controllers/
+  â†’ adapters/controllers/
 Is it an external service integration?
-  → adapters/gateways/
+  â†’ adapters/gateways/
 Is it a domain event?
-  → events/
+  â†’ events/
 Is it a shared utility?
-  → shared/
+  â†’ shared/
 ```
 
 ### Step 2: Create File with Correct Naming
@@ -441,11 +429,11 @@ import { CreateUserUseCase } from '@/usecases/create-user.usecase'
 5. **Test placement**: Put tests in the correct test folder
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm build` — production build
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm build` â€” production build
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when creating new files or refactoring

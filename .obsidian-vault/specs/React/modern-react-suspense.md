@@ -1,9 +1,11 @@
+﻿---
+slug: modern-react-suspense
+---
+
 # React Modern React Suspense
 
 > **Purpose:** Handle async loading with React Suspense.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `modern-react-suspense`
@@ -50,8 +52,6 @@ declared
 - modern-react-hooks
 - modern-react-components
 - modern-react-suspense-loading
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Suspense does not apply to:
 
 ## Related Concepts
 
-- [[React/modern-react-project-template]] — Modern React Project Template
-- [[React/modern-react-hooks]] — Modern React Hooks
-- [[React/modern-react-components]] — Modern React Components
-- [[React/modern-react-suspense-loading]] — Modern React Suspense Loading
+- [[React/modern-react-project-template]] â€” Modern React Project Template
+- [[React/modern-react-hooks]] â€” Modern React Hooks
+- [[React/modern-react-components]] â€” Modern React Components
+- [[React/modern-react-suspense-loading]] â€” Modern React Suspense Loading
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React Suspense through:
 ## Sources
 
 - [[Sources/react-documentation|React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Modern React Suspense Note**

@@ -1,34 +1,22 @@
----
+﻿---
 slug: contract-testing
 sources:
   - https://docs.pact.io/
   - https://www.npmjs.com/package/bravado
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - contract-testing
   - testing
   - api
   - pact
----
-
+  - --
 # Contract Testing
 
 ## Definition
 
 Contract Testing is **a testing approach that verifies the interaction between two components (typically consumer and provider) matches a shared contract**.
 
-> "Contract testing verifies that interactions between two components match a shared contract, ensuring compatibility without integration testing." — Pact
+> "Contract testing verifies that interactions between two components match a shared contract, ensuring compatibility without integration testing." â€” Pact
 
 ## Problem Addressed
 
@@ -40,7 +28,7 @@ Without contract testing:
 
 ## Scope and Boundaries
 
-- Contract Testing ≠ Integration Testing (contract testing verifies contracts, integration testing verifies full system behavior)
+- Contract Testing â‰  Integration Testing (contract testing verifies contracts, integration testing verifies full system behavior)
 - Contract Testing = Compatibility (contract testing ensures compatibility)
 - Contract Testing is a **testing approach**, not a pattern
 
@@ -55,8 +43,8 @@ Without contract testing:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Contract testing adds tooling complexity |
-| **Time** — Setting up contracts takes time |
+| **Complexity** â€” Contract testing adds tooling complexity |
+| **Time** â€” Setting up contracts takes time |
 | **Over-contracting**: Not every interaction needs a contract |
 
 ## Common Misuses
@@ -67,9 +55,9 @@ Without contract testing:
 
 ## Related Concepts
 
-- [Contract-First Development](Data-Driven Approaches/contract-first.md) — Contract-first development defines contracts before implementation
-- [Automated Testing](Quality Delivery/automated-testing.md) — Automated testing supports contract testing
-- [API Versioning](Architecture/api-versioning.md) — API versioning manages contract changes
+- [Contract-First Development](Data-Driven Approaches/contract-first.md) â€” Contract-first development defines contracts before implementation
+- [Automated Testing](Quality Delivery/automated-testing.md) â€” Automated testing supports contract testing
+- [API Versioning](Architecture/api-versioning.md) â€” API versioning manages contract changes
 
 ## Project Observations
 
@@ -79,8 +67,8 @@ Without contract testing:
   - The project's architecture patterns note covers testing concepts
   - No evidence of contract testing in existing code (src/ is empty)
 - File naming conventions support contract testing:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

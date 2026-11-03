@@ -1,27 +1,16 @@
----
+﻿---
 slug: validate-branch-name
 sources:
   - https://www.npmjs.com/package/validate-branch-name
   - https://github.com/JsonMa/validate-branch-name
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - validate-branch-name
   - branch-naming
   - git
   - conventions
   - husky
----
-
+  - --
 # validate-branch-name
 
 ## Overview
@@ -197,7 +186,7 @@ npx validate-branch-name
 ### With Other Hooks
 
 ```bash
-# .husky/pre-push — Full validation pipeline
+# .husky/pre-push â€” Full validation pipeline
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
@@ -221,13 +210,13 @@ pnpm lint || exit 1
 <type>/<optional-scope>/<description>
 
 Types:
-  feature   — New features
-  fix       — Bug fixes
-  hotfix    — Urgent production fixes
-  release   — Release preparation
-  docs      — Documentation changes
-  chore     — Maintenance tasks
-  test      — Test changes
+  feature   â€” New features
+  fix       â€” Bug fixes
+  hotfix    â€” Urgent production fixes
+  release   â€” Release preparation
+  docs      â€” Documentation changes
+  chore     â€” Maintenance tasks
+  test      â€” Test changes
 
 Examples:
   feature/JIRA-123/user-authentication
@@ -250,12 +239,12 @@ Examples:
 
 ### Tips
 
-- ✅ Use `ignore` option to skip validation for protected branches
-- ✅ Keep patterns simple but enforceable
-- ✅ Document the convention in CONTRIBUTING.md
-- ✅ Use Husky pre-push hook (not pre-commit) for branch validation
-- ❌ Don't make patterns too complex (hard to remember)
-- ❌ Don't validate on every commit (validate on push only)
+- âœ… Use `ignore` option to skip validation for protected branches
+- âœ… Keep patterns simple but enforceable
+- âœ… Document the convention in CONTRIBUTING.md
+- âœ… Use Husky pre-push hook (not pre-commit) for branch validation
+- âŒ Don't make patterns too complex (hard to remember)
+- âŒ Don't validate on every commit (validate on push only)
 
 ---
 

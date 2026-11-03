@@ -1,9 +1,11 @@
+﻿---
+slug: rbac
+---
+
 # RBAC
 
 > **Purpose:** Manage access with RBAC.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `rbac`
@@ -50,8 +52,6 @@ declared
 - role-based-access-control
 - role-management
 - access-control
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ RBAC does not apply to:
 
 ## Related Concepts
 
-- [[Security/rbac]] — RBAC
-- [[Security/role-based-access-control]] — Role-Based Access Control
-- [[Security/role-management]] — Role Management
-- [[Security/access-control]] — Access Control
+- [[Security/rbac]] â€” RBAC
+- [[Security/role-based-access-control]] â€” Role-Based Access Control
+- [[Security/role-management]] â€” Role Management
+- [[Security/access-control]] â€” Access Control
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses RBAC through:
 ## Sources
 
 - [[Sources/rbac-standard|RBAC Standard]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of RBAC Note**

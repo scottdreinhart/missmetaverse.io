@@ -1,32 +1,22 @@
----
+﻿---
 slug: code-quality
 sources:
   - https://en.wikipedia.org/wiki/Code_quality
   - https://docs.sentry.io/product/code-quality/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - code-quality
   - linting
   - formatting
   - maintenance
----
-
+  - --
 # Code Quality
 
 ## Definition
 
 Code Quality is a **measure of how well code meets requirements for maintainability, readability, and reliability**.
 
-> "Code quality is a measure of how well code meets requirements for maintainability, readability, and reliability." — Software engineering principle
+> "Code quality is a measure of how well code meets requirements for maintainability, readability, and reliability." â€” Software engineering principle
 
 ## Problem Addressed
 
@@ -38,8 +28,8 @@ Poor code quality leads to:
 
 ## Scope and Boundaries
 
-- Code Quality ≠ Testing (code quality is about code, testing is about verification)
-- Code Quality ≠ Performance (code quality is broader, performance is specific)
+- Code Quality â‰  Testing (code quality is about code, testing is about verification)
+- Code Quality â‰  Performance (code quality is broader, performance is specific)
 - Code Quality is a **measure**, not a specific technique
 
 ## When to Apply
@@ -53,21 +43,21 @@ Poor code quality leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — Improving quality takes time |
-| **Complexity** — Quality tools are complex |
-| **Over-engineering** — Don't over-engineer for quality |
+| **Time** â€” Improving quality takes time |
+| **Complexity** â€” Quality tools are complex |
+| **Over-engineering** â€” Don't over-engineer for quality |
 
 ## Common Misuses
 
 - **Everything quality**: Not everything needs high quality
-- **Confusing with testing**: Code quality ≠ testing
+- **Confusing with testing**: Code quality â‰  testing
 - **Over-engineering**: Don't over-engineer for quality
 
 ## Related Concepts
 
-- [Refactoring](Architecture/refactoring.md) — Code quality with refactoring
-- [Automated Testing](Architecture/automated-testing.md) — Code quality with testing
-- [Linting](Architecture/linting.md) — Code quality with linting
+- [Refactoring](Architecture/refactoring.md) â€” Code quality with refactoring
+- [Automated Testing](Architecture/automated-testing.md) â€” Code quality with testing
+- [Linting](Architecture/linting.md) â€” Code quality with linting
 
 ## Project Observations
 
@@ -76,8 +66,8 @@ Poor code quality leads to:
   - The project's quality and delivery note covers code quality
   - No evidence of code quality in existing code (src/ is empty)
 - File naming conventions support code quality:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

@@ -1,9 +1,11 @@
+﻿---
+slug: service-level-objectives
+---
+
 # Service-Level Objectives
 
 > **Purpose:** Define measurable reliability targets.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-slo`
@@ -50,8 +52,6 @@ declared
 - testing-ci
 - testing-architecture-fitness
 - arch-quality-gate
-
----
 
 ## Definition
 
@@ -118,9 +118,9 @@ SLOs do not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/observability]] — Observability
-- [[Quality & Testing/continuous-integration]] — Continuous Integration
-- [[Quality & Testing/architecture-fitness-functions]] — Architecture Fitness Functions
+- [[Quality & Testing/observability]] â€” Observability
+- [[Quality & Testing/continuous-integration]] â€” Continuous Integration
+- [[Quality & Testing/architecture-fitness-functions]] â€” Architecture Fitness Functions
 
 ## Project Observations
 
@@ -132,9 +132,7 @@ The project follows SLOs through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Service-Level Objectives Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: database-backup-recovery
+---
+
 # Database Backup and Recovery
 
 > **Purpose:** Protect data with Backup and Recovery strategies.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `database-backup-recovery`
@@ -50,8 +52,6 @@ declared
 - disaster-recovery
 - rpo-rto
 - data-retention
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Backup and Recovery does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/database-backup]] — Database Backup
-- [[Data Databases/disaster-recovery]] — Disaster Recovery
-- [[Data Databases/rpo-rto]] — RPO/RTO
-- [[Data Databases/data-retention]] — Data Retention
+- [[Data Databases/database-backup]] â€” Database Backup
+- [[Data Databases/disaster-recovery]] â€” Disaster Recovery
+- [[Data Databases/rpo-rto]] â€” RPO/RTO
+- [[Data Databases/data-retention]] â€” Data Retention
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Database Backup and Recovery through:
 
 ## Sources
 
-- [[Sources/database-design-hoffer|Database Design — Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Backup and Recovery Note**

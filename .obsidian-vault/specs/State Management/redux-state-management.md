@@ -1,9 +1,11 @@
+﻿---
+slug: redux-state-management
+---
+
 # Redux State Management
 
 > **Purpose:** Manage state with Redux.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `redux-state-management`
@@ -50,8 +52,6 @@ declared
 - redux-store
 - redux-configuration
 - redux-complex-state
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Redux does not apply to:
 
 ## Related Concepts
 
-- [[Redux/redux-state-management]] — Redux State Management
-- [[Redux/redux-store]] — Redux Store
-- [[Redux/redux-configuration]] — Redux Configuration
-- [[Redux/redux-complex-state]] — Redux Complex State
+- [[Redux/redux-state-management]] â€” Redux State Management
+- [[Redux/redux-store]] â€” Redux Store
+- [[Redux/redux-configuration]] â€” Redux Configuration
+- [[Redux/redux-complex-state]] â€” Redux Complex State
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Redux through:
 ## Sources
 
 - [[Sources/redux-documentation|Redux Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Redux State Management Note**

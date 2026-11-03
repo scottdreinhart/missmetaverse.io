@@ -1,31 +1,22 @@
----
+﻿---
 slug: resource-lifecycle
 sources:
   - https://www.typescriptlang.org/
   - https://nodejs.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - resource-lifecycle
   - typescript
   - type-system
   - patterns
----
-
+  - --
 # Resource Lifecycle Management
 
 ## Definition
 
 Resource Lifecycle Management is **a TypeScript pattern for managing the creation, use, and cleanup of resources such as file handles, network connections, and memory**.
 
-> "Resource lifecycle management ensures that resources are properly created, used, and cleaned up to prevent leaks." — Node.js Docs
+> "Resource lifecycle management ensures that resources are properly created, used, and cleaned up to prevent leaks." â€” Node.js Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without resource lifecycle management:
 
 ## Scope and Boundaries
 
-- Resource Lifecycle ≠ Garbage Collection (resource lifecycle manages resources manually, garbage collection manages memory automatically)
+- Resource Lifecycle â‰  Garbage Collection (resource lifecycle manages resources manually, garbage collection manages memory automatically)
 - Resource Lifecycle = Cleanup (resource lifecycle ensures cleanup)
 - Resource Lifecycle is a **TypeScript pattern**, not a design pattern
 
@@ -52,8 +43,8 @@ Without resource lifecycle management:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Resource lifecycle adds boilerplate |
-| **Time** — Implementing resource lifecycle takes time |
+| **Complexity** â€” Resource lifecycle adds boilerplate |
+| **Time** â€” Implementing resource lifecycle takes time |
 | **Over-management**: Not every resource needs manual lifecycle management |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without resource lifecycle management:
 
 ## Related Concepts
 
-- [Pure Functions](Coding Type Systems/pure-functions-coding.md) — Pure functions benefit from resource lifecycle management
-- [Explicit Error Modeling](Architecture/explicit-error-modeling.md) — Explicit error modeling supports resource lifecycle management
-- [Fail Fast](Architecture/fail-fast.md) — Fail fast supports resource lifecycle management
+- [Pure Functions](Coding Type Systems/pure-functions-coding.md) â€” Pure functions benefit from resource lifecycle management
+- [Explicit Error Modeling](Architecture/explicit-error-modeling.md) â€” Explicit error modeling supports resource lifecycle management
+- [Fail Fast](Architecture/fail-fast.md) â€” Fail fast supports resource lifecycle management
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without resource lifecycle management:
   - The project's architecture patterns note covers TypeScript concepts
   - No evidence of resource lifecycle management in existing code (src/ is empty)
 - File naming conventions support resource lifecycle management:
-  - `*.resource.ts` — Resource files
-  - `*.lifecycle.ts` — Lifecycle files
+  - `*.resource.ts` â€” Resource files
+  - `*.lifecycle.ts` â€” Lifecycle files
 
 ## Sources
 

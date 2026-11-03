@@ -1,4 +1,4 @@
----
+﻿---
 slug: pnpm-docs-2024
 sources:
   - https://pnpm.io/
@@ -6,10 +6,6 @@ sources:
 
 ---
 tags:
-
-
-
-
   - pnpm
   - package-manager
   - nodejs

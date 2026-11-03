@@ -1,9 +1,11 @@
+﻿---
+slug: memory-management
+---
+
 # Memory Management
 
 > **Purpose:** Manage memory with Memory Management.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `memory-management`
@@ -50,8 +52,6 @@ declared
 - garbage-collection
 - memory-leaks
 - resource-cleanup
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Memory Management does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/memory-management]] — Memory Management
-- [[Coding Type Systems/garbage-collection]] — Garbage Collection
-- [[Coding Type Systems/memory-leaks]] — Memory Leaks
-- [[Coding Type Systems/resource-cleanup]] — Resource Cleanup
+- [[Coding Type Systems/memory-management]] â€” Memory Management
+- [[Coding Type Systems/garbage-collection]] â€” Garbage Collection
+- [[Coding Type Systems/memory-leaks]] â€” Memory Leaks
+- [[Coding Type Systems/resource-cleanup]] â€” Resource Cleanup
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Memory Management through:
 ## Sources
 
 - [[Sources/memory-management-guide|Memory Management Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Memory Management Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: web-security
+---
+
 # Web Security
 
 > **Purpose:** Secure web apps with Web Security.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `web-security`
@@ -50,8 +52,6 @@ declared
 - http-security
 - security-headers
 - https-protocol
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Web Security does not apply to:
 
 ## Related Concepts
 
-- [[Security/web-security]] — Web Security
-- [[Security/http-security]] — HTTP Security
-- [[Security/security-headers]] — Security Headers
-- [[Security/https-protocol]] — HTTPS Protocol
+- [[Security/web-security]] â€” Web Security
+- [[Security/http-security]] â€” HTTP Security
+- [[Security/security-headers]] â€” Security Headers
+- [[Security/https-protocol]] â€” HTTPS Protocol
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Web Security through:
 ## Sources
 
 - [[Sources/web-security-guide|Web Security Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Web Security Note**

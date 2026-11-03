@@ -1,9 +1,11 @@
+﻿---
+slug: seo-fundamentals
+---
+
 # SEO Fundamentals
 
 > **Purpose:** Optimize SEO with SEO Fundamentals.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `seo-fundamentals`
@@ -50,8 +52,6 @@ declared
 - meta-tags
 - structured-data
 - content-optimization
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ SEO Fundamentals does not apply to:
 
 ## Related Concepts
 
-- [[Web Frontend/seo-fundamentals]] — SEO Fundamentals
-- [[Web Frontend/meta-tags]] — Meta Tags
-- [[Web Frontend/structured-data]] — Structured Data
-- [[Web Frontend/content-optimization]] — Content Optimization
+- [[Web Frontend/seo-fundamentals]] â€” SEO Fundamentals
+- [[Web Frontend/meta-tags]] â€” Meta Tags
+- [[Web Frontend/structured-data]] â€” Structured Data
+- [[Web Frontend/content-optimization]] â€” Content Optimization
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses SEO Fundamentals through:
 ## Sources
 
 - [[Sources/seo-fundamentals-guide|SEO Fundamentals Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of SEO Fundamentals Note**

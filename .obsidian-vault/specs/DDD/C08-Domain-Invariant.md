@@ -1,32 +1,23 @@
----
+﻿---
 slug: domain-invariant
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/DomainInvariant.html
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
   - ddd
   - domain-invariant
   - domain-modeling
   - consistency
----
-
+  - --
 # Domain Invariant
 
 ## Definition
 
-Domain Invariant is **a rule or constraint about the domain that must always be true — invariants define the valid states of domain objects**.
+Domain Invariant is **a rule or constraint about the domain that must always be true â€” invariants define the valid states of domain objects**.
 
-> "An invariant is a rule about the domain that must always be true, regardless of what operations are performed." — Eric Evans
+> "An invariant is a rule about the domain that must always be true, regardless of what operations are performed." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -38,7 +29,7 @@ Without domain invariants:
 
 ## Scope and Boundaries
 
-- Domain Invariant ≠ Validation (domain invariants are business rules, validation is often UI-level)
+- Domain Invariant â‰  Validation (domain invariants are business rules, validation is often UI-level)
 - Domain Invariant = Consistency (domain invariants ensure consistency)
 - Domain Invariant is a **domain concept**, not a pattern
 
@@ -53,9 +44,9 @@ Without domain invariants:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Invariants add validation complexity |
-| **Time** — Identifying invariants takes time |
-| **Over-invariant** — Not every constraint is an invariant |
+| **Complexity** â€” Invariants add validation complexity |
+| **Time** â€” Identifying invariants takes time |
+| **Over-invariant** â€” Not every constraint is an invariant |
 
 ## Common Misuses
 
@@ -65,9 +56,9 @@ Without domain invariants:
 
 ## Related Concepts
 
-- [Aggregate](DDD/aggregate.md) — Aggregates maintain domain invariants
-- [Aggregate Root](DDD/aggregate-root.md) — Aggregate roots enforce domain invariants
-- [Design by Contract](Architecture/design-by-contract.md) — Design by contract enforces invariants
+- [Aggregate](DDD/aggregate.md) â€” Aggregates maintain domain invariants
+- [Aggregate Root](DDD/aggregate-root.md) â€” Aggregate roots enforce domain invariants
+- [Design by Contract](Architecture/design-by-contract.md) â€” Design by contract enforces invariants
 
 ## Project Observations
 
@@ -77,8 +68,8 @@ Without domain invariants:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of domain invariants in existing code (src/ is empty)
 - File naming conventions support domain invariants:
-  - `*.policy.ts` — Policy files
-  - `*.entity.ts` — Entity files
+  - `*.policy.ts` â€” Policy files
+  - `*.entity.ts` â€” Entity files
 
 ## Sources
 
@@ -222,9 +213,9 @@ export type PaymentStatus = 'pending' | 'completed' | 'failed' | 'refunded'
 // Type-level invariant: shipping status
 export type ShippingStatus = 'not_shipped' | 'shipped' | 'delivered' | 'returned'
 
-// Usage — TypeScript enforces these invariants at compile time
-const status: OrderStatus = 'pending' // ✅ Valid
-const invalidStatus: OrderStatus = 'invalid' // ❌ Compile error
+// Usage â€” TypeScript enforces these invariants at compile time
+const status: OrderStatus = 'pending' // âœ… Valid
+const invalidStatus: OrderStatus = 'invalid' // âŒ Compile error
 ```
 
 ### Step 3: Define Discriminated Unions
@@ -255,7 +246,7 @@ export function failure(error: string): Error {
   return { success: false, error }
 }
 
-// Usage — TypeScript knows which properties exist
+// Usage â€” TypeScript knows which properties exist
 function processResult(result: Result<User>) {
   if (result.success) {
     // TypeScript knows result.data exists
@@ -410,12 +401,12 @@ describe('AccountEntity Invariants', () => {
 5. **Testing**: Test all invariant violations
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `zod` — for runtime validation
-- **npm Package**: `vitest` — for testing invariants
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `zod` â€” for runtime validation
+- **npm Package**: `vitest` â€” for testing invariants
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing new invariants

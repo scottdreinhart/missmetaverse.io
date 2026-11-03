@@ -1,9 +1,11 @@
+﻿---
+slug: domain-service
+---
+
 # Domain Service
 
 > **Purpose:** Implement domain services with Domain Service.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `domain-service`
@@ -50,8 +52,6 @@ declared
 - ds
 - domain-operation
 - business-service
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Domain Service does not apply to:
 
 ## Related Concepts
 
-- [[DDD/domain-service]] — Domain Service
-- [[DDD/ds]] — DS
-- [[DDD/domain-operation]] — Domain Operation
-- [[DDD/business-service]] — Business Service
+- [[DDD/domain-service]] â€” Domain Service
+- [[DDD/ds]] â€” DS
+- [[DDD/domain-operation]] â€” Domain Operation
+- [[DDD/business-service]] â€” Business Service
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Domain Service through:
 ## Sources
 
 - [[Sources/evans-ddd|Domain-Driven Design by Eric Evans]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Domain Service Note**

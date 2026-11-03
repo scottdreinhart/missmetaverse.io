@@ -1,31 +1,22 @@
----
+﻿---
 slug: pnpm-workspace-original
 sources:
   - https://pnpm.io/workspaces
   - https://pnpm.io/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - pnpm
   - workspace
   - package-manager
   - patterns
----
-
+  - --
 # pnpm Workspace
 
 ## Definition
 
 pnpm Workspace is a **feature of pnpm for managing multiple packages in a single repository**.
 
-> "pnpm workspaces allow you to organize your code into multiple packages that can depend on each other." — pnpm Docs
+> "pnpm workspaces allow you to organize your code into multiple packages that can depend on each other." â€” pnpm Docs
 
 ## Problem Addressed
 
@@ -37,8 +28,8 @@ Without pnpm workspace:
 
 ## Scope and Boundaries
 
-- pnpm Workspace ≠ pnpm (pnpm workspace is a feature, pnpm is a tool)
-- pnpm Workspace ≠ Monorepo (pnpm workspace is a feature, monorepo is a structure)
+- pnpm Workspace â‰  pnpm (pnpm workspace is a feature, pnpm is a tool)
+- pnpm Workspace â‰  Monorepo (pnpm workspace is a feature, monorepo is a structure)
 - pnpm Workspace is a **feature**, not a tool
 
 ## When to Apply
@@ -52,21 +43,21 @@ Without pnpm workspace:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — pnpm workspace is complex |
-| **Time** — pnpm workspace takes time |
-| **Over-workspace** — Don't use workspace for everything |
+| **Complexity** â€” pnpm workspace is complex |
+| **Time** â€” pnpm workspace takes time |
+| **Over-workspace** â€” Don't use workspace for everything |
 
 ## Common Misuses
 
 - **Everything workspace**: Not everything needs pnpm workspace
-- **Confusing with pnpm**: pnpm workspace ≠ pnpm
+- **Confusing with pnpm**: pnpm workspace â‰  pnpm
 - **Over-workspace**: Too many workspaces create complexity
 
 ## Related Concepts
 
-- [pnpm Best Practices](../Package%20Manager/pnpm-best-practices.md) — pnpm workspace with pnpm
-- [Monorepo](Architecture/monorepo.md) — pnpm workspace with monorepo
-- [Dependency Management](Architecture/dependency-management.md) — pnpm workspace with dependency management
+- [pnpm Best Practices](../Package%20Manager/pnpm-best-practices.md) â€” pnpm workspace with pnpm
+- [Monorepo](Architecture/monorepo.md) â€” pnpm workspace with monorepo
+- [Dependency Management](Architecture/dependency-management.md) â€” pnpm workspace with dependency management
 
 ## Project Observations
 
@@ -74,8 +65,8 @@ Without pnpm workspace:
   - The project's pnpm note covers pnpm workspace (from existing notes)
   - No evidence of pnpm workspace in existing code (src/ is empty)
 - File naming conventions support pnpm workspace:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

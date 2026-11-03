@@ -1,9 +1,11 @@
+﻿---
+slug: parameterized-queries
+---
+
 # Parameterized Queries
 
 > **Purpose:** Prevent SQL injection with Parameterized Queries.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `parameterized-queries`
@@ -50,8 +52,6 @@ declared
 - prepared-statements
 - sql-parameters
 - query-parameters
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Parameterized Queries does not apply to:
 
 ## Related Concepts
 
-- [[Security/parameterized-queries]] — Parameterized Queries
-- [[Security/prepared-statements]] — Prepared Statements
-- [[Security/sql-parameters]] — SQL Parameters
-- [[Security/query-parameters]] — Query Parameters
+- [[Security/parameterized-queries]] â€” Parameterized Queries
+- [[Security/prepared-statements]] â€” Prepared Statements
+- [[Security/sql-parameters]] â€” SQL Parameters
+- [[Security/query-parameters]] â€” Query Parameters
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Parameterized Queries through:
 ## Sources
 
 - [[Sources/owasp-top-10|OWASP Top 10]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Parameterized Queries Note**

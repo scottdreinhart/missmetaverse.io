@@ -1,33 +1,22 @@
----
+﻿---
 slug: incremental-refactoring
 sources:
   - https://martinfowler.com/books/refactoring.html
   - https://www.oreilly.com/library/view/refactoring/9780137858039/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - incremental-refactoring
   - refactoring
   - code-quality
   - maintainability
----
-
+  - --
 # Incremental Refactoring
 
 ## Definition
 
 Incremental Refactoring is **a refactoring approach that makes small, safe, and testable changes to code over time rather than large rewrites**.
 
-> "Incremental refactoring makes small, safe changes to code over time, rather than large rewrites that risk introducing bugs." — Martin Fowler
+> "Incremental refactoring makes small, safe changes to code over time, rather than large rewrites that risk introducing bugs." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without incremental refactoring:
 
 ## Scope and Boundaries
 
-- Incremental Refactoring ≠ Rewrite (incremental refactoring makes small changes, rewrite replaces everything)
+- Incremental Refactoring â‰  Rewrite (incremental refactoring makes small changes, rewrite replaces everything)
 - Incremental Refactoring = Safety (incremental refactoring is safe)
 - Incremental Refactoring is a **refactoring approach**, not a pattern
 
@@ -54,8 +43,8 @@ Without incremental refactoring:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — Incremental refactoring takes time |
-| **Complexity** — Managing incremental changes is complex |
+| **Time** â€” Incremental refactoring takes time |
+| **Complexity** â€” Managing incremental changes is complex |
 | **Partial state**: Code is in a partially refactored state |
 
 ## Common Misuses
@@ -66,9 +55,9 @@ Without incremental refactoring:
 
 ## Related Concepts
 
-- [Refactoring](Quality Delivery/refactoring.md) — Refactoring is the parent concept
-- [Test-Driven Development](Quality Delivery/test-driven-development.md) — TDD supports incremental refactoring
-- [Code Review](Security/code-review.md) — Code review ensures refactoring quality
+- [Refactoring](Quality Delivery/refactoring.md) â€” Refactoring is the parent concept
+- [Test-Driven Development](Quality Delivery/test-driven-development.md) â€” TDD supports incremental refactoring
+- [Code Review](Security/code-review.md) â€” Code review ensures refactoring quality
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without incremental refactoring:
   - The project's architecture patterns note covers refactoring concepts
   - No evidence of incremental refactoring in existing code (src/ is empty)
 - File naming conventions support incremental refactoring:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

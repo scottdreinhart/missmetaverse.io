@@ -1,9 +1,11 @@
+﻿---
+slug: message-deduplication
+---
+
 # Message Deduplication
 
 > **Purpose:** Prevent duplicate messages with Message Deduplication.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `message-deduplication`
@@ -50,8 +52,6 @@ declared
 - idempotency
 - message-deduplication-id
 - duplicate-prevention
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Deduplication does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/message-deduplication]] — Message Deduplication
-- [[Data Databases/idempotency]] — Idempotency
-- [[APIs Distributed Systems/message-deduplication-id]] — Message Deduplication ID
-- [[APIs Distributed Systems/duplicate-prevention]] — Duplicate Prevention
+- [[APIs Distributed Systems/message-deduplication]] â€” Message Deduplication
+- [[Data Databases/idempotency]] â€” Idempotency
+- [[APIs Distributed Systems/message-deduplication-id]] â€” Message Deduplication ID
+- [[APIs Distributed Systems/duplicate-prevention]] â€” Duplicate Prevention
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Message Deduplication through:
 
 ## Sources
 
-- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns — Hohpe & Woolf]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns â€” Hohpe & Woolf]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Message Deduplication Note**

@@ -1,35 +1,23 @@
----
+﻿---
 slug: rest-api-design
 sources:
   - https://restfulapi.net/
   - https://martinfowler.com/articles/richardsonMaturityModel.html
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
   - rest
   - api
   - design
   - patterns
----
-
+  - --
 # REST API Design
 
 ## Definition
 
 REST API Design is an **architecture style for designing networked applications using HTTP methods and resources**.
 
-> "REST (Representational State Transfer) is an architecture style for designing networked applications." — Wikipedia
+> "REST (Representational State Transfer) is an architecture style for designing networked applications." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -41,8 +29,8 @@ Without REST API design:
 
 ## Scope and Boundaries
 
-- REST ≠ GraphQL (REST is an architecture style, GraphQL is a query language)
-- REST ≠ API (REST is an architecture style, API is a boundary)
+- REST â‰  GraphQL (REST is an architecture style, GraphQL is a query language)
+- REST â‰  API (REST is an architecture style, API is a boundary)
 - REST is an **architecture style**, not a query language
 
 ## When to Apply
@@ -56,21 +44,21 @@ Without REST API design:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — REST is complex |
-| **Time** — REST takes time |
-| **Over-REST** — Don't use REST for everything |
+| **Complexity** â€” REST is complex |
+| **Time** â€” REST takes time |
+| **Over-REST** â€” Don't use REST for everything |
 
 ## Common Misuses
 
 - **Everything REST**: Not everything needs REST
-- **Confusing with GraphQL**: REST ≠ GraphQL
+- **Confusing with GraphQL**: REST â‰  GraphQL
 - **Over-REST**: Too much REST creates complexity
 
 ## Related Concepts
 
-- [GraphQL Patterns](graphql-patterns.md) — REST with GraphQL
-- [API Versioning](api-versioning.md) — REST with API versioning
-- [Data Transfer Objects](data-transfer-objects.md) — REST with DTOs
+- [GraphQL Patterns](graphql-patterns.md) â€” REST with GraphQL
+- [API Versioning](api-versioning.md) â€” REST with API versioning
+- [Data Transfer Objects](data-transfer-objects.md) â€” REST with DTOs
 
 ## Project Observations
 
@@ -78,8 +66,8 @@ Without REST API design:
   - The project's architecture patterns note covers REST (from existing notes)
   - No evidence of REST in existing code (src/ is empty)
 - File naming conventions support REST:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ---
 
@@ -100,12 +88,12 @@ Without REST API design:
 6. **Pagination**: Use cursor-based pagination (not offset-based)
 
 ### Tools to Use
-- **VS Code Extension**: REST Client — for testing API endpoints
-- **VS Code Extension**: Thunder Client — alternative API testing
-- **npm Package**: `zod` — for request/response validation
-- **npm Package**: `@fastify/swagger` — for OpenAPI documentation
-- **Terminal Command**: `pnpm add zod @fastify/swagger` — install validation and docs
-- **Terminal Command**: `pnpm add -D @types/supertest` — for API testing types
+- **VS Code Extension**: REST Client â€” for testing API endpoints
+- **VS Code Extension**: Thunder Client â€” alternative API testing
+- **npm Package**: `zod` â€” for request/response validation
+- **npm Package**: `@fastify/swagger` â€” for OpenAPI documentation
+- **Terminal Command**: `pnpm add zod @fastify/swagger` â€” install validation and docs
+- **Terminal Command**: `pnpm add -D @types/supertest` â€” for API testing types
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing API endpoint changes
@@ -119,8 +107,8 @@ Without REST API design:
 - Read [[project-structure-mapping]] for controller folder placement
 
 ### Common Pitfalls
-- Don't use verbs in resource names (`/getUsers` → `/users`)
-- Don't mix resource types in URLs (`/users/123/orders/items` → `/users/123/orders`)
+- Don't use verbs in resource names (`/getUsers` â†’ `/users`)
+- Don't mix resource types in URLs (`/users/123/orders/items` â†’ `/users/123/orders`)
 - Don't return raw database entities (use DTOs)
 - Don't forget to version your API (`/api/v1/`)
 - Don't use offset-based pagination for large datasets

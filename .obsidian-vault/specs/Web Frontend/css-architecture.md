@@ -1,9 +1,11 @@
+﻿---
+slug: css-architecture
+---
+
 # CSS Architecture
 
 > **Purpose:** Structure CSS with CSS Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `css-architecture`
@@ -50,8 +52,6 @@ declared
 - bem-methodology
 - css-modules
 - style-scoping
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ CSS Architecture does not apply to:
 
 ## Related Concepts
 
-- [[Web Frontend/css-architecture]] — CSS Architecture
-- [[Web Frontend/bem-methodology]] — BEM Methodology
-- [[Web Frontend/css-modules]] — CSS Modules
-- [[Web Frontend/style-scoping]] — Style Scoping
+- [[Web Frontend/css-architecture]] â€” CSS Architecture
+- [[Web Frontend/bem-methodology]] â€” BEM Methodology
+- [[Web Frontend/css-modules]] â€” CSS Modules
+- [[Web Frontend/style-scoping]] â€” Style Scoping
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses CSS Architecture through:
 ## Sources
 
 - [[Sources/css-architecture-guide|CSS Architecture Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of CSS Architecture Note**

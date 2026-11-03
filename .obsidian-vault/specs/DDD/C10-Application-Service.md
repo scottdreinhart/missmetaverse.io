@@ -1,33 +1,22 @@
----
+﻿---
 slug: application-service
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/articles/2023-01-software-architecture.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - ddd
   - application-service
   - domain-modeling
   - orchestration
----
-
+  - --
 # Application Service
 
 ## Definition
 
 Application Service is **a operation defined by the way the application needs to work, coordinating domain objects to accomplish a task**.
 
-> "An operation offered as an interface by a layer specifically designed to coordinate application tasks." — Martin Fowler
+> "An operation offered as an interface by a layer specifically designed to coordinate application tasks." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without application services:
 
 ## Scope and Boundaries
 
-- Application Service ≠ Domain Service (application service orchestrates, domain service contains domain logic)
+- Application Service â‰  Domain Service (application service orchestrates, domain service contains domain logic)
 - Application Service = Orchestration (application service coordinates domain objects)
 - Application Service is a **layer pattern**, not a domain pattern
 
@@ -54,9 +43,9 @@ Without application services:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Application services add architectural layers |
-| **Time** — Designing application services takes time |
-| **Over-service** — Not every operation needs an application service |
+| **Complexity** â€” Application services add architectural layers |
+| **Time** â€” Designing application services takes time |
+| **Over-service** â€” Not every operation needs an application service |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without application services:
 
 ## Related Concepts
 
-- [Domain Service](DDD/domain-service.md) — Domain services contain domain logic, application services orchestrate them
-- [Use Case](DDD/use-case.md) — Application services often implement use cases
-- [Service Layer](Architecture/service-layer-pattern.md) — Application services are a form of service layer
+- [Domain Service](DDD/domain-service.md) â€” Domain services contain domain logic, application services orchestrate them
+- [Use Case](DDD/use-case.md) â€” Application services often implement use cases
+- [Service Layer](Architecture/service-layer-pattern.md) â€” Application services are a form of service layer
 
 ## Project Observations
 
@@ -77,8 +66,8 @@ Without application services:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of application services in existing code (src/ is empty)
 - File naming conventions support application services:
-  - `*.use-case.ts` — Use case files
-  - `*.service.ts` — Service files
+  - `*.use-case.ts` â€” Use case files
+  - `*.service.ts` â€” Service files
 
 ## Sources
 
@@ -371,11 +360,11 @@ describe('OrderService', () => {
 5. **Dependency injection**: Services receive dependencies via constructor
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `express` — for controllers
-- **npm Package**: `vitest` — for testing services
-- **Terminal Command**: `pnpm test` — run tests
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `express` â€” for controllers
+- **npm Package**: `vitest` â€” for testing services
+- **Terminal Command**: `pnpm test` â€” run tests
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing new services

@@ -1,9 +1,11 @@
+﻿---
+slug: contract-testing
+---
+
 # Contract Testing
 
 > **Purpose:** Test API contracts between services.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-contract`
@@ -50,8 +52,6 @@ declared
 - testing-mutation
 - testing-property-based
 - testing-risk-based-testing
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Contract testing does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/test-driven-development]] — Test-Driven Development
-- [[Quality & Testing/behavior-driven-development]] — Behavior-Driven Development
-- [[Quality & Testing/mutation-testing]] — Mutation Testing
-- [[Quality & Testing/property-based-testing]] — Property-Based Testing
+- [[Quality & Testing/test-driven-development]] â€” Test-Driven Development
+- [[Quality & Testing/behavior-driven-development]] â€” Behavior-Driven Development
+- [[Quality & Testing/mutation-testing]] â€” Mutation Testing
+- [[Quality & Testing/property-based-testing]] â€” Property-Based Testing
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses TypeScript, which supports contract testing through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Contract Testing Note**

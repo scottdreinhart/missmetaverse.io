@@ -1,31 +1,22 @@
----
+﻿---
 slug: value-object
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/ValueObject.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - ddd
   - value-object
   - domain-modeling
   - immutability
----
-
+  - --
 # Value Object
 
 ## Definition
 
-Value Object is **an object whose equality is based on value rather than identity — two value objects are equal if their attributes are equal**.
+Value Object is **an object whose equality is based on value rather than identity â€” two value objects are equal if their attributes are equal**.
 
-> "An object containing attributes or values but without identity. Two value objects are equal when all their parts are equal." — Eric Evans
+> "An object containing attributes or values but without identity. Two value objects are equal when all their parts are equal." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without value objects:
 
 ## Scope and Boundaries
 
-- Value Object ≠ Entity (value object has no identity, entity has identity)
+- Value Object â‰  Entity (value object has no identity, entity has identity)
 - Value Object = Immutability (value objects are typically immutable)
 - Value Object is a **domain model building block**, not a pattern
 
@@ -52,9 +43,9 @@ Without value objects:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Value objects add boilerplate |
-| **Time** — Designing value objects takes time |
-| **Over-value-object** — Not every data class needs to be a value object |
+| **Complexity** â€” Value objects add boilerplate |
+| **Time** â€” Designing value objects takes time |
+| **Over-value-object** â€” Not every data class needs to be a value object |
 
 ## Common Misuses
 
@@ -64,9 +55,9 @@ Without value objects:
 
 ## Related Concepts
 
-- [Entity](DDD/entity.md) — Entities have identity, value objects don't
-- [Aggregate](DDD/aggregate.md) — Aggregates contain value objects
-- [Immutable Data](Architecture/immutable-data.md) — Value objects are typically immutable
+- [Entity](DDD/entity.md) â€” Entities have identity, value objects don't
+- [Aggregate](DDD/aggregate.md) â€” Aggregates contain value objects
+- [Immutable Data](Architecture/immutable-data.md) â€” Value objects are typically immutable
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without value objects:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of value objects in existing code (src/ is empty)
 - File naming conventions support value objects:
-  - `*.value-object.ts` — Value object files
-  - `*.types.ts` — Type files
+  - `*.value-object.ts` â€” Value object files
+  - `*.types.ts` â€” Type files
 
 ## Sources
 
@@ -399,11 +390,11 @@ describe('MoneyValueObject', () => {
 5. **Validation**: Validate in constructor
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `vitest` — for testing value objects
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `vitest` â€” for testing value objects
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing value objects

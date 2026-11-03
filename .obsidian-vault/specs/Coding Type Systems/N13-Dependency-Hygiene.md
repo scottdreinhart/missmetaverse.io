@@ -1,31 +1,22 @@
----
+﻿---
 slug: dependency-hygiene
 sources:
   - https://www.typescriptlang.org/
   - https://pnpm.io/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - dependency-hygiene
   - typescript
   - type-system
   - patterns
----
-
+  - --
 # Dependency Hygiene
 
 ## Definition
 
 Dependency Hygiene is **a TypeScript pattern for managing dependencies between modules, ensuring clean dependency graphs and avoiding circular dependencies**.
 
-> "Dependency hygiene ensures that modules have clean dependency graphs and avoid circular dependencies." — TypeScript Docs
+> "Dependency hygiene ensures that modules have clean dependency graphs and avoid circular dependencies." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without dependency hygiene:
 
 ## Scope and Boundaries
 
-- Dependency Hygiene ≠ Dependency Injection (dependency hygiene manages dependencies, dependency injection is a pattern)
+- Dependency Hygiene â‰  Dependency Injection (dependency hygiene manages dependencies, dependency injection is a pattern)
 - Dependency Hygiene = Cleanliness (dependency hygiene ensures clean dependencies)
 - Dependency Hygiene is a **TypeScript pattern**, not a design pattern
 
@@ -52,8 +43,8 @@ Without dependency hygiene:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Dependency hygiene adds abstraction |
-| **Time** — Implementing dependency hygiene takes time |
+| **Complexity** â€” Dependency hygiene adds abstraction |
+| **Time** â€” Implementing dependency hygiene takes time |
 | **Over-hygiene**: Not every dependency needs hygiene |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without dependency hygiene:
 
 ## Related Concepts
 
-- [Dependency Injection](Architecture/dependency-injection.md) — Dependency injection is a pattern for managing dependencies
-- [Low Coupling](Architecture/low-coupling.md) — Low coupling is a principle behind dependency hygiene
-- [pnpm Workspace](Architecture/pnpm-workspace.md) — pnpm workspace supports dependency hygiene
+- [Dependency Injection](Architecture/dependency-injection.md) â€” Dependency injection is a pattern for managing dependencies
+- [Low Coupling](Architecture/low-coupling.md) â€” Low coupling is a principle behind dependency hygiene
+- [pnpm Workspace](Architecture/pnpm-workspace.md) â€” pnpm workspace supports dependency hygiene
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without dependency hygiene:
   - The project's architecture patterns note covers TypeScript concepts
   - No evidence of dependency hygiene in existing code (src/ is empty)
 - File naming conventions support dependency hygiene:
-  - `*.port.ts` — Port files
-  - `*.adapter.ts` — Adapter files
+  - `*.port.ts` â€” Port files
+  - `*.adapter.ts` â€” Adapter files
 
 ## Sources
 

@@ -1,32 +1,23 @@
----
+﻿---
 slug: use-case-ddd
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/UseCase.html
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
   - ddd
   - use-case
   - domain-modeling
   - requirements
----
-
+  - --
 # Use Case
 
 ## Definition
 
 Use Case is **a description of how a user interacts with a system to achieve a goal, capturing the system's behavior from the user's perspective**.
 
-> "A use case describes a sequence of interactions between an actor and a system that produces a result of value to the actor." — Alistair Cockburn
+> "A use case describes a sequence of interactions between an actor and a system that produces a result of value to the actor." â€” Alistair Cockburn
 
 ## Problem Addressed
 
@@ -38,7 +29,7 @@ Without use cases:
 
 ## Scope and Boundaries
 
-- Use Case ≠ User Story (use case is detailed and formal, user story is informal and brief)
+- Use Case â‰  User Story (use case is detailed and formal, user story is informal and brief)
 - Use Case = Requirements (use cases capture system requirements)
 - Use Case is a **requirements artifact**, not a code pattern
 
@@ -53,9 +44,9 @@ Without use cases:
 
 | Cost | Description |
 |------|-------------|
-| **Effort** — Writing use cases takes effort |
-| **Time** — Detailed use cases take time to create |
-| **Over-documentation** — Don't write use cases for simple systems |
+| **Effort** â€” Writing use cases takes effort |
+| **Time** â€” Detailed use cases take time to create |
+| **Over-documentation** â€” Don't write use cases for simple systems |
 
 ## Common Misuses
 
@@ -65,9 +56,9 @@ Without use cases:
 
 ## Related Concepts
 
-- [Application Service](DDD/application-service.md) — Application services often implement use cases
-- [Domain Service](DDD/domain-service.md) — Domain services support use cases
-- [Event Sourcing](Data Databases/event-sourcing.md) — Use cases can be implemented with event sourcing
+- [Application Service](DDD/application-service.md) â€” Application services often implement use cases
+- [Domain Service](DDD/domain-service.md) â€” Domain services support use cases
+- [Event Sourcing](Data Databases/event-sourcing.md) â€” Use cases can be implemented with event sourcing
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without use cases:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of use cases in existing code (src/ is empty)
 - File naming conventions support use cases:
-  - `*.use-case.ts` — Use case files
-  - `*.logic.ts` — Logic files
+  - `*.use-case.ts` â€” Use case files
+  - `*.logic.ts` â€” Logic files
 
 ## Sources
 
@@ -143,15 +134,15 @@ graph TD
 
 ## Alternative Flows
 
-- A1: Invalid cart items → Show error, return to cart
-- A2: Payment failed → Show error, retry payment
-- A3: Out of stock → Show error, remove items
+- A1: Invalid cart items â†’ Show error, return to cart
+- A2: Payment failed â†’ Show error, retry payment
+- A3: Out of stock â†’ Show error, remove items
 
 ## Edge Cases
 
-- E1: Cart is empty → Show "Add items" message
-- E2: User not logged in → Redirect to login
-- E3: Network failure → Show retry option
+- E1: Cart is empty â†’ Show "Add items" message
+- E2: User not logged in â†’ Redirect to login
+- E3: Network failure â†’ Show retry option
 ```
 
 ### Step 2: Implement Use Case as Application Service
@@ -411,12 +402,12 @@ export class CheckoutUseCase {
 5. **Include/Extend**: Use relationships for shared behavior
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `vitest` — for testing use cases
-- **npm Package**: `express` — for controllers
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `vitest` â€” for testing use cases
+- **npm Package**: `express` â€” for controllers
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing new use cases

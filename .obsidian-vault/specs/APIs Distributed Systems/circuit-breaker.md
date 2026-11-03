@@ -1,9 +1,11 @@
+﻿---
+slug: circuit-breaker
+---
+
 # Circuit Breaker
 
 > **Purpose:** Prevent cascading failures in distributed systems.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `api-circuit-breaker`
@@ -51,8 +53,6 @@ declared
 - api-retry-with-backoff
 - api-bulkheads
 - api-saga
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Circuit breakers do not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/timeouts]] — Timeouts
-- [[APIs Distributed Systems/cancellation]] — Cancellation
-- [[APIs Distributed Systems/retry-with-backoff]] — Retry with Backoff and Jitter
-- [[APIs Distributed Systems/bulkheads]] — Bulkheads
+- [[APIs Distributed Systems/timeouts]] â€” Timeouts
+- [[APIs Distributed Systems/cancellation]] â€” Cancellation
+- [[APIs Distributed Systems/retry-with-backoff]] â€” Retry with Backoff and Jitter
+- [[APIs Distributed Systems/bulkheads]] â€” Bulkheads
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses TypeScript with HTTP clients, which supports circuit breakers t
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Circuit Breaker Note**

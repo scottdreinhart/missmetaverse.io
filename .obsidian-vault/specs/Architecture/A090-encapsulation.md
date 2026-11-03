@@ -1,34 +1,22 @@
----
+﻿---
 slug: encapsulation
 sources:
   - https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
   - https://www.geeksforgeeks.org/what-is-encapsulation-in-object-oriented-programming/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - encapsulation
   - principles
   - oop
   - information-hiding
----
-
+  - --
 # Encapsulation
 
 ## Definition
 
 Encapsulation is the principle of **bundling data and the methods that operate on that data into a single unit, while hiding internal implementation details**.
 
-> "Encapsulation is the process of combining data and functions into a single component while preventing the internal state from being accessed directly." — Object-oriented programming principle
+> "Encapsulation is the process of combining data and functions into a single component while preventing the internal state from being accessed directly." â€” Object-oriented programming principle
 
 ## Problem Addressed
 
@@ -42,7 +30,7 @@ Without encapsulation:
 
 - Encapsulation is about **bundling + hiding**, not just hiding
 - It applies at all levels: classes, modules, functions, variables
-- Encapsulation ≠ Information Hiding (encapsulation bundles, information hiding restricts access)
+- Encapsulation â‰  Information Hiding (encapsulation bundles, information hiding restricts access)
 
 ## When to Apply
 
@@ -67,9 +55,9 @@ Without encapsulation:
 
 ## Related Concepts
 
-- **Information Hiding** — Encapsulation enables information hiding
-- **Single Responsibility Principle** — Each class encapsulates one responsibility
-- **Immutability** — Stronger form of encapsulation
+- **Information Hiding** â€” Encapsulation enables information hiding
+- **Single Responsibility Principle** â€” Each class encapsulates one responsibility
+- **Immutability** â€” Stronger form of encapsulation
 
 ## Project Observations
 

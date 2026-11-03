@@ -1,9 +1,11 @@
+﻿---
+slug: database-transactions
+---
+
 # Database Transactions
 
 > **Purpose:** Manage transactions with ACID properties.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `database-transactions`
@@ -50,8 +52,6 @@ declared
 - acid-properties
 - transaction-isolation
 - distributed-transactions
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Transactions do not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/database-transactions]] — Database Transactions
-- [[Data Databases/acid-properties]] — ACID Properties
-- [[Data Databases/transaction-isolation]] — Transaction Isolation
-- [[Data Databases/distributed-transactions]] — Distributed Transactions
+- [[Data Databases/database-transactions]] â€” Database Transactions
+- [[Data Databases/acid-properties]] â€” ACID Properties
+- [[Data Databases/transaction-isolation]] â€” Transaction Isolation
+- [[Data Databases/distributed-transactions]] â€” Distributed Transactions
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Database Transactions through:
 
 ## Sources
 
-- [[Sources/database-design-hoffer|Database Design — Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Transactions Note**

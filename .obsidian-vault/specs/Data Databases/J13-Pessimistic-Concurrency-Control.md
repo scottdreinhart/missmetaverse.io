@@ -1,33 +1,22 @@
----
+﻿---
 slug: pessimistic-cc
 sources:
   - https://www.postgresql.org/docs/
   - https://dev.mysql.com/doc/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - database
   - concurrency
   - locking
   - consistency
----
-
+  - --
 # Pessimistic Concurrency Control
 
 ## Definition
 
 Pessimistic Concurrency Control is **a concurrency control method that assumes conflicts will occur and locks resources to prevent concurrent modifications**.
 
-> "Pessimistic concurrency control assumes that concurrent transactions are likely to conflict, so it locks resources before they are accessed." — Wikipedia
+> "Pessimistic concurrency control assumes that concurrent transactions are likely to conflict, so it locks resources before they are accessed." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without pessimistic concurrency control:
 
 ## Scope and Boundaries
 
-- Pessimistic CC ≠ Optimistic CC (pessimistic locks resources, optimistic checks at commit time)
+- Pessimistic CC â‰  Optimistic CC (pessimistic locks resources, optimistic checks at commit time)
 - Pessimistic CC = Locking (pessimistic concurrency control uses locks)
 - Pessimistic CC is a **concurrency strategy**, not a pattern
 
@@ -54,9 +43,9 @@ Without pessimistic concurrency control:
 
 | Cost | Description |
 |------|-------------|
-| **Performance** — Locks reduce concurrency |
-| **Deadlocks** — Locks can cause deadlocks |
-| **Blocking** — Other transactions must wait |
+| **Performance** â€” Locks reduce concurrency |
+| **Deadlocks** â€” Locks can cause deadlocks |
+| **Blocking** â€” Other transactions must wait |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without pessimistic concurrency control:
 
 ## Related Concepts
 
-- [Optimistic Concurrency](Data Databases/optimistic-cc.md) — Optimistic concurrency is the alternative to pessimistic concurrency
-- [Transaction Boundaries](Data Databases/transaction-boundaries.md) — Transactions use concurrency control
-- [ACID](Data Databases/acid.md) — ACID properties include isolation
+- [Optimistic Concurrency](Data Databases/optimistic-cc.md) â€” Optimistic concurrency is the alternative to pessimistic concurrency
+- [Transaction Boundaries](Data Databases/transaction-boundaries.md) â€” Transactions use concurrency control
+- [ACID](Data Databases/acid.md) â€” ACID properties include isolation
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without pessimistic concurrency control:
   - The project's architecture patterns note covers database concepts
   - No evidence of pessimistic concurrency control in existing code (src/ is empty)
 - File naming conventions support pessimistic concurrency control:
-  - `*.repository.ts` — Repository files
-  - `*.migration.ts` — Migration files
+  - `*.repository.ts` â€” Repository files
+  - `*.migration.ts` â€” Migration files
 
 ## Sources
 

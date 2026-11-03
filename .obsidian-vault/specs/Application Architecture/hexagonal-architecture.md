@@ -1,9 +1,11 @@
+﻿---
+slug: hexagonal-architecture
+---
+
 # Hexagonal Architecture
 
 > **Purpose:** Implement hexagonal architecture with Hexagonal Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `hexagonal-architecture`
@@ -50,8 +52,6 @@ declared
 - ports-and-adapters
 - clean-architecture
 - dependency-architecture
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Hexagonal Architecture does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/hexagonal-architecture]] — Hexagonal Architecture
-- [[Application Architecture/ports-and-adapters]] — Ports and Adapters
-- [[Application Architecture/clean-architecture]] — Clean Architecture
-- [[Application Architecture/dependency-architecture]] — Dependency Architecture
+- [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Application Architecture/ports-and-adapters]] â€” Ports and Adapters
+- [[Application Architecture/clean-architecture]] â€” Clean Architecture
+- [[Application Architecture/dependency-architecture]] â€” Dependency Architecture
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Hexagonal Architecture through:
 ## Sources
 
 - [[Sources/hexagonal-architecture-guide|Hexagonal Architecture Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Hexagonal Architecture Note**

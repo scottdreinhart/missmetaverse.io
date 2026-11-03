@@ -1,9 +1,11 @@
+﻿---
+slug: single-responsibility-principle
+---
+
 # Single Responsibility Principle
 
-> **Purpose:** Foundation of SOLID — each module should have one reason to change.
+> **Purpose:** Foundation of SOLID â€” each module should have one reason to change.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-single-responsibility`
@@ -52,8 +54,6 @@ declared
 - arch-dry
 - arch-low-coupling
 
----
-
 ## Definition
 
 The Single Responsibility Principle states that a class or module should have one, and only one, reason to change. A responsibility is defined as a reason for change, and each class should encapsulate that responsibility entirely.
@@ -70,9 +70,9 @@ Without SRP:
 ## Scope and Boundaries
 
 SRP applies to:
-- Class design — each class should have one job
-- Module design — each module should serve one purpose
-- Function design — each function should do one thing
+- Class design â€” each class should have one job
+- Module design â€” each module should serve one purpose
+- Function design â€” each function should do one thing
 
 SRP does not mean:
 - Classes must be small (size is not the goal)
@@ -116,10 +116,10 @@ SRP does not mean:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/separation-of-concerns]] — Separation of Concerns
-- [[Architecture/high-cohesion]] — High Cohesion
-- [[Architecture/dry]] — DRY Principle
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/separation-of-concerns]] â€” Separation of Concerns
+- [[Architecture/high-cohesion]] â€” High Cohesion
+- [[Architecture/dry]] â€” DRY Principle
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project uses TypeScript, which supports SRP through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Single Responsibility Principle Note**

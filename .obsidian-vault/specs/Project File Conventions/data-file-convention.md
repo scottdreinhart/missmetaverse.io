@@ -1,9 +1,11 @@
+﻿---
+slug: data-file-convention
+---
+
 # Data File Convention
 
 > **Purpose:** Separate data layer from business logic.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-data-file`
@@ -51,11 +53,9 @@ declared
 - project-schema-file
 - arch-port-file-convention
 
----
-
 ## Definition
 
-The *.data.ts file convention designates files that handle data layer concerns — data fetching, API integration, and data transformation.
+The *.data.ts file convention designates files that handle data layer concerns â€” data fetching, API integration, and data transformation.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Data files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Project File Conventions/hook-file-convention]] — *.hook.ts File Convention
-- [[Project File Conventions/port-file-convention]] — *.port.ts File Convention
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Project File Conventions/hook-file-convention]] â€” *.hook.ts File Convention
+- [[Project File Conventions/port-file-convention]] â€” *.port.ts File Convention
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows data file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Data File Convention Note**

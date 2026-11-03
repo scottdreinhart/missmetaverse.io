@@ -1,9 +1,11 @@
+﻿---
+slug: dependency-hygiene
+---
+
 # Dependency Hygiene
 
 > **Purpose:** Manage imports and dependencies carefully.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-dependency-hygiene`
@@ -51,8 +53,6 @@ declared
 - arch-separation-of-concerns
 - arch-dry
 - coding-small-cohesive-modules
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ Dependency hygiene does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/low-coupling]] — Low Coupling
-- [[Architecture/high-cohesion]] — High Cohesion
-- [[Architecture/separation-of-concerns]] — Separation of Concerns
-- [[Architecture/dry]] — DRY Principle
+- [[Architecture/low-coupling]] â€” Low Coupling
+- [[Architecture/high-cohesion]] â€” High Cohesion
+- [[Architecture/separation-of-concerns]] â€” Separation of Concerns
+- [[Architecture/dry]] â€” DRY Principle
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project follows dependency hygiene through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Dependency Hygiene Note**

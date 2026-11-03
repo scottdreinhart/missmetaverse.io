@@ -1,9 +1,11 @@
+﻿---
+slug: source-control-strategies
+---
+
 # Source Control Strategies
 
 > **Purpose:** Manage code with Source Control Strategies.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `source-control-strategies`
@@ -50,8 +52,6 @@ declared
 - git-flow
 - trunk-based-development
 - github-flow
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Source Control Strategies do not apply to:
 
 ## Related Concepts
 
-- [[Commit Management/source-control-strategies]] — Source Control Strategies
-- [[Commit Management/git-flow]] — Git Flow
-- [[Commit Management/trunk-based-development]] — Trunk-Based Development
-- [[Commit Management/github-flow]] — GitHub Flow
+- [[Commit Management/source-control-strategies]] â€” Source Control Strategies
+- [[Commit Management/git-flow]] â€” Git Flow
+- [[Commit Management/trunk-based-development]] â€” Trunk-Based Development
+- [[Commit Management/github-flow]] â€” GitHub Flow
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Source Control Strategies through:
 ## Sources
 
 - [[Sources/git-scm-documentation|Git SCM Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Source Control Strategies Note**

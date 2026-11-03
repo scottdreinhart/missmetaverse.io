@@ -1,9 +1,11 @@
+﻿---
+slug: lucide-icon-library
+---
+
 # Lucide Icon Library
 
 > **Purpose:** Use Lucide icons in React applications.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `lucide-icon-library`
@@ -50,8 +52,6 @@ declared
 - lucide-icons
 - lucide-configuration
 - lucide-customization
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Lucide does not apply to:
 
 ## Related Concepts
 
-- [[Lucide/lucide-react]] — Lucide React
-- [[Lucide/lucide-icons]] — Lucide Icons
-- [[Lucide/lucide-configuration]] — Lucide Configuration
-- [[Lucide/lucide-customization]] — Lucide Customization
+- [[Lucide/lucide-react]] â€” Lucide React
+- [[Lucide/lucide-icons]] â€” Lucide Icons
+- [[Lucide/lucide-configuration]] â€” Lucide Configuration
+- [[Lucide/lucide-customization]] â€” Lucide Customization
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Lucide through:
 ## Sources
 
 - [[Sources/lucide-documentation|Lucide Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Lucide Icon Library Note**

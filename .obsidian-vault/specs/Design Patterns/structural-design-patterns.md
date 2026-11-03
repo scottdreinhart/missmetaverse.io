@@ -1,3 +1,7 @@
+---
+slug: structural-design-patterns
+---
+
 # Structural Design Patterns
 
 > **Purpose:** Compose objects and classes with Structural Patterns.

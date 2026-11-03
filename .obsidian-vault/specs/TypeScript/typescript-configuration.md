@@ -1,9 +1,11 @@
+﻿---
+slug: typescript-configuration
+---
+
 # TypeScript Configuration
 
 > **Purpose:** Configure TypeScript for the project.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `typescript-configuration`
@@ -50,8 +52,6 @@ declared
 - typescript-path-aliases
 - typescript-type-checking
 - typescript-compilation
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ TypeScript configuration does not apply to:
 
 ## Related Concepts
 
-- [[TypeScript/typescript-strict-mode]] — TypeScript Strict Mode
-- [[TypeScript/typescript-path-aliases]] — TypeScript Path Aliases
-- [[TypeScript/typescript-type-checking]] — TypeScript Type Checking
-- [[TypeScript/typescript-compilation]] — TypeScript Compilation
+- [[TypeScript/typescript-strict-mode]] â€” TypeScript Strict Mode
+- [[TypeScript/typescript-path-aliases]] â€” TypeScript Path Aliases
+- [[TypeScript/typescript-type-checking]] â€” TypeScript Type Checking
+- [[TypeScript/typescript-compilation]] â€” TypeScript Compilation
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses TypeScript configuration through:
 ## Sources
 
 - [[Sources/typescript-documentation|TypeScript Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of TypeScript Configuration Note**

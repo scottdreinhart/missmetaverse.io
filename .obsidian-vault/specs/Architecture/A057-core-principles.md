@@ -1,20 +1,10 @@
----
+﻿---
 slug: core-principles
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
   - https://www.enterpriseintegrationpatterns.com/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - dry
   - kiss
   - yagni
@@ -31,8 +21,7 @@ tags:
   - principle-of-least-astonishment
   - explicit-over-implicit
   - fail-fast
----
-
+  - --
 # Core Principles
 
 ## Overview
@@ -48,7 +37,7 @@ Core principles are the foundational rules that guide software design and implem
 **Eliminate duplication by abstracting common behavior.**
 
 ```typescript
-// ❌ Duplicated validation logic
+// âŒ Duplicated validation logic
 function createUser(data: CreateUserDto): User {
   if (!data.name || data.name.length < 2) throw new Error('Invalid name')
   if (!data.email || !data.email.includes('@')) throw new Error('Invalid email')
@@ -61,7 +50,7 @@ function updateUser(id: string, data: UpdateUserDto): User {
   // ... update user
 }
 
-// ✅ DRY — single source of truth
+// âœ… DRY â€” single source of truth
 function validateUser(data: CreateUserDto | UpdateUserDto): void {
   if (!data.name || data.name.length < 2) throw new Error('Invalid name')
   if (!data.email || !data.email.includes('@')) throw new Error('Invalid email')
@@ -83,7 +72,7 @@ function updateUser(id: string, data: UpdateUserDto): User {
 **Prefer simple solutions over complex ones.**
 
 ```typescript
-// ❌ Overly complex
+// âŒ Overly complex
 function processOrder(order: Order): Promise<void> {
   return this.complexStateMachine
     .transition(order.status, 'processing')
@@ -92,7 +81,7 @@ function processOrder(order: Order): Promise<void> {
     .then(() => this.complexStateMachine.persist())
 }
 
-// ✅ Simple and clear
+// âœ… Simple and clear
 function processOrder(order: Order): Promise<void> {
   if (order.status !== 'pending') {
     throw new Error('Only pending orders can be processed')
@@ -107,7 +96,7 @@ function processOrder(order: Order): Promise<void> {
 **Don't add functionality until it's needed.**
 
 ```typescript
-// ❌ YAGNI — building for hypothetical future needs
+// âŒ YAGNI â€” building for hypothetical future needs
 class UserService {
   // Not needed yet
   async exportToCSV(): Promise<string> { /* ... */ }
@@ -121,7 +110,7 @@ class UserService {
   async findById(id: string): Promise<User | null> { /* ... */ }
 }
 
-// ✅ YAGNI — only what's needed now
+// âœ… YAGNI â€” only what's needed now
 class UserService {
   async create(data: CreateUserDto): Promise<User> { /* ... */ }
   async findById(id: string): Promise<User | null> { /* ... */ }
@@ -136,15 +125,15 @@ class UserService {
 **Divide the system into distinct sections, each addressing a separate concern.**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Presentation Layer  — UI, user interaction             │
-├─────────────────────────────────────────────────────────┤
-│  Application Layer   — Use cases, orchestration         │
-├─────────────────────────────────────────────────────────┤
-│  Domain Layer        — Business rules, entities         │
-├─────────────────────────────────────────────────────────┤
-│  Infrastructure Layer — Database, external services     │
-└─────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Presentation Layer  â€” UI, user interaction             â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Application Layer   â€” Use cases, orchestration         â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Domain Layer        â€” Business rules, entities         â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Infrastructure Layer â€” Database, external services     â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ### High Cohesion
@@ -152,7 +141,7 @@ class UserService {
 **Elements within a module should be closely related and focused.**
 
 ```typescript
-// ❌ Low cohesion — unrelated responsibilities
+// âŒ Low cohesion â€” unrelated responsibilities
 class UserService {
   createUser() { /* ... */ }
   sendEmail() { /* ... */ }
@@ -161,7 +150,7 @@ class UserService {
   resizeImage() { /* ... */ }
 }
 
-// ✅ High cohesion — focused modules
+// âœ… High cohesion â€” focused modules
 class UserService {
   createUser() { /* ... */ }
   updateUser() { /* ... */ }
@@ -189,7 +178,7 @@ class TaxService {
 **Minimize dependencies between modules.**
 
 ```typescript
-// ❌ High coupling — direct dependency on concrete class
+// âŒ High coupling â€” direct dependency on concrete class
 class OrderService {
   private emailService = new EmailService()  // Hard dependency
 
@@ -198,7 +187,7 @@ class OrderService {
   }
 }
 
-// ✅ Low coupling — dependency on abstraction
+// âœ… Low coupling â€” dependency on abstraction
 class OrderService {
   constructor(private emailPort: EmailPort) {}  // Abstraction
 
@@ -218,11 +207,11 @@ class OrderService {
 
 ```typescript
 class BankAccount {
-  // Private — hidden from external access
+  // Private â€” hidden from external access
   private balance: number = 0
   private transactions: Transaction[] = []
 
-  // Public — controlled interface
+  // Public â€” controlled interface
   deposit(amount: number): void {
     if (amount <= 0) throw new Error('Amount must be positive')
     this.balance += amount
@@ -244,7 +233,7 @@ class BankAccount {
 // External code cannot directly modify balance
 const account = new BankAccount()
 account.deposit(100)
-// account.balance = 999999  // ❌ Compile error — private
+// account.balance = 999999  // âŒ Compile error â€” private
 ```
 
 ### Encapsulation
@@ -285,7 +274,7 @@ class Order {
 **Prefer composing objects over inheriting from base classes.**
 
 ```typescript
-// ❌ Inheritance — fragile base class problem
+// âŒ Inheritance â€” fragile base class problem
 class Employee {
   calculateSalary(): number {
     return 5000
@@ -307,7 +296,7 @@ class Developer extends Employee {
 // Problem: Adding new types requires modifying base class
 // class Contractor extends Employee { /* ... */ }
 
-// ✅ Composition — flexible and extensible
+// âœ… Composition â€” flexible and extensible
 interface SalaryCalculator {
   calculate(): number
 }
@@ -336,20 +325,20 @@ const manager = new Employee(new BonusSalaryCalculator(new BaseSalaryCalculator(
 
 ### Law of Demeter (Principle of Least Knowledge)
 
-**Only talk to your immediate friends — don't call methods on returned objects.**
+**Only talk to your immediate friends â€” don't call methods on returned objects.**
 
 ```typescript
-// ❌ Violation — chaining multiple calls
+// âŒ Violation â€” chaining multiple calls
 const city = order.getCustomer().getAddress().getCity()
 
-// ✅ Respect — each object knows only its immediate dependencies
+// âœ… Respect â€” each object knows only its immediate dependencies
 class Order {
   getCustomerCity(): string {
     return this.customer.getAddress().getCity()  // Still a violation
   }
 }
 
-// Better — expose only what's needed
+// Better â€” expose only what's needed
 class Order {
   getCity(): string {
     return this.customer.getCity()  // Customer exposes city directly
@@ -362,7 +351,7 @@ class Order {
 **Tell objects what to do, don't ask for their data and decide.**
 
 ```typescript
-// ❌ Ask — client makes the decision
+// âŒ Ask â€” client makes the decision
 function processOrder(order: Order): void {
   if (order.getStatus() === 'pending') {
     order.setStatus('confirmed')
@@ -370,7 +359,7 @@ function processOrder(order: Order): void {
   }
 }
 
-// ✅ Tell — delegate to the object
+// âœ… Tell â€” delegate to the object
 function processOrder(order: Order): void {
   order.confirm()  // Order knows how to confirm itself
 }
@@ -391,7 +380,7 @@ class Order {
 **Methods should either do something (command) or return something (query), not both.**
 
 ```typescript
-// ❌ Violation — both modifies state and returns value
+// âŒ Violation â€” both modifies state and returns value
 class UserService {
   findOrCreate(name: string): User {
     const existing = this.findByName(name)
@@ -401,14 +390,14 @@ class UserService {
   }
 }
 
-// ✅ CQS — separate command and query
+// âœ… CQS â€” separate command and query
 class UserService {
-  // Query — returns value, no side effects
+  // Query â€” returns value, no side effects
   findByName(name: string): User | null {
     return this.repository.findOne({ name })
   }
 
-  // Command — modifies state, returns void
+  // Command â€” modifies state, returns void
   create(params: CreateUserParams): void {
     const user = new User(params.name)
     this.repository.save(user)
@@ -457,26 +446,26 @@ class BankAccount {
 **Code should behave in ways that surprise users the least.**
 
 ```typescript
-// ❌ Astonishing — unexpected behavior
+// âŒ Astonishing â€” unexpected behavior
 function divide(a: number, b: number): number {
-  if (b === 0) return 0  // Returns 0 instead of throwing — surprising!
+  if (b === 0) return 0  // Returns 0 instead of throwing â€” surprising!
   return a / b
 }
 
-// ✅ Expected — throws on invalid input
+// âœ… Expected â€” throws on invalid input
 function divide(a: number, b: number): number {
   if (b === 0) {
-    throw new Error('Division by zero')  // Throws — expected behavior
+    throw new Error('Division by zero')  // Throws â€” expected behavior
   }
   return a / b
 }
 
-// ❌ Astonishing — silent failure
+// âŒ Astonishing â€” silent failure
 function findUser(id: string): User {
   return this.users.find(u => u.id === id) ?? {}  // Returns empty object
 }
 
-// ✅ Expected — clear failure
+// âœ… Expected â€” clear failure
 function findUser(id: string): User | null {
   return this.users.find(u => u.id === id) ?? null  // Returns null
 }
@@ -491,23 +480,23 @@ function findUser(id: string): User | null {
 **Prefer explicit code over implicit behavior.**
 
 ```typescript
-// ❌ Implicit — hidden dependencies
+// âŒ Implicit â€” hidden dependencies
 function processOrder(): void {
   const user = currentUser  // Where does this come from?
   const items = cartItems  // Where does this come from?
   // ...
 }
 
-// ✅ Explicit — clear dependencies
+// âœ… Explicit â€” clear dependencies
 function processOrder(user: User, items: OrderItem[]): void {
   // Dependencies are clear from the signature
   // ...
 }
 
-// ❌ Implicit — magic strings
+// âŒ Implicit â€” magic strings
 const status = data['s']  // What does 's' mean?
 
-// ✅ Explicit — named constants
+// âœ… Explicit â€” named constants
 const status = data['status']  // Clear intent
 ```
 
@@ -516,14 +505,14 @@ const status = data['status']  // Clear intent
 **Detect and report errors as early as possible.**
 
 ```typescript
-// ❌ Late failure — error occurs deep in the call stack
+// âŒ Late failure â€” error occurs deep in the call stack
 function processOrder(order: Order): void {
   this.validate(order)  // Validation happens late
   this.save(order)
   this.notify(order)
 }
 
-// ✅ Fail fast — validate immediately
+// âœ… Fail fast â€” validate immediately
 function processOrder(order: Order): void {
   if (!order.items.length) {
     throw new Error('Order must have items')  // Fail immediately

@@ -1,35 +1,22 @@
----
+﻿---
 slug: aggregate
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/Aggregate.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - ddd
   - aggregate
   - domain-modeling
   - consistency
----
-
+  - --
 # Aggregate
 
 ## Definition
 
 Aggregate is **a cluster of associated objects that we treat as a unit for the purpose of data changes, with a boundary and a root**.
 
-> "An Aggregate is a pattern of one or more domain objects that forms an integrity boundary." — Eric Evans
+> "An Aggregate is a pattern of one or more domain objects that forms an integrity boundary." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -41,7 +28,7 @@ Without aggregates:
 
 ## Scope and Boundaries
 
-- Aggregate ≠ Aggregate Root (aggregate is the cluster, aggregate root is the entry point)
+- Aggregate â‰  Aggregate Root (aggregate is the cluster, aggregate root is the entry point)
 - Aggregate = Consistency (aggregates maintain consistency within their boundary)
 - Aggregate is a **domain model building block**, not a pattern
 
@@ -56,9 +43,9 @@ Without aggregates:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Aggregates add modeling complexity |
-| **Time** — Designing aggregates takes time |
-| **Over-aggregate** — Don't create aggregates for simple domains |
+| **Complexity** â€” Aggregates add modeling complexity |
+| **Time** â€” Designing aggregates takes time |
+| **Over-aggregate** â€” Don't create aggregates for simple domains |
 
 ## Common Misuses
 
@@ -68,9 +55,9 @@ Without aggregates:
 
 ## Related Concepts
 
-- [Aggregate Root](DDD/aggregate-root.md) — Aggregate root is the entry point to an aggregate
-- [Entity](DDD/entity.md) — Aggregates contain entities
-- [Domain Invariant](DDD/domain-invariant.md) — Aggregates maintain domain invariants
+- [Aggregate Root](DDD/aggregate-root.md) â€” Aggregate root is the entry point to an aggregate
+- [Entity](DDD/entity.md) â€” Aggregates contain entities
+- [Domain Invariant](DDD/domain-invariant.md) â€” Aggregates maintain domain invariants
 
 ## Project Observations
 
@@ -79,8 +66,8 @@ Without aggregates:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of aggregates in existing code (src/ is empty)
 - File naming conventions support aggregates:
-  - `*.aggregate.ts` — Aggregate files
-  - `*.entity.ts` — Entity files
+  - `*.aggregate.ts` â€” Aggregate files
+  - `*.entity.ts` â€” Entity files
 
 ## Sources
 
@@ -365,11 +352,11 @@ export class CreateOrderUseCase {
 5. **Small aggregates**: Keep aggregates small for performance
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `vitest` — for testing aggregates
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `vitest` â€” for testing aggregates
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing new aggregates

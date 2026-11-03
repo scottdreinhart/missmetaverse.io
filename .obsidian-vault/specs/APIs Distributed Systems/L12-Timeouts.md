@@ -1,30 +1,22 @@
----
+﻿---
 slug: timeouts
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
   - https://microservices.io/patterns/reliability/timeouts.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
   - timeouts
   - distributed-systems
   - reliability
   - resilience
----
-
+  - --
 # Timeouts
 
 ## Definition
 
 Timeouts is **a distributed systems pattern that limits the amount of time a operation waits for a response, preventing indefinite blocking**.
 
-> "A timeout is a limit on the amount of time an operation is allowed to run before it is aborted." — Microsoft
+> "A timeout is a limit on the amount of time an operation is allowed to run before it is aborted." â€” Microsoft
 
 ## Problem Addressed
 
@@ -36,7 +28,7 @@ Without timeouts:
 
 ## Scope and Boundaries
 
-- Timeouts ≠ Retry (timeout limits wait time, retry retries failed operations)
+- Timeouts â‰  Retry (timeout limits wait time, retry retries failed operations)
 - Timeouts = Reliability (timeouts prevent indefinite blocking)
 - Timeouts is a **reliability pattern**, not a design pattern
 
@@ -51,9 +43,9 @@ Without timeouts:
 
 | Cost | Description |
 |------|-------------|
-| **False positives** — Operations may complete after timeout |
-| **Complexity** — Timeout configuration takes time |
-| **User experience** — Users may see errors for slow operations |
+| **False positives** â€” Operations may complete after timeout |
+| **Complexity** â€” Timeout configuration takes time |
+| **User experience** â€” Users may see errors for slow operations |
 
 ## Common Misuses
 
@@ -63,9 +55,9 @@ Without timeouts:
 
 ## Related Concepts
 
-- [Retry with Backoff](Architecture/retry-with-backoff.md) — Retry with backoff works with timeouts
-- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) — Circuit breaker works with timeouts
-- [Bulkheads](Architecture/bulkheads-pattern.md) — Bulkheads work with timeouts
+- [Retry with Backoff](Architecture/retry-with-backoff.md) â€” Retry with backoff works with timeouts
+- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) â€” Circuit breaker works with timeouts
+- [Bulkheads](Architecture/bulkheads-pattern.md) â€” Bulkheads work with timeouts
 
 ## Project Observations
 
@@ -75,8 +67,8 @@ Without timeouts:
   - The project's architecture patterns note covers distributed systems concepts
   - No evidence of timeouts in existing code (src/ is empty)
 - File naming conventions support timeouts:
-  - `*.service.ts` — Service files
-  - `*.repository.ts` — Repository files
+  - `*.service.ts` â€” Service files
+  - `*.repository.ts` â€” Repository files
 
 ## Sources
 

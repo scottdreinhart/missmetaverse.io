@@ -1,9 +1,11 @@
+﻿---
+slug: structured-concurrency
+---
+
 # Structured Concurrency
 
 > **Purpose:** Manage concurrent tasks with clear lifecycle.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-structured-concurrency`
@@ -51,8 +53,6 @@ declared
 - coding-explicit-error-modeling
 - coding-pure-functions
 - arch-fail-fast
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ Structured concurrency does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/resource-lifecycle]] — Resource Lifecycle Management
-- [[Coding Type Systems/immutability]] — Immutability
-- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
-- [[Architecture/fail-fast]] — Fail Fast
+- [[Coding Type Systems/resource-lifecycle]] â€” Resource Lifecycle Management
+- [[Coding Type Systems/immutability]] â€” Immutability
+- [[Coding Type Systems/explicit-error-modeling]] â€” Explicit Error Modeling
+- [[Architecture/fail-fast]] â€” Fail Fast
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project uses TypeScript, which supports structured concurrency through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Structured Concurrency Note**

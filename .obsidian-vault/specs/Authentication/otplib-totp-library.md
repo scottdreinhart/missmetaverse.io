@@ -1,9 +1,11 @@
+﻿---
+slug: otplib-totp-library
+---
+
 # otplib TOTP Library
 
 > **Purpose:** Implement TOTP with otplib.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `otplib-totp-library`
@@ -50,8 +52,6 @@ declared
 - otplib-two-factor
 - otplib-configuration
 - otplib-security
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ otplib does not apply to:
 
 ## Related Concepts
 
-- [[otplib/otplib-totp-implementation]] — otplib TOTP Implementation
-- [[otplib/otplib-two-factor]] — otplib Two-Factor
-- [[otplib/otplib-configuration]] — otplib Configuration
-- [[otplib/otplib-security]] — otplib Security
+- [[otplib/otplib-totp-implementation]] â€” otplib TOTP Implementation
+- [[otplib/otplib-two-factor]] â€” otplib Two-Factor
+- [[otplib/otplib-configuration]] â€” otplib Configuration
+- [[otplib/otplib-security]] â€” otplib Security
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses otplib through:
 ## Sources
 
 - [[Sources/otplib-documentation|otplib Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of otplib TOTP Library Note**

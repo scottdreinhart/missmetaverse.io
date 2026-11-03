@@ -1,9 +1,11 @@
+﻿---
+slug: responsive-design
+---
+
 # Responsive Design
 
 > **Purpose:** Build responsive with Responsive Design.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `responsive-design`
@@ -50,8 +52,6 @@ declared
 - mobile-first-design
 - fluid-layouts
 - media-queries
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Responsive Design does not apply to:
 
 ## Related Concepts
 
-- [[Web Frontend/responsive-design]] — Responsive Design
-- [[Web Frontend/mobile-first-design]] — Mobile-First Design
-- [[Web Frontend/fluid-layouts]] — Fluid Layouts
-- [[Web Frontend/media-queries]] — Media Queries
+- [[Web Frontend/responsive-design]] â€” Responsive Design
+- [[Web Frontend/mobile-first-design]] â€” Mobile-First Design
+- [[Web Frontend/fluid-layouts]] â€” Fluid Layouts
+- [[Web Frontend/media-queries]] â€” Media Queries
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Responsive Design through:
 ## Sources
 
 - [[Sources/responsive-design-guide|Responsive Design Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Responsive Design Note**

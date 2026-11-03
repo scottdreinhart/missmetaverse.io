@@ -1,9 +1,11 @@
+﻿---
+slug: adapter-pattern
+---
+
 # Adapter Pattern
 
 > **Purpose:** Make incompatible interfaces work with Adapter Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `adapter-pattern`
@@ -50,8 +52,6 @@ declared
 - port-pattern
 - facade-pattern
 - proxy-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Adapter does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/adapter-pattern]] — Adapter Pattern
-- [[Project File Conventions/port-file-convention]] — Port File Convention
-- [[Design Patterns/facade-pattern]] — Facade Pattern
-- [[Design Patterns/proxy-pattern]] — Proxy Pattern
+- [[Design Patterns/adapter-pattern]] â€” Adapter Pattern
+- [[Project File Conventions/port-file-convention]] â€” Port File Convention
+- [[Design Patterns/facade-pattern]] â€” Facade Pattern
+- [[Design Patterns/proxy-pattern]] â€” Proxy Pattern
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Adapter Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Adapter Pattern Note**

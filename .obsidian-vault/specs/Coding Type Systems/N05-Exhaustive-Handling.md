@@ -1,30 +1,22 @@
----
+﻿---
 slug: exhaustive-handling
 sources:
   - https://www.typescriptlang.org/
   - https://react.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
   - exhaustive-handling
   - typescript
   - type-system
   - patterns
----
-
+  - --
 # Exhaustive Handling
 
 ## Definition
 
 Exhaustive Handling is **a TypeScript pattern that ensures all possible cases are handled, typically using discriminated unions and the `never` type**.
 
-> "Exhaustive handling ensures that all possible cases in a discriminated union are handled, using the `never` type to catch missing cases." — TypeScript Docs
+> "Exhaustive handling ensures that all possible cases in a discriminated union are handled, using the `never` type to catch missing cases." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -36,7 +28,7 @@ Without exhaustive handling:
 
 ## Scope and Boundaries
 
-- Exhaustive Handling ≠ Type Narrowing (exhaustive handling ensures all cases are handled, type narrowing narrows types)
+- Exhaustive Handling â‰  Type Narrowing (exhaustive handling ensures all cases are handled, type narrowing narrows types)
 - Exhaustive Handling = Completeness (exhaustive handling ensures completeness)
 - Exhaustive Handling is a **TypeScript pattern**, not a design pattern
 
@@ -51,8 +43,8 @@ Without exhaustive handling:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Exhaustive handling adds boilerplate |
-| **Time** — Writing exhaustive handlers takes time |
+| **Complexity** â€” Exhaustive handling adds boilerplate |
+| **Time** â€” Writing exhaustive handlers takes time |
 | **Over-exhaustive**: Not every union needs exhaustive handling |
 
 ## Common Misuses
@@ -63,9 +55,9 @@ Without exhaustive handling:
 
 ## Related Concepts
 
-- [Discriminated Unions](Architecture/discriminated-unions.md) — Discriminated unions enable exhaustive handling
-- [Type Guards](Architecture/type-guards.md) — Type guards enable exhaustive handling
-- [Type Narrowing](Architecture/type-narrowing.md) — Type narrowing is related to exhaustive handling
+- [Discriminated Unions](Architecture/discriminated-unions.md) â€” Discriminated unions enable exhaustive handling
+- [Type Guards](Architecture/type-guards.md) â€” Type guards enable exhaustive handling
+- [Type Narrowing](Architecture/type-narrowing.md) â€” Type narrowing is related to exhaustive handling
 
 ## Project Observations
 
@@ -74,8 +66,8 @@ Without exhaustive handling:
   - The project's architecture patterns note covers TypeScript concepts
   - No evidence of exhaustive handling in existing code (src/ is empty)
 - File naming conventions support exhaustive handling:
-  - `*.types.ts` — Type files
-  - `*.schema.ts` — Schema files
+  - `*.types.ts` â€” Type files
+  - `*.schema.ts` â€” Schema files
 
 ## Sources
 

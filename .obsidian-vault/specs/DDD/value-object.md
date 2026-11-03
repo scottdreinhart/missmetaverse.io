@@ -1,9 +1,11 @@
+﻿---
+slug: value-object
+---
+
 # Value Object
 
 > **Purpose:** Domain object defined by its attributes, not identity.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `ddd-value-object`
@@ -50,8 +52,6 @@ declared
 - ddd-domain-invariant
 - arch-value-object-file-convention
 - arch-make-invalid-states-unrepresentable
-
----
 
 ## Definition
 
@@ -115,10 +115,10 @@ Value objects do not apply to:
 
 ## Related Concepts
 
-- [[DDD/entity]] — Entity
-- [[DDD/aggregate]] — Aggregate
-- [[Architecture/value-object-file-convention]] — Value Object File Convention
-- [[DDD/domain-invariant]] — Domain Invariant
+- [[DDD/entity]] â€” Entity
+- [[DDD/aggregate]] â€” Aggregate
+- [[Architecture/value-object-file-convention]] â€” Value Object File Convention
+- [[DDD/domain-invariant]] â€” Domain Invariant
 
 ## Project Observations
 
@@ -130,9 +130,7 @@ The project uses TypeScript, which supports value objects through:
 
 ## Sources
 
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Value Object Note**

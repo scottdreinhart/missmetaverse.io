@@ -1,33 +1,22 @@
----
+﻿---
 slug: explicit-error-modeling
 sources:
   - https://en.wikipedia.org/wiki/Error_handling
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - error-handling
   - typescript
   - design
   - types
----
-
+  - --
 # Explicit Error Modeling
 
 ## Definition
 
 Explicit Error Modeling is the principle that **errors should be modeled as values in the type system rather than using exceptions for control flow**. This makes error handling visible in the function signature.
 
-> "Errors should be values, not exceptions." — Functional programming principle
+> "Errors should be values, not exceptions." â€” Functional programming principle
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Exception-based error handling leads to:
 
 ## Scope and Boundaries
 
-- Error modeling ≠ Exception handling (they are complementary)
+- Error modeling â‰  Exception handling (they are complementary)
 - This is a **type system technique**, not a runtime technique
 - TypeScript's `Result<T, E>` pattern is the primary implementation
 
@@ -54,9 +43,9 @@ Exception-based error handling leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Boilerplate** — More code to handle errors |
-| **Verbosity** — Error handling is more explicit |
-| **Performance** — Result types add overhead |
+| **Boilerplate** â€” More code to handle errors |
+| **Verbosity** â€” Error handling is more explicit |
+| **Performance** â€” Result types add overhead |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Exception-based error handling leads to:
 
 ## Related Concepts
 
-- [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md) — Result types use TypeScript
-- [Fail Fast](Architecture/fail-fast.md) — Early error detection
-- [Discriminated Unions](Architecture/coding-practices.md) — Result uses discriminated unions
+- [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md) â€” Result types use TypeScript
+- [Fail Fast](Architecture/fail-fast.md) â€” Early error detection
+- [Discriminated Unions](Architecture/coding-practices.md) â€” Result uses discriminated unions
 
 ## Project Observations
 

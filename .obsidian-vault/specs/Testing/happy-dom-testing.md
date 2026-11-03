@@ -1,9 +1,11 @@
+﻿---
+slug: happy-dom-testing
+---
+
 # Happy DOM Testing
 
 > **Purpose:** Configure Happy DOM for DOM testing.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `happy-dom-testing`
@@ -50,8 +52,6 @@ declared
 - happy-dom-testing-library
 - happy-dom-unit-testing
 - happy-dom-fast-testing
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Happy DOM does not apply to:
 
 ## Related Concepts
 
-- [[Happy DOM/happy-dom-configuration]] — Happy DOM Configuration
-- [[Happy DOM/happy-dom-testing-library]] — Happy DOM Testing Library
-- [[Happy DOM/happy-dom-unit-testing]] — Happy DOM Unit Testing
-- [[Happy DOM/happy-dom-fast-testing]] — Happy DOM Fast Testing
+- [[Happy DOM/happy-dom-configuration]] â€” Happy DOM Configuration
+- [[Happy DOM/happy-dom-testing-library]] â€” Happy DOM Testing Library
+- [[Happy DOM/happy-dom-unit-testing]] â€” Happy DOM Unit Testing
+- [[Happy DOM/happy-dom-fast-testing]] â€” Happy DOM Fast Testing
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Happy DOM through:
 ## Sources
 
 - [[Sources/happy-dom-documentation|Happy DOM Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Happy DOM Testing Note**

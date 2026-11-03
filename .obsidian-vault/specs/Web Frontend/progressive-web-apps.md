@@ -1,9 +1,11 @@
+﻿---
+slug: progressive-web-apps
+---
+
 # Progressive Web Apps
 
 > **Purpose:** Build PWAs with service workers.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `progressive-web-apps`
@@ -50,8 +52,6 @@ declared
 - service-workers
 - web-app-manifest
 - offline-support
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ PWA does not apply to:
 
 ## Related Concepts
 
-- [[Web Frontend/progressive-web-apps]] — Progressive Web Apps
-- [[Web Frontend/service-workers]] — Service Workers
-- [[Web Frontend/web-app-manifest]] — Web App Manifest
-- [[Web Frontend/offline-support]] — Offline Support
+- [[Web Frontend/progressive-web-apps]] â€” Progressive Web Apps
+- [[Web Frontend/service-workers]] â€” Service Workers
+- [[Web Frontend/web-app-manifest]] â€” Web App Manifest
+- [[Web Frontend/offline-support]] â€” Offline Support
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Progressive Web Apps through:
 ## Sources
 
 - [[Sources/pwa-specification|PWA Specification]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Progressive Web Apps Note**

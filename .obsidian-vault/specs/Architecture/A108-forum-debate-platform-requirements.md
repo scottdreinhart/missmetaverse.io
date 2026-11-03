@@ -1,4 +1,8 @@
-# Message Forum / Debate Platform — Requirements Specification
+﻿---
+slug: A108-forum-debate-platform-requirements
+---
+
+# Message Forum / Debate Platform â€” Requirements Specification
 
 > **Date:** 2026-11-02
 > **Scope:** Build a message forum / debate platform with voting/scoring similar to BattleCam or TikTok Battles
@@ -9,22 +13,8 @@
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 1. Executive Summary
 
 This document defines the requirements for building a **custom message forum / debate platform** from the ground up. No Reddit, Discord, TikTok Battles, BattleCam, or similar off-the-shelf solutions. This is a greenfield project that will be architected using **Clean Architecture**, **Domain-Driven Design**, **CQRS**, **Event-Driven Architecture**, and **WebSockets** for real-time interactions.
@@ -57,22 +47,8 @@ This document defines the requirements for building a **custom message forum / d
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 2. Architectural Style
 
 ### Recommended: Real-Time CQRS with WebSockets
@@ -149,8 +125,8 @@ graph TB
 |---------|---------------------|-----------|
 | **Clean Architecture** | Business rules independent of React, DB, WebSocket | More files, more abstractions |
 | **DDD** | Forum has complex domain (debates, votes, scores, rankings) | Requires domain expertise, more modeling |
-| **CQRS** | Reads (browsing posts) >> Writes (votes) — scale independently | Two models to maintain, eventual consistency |
-| **Event-Driven** | Vote cast → recalculate scores, notify users, update rankings | Complex debugging, eventual consistency |
+| **CQRS** | Reads (browsing posts) >> Writes (votes) â€” scale independently | Two models to maintain, eventual consistency |
+| **Event-Driven** | Vote cast â†’ recalculate scores, notify users, update rankings | Complex debugging, eventual consistency |
 | **WebSockets** | Real-time voting, live debates, instant updates | Connection management, scaling challenges |
 | **Modular Monolith** | Start simple, scale modules independently later | Module boundaries must be well-defined |
 
@@ -169,22 +145,8 @@ graph TB
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 3. Real-Time Communication Architecture
 
 ### 3.1 WebSocket Architecture
@@ -230,7 +192,7 @@ interface WSMessage {
   timestamp: number
 }
 
-// Client → Server messages
+// Client â†’ Server messages
 interface VoteMessage extends WSMessage {
   type: 'VOTE'
   payload: {
@@ -264,7 +226,7 @@ interface TypingMessage extends WSMessage {
   }
 }
 
-// Server → Client messages
+// Server â†’ Client messages
 interface ScoreUpdateMessage extends WSMessage {
   type: 'SCORE_UPDATE'
   payload: {
@@ -531,22 +493,8 @@ graph TB
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 4. Core Domain Model (DDD)
 
 ### 4.1 Bounded Contexts
@@ -1062,22 +1010,8 @@ enum UserRole {
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 5. Functional Requirements
 
 ### 5.1 Posts & Content
@@ -1336,22 +1270,8 @@ tags:
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 6. Non-Functional Requirements
 
 ### 6.1 Performance
@@ -1480,22 +1400,8 @@ graph TB
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 7. Technical Architecture
 
 ### 7.1 Clean Architecture Layers
@@ -1777,22 +1683,8 @@ CREATE TABLE post_cache (
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 8. API Design
 
 ### 8.1 REST API Endpoints
@@ -1978,106 +1870,92 @@ interface DebateResponse {
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 9. Frontend Architecture (React 19)
 
 ### 9.1 Main App Structure
 
 ```
 src/
-├── components/
-│   ├── posts/
-│   │   ├── PostCard.tsx
-│   │   ├── PostList.tsx
-│   │   ├── PostDetail.tsx
-│   │   ├── PostForm.tsx
-│   │   ├── PostActions.tsx
-│   │   ├── PostVotes.tsx
-│   │   ├── PostComments.tsx
-│   │   └── PostMedia.tsx
-│   ├── debates/
-│   │   ├── DebateCard.tsx
-│   │   ├── DebateList.tsx
-│   │   ├── DebateDetail.tsx
-│   │   ├── DebateForm.tsx
-│   │   ├── DebateVotes.tsx
-│   │   ├── DebatePosts.tsx
-│   │   └── DebateLeaderboard.tsx
-│   ├── voting/
-│   │   ├── VoteButton.tsx
-│   │   ├── VoteGroup.tsx
-│   │   ├── ScoreDisplay.tsx
-│   │   └── RankingList.tsx
-│   ├── layout/
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Sidebar.tsx
-│   │   ├── Navigation.tsx
-│   │   └── MainLayout.tsx
-│   ├── notifications/
-│   │   ├── NotificationBell.tsx
-│   │   ├── NotificationList.tsx
-│   │   └── NotificationItem.tsx
-│   ├── search/
-│   │   ├── SearchBar.tsx
-│   │   ├── SearchResults.tsx
-│   │   └── SearchSuggestions.tsx
-│   ├── users/
-│   │   ├── UserCard.tsx
-│   │   ├── UserProfile.tsx
-│   │   ├── UserLeaderboard.tsx
-│   │   └── UserReputation.tsx
-│   └── common/
-│       ├── Loading.tsx
-│       ├── ErrorBoundary.tsx
-│       ├── Image.tsx
-│       ├── Pagination.tsx
-│       └── MarkdownRenderer.tsx
-├── hooks/
-│   ├── usePosts.ts
-│   ├── usePost.ts
-│   ├── useDebates.ts
-│   ├── useDebate.ts
-│   ├── useVotes.ts
-│   ├── useWebSocket.ts
-│   ├── useNotifications.ts
-│   ├── useAuth.ts
-│   ├── useSearch.ts
-│   └── useRankings.ts
-├── pages/
-│   ├── Index.tsx              // Homepage
-│   ├── Posts.tsx              // Post listing
-│   ├── Post.tsx               // Single post
-│   ├── CreatePost.tsx         // Create post
-│   ├── Debates.tsx            // Debate listing
-│   ├── Debate.tsx             // Single debate
-│   ├── CreateDebate.tsx       // Create debate
-│   ├── Search.tsx             // Search results
-│   ├── User.tsx               // User profile
-│   ├── Leaderboard.tsx        // User leaderboard
-│   ├── Login.tsx              // Login
-│   ├── Register.tsx           // Register
-│   ├── Notifications.tsx      // Notifications
-│   └── NotFound.tsx           // 404 page
-└── utils/
-    ├── seo.ts                 // SEO helpers
-    ├── metadata.ts            // Page metadata
-    └── analytics.ts           // Analytics tracking
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ posts/
+â”‚   â”‚   â”œâ”€â”€ PostCard.tsx
+â”‚   â”‚   â”œâ”€â”€ PostList.tsx
+â”‚   â”‚   â”œâ”€â”€ PostDetail.tsx
+â”‚   â”‚   â”œâ”€â”€ PostForm.tsx
+â”‚   â”‚   â”œâ”€â”€ PostActions.tsx
+â”‚   â”‚   â”œâ”€â”€ PostVotes.tsx
+â”‚   â”‚   â”œâ”€â”€ PostComments.tsx
+â”‚   â”‚   â””â”€â”€ PostMedia.tsx
+â”‚   â”œâ”€â”€ debates/
+â”‚   â”‚   â”œâ”€â”€ DebateCard.tsx
+â”‚   â”‚   â”œâ”€â”€ DebateList.tsx
+â”‚   â”‚   â”œâ”€â”€ DebateDetail.tsx
+â”‚   â”‚   â”œâ”€â”€ DebateForm.tsx
+â”‚   â”‚   â”œâ”€â”€ DebateVotes.tsx
+â”‚   â”‚   â”œâ”€â”€ DebatePosts.tsx
+â”‚   â”‚   â””â”€â”€ DebateLeaderboard.tsx
+â”‚   â”œâ”€â”€ voting/
+â”‚   â”‚   â”œâ”€â”€ VoteButton.tsx
+â”‚   â”‚   â”œâ”€â”€ VoteGroup.tsx
+â”‚   â”‚   â”œâ”€â”€ ScoreDisplay.tsx
+â”‚   â”‚   â””â”€â”€ RankingList.tsx
+â”‚   â”œâ”€â”€ layout/
+â”‚   â”‚   â”œâ”€â”€ Header.tsx
+â”‚   â”‚   â”œâ”€â”€ Footer.tsx
+â”‚   â”‚   â”œâ”€â”€ Sidebar.tsx
+â”‚   â”‚   â”œâ”€â”€ Navigation.tsx
+â”‚   â”‚   â””â”€â”€ MainLayout.tsx
+â”‚   â”œâ”€â”€ notifications/
+â”‚   â”‚   â”œâ”€â”€ NotificationBell.tsx
+â”‚   â”‚   â”œâ”€â”€ NotificationList.tsx
+â”‚   â”‚   â””â”€â”€ NotificationItem.tsx
+â”‚   â”œâ”€â”€ search/
+â”‚   â”‚   â”œâ”€â”€ SearchBar.tsx
+â”‚   â”‚   â”œâ”€â”€ SearchResults.tsx
+â”‚   â”‚   â””â”€â”€ SearchSuggestions.tsx
+â”‚   â”œâ”€â”€ users/
+â”‚   â”‚   â”œâ”€â”€ UserCard.tsx
+â”‚   â”‚   â”œâ”€â”€ UserProfile.tsx
+â”‚   â”‚   â”œâ”€â”€ UserLeaderboard.tsx
+â”‚   â”‚   â””â”€â”€ UserReputation.tsx
+â”‚   â””â”€â”€ common/
+â”‚       â”œâ”€â”€ Loading.tsx
+â”‚       â”œâ”€â”€ ErrorBoundary.tsx
+â”‚       â”œâ”€â”€ Image.tsx
+â”‚       â”œâ”€â”€ Pagination.tsx
+â”‚       â””â”€â”€ MarkdownRenderer.tsx
+â”œâ”€â”€ hooks/
+â”‚   â”œâ”€â”€ usePosts.ts
+â”‚   â”œâ”€â”€ usePost.ts
+â”‚   â”œâ”€â”€ useDebates.ts
+â”‚   â”œâ”€â”€ useDebate.ts
+â”‚   â”œâ”€â”€ useVotes.ts
+â”‚   â”œâ”€â”€ useWebSocket.ts
+â”‚   â”œâ”€â”€ useNotifications.ts
+â”‚   â”œâ”€â”€ useAuth.ts
+â”‚   â”œâ”€â”€ useSearch.ts
+â”‚   â””â”€â”€ useRankings.ts
+â”œâ”€â”€ pages/
+â”‚   â”œâ”€â”€ Index.tsx              // Homepage
+â”‚   â”œâ”€â”€ Posts.tsx              // Post listing
+â”‚   â”œâ”€â”€ Post.tsx               // Single post
+â”‚   â”œâ”€â”€ CreatePost.tsx         // Create post
+â”‚   â”œâ”€â”€ Debates.tsx            // Debate listing
+â”‚   â”œâ”€â”€ Debate.tsx             // Single debate
+â”‚   â”œâ”€â”€ CreateDebate.tsx       // Create debate
+â”‚   â”œâ”€â”€ Search.tsx             // Search results
+â”‚   â”œâ”€â”€ User.tsx               // User profile
+â”‚   â”œâ”€â”€ Leaderboard.tsx        // User leaderboard
+â”‚   â”œâ”€â”€ Login.tsx              // Login
+â”‚   â”œâ”€â”€ Register.tsx           // Register
+â”‚   â”œâ”€â”€ Notifications.tsx      // Notifications
+â”‚   â””â”€â”€ NotFound.tsx           // 404 page
+â””â”€â”€ utils/
+    â”œâ”€â”€ seo.ts                 // SEO helpers
+    â”œâ”€â”€ metadata.ts            // Page metadata
+    â””â”€â”€ analytics.ts           // Analytics tracking
 ```
 
 ### 9.2 WebSocket Integration
@@ -2141,83 +2019,69 @@ function useWebSocket({ url, onMessage, onConnect, onDisconnect }: UseWebSocketO
 
 ```
 src/admin/
-├── components/
-│   ├── layout/
-│   │   ├── Sidebar.tsx
-│   │   ├── Header.tsx
-│   │   └── AdminLayout.tsx
-│   ├── users/
-│   │   ├── UserList.tsx
-│   │   ├── UserDetail.tsx
-│   │   └── UserForm.tsx
-│   ├── posts/
-│   │   ├── PostList.tsx
-│   │   ├── PostDetail.tsx
-│   │   └── PostActions.tsx
-│   ├── debates/
-│   │   ├── DebateList.tsx
-│   │   ├── DebateDetail.tsx
-│   │   └── DebateActions.tsx
-│   ├── moderation/
-│   │   ├── ReportList.tsx
-│   │   ├── ReportDetail.tsx
-│   │   └── ModerationActions.tsx
-│   ├── analytics/
-│   │   ├── Dashboard.tsx
-│   │   ├── UserAnalytics.tsx
-│   │   ├── PostAnalytics.tsx
-│   │   ├── DebateAnalytics.tsx
-│   │   └── VotingAnalytics.tsx
-│   └── settings/
-│       ├── GeneralSettings.tsx
-│       ├── ScoringSettings.tsx
-│       ├── RateLimitSettings.tsx
-│       └── ApiSettings.tsx
-├── hooks/
-│   ├── useAuth.ts
-│   ├── useUsers.ts
-│   ├── usePosts.ts
-│   ├── useDebates.ts
-│   ├── useReports.ts
-│   ├── useAnalytics.ts
-│   └── useSettings.ts
-├── pages/
-│   ├── Login.tsx
-│   ├── Dashboard.tsx
-│   ├── Users.tsx
-│   ├── UserDetail.tsx
-│   ├── Posts.tsx
-│   ├── PostDetail.tsx
-│   ├── Debates.tsx
-│   ├── DebateDetail.tsx
-│   ├── Reports.tsx
-│   ├── ReportDetail.tsx
-│   ├── Analytics.tsx
-│   └── Settings.tsx
-└── utils/
-    ├── validators.ts
-    └── formatters.ts
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ layout/
+â”‚   â”‚   â”œâ”€â”€ Sidebar.tsx
+â”‚   â”‚   â”œâ”€â”€ Header.tsx
+â”‚   â”‚   â””â”€â”€ AdminLayout.tsx
+â”‚   â”œâ”€â”€ users/
+â”‚   â”‚   â”œâ”€â”€ UserList.tsx
+â”‚   â”‚   â”œâ”€â”€ UserDetail.tsx
+â”‚   â”‚   â””â”€â”€ UserForm.tsx
+â”‚   â”œâ”€â”€ posts/
+â”‚   â”‚   â”œâ”€â”€ PostList.tsx
+â”‚   â”‚   â”œâ”€â”€ PostDetail.tsx
+â”‚   â”‚   â””â”€â”€ PostActions.tsx
+â”‚   â”œâ”€â”€ debates/
+â”‚   â”‚   â”œâ”€â”€ DebateList.tsx
+â”‚   â”‚   â”œâ”€â”€ DebateDetail.tsx
+â”‚   â”‚   â””â”€â”€ DebateActions.tsx
+â”‚   â”œâ”€â”€ moderation/
+â”‚   â”‚   â”œâ”€â”€ ReportList.tsx
+â”‚   â”‚   â”œâ”€â”€ ReportDetail.tsx
+â”‚   â”‚   â””â”€â”€ ModerationActions.tsx
+â”‚   â”œâ”€â”€ analytics/
+â”‚   â”‚   â”œâ”€â”€ Dashboard.tsx
+â”‚   â”‚   â”œâ”€â”€ UserAnalytics.tsx
+â”‚   â”‚   â”œâ”€â”€ PostAnalytics.tsx
+â”‚   â”‚   â”œâ”€â”€ DebateAnalytics.tsx
+â”‚   â”‚   â””â”€â”€ VotingAnalytics.tsx
+â”‚   â””â”€â”€ settings/
+â”‚       â”œâ”€â”€ GeneralSettings.tsx
+â”‚       â”œâ”€â”€ ScoringSettings.tsx
+â”‚       â”œâ”€â”€ RateLimitSettings.tsx
+â”‚       â””â”€â”€ ApiSettings.tsx
+â”œâ”€â”€ hooks/
+â”‚   â”œâ”€â”€ useAuth.ts
+â”‚   â”œâ”€â”€ useUsers.ts
+â”‚   â”œâ”€â”€ usePosts.ts
+â”‚   â”œâ”€â”€ useDebates.ts
+â”‚   â”œâ”€â”€ useReports.ts
+â”‚   â”œâ”€â”€ useAnalytics.ts
+â”‚   â””â”€â”€ useSettings.ts
+â”œâ”€â”€ pages/
+â”‚   â”œâ”€â”€ Login.tsx
+â”‚   â”œâ”€â”€ Dashboard.tsx
+â”‚   â”œâ”€â”€ Users.tsx
+â”‚   â”œâ”€â”€ UserDetail.tsx
+â”‚   â”œâ”€â”€ Posts.tsx
+â”‚   â”œâ”€â”€ PostDetail.tsx
+â”‚   â”œâ”€â”€ Debates.tsx
+â”‚   â”œâ”€â”€ DebateDetail.tsx
+â”‚   â”œâ”€â”€ Reports.tsx
+â”‚   â”œâ”€â”€ ReportDetail.tsx
+â”‚   â”œâ”€â”€ Analytics.tsx
+â”‚   â””â”€â”€ Settings.tsx
+â””â”€â”€ utils/
+    â”œâ”€â”€ validators.ts
+    â””â”€â”€ formatters.ts
 ```
 
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 10. Testing Strategy
 
 ### 10.1 Test Pyramid
@@ -2343,22 +2207,8 @@ describe('WebSocketServerService', () => {
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 11. Deployment & DevOps
 
 ### 11.1 CI/CD Pipeline
@@ -2467,119 +2317,91 @@ graph TB
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 12. Project Structure
 
 ```
 forum-platform/
-├── apps/
-│   ├── web/                    # Main App (Vite + React)
-│   │   ├── src/
-│   │   ├── public/
-│   │   ├── vite.config.ts
-│   │   └── tsconfig.json
-│   ├── admin/                  # Admin Dashboard (Vite + React)
-│   │   ├── src/
-│   │   ├── public/
-│   │   ├── vite.config.ts
-│   │   └── tsconfig.json
-│   └── api/                    # API Server (Node.js/Express)
-│       ├── src/
-│       ├── package.json
-│       └── tsconfig.json
-├── packages/
-│   ├── domain/                 # Domain layer (shared)
-│   │   ├── src/
-│   │   │   ├── entities/
-│   │   │   │   ├── debate.entity.ts
-│   │   │   │   ├── post.entity.ts
-│   │   │   │   ├── vote.entity.ts
-│   │   │   │   ├── user.entity.ts
-│   │   │   │   ├── score.entity.ts
-│   │   │   │   └── ranking.entity.ts
-│   │   │   ├── value-objects/
-│   │   │   │   ├── score.ts
-│   │   │   │   ├── username.ts
-│   │   │   │   └── content.ts
-│   │   │   ├── domain-events/
-│   │   │   │   ├── vote-events.ts
-│   │   │   │   ├── post-events.ts
-│   │   │   │   └── debate-events.ts
-│   │   │   ├── domain-services/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   ├── application/            # Application layer (shared)
-│   │   ├── src/
-│   │   │   ├── use-cases/
-│   │   │   │   ├── post-use-cases.ts
-│   │   │   │   ├── debate-use-cases.ts
-│   │   │   │   ├── vote-use-cases.ts
-│   │   │   │   ├── user-use-cases.ts
-│   │   │   │   └── score-use-cases.ts
-│   │   │   ├── dtos/
-│   │   │   ├── ports/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   ├── infrastructure/         # Infrastructure layer (shared)
-│   │   ├── src/
-│   │   │   ├── database/
-│   │   │   ├── cache/
-│   │   │   ├── storage/
-│   │   │   ├── messaging/
-│   │   │   ├── search/
-│   │   │   ├── websocket/
-│   │   │   │   ├── websocket-server.ts
-│   │   │   │   └── websocket-handler.ts
-│   │   │   ├── email/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   └── shared/                 # Shared utilities
-│       ├── src/
-│       │   ├── types/
-│       │   ├── utils/
-│       │   ├── validators/
-│       │   └── index.ts
-│       └── package.json
-├── docker-compose.yml
-├── pnpm-workspace.yaml
-├── tsconfig.json
-└── package.json
+â”œâ”€â”€ apps/
+â”‚   â”œâ”€â”€ web/                    # Main App (Vite + React)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”œâ”€â”€ public/
+â”‚   â”‚   â”œâ”€â”€ vite.config.ts
+â”‚   â”‚   â””â”€â”€ tsconfig.json
+â”‚   â”œâ”€â”€ admin/                  # Admin Dashboard (Vite + React)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”œâ”€â”€ public/
+â”‚   â”‚   â”œâ”€â”€ vite.config.ts
+â”‚   â”‚   â””â”€â”€ tsconfig.json
+â”‚   â””â”€â”€ api/                    # API Server (Node.js/Express)
+â”‚       â”œâ”€â”€ src/
+â”‚       â”œâ”€â”€ package.json
+â”‚       â””â”€â”€ tsconfig.json
+â”œâ”€â”€ packages/
+â”‚   â”œâ”€â”€ domain/                 # Domain layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ entities/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ debate.entity.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ post.entity.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ vote.entity.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ user.entity.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ score.entity.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ ranking.entity.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ value-objects/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ score.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ username.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ content.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ domain-events/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ vote-events.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ post-events.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ debate-events.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ domain-services/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â”œâ”€â”€ application/            # Application layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ use-cases/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ post-use-cases.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ debate-use-cases.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ vote-use-cases.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ user-use-cases.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ score-use-cases.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ dtos/
+â”‚   â”‚   â”‚   â”œâ”€â”€ ports/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â”œâ”€â”€ infrastructure/         # Infrastructure layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ database/
+â”‚   â”‚   â”‚   â”œâ”€â”€ cache/
+â”‚   â”‚   â”‚   â”œâ”€â”€ storage/
+â”‚   â”‚   â”‚   â”œâ”€â”€ messaging/
+â”‚   â”‚   â”‚   â”œâ”€â”€ search/
+â”‚   â”‚   â”‚   â”œâ”€â”€ websocket/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ websocket-server.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ websocket-handler.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ email/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â””â”€â”€ shared/                 # Shared utilities
+â”‚       â”œâ”€â”€ src/
+â”‚       â”‚   â”œâ”€â”€ types/
+â”‚       â”‚   â”œâ”€â”€ utils/
+â”‚       â”‚   â”œâ”€â”€ validators/
+â”‚       â”‚   â””â”€â”€ index.ts
+â”‚       â””â”€â”€ package.json
+â”œâ”€â”€ docker-compose.yml
+â”œâ”€â”€ pnpm-workspace.yaml
+â”œâ”€â”€ tsconfig.json
+â””â”€â”€ package.json
 ```
 
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 13. Development Phases
 
 ### Phase 1: Foundation (Weeks 1-2)
@@ -2634,22 +2456,8 @@ tags:
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 14. Risk Assessment
 
 | Risk | Impact | Likelihood | Mitigation |
@@ -2667,22 +2475,8 @@ tags:
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 15. Success Criteria
 
 ### MVP (Minimum Viable Product)
@@ -2719,22 +2513,8 @@ tags:
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 16. Key Differentiators vs. Reddit/TikTok Battles
 
 | Feature | Custom Forum | Reddit | Discord | TikTok Battles |
@@ -2752,54 +2532,40 @@ tags:
 ---
 
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 17. References & Sources
 
 ### Architectural Patterns
-- [[Sources/martin-clean-architecture-2017|Clean Architecture]] — Robert C. Martin
-- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] — Martin Fowler
-- [[Sources/evans-ddd-2003|Domain-Driven Design]] — Eric Evans
-- [[Sources/goF-1994|Design Patterns]] — GoF
+- [[Sources/martin-clean-architecture-2017|Clean Architecture]] â€” Robert C. Martin
+- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] â€” Martin Fowler
+- [[Sources/evans-ddd-2003|Domain-Driven Design]] â€” Eric Evans
+- [[Sources/goF-1994|Design Patterns]] â€” GoF
 
 ### Technical Documentation
-- [[Sources/react-docs-2026|React 19 Documentation]] — React Team
-- [[Sources/microsoft-typescript-handbook|TypeScript Handbook]] — Microsoft
-- [[Sources/tailwind-docs-2024|Tailwind CSS Documentation]] — Tailwind Labs
-- [[Sources/pnpm-docs-2024|pnpm Documentation]] — pnpm
-- [[Sources/vitest-docs-2024|Vitest Documentation]] — Vitest
-- [[Sources/playwright-docs-2024|Playwright Documentation]] — Microsoft
-- [[Sources/mdn-html-2024|WebSocket API]] — MDN
+- [[Sources/react-docs-2026|React 19 Documentation]] â€” React Team
+- [[Sources/microsoft-typescript-handbook|TypeScript Handbook]] â€” Microsoft
+- [[Sources/tailwind-docs-2024|Tailwind CSS Documentation]] â€” Tailwind Labs
+- [[Sources/pnpm-docs-2024|pnpm Documentation]] â€” pnpm
+- [[Sources/vitest-docs-2024|Vitest Documentation]] â€” Vitest
+- [[Sources/playwright-docs-2024|Playwright Documentation]] â€” Microsoft
+- [[Sources/mdn-html-2024|WebSocket API]] â€” MDN
 
 ### Security
-- [[Sources/owasp-top-ten-2021|OWASP Top 10]] — OWASP
-- [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] — NIST
+- [[Sources/owasp-top-ten-2021|OWASP Top 10]] â€” OWASP
+- [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] â€” NIST
 
 ### Architecture Patterns
-- [[Sources/martin-fowler-patterns|CQRS]] — Martin Fowler
-- [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] — Microsoft Azure
-- [[Sources/martin-fowler-patterns|Repository Pattern]] — Martin Fowler
-- [[Sources/martin-fowler-patterns|Service Layer Pattern]] — Martin Fowler
-- [[Sources/martin-fowler-patterns|Cache-Aside Pattern]] — Microsoft Azure
+- [[Sources/martin-fowler-patterns|CQRS]] â€” Martin Fowler
+- [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] â€” Microsoft Azure
+- [[Sources/martin-fowler-patterns|Repository Pattern]] â€” Martin Fowler
+- [[Sources/martin-fowler-patterns|Service Layer Pattern]] â€” Martin Fowler
+- [[Sources/martin-fowler-patterns|Cache-Aside Pattern]] â€” Microsoft Azure
 
 ### Real-Time Communication
-- [[Sources/mdn-html-2024|WebSocket API]] — MDN
-- [[Sources/microsoft-distributed-systems|Redis Pub/Sub]] — Microsoft Azure
-- [[Sources/martin-fowler-patterns|WebSockets]] — Martin Fowler
+- [[Sources/mdn-html-2024|WebSocket API]] â€” MDN
+- [[Sources/microsoft-distributed-systems|Redis Pub/Sub]] â€” Microsoft Azure
+- [[Sources/martin-fowler-patterns|WebSockets]] â€” Martin Fowler
 
 
 ## See Also

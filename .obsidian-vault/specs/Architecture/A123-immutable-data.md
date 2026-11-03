@@ -1,34 +1,22 @@
----
+﻿---
 slug: immutable-data
 sources:
   - https://en.wikipedia.org/wiki/Immutable_object
   - https://react.dev/reference/react/useState
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - immutability
   - typescript
   - react
   - design
----
-
+  - --
 # Immutability
 
 ## Definition
 
 Immutability is the principle that **once an object is created, its state cannot be modified**. Changes produce new objects rather than modifying existing ones.
 
-> "An immutable object is an object whose state cannot be modified after it is created." — Wikipedia
+> "An immutable object is an object whose state cannot be modified after it is created." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -40,8 +28,8 @@ Mutable state leads to:
 
 ## Scope and Boundaries
 
-- Immutability ≠ Read-only (immutable objects can be copied)
-- Immutability ≠ Const (const variables can point to mutable objects)
+- Immutability â‰  Read-only (immutable objects can be copied)
+- Immutability â‰  Const (const variables can point to mutable objects)
 - Immutability is a **design choice**, not a language guarantee (in TypeScript)
 
 ## When to Apply
@@ -55,9 +43,9 @@ Mutable state leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Memory** — New objects create garbage |
-| **Performance** — Copying can be expensive |
-| **Boilerplate** — More code to create new objects |
+| **Memory** â€” New objects create garbage |
+| **Performance** â€” Copying can be expensive |
+| **Boilerplate** â€” More code to create new objects |
 
 ## Common Misuses
 
@@ -67,9 +55,9 @@ Mutable state leads to:
 
 ## Related Concepts
 
-- [Pure Functions](Architecture/coding-practices.md) — Pure functions don't mutate
-- [Explicit Error Modeling](Architecture/coding-practices.md) — Immutability prevents hidden state changes
-- [React Patterns](../React/react-patterns) — React state should be immutable
+- [Pure Functions](Architecture/coding-practices.md) â€” Pure functions don't mutate
+- [Explicit Error Modeling](Architecture/coding-practices.md) â€” Immutability prevents hidden state changes
+- [React Patterns](../React/react-patterns) â€” React state should be immutable
 
 ## Project Observations
 

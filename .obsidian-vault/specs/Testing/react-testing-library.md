@@ -1,9 +1,11 @@
+﻿---
+slug: react-testing-library
+---
+
 # React Testing Library
 
 > **Purpose:** Test React components with React Testing Library.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `react-testing-library`
@@ -50,8 +52,6 @@ declared
 - react-testing-library-user-interaction
 - react-testing-library-accessibility
 - react-testing-library-configuration
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ React Testing Library does not apply to:
 
 ## Related Concepts
 
-- [[React Testing Library/react-testing-library-component-testing]] — React Testing Library Component Testing
-- [[React Testing Library/react-testing-library-user-interaction]] — React Testing Library User Interaction
-- [[React Testing Library/react-testing-library-accessibility]] — React Testing Library Accessibility
-- [[React Testing Library/react-testing-library-configuration]] — React Testing Library Configuration
+- [[React Testing Library/react-testing-library-component-testing]] â€” React Testing Library Component Testing
+- [[React Testing Library/react-testing-library-user-interaction]] â€” React Testing Library User Interaction
+- [[React Testing Library/react-testing-library-accessibility]] â€” React Testing Library Accessibility
+- [[React Testing Library/react-testing-library-configuration]] â€” React Testing Library Configuration
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React Testing Library through:
 ## Sources
 
 - [[Sources/react-testing-library-documentation|React Testing Library Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Testing Library Note**

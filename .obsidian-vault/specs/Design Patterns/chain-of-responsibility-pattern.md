@@ -1,9 +1,11 @@
+﻿---
+slug: chain-of-responsibility-pattern
+---
+
 # Chain of Responsibility Pattern
 
 > **Purpose:** Process requests through chain with Chain of Responsibility.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `chain-of-responsibility-pattern`
@@ -50,8 +52,6 @@ declared
 - middleware-pattern
 - pipeline-pattern
 - handler-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Chain of Responsibility does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/chain-of-responsibility-pattern]] — Chain of Responsibility Pattern
-- [[Design Patterns/middleware-pattern]] — Middleware Pattern
-- [[Design Patterns/pipeline-pattern]] — Pipeline Pattern
-- [[Design Patterns/handler-pattern]] — Handler Pattern
+- [[Design Patterns/chain-of-responsibility-pattern]] â€” Chain of Responsibility Pattern
+- [[Design Patterns/middleware-pattern]] â€” Middleware Pattern
+- [[Design Patterns/pipeline-pattern]] â€” Pipeline Pattern
+- [[Design Patterns/handler-pattern]] â€” Handler Pattern
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Chain of Responsibility Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Chain of Responsibility Pattern Note**

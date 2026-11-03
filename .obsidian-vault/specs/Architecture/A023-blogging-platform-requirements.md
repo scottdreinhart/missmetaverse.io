@@ -1,7 +1,11 @@
-# Blogging Platform — Requirements Specification
+﻿---
+slug: A023-blogging-platform-requirements
+---
+
+# Blogging Platform â€” Requirements Specification
 
 > **Date:** 2026-11-02
-> **Scope:** Build a blogging platform from scratch — no off-the-shelf packages
+> **Scope:** Build a blogging platform from scratch â€” no off-the-shelf packages
 > **Tech Stack:** React 19 + Vite + TypeScript + Tailwind CSS + pnpm
 > **Architecture:** Clean Architecture + DDD + CQRS + Event-Driven
 > **Key Differentiator:** Performance-first, SEO-optimized, content-centric
@@ -9,22 +13,8 @@
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 1. Executive Summary
 
 This document defines the requirements for building a **custom blogging platform** from the ground up. No WordPress, Ghost, Medium, or similar off-the-shelf solutions. This is a greenfield project architected using **Clean Architecture**, **Domain-Driven Design**, **CQRS**, and **Event-Driven Architecture** patterns.
@@ -34,7 +24,7 @@ This document defines the requirements for building a **custom blogging platform
 | Reason | Explanation |
 |--------|-------------|
 | **Full control** | No legacy code, no forced abstractions, no upgrade paths |
-| **Performance** | No bloat, only what you need — sub-second page loads |
+| **Performance** | No bloat, only what you need â€” sub-second page loads |
 | **SEO** | Built for search engines from day one, not bolted on |
 | **Custom workflows** | Model exactly your content processes |
 | **Ownership** | No vendor lock-in, no platform changes, no deprecations |
@@ -59,22 +49,8 @@ This document defines the requirements for building a **custom blogging platform
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 2. Architectural Style
 
 ### Recommended: Static-First with CQRS
@@ -148,10 +124,10 @@ graph TB
 | Pattern | Why for Blog | Trade-off |
 |---------|-------------|-----------|
 | **Static Site Generation** | Blazing fast, SEO-friendly, secure, CDN-ready | Regeneration needed on content changes |
-| **CQRS** | Reads (page views) >> Writes (post creation) — scale independently | Two models to maintain |
+| **CQRS** | Reads (page views) >> Writes (post creation) â€” scale independently | Two models to maintain |
 | **Clean Architecture** | Business rules independent of React, DB, CDN | More files, more abstractions |
 | **DDD** | Blogging has complex domain (posts, authors, comments, tags) | Requires domain expertise |
-| **Event-Driven** | Post published → regenerate site, index search, notify subscribers | Complex debugging, eventual consistency |
+| **Event-Driven** | Post published â†’ regenerate site, index search, notify subscribers | Complex debugging, eventual consistency |
 | **Modular Monolith** | Start simple, scale modules independently | Module boundaries must be well-defined |
 
 ### Consistency Model
@@ -169,22 +145,8 @@ graph TB
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 3. Core Domain Model (DDD)
 
 ### Bounded Contexts
@@ -508,22 +470,8 @@ export class Newsletter {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 4. Functional Requirements
 
 ### 4.1 Content Management (Blog Posts)
@@ -717,22 +665,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 5. Non-Functional Requirements
 
 ### 5.1 Performance
@@ -869,22 +803,8 @@ graph TB
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 6. Technical Architecture
 
 ### 6.1 Clean Architecture Layers
@@ -1165,22 +1085,8 @@ CREATE TABLE post_cache (
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 7. API Design
 
 ### 7.1 REST API Endpoints
@@ -1335,144 +1241,130 @@ interface SearchResult {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 8. Frontend Architecture (React 19)
 
 ### 8.1 Public Blog Structure
 
 ```
 src/
-├── components/
-│   ├── blog/
-│   │   ├── PostCard.tsx
-│   │   ├── PostList.tsx
-│   │   ├── PostContent.tsx
-│   │   ├── PostHeader.tsx
-│   │   ├── PostMeta.tsx
-│   │   ├── PostTags.tsx
-│   │   ├── PostAuthor.tsx
-│   │   ├── PostComments.tsx
-│   │   ├── PostRelated.tsx
-│   │   └── PostPagination.tsx
-│   ├── layout/
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Sidebar.tsx
-│   │   └── MainLayout.tsx
-│   ├── search/
-│   │   ├── SearchBar.tsx
-│   │   ├── SearchResults.tsx
-│   │   └── SearchSuggestions.tsx
-│   ├── newsletter/
-│   │   ├── NewsletterSignup.tsx
-│   │   └── NewsletterArchive.tsx
-│   └── common/
-│       ├── Loading.tsx
-│       ├── ErrorBoundary.tsx
-│       └── Image.tsx
-├── hooks/
-│   ├── usePosts.ts
-│   ├── usePost.ts
-│   ├── useSearch.ts
-│   ├── useComments.ts
-│   ├── useNewsletter.ts
-│   └── useAnalytics.ts
-├── pages/
-│   ├── Index.tsx              // Homepage
-│   ├── Blog.tsx               // Blog listing
-│   ├── Post.tsx               // Single post
-│   ├── Author.tsx             // Author page
-│   ├── Tag.tsx                // Tag page
-│   ├── Category.tsx           // Category page
-│   ├── Search.tsx             // Search results
-│   ├── Archive.tsx            // Date archive
-│   ├── About.tsx              // About page
-│   ├── Contact.tsx            // Contact page
-│   └── NotFound.tsx           // 404 page
-└── utils/
-    ├── seo.ts                 // SEO helpers
-    ├── metadata.ts            // Page metadata
-    └── analytics.ts           // Analytics tracking
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ blog/
+â”‚   â”‚   â”œâ”€â”€ PostCard.tsx
+â”‚   â”‚   â”œâ”€â”€ PostList.tsx
+â”‚   â”‚   â”œâ”€â”€ PostContent.tsx
+â”‚   â”‚   â”œâ”€â”€ PostHeader.tsx
+â”‚   â”‚   â”œâ”€â”€ PostMeta.tsx
+â”‚   â”‚   â”œâ”€â”€ PostTags.tsx
+â”‚   â”‚   â”œâ”€â”€ PostAuthor.tsx
+â”‚   â”‚   â”œâ”€â”€ PostComments.tsx
+â”‚   â”‚   â”œâ”€â”€ PostRelated.tsx
+â”‚   â”‚   â””â”€â”€ PostPagination.tsx
+â”‚   â”œâ”€â”€ layout/
+â”‚   â”‚   â”œâ”€â”€ Header.tsx
+â”‚   â”‚   â”œâ”€â”€ Footer.tsx
+â”‚   â”‚   â”œâ”€â”€ Sidebar.tsx
+â”‚   â”‚   â””â”€â”€ MainLayout.tsx
+â”‚   â”œâ”€â”€ search/
+â”‚   â”‚   â”œâ”€â”€ SearchBar.tsx
+â”‚   â”‚   â”œâ”€â”€ SearchResults.tsx
+â”‚   â”‚   â””â”€â”€ SearchSuggestions.tsx
+â”‚   â”œâ”€â”€ newsletter/
+â”‚   â”‚   â”œâ”€â”€ NewsletterSignup.tsx
+â”‚   â”‚   â””â”€â”€ NewsletterArchive.tsx
+â”‚   â””â”€â”€ common/
+â”‚       â”œâ”€â”€ Loading.tsx
+â”‚       â”œâ”€â”€ ErrorBoundary.tsx
+â”‚       â””â”€â”€ Image.tsx
+â”œâ”€â”€ hooks/
+â”‚   â”œâ”€â”€ usePosts.ts
+â”‚   â”œâ”€â”€ usePost.ts
+â”‚   â”œâ”€â”€ useSearch.ts
+â”‚   â”œâ”€â”€ useComments.ts
+â”‚   â”œâ”€â”€ useNewsletter.ts
+â”‚   â””â”€â”€ useAnalytics.ts
+â”œâ”€â”€ pages/
+â”‚   â”œâ”€â”€ Index.tsx              // Homepage
+â”‚   â”œâ”€â”€ Blog.tsx               // Blog listing
+â”‚   â”œâ”€â”€ Post.tsx               // Single post
+â”‚   â”œâ”€â”€ Author.tsx             // Author page
+â”‚   â”œâ”€â”€ Tag.tsx                // Tag page
+â”‚   â”œâ”€â”€ Category.tsx           // Category page
+â”‚   â”œâ”€â”€ Search.tsx             // Search results
+â”‚   â”œâ”€â”€ Archive.tsx            // Date archive
+â”‚   â”œâ”€â”€ About.tsx              // About page
+â”‚   â”œâ”€â”€ Contact.tsx            // Contact page
+â”‚   â””â”€â”€ NotFound.tsx           // 404 page
+â””â”€â”€ utils/
+    â”œâ”€â”€ seo.ts                 // SEO helpers
+    â”œâ”€â”€ metadata.ts            // Page metadata
+    â””â”€â”€ analytics.ts           // Analytics tracking
 ```
 
 ### 8.2 Admin Dashboard Structure
 
 ```
 src/admin/
-├── components/
-│   ├── layout/
-│   │   ├── Sidebar.tsx
-│   │   ├── Header.tsx
-│   │   └── AdminLayout.tsx
-│   ├── posts/
-│   │   ├── PostEditor.tsx
-│   │   ├── PostList.tsx
-│   │   ├── PostForm.tsx
-│   │   ├── PostPreview.tsx
-│   │   ├── PostVersions.tsx
-│   │   └── MediaUploader.tsx
-│   ├── comments/
-│   │   ├── CommentList.tsx
-│   │   └── CommentModeration.tsx
-│   ├── authors/
-│   │   ├── AuthorList.tsx
-│   │   └── AuthorForm.tsx
-│   ├── tags/
-│   │   └── TagManager.tsx
-│   ├── newsletter/
-│   │   ├── SubscriberList.tsx
-│   │   └── NewsletterSettings.tsx
-│   ├── analytics/
-│   │   ├── Dashboard.tsx
-│   │   ├── PostAnalytics.tsx
-│   │   └── Overview.tsx
-│   └── settings/
-│       ├── GeneralSettings.tsx
-│       ├── SeoSettings.tsx
-│       ├── ThemeSettings.tsx
-│       └── ApiSettings.tsx
-├── hooks/
-│   ├── useAuth.ts
-│   ├── usePosts.ts
-│   ├── useComments.ts
-│   ├── useAuthors.ts
-│   ├── useTags.ts
-│   ├── useNewsletter.ts
-│   ├── useAnalytics.ts
-│   └── useSettings.ts
-├── pages/
-│   ├── Login.tsx
-│   ├── Dashboard.tsx
-│   ├── Posts.tsx
-│   ├── PostEdit.tsx
-│   ├── Comments.tsx
-│   ├── Authors.tsx
-│   ├── Tags.tsx
-│   ├── Categories.tsx
-│   ├── Newsletter.tsx
-│   ├── Analytics.tsx
-│   └── Settings.tsx
-└── utils/
-    ├── editor/
-    │   ├── MarkdownEditor.tsx
-    │   └── WysiwygEditor.tsx
-    ├── validators.ts
-    └── formatters.ts
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ layout/
+â”‚   â”‚   â”œâ”€â”€ Sidebar.tsx
+â”‚   â”‚   â”œâ”€â”€ Header.tsx
+â”‚   â”‚   â””â”€â”€ AdminLayout.tsx
+â”‚   â”œâ”€â”€ posts/
+â”‚   â”‚   â”œâ”€â”€ PostEditor.tsx
+â”‚   â”‚   â”œâ”€â”€ PostList.tsx
+â”‚   â”‚   â”œâ”€â”€ PostForm.tsx
+â”‚   â”‚   â”œâ”€â”€ PostPreview.tsx
+â”‚   â”‚   â”œâ”€â”€ PostVersions.tsx
+â”‚   â”‚   â””â”€â”€ MediaUploader.tsx
+â”‚   â”œâ”€â”€ comments/
+â”‚   â”‚   â”œâ”€â”€ CommentList.tsx
+â”‚   â”‚   â””â”€â”€ CommentModeration.tsx
+â”‚   â”œâ”€â”€ authors/
+â”‚   â”‚   â”œâ”€â”€ AuthorList.tsx
+â”‚   â”‚   â””â”€â”€ AuthorForm.tsx
+â”‚   â”œâ”€â”€ tags/
+â”‚   â”‚   â””â”€â”€ TagManager.tsx
+â”‚   â”œâ”€â”€ newsletter/
+â”‚   â”‚   â”œâ”€â”€ SubscriberList.tsx
+â”‚   â”‚   â””â”€â”€ NewsletterSettings.tsx
+â”‚   â”œâ”€â”€ analytics/
+â”‚   â”‚   â”œâ”€â”€ Dashboard.tsx
+â”‚   â”‚   â”œâ”€â”€ PostAnalytics.tsx
+â”‚   â”‚   â””â”€â”€ Overview.tsx
+â”‚   â””â”€â”€ settings/
+â”‚       â”œâ”€â”€ GeneralSettings.tsx
+â”‚       â”œâ”€â”€ SeoSettings.tsx
+â”‚       â”œâ”€â”€ ThemeSettings.tsx
+â”‚       â””â”€â”€ ApiSettings.tsx
+â”œâ”€â”€ hooks/
+â”‚   â”œâ”€â”€ useAuth.ts
+â”‚   â”œâ”€â”€ usePosts.ts
+â”‚   â”œâ”€â”€ useComments.ts
+â”‚   â”œâ”€â”€ useAuthors.ts
+â”‚   â”œâ”€â”€ useTags.ts
+â”‚   â”œâ”€â”€ useNewsletter.ts
+â”‚   â”œâ”€â”€ useAnalytics.ts
+â”‚   â””â”€â”€ useSettings.ts
+â”œâ”€â”€ pages/
+â”‚   â”œâ”€â”€ Login.tsx
+â”‚   â”œâ”€â”€ Dashboard.tsx
+â”‚   â”œâ”€â”€ Posts.tsx
+â”‚   â”œâ”€â”€ PostEdit.tsx
+â”‚   â”œâ”€â”€ Comments.tsx
+â”‚   â”œâ”€â”€ Authors.tsx
+â”‚   â”œâ”€â”€ Tags.tsx
+â”‚   â”œâ”€â”€ Categories.tsx
+â”‚   â”œâ”€â”€ Newsletter.tsx
+â”‚   â”œâ”€â”€ Analytics.tsx
+â”‚   â””â”€â”€ Settings.tsx
+â””â”€â”€ utils/
+    â”œâ”€â”€ editor/
+    â”‚   â”œâ”€â”€ MarkdownEditor.tsx
+    â”‚   â””â”€â”€ WysiwygEditor.tsx
+    â”œâ”€â”€ validators.ts
+    â””â”€â”€ formatters.ts
 ```
 
 ### 8.3 State Management
@@ -1520,22 +1412,8 @@ function usePost(slug: string) {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 9. Static Site Generation
 
 ### 9.1 SSG Architecture
@@ -1617,22 +1495,8 @@ const pageConfigs: Record<string, PageConfig> = {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 10. Testing Strategy
 
 ### 10.1 Test Pyramid
@@ -1768,22 +1632,8 @@ describe('POST /api/v1/admin/posts', () => {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 11. Deployment & DevOps
 
 ### 11.1 CI/CD Pipeline
@@ -1880,99 +1730,71 @@ graph TB
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 12. Project Structure
 
 ```
 blog-platform/
-├── apps/
-│   ├── web/                    # Public Blog (Vite + React)
-│   │   ├── src/
-│   │   ├── public/
-│   │   ├── vite.config.ts
-│   │   └── tsconfig.json
-│   ├── admin/                  # Admin Dashboard (Vite + React)
-│   │   ├── src/
-│   │   ├── public/
-│   │   ├── vite.config.ts
-│   │   └── tsconfig.json
-│   └── api/                    # API Server (Node.js/Express)
-│       ├── src/
-│       ├── package.json
-│       └── tsconfig.json
-├── packages/
-│   ├── domain/                 # Domain layer (shared)
-│   │   ├── src/
-│   │   │   ├── entities/
-│   │   │   ├── value-objects/
-│   │   │   ├── domain-events/
-│   │   │   ├── domain-services/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   ├── application/            # Application layer (shared)
-│   │   ├── src/
-│   │   │   ├── use-cases/
-│   │   │   ├── dtos/
-│   │   │   ├── ports/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   ├── infrastructure/         # Infrastructure layer (shared)
-│   │   ├── src/
-│   │   │   ├── database/
-│   │   │   ├── cache/
-│   │   │   ├── storage/
-│   │   │   ├── messaging/
-│   │   │   ├── search/
-│   │   │   ├── ssg/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   └── shared/                 # Shared utilities
-│       ├── src/
-│       │   ├── types/
-│       │   ├── utils/
-│       │   ├── validators/
-│       │   └── index.ts
-│       └── package.json
-├── docker-compose.yml
-├── pnpm-workspace.yaml
-├── tsconfig.json
-└── package.json
+â”œâ”€â”€ apps/
+â”‚   â”œâ”€â”€ web/                    # Public Blog (Vite + React)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”œâ”€â”€ public/
+â”‚   â”‚   â”œâ”€â”€ vite.config.ts
+â”‚   â”‚   â””â”€â”€ tsconfig.json
+â”‚   â”œâ”€â”€ admin/                  # Admin Dashboard (Vite + React)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”œâ”€â”€ public/
+â”‚   â”‚   â”œâ”€â”€ vite.config.ts
+â”‚   â”‚   â””â”€â”€ tsconfig.json
+â”‚   â””â”€â”€ api/                    # API Server (Node.js/Express)
+â”‚       â”œâ”€â”€ src/
+â”‚       â”œâ”€â”€ package.json
+â”‚       â””â”€â”€ tsconfig.json
+â”œâ”€â”€ packages/
+â”‚   â”œâ”€â”€ domain/                 # Domain layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ entities/
+â”‚   â”‚   â”‚   â”œâ”€â”€ value-objects/
+â”‚   â”‚   â”‚   â”œâ”€â”€ domain-events/
+â”‚   â”‚   â”‚   â”œâ”€â”€ domain-services/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â”œâ”€â”€ application/            # Application layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ use-cases/
+â”‚   â”‚   â”‚   â”œâ”€â”€ dtos/
+â”‚   â”‚   â”‚   â”œâ”€â”€ ports/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â”œâ”€â”€ infrastructure/         # Infrastructure layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ database/
+â”‚   â”‚   â”‚   â”œâ”€â”€ cache/
+â”‚   â”‚   â”‚   â”œâ”€â”€ storage/
+â”‚   â”‚   â”‚   â”œâ”€â”€ messaging/
+â”‚   â”‚   â”‚   â”œâ”€â”€ search/
+â”‚   â”‚   â”‚   â”œâ”€â”€ ssg/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â””â”€â”€ shared/                 # Shared utilities
+â”‚       â”œâ”€â”€ src/
+â”‚       â”‚   â”œâ”€â”€ types/
+â”‚       â”‚   â”œâ”€â”€ utils/
+â”‚       â”‚   â”œâ”€â”€ validators/
+â”‚       â”‚   â””â”€â”€ index.ts
+â”‚       â””â”€â”€ package.json
+â”œâ”€â”€ docker-compose.yml
+â”œâ”€â”€ pnpm-workspace.yaml
+â”œâ”€â”€ tsconfig.json
+â””â”€â”€ package.json
 ```
 
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 13. Development Phases
 
 ### Phase 1: Foundation (Weeks 1-2)
@@ -2022,22 +1844,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 14. Risk Assessment
 
 | Risk | Impact | Likelihood | Mitigation |
@@ -2055,22 +1863,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 15. Success Criteria
 
 ### MVP (Minimum Viable Product)
@@ -2109,22 +1903,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 16. Key Differentiators vs. WordPress/Ghost
 
 | Feature | Custom Blog | WordPress | Ghost |
@@ -2143,53 +1923,39 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 17. References & Sources
 
 ### Architectural Patterns
-- [[Sources/martin-clean-architecture-2017|Clean Architecture]] — Robert C. Martin
-- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] — Martin Fowler
-- [[Sources/evans-ddd-2003|Domain-Driven Design]] — Eric Evans
-- [[Sources/goF-1994|Design Patterns]] — GoF
+- [[Sources/martin-clean-architecture-2017|Clean Architecture]] â€” Robert C. Martin
+- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] â€” Martin Fowler
+- [[Sources/evans-ddd-2003|Domain-Driven Design]] â€” Eric Evans
+- [[Sources/goF-1994|Design Patterns]] â€” GoF
 
 ### Technical Documentation
-- [[Sources/react-docs-2026|React 19 Documentation]] — React Team
-- [[Sources/microsoft-typescript-handbook|TypeScript Handbook]] — Microsoft
-- [[Sources/tailwind-docs-2024|Tailwind CSS Documentation]] — Tailwind Labs
-- [[Sources/pnpm-docs-2024|pnpm Documentation]] — pnpm
-- [[Sources/vitest-docs-2024|Vitest Documentation]] — Vitest
-- [[Sources/playwright-docs-2024|Playwright Documentation]] — Microsoft
+- [[Sources/react-docs-2026|React 19 Documentation]] â€” React Team
+- [[Sources/microsoft-typescript-handbook|TypeScript Handbook]] â€” Microsoft
+- [[Sources/tailwind-docs-2024|Tailwind CSS Documentation]] â€” Tailwind Labs
+- [[Sources/pnpm-docs-2024|pnpm Documentation]] â€” pnpm
+- [[Sources/vitest-docs-2024|Vitest Documentation]] â€” Vitest
+- [[Sources/playwright-docs-2024|Playwright Documentation]] â€” Microsoft
 
 ### Security
-- [[Sources/owasp-top-ten-2021|OWASP Top 10]] — OWASP
-- [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] — NIST
+- [[Sources/owasp-top-ten-2021|OWASP Top 10]] â€” OWASP
+- [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] â€” NIST
 
 ### Architecture Patterns
-- [[Sources/martin-fowler-patterns|CQRS]] — Martin Fowler
-- [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] — Microsoft Azure
-- [[Sources/martin-fowler-patterns|Repository Pattern]] — Martin Fowler
-- [[Sources/martin-fowler-patterns|Service Layer Pattern]] — Martin Fowler
-- [[Sources/martin-fowler-patterns|Cache-Aside Pattern]] — Microsoft Azure
+- [[Sources/martin-fowler-patterns|CQRS]] â€” Martin Fowler
+- [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] â€” Microsoft Azure
+- [[Sources/martin-fowler-patterns|Repository Pattern]] â€” Martin Fowler
+- [[Sources/martin-fowler-patterns|Service Layer Pattern]] â€” Martin Fowler
+- [[Sources/martin-fowler-patterns|Cache-Aside Pattern]] â€” Microsoft Azure
 
 ### Performance
-- [[Sources/react-docs-2026|React Performance]] — React Team
-- [[Sources/martin-fowler-patterns|Cache-Aside Pattern]] — Microsoft Azure
-- [[Sources/rest-api-design|REST API Design]] — RESTful API
+- [[Sources/react-docs-2026|React Performance]] â€” React Team
+- [[Sources/martin-fowler-patterns|Cache-Aside Pattern]] â€” Microsoft Azure
+- [[Sources/rest-api-design|REST API Design]] â€” RESTful API
 
 
 ## See Also

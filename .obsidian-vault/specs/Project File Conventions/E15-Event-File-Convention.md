@@ -1,31 +1,22 @@
----
+﻿---
 slug: event-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.event.ts
 
 ## Definition
 
 `*.event.ts` is **a file naming convention for TypeScript files that contain domain event definitions**.
 
-> "The *.event.ts convention identifies TypeScript files that contain domain event definitions." — TypeScript Docs
+> "The *.event.ts convention identifies TypeScript files that contain domain event definitions." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.event.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.event.ts` ≠ `*.logic.ts` (`*.event.ts` is for events, `*.logic.ts` is for business logic)
+- `*.event.ts` â‰  `*.logic.ts` (`*.event.ts` is for events, `*.logic.ts` is for business logic)
 - `*.event.ts` = Events (`*.event.ts` is for event definitions)
 - `*.event.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.event.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every event needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.event.ts` convention:
 
 ## Related Concepts
 
-- [Domain Event](DDD/domain-event.md) — Domain event pattern is the pattern behind `*.event.ts`
-- [Event-Driven Architecture](Architecture/event-driven-architecture.md) — Event-driven architecture uses `*.event.ts`
-- [Logic File Convention](Project File Conventions/logic-file-convention.md) — Logic file convention separates business logic
+- [Domain Event](DDD/domain-event.md) â€” Domain event pattern is the pattern behind `*.event.ts`
+- [Event-Driven Architecture](Architecture/event-driven-architecture.md) â€” Event-driven architecture uses `*.event.ts`
+- [Logic File Convention](Project File Conventions/logic-file-convention.md) â€” Logic file convention separates business logic
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.event.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.event.ts` in existing code (src/ is empty)
 - File naming conventions support `*.event.ts`:
-  - `*.event.ts` — Event files
-  - `*.logic.ts` — Logic files
+  - `*.event.ts` â€” Event files
+  - `*.logic.ts` â€” Logic files
 
 ## Sources
 

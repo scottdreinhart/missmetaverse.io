@@ -1,9 +1,11 @@
+﻿---
+slug: resource-lifecycle
+---
+
 # Resource Lifecycle Management
 
 > **Purpose:** Manage resource creation and destruction explicitly.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-resource-lifecycle`
@@ -52,8 +54,6 @@ declared
 - coding-explicit-error-modeling
 - arch-fail-fast
 - coding-resource-lifecycle
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ Resource lifecycle management does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/immutability]] — Immutability
-- [[Coding Type Systems/structured-concurrency]] — Structured Concurrency
-- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
-- [[Architecture/fail-fast]] — Fail Fast
+- [[Coding Type Systems/immutability]] â€” Immutability
+- [[Coding Type Systems/structured-concurrency]] â€” Structured Concurrency
+- [[Coding Type Systems/explicit-error-modeling]] â€” Explicit Error Modeling
+- [[Architecture/fail-fast]] â€” Fail Fast
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project uses TypeScript, which supports resource lifecycle management throug
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Resource Lifecycle Management Note**

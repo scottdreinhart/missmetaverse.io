@@ -1,9 +1,11 @@
+﻿---
+slug: data-modeling
+---
+
 # Data Modeling
 
 > **Purpose:** Model data with Data Modeling.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `data-modeling`
@@ -50,8 +52,6 @@ declared
 - entity-modeling
 - schema-design
 - data-architecture
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Data Modeling does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/data-modeling]] — Data Modeling
-- [[Data Databases/entity-modeling]] — Entity Modeling
-- [[Data Databases/schema-design]] — Schema Design
-- [[Data Databases/data-architecture]] — Data Architecture
+- [[Data Databases/data-modeling]] â€” Data Modeling
+- [[Data Databases/entity-modeling]] â€” Entity Modeling
+- [[Data Databases/schema-design]] â€” Schema Design
+- [[Data Databases/data-architecture]] â€” Data Architecture
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Data Modeling through:
 ## Sources
 
 - [[Sources/data-modeling-guide|Data Modeling Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Data Modeling Note**

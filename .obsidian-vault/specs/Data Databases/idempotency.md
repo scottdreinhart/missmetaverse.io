@@ -1,9 +1,11 @@
+﻿---
+slug: idempotency
+---
+
 # Idempotency
 
 > **Purpose:** Ensure safe retries with Idempotency.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `idempotency`
@@ -50,8 +52,6 @@ declared
 - retry-pattern
 - message-deduplication
 - safe-retry
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Idempotency does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/idempotency]] — Idempotency
-- [[APIs Distributed Systems/retry-pattern]] — Retry Pattern
-- [[APIs Distributed Systems/message-deduplication]] — Message Deduplication
-- [[APIs Distributed Systems/safe-retry]] — Safe Retry
+- [[Data Databases/idempotency]] â€” Idempotency
+- [[APIs Distributed Systems/retry-pattern]] â€” Retry Pattern
+- [[APIs Distributed Systems/message-deduplication]] â€” Message Deduplication
+- [[APIs Distributed Systems/safe-retry]] â€” Safe Retry
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Idempotency through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 - [[Sources/distributed-systems|Distributed Systems Principles]]
-
----
 
 **End of Idempotency Note**

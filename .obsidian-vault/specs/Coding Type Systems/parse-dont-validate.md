@@ -1,9 +1,11 @@
+﻿---
+slug: parse-dont-validate
+---
+
 # Parse, Don't Merely Validate
 
 > **Purpose:** Transform input into valid types, not just check them.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-parse-dont-validate`
@@ -51,8 +53,6 @@ declared
 - coding-boundary-validation
 - coding-explicit-error-modeling
 - arch-fail-fast
-
----
 
 ## Definition
 
@@ -116,10 +116,10 @@ Parsing does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Coding Type Systems/make-invalid-states-unrepresentable]] — Make Invalid States Unrepresentable
-- [[Coding Type Systems/boundary-validation]] — Boundary Validation
-- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Coding Type Systems/make-invalid-states-unrepresentable]] â€” Make Invalid States Unrepresentable
+- [[Coding Type Systems/boundary-validation]] â€” Boundary Validation
+- [[Coding Type Systems/explicit-error-modeling]] â€” Explicit Error Modeling
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project uses Zod for schema validation, which supports parsing through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/zod-documentation|Zod — TypeScript-first schema validation]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/zod-documentation|Zod â€” TypeScript-first schema validation]]
 
 **End of Parse, Don't Merely Validate Note**

@@ -1,4 +1,4 @@
----
+﻿---
 slug: commitlint-cli-config
 sources:
   - https://commitlint.js.org/
@@ -8,23 +8,12 @@ sources:
   - https://commitlint.js.org/reference/plugins.html
 date: 2026-11-02
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
   - commitlint
   - conventional-commits
   - commit-validation
   - linting
----
-
+  - --
 # Commitlint CLI & Configuration
 
 ## Overview
@@ -48,10 +37,10 @@ pnpm add -D @commitlint/cli @commitlint/config-conventional
 ```javascript
 // commitlint.config.js
 module.exports = {
-  // ─── Extends ────────────────────────────────────────
+  // â”€â”€â”€ Extends â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   extends: ['@commitlint/config-conventional'],
 
-  // ─── Rules ──────────────────────────────────────────
+  // â”€â”€â”€ Rules â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   rules: {
     // Type must be one of these
     'type-enum': [
@@ -116,11 +105,11 @@ module.exports = {
     'scope-case': [2, 'always', 'lower-case'],
   },
 
-  // ─── Ignored Rules ──────────────────────────────────
+  // â”€â”€â”€ Ignored Rules â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   // Skip certain rules for specific patterns
   ignores: [(commit) => commit.startsWith('Merge')],
 
-  // ─── Prompt Configuration ───────────────────────────
+  // â”€â”€â”€ Prompt Configuration â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   // Used when running commitlint as a prompt
   prompt: {
     settings: {

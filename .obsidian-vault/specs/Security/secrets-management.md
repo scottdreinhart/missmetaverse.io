@@ -1,9 +1,11 @@
+﻿---
+slug: secrets-management
+---
+
 # Secrets Management
 
 > **Purpose:** Manage secrets with Secrets Management.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `secrets-management`
@@ -50,8 +52,6 @@ declared
 - secret-rotation
 - key-management
 - credential-management
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Secrets Management does not apply to:
 
 ## Related Concepts
 
-- [[Security/secrets-management]] — Secrets Management
-- [[Security/secret-rotation]] — Secret Rotation
-- [[Security/key-management]] — Key Management
-- [[Security/credential-management]] — Credential Management
+- [[Security/secrets-management]] â€” Secrets Management
+- [[Security/secret-rotation]] â€” Secret Rotation
+- [[Security/key-management]] â€” Key Management
+- [[Security/credential-management]] â€” Credential Management
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Secrets Management through:
 ## Sources
 
 - [[Sources/secrets-management-guide|Secrets Management Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Secrets Management Note**

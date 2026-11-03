@@ -1,33 +1,22 @@
----
+﻿---
 slug: projections
 sources:
   - https://www.postgresql.org/docs/
   - https://martinfowler.com/bliki/Projection.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - database
   - projections
   - event-sourcing
   - cqs
----
-
+  - --
 # Projections
 
 ## Definition
 
 Projections are **read-optimized views of data derived from domain events or source data, used to serve queries without modifying the source of truth**.
 
-> "A projection is a read-optimized view of data derived from the event store, used to serve queries." — Martin Fowler
+> "A projection is a read-optimized view of data derived from the event store, used to serve queries." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without projections:
 
 ## Scope and Boundaries
 
-- Projections ≠ Event Sourcing (projections read from events, event sourcing stores events as the source of truth)
+- Projections â‰  Event Sourcing (projections read from events, event sourcing stores events as the source of truth)
 - Projections = Read Model (projections serve as read models)
 - Projections is a **CQRS building block**, not a pattern
 
@@ -54,9 +43,9 @@ Without projections:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Projections add architectural complexity |
-| **Time** — Implementing projections takes time |
-| **Eventual consistency** — Projections may be stale |
+| **Complexity** â€” Projections add architectural complexity |
+| **Time** â€” Implementing projections takes time |
+| **Eventual consistency** â€” Projections may be stale |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without projections:
 
 ## Related Concepts
 
-- [Event Sourcing](Data Databases/event-sourcing.md) — Projections read from event stores
-- [CQRS](Architecture/cqrs-pattern.md) — Projections are a CQRS building block
-- [Materialized Views](Data Databases/materialized-views.md) — Materialized views are similar to projections
+- [Event Sourcing](Data Databases/event-sourcing.md) â€” Projections read from event stores
+- [CQRS](Architecture/cqrs-pattern.md) â€” Projections are a CQRS building block
+- [Materialized Views](Data Databases/materialized-views.md) â€” Materialized views are similar to projections
 
 ## Project Observations
 
@@ -77,8 +66,8 @@ Without projections:
   - The project's architecture patterns note covers CQRS concepts
   - No evidence of projections in existing code (src/ is empty)
 - File naming conventions support projections:
-  - `*.projection.ts` — Projection files
-  - `*.schema.ts` — Schema files
+  - `*.projection.ts` â€” Projection files
+  - `*.schema.ts` â€” Schema files
 
 ## Sources
 

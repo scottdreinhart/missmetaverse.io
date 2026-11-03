@@ -1,4 +1,4 @@
----
+﻿---
 slug: security-principles
 sources:
   - https://owasp.org/www-project-top-ten/
@@ -6,22 +6,6 @@ sources:
   - https://www.nist.gov/cyberframework
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   - security
   - polp
   - least-privilege
@@ -38,13 +22,12 @@ tags:
   - threat-modeling
   - deny-by-default
   - complete-mediation
----
-
+  - --
 # Security Principles
 
 ## Overview
 
-Security principles guide the design and implementation of secure systems. These are not optional — they are foundational requirements.
+Security principles guide the design and implementation of secure systems. These are not optional â€” they are foundational requirements.
 
 ---
 
@@ -55,14 +38,14 @@ Security principles guide the design and implementation of secure systems. These
 **Every program and user should operate with the least privileges necessary.**
 
 ```typescript
-// ❌ Overly permissive
+// âŒ Overly permissive
 class UserService {
   async deleteUser(id: string): Promise<void> {
     await this.db.query('DELETE FROM users WHERE id = $1', [id])
   }
 }
 
-// ✅ Least privilege
+// âœ… Least privilege
 class UserService {
   constructor(private permissions: PermissionChecker) {}
 
@@ -86,18 +69,18 @@ class UserService {
 **Explicitly deny all access unless explicitly allowed.**
 
 ```typescript
-// ❌ Allow by default
+// âŒ Allow by default
 function accessResource(user: User, resource: Resource): boolean {
   if (user.role === 'admin') return true
   if (user.id === resource.ownerId) return true
-  return true  // ❌ Default allow
+  return true  // âŒ Default allow
 }
 
-// ✅ Deny by default
+// âœ… Deny by default
 function accessResource(user: User, resource: Resource): boolean {
   if (user.role === 'admin') return true
   if (user.id === resource.ownerId) return true
-  return false  // ✅ Default deny
+  return false  // âœ… Default deny
 }
 ```
 
@@ -106,7 +89,7 @@ function accessResource(user: User, resource: Resource): boolean {
 **Every access to every object must be checked every time.**
 
 ```typescript
-// ❌ Caching permissions without re-checking
+// âŒ Caching permissions without re-checking
 class CachedPermissionChecker {
   private cache = new Map<string, boolean>()
 
@@ -115,11 +98,11 @@ class CachedPermissionChecker {
     if (!this.cache.has(key)) {
       this.cache.set(key, this.checkPermission(userId, permission))
     }
-    return this.cache.get(key)!  // ❌ Cached, not re-checked
+    return this.cache.get(key)!  // âŒ Cached, not re-checked
   }
 }
 
-// ✅ Complete mediation — always check
+// âœ… Complete mediation â€” always check
 class PermissionChecker {
   hasPermission(userId: string, permission: string): boolean {
     // Always check against current state
@@ -136,15 +119,15 @@ class PermissionChecker {
 **Layer multiple security controls so failure of one does not compromise the system.**
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  1. Network Security: VPC, Security Groups, WAF         │
-│  2. Authentication: OAuth 2.0, MFA, JWT validation      │
-│  3. Authorization: RBAC, ABAC, POLP                     │
-│  4. Input Validation: Schema validation, sanitization   │
-│  5. Encryption: TLS in transit, AES-256 at rest         │
-│  6. Logging & Monitoring: Audit trails, alerts          │
-│  7. Error Handling: No sensitive data in errors         │
-└─────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  1. Network Security: VPC, Security Groups, WAF         â”‚
+â”‚  2. Authentication: OAuth 2.0, MFA, JWT validation      â”‚
+â”‚  3. Authorization: RBAC, ABAC, POLP                     â”‚
+â”‚  4. Input Validation: Schema validation, sanitization   â”‚
+â”‚  5. Encryption: TLS in transit, AES-256 at rest         â”‚
+â”‚  6. Logging & Monitoring: Audit trails, alerts          â”‚
+â”‚  7. Error Handling: No sensitive data in errors         â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ### Zero Trust
@@ -228,7 +211,7 @@ class SecureApplication {
     this.db = new Database({ parameterized: true })
 
     // 4. No eval, no dynamic code execution
-    // this.eval(userInput)  // ❌ Never
+    // this.eval(userInput)  // âŒ Never
   }
 }
 ```
@@ -252,13 +235,13 @@ const CreateUserSchema = z.object({
   role: z.enum(['user', 'admin']).default('user'),
 })
 
-// ❌ Insecure: trusting client input
+// âŒ Insecure: trusting client input
 app.post('/users', (req, res) => {
-  const user = req.body  // ❌ No validation
+  const user = req.body  // âŒ No validation
   db.insert('users', user)
 })
 
-// ✅ Secure: validate at every boundary
+// âœ… Secure: validate at every boundary
 app.post('/users', async (req, res) => {
   const result = CreateUserSchema.safeParse(req.body)
   if (!result.success) {
@@ -279,12 +262,12 @@ app.post('/users', async (req, res) => {
 **Encode output to prevent XSS attacks.**
 
 ```typescript
-// ❌ Insecure: rendering user input directly
+// âŒ Insecure: rendering user input directly
 function renderUserProfile(user: User): string {
-  return `<div>${user.bio}</div>`  // ❌ XSS vulnerability
+  return `<div>${user.bio}</div>`  // âŒ XSS vulnerability
 }
 
-// ✅ Secure: encode output
+// âœ… Secure: encode output
 function escapeHtml(text: string): string {
   return text
     .replace(/&/g, '&amp;')
@@ -295,12 +278,12 @@ function escapeHtml(text: string): string {
 }
 
 function renderUserProfile(user: User): string {
-  return `<div>${escapeHtml(user.bio)}</div>`  // ✅ Safe
+  return `<div>${escapeHtml(user.bio)}</div>`  // âœ… Safe
 }
 
 // In React: automatic encoding
 function UserProfile({ user }: { user: User }) {
-  return <div>{user.bio}</div>  // ✅ React auto-encodes
+  return <div>{user.bio}</div>  // âœ… React auto-encodes
 }
 ```
 
@@ -309,20 +292,20 @@ function UserProfile({ user }: { user: User }) {
 **Prevent SQL injection by using parameterized queries.**
 
 ```typescript
-// ❌ Insecure: string concatenation (SQL injection vulnerable)
+// âŒ Insecure: string concatenation (SQL injection vulnerable)
 function getUser(username: string) {
   return db.query(`SELECT * FROM users WHERE username = '${username}'`)
 }
 
-// ✅ Secure: parameterized query
+// âœ… Secure: parameterized query
 function getUser(username: string) {
   return db.query('SELECT * FROM users WHERE username = $1', [username])
 }
 
 // SQL injection attempt:
 // username = "' OR '1'='1"
-// ❌ Returns all users
-// ✅ Returns no users (treated as literal string)
+// âŒ Returns all users
+// âœ… Returns no users (treated as literal string)
 ```
 
 ### Secrets Management
@@ -330,21 +313,21 @@ function getUser(username: string) {
 **Never hardcode secrets. Use environment variables or secret managers.**
 
 ```typescript
-// ❌ Insecure: hardcoded secrets
+// âŒ Insecure: hardcoded secrets
 const config = {
   databaseUrl: 'postgresql://admin:password123@db.example.com/mydb',
   apiKey: 'sk-1234567890abcdef',
   jwtSecret: 'my-secret-key',
 }
 
-// ✅ Secure: environment variables
+// âœ… Secure: environment variables
 const config = {
   databaseUrl: process.env.DATABASE_URL,
   apiKey: process.env.API_KEY,
   jwtSecret: process.env.JWT_SECRET,
 }
 
-// ✅ More secure: secret manager (AWS Secrets Manager example)
+// âœ… More secure: secret manager (AWS Secrets Manager example)
 class SecretManager {
   async getSecret(name: string): Promise<string> {
     const response = await this.secretsManager.getSecretValue({ SecretId: name })
@@ -365,26 +348,26 @@ JWT_SECRET=...
 
 ```
 STRIDE Threat Modeling:
-┌────────────────────────────────────────────────────────────┐
-│ S - Spoofing: Can someone impersonate a user?              │
-│ T - Tampering: Can data be modified unauthorized?          │
-│ R - Repudiation: Can someone deny an action?               │
-│ I - Information Disclosure: Can data be leaked?            │
-│ D - Denial of Service: Can the system be made unavailable? │
-│ E - Elevation of Privilege: Can a user gain admin?         │
-└────────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚ S - Spoofing: Can someone impersonate a user?              â”‚
+â”‚ T - Tampering: Can data be modified unauthorized?          â”‚
+â”‚ R - Repudiation: Can someone deny an action?               â”‚
+â”‚ I - Information Disclosure: Can data be leaked?            â”‚
+â”‚ D - Denial of Service: Can the system be made unavailable? â”‚
+â”‚ E - Elevation of Privilege: Can a user gain admin?         â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 
 Example: Order System Threat Model
-┌──────────────┬─────────────────────────────────────────────┐
-│ Threat       │ Mitigation                                  │
-├──────────────┼─────────────────────────────────────────────┤
-│ Spoofing     │ JWT validation, MFA                         │
-│ Tampering    │ Input validation, DB constraints            │
-│ Repudiation  │ Audit logs, immutable events                │
-│ Info Disc.   │ Encryption, access controls                 │
-│ DoS          │ Rate limiting, circuit breakers             │
-│ Elevation    │ RBAC, POLP, complete mediation              │
-└──────────────┴─────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚ Threat       â”‚ Mitigation                                  â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¼â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚ Spoofing     â”‚ JWT validation, MFA                         â”‚
+â”‚ Tampering    â”‚ Input validation, DB constraints            â”‚
+â”‚ Repudiation  â”‚ Audit logs, immutable events                â”‚
+â”‚ Info Disc.   â”‚ Encryption, access controls                 â”‚
+â”‚ DoS          â”‚ Rate limiting, circuit breakers             â”‚
+â”‚ Elevation    â”‚ RBAC, POLP, complete mediation              â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
@@ -494,7 +477,7 @@ class EncryptionService {
 **Only collect and retain data that is necessary.**
 
 ```typescript
-// ❌ Collecting everything
+// âŒ Collecting everything
 interface UserDto {
   name: string
   email: string
@@ -506,7 +489,7 @@ interface UserDto {
   // ... 50 more fields
 }
 
-// ✅ Collecting only what's needed
+// âœ… Collecting only what's needed
 interface CreateUserDto {
   name: string
   email: string
@@ -599,10 +582,10 @@ app.post('/users', async (req, res) => {
 ### Step 3: Parameterized Queries
 
 ```typescript
-// ✅ Always use parameterized queries
+// âœ… Always use parameterized queries
 const user = await db.query('SELECT * FROM users WHERE email = $1', [email])
 
-// ❌ Never use string concatenation
+// âŒ Never use string concatenation
 // const user = await db.query(`SELECT * FROM users WHERE email = '${email}'`)
 ```
 
@@ -658,12 +641,12 @@ pnpm eslint --ext .ts src/
 5. **Implement defense in depth**: Multiple layers of security
 
 ### Tools to Use
-- **VS Code Extension**: ESLint with `eslint-plugin-security` — for security linting
-- **Browser Extension**: OWASP ZAP — for vulnerability scanning
-- **npm Package**: `zod` — for schema validation
-- **npm Package**: `helmet` — for security headers
-- **Terminal Command**: `pnpm audit` — check for npm vulnerabilities
-- **Terminal Command**: `npx eslint --ext .ts src/` — run security linting
+- **VS Code Extension**: ESLint with `eslint-plugin-security` â€” for security linting
+- **Browser Extension**: OWASP ZAP â€” for vulnerability scanning
+- **npm Package**: `zod` â€” for schema validation
+- **npm Package**: `helmet` â€” for security headers
+- **Terminal Command**: `pnpm audit` â€” check for npm vulnerabilities
+- **Terminal Command**: `npx eslint --ext .ts src/` â€” run security linting
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when adding new API endpoints

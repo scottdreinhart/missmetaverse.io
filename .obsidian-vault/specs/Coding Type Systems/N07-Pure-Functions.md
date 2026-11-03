@@ -1,33 +1,23 @@
----
+﻿---
 slug: pure-functions-coding
 sources:
   - https://www.typescriptlang.org/
   - https://react.dev/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
   - pure-functions
   - typescript
   - type-system
   - patterns
----
-
+  - --
 # Pure Functions
 
 ## Definition
 
 Pure Functions are **functions that always produce the same output for the same input and have no side effects**.
 
-> "A pure function is a function that always produces the same output for the same input and has no side effects." — TypeScript Docs
+> "A pure function is a function that always produces the same output for the same input and has no side effects." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -39,7 +29,7 @@ Without pure functions:
 
 ## Scope and Boundaries
 
-- Pure Functions ≠ Immutability (pure functions have no side effects, immutability prevents mutation)
+- Pure Functions â‰  Immutability (pure functions have no side effects, immutability prevents mutation)
 - Pure Functions = Determinism (pure functions are deterministic)
 - Pure Functions is a **programming principle**, not a pattern
 
@@ -54,8 +44,8 @@ Without pure functions:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Pure functions add abstraction |
-| **Time** — Writing pure functions takes time |
+| **Complexity** â€” Pure functions add abstraction |
+| **Time** â€” Writing pure functions takes time |
 | **Over-pure**: Not every function needs to be pure |
 
 ## Common Misuses
@@ -66,9 +56,9 @@ Without pure functions:
 
 ## Related Concepts
 
-- [Immutability](Coding Type Systems/immutability-coding.md) — Immutability supports pure functions
-- [TDD Pattern](Architecture/tdd-pattern.md) — TDD benefits from pure functions
-- [Command-Query Separation](Architecture/command-query-separation.md) — Command-query separation supports pure functions
+- [Immutability](Coding Type Systems/immutability-coding.md) â€” Immutability supports pure functions
+- [TDD Pattern](Architecture/tdd-pattern.md) â€” TDD benefits from pure functions
+- [Command-Query Separation](Architecture/command-query-separation.md) â€” Command-query separation supports pure functions
 
 ## Project Observations
 
@@ -78,8 +68,8 @@ Without pure functions:
   - The project's architecture patterns note covers TypeScript concepts
   - No evidence of pure functions in existing code (src/ is empty)
 - File naming conventions support pure functions:
-  - `*.logic.ts` — Logic files
-  - `*.data.ts` — Data files
+  - `*.logic.ts` â€” Logic files
+  - `*.data.ts` â€” Data files
 
 ## Sources
 
@@ -92,7 +82,7 @@ Without pure functions:
 
 ```mermaid
 graph TD
-    A[Writing function?]\n    A --> B{Same input = Same output?}\n    B -->|Yes| C{No side effects?}\n    B -->|No| D[Not pure - isolate side effects]\n    C -->|Yes| E[Pure function]\n    C -->|No| F[Extract side effects]\n    E --> G{Reusable?}\n    G -->|Yes| H[Export as utility]\n    G -->|No| I[Keep local]\n```\n\n### Pure Function Checklist\n\n| Criterion | Check | Example |\n|-----------|-------|---------|\n| **Deterministic** | Same input → Same output | `add(2, 3) === 5` always |\n| **No side effects** | No mutation, no I/O | No console.log, no fetch |\n| **No external state** | Only uses parameters | Doesn't read global vars |\n| **Referential transparency** | Can replace with value | `double(x)` → `x * 2` |\n\n---
+    A[Writing function?]\n    A --> B{Same input = Same output?}\n    B -->|Yes| C{No side effects?}\n    B -->|No| D[Not pure - isolate side effects]\n    C -->|Yes| E[Pure function]\n    C -->|No| F[Extract side effects]\n    E --> G{Reusable?}\n    G -->|Yes| H[Export as utility]\n    G -->|No| I[Keep local]\n```\n\n### Pure Function Checklist\n\n| Criterion | Check | Example |\n|-----------|-------|---------|\n| **Deterministic** | Same input â†’ Same output | `add(2, 3) === 5` always |\n| **No side effects** | No mutation, no I/O | No console.log, no fetch |\n| **No external state** | Only uses parameters | Doesn't read global vars |\n| **Referential transparency** | Can replace with value | `double(x)` â†’ `x * 2` |\n\n---
 
 ## Procedural Guidance: Pure Function Implementation
 
@@ -101,17 +91,17 @@ graph TD
 ```typescript
 // functions/pure-functions.ts
 
-// ✅ Pure function — deterministic, no side effects
+// âœ… Pure function â€” deterministic, no side effects
 export function add(a: number, b: number): number {
   return a + b
 }
 
-// ✅ Pure function — same input always returns same output
+// âœ… Pure function â€” same input always returns same output
 export function capitalize(str: string): string {
   return str.charAt(0).toUpperCase() + str.slice(1)
 }
 
-// ✅ Pure function — no mutation
+// âœ… Pure function â€” no mutation
 export function createUser(name: string, email: string) {
   return {
     id: crypto.randomUUID(),
@@ -121,14 +111,14 @@ export function createUser(name: string, email: string) {
   }
 }
 
-// ❌ Impure function — uses external state
+// âŒ Impure function â€” uses external state
 let counter = 0
 export function increment(): number {
   counter++
   return counter
 }
 
-// ❌ Impure function — has side effect
+// âŒ Impure function â€” has side effect
 export function logAndReturn(value: string): string {
   console.log(value) // Side effect!
   return value
@@ -141,9 +131,9 @@ export function logAndReturn(value: string): string {
 // components/PureComponent.tsx
 import { memo } from 'react'
 
-// Pure component — memoized for performance
+// Pure component â€” memoized for performance
 export const PureComponent = memo(({ name, age }: { name: string; age: number }) => {
-  // Pure rendering — no side effects in render
+  // Pure rendering â€” no side effects in render
   const formattedAge = formatAge(age) // Pure function
   const greeting = createGreeting(name) // Pure function
 
@@ -170,7 +160,7 @@ function createGreeting(name: string): string {
 ```typescript
 // functions/data-transformers.ts
 
-// Pure transformer — no mutation
+// Pure transformer â€” no mutation
 export function transformUser(user: {
   firstName: string
   lastName: string
@@ -288,11 +278,11 @@ describe('Pure Functions', () => {
 5. **Test easily**: Pure functions are easy to test
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `ramda` — for functional programming utilities
-- **npm Package**: `lodash` — for utility functions
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `ramda` â€” for functional programming utilities
+- **npm Package**: `lodash` â€” for utility functions
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing function purity

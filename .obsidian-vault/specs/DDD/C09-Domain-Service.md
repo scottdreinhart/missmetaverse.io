@@ -1,32 +1,22 @@
----
+﻿---
 slug: domain-service
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/DomainService.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - ddd
   - domain-service
   - domain-modeling
   - business-logic
----
-
+  - --
 # Domain Service
 
 ## Definition
 
 Domain Service is **a operation between two or more entities that does not naturally belong to any single entity**.
 
-> "A domain operation that is not a natural responsibility of an Entity or Value Object." — Eric Evans
+> "A domain operation that is not a natural responsibility of an Entity or Value Object." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without domain services:
 
 ## Scope and Boundaries
 
-- Domain Service ≠ Application Service (domain service contains domain logic, application service orchestrates application steps)
+- Domain Service â‰  Application Service (domain service contains domain logic, application service orchestrates application steps)
 - Domain Service = Business Logic (domain service contains business rules)
 - Domain Service is a **domain model building block**, not a pattern
 
@@ -53,9 +43,9 @@ Without domain services:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Domain services add architectural complexity |
-| **Time** — Designing domain services takes time |
-| **Over-service** — Not every operation needs a service |
+| **Complexity** â€” Domain services add architectural complexity |
+| **Time** â€” Designing domain services takes time |
+| **Over-service** â€” Not every operation needs a service |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without domain services:
 
 ## Related Concepts
 
-- [Entity](DDD/entity.md) — Domain services operate on entities
-- [Value Object](DDD/value-object.md) — Domain services operate on value objects
-- [Application Service](DDD/application-service.md) — Application services orchestrate domain services
+- [Entity](DDD/entity.md) â€” Domain services operate on entities
+- [Value Object](DDD/value-object.md) â€” Domain services operate on value objects
+- [Application Service](DDD/application-service.md) â€” Application services orchestrate domain services
 
 ## Project Observations
 
@@ -76,8 +66,8 @@ Without domain services:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of domain services in existing code (src/ is empty)
 - File naming conventions support domain services:
-  - `*.service.ts` — Service files
-  - `*.use-case.ts` — Use case files
+  - `*.service.ts` â€” Service files
+  - `*.use-case.ts` â€” Use case files
 
 ## Sources
 
@@ -269,7 +259,7 @@ export class TransferService {
 import { Money } from '@/value-objects/money.vo'
 
 export class TaxCalculationService {
-  // Stateless — static methods
+  // Stateless â€” static methods
   static calculateTax(amount: Money, rate: number): Money {
     if (rate < 0 || rate > 1) {
       throw new Error('Tax rate must be between 0 and 1')
@@ -358,11 +348,11 @@ describe('MoneyConversionService', () => {
 5. **Testing**: Test domain services in isolation with mocked dependencies
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `vitest` — for testing services
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `vitest` â€” for testing services
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing new domain services

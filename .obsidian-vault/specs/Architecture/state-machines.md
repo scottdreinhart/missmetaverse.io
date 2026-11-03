@@ -1,9 +1,11 @@
+﻿---
+slug: state-machines
+---
+
 # State Machines
 
 > **Purpose:** Model state transitions explicitly to prevent invalid states.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-state-machines`
@@ -51,8 +53,6 @@ declared
 - arch-unidirectional-data-flow
 - arch-jotai
 - arch-make-invalid-states-unrepresentable
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ State machines do not apply to:
 
 ## Related Concepts
 
-- [[Architecture/statecharts]] — Statecharts
-- [[Architecture/unidirectional-data-flow]] — Unidirectional Data Flow
-- [[Architecture/jotai]] — Jotai State Management
-- [[Coding Type Systems/make-invalid-states-unrepresentable]] — Make Invalid States Unrepresentable
+- [[Architecture/statecharts]] â€” Statecharts
+- [[Architecture/unidirectional-data-flow]] â€” Unidirectional Data Flow
+- [[Architecture/jotai]] â€” Jotai State Management
+- [[Coding Type Systems/make-invalid-states-unrepresentable]] â€” Make Invalid States Unrepresentable
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Jotai for state management, which supports state machines throu
 
 ## Sources
 
-- [[Sources/harel-statecharts|David Harel — Statecharts: A Visual Formalism for Complex Systems]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/harel-statecharts|David Harel â€” Statecharts: A Visual Formalism for Complex Systems]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of State Machines Note**

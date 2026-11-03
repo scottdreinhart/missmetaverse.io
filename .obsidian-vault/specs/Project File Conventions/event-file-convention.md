@@ -1,9 +1,11 @@
+﻿---
+slug: event-file-convention
+---
+
 # Event File Convention
 
 > **Purpose:** Define domain events in dedicated files.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-event-file`
@@ -51,11 +53,9 @@ declared
 - project-hook-file
 - ddd-domain-event
 
----
-
 ## Definition
 
-The *.event.ts file convention designates files that define domain events — objects that capture something that happened in the domain.
+The *.event.ts file convention designates files that define domain events â€” objects that capture something that happened in the domain.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Event files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
-- [[DDD/domain-event]] — Domain Event
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
+- [[DDD/domain-event]] â€” Domain Event
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows event file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Event File Convention Note**

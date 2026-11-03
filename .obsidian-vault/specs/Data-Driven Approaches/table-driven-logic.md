@@ -1,9 +1,11 @@
+﻿---
+slug: table-driven-logic
+---
+
 # Table-Driven Logic
 
 > **Purpose:** Use tables to drive behavior instead of conditionals.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `data-driven-table-driven`
@@ -50,8 +52,6 @@ declared
 - data-driven-configuration-driven
 - coding-pure-functions
 - coding-table-driven-logic
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Table-driven logic does not apply to:
 
 ## Related Concepts
 
-- [[Data-Driven Approaches/data-driven-design]] — Data-Driven Design
-- [[Data-Driven Approaches/declarative-programming]] — Declarative Programming
-- [[Data-Driven Approaches/configuration-driven-development]] — Configuration-Driven Development
-- [[Coding Type Systems/pure-functions]] — Pure Functions
+- [[Data-Driven Approaches/data-driven-design]] â€” Data-Driven Design
+- [[Data-Driven Approaches/declarative-programming]] â€” Declarative Programming
+- [[Data-Driven Approaches/configuration-driven-development]] â€” Configuration-Driven Development
+- [[Coding Type Systems/pure-functions]] â€” Pure Functions
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows table-driven logic through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Table-Driven Logic Note**

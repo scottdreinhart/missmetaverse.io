@@ -1,9 +1,11 @@
+﻿---
+slug: modern-react-project-template
+---
+
 # React Project Template
 
 > **Purpose:** Modern React project structure and conventions.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `react-project-template`
@@ -50,8 +52,6 @@ declared
 - arch-unidirectional-data-flow
 - project-view-file
 - project-logic-file
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Project template does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/atomic-design]] — Atomic Design
-- [[Architecture/custom-hooks-composables]] — Custom Hooks / Composables
-- [[Architecture/unidirectional-data-flow]] — Unidirectional Data Flow
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
+- [[Architecture/atomic-design]] â€” Atomic Design
+- [[Architecture/custom-hooks-composables]] â€” Custom Hooks / Composables
+- [[Architecture/unidirectional-data-flow]] â€” Unidirectional Data Flow
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows React project template through:
 
 ## Sources
 
-- [[Sources/react-documentation|Meta — React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/react-documentation|Meta â€” React Documentation]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Modern React Project Template Note**

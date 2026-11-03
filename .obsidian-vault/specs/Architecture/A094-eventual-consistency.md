@@ -1,32 +1,23 @@
----
+﻿---
 slug: eventual-consistency
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/consistency-patterns
   - https://en.wikipedia.org/wiki/Eventual_consistency
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
   - consistency
   - distributed-systems
   - eventual-consistency
   - patterns
----
-
+  - --
 # Eventual Consistency
 
 ## Definition
 
 Eventual Consistency is a **consistency model where updates propagate asynchronously and all replicas eventually converge to the same state**.
 
-> "Eventual consistency is a weak consistency model used in distributed computing to achieve high availability rather than immediate consistency." — Wikipedia
+> "Eventual consistency is a weak consistency model used in distributed computing to achieve high availability rather than immediate consistency." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -38,8 +29,8 @@ Strong consistency leads to:
 
 ## Scope and Boundaries
 
-- Eventual ≠ Strong (they are different consistency models)
-- Eventual ≠ No consistency (eventual guarantees convergence)
+- Eventual â‰  Strong (they are different consistency models)
+- Eventual â‰  No consistency (eventual guarantees convergence)
 - Eventual is a **distributed systems tradeoff**, not a bug
 
 ## When to Apply
@@ -53,21 +44,21 @@ Strong consistency leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Stale reads** — Users may see old data |
-| **Complexity** — Handling stale data is complex |
-| **Debugging** — Hard to debug consistency issues |
+| **Stale reads** â€” Users may see old data |
+| **Complexity** â€” Handling stale data is complex |
+| **Debugging** â€” Hard to debug consistency issues |
 
 ## Common Misuses
 
 - **Every system**: Not every system needs eventual consistency
 - **Ignoring consistency**: Some operations need strong consistency
-- **Confusing with caching**: Eventual consistency ≠ cache staleness
+- **Confusing with caching**: Eventual consistency â‰  cache staleness
 
 ## Related Concepts
 
-- [ACID](Architecture/data-modeling-principles.md) — Eventual consistency vs. ACID
-- [CQRS](Architecture/cqrs-pattern.md) — Often uses eventual consistency
-- [Event-Driven Architecture](Architecture/event-driven-architecture.md) — Eventual consistency in EDA
+- [ACID](Architecture/data-modeling-principles.md) â€” Eventual consistency vs. ACID
+- [CQRS](Architecture/cqrs-pattern.md) â€” Often uses eventual consistency
+- [Event-Driven Architecture](Architecture/event-driven-architecture.md) â€” Eventual consistency in EDA
 
 ## Project Observations
 

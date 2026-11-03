@@ -1,9 +1,11 @@
+﻿---
+slug: prettier-configuration
+---
+
 # Prettier Configuration
 
 > **Purpose:** Configure Prettier for consistent code formatting.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `prettier-configuration`
@@ -49,8 +51,6 @@ declared
 - typescript-eslint
 - eslint-prettier
 - formatting-coverage
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Prettier configuration does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/eslint-configuration]] — ESLint Configuration
-- [[TypeScript/typescript-eslint]] — TypeScript ESLint
-- [[ESLint/eslint-prettier]] — ESLint Prettier
-- [[Quality & Testing/formatting-coverage]] — Formatting Coverage
+- [[Quality & Testing/eslint-configuration]] â€” ESLint Configuration
+- [[TypeScript/typescript-eslint]] â€” TypeScript ESLint
+- [[ESLint/eslint-prettier]] â€” ESLint Prettier
+- [[Quality & Testing/formatting-coverage]] â€” Formatting Coverage
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Prettier through:
 ## Sources
 
 - [[Sources/prettier-documentation|Prettier Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Prettier Configuration Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: template-method-pattern
+---
+
 # Template Method Pattern
 
 > **Purpose:** Define algorithm skeleton with Template Method.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `template-method-pattern`
@@ -50,8 +52,6 @@ declared
 - strategy-pattern
 - hook-method
 - inheritance-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Template Method does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/template-method-pattern]] — Template Method Pattern
-- [[Design Patterns/strategy-pattern]] — Strategy Pattern
-- [[Design Patterns/hook-method]] — Hook Method
-- [[Design Patterns/inheritance-pattern]] — Inheritance Pattern
+- [[Design Patterns/template-method-pattern]] â€” Template Method Pattern
+- [[Design Patterns/strategy-pattern]] â€” Strategy Pattern
+- [[Design Patterns/hook-method]] â€” Hook Method
+- [[Design Patterns/inheritance-pattern]] â€” Inheritance Pattern
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Template Method Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Template Method Pattern Note**

@@ -1,3 +1,7 @@
+---
+slug: behavioral-design-patterns
+---
+
 # Behavioral Design Patterns
 
 > **Purpose:** Manage algorithms and relationships with Behavioral Patterns.

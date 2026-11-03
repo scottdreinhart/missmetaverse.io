@@ -1,9 +1,11 @@
+﻿---
+slug: distributed-tracing
+---
+
 # Distributed Tracing
 
 > **Purpose:** Trace requests with Distributed Tracing.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `distributed-tracing`
@@ -50,8 +52,6 @@ declared
 - request-tracing
 - trace-ids
 - span-ids
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Distributed Tracing does not apply to:
 
 ## Related Concepts
 
-- [[Monitoring/distributed-tracing]] — Distributed Tracing
-- [[Monitoring/request-tracing]] — Request Tracing
-- [[Monitoring/trace-ids]] — Trace IDs
-- [[Monitoring/span-ids]] — Span IDs
+- [[Monitoring/distributed-tracing]] â€” Distributed Tracing
+- [[Monitoring/request-tracing]] â€” Request Tracing
+- [[Monitoring/trace-ids]] â€” Trace IDs
+- [[Monitoring/span-ids]] â€” Span IDs
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Distributed Tracing through:
 ## Sources
 
 - [[Sources/distributed-tracing-guide|Distributed Tracing Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Distributed Tracing Note**

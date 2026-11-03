@@ -1,9 +1,11 @@
+﻿---
+slug: logging
+---
+
 # Logging
 
 > **Purpose:** Implement logging with Logging.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `logging`
@@ -50,8 +52,6 @@ declared
 - application-logging
 - structured-logging
 - log-levels
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Logging does not apply to:
 
 ## Related Concepts
 
-- [[Monitoring/logging]] — Logging
-- [[Monitoring/application-logging]] — Application Logging
-- [[Monitoring/structured-logging]] — Structured Logging
-- [[Monitoring/log-levels]] — Log Levels
+- [[Monitoring/logging]] â€” Logging
+- [[Monitoring/application-logging]] â€” Application Logging
+- [[Monitoring/structured-logging]] â€” Structured Logging
+- [[Monitoring/log-levels]] â€” Log Levels
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Logging through:
 ## Sources
 
 - [[Sources/logging-guide|Logging Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Logging Note**

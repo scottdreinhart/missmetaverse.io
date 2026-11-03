@@ -1,9 +1,11 @@
+﻿---
+slug: modern-react-fragments
+---
+
 # React Modern React Fragments
 
 > **Purpose:** Group children without extra DOM with React Fragments.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `modern-react-fragments`
@@ -50,8 +52,6 @@ declared
 - modern-react-hooks
 - modern-react-components
 - modern-react-fragments-table
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Fragments do not apply to:
 
 ## Related Concepts
 
-- [[React/modern-react-project-template]] — Modern React Project Template
-- [[React/modern-react-hooks]] — Modern React Hooks
-- [[React/modern-react-components]] — Modern React Components
-- [[React/modern-react-fragments-table]] — Modern React Fragments Table
+- [[React/modern-react-project-template]] â€” Modern React Project Template
+- [[React/modern-react-hooks]] â€” Modern React Hooks
+- [[React/modern-react-components]] â€” Modern React Components
+- [[React/modern-react-fragments-table]] â€” Modern React Fragments Table
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React Fragments through:
 ## Sources
 
 - [[Sources/react-documentation|React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Modern React Fragments Note**

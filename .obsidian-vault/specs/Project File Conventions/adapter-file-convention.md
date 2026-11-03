@@ -1,9 +1,11 @@
+﻿---
+slug: adapter-file-convention
+---
+
 # Adapter File Convention
 
 > **Purpose:** Implement port interfaces for external concerns.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-adapter-file`
@@ -51,11 +53,9 @@ declared
 - project-data-file
 - arch-hexagonal-architecture
 
----
-
 ## Definition
 
-The *.adapter.ts file convention designates files that implement port interfaces — concrete implementations that connect the domain layer to external concerns (databases, APIs, services).
+The *.adapter.ts file convention designates files that implement port interfaces â€” concrete implementations that connect the domain layer to external concerns (databases, APIs, services).
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Adapter files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/port-file-convention]] — *.port.ts File Convention
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Architecture/hexagonal-architecture]] — Hexagonal Architecture
+- [[Project File Conventions/port-file-convention]] â€” *.port.ts File Convention
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows adapter file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Adapter File Convention Note**

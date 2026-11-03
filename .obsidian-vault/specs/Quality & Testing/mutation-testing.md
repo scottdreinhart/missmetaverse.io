@@ -1,9 +1,11 @@
+﻿---
+slug: mutation-testing
+---
+
 # Mutation Testing
 
 > **Purpose:** Test test quality by mutating code.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-mutation`
@@ -50,8 +52,6 @@ declared
 - testing-property-based
 - testing-contract-testing
 - testing-risk-based-testing
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Mutation testing does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/test-driven-development]] — Test-Driven Development
-- [[Quality & Testing/behavior-driven-development]] — Behavior-Driven Development
-- [[Quality & Testing/property-based-testing]] — Property-Based Testing
-- [[Quality & Testing/contract-testing]] — Contract Testing
+- [[Quality & Testing/test-driven-development]] â€” Test-Driven Development
+- [[Quality & Testing/behavior-driven-development]] â€” Behavior-Driven Development
+- [[Quality & Testing/property-based-testing]] â€” Property-Based Testing
+- [[Quality & Testing/contract-testing]] â€” Contract Testing
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Vitest, which supports mutation testing through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Mutation Testing Note**

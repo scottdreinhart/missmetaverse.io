@@ -1,32 +1,22 @@
----
+﻿---
 slug: soft-delete
 sources:
   - https://www.postgresql.org/docs/
   - https://dev.mysql.com/doc/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - database
   - soft-delete
   - data-modeling
   - retention
----
-
+  - --
 # Soft Delete
 
 ## Definition
 
 Soft Delete is **a technique where deleting a record marks it as deleted without actually removing it from the database**.
 
-> "Soft delete is a method of marking a record as deleted without actually removing it from the database." — Wikipedia
+> "Soft delete is a method of marking a record as deleted without actually removing it from the database." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without soft delete:
 
 ## Scope and Boundaries
 
-- Soft Delete ≠ Hard Delete (soft delete marks as deleted, hard delete removes the record)
+- Soft Delete â‰  Hard Delete (soft delete marks as deleted, hard delete removes the record)
 - Soft Delete = Recovery (soft delete allows recovery of deleted records)
 - Soft Delete is a **data modeling technique**, not a pattern
 
@@ -53,9 +43,9 @@ Without soft delete:
 
 | Cost | Description |
 |------|-------------|
-| **Storage** — Deleted records still consume storage |
-| **Query complexity** — Queries must filter out deleted records |
-| **Index overhead** — Indexes include deleted records |
+| **Storage** â€” Deleted records still consume storage |
+| **Query complexity** â€” Queries must filter out deleted records |
+| **Index overhead** â€” Indexes include deleted records |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without soft delete:
 
 ## Related Concepts
 
-- [Retention Policies](Data Databases/retention-policies.md) — Retention policies manage soft-deleted records
-- [Audit Trails](Data Databases/audit-trails.md) — Audit trails track soft-deleted records
-- [Database Constraints](Data Databases/db-constraints.md) — Database constraints must account for soft deletes
+- [Retention Policies](Data Databases/retention-policies.md) â€” Retention policies manage soft-deleted records
+- [Audit Trails](Data Databases/audit-trails.md) â€” Audit trails track soft-deleted records
+- [Database Constraints](Data Databases/db-constraints.md) â€” Database constraints must account for soft deletes
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without soft delete:
   - The project's architecture patterns note covers database concepts
   - No evidence of soft delete in existing code (src/ is empty)
 - File naming conventions support soft delete:
-  - `*.entity.ts` — Entity files
-  - `*.repository.ts` — Repository files
+  - `*.entity.ts` â€” Entity files
+  - `*.repository.ts` â€” Repository files
 
 ## Sources
 

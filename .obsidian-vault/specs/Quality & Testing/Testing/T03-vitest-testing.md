@@ -1,4 +1,4 @@
----
+﻿---
 slug: vitest-testing
 sources:
   - https://vitest.dev/guide/
@@ -9,27 +9,14 @@ sources:
   - https://vitest.dev/guide/features
 date: 2025-01-15
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
   - vitest
   - testing
   - unit-testing
   - performance
   - mocking
   - best-practices
----
-
+  - --
 # Vitest: Best Practices, Performance & Security
 
 ## Overview
@@ -261,7 +248,7 @@ describe.each([
 
 ## Mocking
 
-### vi.fn() — Mock Functions
+### vi.fn() â€” Mock Functions
 
 ```ts
 import { expect, test, vi } from 'vitest'
@@ -278,7 +265,7 @@ test('mock function', () => {
 })
 ```
 
-### vi.mock() — Module Mocking
+### vi.mock() â€” Module Mocking
 
 ```ts
 import { expect, test, vi } from 'vitest'
@@ -296,7 +283,7 @@ test('uses mocked API', async () => {
 })
 ```
 
-### vi.spyOn() — Object Method Spying
+### vi.spyOn() â€” Object Method Spying
 
 ```ts
 import { expect, test, vi } from 'vitest'
@@ -314,7 +301,7 @@ test('spy on method', () => {
 })
 ```
 
-### vi.mocked() — TypeScript Support
+### vi.mocked() â€” TypeScript Support
 
 ```ts
 import { expect, test, vi } from 'vitest'
@@ -328,7 +315,7 @@ test('typed mock', () => {
 })
 ```
 
-### vi.hoisted() — Hoist Mocks
+### vi.hoisted() â€” Hoist Mocks
 
 ```ts
 import { expect, test, vi } from 'vitest'
@@ -562,16 +549,16 @@ test('profile this test', async () => {
 
 ### Improving Test Performance
 
-1. **Use `fileParallelism: true`** — run test files in parallel
-2. **Use `pool: 'vmThreads'`** — fastest pool (Node-only)
-3. **Limit `maxWorkers`** — don't exceed CPU cores
-4. **Use `clearMocks`** — faster than full reset
-5. **Mock external dependencies** — avoid real API calls
-6. **Use `vi.mock()`** — module-level mocking
+1. **Use `fileParallelism: true`** â€” run test files in parallel
+2. **Use `pool: 'vmThreads'`** â€” fastest pool (Node-only)
+3. **Limit `maxWorkers`** â€” don't exceed CPU cores
+4. **Use `clearMocks`** â€” faster than full reset
+5. **Mock external dependencies** â€” avoid real API calls
+6. **Use `vi.mock()`** â€” module-level mocking
 7. **Avoid `vi.useFakeTimers()`** when possible
 8. **Use `--run`** for CI (no watch mode overhead)
-9. **Use changed files** — `vitest run --changed`
-10. **Cache dependencies** — `cache: { dir: '.vitest/cache' }`
+9. **Use changed files** â€” `vitest run --changed`
+10. **Cache dependencies** â€” `cache: { dir: '.vitest/cache' }`
 
 ## Security Best Practices
 
@@ -715,7 +702,7 @@ graph TD
 
 ```bash
 # Create test file next to source file
-src/components/User.tsx → src/components/User.test.tsx
+src/components/User.tsx â†’ src/components/User.test.tsx
 ```
 
 ### Step 2: Write Unit Test
@@ -794,12 +781,12 @@ pnpm test -- --ui
 5. **Profile slow tests**: Use `--profiling` to identify bottlenecks
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline test error display
-- **VS Code Extension**: Test Explorer UI — for test navigation
-- **npm Package**: `@testing-library/react` — for React component testing
-- **npm Package**: `msw` — for API mocking
-- **Terminal Command**: `pnpm test -- --coverage` — run with coverage
-- **Terminal Command**: `pnpm test -- --changed` — run only changed tests
+- **VS Code Extension**: Error Lens â€” for inline test error display
+- **VS Code Extension**: Test Explorer UI â€” for test navigation
+- **npm Package**: `@testing-library/react` â€” for React component testing
+- **npm Package**: `msw` â€” for API mocking
+- **Terminal Command**: `pnpm test -- --coverage` â€” run with coverage
+- **Terminal Command**: `pnpm test -- --changed` â€” run only changed tests
 
 ### Agents to Invoke
 - **Testing Agent**: Run when writing new tests to ensure coverage

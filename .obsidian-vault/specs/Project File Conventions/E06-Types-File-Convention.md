@@ -1,31 +1,22 @@
----
+﻿---
 slug: types-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.types.ts
 
 ## Definition
 
 `*.types.ts` is **a file naming convention for TypeScript files that contain type definitions, interfaces, and type aliases**.
 
-> "The *.types.ts convention identifies TypeScript files that contain type definitions and interfaces." — TypeScript Docs
+> "The *.types.ts convention identifies TypeScript files that contain type definitions and interfaces." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.types.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.types.ts` ≠ `*.data.ts` (`*.types.ts` is for types, `*.data.ts` is for data definitions)
+- `*.types.ts` â‰  `*.data.ts` (`*.types.ts` is for types, `*.data.ts` is for data definitions)
 - `*.types.ts` = Types (`*.types.ts` is for type definitions)
 - `*.types.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.types.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every type needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.types.ts` convention:
 
 ## Related Concepts
 
-- [Strict Typing](TypeScript/typescript-strict-mode.md) — Strict typing uses `*.types.ts`
-- [Discriminated Unions](Architecture/discriminated-unions.md) — Discriminated unions use `*.types.ts`
-- [Generics Patterns](Architecture/generics-patterns.md) — Generics use `*.types.ts`
+- [Strict Typing](TypeScript/typescript-strict-mode.md) â€” Strict typing uses `*.types.ts`
+- [Discriminated Unions](Architecture/discriminated-unions.md) â€” Discriminated unions use `*.types.ts`
+- [Generics Patterns](Architecture/generics-patterns.md) â€” Generics use `*.types.ts`
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.types.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.types.ts` in existing code (src/ is empty)
 - File naming conventions support `*.types.ts`:
-  - `*.types.ts` — Type files
-  - `*.schema.ts` — Schema files
+  - `*.types.ts` â€” Type files
+  - `*.schema.ts` â€” Schema files
 
 ## Sources
 

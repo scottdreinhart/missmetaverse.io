@@ -1,9 +1,11 @@
+﻿---
+slug: rest-api-design
+---
+
 # REST API Design
 
 > **Purpose:** Design RESTful APIs following best practices.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `rest-api-design`
@@ -50,8 +52,6 @@ declared
 - api-versioning
 - hateoas
 - api-gateway
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ REST Design does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/rest-api-design]] — REST API Design
-- [[APIs Distributed Systems/api-versioning]] — API Versioning
-- [[APIs Distributed Systems/hateoas]] — HATEOAS
-- [[APIs Distributed Systems/api-gateway]] — API Gateway
+- [[APIs Distributed Systems/rest-api-design]] â€” REST API Design
+- [[APIs Distributed Systems/api-versioning]] â€” API Versioning
+- [[APIs Distributed Systems/hateoas]] â€” HATEOAS
+- [[APIs Distributed Systems/api-gateway]] â€” API Gateway
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses REST API Design through:
 
 ## Sources
 
-- [[Sources/fielding-rest-2000|REST Architectural Style — Fielding 2000]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/fielding-rest-2000|REST Architectural Style â€” Fielding 2000]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of REST API Design Note**

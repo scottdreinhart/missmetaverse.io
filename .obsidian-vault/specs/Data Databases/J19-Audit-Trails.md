@@ -1,34 +1,22 @@
----
+﻿---
 slug: audit-trails
 sources:
   - https://www.postgresql.org/docs/
   - https://dev.mysql.com/doc/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - database
   - audit
   - data-modeling
   - compliance
----
-
+  - --
 # Audit Trails
 
 ## Definition
 
 Audit Trails are **a chronological record of system activities that provides evidence of when events occurred, who was involved, and what actions were taken**.
 
-> "An audit trail is a security-relevant chronological record of actions taken by users and systems." — OWASP
+> "An audit trail is a security-relevant chronological record of actions taken by users and systems." â€” OWASP
 
 ## Problem Addressed
 
@@ -40,7 +28,7 @@ Without audit trails:
 
 ## Scope and Boundaries
 
-- Audit Trails ≠ Logging (audit trails are structured and tamper-proof, logging is for debugging)
+- Audit Trails â‰  Logging (audit trails are structured and tamper-proof, logging is for debugging)
 - Audit Trails = Accountability (audit trails provide accountability)
 - Audit Trails is a **compliance requirement**, not a pattern
 
@@ -55,9 +43,9 @@ Without audit trails:
 
 | Cost | Description |
 |------|-------------|
-| **Storage** — Audit trails consume storage |
-| **Performance** — Writing audit trails adds overhead |
-| **Privacy** — Audit trails may contain sensitive data |
+| **Storage** â€” Audit trails consume storage |
+| **Performance** â€” Writing audit trails adds overhead |
+| **Privacy** â€” Audit trails may contain sensitive data |
 
 ## Common Misuses
 
@@ -67,9 +55,9 @@ Without audit trails:
 
 ## Related Concepts
 
-- [Retention Policies](Data Databases/retention-policies.md) — Retention policies apply to audit trails
-- [Logging](Security/logging.md) — Logging complements audit trails
-- [Data Minimization](Security/data-minimization.md) — Data minimization applies to audit trails
+- [Retention Policies](Data Databases/retention-policies.md) â€” Retention policies apply to audit trails
+- [Logging](Security/logging.md) â€” Logging complements audit trails
+- [Data Minimization](Security/data-minimization.md) â€” Data minimization applies to audit trails
 
 ## Project Observations
 
@@ -79,8 +67,8 @@ Without audit trails:
   - The project's architecture patterns note covers database concepts
   - No evidence of audit trails in existing code (src/ is empty)
 - File naming conventions support audit trails:
-  - `*.event.ts` — Event files
-  - `*.policy.ts` — Policy files
+  - `*.event.ts` â€” Event files
+  - `*.policy.ts` â€” Policy files
 
 ## Sources
 

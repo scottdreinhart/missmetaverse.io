@@ -1,4 +1,4 @@
----
+﻿---
 slug: linting-husky-pipeline
 sources:
   - https://eslint.org/docs/latest/use/getting-started
@@ -7,17 +7,6 @@ sources:
   - https://github.com/okonet/lint-staged
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - integration
   - eslint
   - prettier
@@ -25,8 +14,7 @@ tags:
   - lint-staged
   - pre-commit
   - code-quality
----
-
+  - --
 # Linting, Formatting & Husky Pipeline
 
 ## Overview
@@ -35,7 +23,7 @@ This note covers the complete code quality pipeline: ESLint (with TypeScript), P
 
 ---
 
-## 1. ESLint Configuration (Flat Config — ESLint 9+)
+## 1. ESLint Configuration (Flat Config â€” ESLint 9+)
 
 ### `eslint.config.mjs`
 
@@ -49,7 +37,7 @@ import reactRefresh from 'eslint-plugin-react-refresh'
 import globals from 'globals'
 
 export default tseslint.config(
-  // ─── Global Ignores ────────────────────────────────
+  // â”€â”€â”€ Global Ignores â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     ignores: [
       'dist/**',
@@ -60,7 +48,7 @@ export default tseslint.config(
     ],
   },
 
-  // ─── Base Config (All Files) ───────────────────────
+  // â”€â”€â”€ Base Config (All Files) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     files: ['**/*.{js,ts,tsx,jsx}'],
     extends: [
@@ -77,23 +65,23 @@ export default tseslint.config(
       },
     },
     rules: {
-      // ─── React Rules ───────────────────────────────
+      // â”€â”€â”€ React Rules â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       'react/react-in-jsx-scope': 'off',  // Not needed in React 19
       'react/prop-types': 'off',          // TypeScript handles this
       'react/jsx-no-target-blank': 'warn',
       'react/jsx-key': 'warn',
 
-      // ─── React Hooks Rules ────────────────────────
+      // â”€â”€â”€ React Hooks Rules â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       'react-hooks/rules-of-hooks': 'error',
       'react-hooks/exhaustive-deps': 'warn',
 
-      // ─── React Refresh ────────────────────────────
+      // â”€â”€â”€ React Refresh â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
       ],
 
-      // ─── TypeScript Rules ─────────────────────────
+      // â”€â”€â”€ TypeScript Rules â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       '@typescript-eslint/no-unused-vars': [
         'error',
         { argsIgnorePattern: '^_', varsIgnorePattern: '^_' },
@@ -105,7 +93,7 @@ export default tseslint.config(
       '@typescript-eslint/await-thenable': 'warn',
       '@typescript-eslint/promise-function-async': 'warn',
 
-      // ─── General Rules ────────────────────────────
+      // â”€â”€â”€ General Rules â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
       'no-console': ['warn', { allow: ['warn', 'error'] }],
       'no-debugger': 'error',
       'prefer-const': 'warn',
@@ -113,7 +101,7 @@ export default tseslint.config(
     },
   },
 
-  // ─── Test Files ────────────────────────────────────
+  // â”€â”€â”€ Test Files â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     files: ['**/*.test.{ts,tsx}', '**/*.spec.{ts,tsx}'],
     languageOptions: {
@@ -129,7 +117,7 @@ export default tseslint.config(
     },
   },
 
-  // ─── Markdown Files ────────────────────────────────
+  // â”€â”€â”€ Markdown Files â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   {
     files: ['**/*.md'],
     extends: [
@@ -156,7 +144,7 @@ pnpm add -D globals
 For rules that require full type information (slower but more accurate):
 
 ```javascript
-// eslint.config.mjs — Add this config block
+// eslint.config.mjs â€” Add this config block
 {
   files: ['**/*.{ts,tsx}'],
   extends: [
@@ -180,7 +168,7 @@ For rules that require full type information (slower but more accurate):
 
 ```javascript
 module.exports = {
-  // ─── Formatting ────────────────────────────────────
+  // â”€â”€â”€ Formatting â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   semi: true,               // Semicolons
   trailingComma: 'all',     // Trailing commas everywhere
   singleQuote: true,        // Single quotes
@@ -191,13 +179,13 @@ module.exports = {
   bracketSameLine: false,   // JSX brackets on new line
   arrowParens: 'always',    // (x) => x
 
-  // ─── File Handling ─────────────────────────────────
+  // â”€â”€â”€ File Handling â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   endOfLine: 'auto',        // Auto-detect line endings
   quoteProps: 'as-needed',  // Only quote when needed
   jsxSingleQuote: false,    // Double quotes in JSX
   proseWrap: 'preserve',    // Preserve markdown wrapping
 
-  // ─── Plugins ───────────────────────────────────────
+  // â”€â”€â”€ Plugins â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   plugins: [
     'prettier-plugin-tailwindcss',  // Tailwind CSS sorting
   ],
@@ -243,7 +231,7 @@ pnpm add -D prettier-plugin-tailwindcss
 
 ---
 
-## 3. Husky — Git Hooks
+## 3. Husky â€” Git Hooks
 
 ### Setup (Husky v9+)
 
@@ -300,7 +288,7 @@ npx --no -- commitlint --edit "$1"
 
 ---
 
-## 4. lint-staged — Staged File Linting
+## 4. lint-staged â€” Staged File Linting
 
 ### `lint-staged.config.mjs`
 
@@ -308,7 +296,7 @@ npx --no -- commitlint --edit "$1"
 import { defineConfig } from 'lint-staged/config'
 
 export default defineConfig({
-  // ─── TypeScript / React Files ──────────────────────
+  // â”€â”€â”€ TypeScript / React Files â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   '*.{ts,tsx}': [
     // Lint and auto-fix
     'eslint --fix',
@@ -316,29 +304,29 @@ export default defineConfig({
     'prettier --write',
   ],
 
-  // ─── JavaScript Files ──────────────────────────────
+  // â”€â”€â”€ JavaScript Files â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   '*.{js,jsx}': [
     'eslint --fix',
     'prettier --write',
   ],
 
-  // ─── CSS / SCSS Files ──────────────────────────────
+  // â”€â”€â”€ CSS / SCSS Files â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   '*.{css,scss}': [
     'stylelint --fix',           // If using stylelint
     'prettier --write',
   ],
 
-  // ─── JSON Files ────────────────────────────────────
+  // â”€â”€â”€ JSON Files â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   '*.json': [
     'prettier --write',
   ],
 
-  // ─── Markdown Files ────────────────────────────────
+  // â”€â”€â”€ Markdown Files â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   '*.md': [
     'prettier --write',
   ],
 
-  // ─── HTML Files ────────────────────────────────────
+  // â”€â”€â”€ HTML Files â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   '*.html': [
     'prettier --write',
   ],

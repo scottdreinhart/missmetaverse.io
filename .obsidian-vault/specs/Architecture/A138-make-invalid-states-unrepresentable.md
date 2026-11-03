@@ -1,4 +1,4 @@
----
+﻿---
 slug: make-invalid-states-unrepresentable
 sources:
   - https://www.youtube.com/watch?v=rFfWjDnBjAU
@@ -6,30 +6,18 @@ sources:
 date: 2026-11-02
 tags:
   - priority/low
-
-
-
-
-
-
-
-
-
-
-
   - typescript
   - type-systems
   - design
   - safety
----
-
+  - --
 # Make Invalid States Unrepresentable
 
 ## Definition
 
 Make Invalid States Unrepresentable is the principle that **the type system should prevent invalid states from being expressible at compile time**. If a state cannot be represented in the type system, it cannot occur at runtime.
 
-> "Make illegal states unrepresentable: use the type system to prevent invalid states from being expressible." — Functional programming principle
+> "Make illegal states unrepresentable: use the type system to prevent invalid states from being expressible." â€” Functional programming principle
 
 ## Problem Addressed
 
@@ -56,21 +44,21 @@ Representable invalid states lead to:
 
 | Cost | Description |
 |------|-------------|
-| **Complex types** — Complex type unions are hard to read |
-| **Boilerplate** — More types to maintain |
-| **Learning curve** — Advanced type techniques are hard to learn |
+| **Complex types** â€” Complex type unions are hard to read |
+| **Boilerplate** â€” More types to maintain |
+| **Learning curve** â€” Advanced type techniques are hard to learn |
 
 ## Common Misuses
 
 - **Over-engineering**: Using complex types for simple cases
 - **Ignoring runtime**: TypeScript types don't validate runtime input
-- **Confusing with validation**: Type safety ≠ runtime validation
+- **Confusing with validation**: Type safety â‰  runtime validation
 
 ## Related Concepts
 
-- [Parse, Don't Validate](Architecture/parse-dont-validate.md) — Parsing enforces invariants
-- [Discriminated Unions](Architecture/coding-practices.md) — Type-safe state representation
-- [Exhaustive Handling](Architecture/coding-practices.md) — Handle all valid states
+- [Parse, Don't Validate](Architecture/parse-dont-validate.md) â€” Parsing enforces invariants
+- [Discriminated Unions](Architecture/coding-practices.md) â€” Type-safe state representation
+- [Exhaustive Handling](Architecture/coding-practices.md) â€” Handle all valid states
 
 ## Project Observations
 

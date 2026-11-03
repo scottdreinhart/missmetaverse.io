@@ -1,32 +1,23 @@
----
+﻿---
 slug: singleton-pattern
 sources:
   - https://refactoring.guru/design-patterns/singleton
   - https://en.wikipedia.org/wiki/Singleton_pattern
 date: 2026-11-02
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
   - singleton
   - creational-patterns
   - gof
   - patterns
----
-
+  - --
 # Singleton Pattern
 
 ## Definition
 
 Singleton Pattern is a **creational design pattern that restricts the instantiation of a class to one object**.
 
-> "The Singleton pattern ensures a class has only one instance, and provides a global point of access to it." — GoF
+> "The Singleton pattern ensures a class has only one instance, and provides a global point of access to it." â€” GoF
 
 ## Problem Addressed
 
@@ -38,8 +29,8 @@ Without singleton pattern:
 
 ## Scope and Boundaries
 
-- Singleton Pattern ≠ Static (singleton is a pattern, static is a keyword)
-- Singleton Pattern ≠ Global State (singleton is a pattern, global state is a concept)
+- Singleton Pattern â‰  Static (singleton is a pattern, static is a keyword)
+- Singleton Pattern â‰  Global State (singleton is a pattern, global state is a concept)
 - Singleton Pattern is a **creational pattern**, not a static pattern
 
 ## When to Apply
@@ -53,21 +44,21 @@ Without singleton pattern:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Singleton pattern is complex |
-| **Time** — Singleton pattern takes time |
-| **Over-singleton** — Don't use singleton for everything |
+| **Complexity** â€” Singleton pattern is complex |
+| **Time** â€” Singleton pattern takes time |
+| **Over-singleton** â€” Don't use singleton for everything |
 
 ## Common Misuses
 
 - **Everything singleton**: Not everything needs singleton pattern
-- **Confusing with static**: Singleton pattern ≠ static
+- **Confusing with static**: Singleton pattern â‰  static
 - **Over-singleton**: Too many singletons create complexity
 
 ## Related Concepts
 
-- [Factory Method](Architecture/factory-method-pattern.md) — Singleton pattern with factory method
-- [Prototype](Architecture/prototype-pattern.md) — Singleton pattern with prototype
-- [Design Patterns Overview](Architecture/design-patterns-overview.md) — Singleton pattern with design patterns
+- [Factory Method](Architecture/factory-method-pattern.md) â€” Singleton pattern with factory method
+- [Prototype](Architecture/prototype-pattern.md) â€” Singleton pattern with prototype
+- [Design Patterns Overview](Architecture/design-patterns-overview.md) â€” Singleton pattern with design patterns
 
 ## Project Observations
 
@@ -75,8 +66,8 @@ Without singleton pattern:
   - The project's architecture patterns note covers singleton pattern (from existing notes)
   - No evidence of singleton pattern in existing code (src/ is empty)
 - File naming conventions support singleton pattern:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

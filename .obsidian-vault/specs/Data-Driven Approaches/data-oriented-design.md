@@ -1,9 +1,11 @@
+﻿---
+slug: data-oriented-design
+---
+
 # Data-Oriented Design
 
 > **Purpose:** Optimize for data access patterns.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `data-driven-data-oriented`
@@ -50,8 +52,6 @@ declared
 - data-driven-table-driven
 - coding-small-cohesive-modules
 - arch-high-cohesion
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Data-oriented design does not apply to:
 
 ## Related Concepts
 
-- [[Data-Driven Approaches/data-driven-design]] — Data-Driven Design
-- [[Data-Driven Approaches/declarative-programming]] — Declarative Programming
-- [[Data-Driven Approaches/table-driven-logic]] — Table-Driven Logic
-- [[Coding Type Systems/small-cohesive-modules]] — Small Cohesive Modules
+- [[Data-Driven Approaches/data-driven-design]] â€” Data-Driven Design
+- [[Data-Driven Approaches/declarative-programming]] â€” Declarative Programming
+- [[Data-Driven Approaches/table-driven-logic]] â€” Table-Driven Logic
+- [[Coding Type Systems/small-cohesive-modules]] â€” Small Cohesive Modules
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows data-oriented design through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Data-Oriented Design Note**

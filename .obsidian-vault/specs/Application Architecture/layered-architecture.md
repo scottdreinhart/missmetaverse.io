@@ -1,9 +1,11 @@
+﻿---
+slug: layered-architecture
+---
+
 # Layered Architecture
 
 > **Purpose:** Structure apps with Layered Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `layered-architecture`
@@ -50,8 +52,6 @@ declared
 - hexagonal-architecture
 - clean-architecture
 - modular-monolith
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Layered Architecture does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/layered-architecture]] — Layered Architecture
-- [[Application Architecture/hexagonal-architecture]] — Hexagonal Architecture
-- [[Application Architecture/clean-architecture]] — Clean Architecture
-- [[Application Architecture/modular-monolith]] — Modular Monolith
+- [[Application Architecture/layered-architecture]] â€” Layered Architecture
+- [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Application Architecture/clean-architecture]] â€” Clean Architecture
+- [[Application Architecture/modular-monolith]] â€” Modular Monolith
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Layered Architecture through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/enterprise-architecture|Enterprise Architecture — TOGAF]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/enterprise-architecture|Enterprise Architecture â€” TOGAF]]
 
 **End of Layered Architecture Note**

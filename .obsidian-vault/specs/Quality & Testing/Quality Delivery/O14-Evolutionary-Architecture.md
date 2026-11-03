@@ -1,33 +1,22 @@
----
+﻿---
 slug: evolutionary-architecture
 sources:
   - https://samnewman.io/books/
   - https://martinfowler.com/bliki/EvolutionaryArchitecture.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - evolutionary-architecture
   - architecture
   - design
   - agility
----
-
+  - --
 # Evolutionary Architecture
 
 ## Definition
 
 Evolutionary Architecture is **an architecture approach that supports continuous change and adaptation throughout the system's lifecycle**.
 
-> "Evolutionary architecture is an architecture that supports change without significant rework." — Martin Fowler
+> "Evolutionary architecture is an architecture that supports change without significant rework." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without evolutionary architecture:
 
 ## Scope and Boundaries
 
-- Evolutionary Architecture ≠ Big Design Up Front (evolutionary architecture evolves over time, big design up front plans everything upfront)
+- Evolutionary Architecture â‰  Big Design Up Front (evolutionary architecture evolves over time, big design up front plans everything upfront)
 - Evolutionary Architecture = Adaptability (evolutionary architecture supports change)
 - Evolutionary Architecture is an **architecture approach**, not a pattern
 
@@ -54,8 +43,8 @@ Without evolutionary architecture:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Evolutionary architecture requires discipline |
-| **Time** — Continuous evolution takes time |
+| **Complexity** â€” Evolutionary architecture requires discipline |
+| **Time** â€” Continuous evolution takes time |
 | **Risk**: Without discipline, architecture can degrade |
 
 ## Common Misuses
@@ -66,9 +55,9 @@ Without evolutionary architecture:
 
 ## Related Concepts
 
-- [Architecture Decision Records](Architecture/architecture-decision-records.md) — Architecture decision records document evolutionary decisions
-- [Incremental Refactoring](Quality Delivery/incremental-refactoring.md) — Incremental refactoring supports evolutionary architecture
-- [Modular Monolith](Architecture/modular-monolith.md) — Modular monolith supports evolutionary architecture
+- [Architecture Decision Records](Architecture/architecture-decision-records.md) â€” Architecture decision records document evolutionary decisions
+- [Incremental Refactoring](Quality Delivery/incremental-refactoring.md) â€” Incremental refactoring supports evolutionary architecture
+- [Modular Monolith](Architecture/modular-monolith.md) â€” Modular monolith supports evolutionary architecture
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without evolutionary architecture:
   - The project's architecture patterns note covers architecture concepts
   - No evidence of evolutionary architecture in existing code (src/ is empty)
 - File naming conventions support evolutionary architecture:
-  - `*.config.ts` — Config files
-  - `*.types.ts` — Type files
+  - `*.config.ts` â€” Config files
+  - `*.types.ts` â€” Type files
 
 ## Sources
 

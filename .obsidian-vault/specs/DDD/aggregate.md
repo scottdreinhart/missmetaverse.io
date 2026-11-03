@@ -1,9 +1,11 @@
+﻿---
+slug: aggregate
+---
+
 # Aggregate
 
 > **Purpose:** Cluster of related entities and value objects treated as one unit.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `ddd-aggregate`
@@ -52,8 +54,6 @@ declared
 - ddd-domain-invariant
 - ddd-repository
 - ddd-domain-event
-
----
 
 ## Definition
 
@@ -120,11 +120,11 @@ Aggregates do not apply to:
 
 ## Related Concepts
 
-- [[DDD/aggregate-root]] — Aggregate Root
-- [[DDD/entity]] — Entity
-- [[DDD/value-object]] — Value Object
-- [[DDD/domain-invariant]] — Domain Invariant
-- [[DDD/repository]] — Repository
+- [[DDD/aggregate-root]] â€” Aggregate Root
+- [[DDD/entity]] â€” Entity
+- [[DDD/value-object]] â€” Value Object
+- [[DDD/domain-invariant]] â€” Domain Invariant
+- [[DDD/repository]] â€” Repository
 
 ## Project Observations
 
@@ -136,9 +136,7 @@ The project uses TypeScript, which supports aggregates through:
 
 ## Sources
 
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Aggregate Note**

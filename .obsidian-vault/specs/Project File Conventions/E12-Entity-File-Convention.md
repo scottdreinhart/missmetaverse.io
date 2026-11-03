@@ -1,31 +1,22 @@
----
+﻿---
 slug: entity-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.entity.ts
 
 ## Definition
 
 `*.entity.ts` is **a file naming convention for TypeScript files that contain DDD entity definitions**.
 
-> "The *.entity.ts convention identifies TypeScript files that contain DDD entity definitions." — TypeScript Docs
+> "The *.entity.ts convention identifies TypeScript files that contain DDD entity definitions." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.entity.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.entity.ts` ≠ `*.value-object.ts` (`*.entity.ts` is for entities, `*.value-object.ts` is for value objects)
+- `*.entity.ts` â‰  `*.value-object.ts` (`*.entity.ts` is for entities, `*.value-object.ts` is for value objects)
 - `*.entity.ts` = Entities (`*.entity.ts` is for entity definitions)
 - `*.entity.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.entity.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every entity needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.entity.ts` convention:
 
 ## Related Concepts
 
-- [Entity (DDD)](DDD/entity.md) — Entity pattern is the pattern behind `*.entity.ts`
-- [Value Object File Convention](Project File Conventions/value-object-file-convention.md) — Value object file convention is related
-- [DDD Patterns](Architecture/ddd-patterns.md) — DDD patterns use `*.entity.ts`
+- [Entity (DDD)](DDD/entity.md) â€” Entity pattern is the pattern behind `*.entity.ts`
+- [Value Object File Convention](Project File Conventions/value-object-file-convention.md) â€” Value object file convention is related
+- [DDD Patterns](Architecture/ddd-patterns.md) â€” DDD patterns use `*.entity.ts`
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.entity.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.entity.ts` in existing code (src/ is empty)
 - File naming conventions support `*.entity.ts`:
-  - `*.entity.ts` — Entity files
-  - `*.value-object.ts` — Value object files
+  - `*.entity.ts` â€” Entity files
+  - `*.value-object.ts` â€” Value object files
 
 ## Sources
 
@@ -283,29 +274,29 @@ export class PrismaUserRepository implements UserRepository {
 
 ```
 src/
-├── entities/
-│   ├── user/
-│   │   ├── user.entity.ts        # Entity definition
-│   │   ├── user.test.ts          # Entity tests
-│   │   └── user.types.ts         # Type definitions (optional)
-│   ├── order/
-│   │   ├── order.entity.ts
-│   │   ├── order.test.ts
-│   │   └── order-item.entity.ts
-│   └── product/
-│       ├── product.entity.ts
-│       └── product.test.ts
-├── repositories/
-│   ├── user.repository.ts        # Repository interface
-│   ├── order.repository.ts
-│   └── product.repository.ts
-└── infrastructure/
-    ├── user/
-    │   └── prisma-user-repository.ts
-    ├── order/
-    │   └── prisma-order-repository.ts
-    └── product/
-        └── prisma-product-repository.ts
+â”œâ”€â”€ entities/
+â”‚   â”œâ”€â”€ user/
+â”‚   â”‚   â”œâ”€â”€ user.entity.ts        # Entity definition
+â”‚   â”‚   â”œâ”€â”€ user.test.ts          # Entity tests
+â”‚   â”‚   â””â”€â”€ user.types.ts         # Type definitions (optional)
+â”‚   â”œâ”€â”€ order/
+â”‚   â”‚   â”œâ”€â”€ order.entity.ts
+â”‚   â”‚   â”œâ”€â”€ order.test.ts
+â”‚   â”‚   â””â”€â”€ order-item.entity.ts
+â”‚   â””â”€â”€ product/
+â”‚       â”œâ”€â”€ product.entity.ts
+â”‚       â””â”€â”€ product.test.ts
+â”œâ”€â”€ repositories/
+â”‚   â”œâ”€â”€ user.repository.ts        # Repository interface
+â”‚   â”œâ”€â”€ order.repository.ts
+â”‚   â””â”€â”€ product.repository.ts
+â””â”€â”€ infrastructure/
+    â”œâ”€â”€ user/
+    â”‚   â””â”€â”€ prisma-user-repository.ts
+    â”œâ”€â”€ order/
+    â”‚   â””â”€â”€ prisma-order-repository.ts
+    â””â”€â”€ product/
+        â””â”€â”€ prisma-product-repository.ts
 ```
 
 ---
@@ -327,11 +318,11 @@ src/
 5. **File structure**: Organize by domain, then by file type
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `vitest` — for testing entities
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `vitest` â€” for testing entities
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when organizing file structure

@@ -1,27 +1,15 @@
----
+﻿---
 slug: accessibility-a11y
 sources:
   - https://www.w3.org/TR/WCAG21/
   - https://www.w3.org/WAI/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - accessibility
   - a11y
   - wcag
   - w3c
----
-
+  - --
 ## Sources
 
 - [[Sources/wcag-21|wcag-21]]
@@ -32,7 +20,7 @@ tags:
 
 Accessibility (a11y) is a **practice of designing and building software that can be used by everyone, including people with disabilities**.
 
-> "Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them." — W3C
+> "Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them." â€” W3C
 
 ## Problem Addressed
 
@@ -44,8 +32,8 @@ Without accessibility:
 
 ## Scope and Boundaries
 
-- Accessibility ≠ Usability (accessibility is for people with disabilities, usability is for everyone)
-- Accessibility ≠ WCAG (accessibility is a practice, WCAG is a standard)
+- Accessibility â‰  Usability (accessibility is for people with disabilities, usability is for everyone)
+- Accessibility â‰  WCAG (accessibility is a practice, WCAG is a standard)
 - Accessibility is a **practice**, not a specific technique
 
 ## When to Apply
@@ -59,21 +47,21 @@ Without accessibility:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — Accessibility takes time |
-| **Complexity** — Accessibility is complex |
-| **Testing** — Accessibility testing is complex |
+| **Time** â€” Accessibility takes time |
+| **Complexity** â€” Accessibility is complex |
+| **Testing** â€” Accessibility testing is complex |
 
 ## Common Misuses
 
 - **Everything accessible**: Not everything needs accessibility
-- **Confusing with usability**: Accessibility ≠ usability
+- **Confusing with usability**: Accessibility â‰  usability
 - **Over-accessibility**: Too much accessibility creates complexity
 
 ## Related Concepts
 
-- [Design Tokens](Architecture/design-tokens.md) — Accessibility with design tokens
-- [React Patterns](../React/react-patterns) — Accessibility with React
-- [Tailwind CSS](../Tailwind%20CSS/tailwind-css-patterns.md) — Accessibility with Tailwind
+- [Design Tokens](Architecture/design-tokens.md) â€” Accessibility with design tokens
+- [React Patterns](../React/react-patterns) â€” Accessibility with React
+- [Tailwind CSS](../Tailwind%20CSS/tailwind-css-patterns.md) â€” Accessibility with Tailwind
 
 ## Project Observations
 
@@ -81,8 +69,8 @@ Without accessibility:
   - The project's quality and delivery note covers accessibility (from existing notes)
   - No evidence of accessibility in existing code (src/ is empty)
 - File naming conventions support accessibility:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 
@@ -106,11 +94,11 @@ Without accessibility:
 5. **Ensure color contrast**: Minimum 4.5:1 for text, 3:1 for large text
 
 ### Tools to Use
-- **VS Code Extension**: ESLint with `eslint-plugin-jsx-a11y` — for accessibility linting
-- **Browser Extension**: axe DevTools — for automated accessibility testing
-- **Browser Extension**: WAVE — for visual accessibility feedback
-- **Terminal Command**: `npx axe <url>` — run axe accessibility tests
-- **Terminal Command**: `npx lighthouse --categories accessibility` — run Lighthouse a11y audit
+- **VS Code Extension**: ESLint with `eslint-plugin-jsx-a11y` â€” for accessibility linting
+- **Browser Extension**: axe DevTools â€” for automated accessibility testing
+- **Browser Extension**: WAVE â€” for visual accessibility feedback
+- **Terminal Command**: `npx axe <url>` â€” run axe accessibility tests
+- **Terminal Command**: `npx lighthouse --categories accessibility` â€” run Lighthouse a11y audit
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when adding new UI components (accessibility is a security concern)

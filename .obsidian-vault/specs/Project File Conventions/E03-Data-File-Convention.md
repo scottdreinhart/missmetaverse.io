@@ -1,31 +1,22 @@
----
+﻿---
 slug: data-file-convention
 sources:
   - https://react.dev/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.data.ts
 
 ## Definition
 
 `*.data.ts` is **a file naming convention for TypeScript files that contain data definitions, constants, and configuration data**.
 
-> "The *.data.ts convention identifies TypeScript files that contain data definitions and constants." — React Docs
+> "The *.data.ts convention identifies TypeScript files that contain data definitions and constants." â€” React Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.data.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.data.ts` ≠ `*.logic.ts` (`*.data.ts` is for data, `*.logic.ts` is for business logic)
+- `*.data.ts` â‰  `*.logic.ts` (`*.data.ts` is for data, `*.logic.ts` is for business logic)
 - `*.data.ts` = Data (`*.data.ts` is for data definitions)
 - `*.data.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.data.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every data file needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.data.ts` convention:
 
 ## Related Concepts
 
-- [Types File Convention](Project File Conventions/types-file-convention.md) — Types file convention is related
-- [Logic File Convention](Project File Conventions/logic-file-convention.md) — Logic file convention separates business logic
-- [Schema File Convention](Project File Conventions/schema-file-convention.md) — Schema file convention defines data schemas
+- [Types File Convention](Project File Conventions/types-file-convention.md) â€” Types file convention is related
+- [Logic File Convention](Project File Conventions/logic-file-convention.md) â€” Logic file convention separates business logic
+- [Schema File Convention](Project File Conventions/schema-file-convention.md) â€” Schema file convention defines data schemas
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.data.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.data.ts` in existing code (src/ is empty)
 - File naming conventions support `*.data.ts`:
-  - `*.data.ts` — Data files
-  - `*.types.ts` — Type files
+  - `*.data.ts` â€” Data files
+  - `*.types.ts` â€” Type files
 
 ## Sources
 

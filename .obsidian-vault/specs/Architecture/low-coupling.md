@@ -1,9 +1,11 @@
+﻿---
+slug: low-coupling
+---
+
 # Low Coupling
 
 > **Purpose:** Minimize dependencies between modules.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-low-coupling`
@@ -51,8 +53,6 @@ declared
 - arch-separation-of-concerns
 - arch-dependency-inversion
 - arch-composition-over-inheritance
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Low coupling does not address:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/high-cohesion]] — High Cohesion
-- [[Architecture/separation-of-concerns]] — Separation of Concerns
-- [[Architecture/dependency-inversion-principle]] — Dependency Inversion Principle
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/high-cohesion]] â€” High Cohesion
+- [[Architecture/separation-of-concerns]] â€” Separation of Concerns
+- [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion Principle
 
 ## Project Observations
 
@@ -132,9 +132,7 @@ The project follows low coupling through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Low Coupling Note**

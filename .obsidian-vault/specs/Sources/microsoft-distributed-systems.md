@@ -1,4 +1,4 @@
----
+﻿---
 slug: microsoft-distributed-systems
 sources:
   - https://learn.microsoft.com/
@@ -6,12 +6,6 @@ sources:
 
 ---
 tags:
-
-
-
-
-
-
   - distributed-systems
   - microsoft
   - architecture

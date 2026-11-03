@@ -1,9 +1,11 @@
+﻿---
+slug: secure-defaults
+---
+
 # Secure Defaults
 
 > **Purpose:** Configure securely with Secure Defaults.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `secure-defaults`
@@ -50,8 +52,6 @@ declared
 - default-security
 - safe-defaults
 - out-of-the-box-security
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Secure Defaults does not apply to:
 
 ## Related Concepts
 
-- [[Security/secure-defaults]] — Secure Defaults
-- [[Security/default-security]] — Default Security
-- [[Security/safe-defaults]] — Safe Defaults
-- [[Security/out-of-the-box-security]] — Out-of-the-Box Security
+- [[Security/secure-defaults]] â€” Secure Defaults
+- [[Security/default-security]] â€” Default Security
+- [[Security/safe-defaults]] â€” Safe Defaults
+- [[Security/out-of-the-box-security]] â€” Out-of-the-Box Security
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Secure Defaults through:
 ## Sources
 
 - [[Sources/security-principles|Security Principles]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Secure Defaults Note**

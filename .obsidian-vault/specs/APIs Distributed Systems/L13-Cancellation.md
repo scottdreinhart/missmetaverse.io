@@ -1,31 +1,22 @@
----
+﻿---
 slug: cancellation
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
   - https://microservices.io/patterns/reliability/cancellation.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - cancellation
   - distributed-systems
   - reliability
   - resilience
----
-
+  - --
 # Cancellation
 
 ## Definition
 
 Cancellation is **a distributed systems pattern that allows an operation to be aborted before it completes, freeing resources and preventing unnecessary work**.
 
-> "Cancellation allows an operation to be aborted before it completes, freeing resources and preventing unnecessary work." — Microsoft
+> "Cancellation allows an operation to be aborted before it completes, freeing resources and preventing unnecessary work." â€” Microsoft
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without cancellation:
 
 ## Scope and Boundaries
 
-- Cancellation ≠ Timeout (cancellation is explicit, timeout is automatic)
+- Cancellation â‰  Timeout (cancellation is explicit, timeout is automatic)
 - Cancellation = Resource Management (cancellation frees resources)
 - Cancellation is a **reliability pattern**, not a design pattern
 
@@ -52,9 +43,9 @@ Without cancellation:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Cancellation requires coordination |
-| **Time** — Implementing cancellation takes time |
-| **Partial work** — Operations may complete partially |
+| **Complexity** â€” Cancellation requires coordination |
+| **Time** â€” Implementing cancellation takes time |
+| **Partial work** â€” Operations may complete partially |
 
 ## Common Misuses
 
@@ -64,9 +55,9 @@ Without cancellation:
 
 ## Related Concepts
 
-- [Timeouts](APIs Distributed Systems/timeouts.md) — Timeouts complement cancellation
-- [Retry with Backoff](Architecture/retry-with-backoff.md) — Retry with backoff works with cancellation
-- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) — Circuit breaker works with cancellation
+- [Timeouts](APIs Distributed Systems/timeouts.md) â€” Timeouts complement cancellation
+- [Retry with Backoff](Architecture/retry-with-backoff.md) â€” Retry with backoff works with cancellation
+- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) â€” Circuit breaker works with cancellation
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without cancellation:
   - The project's architecture patterns note covers distributed systems concepts
   - No evidence of cancellation in existing code (src/ is empty)
 - File naming conventions support cancellation:
-  - `*.service.ts` — Service files
-  - `*.repository.ts` — Repository files
+  - `*.service.ts` â€” Service files
+  - `*.repository.ts` â€” Repository files
 
 ## Sources
 

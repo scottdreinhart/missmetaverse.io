@@ -1,37 +1,24 @@
----
+﻿---
 slug: design-by-contract
 sources:
   - https://en.wikipedia.org/wiki/Design_by_contract
   - https://en.wikipedia.org/wiki/Contract_(software_development)
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - dbc
   - principles
   - design
   - preconditions
   - postconditions
   - invariants
----
-
+  - --
 # Design by Contract
 
 ## Definition
 
-Design by Contract (DbC) is the principle that **classes and methods define formal, precise, and verifiable interface contracts** — preconditions (what must be true before), postconditions (what must be true after), and invariants (what must always be true).
+Design by Contract (DbC) is the principle that **classes and methods define formal, precise, and verifiable interface contracts** â€” preconditions (what must be true before), postconditions (what must be true after), and invariants (what must always be true).
 
-> "Design by Contract is a software engineering approach that defines formal, precise, and verifiable interface contracts for software components." — Bertrand Meyer (1986)
+> "Design by Contract is a software engineering approach that defines formal, precise, and verifiable interface contracts for software components." â€” Bertrand Meyer (1986)
 
 ## Problem Addressed
 
@@ -59,9 +46,9 @@ Without contracts:
 
 | Cost | Description |
 |------|-------------|
-| **Boilerplate** — Contracts add code |
-| **Performance** — Runtime checks add overhead |
-| **Maintenance** — Contracts must be updated with code |
+| **Boilerplate** â€” Contracts add code |
+| **Performance** â€” Runtime checks add overhead |
+| **Maintenance** â€” Contracts must be updated with code |
 
 ## Common Misuses
 
@@ -71,17 +58,17 @@ Without contracts:
 
 ## Related Concepts
 
-- **Input Validation** — DbC is a formal version of input validation
-- **Type Systems** — TypeScript types are a form of contract
-- **Fail Fast** — DbC enables fail-fast behavior
+- **Input Validation** â€” DbC is a formal version of input validation
+- **Type Systems** â€” TypeScript types are a form of contract
+- **Fail Fast** â€” DbC enables fail-fast behavior
 
 ## Project Observations
 
 - TypeScript's type system provides compile-time contracts
 - Zod schemas (`*.schema.ts`) provide runtime contracts
 - File naming conventions support DbC:
-  - `*.schema.ts` — Define contracts
-  - `*.policy.ts` — Define business rules (invariants)
+  - `*.schema.ts` â€” Define contracts
+  - `*.policy.ts` â€” Define business rules (invariants)
 - No evidence of DbC violations in existing code
 
 ## Sources

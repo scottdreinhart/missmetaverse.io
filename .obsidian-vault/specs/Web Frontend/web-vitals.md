@@ -1,9 +1,11 @@
+﻿---
+slug: web-vitals
+---
+
 # Web Vitals
 
 > **Purpose:** Measure web vitals with Web Vitals.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `web-vitals`
@@ -54,8 +56,6 @@ declared
 - lcp-metric
 - fid-metric
 - cls-metric
-
----
 
 ## Definition
 
@@ -122,12 +122,12 @@ Web Vitals does not apply to:
 
 ## Related Concepts
 
-- [[Web Frontend/web-vitals]] — Web Vitals
-- [[Web Frontend/core-web-vitals]] — Core Web Vitals
-- [[Web Frontend/performance-metrics]] — Performance Metrics
-- [[Web Frontend/lcp-metric]] — LCP Metric
-- [[Web Frontend/fid-metric]] — FID Metric
-- [[Web Frontend/cls-metric]] — CLS Metric
+- [[Web Frontend/web-vitals]] â€” Web Vitals
+- [[Web Frontend/core-web-vitals]] â€” Core Web Vitals
+- [[Web Frontend/performance-metrics]] â€” Performance Metrics
+- [[Web Frontend/lcp-metric]] â€” LCP Metric
+- [[Web Frontend/fid-metric]] â€” FID Metric
+- [[Web Frontend/cls-metric]] â€” CLS Metric
 
 ## Project Observations
 
@@ -140,8 +140,6 @@ The project uses Web Vitals through:
 ## Sources
 
 - [[Sources/web-vitals-specification|Web Vitals Specification]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Web Vitals Note**

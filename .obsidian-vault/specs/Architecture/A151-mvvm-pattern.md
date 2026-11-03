@@ -1,32 +1,22 @@
----
+﻿---
 slug: mvvm-pattern
 sources:
   - https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel
   - https://react.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - mvvm
   - architecture
   - patterns
   - frontend
----
-
+  - --
 # MVVM Pattern
 
 ## Definition
 
 MVVM (Model-View-ViewModel) is an **architecture pattern that separates application into Model, View, and ViewModel components**.
 
-> "MVVM separates application into Model (data), View (UI), and ViewModel (presentation logic)." — Wikipedia
+> "MVVM separates application into Model (data), View (UI), and ViewModel (presentation logic)." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -38,8 +28,8 @@ Without MVVM:
 
 ## Scope and Boundaries
 
-- MVVM ≠ MVP (MVVM has ViewModel, MVP has Presenter)
-- MVVM ≠ MVC (MVVM has ViewModel, MVC has Controller)
+- MVVM â‰  MVP (MVVM has ViewModel, MVP has Presenter)
+- MVVM â‰  MVC (MVVM has ViewModel, MVC has Controller)
 - MVVM is an **architecture pattern**, not a specific pattern
 
 ## When to Apply
@@ -53,21 +43,21 @@ Without MVVM:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — MVVM is complex |
-| **Time** — MVVM takes time |
-| **Over-mvvm** — Don't use MVVM for everything |
+| **Complexity** â€” MVVM is complex |
+| **Time** â€” MVVM takes time |
+| **Over-mvvm** â€” Don't use MVVM for everything |
 
 ## Common Misuses
 
 - **Everything MVVM**: Not everything needs MVVM
-- **Confusing with MVP**: MVVM ≠ MVP
+- **Confusing with MVP**: MVVM â‰  MVP
 - **Over-mvvm**: Too many MVVM components create complexity
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) — MVVM with React
-- [State Machines](Architecture/state-machines.md) — MVVM with state machines
-- [Statecharts](Architecture/statecharts.md) — MVVM with statecharts
+- [React Patterns](../React/react-patterns) â€” MVVM with React
+- [State Machines](Architecture/state-machines.md) â€” MVVM with state machines
+- [Statecharts](Architecture/statecharts.md) â€” MVVM with statecharts
 
 ## Project Observations
 
@@ -75,8 +65,8 @@ Without MVVM:
   - The project's architecture patterns note covers MVVM (from existing notes)
   - No evidence of MVVM in existing code (src/ is empty)
 - File naming conventions support MVVM:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

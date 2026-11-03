@@ -1,9 +1,11 @@
+﻿---
+slug: encapsulation
+---
+
 # Encapsulation
 
 > **Purpose:** Hide internal state and require interaction through methods.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-encapsulation`
@@ -51,8 +53,6 @@ declared
 - arch-single-responsibility
 - arch-invariant-protection
 - arch-pure-functions
-
----
 
 ## Definition
 
@@ -117,9 +117,9 @@ Encapsulation does not address:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/information-hiding]] — Information Hiding
-- [[Architecture/single-responsibility-principle]] — Single Responsibility Principle
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/information-hiding]] â€” Information Hiding
+- [[Architecture/single-responsibility-principle]] â€” Single Responsibility Principle
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project follows encapsulation through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Encapsulation Note**

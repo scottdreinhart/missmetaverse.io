@@ -1,9 +1,11 @@
+﻿---
+slug: incremental-refactoring
+---
+
 # Incremental Refactoring
 
 > **Purpose:** Refactor in small, safe steps.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-incremental-refactoring`
@@ -49,8 +51,6 @@ declared
 - testing-tdd
 - arch-quality-gate
 - testing-continuous-integration
-
----
 
 ## Definition
 
@@ -117,9 +117,9 @@ Incremental refactoring does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/evolutionary-architecture]] — Evolutionary Architecture
-- [[Quality & Testing/test-driven-development]] — Test-Driven Development
-- [[Quality & Testing/continuous-integration]] — Continuous Integration
+- [[Quality & Testing/evolutionary-architecture]] â€” Evolutionary Architecture
+- [[Quality & Testing/test-driven-development]] â€” Test-Driven Development
+- [[Quality & Testing/continuous-integration]] â€” Continuous Integration
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project follows incremental refactoring through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Incremental Refactoring Note**

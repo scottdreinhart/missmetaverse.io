@@ -1,34 +1,23 @@
----
+﻿---
 slug: low-coupling
 sources:
   - https://en.wikipedia.org/wiki/Coupling_(computer_programming)
   - https://blog.cleancoder.com/uncle-bob/2014/08/14/TheCleanArchitecture.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - coupling
   - principles
   - design
   - modularity
   - dependency-inversion
----
-
+  - --
 # Low Coupling
 
 ## Definition
 
 Low Coupling is the principle that **modules should have minimal dependencies on other modules**. Changes in one module should have minimal impact on other modules.
 
-> "Coupling is a measure of how closely connected two modules are. Low coupling is desirable." — Robert C. Martin
+> "Coupling is a measure of how closely connected two modules are. Low coupling is desirable." â€” Robert C. Martin
 
 ## Problem Addressed
 
@@ -41,8 +30,8 @@ High coupling leads to:
 ## Scope and Boundaries
 
 - Coupling is about **dependencies between modules**, not between functions within a module
-- Some coupling is necessary — the goal is **minimal necessary coupling**
-- Coupling ≠ Cohesion (they are complementary, not opposing)
+- Some coupling is necessary â€” the goal is **minimal necessary coupling**
+- Coupling â‰  Cohesion (they are complementary, not opposing)
 
 ## When to Apply
 
@@ -67,10 +56,10 @@ High coupling leads to:
 
 ## Related Concepts
 
-- **Dependency Inversion Principle** — DIP enables low coupling
-- **High Cohesion** — High cohesion + low coupling = good design
-- **Composition over Inheritance** — Composition reduces coupling
-- **Low Coupling** — Complementary to High Cohesion
+- **Dependency Inversion Principle** â€” DIP enables low coupling
+- **High Cohesion** â€” High cohesion + low coupling = good design
+- **Composition over Inheritance** â€” Composition reduces coupling
+- **Low Coupling** â€” Complementary to High Cohesion
 
 ## Project Observations
 

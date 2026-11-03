@@ -1,9 +1,11 @@
+﻿---
+slug: recoil-state-management
+---
+
 # Recoil State Management
 
 > **Purpose:** Manage state with Recoil.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `recoil-state-management`
@@ -50,8 +52,6 @@ declared
 - recoil-atoms
 - recoil-configuration
 - recoil-derived-state
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Recoil does not apply to:
 
 ## Related Concepts
 
-- [[Recoil/recoil-state-management]] — Recoil State Management
-- [[Recoil/recoil-atoms]] — Recoil Atoms
-- [[Recoil/recoil-configuration]] — Recoil Configuration
-- [[Recoil/recoil-derived-state]] — Recoil Derived State
+- [[Recoil/recoil-state-management]] â€” Recoil State Management
+- [[Recoil/recoil-atoms]] â€” Recoil Atoms
+- [[Recoil/recoil-configuration]] â€” Recoil Configuration
+- [[Recoil/recoil-derived-state]] â€” Recoil Derived State
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Recoil through:
 ## Sources
 
 - [[Sources/recoil-documentation|Recoil Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Recoil State Management Note**

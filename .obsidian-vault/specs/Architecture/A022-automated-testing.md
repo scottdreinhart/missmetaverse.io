@@ -1,32 +1,22 @@
----
+﻿---
 slug: automated-testing
 sources:
   - https://martinfowler.com/articles/practicalTestPyramid.html
   - https://vitest.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - testing
   - automation
   - vitest
   - quality
----
-
+  - --
 # Automated Testing
 
 ## Definition
 
 Automated Testing is a **software testing practice where tests are executed automatically rather than manually**.
 
-> "Automated testing is the practice of using specialized software controls to take care of repetitive manual tasks associated with various other software testing activities." — Wikipedia
+> "Automated testing is the practice of using specialized software controls to take care of repetitive manual tasks associated with various other software testing activities." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -38,8 +28,8 @@ Manual testing leads to:
 
 ## Scope and Boundaries
 
-- Automated Testing ≠ TDD (automated testing is testing, TDD is design)
-- Automated Testing ≠ Unit testing (automated testing includes unit, integration, e2e)
+- Automated Testing â‰  TDD (automated testing is testing, TDD is design)
+- Automated Testing â‰  Unit testing (automated testing includes unit, integration, e2e)
 - Automated Testing is a **testing practice**, not a specific technique
 
 ## When to Apply
@@ -53,21 +43,21 @@ Manual testing leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — Writing tests takes time |
-| **Maintenance** — Tests need maintenance |
-| **Complexity** — Automated testing is complex |
+| **Time** â€” Writing tests takes time |
+| **Maintenance** â€” Tests need maintenance |
+| **Complexity** â€” Automated testing is complex |
 
 ## Common Misuses
 
 - **Everything automated**: Not everything needs automated testing
-- **Confusing with TDD**: Automated testing ≠ TDD
+- **Confusing with TDD**: Automated testing â‰  TDD
 - **Over-testing**: Too much testing creates maintenance burden
 
 ## Related Concepts
 
-- [Test-Driven Development](Architecture/test-driven-development.md) — Automated testing with TDD
-- [Continuous Integration](Architecture/continuous-integration.md) — Automated testing with CI
-- [Vitest](../Testing/vitest-testing.md) — Automated testing with Vitest
+- [Test-Driven Development](Architecture/test-driven-development.md) â€” Automated testing with TDD
+- [Continuous Integration](Architecture/continuous-integration.md) â€” Automated testing with CI
+- [Vitest](../Testing/vitest-testing.md) â€” Automated testing with Vitest
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Manual testing leads to:
   - The project's testing note covers Vitest
 - No evidence of automated testing in existing code (src/ is empty)
 - File naming conventions support automated testing:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

@@ -1,33 +1,22 @@
----
+﻿---
 slug: slo
 sources:
   - https://sre.google/sre-book/service-level-objectives/
   - https://opentelemetry.io/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - slo
   - observability
   - reliability
   - metrics
----
-
+  - --
 # Service-Level Objectives
 
 ## Definition
 
 Service-Level Objectives (SLOs) are **target values for service reliability that define the acceptable level of service quality**.
 
-> "An SLO is a target value or range of values for how long a service will be available to users." — Google SRE
+> "An SLO is a target value or range of values for how long a service will be available to users." â€” Google SRE
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without SLOs:
 
 ## Scope and Boundaries
 
-- SLO ≠ SLA (SLO is an internal target, SLA is a contractual commitment)
+- SLO â‰  SLA (SLO is an internal target, SLA is a contractual commitment)
 - SLO = Target (SLO defines targets for reliability)
 - SLO is a **reliability metric**, not a pattern
 
@@ -54,9 +43,9 @@ Without SLOs:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — SLOs add monitoring complexity |
-| **Time** — Setting up SLOs takes time |
-| **Rigidity** — SLOs must be reviewed regularly |
+| **Complexity** â€” SLOs add monitoring complexity |
+| **Time** â€” Setting up SLOs takes time |
+| **Rigidity** â€” SLOs must be reviewed regularly |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without SLOs:
 
 ## Related Concepts
 
-- [Observability](Quality Delivery/observability.md) — Observability provides data for SLOs
-- [Monitoring](Security/monitoring.md) — Monitoring tracks SLO compliance
-- [Alerting](Security/alerting.md) — Alerting triggers on SLO violations
+- [Observability](Quality Delivery/observability.md) â€” Observability provides data for SLOs
+- [Monitoring](Security/monitoring.md) â€” Monitoring tracks SLO compliance
+- [Alerting](Security/alerting.md) â€” Alerting triggers on SLO violations
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without SLOs:
   - The project's architecture patterns note covers observability concepts
   - No evidence of SLOs in existing code (src/ is empty)
 - File naming conventions support SLOs:
-  - `*.slo.ts` — SLO files
-  - `*.metrics.ts` — Metrics files
+  - `*.slo.ts` â€” SLO files
+  - `*.metrics.ts` â€” Metrics files
 
 ## Sources
 

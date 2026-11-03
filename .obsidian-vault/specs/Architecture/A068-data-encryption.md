@@ -1,33 +1,22 @@
----
+﻿---
 slug: data-encryption
 sources:
   - https://en.wikipedia.org/wiki/Encryption
   - https://nodejs.org/api/crypto.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - encryption
   - security
   - cryptography
   - patterns
----
-
+  - --
 # Data Encryption
 
 ## Definition
 
 Data Encryption is a **security technique for protecting data by converting it into unreadable code**.
 
-> "Encryption is the process of encoding information so that only authorized parties can access it." — Wikipedia
+> "Encryption is the process of encoding information so that only authorized parties can access it." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,8 +28,8 @@ Without data encryption:
 
 ## Scope and Boundaries
 
-- Data Encryption ≠ Hashing (data encryption is reversible, hashing is not)
-- Data Encryption ≠ Encoding (data encryption is for security, encoding is for format)
+- Data Encryption â‰  Hashing (data encryption is reversible, hashing is not)
+- Data Encryption â‰  Encoding (data encryption is for security, encoding is for format)
 - Data Encryption is a **security technique**, not a hashing technique
 
 ## When to Apply
@@ -54,21 +43,21 @@ Without data encryption:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Data encryption is complex |
-| **Time** — Data encryption takes time |
-| **Over-encryption** — Don't encrypt everything |
+| **Complexity** â€” Data encryption is complex |
+| **Time** â€” Data encryption takes time |
+| **Over-encryption** â€” Don't encrypt everything |
 
 ## Common Misuses
 
 - **Everything encrypted**: Not everything needs data encryption
-- **Confusing with hashing**: Data encryption ≠ hashing
+- **Confusing with hashing**: Data encryption â‰  hashing
 - **Over-encryption**: Too much encryption creates complexity
 
 ## Related Concepts
 
-- [Security Principles](Architecture/security-principles.md) — Data encryption with security
-- [Authentication](Architecture/authentication.md) — Data encryption with authentication
-- [Hashing](Architecture/hashing.md) — Data encryption with hashing
+- [Security Principles](Architecture/security-principles.md) â€” Data encryption with security
+- [Authentication](Architecture/authentication.md) â€” Data encryption with authentication
+- [Hashing](Architecture/hashing.md) â€” Data encryption with hashing
 
 ## Project Observations
 
@@ -76,8 +65,8 @@ Without data encryption:
   - The project's architecture patterns note covers data encryption (from existing notes)
   - No evidence of data encryption in existing code (src/ is empty)
 - File naming conventions support data encryption:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

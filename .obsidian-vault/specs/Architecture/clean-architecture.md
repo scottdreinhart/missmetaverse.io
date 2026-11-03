@@ -1,9 +1,11 @@
+﻿---
+slug: clean-architecture
+---
+
 # Clean Architecture
 
 > **Purpose:** Architecture pattern that separates concerns into concentric circles.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-clean-architecture`
@@ -51,8 +53,6 @@ declared
 - arch-dependency-inversion
 - arch-entity-file-convention
 - arch-use-case-file-convention
-
----
 
 ## Definition
 
@@ -124,10 +124,10 @@ Clean architecture does not directly address:
 
 ## Related Concepts
 
-- [[Architecture/hexagonal-architecture]] — Hexagonal Architecture
-- [[Architecture/onion-architecture]] — Onion Architecture
-- [[Architecture/domain-driven-design]] — Domain-Driven Design
-- [[Architecture/dependency-inversion-principle]] — Dependency Inversion Principle
+- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Architecture/onion-architecture]] â€” Onion Architecture
+- [[Architecture/domain-driven-design]] â€” Domain-Driven Design
+- [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion Principle
 
 ## Project Observations
 
@@ -139,9 +139,7 @@ The project uses TypeScript, which supports clean architecture through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Clean Architecture Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: data-minimization
+---
+
 # Data Minimization
 
 > **Purpose:** Minimize data with Data Minimization.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `data-minimization`
@@ -50,8 +52,6 @@ declared
 - minimal-data-collection
 - data-retention
 - privacy-by-design
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Data Minimization does not apply to:
 
 ## Related Concepts
 
-- [[Security/data-minimization]] — Data Minimization
-- [[Security/minimal-data-collection]] — Minimal Data Collection
-- [[Security/data-retention]] — Data Retention
-- [[Security/privacy-by-design]] — Privacy by Design
+- [[Security/data-minimization]] â€” Data Minimization
+- [[Security/minimal-data-collection]] â€” Minimal Data Collection
+- [[Security/data-retention]] â€” Data Retention
+- [[Security/privacy-by-design]] â€” Privacy by Design
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Data Minimization through:
 ## Sources
 
 - [[Sources/privacy-principles|Privacy Principles]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Data Minimization Note**

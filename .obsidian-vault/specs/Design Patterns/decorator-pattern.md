@@ -1,9 +1,11 @@
+﻿---
+slug: decorator-pattern
+---
+
 # Decorator Pattern
 
 > **Purpose:** Add behavior dynamically with Decorator Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `decorator-pattern`
@@ -49,8 +51,6 @@ declared
 - middleware-pattern
 - proxy-pattern
 - adapter-pattern
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Decorator does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/decorator-pattern]] — Decorator Pattern
-- [[Design Patterns/middleware-pattern]] — Middleware Pattern
-- [[Design Patterns/proxy-pattern]] — Proxy Pattern
-- [[Design Patterns/adapter-pattern]] — Adapter Pattern
+- [[Design Patterns/decorator-pattern]] â€” Decorator Pattern
+- [[Design Patterns/middleware-pattern]] â€” Middleware Pattern
+- [[Design Patterns/proxy-pattern]] â€” Proxy Pattern
+- [[Design Patterns/adapter-pattern]] â€” Adapter Pattern
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Decorator Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Decorator Pattern Note**

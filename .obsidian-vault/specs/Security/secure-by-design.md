@@ -1,9 +1,11 @@
+﻿---
+slug: secure-by-design
+---
+
 # Secure by Design
 
 > **Purpose:** Build secure with Secure by Design.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `secure-by-design`
@@ -50,8 +52,6 @@ declared
 - security-by-design
 - built-in-security
 - security-first
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Secure by Design does not apply to:
 
 ## Related Concepts
 
-- [[Security/secure-by-design]] — Secure by Design
-- [[Security/security-by-design]] — Security by Design
-- [[Security/built-in-security]] — Built-in Security
-- [[Security/security-first]] — Security First
+- [[Security/secure-by-design]] â€” Secure by Design
+- [[Security/security-by-design]] â€” Security by Design
+- [[Security/built-in-security]] â€” Built-in Security
+- [[Security/security-first]] â€” Security First
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Secure by Design through:
 ## Sources
 
 - [[Sources/security-principles|Security Principles]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Secure by Design Note**

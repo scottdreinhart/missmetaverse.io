@@ -1,9 +1,11 @@
+﻿---
+slug: component-based-architecture
+---
+
 # Component-Based Architecture
 
 > **Purpose:** Structure apps with Component-Based Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `component-based-architecture`
@@ -50,8 +52,6 @@ declared
 - component-architecture
 - ui-components
 - reusable-components
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Component-Based Architecture does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/component-based-architecture]] — Component-Based Architecture
-- [[Application Architecture/component-architecture]] — Component Architecture
-- [[Application Architecture/ui-components]] — UI Components
-- [[Application Architecture/reusable-components]] — Reusable Components
+- [[Application Architecture/component-based-architecture]] â€” Component-Based Architecture
+- [[Application Architecture/component-architecture]] â€” Component Architecture
+- [[Application Architecture/ui-components]] â€” UI Components
+- [[Application Architecture/reusable-components]] â€” Reusable Components
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Component-Based Architecture through:
 ## Sources
 
 - [[Sources/react-docs|React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Component-Based Architecture Note**

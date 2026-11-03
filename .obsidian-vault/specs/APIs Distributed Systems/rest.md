@@ -1,9 +1,11 @@
+﻿---
+slug: rest
+---
+
 # REST
 
 > **Purpose:** Architectural style for distributed systems.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `api-rest`
@@ -51,8 +53,6 @@ declared
 - api-data-transfer-objects
 - api-backend-for-frontend
 - arch-service-layer
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ REST does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/api-versioning]] — API Versioning
-- [[APIs Distributed Systems/backward-compatibility]] — Backward Compatibility
-- [[APIs Distributed Systems/data-transfer-objects]] — Data Transfer Objects
-- [[APIs Distributed Systems/backend-for-frontend]] — Backend for Frontend
+- [[APIs Distributed Systems/api-versioning]] â€” API Versioning
+- [[APIs Distributed Systems/backward-compatibility]] â€” Backward Compatibility
+- [[APIs Distributed Systems/data-transfer-objects]] â€” Data Transfer Objects
+- [[APIs Distributed Systems/backend-for-frontend]] â€” Backend for Frontend
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses TypeScript with Express, which supports REST through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/rest-dissertation|Roy Fielding — Architectural Styles and the Design of Network-based Software Architectures]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/rest-dissertation|Roy Fielding â€” Architectural Styles and the Design of Network-based Software Architectures]]
 
 **End of REST Note**

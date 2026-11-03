@@ -1,32 +1,22 @@
----
+﻿---
 slug: atomic-design-methodology-original
 sources:
   - https://bradfrost.com/blog/post/atomic-web-design/
   - https://atomicdesign.bradfrost.com/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - atomic-design
   - ui
   - patterns
   - frontend
----
-
+  - --
 # Atomic Design
 
 ## Definition
 
 Atomic Design is a **methodology for creating design systems that consists of five distinct stages**.
 
-> "Atomic Design is a methodology for creating design systems that consists of five distinct stages: atoms, molecules, organisms, templates, and pages." — Brad Frost
+> "Atomic Design is a methodology for creating design systems that consists of five distinct stages: atoms, molecules, organisms, templates, and pages." â€” Brad Frost
 
 ## Problem Addressed
 
@@ -38,8 +28,8 @@ Without atomic design:
 
 ## Scope and Boundaries
 
-- Atomic Design ≠ Design Systems (atomic design is a methodology, design systems are a collection)
-- Atomic Design ≠ Component Library (atomic design is a methodology, component libraries are specific)
+- Atomic Design â‰  Design Systems (atomic design is a methodology, design systems are a collection)
+- Atomic Design â‰  Component Library (atomic design is a methodology, component libraries are specific)
 - Atomic Design is a **methodology**, not a specific pattern
 
 ## When to Apply
@@ -53,21 +43,21 @@ Without atomic design:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Atomic design is complex |
-| **Time** — Atomic design takes time |
-| **Over-atomic** — Don't use atomic design for everything |
+| **Complexity** â€” Atomic design is complex |
+| **Time** â€” Atomic design takes time |
+| **Over-atomic** â€” Don't use atomic design for everything |
 
 ## Common Misuses
 
 - **Everything atomic**: Not everything needs atomic design
-- **Confusing with design systems**: Atomic design ≠ design systems
+- **Confusing with design systems**: Atomic design â‰  design systems
 - **Over-atomic**: Too many atoms create complexity
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) — Atomic design with React
-- [Design Systems](Architecture/design-systems.md) — Atomic design with design systems
-- [Design Tokens](Architecture/design-tokens.md) — Atomic design with design tokens
+- [React Patterns](../React/react-patterns) â€” Atomic design with React
+- [Design Systems](Architecture/design-systems.md) â€” Atomic design with design systems
+- [Design Tokens](Architecture/design-tokens.md) â€” Atomic design with design tokens
 
 ## Project Observations
 
@@ -75,8 +65,8 @@ Without atomic design:
   - The project's architecture patterns note covers atomic design (from existing notes)
   - No evidence of atomic design in existing code (src/ is empty)
 - File naming conventions support atomic design:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

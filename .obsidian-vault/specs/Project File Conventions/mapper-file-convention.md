@@ -1,9 +1,11 @@
+﻿---
+slug: mapper-file-convention
+---
+
 # Mapper File Convention
 
 > **Purpose:** Separate data transformation logic.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-mapper-file`
@@ -51,11 +53,9 @@ declared
 - project-hook-file
 - project-schema-file
 
----
-
 ## Definition
 
-The *.mapper.ts file convention designates files that handle data transformation — mapping between different data formats (DTOs, API responses, domain models).
+The *.mapper.ts file convention designates files that handle data transformation â€” mapping between different data formats (DTOs, API responses, domain models).
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Mapper files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
-- [[Project File Conventions/hook-file-convention]] — *.hook.ts File Convention
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
+- [[Project File Conventions/hook-file-convention]] â€” *.hook.ts File Convention
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows mapper file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Mapper File Convention Note**

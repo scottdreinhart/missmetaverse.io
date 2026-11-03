@@ -1,9 +1,11 @@
+﻿---
+slug: evolutionary-architecture
+---
+
 # Evolutionary Architecture
 
 > **Purpose:** Design architecture that evolves with changing requirements.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-evolutionary-architecture`
@@ -49,8 +51,6 @@ declared
 - testing-adr
 - arch-quality-gate
 - testing-continuous-integration
-
----
 
 ## Definition
 
@@ -117,9 +117,9 @@ Evolutionary architecture does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/incremental-refactoring]] — Incremental Refactoring
-- [[Quality & Testing/architecture-decision-records]] — Architecture Decision Records
-- [[Quality & Testing/continuous-integration]] — Continuous Integration
+- [[Quality & Testing/incremental-refactoring]] â€” Incremental Refactoring
+- [[Quality & Testing/architecture-decision-records]] â€” Architecture Decision Records
+- [[Quality & Testing/continuous-integration]] â€” Continuous Integration
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project follows evolutionary architecture through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Evolutionary Architecture Note**

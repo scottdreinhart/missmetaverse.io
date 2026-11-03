@@ -1,33 +1,22 @@
----
+﻿---
 slug: retry-with-backoff
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
   - https://www.awsarchitectureblog.com/2015/03/backoff.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - retry
   - backoff
   - resilience
   - distributed-systems
----
-
+  - --
 # Retry with Backoff and Jitter
 
 ## Definition
 
 Retry with Backoff and Jitter is a **resilience pattern where failed operations are retried with increasing delays and randomization to avoid thundering herd**.
 
-> "Exponential backoff with jitter is a technique that adds random variation to the delay between retries." — AWS Architecture Blog
+> "Exponential backoff with jitter is a technique that adds random variation to the delay between retries." â€” AWS Architecture Blog
 
 ## Problem Addressed
 
@@ -39,8 +28,8 @@ Without backoff and jitter:
 
 ## Scope and Boundaries
 
-- Retry ≠ Circuit Breaker (retry tries again, circuit breaker stops trying)
-- Retry ≠ Timeout (timeout limits duration, retry limits attempts)
+- Retry â‰  Circuit Breaker (retry tries again, circuit breaker stops trying)
+- Retry â‰  Timeout (timeout limits duration, retry limits attempts)
 - Retry is a **resilience pattern**, not a fault prevention pattern
 
 ## When to Apply
@@ -54,9 +43,9 @@ Without backoff and jitter:
 
 | Cost | Description |
 |------|-------------|
-| **Latency** — Retries add delay |
-| **Resource usage** — Retries consume resources |
-| **Wrong operations** — Non-idempotent operations shouldn't be retried |
+| **Latency** â€” Retries add delay |
+| **Resource usage** â€” Retries consume resources |
+| **Wrong operations** â€” Non-idempotent operations shouldn't be retried |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without backoff and jitter:
 
 ## Related Concepts
 
-- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) — Complementary pattern
-- [Bulkheads](Architecture/architecture-patterns.md) — Complementary pattern
-- [Timeouts](Architecture/architecture-patterns.md) — Complementary pattern
+- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) â€” Complementary pattern
+- [Bulkheads](Architecture/architecture-patterns.md) â€” Complementary pattern
+- [Timeouts](Architecture/architecture-patterns.md) â€” Complementary pattern
 
 ## Project Observations
 

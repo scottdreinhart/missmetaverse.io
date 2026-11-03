@@ -1,9 +1,11 @@
+﻿---
+slug: zero-trust
+---
+
 # Zero Trust
 
 > **Purpose:** Implement Zero Trust with Zero Trust.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `zero-trust`
@@ -50,8 +52,6 @@ declared
 - zero-trust-security
 - never-trust-always-verify
 - zero-trust-architecture
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Zero Trust does not apply to:
 
 ## Related Concepts
 
-- [[Security/zero-trust]] — Zero Trust
-- [[Security/zero-trust-security]] — Zero Trust Security
-- [[Security/never-trust-always-verify]] — Never Trust, Always Verify
-- [[Security/zero-trust-architecture]] — Zero Trust Architecture
+- [[Security/zero-trust]] â€” Zero Trust
+- [[Security/zero-trust-security]] â€” Zero Trust Security
+- [[Security/never-trust-always-verify]] â€” Never Trust, Always Verify
+- [[Security/zero-trust-architecture]] â€” Zero Trust Architecture
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Zero Trust through:
 ## Sources
 
 - [[Sources/zero-trust-guide|Zero Trust Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Zero Trust Note**

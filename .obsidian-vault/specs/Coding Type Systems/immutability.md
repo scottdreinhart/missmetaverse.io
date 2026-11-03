@@ -1,9 +1,11 @@
+﻿---
+slug: immutability
+---
+
 # Immutability
 
 > **Purpose:** Prevent state mutation to avoid side effects.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-immutability`
@@ -50,8 +52,6 @@ declared
 - coding-strict-typing
 - coding-make-invalid-states-unrepresentable
 - arch-unidirectional-data-flow
-
----
 
 ## Definition
 
@@ -116,9 +116,9 @@ Immutability does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/pure-functions]] — Pure Functions
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Architecture/unidirectional-data-flow]] — Unidirectional Data Flow
+- [[Coding Type Systems/pure-functions]] â€” Pure Functions
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Architecture/unidirectional-data-flow]] â€” Unidirectional Data Flow
 
 ## Project Observations
 
@@ -130,9 +130,7 @@ The project uses React and Jotai, which supports immutability through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Immutability Note**

@@ -1,33 +1,22 @@
----
+﻿---
 slug: architecture-fitness
 sources:
   - https://martinfowler.com/bliki/ArchitectureFitnessFunction.html
   - https://www.thoughtworks.com/radar
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - architecture-fitness
   - testing
   - architecture
   - quality
----
-
+  - --
 # Architecture Fitness Functions
 
 ## Definition
 
 Architecture Fitness Functions are **automated tests that verify whether the architecture meets specific quality attributes or constraints**.
 
-> "An architecture fitness function is an automated test that checks whether the architecture meets a specific quality attribute." — Martin Fowler
+> "An architecture fitness function is an automated test that checks whether the architecture meets a specific quality attribute." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without architecture fitness functions:
 
 ## Scope and Boundaries
 
-- Architecture Fitness Functions ≠ Unit Tests (architecture fitness functions test architecture, unit tests test code behavior)
+- Architecture Fitness Functions â‰  Unit Tests (architecture fitness functions test architecture, unit tests test code behavior)
 - Architecture Fitness Functions = Enforcement (architecture fitness functions enforce architecture)
 - Architecture Fitness Functions is a **testing approach**, not a pattern
 
@@ -54,9 +43,9 @@ Without architecture fitness functions:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Architecture fitness functions add tooling complexity |
-| **Time** — Writing fitness functions takes time |
-| **Rigidity** — Too many fitness functions make architecture rigid |
+| **Complexity** â€” Architecture fitness functions add tooling complexity |
+| **Time** â€” Writing fitness functions takes time |
+| **Rigidity** â€” Too many fitness functions make architecture rigid |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without architecture fitness functions:
 
 ## Related Concepts
 
-- [Automated Testing](Quality Delivery/automated-testing.md) — Automated testing supports architecture fitness functions
-- [Architecture Decision Records](Architecture/architecture-decision-records.md) — Architecture decision records document architectural decisions
-- [Refactoring](Quality Delivery/refactoring.md) — Refactoring can address fitness function failures
+- [Automated Testing](Quality Delivery/automated-testing.md) â€” Automated testing supports architecture fitness functions
+- [Architecture Decision Records](Architecture/architecture-decision-records.md) â€” Architecture decision records document architectural decisions
+- [Refactoring](Quality Delivery/refactoring.md) â€” Refactoring can address fitness function failures
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without architecture fitness functions:
   - The project's architecture patterns note covers architecture concepts
   - No evidence of architecture fitness functions in existing code (src/ is empty)
 - File naming conventions support architecture fitness functions:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

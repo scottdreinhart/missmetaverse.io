@@ -1,9 +1,11 @@
+﻿---
+slug: value-object-file-convention
+---
+
 # Value Object File Convention
 
 > **Purpose:** Define value objects in dedicated files.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-value-object-file`
@@ -51,11 +53,9 @@ declared
 - project-data-file
 - ddd-value-object
 
----
-
 ## Definition
 
-The *.value-object.ts file convention designates files that define value objects — immutable domain objects defined by their attributes, not identity.
+The *.value-object.ts file convention designates files that define value objects â€” immutable domain objects defined by their attributes, not identity.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Value object files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/entity-file-convention]] — *.entity.ts File Convention
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[DDD/value-object]] — Value Object
+- [[Project File Conventions/entity-file-convention]] â€” *.entity.ts File Convention
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[DDD/value-object]] â€” Value Object
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows value object file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Value Object File Convention Note**

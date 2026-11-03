@@ -1,9 +1,11 @@
+﻿---
+slug: axe-core-react-accessibility
+---
+
 # @axe-core/react Accessibility
 
 > **Purpose:** Ensure accessibility with @axe-core/react.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `axe-core-react-accessibility`
@@ -50,8 +52,6 @@ declared
 - axe-core-wcag-compliance
 - axe-core-configuration
 - axe-core-monitoring
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Without @axe-core/react:
 
 ## Related Concepts
 
-- [[axe-core/axe-core-react-testing]] — axe-core React Testing
-- [[axe-core/axe-core-wcag-compliance]] — axe-core WCAG Compliance
-- [[axe-core/axe-core-configuration]] — axe-core Configuration
-- [[axe-core/axe-core-monitoring]] — axe-core Monitoring
+- [[axe-core/axe-core-react-testing]] â€” axe-core React Testing
+- [[axe-core/axe-core-wcag-compliance]] â€” axe-core WCAG Compliance
+- [[axe-core/axe-core-configuration]] â€” axe-core Configuration
+- [[axe-core/axe-core-monitoring]] â€” axe-core Monitoring
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses @axe-core/react through:
 ## Sources
 
 - [[Sources/axe-core-documentation|@axe-core/react Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of @axe-core/react Accessibility Note**

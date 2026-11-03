@@ -1,4 +1,4 @@
----
+﻿---
 slug: playwright-docs-2024
 sources:
   - https://playwright.dev/
@@ -6,14 +6,6 @@ sources:
 
 ---
 tags:
-
-
-
-
-
-
-
-
   - playwright
   - testing
   - e2e

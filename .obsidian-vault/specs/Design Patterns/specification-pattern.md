@@ -1,9 +1,11 @@
+﻿---
+slug: specification-pattern
+---
+
 # Specification Pattern
 
 > **Purpose:** Combine business rules with Specification Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `specification-pattern`
@@ -50,8 +52,6 @@ declared
 - repository-pattern
 - criteria-pattern
 - predicate-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Specification does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/specification-pattern]] — Specification Pattern
-- [[Design Patterns/repository-pattern]] — Repository Pattern
-- [[Design Patterns/criteria-pattern]] — Criteria Pattern
-- [[Design Patterns/predicate-pattern]] — Predicate Pattern
+- [[Design Patterns/specification-pattern]] â€” Specification Pattern
+- [[Design Patterns/repository-pattern]] â€” Repository Pattern
+- [[Design Patterns/criteria-pattern]] â€” Criteria Pattern
+- [[Design Patterns/predicate-pattern]] â€” Predicate Pattern
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Specification Pattern through:
 
 ## Sources
 
-- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns — Hohpe & Woolf]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns â€” Hohpe & Woolf]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Specification Pattern Note**

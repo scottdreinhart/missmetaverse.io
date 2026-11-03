@@ -1,32 +1,22 @@
----
+﻿---
 slug: design-tokens
 sources:
   - https://design-tokens.github.io/community-group/format/
   - https://m3.material.io/styles/color/the-color-system/color-tokens
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - design-tokens
   - design-systems
   - css
   - theming
----
-
+  - --
 # Design Tokens
 
 ## Definition
 
-Design Tokens are **the atomic values of a design system — colors, spacing, typography, etc. — stored as machine-readable values that can be used across platforms**.
+Design Tokens are **the atomic values of a design system â€” colors, spacing, typography, etc. â€” stored as machine-readable values that can be used across platforms**.
 
-> "Design tokens are the visual design attributes teams use to construct their applications." — Design Tokens Community Group
+> "Design tokens are the visual design attributes teams use to construct their applications." â€” Design Tokens Community Group
 
 ## Problem Addressed
 
@@ -38,8 +28,8 @@ Without design tokens:
 
 ## Scope and Boundaries
 
-- Design Tokens ≠ Design System (tokens are values, system is the whole)
-- Design Tokens ≠ CSS Variables (CSS variables are one implementation)
+- Design Tokens â‰  Design System (tokens are values, system is the whole)
+- Design Tokens â‰  CSS Variables (CSS variables are one implementation)
 - Design Tokens are **platform-agnostic** values
 
 ## When to Apply
@@ -53,9 +43,9 @@ Without design tokens:
 
 | Cost | Description |
 |------|-------------|
-| **Setup time** — Creating tokens takes time |
-| **Tooling** — May need additional tools |
-| **Complexity** — Token hierarchy can be complex |
+| **Setup time** â€” Creating tokens takes time |
+| **Tooling** â€” May need additional tools |
+| **Complexity** â€” Token hierarchy can be complex |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without design tokens:
 
 ## Related Concepts
 
-- [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md) — Tailwind config is a form of design tokens
-- [CSS Fundamentals](../Cascading%20Stylesheets/css-fundamentals.md) — CSS custom properties
-- [ShadCN UI](../ShadCN/shadcn-ui-patterns.md) — shadcn uses CSS variables as tokens
+- [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md) â€” Tailwind config is a form of design tokens
+- [CSS Fundamentals](../Cascading%20Stylesheets/css-fundamentals.md) â€” CSS custom properties
+- [ShadCN UI](../ShadCN/shadcn-ui-patterns.md) â€” shadcn uses CSS variables as tokens
 
 ---
 

@@ -1,9 +1,11 @@
+﻿---
+slug: vertical-slice-architecture
+---
+
 # Vertical Slice Architecture
 
 > **Purpose:** Structure apps with Vertical Slice Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `vertical-slice-architecture`
@@ -49,8 +51,6 @@ declared
 - modular-monolith
 - feature-based-architecture
 - cross-cutting-concerns
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Vertical Slice Architecture does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/vertical-slice-architecture]] — Vertical Slice Architecture
-- [[Application Architecture/modular-monolith]] — Modular Monolith
-- [[Application Architecture/feature-based-architecture]] — Feature-Based Architecture
-- [[Application Architecture/cross-cutting-concerns]] — Cross-Cutting Concerns
+- [[Application Architecture/vertical-slice-architecture]] â€” Vertical Slice Architecture
+- [[Application Architecture/modular-monolith]] â€” Modular Monolith
+- [[Application Architecture/feature-based-architecture]] â€” Feature-Based Architecture
+- [[Application Architecture/cross-cutting-concerns]] â€” Cross-Cutting Concerns
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Vertical Slice Architecture through:
 ## Sources
 
 - [[Sources/bogard-vertical-slice|Vertical Slice Architecture by Scott Bogard]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Vertical Slice Architecture Note**

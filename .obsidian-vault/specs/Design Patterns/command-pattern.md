@@ -1,9 +1,11 @@
+﻿---
+slug: command-pattern
+---
+
 # Command Pattern
 
 > **Purpose:** Encapsulate requests with Command Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `command-pattern`
@@ -50,8 +52,6 @@ declared
 - cqs-pattern
 - event-sourcing
 - mediator-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Command does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/command-pattern]] — Command Pattern
-- [[Architecture/cqs-pattern]] — Command-Query Separation
-- [[Data Databases/event-sourcing]] — Event Sourcing
-- [[Design Patterns/mediator-pattern]] — Mediator Pattern
+- [[Design Patterns/command-pattern]] â€” Command Pattern
+- [[Architecture/cqs-pattern]] â€” Command-Query Separation
+- [[Data Databases/event-sourcing]] â€” Event Sourcing
+- [[Design Patterns/mediator-pattern]] â€” Mediator Pattern
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Command Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Command Pattern Note**

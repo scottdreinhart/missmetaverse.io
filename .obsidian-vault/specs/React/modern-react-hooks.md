@@ -1,9 +1,11 @@
+﻿---
+slug: modern-react-hooks
+---
+
 # React Modern React Hooks
 
 > **Purpose:** Use React hooks effectively.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `modern-react-hooks`
@@ -50,8 +52,6 @@ declared
 - modern-react-components
 - modern-react-state
 - modern-react-hooks-custom
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ React hooks do not apply to:
 
 ## Related Concepts
 
-- [[React/modern-react-project-template]] — Modern React Project Template
-- [[React/modern-react-components]] — Modern React Components
-- [[React/modern-react-state]] — Modern React State
-- [[React/modern-react-hooks-custom]] — Modern React Custom Hooks
+- [[React/modern-react-project-template]] â€” Modern React Project Template
+- [[React/modern-react-components]] â€” Modern React Components
+- [[React/modern-react-state]] â€” Modern React State
+- [[React/modern-react-hooks-custom]] â€” Modern React Custom Hooks
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React hooks through:
 ## Sources
 
 - [[Sources/react-documentation|React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Modern React Hooks Note**

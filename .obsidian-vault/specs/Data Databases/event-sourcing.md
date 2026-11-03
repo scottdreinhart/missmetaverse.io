@@ -1,9 +1,11 @@
+﻿---
+slug: event-sourcing
+---
+
 # Event Sourcing
 
 > **Purpose:** Implement event sourcing with Event Sourcing.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `event-sourcing`
@@ -50,8 +52,6 @@ declared
 - event-store
 - event-log
 - cqrs
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Event Sourcing does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/event-sourcing]] — Event Sourcing
-- [[Data Databases/event-store]] — Event Store
-- [[Data Databases/event-log]] — Event Log
-- [[Data Databases/cqrs]] — CQRS
+- [[Data Databases/event-sourcing]] â€” Event Sourcing
+- [[Data Databases/event-store]] â€” Event Store
+- [[Data Databases/event-log]] â€” Event Log
+- [[Data Databases/cqrs]] â€” CQRS
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Event Sourcing through:
 ## Sources
 
 - [[Sources/event-sourcing-guide|Event Sourcing Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Event Sourcing Note**

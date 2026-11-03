@@ -1,34 +1,22 @@
----
+﻿---
 slug: vite-configuration-original
 sources:
   - https://vite.dev/guide/config.html
   - https://vite.dev/guide/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - vite
   - configuration
   - bundler
   - patterns
----
-
+  - --
 # Vite Configuration
 
 ## Definition
 
 Vite Configuration is a **practice for configuring Vite for building and developing web applications**.
 
-> "Vite configuration is the process of configuring Vite for building and developing web applications." — Vite Docs
+> "Vite configuration is the process of configuring Vite for building and developing web applications." â€” Vite Docs
 
 ## Problem Addressed
 
@@ -40,8 +28,8 @@ Without Vite configuration:
 
 ## Scope and Boundaries
 
-- Vite Configuration ≠ Vite (Vite configuration is a practice, Vite is a tool)
-- Vite Configuration ≠ Bundling (Vite configuration is a practice, bundling is a technique)
+- Vite Configuration â‰  Vite (Vite configuration is a practice, Vite is a tool)
+- Vite Configuration â‰  Bundling (Vite configuration is a practice, bundling is a technique)
 - Vite Configuration is a **practice**, not a tool
 
 ## When to Apply
@@ -55,21 +43,21 @@ Without Vite configuration:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Vite configuration is complex |
-| **Time** — Vite configuration takes time |
-| **Over-configuration** — Don't configure everything |
+| **Complexity** â€” Vite configuration is complex |
+| **Time** â€” Vite configuration takes time |
+| **Over-configuration** â€” Don't configure everything |
 
 ## Common Misuses
 
 - **Everything configured**: Not everything needs Vite configuration
-- **Confusing with Vite**: Vite configuration ≠ Vite
+- **Confusing with Vite**: Vite configuration â‰  Vite
 - **Over-configuration**: Too much configuration creates complexity
 
 ## Related Concepts
 
-- [Vite Optimization](../Bundler/vite-optimization-security.md) — Vite configuration with optimization
-- [React Patterns](../React/react-patterns) — Vite configuration with React
-- [Bundler Configuration](../Bundler/vite-configuration.md) — Vite configuration with bundling
+- [Vite Optimization](../Bundler/vite-optimization-security.md) â€” Vite configuration with optimization
+- [React Patterns](../React/react-patterns) â€” Vite configuration with React
+- [Bundler Configuration](../Bundler/vite-configuration.md) â€” Vite configuration with bundling
 
 ## Project Observations
 
@@ -77,8 +65,8 @@ Without Vite configuration:
   - The project's Vite note covers Vite configuration (from existing notes)
   - No evidence of Vite configuration in existing code (src/ is empty)
 - File naming conventions support Vite configuration:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

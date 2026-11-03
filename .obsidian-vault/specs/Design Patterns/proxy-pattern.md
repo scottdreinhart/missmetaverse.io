@@ -1,9 +1,11 @@
+﻿---
+slug: proxy-pattern
+---
+
 # Proxy Pattern
 
 > **Purpose:** Control access with Proxy Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `proxy-pattern`
@@ -50,8 +52,6 @@ declared
 - decorator-pattern
 - adapter-pattern
 - facade-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Proxy does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/proxy-pattern]] — Proxy Pattern
-- [[Design Patterns/decorator-pattern]] — Decorator Pattern
-- [[Design Patterns/adapter-pattern]] — Adapter Pattern
-- [[Design Patterns/facade-pattern]] — Facade Pattern
+- [[Design Patterns/proxy-pattern]] â€” Proxy Pattern
+- [[Design Patterns/decorator-pattern]] â€” Decorator Pattern
+- [[Design Patterns/adapter-pattern]] â€” Adapter Pattern
+- [[Design Patterns/facade-pattern]] â€” Facade Pattern
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Proxy Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Proxy Pattern Note**

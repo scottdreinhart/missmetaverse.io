@@ -1,9 +1,11 @@
+﻿---
+slug: security-headers
+---
+
 # Security Headers
 
 > **Purpose:** Protect APIs with Security Headers.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `security-headers`
@@ -50,8 +52,6 @@ declared
 - csp-header
 - hsts-header
 - x-frame-options
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Security Headers do not apply to:
 
 ## Related Concepts
 
-- [[Security/security-headers]] — Security Headers
-- [[Security/csp-header]] — CSP Header
-- [[Security/hsts-header]] — HSTS Header
-- [[Security/x-frame-options]] — X-Frame-Options
+- [[Security/security-headers]] â€” Security Headers
+- [[Security/csp-header]] â€” CSP Header
+- [[Security/hsts-header]] â€” HSTS Header
+- [[Security/x-frame-options]] â€” X-Frame-Options
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Security Headers through:
 ## Sources
 
 - [[Sources/owasp-top-10|OWASP Top 10]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Security Headers Note**

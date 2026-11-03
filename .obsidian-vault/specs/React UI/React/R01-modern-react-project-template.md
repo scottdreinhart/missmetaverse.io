@@ -1,4 +1,4 @@
----
+﻿---
 slug: modern-react-project-template
 title: Modern React Project Development Guide
 description: Comprehensive guide for modern frontend projects based on React 18 + TypeScript + Vite
@@ -16,20 +16,6 @@ sources:
   - https://eslint.org/
   - https://prettier.io/
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   - react
   - typescript
   - vite
@@ -62,30 +48,30 @@ Modern frontend project template based on React 18, TypeScript, and Vite. Suitab
 
 ```
 react-project/
-├── public/                 # Static assets
-│   ├── favicon.ico
-│   └── index.html
-├── src/
-│   ├── components/         # Reusable components
-│   │   ├── common/        # Common components
-│   │   └── ui/            # UI components
-│   ├── pages/             # Page components
-│   ├── hooks/             # Custom Hooks
-│   ├── store/             # State management
-│   ├── services/          # API services
-│   ├── utils/             # Utility functions
-│   ├── types/             # TypeScript type definitions
-│   ├── styles/            # Global styles
-│   ├── constants/         # Constants
-│   ├── App.tsx
-│   └── main.tsx
-├── tests/                 # Test files
-├── docs/                  # Project documentation
-├── .env.example          # Environment variables example
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
+â”œâ”€â”€ public/                 # Static assets
+â”‚   â”œâ”€â”€ favicon.ico
+â”‚   â””â”€â”€ index.html
+â”œâ”€â”€ src/
+â”‚   â”œâ”€â”€ components/         # Reusable components
+â”‚   â”‚   â”œâ”€â”€ common/        # Common components
+â”‚   â”‚   â””â”€â”€ ui/            # UI components
+â”‚   â”œâ”€â”€ pages/             # Page components
+â”‚   â”œâ”€â”€ hooks/             # Custom Hooks
+â”‚   â”œâ”€â”€ store/             # State management
+â”‚   â”œâ”€â”€ services/          # API services
+â”‚   â”œâ”€â”€ utils/             # Utility functions
+â”‚   â”œâ”€â”€ types/             # TypeScript type definitions
+â”‚   â”œâ”€â”€ styles/            # Global styles
+â”‚   â”œâ”€â”€ constants/         # Constants
+â”‚   â”œâ”€â”€ App.tsx
+â”‚   â””â”€â”€ main.tsx
+â”œâ”€â”€ tests/                 # Test files
+â”œâ”€â”€ docs/                  # Project documentation
+â”œâ”€â”€ .env.example          # Environment variables example
+â”œâ”€â”€ package.json
+â”œâ”€â”€ tsconfig.json
+â”œâ”€â”€ vite.config.ts
+â””â”€â”€ README.md
 ```
 
 ## Development Guidelines

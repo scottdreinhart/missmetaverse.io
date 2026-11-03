@@ -1,9 +1,11 @@
+﻿---
+slug: microservices
+---
+
 # Microservices
 
 > **Purpose:** Architectural style decomposing systems into small services.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-microservices`
@@ -50,8 +52,6 @@ declared
 - api-circuit-breaker
 - api-eventual-consistency
 - ddd-bounded-context
-
----
 
 ## Definition
 
@@ -118,11 +118,11 @@ Microservices do not apply to:
 
 ## Related Concepts
 
-- [[Architecture/domain-driven-design]] — Domain-Driven Design
-- [[APIs Distributed Systems/api-gateway]] — API Gateway
-- [[APIs Distributed Systems/circuit-breaker]] — Circuit Breaker
-- [[APIs Distributed Systems/eventual-consistency]] — Eventual Consistency
-- [[DDD/bounded-context]] — Bounded Context
+- [[Architecture/domain-driven-design]] â€” Domain-Driven Design
+- [[APIs Distributed Systems/api-gateway]] â€” API Gateway
+- [[APIs Distributed Systems/circuit-breaker]] â€” Circuit Breaker
+- [[APIs Distributed Systems/eventual-consistency]] â€” Eventual Consistency
+- [[DDD/bounded-context]] â€” Bounded Context
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project is a frontend application, which may use microservices patterns thro
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
 
 **End of Microservices Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: explicit-over-implicit
+---
+
 # Explicit over Implicit
 
 > **Purpose:** Make behavior and dependencies obvious.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-explicit-over-implicit`
@@ -51,8 +53,6 @@ declared
 - arch-yagni
 - arch-kiss
 - arch-solid-principles
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Explicit does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/fail-fast]] — Fail Fast
-- [[Architecture/design-by-contract]] — Design by Contract
-- [[Architecture/yagni]] — YAGNI
-- [[Architecture/kiss]] — KISS
+- [[Architecture/fail-fast]] â€” Fail Fast
+- [[Architecture/design-by-contract]] â€” Design by Contract
+- [[Architecture/yagni]] â€” YAGNI
+- [[Architecture/kiss]] â€” KISS
 
 ## Project Observations
 
@@ -132,9 +132,7 @@ The project follows explicit over implicit through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Explicit over Implicit Note**

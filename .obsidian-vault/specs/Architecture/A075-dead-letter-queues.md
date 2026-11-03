@@ -1,29 +1,22 @@
----
+﻿---
 slug: dead-letter-queues
 sources:
   - https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/dead-letter-queue
 date: 2026-11-02
 tags:
-
-
-
-
-
-
   - dlq
   - messaging
   - distributed-systems
   - patterns
----
-
+  - --
 # Dead-Letter Queues
 
 ## Definition
 
 Dead-Letter Queues (DLQs) are **queues where messages that can't be processed are sent for later inspection and handling**.
 
-> "A dead-letter channel captures messages that cannot be processed or routed to their intended destination." — Enterprise Integration Patterns
+> "A dead-letter channel captures messages that cannot be processed or routed to their intended destination." â€” Enterprise Integration Patterns
 
 ## Problem Addressed
 
@@ -35,8 +28,8 @@ Without DLQs:
 
 ## Scope and Boundaries
 
-- DLQ ≠ Retry (DLQ is for messages that can't be processed, retry tries again)
-- DLQ ≠ Error handling (DLQ is a storage mechanism, error handling is a process)
+- DLQ â‰  Retry (DLQ is for messages that can't be processed, retry tries again)
+- DLQ â‰  Error handling (DLQ is a storage mechanism, error handling is a process)
 - DLQ is a **messaging pattern**, not a general error handling pattern
 
 ## When to Apply
@@ -50,21 +43,21 @@ Without DLQs:
 
 | Cost | Description |
 |------|-------------|
-| **Storage** — DLQs use storage |
-| **Monitoring** — DLQs need monitoring |
-| **Complexity** — DLQ handling adds complexity |
+| **Storage** â€” DLQs use storage |
+| **Monitoring** â€” DLQs need monitoring |
+| **Complexity** â€” DLQ handling adds complexity |
 
 ## Common Misuses
 
 - **Every queue**: Not every queue needs a DLQ
 - **Ignoring DLQs**: DLQs need monitoring and handling
-- **Confusing with retry**: DLQ ≠ retry
+- **Confusing with retry**: DLQ â‰  retry
 
 ## Related Concepts
 
-- [Event-Driven Architecture](Architecture/event-driven-architecture.md) — DLQs in EDA
-- [Transaction Outbox](Architecture/transactional-outbox.md) — Reliable event publishing
-- [Observability](Architecture/quality-delivery-maintainability.md) — DLQs need monitoring
+- [Event-Driven Architecture](Architecture/event-driven-architecture.md) â€” DLQs in EDA
+- [Transaction Outbox](Architecture/transactional-outbox.md) â€” Reliable event publishing
+- [Observability](Architecture/quality-delivery-maintainability.md) â€” DLQs need monitoring
 
 ## Project Observations
 

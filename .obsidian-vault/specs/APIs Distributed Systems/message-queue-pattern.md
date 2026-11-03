@@ -1,9 +1,11 @@
+﻿---
+slug: message-queue-pattern
+---
+
 # Message Queue Pattern
 
 > **Purpose:** Decouple services with Message Queues.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `message-queue-pattern`
@@ -50,8 +52,6 @@ declared
 - pub-sub-pattern
 - event-driven-architecture
 - saga-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Message Queue does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/message-queue-pattern]] — Message Queue Pattern
-- [[APIs Distributed Systems/pub-sub-pattern]] — Pub-Sub Pattern
-- [[APIs Distributed Systems/event-driven-architecture]] — Event-Driven Architecture
-- [[APIs Distributed Systems/saga-pattern]] — Saga Pattern
+- [[APIs Distributed Systems/message-queue-pattern]] â€” Message Queue Pattern
+- [[APIs Distributed Systems/pub-sub-pattern]] â€” Pub-Sub Pattern
+- [[APIs Distributed Systems/event-driven-architecture]] â€” Event-Driven Architecture
+- [[APIs Distributed Systems/saga-pattern]] â€” Saga Pattern
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Message Queue Pattern through:
 
 ## Sources
 
-- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns — Hohpe & Woolf]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns â€” Hohpe & Woolf]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Message Queue Pattern Note**

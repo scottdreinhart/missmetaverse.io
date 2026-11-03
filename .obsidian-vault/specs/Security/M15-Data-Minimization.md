@@ -1,35 +1,23 @@
----
+﻿---
 slug: data-minimization
 sources:
   - https://owasp.org/
   - https://gdpr.eu/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
   - data-minimization
   - security
   - privacy
   - gdpr
----
-
+  - --
 # Data Minimization
 
 ## Definition
 
 Data Minimization is **a privacy principle that only collect, process, and retain the minimum amount of personal data necessary for the stated purpose**.
 
-> "Data minimization means that personal data shall be adequate, relevant, and limited to what is necessary for the purposes for which they are processed." — GDPR
+> "Data minimization means that personal data shall be adequate, relevant, and limited to what is necessary for the purposes for which they are processed." â€” GDPR
 
 ## Problem Addressed
 
@@ -41,7 +29,7 @@ Without data minimization:
 
 ## Scope and Boundaries
 
-- Data Minimization ≠ Retention Policies (data minimization limits collection, retention policies limit how long data is kept)
+- Data Minimization â‰  Retention Policies (data minimization limits collection, retention policies limit how long data is kept)
 - Data Minimization = Privacy (data minimization protects privacy)
 - Data Minimization is a **privacy principle**, not a pattern
 
@@ -68,9 +56,9 @@ Without data minimization:
 
 ## Related Concepts
 
-- [Retention Policies](Data Databases/retention-policies.md) — Retention policies complement data minimization
-- [Data Encryption](Security/data-encryption.md) — Data encryption protects data
-- [Secrets Management](Security/secrets-management.md) — Secrets management protects sensitive data
+- [Retention Policies](Data Databases/retention-policies.md) â€” Retention policies complement data minimization
+- [Data Encryption](Security/data-encryption.md) â€” Data encryption protects data
+- [Secrets Management](Security/secrets-management.md) â€” Secrets management protects sensitive data
 
 ## Project Observations
 
@@ -80,8 +68,8 @@ Without data minimization:
   - The project's architecture patterns note covers security concepts
   - No evidence of data minimization in existing code (src/ is empty)
 - File naming conventions support data minimization:
-  - `*.schema.ts` — Schema files
-  - `*.types.ts` — Type files
+  - `*.schema.ts` â€” Schema files
+  - `*.types.ts` â€” Type files
 
 ## Sources
 
@@ -277,7 +265,7 @@ export class UserDataController {
     this.retentionService = new DataRetentionService()
   }
 
-  // DELETE /api/users/me/data — User can delete their data
+  // DELETE /api/users/me/data â€” User can delete their data
   async deleteUserData(req: Request, res: Response): Promise<void> {
     try {
       const userId = req.user.id
@@ -295,7 +283,7 @@ export class UserDataController {
     }
   }
 
-  // GET /api/users/me/data — User can see what data is collected
+  // GET /api/users/me/data â€” User can see what data is collected
   async getUserData(req: Request, res: Response): Promise<void> {
     try {
       const userId = req.user.id
@@ -391,11 +379,11 @@ describe('Data Minimization', () => {
 5. **User rights**: Provide APIs for data access and deletion
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `zod` — for schema validation
-- **npm Package**: `express` — for API controllers
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm audit` — check for vulnerabilities
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `zod` â€” for schema validation
+- **npm Package**: `express` â€” for API controllers
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm audit` â€” check for vulnerabilities
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when adding new data collection

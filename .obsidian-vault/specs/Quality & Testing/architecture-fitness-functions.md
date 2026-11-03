@@ -1,9 +1,11 @@
+﻿---
+slug: architecture-fitness-functions
+---
+
 # Architecture Fitness Functions
 
 > **Purpose:** Automatically verify architectural properties.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-architecture-fitness`
@@ -51,8 +53,6 @@ declared
 - testing-observability
 - arch-quality-gate
 - testing-incremental-refactoring
-
----
 
 ## Definition
 
@@ -119,9 +119,9 @@ Fitness functions do not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/continuous-integration]] — Continuous Integration
-- [[Quality & Testing/observability]] — Observability
-- [[Quality & Testing/incremental-refactoring]] — Incremental Refactoring
+- [[Quality & Testing/continuous-integration]] â€” Continuous Integration
+- [[Quality & Testing/observability]] â€” Observability
+- [[Quality & Testing/incremental-refactoring]] â€” Incremental Refactoring
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows architecture fitness functions through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Architecture Fitness Functions Note**

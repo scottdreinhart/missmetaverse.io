@@ -1,32 +1,22 @@
----
+﻿---
 slug: immutability-coding
 sources:
   - https://www.typescriptlang.org/
   - https://react.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - immutability
   - typescript
   - type-system
   - patterns
----
-
+  - --
 # Immutability
 
 ## Definition
 
 Immutability is **a programming principle where data cannot be modified after creation, preventing unexpected side effects**.
 
-> "Immutability means that data cannot be modified after creation. In TypeScript, this is enforced through `readonly` and `as const`." — TypeScript Docs
+> "Immutability means that data cannot be modified after creation. In TypeScript, this is enforced through `readonly` and `as const`." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without immutability:
 
 ## Scope and Boundaries
 
-- Immutability ≠ Pure Functions (immutability prevents mutation, pure functions have no side effects)
+- Immutability â‰  Pure Functions (immutability prevents mutation, pure functions have no side effects)
 - Immutability = Safety (immutability prevents unexpected mutations)
 - Immutability is a **programming principle**, not a pattern
 
@@ -53,8 +43,8 @@ Without immutability:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Immutability adds boilerplate |
-| **Time** — Writing immutable code takes time |
+| **Complexity** â€” Immutability adds boilerplate |
+| **Time** â€” Writing immutable code takes time |
 | **Performance**: Creating new objects can be expensive |
 
 ## Common Misuses
@@ -65,9 +55,9 @@ Without immutability:
 
 ## Related Concepts
 
-- [Pure Functions](Architecture/pure-functions.md) — Pure functions benefit from immutability
-- [Discriminated Unions](Architecture/discriminated-unions.md) — Discriminated unions are immutable
-- [Make Invalid States Unrepresentable](Architecture/make-invalid-states-unrepresentable.md) — Immutability supports making invalid states unrepresentable
+- [Pure Functions](Architecture/pure-functions.md) â€” Pure functions benefit from immutability
+- [Discriminated Unions](Architecture/discriminated-unions.md) â€” Discriminated unions are immutable
+- [Make Invalid States Unrepresentable](Architecture/make-invalid-states-unrepresentable.md) â€” Immutability supports making invalid states unrepresentable
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without immutability:
   - The project's architecture patterns note covers TypeScript concepts
   - No evidence of immutability in existing code (src/ is empty)
 - File naming conventions support immutability:
-  - `*.types.ts` — Type files
-  - `*.data.ts` — Data files
+  - `*.types.ts` â€” Type files
+  - `*.data.ts` â€” Data files
 
 ## Sources
 

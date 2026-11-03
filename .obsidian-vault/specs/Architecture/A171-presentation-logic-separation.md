@@ -1,32 +1,22 @@
----
+﻿---
 slug: presentation-logic-separation
 sources:
   - https://react.dev/
   - https://martinfowler.com/bliki/PresentationModel.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - presentation-logic
   - frontend
   - react
   - separation-of-concerns
----
-
+  - --
 # Presentation-Logic Separation
 
 ## Definition
 
 Presentation-Logic Separation is **a frontend architecture principle that separates the presentation layer (UI) from the business logic layer**.
 
-> "Presentation-logic separation ensures that the UI layer is independent of business logic, enabling testing and maintenance." — React Docs
+> "Presentation-logic separation ensures that the UI layer is independent of business logic, enabling testing and maintenance." â€” React Docs
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without presentation-logic separation:
 
 ## Scope and Boundaries
 
-- Presentation-Logic Separation ≠ MVC (presentation-logic separation is a principle, MVC is a pattern)
+- Presentation-Logic Separation â‰  MVC (presentation-logic separation is a principle, MVC is a pattern)
 - Presentation-Logic Separation = Separation (presentation-logic separation separates concerns)
 - Presentation-Logic Separation is a **principle**, not a pattern
 
@@ -53,8 +43,8 @@ Without presentation-logic separation:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Separation adds abstraction |
-| **Time** — Implementing separation takes time |
+| **Complexity** â€” Separation adds abstraction |
+| **Time** â€” Implementing separation takes time |
 | **Over-separation**: Not every component needs separation |
 
 ## Common Misuses
@@ -65,9 +55,9 @@ Without presentation-logic separation:
 
 ## Related Concepts
 
-- [Presentational/Container Pattern](Architecture/presentational-container-pattern.md) — Presentational/container pattern implements presentation-logic separation
-- [Custom Hooks](Architecture/custom-hooks-composables.md) — Custom hooks separate logic from presentation
-- [Component Composition](Architecture/component-composition.md) — Component composition supports separation
+- [Presentational/Container Pattern](Architecture/presentational-container-pattern.md) â€” Presentational/container pattern implements presentation-logic separation
+- [Custom Hooks](Architecture/custom-hooks-composables.md) â€” Custom hooks separate logic from presentation
+- [Component Composition](Architecture/component-composition.md) â€” Component composition supports separation
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without presentation-logic separation:
   - The project's architecture patterns note covers frontend architecture
   - No evidence of presentation-logic separation in existing code (src/ is empty)
 - File naming conventions support presentation-logic separation:
-  - `*.view.tsx` — View files
-  - `*.logic.ts` — Logic files
+  - `*.view.tsx` â€” View files
+  - `*.logic.ts` â€” Logic files
 
 ## Sources
 

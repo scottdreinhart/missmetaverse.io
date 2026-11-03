@@ -1,9 +1,11 @@
+﻿---
+slug: logic-file-convention
+---
+
 # Logic File Convention
 
 > **Purpose:** Separate business logic from presentation.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-logic-file`
@@ -51,11 +53,9 @@ declared
 - project-schema-file
 - arch-presentation-logic-separation
 
----
-
 ## Definition
 
-The *.logic.ts file convention designates files that contain business logic — the domain logic that operates on data and implements business rules.
+The *.logic.ts file convention designates files that contain business logic â€” the domain logic that operates on data and implements business rules.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Logic files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
-- [[Project File Conventions/hook-file-convention]] — *.hook.ts File Convention
-- [[Architecture/presentation-logic-separation]] — Presentation-Logic Separation
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
+- [[Project File Conventions/hook-file-convention]] â€” *.hook.ts File Convention
+- [[Architecture/presentation-logic-separation]] â€” Presentation-Logic Separation
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows logic file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Logic File Convention Note**

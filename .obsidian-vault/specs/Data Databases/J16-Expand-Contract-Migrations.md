@@ -1,33 +1,23 @@
----
+﻿---
 slug: expand-contract
 sources:
   - https://martinfowler.com/articles/evodb.html
   - https://www.postgresql.org/docs/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
   - database
   - migrations
   - schema
   - zero-downtime
----
-
+  - --
 # Expand-Contract Migrations
 
 ## Definition
 
 Expand-Contract Migrations are **a two-phase migration strategy: first expand (add new functionality without removing old), then contract (remove old functionality)**.
 
-> "The expand/contract pattern is a way to evolve a database schema without downtime." — Martin Fowler
+> "The expand/contract pattern is a way to evolve a database schema without downtime." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -39,7 +29,7 @@ Without expand-contract:
 
 ## Scope and Boundaries
 
-- Expand-Contract ≠ Direct Migration (expand-contract is two-phase, direct migration is one-phase)
+- Expand-Contract â‰  Direct Migration (expand-contract is two-phase, direct migration is one-phase)
 - Expand-Contract = Zero Downtime (expand-contract enables zero downtime)
 - Expand-Contract is a **migration strategy**, not a pattern
 
@@ -54,9 +44,9 @@ Without expand-contract:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — Two-phase migrations take longer |
-| **Complexity** — More complex migration process |
-| **Storage** — Temporary redundancy during expand phase |
+| **Time** â€” Two-phase migrations take longer |
+| **Complexity** â€” More complex migration process |
+| **Storage** â€” Temporary redundancy during expand phase |
 
 ## Common Misuses
 
@@ -66,9 +56,9 @@ Without expand-contract:
 
 ## Related Concepts
 
-- [Schema Migrations](Data Databases/schema-migrations.md) — Schema migrations use expand-contract
-- [Database Design](Data Databases/database-design.md) — Database design includes migration strategies
-- [CI/CD](DevOps/ci-cd.md) — CI/CD pipelines run expand-contract migrations
+- [Schema Migrations](Data Databases/schema-migrations.md) â€” Schema migrations use expand-contract
+- [Database Design](Data Databases/database-design.md) â€” Database design includes migration strategies
+- [CI/CD](DevOps/ci-cd.md) â€” CI/CD pipelines run expand-contract migrations
 
 ## Project Observations
 
@@ -78,8 +68,8 @@ Without expand-contract:
   - The project's architecture patterns note covers database concepts
   - No evidence of expand-contract migrations in existing code (src/ is empty)
 - File naming conventions support expand-contract migrations:
-  - `*.migration.ts` — Migration files
-  - `*.schema.ts` — Schema files
+  - `*.migration.ts` â€” Migration files
+  - `*.schema.ts` â€” Schema files
 
 ## Sources
 

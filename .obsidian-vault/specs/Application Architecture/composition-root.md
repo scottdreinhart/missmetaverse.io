@@ -1,9 +1,11 @@
+﻿---
+slug: composition-root
+---
+
 # Composition Root
 
 > **Purpose:** Configure apps with Composition Root.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `composition-root`
@@ -50,8 +52,6 @@ declared
 - dependency-injection-container
 - di-container
 - ioc-container
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Composition Root does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/composition-root]] — Composition Root
-- [[Application Architecture/dependency-injection-container]] — Dependency Injection Container
-- [[Application Architecture/di-container]] — DI Container
-- [[Application Architecture/ioc-container]] — IoC Container
+- [[Application Architecture/composition-root]] â€” Composition Root
+- [[Application Architecture/dependency-injection-container]] â€” Dependency Injection Container
+- [[Application Architecture/di-container]] â€” DI Container
+- [[Application Architecture/ioc-container]] â€” IoC Container
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Composition Root through:
 ## Sources
 
 - [[Sources/seemann-dd|Dependency Injection by Mark Seemann]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Composition Root Note**

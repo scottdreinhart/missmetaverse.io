@@ -1,9 +1,11 @@
+﻿---
+slug: api-design
+---
+
 # API Design
 
 > **Purpose:** Design APIs with API Design.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `api-design`
@@ -50,8 +52,6 @@ declared
 - rest-api-design
 - graphql-api-design
 - api-best-practices
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ API Design does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/api-design]] — API Design
-- [[APIs Distributed Systems/rest-api-design]] — REST API Design
-- [[APIs Distributed Systems/graphql-api-design]] — GraphQL API Design
-- [[APIs Distributed Systems/api-best-practices]] — API Best Practices
+- [[APIs Distributed Systems/api-design]] â€” API Design
+- [[APIs Distributed Systems/rest-api-design]] â€” REST API Design
+- [[APIs Distributed Systems/graphql-api-design]] â€” GraphQL API Design
+- [[APIs Distributed Systems/api-best-practices]] â€” API Best Practices
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses API Design through:
 ## Sources
 
 - [[Sources/api-design-guide|API Design Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of API Design Note**

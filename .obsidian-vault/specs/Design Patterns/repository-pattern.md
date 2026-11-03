@@ -1,9 +1,11 @@
+﻿---
+slug: repository-pattern
+---
+
 # Repository Pattern
 
 > **Purpose:** Abstract data access with Repository Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `repository-pattern`
@@ -50,8 +52,6 @@ declared
 - unit-of-work
 - specification-pattern
 - collection-abstraction
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Repository does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/data-access-object]] — Data Access Object
-- [[Design Patterns/unit-of-work]] — Unit of Work
-- [[Design Patterns/specification-pattern]] — Specification Pattern
-- [[Design Patterns/collection-abstraction]] — Collection Abstraction
+- [[Design Patterns/data-access-object]] â€” Data Access Object
+- [[Design Patterns/unit-of-work]] â€” Unit of Work
+- [[Design Patterns/specification-pattern]] â€” Specification Pattern
+- [[Design Patterns/collection-abstraction]] â€” Collection Abstraction
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Repository Pattern through:
 
 ## Sources
 
-- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns — Hohpe & Woolf]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns â€” Hohpe & Woolf]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Repository Pattern Note**

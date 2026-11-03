@@ -1,9 +1,11 @@
+﻿---
+slug: zustand-state-management
+---
+
 # Zustand State Management
 
 > **Purpose:** Manage state with Zustand.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `zustand-state-management`
@@ -50,8 +52,6 @@ declared
 - zustand-store
 - zustand-configuration
 - zustand-simple-state
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Zustand does not apply to:
 
 ## Related Concepts
 
-- [[Zustand/zustand-state-management]] — Zustand State Management
-- [[Zustand/zustand-store]] — Zustand Store
-- [[Zustand/zustand-configuration]] — Zustand Configuration
-- [[Zustand/zustand-simple-state]] — Zustand Simple State
+- [[Zustand/zustand-state-management]] â€” Zustand State Management
+- [[Zustand/zustand-store]] â€” Zustand Store
+- [[Zustand/zustand-configuration]] â€” Zustand Configuration
+- [[Zustand/zustand-simple-state]] â€” Zustand Simple State
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Zustand through:
 ## Sources
 
 - [[Sources/zustand-documentation|Zustand Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Zustand State Management Note**

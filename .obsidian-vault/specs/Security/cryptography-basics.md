@@ -1,9 +1,11 @@
+﻿---
+slug: cryptography-basics
+---
+
 # Cryptography Basics
 
 > **Purpose:** Understand cryptography with Cryptography Basics.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `cryptography-basics`
@@ -50,8 +52,6 @@ declared
 - encryption
 - hashing
 - symmetric-asymmetric
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Cryptography Basics does not apply to:
 
 ## Related Concepts
 
-- [[Security/cryptography-basics]] — Cryptography Basics
-- [[Security/encryption]] — Encryption
-- [[Security/hashing]] — Hashing
-- [[Security/symmetric-asymmetric]] — Symmetric/Asymmetric
+- [[Security/cryptography-basics]] â€” Cryptography Basics
+- [[Security/encryption]] â€” Encryption
+- [[Security/hashing]] â€” Hashing
+- [[Security/symmetric-asymmetric]] â€” Symmetric/Asymmetric
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Cryptography Basics through:
 ## Sources
 
 - [[Sources/cryptography-guide|Cryptography Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Cryptography Basics Note**

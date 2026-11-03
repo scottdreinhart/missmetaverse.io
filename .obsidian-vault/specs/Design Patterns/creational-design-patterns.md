@@ -1,3 +1,7 @@
+---
+slug: creational-design-patterns
+---
+
 # Creational Design Patterns
 
 > **Purpose:** Abstract object instantiation with Creational Patterns.

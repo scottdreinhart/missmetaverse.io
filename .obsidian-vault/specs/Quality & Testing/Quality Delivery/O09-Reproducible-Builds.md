@@ -1,35 +1,22 @@
----
+﻿---
 slug: reproducible-builds
 sources:
   - https://reproducible-builds.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - reproducible-builds
   - devops
   - builds
   - quality
----
-
+  - --
 # Reproducible Builds
 
 ## Definition
 
 Reproducible Builds is **a software development practice where the same source code always produces the same binary output, enabling verification and audit**.
 
-> "Reproducible builds are a set of practices that ensure the same source code always produces the same binary output." — Reproducible Builds
+> "Reproducible builds are a set of practices that ensure the same source code always produces the same binary output." â€” Reproducible Builds
 
 ## Problem Addressed
 
@@ -41,7 +28,7 @@ Without reproducible builds:
 
 ## Scope and Boundaries
 
-- Reproducible Builds ≠ CI/CD (reproducible builds is a practice, CI/CD is a pipeline)
+- Reproducible Builds â‰  CI/CD (reproducible builds is a practice, CI/CD is a pipeline)
 - Reproducible Builds = Verification (reproducible builds enable verification)
 - Reproducible Builds is a **practice**, not a pattern
 
@@ -56,9 +43,9 @@ Without reproducible builds:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Reproducible builds add build complexity |
-| **Time** — Making builds reproducible takes time |
-| **Rigidity** — Some tools don't support reproducible builds |
+| **Complexity** â€” Reproducible builds add build complexity |
+| **Time** â€” Making builds reproducible takes time |
+| **Rigidity** â€” Some tools don't support reproducible builds |
 
 ## Common Misuses
 
@@ -68,9 +55,9 @@ Without reproducible builds:
 
 ## Related Concepts
 
-- [CI/CD](DevOps/ci-cd.md) — CI/CD pipelines can enforce reproducible builds
-- [Deployment](DevOps/deployment.md) — Deployment benefits from reproducible builds
-- [Security Principles](Security/security-principles.md) — Security principles support reproducible builds
+- [CI/CD](DevOps/ci-cd.md) â€” CI/CD pipelines can enforce reproducible builds
+- [Deployment](DevOps/deployment.md) â€” Deployment benefits from reproducible builds
+- [Security Principles](Security/security-principles.md) â€” Security principles support reproducible builds
 
 ## Project Observations
 
@@ -80,8 +67,8 @@ Without reproducible builds:
   - The project's architecture patterns note covers devops concepts
   - No evidence of reproducible builds in existing code (src/ is empty)
 - File naming conventions support reproducible builds:
-  - `*.config.ts` — Config files
-  - `*.build.ts` — Build files
+  - `*.config.ts` â€” Config files
+  - `*.build.ts` â€” Build files
 
 ## Sources
 

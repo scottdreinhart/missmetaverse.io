@@ -1,31 +1,22 @@
----
+﻿---
 slug: small-cohesive-modules
 sources:
   - https://www.typescriptlang.org/
   - https://eslint.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - small-cohesive-modules
   - typescript
   - type-system
   - patterns
----
-
+  - --
 # Small Cohesive Modules
 
 ## Definition
 
 Small Cohesive Modules is **a TypeScript pattern for organizing code into small, focused modules with high cohesion and low coupling**.
 
-> "Small cohesive modules are modules that are small, focused, and have high cohesion with low coupling to other modules." — TypeScript Docs
+> "Small cohesive modules are modules that are small, focused, and have high cohesion with low coupling to other modules." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without small cohesive modules:
 
 ## Scope and Boundaries
 
-- Small Cohesive Modules ≠ Separation of Concerns (small cohesive modules is a TypeScript pattern, separation of concerns is a principle)
+- Small Cohesive Modules â‰  Separation of Concerns (small cohesive modules is a TypeScript pattern, separation of concerns is a principle)
 - Small Cohesive Modules = Organization (small cohesive modules organize code)
 - Small Cohesive Modules is a **TypeScript pattern**, not a design pattern
 
@@ -52,8 +43,8 @@ Without small cohesive modules:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Small modules add file count |
-| **Time** — Organizing code into small modules takes time |
+| **Complexity** â€” Small modules add file count |
+| **Time** â€” Organizing code into small modules takes time |
 | **Over-modularization**: Not every piece of code needs its own module |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without small cohesive modules:
 
 ## Related Concepts
 
-- [Separation of Concerns](Architecture/separation-of-concerns.md) — Separation of concerns supports small cohesive modules
-- [High Cohesion](Architecture/high-cohesion.md) — High cohesion is a principle behind small cohesive modules
-- [Low Coupling](Architecture/low-coupling.md) — Low coupling is a principle behind small cohesive modules
+- [Separation of Concerns](Architecture/separation-of-concerns.md) â€” Separation of concerns supports small cohesive modules
+- [High Cohesion](Architecture/high-cohesion.md) â€” High cohesion is a principle behind small cohesive modules
+- [Low Coupling](Architecture/low-coupling.md) â€” Low coupling is a principle behind small cohesive modules
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without small cohesive modules:
   - The project's architecture patterns note covers TypeScript concepts
   - No evidence of small cohesive modules in existing code (src/ is empty)
 - File naming conventions support small cohesive modules:
-  - `*.module.ts` — Module files
-  - `*.component.ts` — Component files
+  - `*.module.ts` â€” Module files
+  - `*.component.ts` â€” Component files
 
 ## Sources
 

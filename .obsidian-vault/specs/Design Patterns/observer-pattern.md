@@ -1,9 +1,11 @@
+﻿---
+slug: observer-pattern
+---
+
 # Observer Pattern
 
 > **Purpose:** Manage dependencies with Observer Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `observer-pattern`
@@ -50,8 +52,6 @@ declared
 - event-emitter
 - pub-sub-pattern
 - reactive-programming
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Observer does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/observer-pattern]] — Observer Pattern
-- [[Design Patterns/event-emitter]] — Event Emitter
-- [[Design Patterns/pub-sub-pattern]] — Pub-Sub Pattern
-- [[Design Patterns/reactive-programming]] — Reactive Programming
+- [[Design Patterns/observer-pattern]] â€” Observer Pattern
+- [[Design Patterns/event-emitter]] â€” Event Emitter
+- [[Design Patterns/pub-sub-pattern]] â€” Pub-Sub Pattern
+- [[Design Patterns/reactive-programming]] â€” Reactive Programming
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Observer Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Observer Pattern Note**

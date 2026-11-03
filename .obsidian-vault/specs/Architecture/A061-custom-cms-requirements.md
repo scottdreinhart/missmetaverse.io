@@ -1,29 +1,19 @@
-# Custom CMS — Requirements Specification
+﻿---
+slug: A061-custom-cms-requirements
+---
+
+# Custom CMS â€” Requirements Specification
 
 > **Date:** 2026-11-02
-> **Scope:** Build a content management system from scratch — no off-the-shelf packages
+> **Scope:** Build a content management system from scratch â€” no off-the-shelf packages
 > **Tech Stack:** React 19 + Vite + TypeScript + Tailwind CSS + pnpm
 > **Architecture:** Clean Architecture + DDD + CQRS + Event-Driven
 
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 1. Executive Summary
 
 This document defines the requirements for building a **custom content management system (CMS)** from the ground up. No WordPress, Drupal, Joomla, or similar off-the-shelf solutions. This is a greenfield project that will be architected using **Clean Architecture**, **Domain-Driven Design**, **CQRS**, and **Event-Driven Architecture** patterns.
@@ -55,22 +45,8 @@ This document defines the requirements for building a **custom content managemen
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 2. Architectural Style
 
 ### Recommended: Modular Monolith with CQRS
@@ -147,22 +123,8 @@ graph TB
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 3. Core Domain Model (DDD)
 
 ### Bounded Contexts
@@ -392,22 +354,8 @@ export class Workflow {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 4. Functional Requirements
 
 ### 4.1 Content Management
@@ -518,22 +466,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 5. Non-Functional Requirements
 
 ### 5.1 Performance
@@ -634,22 +568,8 @@ graph TB
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 6. Technical Architecture
 
 ### 6.1 Clean Architecture Layers
@@ -855,22 +775,8 @@ CREATE TABLE content_cache (
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 7. API Design
 
 ### 7.1 REST API Endpoints
@@ -974,74 +880,60 @@ interface SearchResponse {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 8. Frontend Architecture (React 19)
 
 ### 8.1 Admin Dashboard Structure
 
 ```
 src/
-├── components/
-│   ├── ui/                    # shadcn/ui components
-│   ├── layout/                # Layout components
-│   │   ├── Sidebar.tsx
-│   │   ├── Header.tsx
-│   │   └── MainLayout.tsx
-│   ├── content/               # Content management
-│   │   ├── ArticleEditor.tsx
-│   │   ├── MediaLibrary.tsx
-│   │   ├── VersionHistory.tsx
-│   │   └── WorkflowSteps.tsx
-│   ├── users/                 # User management
-│   │   ├── UserList.tsx
-│   │   ├── UserForm.tsx
-│   │   └── RoleManager.tsx
-│   └── common/                # Shared components
-│       ├── DataTable.tsx
-│       ├── SearchInput.tsx
-│       └── FileUpload.tsx
-├── hooks/
-│   ├── useAuth.ts             # Authentication
-│   ├── useContent.ts          # Content operations
-│   ├── useMedia.ts            # Media operations
-│   ├── useSearch.ts           # Search
-│   └── useWorkflow.ts         # Workflow
-├── services/
-│   ├── api.ts                 # API client
-│   ├── auth.ts                # Auth service
-│   ├── content.ts             # Content service
-│   └── media.ts               # Media service
-├── types/
-│   ├── content.ts             # Content types
-│   ├── user.ts                # User types
-│   └── api.ts                 # API types
-├── utils/
-│   ├── validators.ts          # Zod schemas
-│   ├── formatters.ts          # Date, currency, etc.
-│   └── constants.ts           # App constants
-└── pages/
-    ├── Dashboard.tsx
-    ├── Articles.tsx
-    ├── ArticleEdit.tsx
-    ├── Media.tsx
-    ├── Users.tsx
-    ├── Settings.tsx
-    └── Login.tsx
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ ui/                    # shadcn/ui components
+â”‚   â”œâ”€â”€ layout/                # Layout components
+â”‚   â”‚   â”œâ”€â”€ Sidebar.tsx
+â”‚   â”‚   â”œâ”€â”€ Header.tsx
+â”‚   â”‚   â””â”€â”€ MainLayout.tsx
+â”‚   â”œâ”€â”€ content/               # Content management
+â”‚   â”‚   â”œâ”€â”€ ArticleEditor.tsx
+â”‚   â”‚   â”œâ”€â”€ MediaLibrary.tsx
+â”‚   â”‚   â”œâ”€â”€ VersionHistory.tsx
+â”‚   â”‚   â””â”€â”€ WorkflowSteps.tsx
+â”‚   â”œâ”€â”€ users/                 # User management
+â”‚   â”‚   â”œâ”€â”€ UserList.tsx
+â”‚   â”‚   â”œâ”€â”€ UserForm.tsx
+â”‚   â”‚   â””â”€â”€ RoleManager.tsx
+â”‚   â””â”€â”€ common/                # Shared components
+â”‚       â”œâ”€â”€ DataTable.tsx
+â”‚       â”œâ”€â”€ SearchInput.tsx
+â”‚       â””â”€â”€ FileUpload.tsx
+â”œâ”€â”€ hooks/
+â”‚   â”œâ”€â”€ useAuth.ts             # Authentication
+â”‚   â”œâ”€â”€ useContent.ts          # Content operations
+â”‚   â”œâ”€â”€ useMedia.ts            # Media operations
+â”‚   â”œâ”€â”€ useSearch.ts           # Search
+â”‚   â””â”€â”€ useWorkflow.ts         # Workflow
+â”œâ”€â”€ services/
+â”‚   â”œâ”€â”€ api.ts                 # API client
+â”‚   â”œâ”€â”€ auth.ts                # Auth service
+â”‚   â”œâ”€â”€ content.ts             # Content service
+â”‚   â””â”€â”€ media.ts               # Media service
+â”œâ”€â”€ types/
+â”‚   â”œâ”€â”€ content.ts             # Content types
+â”‚   â”œâ”€â”€ user.ts                # User types
+â”‚   â””â”€â”€ api.ts                 # API types
+â”œâ”€â”€ utils/
+â”‚   â”œâ”€â”€ validators.ts          # Zod schemas
+â”‚   â”œâ”€â”€ formatters.ts          # Date, currency, etc.
+â”‚   â””â”€â”€ constants.ts           # App constants
+â””â”€â”€ pages/
+    â”œâ”€â”€ Dashboard.tsx
+    â”œâ”€â”€ Articles.tsx
+    â”œâ”€â”€ ArticleEdit.tsx
+    â”œâ”€â”€ Media.tsx
+    â”œâ”€â”€ Users.tsx
+    â”œâ”€â”€ Settings.tsx
+    â””â”€â”€ Login.tsx
 ```
 
 ### 8.2 State Management
@@ -1080,22 +972,8 @@ function useCreateArticle() {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 9. Testing Strategy
 
 ### 9.1 Test Pyramid
@@ -1217,22 +1095,8 @@ describe('POST /api/v1/articles', () => {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 10. Deployment & DevOps
 
 ### 10.1 CI/CD Pipeline
@@ -1311,93 +1175,65 @@ graph TB
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 11. Project Structure
 
 ```
 cms/
-├── apps/
-│   ├── web/                    # React SPA (Vite)
-│   │   ├── src/
-│   │   ├── public/
-│   │   ├── vite.config.ts
-│   │   └── tsconfig.json
-│   └── admin/                  # Admin Dashboard (Vite)
-│       ├── src/
-│       ├── public/
-│       ├── vite.config.ts
-│       └── tsconfig.json
-├── packages/
-│   ├── domain/                 # Domain layer (shared)
-│   │   ├── src/
-│   │   │   ├── entities/
-│   │   │   ├── value-objects/
-│   │   │   ├── domain-events/
-│   │   │   ├── domain-services/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   ├── application/            # Application layer (shared)
-│   │   ├── src/
-│   │   │   ├── use-cases/
-│   │   │   ├── dtos/
-│   │   │   ├── ports/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   ├── infrastructure/         # Infrastructure layer (shared)
-│   │   ├── src/
-│   │   │   ├── database/
-│   │   │   ├── cache/
-│   │   │   ├── storage/
-│   │   │   ├── messaging/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   └── shared/                 # Shared utilities
-│       ├── src/
-│       │   ├── types/
-│       │   ├── utils/
-│       │   ├── validators/
-│       │   └── index.ts
-│       └── package.json
-├── docker-compose.yml
-├── pnpm-workspace.yaml
-├── tsconfig.json
-└── package.json
+â”œâ”€â”€ apps/
+â”‚   â”œâ”€â”€ web/                    # React SPA (Vite)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”œâ”€â”€ public/
+â”‚   â”‚   â”œâ”€â”€ vite.config.ts
+â”‚   â”‚   â””â”€â”€ tsconfig.json
+â”‚   â””â”€â”€ admin/                  # Admin Dashboard (Vite)
+â”‚       â”œâ”€â”€ src/
+â”‚       â”œâ”€â”€ public/
+â”‚       â”œâ”€â”€ vite.config.ts
+â”‚       â””â”€â”€ tsconfig.json
+â”œâ”€â”€ packages/
+â”‚   â”œâ”€â”€ domain/                 # Domain layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ entities/
+â”‚   â”‚   â”‚   â”œâ”€â”€ value-objects/
+â”‚   â”‚   â”‚   â”œâ”€â”€ domain-events/
+â”‚   â”‚   â”‚   â”œâ”€â”€ domain-services/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â”œâ”€â”€ application/            # Application layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ use-cases/
+â”‚   â”‚   â”‚   â”œâ”€â”€ dtos/
+â”‚   â”‚   â”‚   â”œâ”€â”€ ports/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â”œâ”€â”€ infrastructure/         # Infrastructure layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ database/
+â”‚   â”‚   â”‚   â”œâ”€â”€ cache/
+â”‚   â”‚   â”‚   â”œâ”€â”€ storage/
+â”‚   â”‚   â”‚   â”œâ”€â”€ messaging/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â””â”€â”€ shared/                 # Shared utilities
+â”‚       â”œâ”€â”€ src/
+â”‚       â”‚   â”œâ”€â”€ types/
+â”‚       â”‚   â”œâ”€â”€ utils/
+â”‚       â”‚   â”œâ”€â”€ validators/
+â”‚       â”‚   â””â”€â”€ index.ts
+â”‚       â””â”€â”€ package.json
+â”œâ”€â”€ docker-compose.yml
+â”œâ”€â”€ pnpm-workspace.yaml
+â”œâ”€â”€ tsconfig.json
+â””â”€â”€ package.json
 ```
 
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 12. Development Phases
 
 ### Phase 1: Foundation (Weeks 1-4)
@@ -1443,22 +1279,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 13. Risk Assessment
 
 | Risk | Impact | Likelihood | Mitigation |
@@ -1475,22 +1297,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 14. Success Criteria
 
 ### MVP (Minimum Viable Product)
@@ -1523,47 +1331,33 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 15. References & Sources
 
 ### Architectural Patterns
-- [[Sources/martin-clean-architecture-2017|Clean Architecture]] — Robert C. Martin
-- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] — Martin Fowler
-- [[Sources/evans-ddd-2003|Domain-Driven Design]] — Eric Evans
-- [[Sources/goF-1994|Design Patterns]] — GoF
+- [[Sources/martin-clean-architecture-2017|Clean Architecture]] â€” Robert C. Martin
+- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] â€” Martin Fowler
+- [[Sources/evans-ddd-2003|Domain-Driven Design]] â€” Eric Evans
+- [[Sources/goF-1994|Design Patterns]] â€” GoF
 
 ### Technical Documentation
-- [[Sources/react-docs-2026|React 19 Documentation]] — React Team
-- [[Sources/microsoft-typescript-handbook|TypeScript Handbook]] — Microsoft
-- [[Sources/tailwind-docs-2024|Tailwind CSS Documentation]] — Tailwind Labs
-- [[Sources/pnpm-docs-2024|pnpm Documentation]] — pnpm
-- [[Sources/vitest-docs-2024|Vitest Documentation]] — Vitest
-- [[Sources/playwright-docs-2024|Playwright Documentation]] — Microsoft
+- [[Sources/react-docs-2026|React 19 Documentation]] â€” React Team
+- [[Sources/microsoft-typescript-handbook|TypeScript Handbook]] â€” Microsoft
+- [[Sources/tailwind-docs-2024|Tailwind CSS Documentation]] â€” Tailwind Labs
+- [[Sources/pnpm-docs-2024|pnpm Documentation]] â€” pnpm
+- [[Sources/vitest-docs-2024|Vitest Documentation]] â€” Vitest
+- [[Sources/playwright-docs-2024|Playwright Documentation]] â€” Microsoft
 
 ### Security
-- [[Sources/owasp-top-ten-2021|OWASP Top 10]] — OWASP
-- [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] — NIST
+- [[Sources/owasp-top-ten-2021|OWASP Top 10]] â€” OWASP
+- [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] â€” NIST
 
 ### Architecture Patterns
-- [[Sources/martin-fowler-patterns|CQRS]] — Martin Fowler
-- [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] — Microsoft Azure
-- [[Sources/martin-fowler-patterns|Repository Pattern]] — Martin Fowler
-- [[Sources/martin-fowler-patterns|Service Layer Pattern]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|CQRS]] â€” Martin Fowler
+- [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] â€” Microsoft Azure
+- [[Sources/martin-fowler-patterns|Repository Pattern]] â€” Martin Fowler
+- [[Sources/martin-fowler-patterns|Service Layer Pattern]] â€” Martin Fowler
 
 
 ## See Also

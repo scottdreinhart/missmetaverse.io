@@ -1,9 +1,11 @@
+﻿---
+slug: liskov-substitution-principle
+---
+
 # Liskov Substitution Principle
 
 > **Purpose:** Subtypes must be substitutable for their base types.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-liskov-substitution`
@@ -51,8 +53,6 @@ declared
 - arch-composition-over-inheritance
 - arch-dependency-inversion
 - arch-interface-segregation
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ LSP does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/open-closed-principle]] — Open/Closed Principle
-- [[Architecture/composition-over-inheritance]] — Composition over Inheritance
-- [[Architecture/dependency-inversion-principle]] — Dependency Inversion Principle
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/open-closed-principle]] â€” Open/Closed Principle
+- [[Architecture/composition-over-inheritance]] â€” Composition over Inheritance
+- [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion Principle
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project uses TypeScript, which supports LSP through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Liskov Substitution Principle Note**

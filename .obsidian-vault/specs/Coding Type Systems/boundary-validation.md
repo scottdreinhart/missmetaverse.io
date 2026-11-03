@@ -1,9 +1,11 @@
+﻿---
+slug: boundary-validation
+---
+
 # Boundary Validation
 
 > **Purpose:** Validate data at system boundaries.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-boundary-validation`
@@ -51,8 +53,6 @@ declared
 - coding-explicit-error-modeling
 - arch-fail-fast
 - arch-design-by-contract
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ Boundary validation does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/parse-dont-validate]] — Parse, Don't Merely Validate
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
-- [[Architecture/fail-fast]] — Fail Fast
+- [[Coding Type Systems/parse-dont-validate]] â€” Parse, Don't Merely Validate
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Coding Type Systems/explicit-error-modeling]] â€” Explicit Error Modeling
+- [[Architecture/fail-fast]] â€” Fail Fast
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project uses Zod for boundary validation through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/zod-documentation|Zod — TypeScript-first schema validation]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/zod-documentation|Zod â€” TypeScript-first schema validation]]
 
 **End of Boundary Validation Note**

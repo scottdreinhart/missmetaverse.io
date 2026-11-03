@@ -1,9 +1,11 @@
+﻿---
+slug: context-map
+---
+
 # Context Map
 
 > **Purpose:** Document relationships between bounded contexts.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `ddd-context-map`
@@ -51,8 +53,6 @@ declared
 - ddd-anti-corruption-layer
 - arch-microservices
 - api-api-gateway
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ Context map does not apply to:
 
 ## Related Concepts
 
-- [[DDD/bounded-context]] — Bounded Context
-- [[DDD/ubiquitous-language]] — Ubiquitous Language
-- [[DDD/anti-corruption-layer]] — Anti-Corruption Layer
-- [[Architecture/microservices]] — Microservices
+- [[DDD/bounded-context]] â€” Bounded Context
+- [[DDD/ubiquitous-language]] â€” Ubiquitous Language
+- [[DDD/anti-corruption-layer]] â€” Anti-Corruption Layer
+- [[Architecture/microservices]] â€” Microservices
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project uses TypeScript, which supports context map through:
 
 ## Sources
 
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Context Map Note**

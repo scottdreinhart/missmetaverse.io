@@ -1,9 +1,11 @@
+﻿---
+slug: test-driven-development
+---
+
 # Test-Driven Development
 
 > **Purpose:** Write tests before implementation to drive design.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-tdd`
@@ -50,8 +52,6 @@ declared
 - testing-mutation-testing
 - arch-incremental-refactoring
 - arch-fail-fast
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ TDD does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/behavior-driven-development]] — Behavior-Driven Development
-- [[Quality & Testing/risk-based-testing]] — Risk-Based Testing
-- [[Quality & Testing/mutation-testing]] — Mutation Testing
-- [[Architecture/incremental-refactoring]] — Incremental Refactoring
+- [[Quality & Testing/behavior-driven-development]] â€” Behavior-Driven Development
+- [[Quality & Testing/risk-based-testing]] â€” Risk-Based Testing
+- [[Quality & Testing/mutation-testing]] â€” Mutation Testing
+- [[Architecture/incremental-refactoring]] â€” Incremental Refactoring
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Vitest for unit testing, which supports TDD through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Test-Driven Development Note**

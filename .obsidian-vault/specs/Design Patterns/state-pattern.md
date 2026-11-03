@@ -1,9 +1,11 @@
+﻿---
+slug: state-pattern
+---
+
 # State Pattern
 
 > **Purpose:** Manage state transitions with State Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `state-pattern`
@@ -50,8 +52,6 @@ declared
 - state-machines
 - fsm-pattern
 - workflow-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ State does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/state-pattern]] — State Pattern
-- [[Architecture/state-machines]] — State Machines
-- [[Design Patterns/fsm-pattern]] — FSM Pattern
-- [[Design Patterns/workflow-pattern]] — Workflow Pattern
+- [[Design Patterns/state-pattern]] â€” State Pattern
+- [[Architecture/state-machines]] â€” State Machines
+- [[Design Patterns/fsm-pattern]] â€” FSM Pattern
+- [[Design Patterns/workflow-pattern]] â€” Workflow Pattern
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses State Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of State Pattern Note**

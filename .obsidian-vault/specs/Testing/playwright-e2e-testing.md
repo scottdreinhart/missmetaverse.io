@@ -1,9 +1,11 @@
+﻿---
+slug: playwright-e2e-testing
+---
+
 # Playwright E2E Testing
 
 > **Purpose:** Configure Playwright for end-to-end testing.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `playwright-e2e-testing`
@@ -50,8 +52,6 @@ declared
 - playwright-cross-browser
 - playwright-configuration
 - playwright-coverage
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Playwright does not apply to:
 
 ## Related Concepts
 
-- [[Playwright/playwright-browser-testing]] — Playwright Browser Testing
-- [[Playwright/playwright-cross-browser]] — Playwright Cross-Browser
-- [[Playwright/playwright-configuration]] — Playwright Configuration
-- [[Playwright/playwright-coverage]] — Playwright Coverage
+- [[Playwright/playwright-browser-testing]] â€” Playwright Browser Testing
+- [[Playwright/playwright-cross-browser]] â€” Playwright Cross-Browser
+- [[Playwright/playwright-configuration]] â€” Playwright Configuration
+- [[Playwright/playwright-coverage]] â€” Playwright Coverage
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Playwright through:
 ## Sources
 
 - [[Sources/playwright-documentation|Playwright Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Playwright E2E Testing Note**

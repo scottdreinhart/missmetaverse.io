@@ -1,9 +1,11 @@
+﻿---
+slug: acid
+---
+
 # ACID
 
 > **Purpose:** Transaction properties ensuring database reliability.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `data-acid`
@@ -50,8 +52,6 @@ declared
 - data-durability
 - data-optimistic-concurrency-control
 - data-eventual-consistency
-
----
 
 ## Definition
 
@@ -120,11 +120,11 @@ ACID does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/atomicity]] — Atomicity
-- [[Data Databases/consistency]] — Consistency
-- [[Data Databases/isolation]] — Isolation
-- [[Data Databases/durability]] — Durability
-- [[APIs Distributed Systems/eventual-consistency]] — Eventual Consistency
+- [[Data Databases/atomicity]] â€” Atomicity
+- [[Data Databases/consistency]] â€” Consistency
+- [[Data Databases/isolation]] â€” Isolation
+- [[Data Databases/durability]] â€” Durability
+- [[APIs Distributed Systems/eventual-consistency]] â€” Eventual Consistency
 
 ## Project Observations
 
@@ -136,9 +136,7 @@ The project uses TypeScript with database integrations, which supports ACID thro
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
 
 **End of ACID Note**

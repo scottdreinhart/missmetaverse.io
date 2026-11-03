@@ -1,38 +1,22 @@
----
+﻿---
 slug: docker-deployment
 sources:
   - https://docs.docker.com/
   - https://nginx.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   - docker
   - deployment
   - nginx
   - containers
----
-
+  - --
 # Docker Deployment
 
 ## Definition
 
 Docker Deployment is a **practice of packaging software into containers for consistent deployment across environments**.
 
-> "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers." — Wikipedia
+> "Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -44,8 +28,8 @@ Without Docker:
 
 ## Scope and Boundaries
 
-- Docker ≠ Kubernetes (Docker is for containers, Kubernetes is for orchestration)
-- Docker ≠ Virtual Machines (Docker is for containers, VMs are for virtualization)
+- Docker â‰  Kubernetes (Docker is for containers, Kubernetes is for orchestration)
+- Docker â‰  Virtual Machines (Docker is for containers, VMs are for virtualization)
 - Docker is a **containerization practice**, not an orchestration practice
 
 ## When to Apply
@@ -59,21 +43,21 @@ Without Docker:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Docker is complex |
-| **Time** — Docker takes time |
-| **Over-containerization** — Don't containerize everything |
+| **Complexity** â€” Docker is complex |
+| **Time** â€” Docker takes time |
+| **Over-containerization** â€” Don't containerize everything |
 
 ## Common Misuses
 
 - **Everything containerized**: Not everything needs Docker
-- **Confusing with Kubernetes**: Docker ≠ Kubernetes
+- **Confusing with Kubernetes**: Docker â‰  Kubernetes
 - **Over-containerization**: Too much containerization creates complexity
 
 ## Related Concepts
 
-- [CI/CD](Architecture/cicd-github-actions.md) — Docker with CI/CD
-- [Nginx](Architecture/nginx.md) — Docker with Nginx
-- [Deployment](Architecture/deployment.md) — Docker with deployment
+- [CI/CD](Architecture/cicd-github-actions.md) â€” Docker with CI/CD
+- [Nginx](Architecture/nginx.md) â€” Docker with Nginx
+- [Deployment](Architecture/deployment.md) â€” Docker with deployment
 
 ## Project Observations
 
@@ -81,8 +65,8 @@ Without Docker:
   - The project's Docker deployment note covers Docker (from existing notes)
   - No evidence of Docker in existing code (src/ is empty)
 - File naming conventions support Docker:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 
@@ -312,12 +296,12 @@ services:
 5. **Use environment variables**: Never hardcode secrets in Dockerfiles
 
 ### Tools to Use
-- **VS Code Extension**: Docker — for Docker management
-- **VS Code Extension**: Error Lens — for inline Docker error display
-- **npm Package**: `docker-compose` — for multi-container apps
-- **Terminal Command**: `docker build -t myapp .` — build Docker image
-- **Terminal Command**: `docker-compose up` — start services
-- **Terminal Command**: `docker-compose down` — stop services
+- **VS Code Extension**: Docker â€” for Docker management
+- **VS Code Extension**: Error Lens â€” for inline Docker error display
+- **npm Package**: `docker-compose` â€” for multi-container apps
+- **Terminal Command**: `docker build -t myapp .` â€” build Docker image
+- **Terminal Command**: `docker-compose up` â€” start services
+- **Terminal Command**: `docker-compose down` â€” stop services
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when creating production Dockerfiles

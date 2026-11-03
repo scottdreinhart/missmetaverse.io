@@ -1,34 +1,23 @@
----
+﻿---
 slug: aggregate-root
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/Aggregate.html
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
   - ddd
   - aggregate-root
   - domain-modeling
   - boundary
----
-
+  - --
 # Aggregate Root
 
 ## Definition
 
-Aggregate Root is **the single entry point to an aggregate — all external access to aggregate objects goes through the root**.
+Aggregate Root is **the single entry point to an aggregate â€” all external access to aggregate objects goes through the root**.
 
-> "The root object is the only member of the aggregate that external objects can hold references to." — Eric Evans
+> "The root object is the only member of the aggregate that external objects can hold references to." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -40,7 +29,7 @@ Without aggregate roots:
 
 ## Scope and Boundaries
 
-- Aggregate Root ≠ Aggregate (aggregate root is the entry point, aggregate is the cluster)
+- Aggregate Root â‰  Aggregate (aggregate root is the entry point, aggregate is the cluster)
 - Aggregate Root = Boundary (aggregate root defines the access boundary)
 - Aggregate Root is a **domain model building block**, not a pattern
 
@@ -55,9 +44,9 @@ Without aggregate roots:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Aggregate roots add modeling complexity |
-| **Time** — Designing aggregate roots takes time |
-| **Over-aggregate-root** — Simple aggregates may not need a root |
+| **Complexity** â€” Aggregate roots add modeling complexity |
+| **Time** â€” Designing aggregate roots takes time |
+| **Over-aggregate-root** â€” Simple aggregates may not need a root |
 
 ## Common Misuses
 
@@ -67,9 +56,9 @@ Without aggregate roots:
 
 ## Related Concepts
 
-- [Aggregate](DDD/aggregate.md) — Aggregate root is the entry point to an aggregate
-- [Entity](DDD/entity.md) — Aggregate roots are entities
-- [Domain Invariant](DDD/domain-invariant.md) — Aggregate roots maintain domain invariants
+- [Aggregate](DDD/aggregate.md) â€” Aggregate root is the entry point to an aggregate
+- [Entity](DDD/entity.md) â€” Aggregate roots are entities
+- [Domain Invariant](DDD/domain-invariant.md) â€” Aggregate roots maintain domain invariants
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without aggregate roots:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of aggregate roots in existing code (src/ is empty)
 - File naming conventions support aggregate roots:
-  - `*.aggregate.ts` — Aggregate files
-  - `*.entity.ts` — Entity files
+  - `*.aggregate.ts` â€” Aggregate files
+  - `*.entity.ts` â€” Entity files
 
 ## Sources
 
@@ -137,7 +126,7 @@ export class Order {
   private createdAt: Date
   private updatedAt: Date
 
-  // Private constructor — only static factory methods
+  // Private constructor â€” only static factory methods
   private constructor() {
     this.id = uuidv4()
     this.items = []
@@ -385,15 +374,15 @@ export class CreateOrderService {
 1. **Single entry point**: All external access goes through the root
 2. **Private constructor**: Use static factory methods for creation
 3. **Domain methods**: Encapsulate business logic in root methods
-4. **Getters only**: No setters — state changes through methods
+4. **Getters only**: No setters â€” state changes through methods
 5. **External refs**: Use IDs, not object references
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `vitest` — for testing aggregates
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `vitest` â€” for testing aggregates
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing new aggregates

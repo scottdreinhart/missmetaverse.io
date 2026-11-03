@@ -1,9 +1,11 @@
+﻿---
+slug: eslint-configuration
+---
+
 # ESLint Configuration
 
 > **Purpose:** Configure ESLint for code quality and consistency.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `eslint-configuration`
@@ -49,8 +51,6 @@ declared
 - typescript-eslint
 - eslint-react
 - eslint-security
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ ESLint configuration does not apply to:
 
 ## Related Concepts
 
-- [[Prettier/prettier-configuration]] — Prettier Configuration
-- [[TypeScript/typescript-eslint]] — TypeScript ESLint
-- [[ESLint/eslint-react]] — ESLint React
-- [[ESLint/eslint-security]] — ESLint Security
+- [[Prettier/prettier-configuration]] â€” Prettier Configuration
+- [[TypeScript/typescript-eslint]] â€” TypeScript ESLint
+- [[ESLint/eslint-react]] â€” ESLint React
+- [[ESLint/eslint-security]] â€” ESLint Security
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses ESLint through:
 ## Sources
 
 - [[Sources/eslint-documentation|ESLint Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of ESLint Configuration Note**

@@ -1,31 +1,22 @@
----
+﻿---
 slug: mapper-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.mapper.ts
 
 ## Definition
 
 `*.mapper.ts` is **a file naming convention for TypeScript files that contain data mapping logic between different representations (e.g., DTO to entity)**.
 
-> "The *.mapper.ts convention identifies TypeScript files that contain data mapping logic." — TypeScript Docs
+> "The *.mapper.ts convention identifies TypeScript files that contain data mapping logic." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.mapper.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.mapper.ts` ≠ `*.logic.ts` (`*.mapper.ts` is for mapping, `*.logic.ts` is for business logic)
+- `*.mapper.ts` â‰  `*.logic.ts` (`*.mapper.ts` is for mapping, `*.logic.ts` is for business logic)
 - `*.mapper.ts` = Mapping (`*.mapper.ts` is for data mapping)
 - `*.mapper.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.mapper.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every mapping needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.mapper.ts` convention:
 
 ## Related Concepts
 
-- [Data Transfer Objects](Architecture/data-transfer-objects.md) — DTOs use mappers
-- [Data Mapper Pattern](Architecture/data-mapper-pattern.md) — Data mapper pattern is related
-- [Logic File Convention](Project File Conventions/logic-file-convention.md) — Logic file convention separates business logic
+- [Data Transfer Objects](Architecture/data-transfer-objects.md) â€” DTOs use mappers
+- [Data Mapper Pattern](Architecture/data-mapper-pattern.md) â€” Data mapper pattern is related
+- [Logic File Convention](Project File Conventions/logic-file-convention.md) â€” Logic file convention separates business logic
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.mapper.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.mapper.ts` in existing code (src/ is empty)
 - File naming conventions support `*.mapper.ts`:
-  - `*.mapper.ts` — Mapper files
-  - `*.data.ts` — Data files
+  - `*.mapper.ts` â€” Mapper files
+  - `*.data.ts` â€” Data files
 
 ## Sources
 

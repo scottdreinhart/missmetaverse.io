@@ -1,35 +1,22 @@
----
+﻿---
 slug: complete-mediation
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - complete-mediation
   - security
   - authentication
   - authorization
----
-
+  - --
 # Complete Mediation
 
 ## Definition
 
 Complete Mediation is **a security principle that every access to every object must be checked for authorization**.
 
-> "Complete mediation means that every access to every object must be checked for authorization." — OWASP
+> "Complete mediation means that every access to every object must be checked for authorization." â€” OWASP
 
 ## Problem Addressed
 
@@ -41,7 +28,7 @@ Without complete mediation:
 
 ## Scope and Boundaries
 
-- Complete Mediation ≠ Caching (complete mediation checks every access, caching stores authorization decisions)
+- Complete Mediation â‰  Caching (complete mediation checks every access, caching stores authorization decisions)
 - Complete Mediation = Security (complete mediation ensures security)
 - Complete Mediation is a **security principle**, not a pattern
 
@@ -56,9 +43,9 @@ Without complete mediation:
 
 | Cost | Description |
 |------|-------------|
-| **Performance** — Checking every access adds overhead |
-| **Complexity** — Complete mediation adds complexity |
-| **Time** — Implementing complete mediation takes time |
+| **Performance** â€” Checking every access adds overhead |
+| **Complexity** â€” Complete mediation adds complexity |
+| **Time** â€” Implementing complete mediation takes time |
 
 ## Common Misuses
 
@@ -68,9 +55,9 @@ Without complete mediation:
 
 ## Related Concepts
 
-- [Authentication](Security/authentication.md) — Authentication verifies identity
-- [Authorization](Security/authorization.md) — Authorization verifies access
-- [Security Principles](Security/security-principles.md) — Security principles include complete mediation
+- [Authentication](Security/authentication.md) â€” Authentication verifies identity
+- [Authorization](Security/authorization.md) â€” Authorization verifies access
+- [Security Principles](Security/security-principles.md) â€” Security principles include complete mediation
 
 ## Project Observations
 
@@ -79,8 +66,8 @@ Without complete mediation:
   - The project's architecture patterns note covers security concepts
   - No evidence of complete mediation in existing code (src/ is empty)
 - File naming conventions support complete mediation:
-  - `*.middleware.ts` — Middleware files
-  - `*.guard.ts` — Guard files
+  - `*.middleware.ts` â€” Middleware files
+  - `*.guard.ts` â€” Guard files
 
 ## Sources
 
@@ -95,7 +82,7 @@ Without complete mediation:
 graph TD
     A[Need authorization check?]\n    A --> B{Every access?}
     B -->|Yes| C[Complete mediation]
-    B -->|No| D[Skip — not secure]
+    B -->|No| D[Skip â€” not secure]
     C --> E{Cached decision?}
     E -->|Yes| F{Valid?}
     F -->|Yes| G[Use cache]
@@ -255,10 +242,10 @@ import { authorize } from '@/middleware/authorization.middleware'
 
 const router = Router()
 
-// GET /users/:id — Anyone can read public profiles
+// GET /users/:id â€” Anyone can read public profiles
 router.get('/users/:id', authorize('user:read'))
 
-// PUT /users/:id — Users can update their own profile
+// PUT /users/:id â€” Users can update their own profile
 router.put(
   '/users/:id',
   authorize('user:write', {
@@ -267,13 +254,13 @@ router.put(
   updateUserHandler,
 )
 
-// DELETE /users/:id — Only admins can delete
+// DELETE /users/:id â€” Only admins can delete
 router.delete('/users/:id', authorize('user:delete'))
 
-// POST /users — Only admins can create
+// POST /users â€” Only admins can create
 router.post('/users', authorize('user:create'))
 
-// GET /users — Managers can read their department
+// GET /users â€” Managers can read their department
 router.get(
   '/users',
   authorize('user:read', {
@@ -437,12 +424,12 @@ describe('Complete Mediation', () => {
 5. **Default deny**: Deny by default, explicitly allow
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `express` — for middleware
-- **npm Package**: `lru-cache` — for authorization caching
-- **npm Package**: `vitest` — for testing security
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm audit` — check for vulnerabilities
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `express` â€” for middleware
+- **npm Package**: `lru-cache` â€” for authorization caching
+- **npm Package**: `vitest` â€” for testing security
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm audit` â€” check for vulnerabilities
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when adding new authorization logic

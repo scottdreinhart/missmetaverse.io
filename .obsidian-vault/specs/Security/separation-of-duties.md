@@ -1,9 +1,11 @@
+﻿---
+slug: separation-of-duties
+---
+
 # Separation of Duties
 
 > **Purpose:** Separate duties with Separation of Duties.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `separation-of-duties`
@@ -50,8 +52,6 @@ declared
 - sod
 - segregation-of-duties
 - dual-control
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Separation of Duties does not apply to:
 
 ## Related Concepts
 
-- [[Security/separation-of-duties]] — Separation of Duties
-- [[Security/sod]] — SoD
-- [[Security/segregation-of-duties]] — Segregation of Duties
-- [[Security/dual-control]] — Dual Control
+- [[Security/separation-of-duties]] â€” Separation of Duties
+- [[Security/sod]] â€” SoD
+- [[Security/segregation-of-duties]] â€” Segregation of Duties
+- [[Security/dual-control]] â€” Dual Control
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Separation of Duties through:
 ## Sources
 
 - [[Sources/security-principles|Security Principles]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Separation of Duties Note**

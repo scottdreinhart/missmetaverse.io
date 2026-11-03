@@ -1,28 +1,16 @@
----
+﻿---
 slug: conventional-changelog
 sources:
   - https://github.com/conventional-changelog/conventional-changelog
   - https://conventional-changelog.js.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - conventional-changelog
   - changelog
   - conventionalcommits
   - changelog-generation
   - git-metadata
----
-
+  - --
 # Conventional Changelog
 
 ## Overview
@@ -51,9 +39,9 @@ conventional-changelog generates CHANGELOG files from git commit metadata follow
 
 ### Recommended Automation Tools
 
-- **[commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version)** — Drop-in replacement for `npm version`, handles version bumping, tagging, and CHANGELOG generation
-- **[semantic-release](https://github.com/semantic-release/semantic-release)** — Fully automates releases from CI/CD
-- **[simple-release-action](https://simple-release.js.org/github-action/)** — Simple GitHub Action for version bumps and changelogs
+- **[commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version)** â€” Drop-in replacement for `npm version`, handles version bumping, tagging, and CHANGELOG generation
+- **[semantic-release](https://github.com/semantic-release/semantic-release)** â€” Fully automates releases from CI/CD
+- **[simple-release-action](https://simple-release.js.org/github-action/)** â€” Simple GitHub Action for version bumps and changelogs
 
 ---
 
@@ -74,7 +62,7 @@ pnpm add -D commit-and-tag-version
 
 ## 3. Usage
 
-### CLI — conventional-changelog
+### CLI â€” conventional-changelog
 
 ```bash
 # Generate changelog (conventionalcommits preset)
@@ -234,17 +222,17 @@ const config = createPreset({
 
     // Commit section titles
     commitTypes: [
-      { type: 'feat', section: '✨ Features' },
-      { type: 'fix', section: '🐛 Bug Fixes' },
-      { type: 'perf', section: '⚡ Performance' },
-      { type: 'refactor', section: '♻️ Refactoring' },
-      { type: 'style', section: '💄 Styles' },
-      { type: 'test', section: '✅ Tests' },
-      { type: 'docs', section: '📝 Documentation' },
-      { type: 'build', section: '🔨 Build' },
-      { type: 'ci', section: '👷 CI' },
-      { type: 'chore', section: '🗂️ Chores' },
-      { type: 'revert', section: '⏪ Reverts' },
+      { type: 'feat', section: 'âœ¨ Features' },
+      { type: 'fix', section: 'ðŸ› Bug Fixes' },
+      { type: 'perf', section: 'âš¡ Performance' },
+      { type: 'refactor', section: 'â™»ï¸ Refactoring' },
+      { type: 'style', section: 'ðŸ’„ Styles' },
+      { type: 'test', section: 'âœ… Tests' },
+      { type: 'docs', section: 'ðŸ“ Documentation' },
+      { type: 'build', section: 'ðŸ”¨ Build' },
+      { type: 'ci', section: 'ðŸ‘· CI' },
+      { type: 'chore', section: 'ðŸ—‚ï¸ Chores' },
+      { type: 'revert', section: 'âª Reverts' },
     ],
   },
 })

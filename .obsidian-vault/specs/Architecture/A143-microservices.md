@@ -1,36 +1,23 @@
----
+﻿---
 slug: microservices
 sources:
   - https://martinfowler.com/articles/microservices.html
   - https://docs.microsoft.com/en-us/azure/architecture/guide/microservices/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
   - microservices
   - distributed-systems
   - architecture
   - patterns
----
-
+  - --
 # Microservices
 
 ## Definition
 
 Microservices is an **architecture style that structures an application as a collection of loosely coupled services**.
 
-> "Microservices is an architectural style that structures an application as a collection of loosely coupled services." — Martin Fowler
+> "Microservices is an architectural style that structures an application as a collection of loosely coupled services." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -42,8 +29,8 @@ Monolithic architectures lead to:
 
 ## Scope and Boundaries
 
-- Microservices ≠ Distributed Systems (microservices is an architecture style, distributed systems is a category)
-- Microservices ≠ SOA (microservices is a specific type of SOA)
+- Microservices â‰  Distributed Systems (microservices is an architecture style, distributed systems is a category)
+- Microservices â‰  SOA (microservices is a specific type of SOA)
 - Microservices is an **architecture style**, not a specific pattern
 
 ## When to Apply
@@ -57,22 +44,22 @@ Monolithic architectures lead to:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Microservices are complex |
-| **Time** — Microservices take time |
-| **Over-microservices** — Don't microservice everything |
+| **Complexity** â€” Microservices are complex |
+| **Time** â€” Microservices take time |
+| **Over-microservices** â€” Don't microservice everything |
 
 ## Common Misuses
 
 - **Everything microservices**: Not everything needs microservices
-- **Confusing with distributed systems**: Microservices ≠ distributed systems
+- **Confusing with distributed systems**: Microservices â‰  distributed systems
 - **Over-microservices**: Too many microservices create complexity
 
 ## Related Concepts
 
-- [Modular Monolith](modular-monolith.md) — Microservices vs. modular monolith
-- [Event-Driven Architecture](event-driven-architecture.md) — Microservices with EDA
-- [API Versioning](api-versioning.md) — Microservices with API versioning
-- [API Gateway](api-gateway-pattern.md) — Service gateway patterns
+- [Modular Monolith](modular-monolith.md) â€” Microservices vs. modular monolith
+- [Event-Driven Architecture](event-driven-architecture.md) â€” Microservices with EDA
+- [API Versioning](api-versioning.md) â€” Microservices with API versioning
+- [API Gateway](api-gateway-pattern.md) â€” Service gateway patterns
 
 ---
 
@@ -219,12 +206,12 @@ pnpm test:e2e services/user/
 5. **Version APIs**: Each service versioned independently
 
 ### Tools to Use
-- **VS Code Extension**: Docker — for local service development
-- **VS Code Extension**: REST Client — for testing service APIs
-- **npm Package**: `opentelemetry` — for distributed tracing
-- **npm Package**: `@nestjs/microservices` — for NestJS microservices
-- **Terminal Command**: `pnpm add @nestjs/microservices @types/opentelemetry` — install microservices packages
-- **Terminal Command**: `docker-compose up` — start local services
+- **VS Code Extension**: Docker â€” for local service development
+- **VS Code Extension**: REST Client â€” for testing service APIs
+- **npm Package**: `opentelemetry` â€” for distributed tracing
+- **npm Package**: `@nestjs/microservices` â€” for NestJS microservices
+- **Terminal Command**: `pnpm add @nestjs/microservices @types/opentelemetry` â€” install microservices packages
+- **Terminal Command**: `docker-compose up` â€” start local services
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing new service boundaries
@@ -259,8 +246,8 @@ pnpm test:e2e services/user/
   - The project's architecture patterns note covers microservices (from existing notes)
   - No evidence of microservices in existing code (src/ is empty)
 - File naming conventions support microservices:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ---
 
@@ -269,34 +256,34 @@ pnpm test:e2e services/user/
 ### How to Define Service Boundaries
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Service: User Service                                  │
-│  ┌─────────────────────────────────────────────────┐    │
-│  │  Owns: user table, auth tokens, profiles        │    │
-│  │  API: /api/v1/users/*                           │    │
-│  │  Team: 2-4 developers                           │    │
-│  │  DB: PostgreSQL (own schema)                    │    │
-│  └─────────────────────────────────────────────────┘    │
-├─────────────────────────────────────────────────────────┤
-│  Service: Order Service                                 │
-│  ┌─────────────────────────────────────────────────┐    │
-│  │  Owns: order table, order items, status         │    │
-│  │  API: /api/v1/orders/*                          │    │
-│  │  Team: 2-4 developers                           │    │
-│  │  DB: PostgreSQL (own schema)                    │    │
-│  └─────────────────────────────────────────────────┘    │
-├─────────────────────────────────────────────────────────┤
-│  Service: Payment Service                               │
-│  ┌─────────────────────────────────────────────────┐    │
-│  │  Owns: payment table, transactions              │    │
-│  │  API: /api/v1/payments/*                        │    │
-│  │  Team: 1-2 developers                           │    │
-│  │  DB: PostgreSQL (own schema)                    │    │
-│  └─────────────────────────────────────────────────┘    │
-└─────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Service: User Service                                  â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”    â”‚
+â”‚  â”‚  Owns: user table, auth tokens, profiles        â”‚    â”‚
+â”‚  â”‚  API: /api/v1/users/*                           â”‚    â”‚
+â”‚  â”‚  Team: 2-4 developers                           â”‚    â”‚
+â”‚  â”‚  DB: PostgreSQL (own schema)                    â”‚    â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜    â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Service: Order Service                                 â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”    â”‚
+â”‚  â”‚  Owns: order table, order items, status         â”‚    â”‚
+â”‚  â”‚  API: /api/v1/orders/*                          â”‚    â”‚
+â”‚  â”‚  Team: 2-4 developers                           â”‚    â”‚
+â”‚  â”‚  DB: PostgreSQL (own schema)                    â”‚    â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜    â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Service: Payment Service                               â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”    â”‚
+â”‚  â”‚  Owns: payment table, transactions              â”‚    â”‚
+â”‚  â”‚  API: /api/v1/payments/*                        â”‚    â”‚
+â”‚  â”‚  Team: 1-2 developers                           â”‚    â”‚
+â”‚  â”‚  DB: PostgreSQL (own schema)                    â”‚    â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜    â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
-### Bounded Context → Service Mapping
+### Bounded Context â†’ Service Mapping
 
 | Bounded Context | Service | API Prefix | Database |
 |----------------|---------|-----------|----------|
@@ -312,7 +299,7 @@ pnpm test:e2e services/user/
 ### Synchronous (REST/gRPC)
 
 ```
-Client → User Service → Order Service (REST call)
+Client â†’ User Service â†’ Order Service (REST call)
 ```
 
 **Use when:**
@@ -328,9 +315,9 @@ Client → User Service → Order Service (REST call)
 ### Asynchronous (Events)
 
 ```
-Order Service → [OrderPlaced] → Notification Service
-                          → Inventory Service
-                          → Analytics Service
+Order Service â†’ [OrderPlaced] â†’ Notification Service
+                          â†’ Inventory Service
+                          â†’ Analytics Service
 ```
 
 **Use when:**
@@ -361,12 +348,12 @@ Order Service → [OrderPlaced] → Notification Service
 5. **Version APIs**: Each service versioned independently
 
 ### Tools to Use
-- **VS Code Extension**: Docker — for local service development
-- **VS Code Extension**: REST Client — for testing service APIs
-- **npm Package**: `opentelemetry` — for distributed tracing
-- **npm Package**: `@nestjs/microservices` — for NestJS microservices
-- **Terminal Command**: `pnpm add @nestjs/microservices @types/opentelemetry` — install microservices packages
-- **Terminal Command**: `docker-compose up` — start local services
+- **VS Code Extension**: Docker â€” for local service development
+- **VS Code Extension**: REST Client â€” for testing service APIs
+- **npm Package**: `opentelemetry` â€” for distributed tracing
+- **npm Package**: `@nestjs/microservices` â€” for NestJS microservices
+- **Terminal Command**: `pnpm add @nestjs/microservices @types/opentelemetry` â€” install microservices packages
+- **Terminal Command**: `docker-compose up` â€” start local services
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing new service boundaries

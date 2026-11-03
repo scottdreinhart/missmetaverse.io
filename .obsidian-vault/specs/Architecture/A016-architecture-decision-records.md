@@ -1,29 +1,23 @@
----
+﻿---
 slug: architecture-decision-records
 sources:
   - https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions
   - https://github.com/18F/adr-template
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
   - adr
   - architecture
   - documentation
   - decision-making
----
-
+  - --
 # Architecture Decision Records (ADRs)
 
 ## Definition
 
 ADRs are **concise documents that capture important architectural decisions, their context, consequences, and status**. They provide a lightweight way to document architectural decisions.
 
-> "An ADR is a document that captures an important architectural decision made along with its context and consequences." — Michael Nygard
+> "An ADR is a document that captures an important architectural decision made along with its context and consequences." â€” Michael Nygard
 
 ## Problem Addressed
 
@@ -35,9 +29,9 @@ Without ADRs:
 
 ## Scope and Boundaries
 
-- ADRs ≠ Technical documentation (ADRs capture decisions, not implementation)
-- ADRs ≠ Standards (ADRs can document non-standard choices)
-- ADRs are **living documents** — they can be superseded
+- ADRs â‰  Technical documentation (ADRs capture decisions, not implementation)
+- ADRs â‰  Standards (ADRs can document non-standard choices)
+- ADRs are **living documents** â€” they can be superseded
 
 ## When to Apply
 
@@ -50,9 +44,9 @@ Without ADRs:
 
 | Cost | Description |
 |------|-------------|
-| **Documentation overhead** — Writing ADRs takes time |
-| **Maintenance** — ADRs need to be kept up to date |
-| **Over-documentation** — Not every decision needs an ADR |
+| **Documentation overhead** â€” Writing ADRs takes time |
+| **Maintenance** â€” ADRs need to be kept up to date |
+| **Over-documentation** â€” Not every decision needs an ADR |
 
 ## Common Misuses
 
@@ -62,7 +56,7 @@ Without ADRs:
 
 ## Related Concepts
 
-- [Clean Architecture](Architecture/clean-architecture.md) — ADRs can document architecture choices
+- [Clean Architecture](Architecture/clean-architecture.md) â€” ADRs can document architecture choices
 
 ## Project Observations
 

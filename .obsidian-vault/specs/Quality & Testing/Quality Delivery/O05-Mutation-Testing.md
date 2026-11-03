@@ -1,32 +1,22 @@
----
+﻿---
 slug: mutation-testing
 sources:
   - https://mutatest.com/
   - https://stryker-mutator.io/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - mutation-testing
   - testing
   - quality
   - coverage
----
-
+  - --
 # Mutation Testing
 
 ## Definition
 
 Mutation Testing is **a testing quality measure that introduces small changes (mutations) to code and checks if tests detect them**.
 
-> "Mutation testing evaluates the quality of tests by introducing small changes to code and checking if tests fail." — Wikipedia
+> "Mutation testing evaluates the quality of tests by introducing small changes to code and checking if tests fail." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without mutation testing:
 
 ## Scope and Boundaries
 
-- Mutation Testing ≠ Test Coverage (mutation testing measures test quality, test coverage measures test quantity)
+- Mutation Testing â‰  Test Coverage (mutation testing measures test quality, test coverage measures test quantity)
 - Mutation Testing = Quality (mutation testing measures test quality)
 - Mutation Testing is a **testing quality measure**, not a pattern
 
@@ -53,9 +43,9 @@ Without mutation testing:
 
 | Cost | Description |
 |------|-------------|
-| **Performance** — Mutation testing is slow |
-| **Complexity** — Mutation testing adds tooling complexity |
-| **Time** — Running mutation tests takes time |
+| **Performance** â€” Mutation testing is slow |
+| **Complexity** â€” Mutation testing adds tooling complexity |
+| **Time** â€” Running mutation tests takes time |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without mutation testing:
 
 ## Related Concepts
 
-- [Property-Based Testing](Quality Delivery/property-based-testing.md) — Property-based testing complements mutation testing
-- [Automated Testing](Quality Delivery/automated-testing.md) — Automated testing supports mutation testing
-- [Risk-Based Testing](Quality Delivery/risk-based-testing.md) — Risk-based testing can prioritize mutation testing
+- [Property-Based Testing](Quality Delivery/property-based-testing.md) â€” Property-based testing complements mutation testing
+- [Automated Testing](Quality Delivery/automated-testing.md) â€” Automated testing supports mutation testing
+- [Risk-Based Testing](Quality Delivery/risk-based-testing.md) â€” Risk-based testing can prioritize mutation testing
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without mutation testing:
   - The project's architecture patterns note covers testing concepts
   - No evidence of mutation testing in existing code (src/ is empty)
 - File naming conventions support mutation testing:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

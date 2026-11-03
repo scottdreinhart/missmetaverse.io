@@ -1,9 +1,11 @@
+﻿---
+slug: schema-file-convention
+---
+
 # Schema File Convention
 
 > **Purpose:** Define data schemas in dedicated files.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-schema-file`
@@ -51,11 +53,9 @@ declared
 - project-hook-file
 - data-driven-schema-driven
 
----
-
 ## Definition
 
-The *.schema.ts file convention designates files that define data schemas — validation rules, type definitions, and transformation logic using tools like Zod.
+The *.schema.ts file convention designates files that define data schemas â€” validation rules, type definitions, and transformation logic using tools like Zod.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Schema files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
-- [[Project File Conventions/hook-file-convention]] — *.hook.ts File Convention
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
+- [[Project File Conventions/hook-file-convention]] â€” *.hook.ts File Convention
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows schema file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Schema File Convention Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: event-driven-architecture
+---
+
 # Event-Driven Architecture
 
 > **Purpose:** Build systems with Event-Driven Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `event-driven-architecture`
@@ -50,8 +52,6 @@ declared
 - event-sourcing
 - cqs-pattern
 - message-queue
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ EDA does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/event-driven-architecture]] — Event-Driven Architecture
-- [[Data Databases/event-sourcing]] — Event Sourcing
-- [[Architecture/cqs-pattern]] — Command-Query Separation
-- [[APIs Distributed Systems/message-queue]] — Message Queue
+- [[Application Architecture/event-driven-architecture]] â€” Event-Driven Architecture
+- [[Data Databases/event-sourcing]] â€” Event Sourcing
+- [[Architecture/cqs-pattern]] â€” Command-Query Separation
+- [[APIs Distributed Systems/message-queue]] â€” Message Queue
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Event-Driven Architecture through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of Event-Driven Architecture Note**

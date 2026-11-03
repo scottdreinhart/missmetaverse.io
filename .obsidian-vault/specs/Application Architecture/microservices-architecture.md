@@ -1,9 +1,11 @@
+﻿---
+slug: microservices-architecture
+---
+
 # Microservices Architecture
 
 > **Purpose:** Structure apps with Microservices.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `microservices-architecture`
@@ -50,8 +52,6 @@ declared
 - modular-monolith
 - service-mesh
 - api-gateway
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Microservices does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/microservices-architecture]] — Microservices Architecture
-- [[Application Architecture/modular-monolith]] — Modular Monolith
-- [[APIs Distributed Systems/service-mesh]] — Service Mesh
-- [[APIs Distributed Systems/api-gateway]] — API Gateway
+- [[Application Architecture/microservices-architecture]] â€” Microservices Architecture
+- [[Application Architecture/modular-monolith]] â€” Modular Monolith
+- [[APIs Distributed Systems/service-mesh]] â€” Service Mesh
+- [[APIs Distributed Systems/api-gateway]] â€” API Gateway
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Microservices Architecture through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of Microservices Architecture Note**

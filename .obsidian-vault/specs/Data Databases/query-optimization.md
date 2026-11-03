@@ -1,9 +1,11 @@
+﻿---
+slug: query-optimization
+---
+
 # Query Optimization
 
 > **Purpose:** Optimize database queries for performance.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `query-optimization`
@@ -50,8 +52,6 @@ declared
 - database-indexes
 - execution-plans
 - database-performance
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Query Optimization does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/query-optimization]] — Query Optimization
-- [[Data Databases/database-indexes]] — Database Indexes
-- [[Data Databases/execution-plans]] — Execution Plans
-- [[Data Databases/database-performance]] — Database Performance
+- [[Data Databases/query-optimization]] â€” Query Optimization
+- [[Data Databases/database-indexes]] â€” Database Indexes
+- [[Data Databases/execution-plans]] â€” Execution Plans
+- [[Data Databases/database-performance]] â€” Database Performance
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Query Optimization through:
 
 ## Sources
 
-- [[Sources/database-design-hoffer|Database Design — Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Query Optimization Note**

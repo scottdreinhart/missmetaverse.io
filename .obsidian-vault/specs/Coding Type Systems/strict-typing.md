@@ -1,9 +1,11 @@
+﻿---
+slug: strict-typing
+---
+
 # Strict Typing
 
 > **Purpose:** Use type systems to catch errors at compile time.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-strict-typing`
@@ -51,8 +53,6 @@ declared
 - coding-discriminated-unions
 - coding-exhaustive-handling
 - coding-immutability
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Strict typing does not address:
 
 ## Related Concepts
 
-- [[Coding Type Systems/parse-dont-validate]] — Parse, Don't Merely Validate
-- [[Coding Type Systems/make-invalid-states-unrepresentable]] — Make Invalid States Unrepresentable
-- [[Coding Type Systems/discriminated-unions]] — Discriminated Unions
-- [[Coding Type Systems/exhaustive-handling]] — Exhaustive Handling
+- [[Coding Type Systems/parse-dont-validate]] â€” Parse, Don't Merely Validate
+- [[Coding Type Systems/make-invalid-states-unrepresentable]] â€” Make Invalid States Unrepresentable
+- [[Coding Type Systems/discriminated-unions]] â€” Discriminated Unions
+- [[Coding Type Systems/exhaustive-handling]] â€” Exhaustive Handling
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses TypeScript with strict mode, which supports strict typing throu
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Strict Typing Note**

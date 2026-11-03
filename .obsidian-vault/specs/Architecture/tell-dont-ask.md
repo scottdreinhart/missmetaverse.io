@@ -1,9 +1,11 @@
+﻿---
+slug: tell-dont-ask
+---
+
 # Tell, Don't Ask
 
 > **Purpose:** Tell objects what to do, don't ask them for data and decide.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-tell-dont-ask`
@@ -51,8 +53,6 @@ declared
 - arch-pure-functions
 - arch-single-responsibility
 - arch-high-cohesion
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Tell, Don't Ask does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/law-of-demeter]] — Law of Demeter
-- [[Architecture/encapsulation]] — Encapsulation
-- [[Coding Type Systems/pure-functions]] — Pure Functions
-- [[Architecture/single-responsibility-principle]] — Single Responsibility Principle
+- [[Architecture/law-of-demeter]] â€” Law of Demeter
+- [[Architecture/encapsulation]] â€” Encapsulation
+- [[Coding Type Systems/pure-functions]] â€” Pure Functions
+- [[Architecture/single-responsibility-principle]] â€” Single Responsibility Principle
 
 ## Project Observations
 
@@ -132,9 +132,7 @@ The project follows Tell, Don't Ask through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Tell, Don't Ask Note**

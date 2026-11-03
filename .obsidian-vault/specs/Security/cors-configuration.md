@@ -1,9 +1,11 @@
+﻿---
+slug: cors-configuration
+---
+
 # CORS Configuration
 
 > **Purpose:** Configure Cross-Origin Resource Sharing.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `cors-configuration`
@@ -50,8 +52,6 @@ declared
 - security-headers
 - same-origin-policy
 - api-security
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ CORS does not apply to:
 
 ## Related Concepts
 
-- [[Security/cors-configuration]] — CORS Configuration
-- [[Security/security-headers]] — Security Headers
-- [[Security/same-origin-policy]] — Same Origin Policy
-- [[Security/api-security]] — API Security
+- [[Security/cors-configuration]] â€” CORS Configuration
+- [[Security/security-headers]] â€” Security Headers
+- [[Security/same-origin-policy]] â€” Same Origin Policy
+- [[Security/api-security]] â€” API Security
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses CORS Configuration through:
 ## Sources
 
 - [[Sources/mdn-cors|MDN CORS Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of CORS Configuration Note**

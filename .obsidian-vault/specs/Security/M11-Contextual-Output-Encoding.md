@@ -1,35 +1,23 @@
----
+﻿---
 slug: output-encoding
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
   - output-encoding
   - security
   - xss
   - encoding
----
-
+  - --
 # Contextual Output Encoding
 
 ## Definition
 
 Contextual Output Encoding is **a security technique that encodes data based on the context in which it will be rendered to prevent injection attacks**.
 
-> "Output encoding encodes data based on the context in which it will be rendered to prevent injection attacks." — OWASP
+> "Output encoding encodes data based on the context in which it will be rendered to prevent injection attacks." â€” OWASP
 
 ## Problem Addressed
 
@@ -41,7 +29,7 @@ Without output encoding:
 
 ## Scope and Boundaries
 
-- Output Encoding ≠ Input Validation (output encoding encodes data on output, input validation validates data on input)
+- Output Encoding â‰  Input Validation (output encoding encodes data on output, input validation validates data on input)
 - Output Encoding = Protection (output encoding protects against injection)
 - Output Encoding is a **security technique**, not a pattern
 
@@ -56,8 +44,8 @@ Without output encoding:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Contextual encoding adds complexity |
-| **Time** — Implementing contextual encoding takes time |
+| **Complexity** â€” Contextual encoding adds complexity |
+| **Time** â€” Implementing contextual encoding takes time |
 | **Display**: Encoded data may display differently |
 
 ## Common Misuses
@@ -68,9 +56,9 @@ Without output encoding:
 
 ## Related Concepts
 
-- [Input Validation](Security/input-validation.md) — Input validation complements output encoding
-- [Content Security Policy](Security/content-security-policy.md) — Content security policy complements output encoding
-- [Security Principles](Security/security-principles.md) — Security principles include output encoding
+- [Input Validation](Security/input-validation.md) â€” Input validation complements output encoding
+- [Content Security Policy](Security/content-security-policy.md) â€” Content security policy complements output encoding
+- [Security Principles](Security/security-principles.md) â€” Security principles include output encoding
 
 ## Project Observations
 
@@ -80,8 +68,8 @@ Without output encoding:
   - The project's architecture patterns note covers security concepts
   - No evidence of output encoding in existing code (src/ is empty)
 - File naming conventions support output encoding:
-  - `*.encoder.ts` — Encoder files
-  - `*.guard.ts` — Guard files
+  - `*.encoder.ts` â€” Encoder files
+  - `*.guard.ts` â€” Guard files
 
 ## Sources
 
@@ -135,12 +123,12 @@ export function encodeHtml(input: string): string {
     .replace(/'/g, '&#x27;')
 }
 
-// Usage in React (usually not needed — React auto-encodes)
+// Usage in React (usually not needed â€” React auto-encodes)
 function UserComment({ comment }: { comment: string }) {
-  // ✅ React auto-encodes — safe
+  // âœ… React auto-encodes â€” safe
   return <div>{comment}</div>
   
-  // ❌ Never do this without sanitization
+  // âŒ Never do this without sanitization
   // return <div dangerouslySetInnerHTML={{ __html: comment }} />
 }
 ```
@@ -203,10 +191,10 @@ export function encodeForCss(input: string): string {
 
 // Usage in React
 function UserTheme({ color }: { color: string }) {
-  // ✅ Safe — CSS-in-JS handles encoding
+  // âœ… Safe â€” CSS-in-JS handles encoding
   return <div style={{ color }}>Content</div>
   
-  // ❌ Never inject raw CSS
+  // âŒ Never inject raw CSS
   // return <div style={{ cssText: `color: ${color}` }}>Content</div>
 }
 ```
@@ -238,35 +226,35 @@ function RichTextContent({ content }: { content: string }) {
 // components/SecureComponent.tsx
 import DOMPurify from 'dompurify'
 
-// ✅ Safe — React auto-encodes
+// âœ… Safe â€” React auto-encodes
 function SafeComponent({ userInput }: { userInput: string }) {
   return <div>{userInput}</div>
 }
 
-// ⚠️ Use with caution — sanitize first
+// âš ï¸ Use with caution â€” sanitize first
 function SanitizedComponent({ userInput }: { userInput: string }) {
   const sanitized = DOMPurify.sanitize(userInput)
   return <div dangerouslySetInnerHTML={{ __html: sanitized }} />
 }
 
-// ❌ Never do this
+// âŒ Never do this
 function UnsafeComponent({ userInput }: { userInput: string }) {
   return <div dangerouslySetInnerHTML={{ __html: userInput }} />
 }
 
-// ✅ Use React's built-in encoding
+// âœ… Use React's built-in encoding
 function FormComponent() {
   const [input, setInput] = useState('')
   
   return (
     <div>
-      {/* ✅ Safe — React auto-encodes */}
+      {/* âœ… Safe â€” React auto-encodes */}
       <p>{input}</p>
       
-      {/* ✅ Safe — React auto-encodes */}
+      {/* âœ… Safe â€” React auto-encodes */}
       <input value={input} onChange={(e) => setInput(e.target.value)} />
       
-      {/* ✅ Safe — React auto-encodes */}
+      {/* âœ… Safe â€” React auto-encodes */}
       <button onClick={() => alert(input)}>Click</button>
     </div>
   )
@@ -342,11 +330,11 @@ describe('Output Encoding', () => {
 5. **HTML sanitization**: Use DOMPurify for rich text content
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `dompurify` — for HTML sanitization
-- **npm Package**: `express` — for security headers
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm audit` — check for vulnerabilities
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `dompurify` â€” for HTML sanitization
+- **npm Package**: `express` â€” for security headers
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm audit` â€” check for vulnerabilities
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when adding new output rendering

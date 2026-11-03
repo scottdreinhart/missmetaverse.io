@@ -1,9 +1,11 @@
+﻿---
+slug: mobx-state-management
+---
+
 # MobX State Management
 
 > **Purpose:** Manage state with MobX.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `mobx-state-management`
@@ -50,8 +52,6 @@ declared
 - mobx-observable
 - mobx-configuration
 - mobx-reactive-state
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ MobX does not apply to:
 
 ## Related Concepts
 
-- [[MobX/mobx-state-management]] — MobX State Management
-- [[MobX/mobx-observable]] — MobX Observable
-- [[MobX/mobx-configuration]] — MobX Configuration
-- [[MobX/mobx-reactive-state]] — MobX Reactive State
+- [[MobX/mobx-state-management]] â€” MobX State Management
+- [[MobX/mobx-observable]] â€” MobX Observable
+- [[MobX/mobx-configuration]] â€” MobX Configuration
+- [[MobX/mobx-reactive-state]] â€” MobX Reactive State
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses MobX through:
 ## Sources
 
 - [[Sources/mobx-documentation|MobX Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of MobX State Management Note**

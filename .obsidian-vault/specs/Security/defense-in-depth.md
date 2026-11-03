@@ -1,9 +1,11 @@
+﻿---
+slug: defense-in-depth
+---
+
 # Defense in Depth
 
 > **Purpose:** Secure apps with Defense in Depth.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `defense-in-depth`
@@ -32,7 +34,7 @@ declared
 ## applicability
 - Layered security
 - Multiple defense layers
-- Security纵深
+- Securityçºµæ·±
 - Risk mitigation
 
 ## tags
@@ -51,8 +53,6 @@ declared
 - multiple-layers
 - security-layers
 
----
-
 ## Definition
 
 Defense in Depth is a security strategy that uses multiple layers of defense to protect assets, ensuring that if one layer fails, others still provide protection.
@@ -70,7 +70,7 @@ Without Defense in Depth:
 Defense in Depth applies to:
 - Layered security
 - Multiple defense layers
-- Security纵深
+- Securityçºµæ·±
 - Risk mitigation
 
 Defense in Depth does not apply to:
@@ -118,10 +118,10 @@ Defense in Depth does not apply to:
 
 ## Related Concepts
 
-- [[Security/defense-in-depth]] — Defense in Depth
-- [[Security/layered-security]] — Layered Security
-- [[Security/multiple-layers]] — Multiple Layers
-- [[Security/security-layers]] — Security Layers
+- [[Security/defense-in-depth]] â€” Defense in Depth
+- [[Security/layered-security]] â€” Layered Security
+- [[Security/multiple-layers]] â€” Multiple Layers
+- [[Security/security-layers]] â€” Security Layers
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Defense in Depth through:
 ## Sources
 
 - [[Sources/security-principles|Security Principles]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Defense in Depth Note**

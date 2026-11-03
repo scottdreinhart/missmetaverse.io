@@ -1,31 +1,22 @@
----
+﻿---
 slug: value-object-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.value-object.ts
 
 ## Definition
 
 `*.value-object.ts` is **a file naming convention for TypeScript files that contain DDD value object definitions**.
 
-> "The *.value-object.ts convention identifies TypeScript files that contain DDD value object definitions." — TypeScript Docs
+> "The *.value-object.ts convention identifies TypeScript files that contain DDD value object definitions." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.value-object.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.value-object.ts` ≠ `*.entity.ts` (`*.value-object.ts` is for value objects, `*.entity.ts` is for entities)
+- `*.value-object.ts` â‰  `*.entity.ts` (`*.value-object.ts` is for value objects, `*.entity.ts` is for entities)
 - `*.value-object.ts` = Value Objects (`*.value-object.ts` is for value object definitions)
 - `*.value-object.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.value-object.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every value object needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.value-object.ts` convention:
 
 ## Related Concepts
 
-- [Value Object (DDD)](DDD/value-object.md) — Value object pattern is the pattern behind `*.value-object.ts`
-- [Entity File Convention](Project File Conventions/entity-file-convention.md) — Entity file convention is related
-- [DDD Patterns](Architecture/ddd-patterns.md) — DDD patterns use `*.value-object.ts`
+- [Value Object (DDD)](DDD/value-object.md) â€” Value object pattern is the pattern behind `*.value-object.ts`
+- [Entity File Convention](Project File Conventions/entity-file-convention.md) â€” Entity file convention is related
+- [DDD Patterns](Architecture/ddd-patterns.md) â€” DDD patterns use `*.value-object.ts`
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.value-object.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.value-object.ts` in existing code (src/ is empty)
 - File naming conventions support `*.value-object.ts`:
-  - `*.value-object.ts` — Value object files
-  - `*.entity.ts` — Entity files
+  - `*.value-object.ts` â€” Value object files
+  - `*.entity.ts` â€” Entity files
 
 ## Sources
 

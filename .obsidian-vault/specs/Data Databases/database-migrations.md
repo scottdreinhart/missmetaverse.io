@@ -1,9 +1,11 @@
+﻿---
+slug: database-migrations
+---
+
 # Database Migrations
 
 > **Purpose:** Manage schema changes with Database Migrations.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `database-migrations`
@@ -50,8 +52,6 @@ declared
 - schema-versioning
 - migration-strategy
 - database-deployment
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Migrations do not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/database-migrations]] — Database Migrations
-- [[Data Databases/schema-versioning]] — Schema Versioning
-- [[Data Databases/migration-strategy]] — Migration Strategy
-- [[Data Databases/database-deployment]] — Database Deployment
+- [[Data Databases/database-migrations]] â€” Database Migrations
+- [[Data Databases/schema-versioning]] â€” Schema Versioning
+- [[Data Databases/migration-strategy]] â€” Migration Strategy
+- [[Data Databases/database-deployment]] â€” Database Deployment
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Database Migrations through:
 
 ## Sources
 
-- [[Sources/database-design-hoffer|Database Design — Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Migrations Note**

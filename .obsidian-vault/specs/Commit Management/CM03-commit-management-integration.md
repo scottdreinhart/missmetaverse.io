@@ -1,4 +1,4 @@
----
+﻿---
 slug: commit-management-integration
 sources:
   - https://github.com/commitizen/cz-cli
@@ -10,80 +10,68 @@ sources:
   - https://www.npmjs.com/package/validate-branch-name
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - integration
   - commit-management
   - conventional-commits
   - release-automation
   - git-workflow
----
-
-# Commit Management — Complete Integration
+  - --
+# Commit Management â€” Complete Integration
 
 ## Overview
 
-This note shows how to integrate all commit management tools into a cohesive workflow: cz-git (interactive prompts) → commitlint (validation) → Husky (hooks) → validate-branch-name (branch rules) → conventional-changelog (changelog generation) → release-it (automated releases).
+This note shows how to integrate all commit management tools into a cohesive workflow: cz-git (interactive prompts) â†’ commitlint (validation) â†’ Husky (hooks) â†’ validate-branch-name (branch rules) â†’ conventional-changelog (changelog generation) â†’ release-it (automated releases).
 
 ---
 
 ## 1. Complete Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    DEVELOPER WORKFLOW                            │
-│                                                                  │
-│  1. Create Branch ──────────────────────────────────┐           │
-│     validate-branch-name checks naming              │           │
-│     └─ Husky pre-push hook                          │           │
-│                                                     │           │
-│  2. Make Changes ──────────────────────────────────┐│           │
-│     git add .                                       ││           │
-│                                                     ││           │
-│  3. Commit ────────────────────────────────────────┤│           │
-│     pnpm commit (cz-git interactive prompt)         ││           │
-│     └─ Guides: type, scope, subject, body, footer   ││           │
-│     └─ Emoji support, AI generation                 ││           │
-│                                                     ││           │
-│  4. Git Commit ─────────────────────────────────────┤│           │
-│     git commit (creates commit)                     ││           │
-│     └─ Husky commit-msg hook                        ││           │
-│        └─ commitlint validates format               ││           │
-│           └─ FAILS if invalid                       ││           │
-│           └─ PASSES if valid                        ││           │
-│                                                     ││           │
-│  5. Push ───────────────────────────────────────────┤│           │
-│     git push ───────────────────────────────────────┘│           │
-│     └─ Husky pre-push hook                          │           │
-│        └─ Run tests                                 │           │
-│        └─ validate-branch-name (safety net)         │           │
-│                                                     │           │
-│  6. Merge to Main ──────────────────────────────────┐          │
-│     PR merged to main                               │          │
-│     └─ CI runs full pipeline                        │          │
-│        └─ commitlint on all commits                  │          │
-│        └─ lint, test, build                         │          │
-│                                                     │          │
-│  7. Release ────────────────────────────────────────┘          │
-│     npx release-it (manual or CI)                             │
-│     └─ @release-it/conventional-changelog                     │
-│        └─ Reads commit history                              │
-│        └─ Generates CHANGELOG.md                            │
-│        └─ Recommends version bump                           │
-│     └─ Bumps version in package.json                        │
-│     └─ Git commit, tag, push                                │
-│     └─ GitHub Release with notes                            │
-│     └─ npm publish                                          │
-└─────────────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                    DEVELOPER WORKFLOW                            â”‚
+â”‚                                                                  â”‚
+â”‚  1. Create Branch â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”           â”‚
+â”‚     validate-branch-name checks naming              â”‚           â”‚
+â”‚     â””â”€ Husky pre-push hook                          â”‚           â”‚
+â”‚                                                     â”‚           â”‚
+â”‚  2. Make Changes â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”â”‚           â”‚
+â”‚     git add .                                       â”‚â”‚           â”‚
+â”‚                                                     â”‚â”‚           â”‚
+â”‚  3. Commit â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤â”‚           â”‚
+â”‚     pnpm commit (cz-git interactive prompt)         â”‚â”‚           â”‚
+â”‚     â””â”€ Guides: type, scope, subject, body, footer   â”‚â”‚           â”‚
+â”‚     â””â”€ Emoji support, AI generation                 â”‚â”‚           â”‚
+â”‚                                                     â”‚â”‚           â”‚
+â”‚  4. Git Commit â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤â”‚           â”‚
+â”‚     git commit (creates commit)                     â”‚â”‚           â”‚
+â”‚     â””â”€ Husky commit-msg hook                        â”‚â”‚           â”‚
+â”‚        â””â”€ commitlint validates format               â”‚â”‚           â”‚
+â”‚           â””â”€ FAILS if invalid                       â”‚â”‚           â”‚
+â”‚           â””â”€ PASSES if valid                        â”‚â”‚           â”‚
+â”‚                                                     â”‚â”‚           â”‚
+â”‚  5. Push â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤â”‚           â”‚
+â”‚     git push â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜â”‚           â”‚
+â”‚     â””â”€ Husky pre-push hook                          â”‚           â”‚
+â”‚        â””â”€ Run tests                                 â”‚           â”‚
+â”‚        â””â”€ validate-branch-name (safety net)         â”‚           â”‚
+â”‚                                                     â”‚           â”‚
+â”‚  6. Merge to Main â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”          â”‚
+â”‚     PR merged to main                               â”‚          â”‚
+â”‚     â””â”€ CI runs full pipeline                        â”‚          â”‚
+â”‚        â””â”€ commitlint on all commits                  â”‚          â”‚
+â”‚        â””â”€ lint, test, build                         â”‚          â”‚
+â”‚                                                     â”‚          â”‚
+â”‚  7. Release â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜          â”‚
+â”‚     npx release-it (manual or CI)                             â”‚
+â”‚     â””â”€ @release-it/conventional-changelog                     â”‚
+â”‚        â””â”€ Reads commit history                              â”‚
+â”‚        â””â”€ Generates CHANGELOG.md                            â”‚
+â”‚        â””â”€ Recommends version bump                           â”‚
+â”‚     â””â”€ Bumps version in package.json                        â”‚
+â”‚     â””â”€ Git commit, tag, push                                â”‚
+â”‚     â””â”€ GitHub Release with notes                            â”‚
+â”‚     â””â”€ npm publish                                          â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
@@ -284,17 +272,17 @@ pnpm test:ci || exit 1
 
 ```
 my-project/
-├── .husky/
-│   ├── pre-commit          # Lint staged files
-│   ├── commit-msg          # Validate commit message
-│   └── pre-push            # Tests + branch validation
-├── .lintstagedrc.json      # lint-staged config
-├── cz.config.js            # cz-git configuration
-├── commitlint.config.js    # commitlint configuration
-├── .release-it.json        # release-it configuration
-├── package.json
-├── CHANGELOG.md
-└── src/
+â”œâ”€â”€ .husky/
+â”‚   â”œâ”€â”€ pre-commit          # Lint staged files
+â”‚   â”œâ”€â”€ commit-msg          # Validate commit message
+â”‚   â””â”€â”€ pre-push            # Tests + branch validation
+â”œâ”€â”€ .lintstagedrc.json      # lint-staged config
+â”œâ”€â”€ cz.config.js            # cz-git configuration
+â”œâ”€â”€ commitlint.config.js    # commitlint configuration
+â”œâ”€â”€ .release-it.json        # release-it configuration
+â”œâ”€â”€ package.json
+â”œâ”€â”€ CHANGELOG.md
+â””â”€â”€ src/
 ```
 
 ---
@@ -312,13 +300,13 @@ pnpm commit
 
 # cz-git prompts:
 # ? Select the type of change: (use arrow keys)
-#   ✦ feat - A new feature
+#   âœ¦ feat - A new feature
 #     fix - A bug fix
 #     docs - Documentation
 #     ...
 #
 # ? Select the scope: (use arrow keys)
-#   ✦ app
+#   âœ¦ app
 #     web
 #     api
 #     ...
@@ -326,7 +314,7 @@ pnpm commit
 # ? Write a short description: Add user authentication
 # ? Provide a longer description: Implement OAuth2 login
 # ? List any issues closed: Closes #123
-# ? Confirm: Yes ✓
+# ? Confirm: Yes âœ“
 
 # Output: feat(app): add user authentication
 
@@ -494,22 +482,22 @@ HUSKY=1 git commit -m "test"
 
 ### Do's
 
-- ✅ Use cz-git for interactive commits with emoji
-- ✅ Always have commitlint as safety net (even with cz-git)
-- ✅ Use Husky commit-msg hook for validation
-- ✅ Use validate-branch-name on pre-push (not pre-commit)
-- ✅ Configure release-it hooks for pre-release validation
-- ✅ Use `--ci` mode in CI/CD pipelines
-- ✅ Sign commits and tags for security
-- ✅ Document commit conventions in CONTRIBUTING.md
+- âœ… Use cz-git for interactive commits with emoji
+- âœ… Always have commitlint as safety net (even with cz-git)
+- âœ… Use Husky commit-msg hook for validation
+- âœ… Use validate-branch-name on pre-push (not pre-commit)
+- âœ… Configure release-it hooks for pre-release validation
+- âœ… Use `--ci` mode in CI/CD pipelines
+- âœ… Sign commits and tags for security
+- âœ… Document commit conventions in CONTRIBUTING.md
 
 ### Don'ts
 
-- ❌ Don't rely solely on cz-git — always have commitlint
-- ❌ Don't make commitlint rules too strict
-- ❌ Don't skip pre-release validation hooks
-- ❌ Don't run release-it on feature branches
-- ❌ Don't forget to configure `requireBranch` in release-it
+- âŒ Don't rely solely on cz-git â€” always have commitlint
+- âŒ Don't make commitlint rules too strict
+- âŒ Don't skip pre-release validation hooks
+- âŒ Don't run release-it on feature branches
+- âŒ Don't forget to configure `requireBranch` in release-it
 
 ---
 

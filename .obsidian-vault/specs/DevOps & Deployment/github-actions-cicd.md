@@ -1,9 +1,11 @@
+﻿---
+slug: github-actions-cicd
+---
+
 # GitHub Actions CI/CD
 
 > **Purpose:** Automate CI/CD with GitHub Actions.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `github-actions-cicd`
@@ -50,8 +52,6 @@ declared
 - github-actions-configuration
 - github-actions-testing
 - github-actions-deployment
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ GitHub Actions does not apply to:
 
 ## Related Concepts
 
-- [[DevOps & Deployment/github-actions-workflow]] — GitHub Actions Workflow
-- [[DevOps & Deployment/github-actions-configuration]] — GitHub Actions Configuration
-- [[DevOps & Deployment/github-actions-testing]] — GitHub Actions Testing
-- [[DevOps & Deployment/github-actions-deployment]] — GitHub Actions Deployment
+- [[DevOps & Deployment/github-actions-workflow]] â€” GitHub Actions Workflow
+- [[DevOps & Deployment/github-actions-configuration]] â€” GitHub Actions Configuration
+- [[DevOps & Deployment/github-actions-testing]] â€” GitHub Actions Testing
+- [[DevOps & Deployment/github-actions-deployment]] â€” GitHub Actions Deployment
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses GitHub Actions through:
 ## Sources
 
 - [[Sources/github-actions-documentation|GitHub Actions Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of GitHub Actions CI/CD Note**

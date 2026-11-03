@@ -1,9 +1,11 @@
+﻿---
+slug: recharts-data-visualization
+---
+
 # Recharts Data Visualization
 
 > **Purpose:** Create data visualizations with Recharts.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `recharts-data-visualization`
@@ -50,8 +52,6 @@ declared
 - recharts-bar-chart
 - recharts-pie-chart
 - recharts-configuration
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Recharts does not apply to:
 
 ## Related Concepts
 
-- [[Recharts/recharts-line-chart]] — Recharts Line Chart
-- [[Recharts/recharts-bar-chart]] — Recharts Bar Chart
-- [[Recharts/recharts-pie-chart]] — Recharts Pie Chart
-- [[Recharts/recharts-configuration]] — Recharts Configuration
+- [[Recharts/recharts-line-chart]] â€” Recharts Line Chart
+- [[Recharts/recharts-bar-chart]] â€” Recharts Bar Chart
+- [[Recharts/recharts-pie-chart]] â€” Recharts Pie Chart
+- [[Recharts/recharts-configuration]] â€” Recharts Configuration
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Recharts through:
 ## Sources
 
 - [[Sources/recharts-documentation|Recharts Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Recharts Data Visualization Note**

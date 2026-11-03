@@ -1,9 +1,11 @@
+﻿---
+slug: cqrs-pattern
+---
+
 # CQRS Pattern
 
 > **Purpose:** Separate commands and queries with CQRS.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `cqrs-pattern`
@@ -50,8 +52,6 @@ declared
 - cqs-pattern
 - event-sourcing
 - read-model
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ CQRS does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/cqrs-pattern]] — CQRS Pattern
-- [[Architecture/cqs-pattern]] — Command-Query Separation
-- [[Data Databases/event-sourcing]] — Event Sourcing
-- [[Application Architecture/read-model]] — Read Model
+- [[Application Architecture/cqrs-pattern]] â€” CQRS Pattern
+- [[Architecture/cqs-pattern]] â€” Command-Query Separation
+- [[Data Databases/event-sourcing]] â€” Event Sourcing
+- [[Application Architecture/read-model]] â€” Read Model
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses CQRS Pattern through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/cqrs-pattern|CQRS Pattern — Martin Fowler]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/cqrs-pattern|CQRS Pattern â€” Martin Fowler]]
 
 **End of CQRS Pattern Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: contract-first-development
+---
+
 # Contract-First Development
 
 > **Purpose:** Define API contracts before implementation.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `data-driven-contract-first`
@@ -50,8 +52,6 @@ declared
 - data-driven-schema-driven
 - data-driven-metadata-driven-ui
 - data-driven-declarative
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Contract-first development does not apply to:
 
 ## Related Concepts
 
-- [[Data-Driven Approaches/data-driven-design]] — Data-Driven Design
-- [[Data-Driven Approaches/configuration-driven-development]] — Configuration-Driven Development
-- [[Data-Driven Approaches/schema-driven-development]] — Schema-Driven Development
-- [[Data-Driven Approaches/metadata-driven-ui]] — Metadata-Driven UI
+- [[Data-Driven Approaches/data-driven-design]] â€” Data-Driven Design
+- [[Data-Driven Approaches/configuration-driven-development]] â€” Configuration-Driven Development
+- [[Data-Driven Approaches/schema-driven-development]] â€” Schema-Driven Development
+- [[Data-Driven Approaches/metadata-driven-ui]] â€” Metadata-Driven UI
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows contract-first development through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Contract-First Development Note**

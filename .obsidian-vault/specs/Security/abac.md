@@ -1,9 +1,11 @@
+﻿---
+slug: abac
+---
+
 # ABAC
 
 > **Purpose:** Manage access with ABAC.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `abac`
@@ -50,8 +52,6 @@ declared
 - attribute-based-access-control
 - attribute-management
 - context-aware-access
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ ABAC does not apply to:
 
 ## Related Concepts
 
-- [[Security/abac]] — ABAC
-- [[Security/attribute-based-access-control]] — Attribute-Based Access Control
-- [[Security/attribute-management]] — Attribute Management
-- [[Security/context-aware-access]] — Context-Aware Access
+- [[Security/abac]] â€” ABAC
+- [[Security/attribute-based-access-control]] â€” Attribute-Based Access Control
+- [[Security/attribute-management]] â€” Attribute Management
+- [[Security/context-aware-access]] â€” Context-Aware Access
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses ABAC through:
 ## Sources
 
 - [[Sources/abac-standard|ABAC Standard]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of ABAC Note**

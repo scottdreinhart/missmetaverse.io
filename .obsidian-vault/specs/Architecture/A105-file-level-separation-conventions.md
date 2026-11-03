@@ -1,21 +1,10 @@
----
+﻿---
 slug: file-level-separation-conventions
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
   - https://www.enterpriseintegrationpatterns.com/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - file-naming
   - separation-of-concerns
   - view
@@ -33,8 +22,7 @@ tags:
   - value-object
   - policy
   - event
----
-
+  - --
 # File-Level Separation Conventions
 
 ## Overview
@@ -45,23 +33,23 @@ File-level separation conventions define naming patterns and organizational rule
 
 ## 1. Naming Conventions
 
-### *.view.* — UI/View Layer
+### *.view.* â€” UI/View Layer
 
 **Files that handle presentation and user interface.**
 
 ```
 src/
-├── components/
-│   ├── OrderList.view.tsx        # UI component for listing orders
-│   ├── OrderDetail.view.tsx      # UI component for order details
-│   └── Dashboard.view.tsx        # Dashboard UI
-├── pages/
-│   ├── Home.view.tsx
-│   └── Login.view.tsx
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ OrderList.view.tsx        # UI component for listing orders
+â”‚   â”œâ”€â”€ OrderDetail.view.tsx      # UI component for order details
+â”‚   â””â”€â”€ Dashboard.view.tsx        # Dashboard UI
+â”œâ”€â”€ pages/
+â”‚   â”œâ”€â”€ Home.view.tsx
+â”‚   â””â”€â”€ Login.view.tsx
 ```
 
 ```typescript
-// OrderList.view.tsx — Purely presentational
+// OrderList.view.tsx â€” Purely presentational
 interface OrderListProps {
   orders: Order[]
   onSelect: (order: Order) => void
@@ -72,7 +60,7 @@ export function OrderList({ orders, onSelect }: OrderListProps) {
     <ul>
       {orders.map(order => (
         <li key={order.id} onClick={() => onSelect(order)}>
-          {order.id} — {order.status}
+          {order.id} â€” {order.status}
         </li>
       ))}
     </ul>
@@ -80,20 +68,20 @@ export function OrderList({ orders, onSelect }: OrderListProps) {
 }
 ```
 
-### *.logic.* — Business Logic
+### *.logic.* â€” Business Logic
 
 **Files that contain business rules and domain logic.**
 
 ```
 src/
-├── logic/
-│   ├── order.logic.ts            # Order business rules
-│   ├── pricing.logic.ts          # Pricing calculations
-│   └── validation.logic.ts       # Validation rules
+â”œâ”€â”€ logic/
+â”‚   â”œâ”€â”€ order.logic.ts            # Order business rules
+â”‚   â”œâ”€â”€ pricing.logic.ts          # Pricing calculations
+â”‚   â””â”€â”€ validation.logic.ts       # Validation rules
 ```
 
 ```typescript
-// order.logic.ts — Business rules
+// order.logic.ts â€” Business rules
 export function calculateOrderTotal(items: OrderItem[]): Money {
   return items.reduce(
     (total, item) => total.add(item.price.multiply(item.quantity)),
@@ -109,20 +97,20 @@ export function applyDiscount(total: Money, discount: Discount): Money {
 }
 ```
 
-### *.data.* — Data Layer
+### *.data.* â€” Data Layer
 
 **Files that handle data access and storage.**
 
 ```
 src/
-├── data/
-│   ├── order.data.ts             # Order data access
-│   ├── user.data.ts              # User data access
-│   └── cache.data.ts             # Caching layer
+â”œâ”€â”€ data/
+â”‚   â”œâ”€â”€ order.data.ts             # Order data access
+â”‚   â”œâ”€â”€ user.data.ts              # User data access
+â”‚   â””â”€â”€ cache.data.ts             # Caching layer
 ```
 
 ```typescript
-// order.data.ts — Data access
+// order.data.ts â€” Data access
 interface OrderRow {
   id: string
   customer_id: string
@@ -143,16 +131,16 @@ export async function saveOrder(order: Order): Promise<void> {
 }
 ```
 
-### *.hook.* — React Hooks
+### *.hook.* â€” React Hooks
 
 **Custom React hooks.**
 
 ```
 src/
-├── hooks/
-│   ├── useAuth.hook.ts           # Authentication hook
-│   ├── useOrders.hook.ts         # Orders data hook
-│   └── useDebounce.hook.ts       # Debounce utility hook
+â”œâ”€â”€ hooks/
+â”‚   â”œâ”€â”€ useAuth.hook.ts           # Authentication hook
+â”‚   â”œâ”€â”€ useOrders.hook.ts         # Orders data hook
+â”‚   â””â”€â”€ useDebounce.hook.ts       # Debounce utility hook
 ```
 
 ```typescript
@@ -169,16 +157,16 @@ export function useAuth() {
 }
 ```
 
-### *.schema.* — Data Schemas
+### *.schema.* â€” Data Schemas
 
 **Validation schemas and data contracts.**
 
 ```
 src/
-├── schemas/
-│   ├── order.schema.ts           # Order validation schema
-│   ├── user.schema.ts            # User validation schema
-│   └── api.schema.ts             # API request/response schemas
+â”œâ”€â”€ schemas/
+â”‚   â”œâ”€â”€ order.schema.ts           # Order validation schema
+â”‚   â”œâ”€â”€ user.schema.ts            # User validation schema
+â”‚   â””â”€â”€ api.schema.ts             # API request/response schemas
 ```
 
 ```typescript
@@ -201,16 +189,16 @@ export const CreateOrderSchema = z.object({
 export type CreateOrderInput = z.infer<typeof CreateOrderSchema>
 ```
 
-### *.types.* — Type Definitions
+### *.types.* â€” Type Definitions
 
 **TypeScript type and interface definitions.**
 
 ```
 src/
-├── types/
-│   ├── order.types.ts            # Order-related types
-│   ├── user.types.ts             # User-related types
-│   └── api.types.ts              # API-related types
+â”œâ”€â”€ types/
+â”‚   â”œâ”€â”€ order.types.ts            # Order-related types
+â”‚   â”œâ”€â”€ user.types.ts             # User-related types
+â”‚   â””â”€â”€ api.types.ts              # API-related types
 ```
 
 ```typescript
@@ -234,16 +222,16 @@ export interface OrderItem {
 }
 ```
 
-### *.mapper.* — Data Mappers
+### *.mapper.* â€” Data Mappers
 
 **Transform data between layers.**
 
 ```
 src/
-├── mappers/
-│   ├── order.mapper.ts         # Order data transformation
-│   ├── user.mapper.ts          # User data transformation
-│   └── api.mapper.ts            # API response mapping
+â”œâ”€â”€ mappers/
+â”‚   â”œâ”€â”€ order.mapper.ts         # Order data transformation
+â”‚   â”œâ”€â”€ user.mapper.ts          # User data transformation
+â”‚   â””â”€â”€ api.mapper.ts            # API response mapping
 ```
 
 ```typescript
@@ -271,16 +259,16 @@ export class OrderMapper {
 }
 ```
 
-### *.port.* — Ports/Interfaces
+### *.port.* â€” Ports/Interfaces
 
 **Abstraction interfaces for dependencies.**
 
 ```
 src/
-├── ports/
-│   ├── email.port.ts             # Email service interface
-│   ├── payment.port.ts           # Payment service interface
-│   └── storage.port.ts           # Storage service interface
+â”œâ”€â”€ ports/
+â”‚   â”œâ”€â”€ email.port.ts             # Email service interface
+â”‚   â”œâ”€â”€ payment.port.ts           # Payment service interface
+â”‚   â””â”€â”€ storage.port.ts           # Storage service interface
 ```
 
 ```typescript
@@ -291,16 +279,16 @@ export interface EmailPort {
 }
 ```
 
-### *.adapter.* — Adapters/Implementations
+### *.adapter.* â€” Adapters/Implementations
 
 **Concrete implementations of ports.**
 
 ```
 src/
-├── adapters/
-│   ├── sendgrid.adapter.ts       # SendGrid email implementation
-│   ├── stripe.adapter.ts         # Stripe payment implementation
-│   └── s3.adapter.ts             # AWS S3 storage implementation
+â”œâ”€â”€ adapters/
+â”‚   â”œâ”€â”€ sendgrid.adapter.ts       # SendGrid email implementation
+â”‚   â”œâ”€â”€ stripe.adapter.ts         # Stripe payment implementation
+â”‚   â””â”€â”€ s3.adapter.ts             # AWS S3 storage implementation
 ```
 
 ```typescript
@@ -319,16 +307,16 @@ export class SendGridAdapter implements EmailPort {
 }
 ```
 
-### *.repository.* — Repositories
+### *.repository.* â€” Repositories
 
 **Data access abstractions for aggregates/entities.**
 
 ```
 src/
-├── repositories/
-│   ├── order.repository.ts       # Order repository
-│   ├── user.repository.ts        # User repository
-│   └── product.repository.ts     # Product repository
+â”œâ”€â”€ repositories/
+â”‚   â”œâ”€â”€ order.repository.ts       # Order repository
+â”‚   â”œâ”€â”€ user.repository.ts        # User repository
+â”‚   â””â”€â”€ product.repository.ts     # Product repository
 ```
 
 ```typescript
@@ -341,16 +329,16 @@ export interface OrderRepository {
 }
 ```
 
-### *.use-case.* — Use Cases
+### *.use-case.* â€” Use Cases
 
 **Application-level business operations.**
 
 ```
 src/
-├── usecases/
-│   ├── create-order.usecase.ts   # Create order use case
-│   ├── cancel-order.usecase.ts   # Cancel order use case
-│   └── process-payment.usecase.ts # Payment processing use case
+â”œâ”€â”€ usecases/
+â”‚   â”œâ”€â”€ create-order.usecase.ts   # Create order use case
+â”‚   â”œâ”€â”€ cancel-order.usecase.ts   # Cancel order use case
+â”‚   â””â”€â”€ process-payment.usecase.ts # Payment processing use case
 ```
 
 ```typescript
@@ -374,16 +362,16 @@ export class CreateOrderUseCase {
 }
 ```
 
-### *.entity.* — Domain Entities
+### *.entity.* â€” Domain Entities
 
 **Core domain objects with identity.**
 
 ```
 src/
-├── entities/
-│   ├── order.entity.ts           # Order entity
-│   ├── user.entity.ts            # User entity
-│   └── product.entity.ts         # Product entity
+â”œâ”€â”€ entities/
+â”‚   â”œâ”€â”€ order.entity.ts           # Order entity
+â”‚   â”œâ”€â”€ user.entity.ts            # User entity
+â”‚   â””â”€â”€ product.entity.ts         # Product entity
 ```
 
 ```typescript
@@ -414,16 +402,16 @@ export class Order {
 }
 ```
 
-### *.value-object.* — Value Objects
+### *.value-object.* â€” Value Objects
 
 **Immutable objects defined by their attributes.**
 
 ```
 src/
-├── value-objects/
-│   ├── money.value-object.ts     # Money value object
-│   ├── email.value-object.ts     # Email value object
-│   └── address.value-object.ts   # Address value object
+â”œâ”€â”€ value-objects/
+â”‚   â”œâ”€â”€ money.value-object.ts     # Money value object
+â”‚   â”œâ”€â”€ email.value-object.ts     # Email value object
+â”‚   â””â”€â”€ address.value-object.ts   # Address value object
 ```
 
 ```typescript
@@ -447,16 +435,16 @@ export class Money {
 }
 ```
 
-### *.policy.* — Policies/Rules
+### *.policy.* â€” Policies/Rules
 
 **Business rules and validation policies.**
 
 ```
 src/
-├── policies/
-│   ├── order-policy.policy.ts    # Order business rules
-│   ├── pricing-policy.policy.ts  # Pricing rules
-│   └── security-policy.policy.ts # Security rules
+â”œâ”€â”€ policies/
+â”‚   â”œâ”€â”€ order-policy.policy.ts    # Order business rules
+â”‚   â”œâ”€â”€ pricing-policy.policy.ts  # Pricing rules
+â”‚   â””â”€â”€ security-policy.policy.ts # Security rules
 ```
 
 ```typescript
@@ -476,16 +464,16 @@ export class OrderPolicy {
 }
 ```
 
-### *.event.* — Domain Events
+### *.event.* â€” Domain Events
 
 **Event definitions and handlers.**
 
 ```
 src/
-├── events/
-│   ├── order-created.event.ts    # Order created event
-│   ├── order-cancelled.event.ts  # Order cancelled event
-│   └── payment-processed.event.ts # Payment processed event
+â”œâ”€â”€ events/
+â”‚   â”œâ”€â”€ order-created.event.ts    # Order created event
+â”‚   â”œâ”€â”€ order-cancelled.event.ts  # Order cancelled event
+â”‚   â””â”€â”€ payment-processed.event.ts # Payment processed event
 ```
 
 ```typescript
@@ -514,55 +502,55 @@ class OrderCreatedHandler {
 
 ```
 src/
-├── components/          # UI components (*.view.*)
-│   ├── OrderList.view.tsx
-│   └── OrderDetail.view.tsx
-├── pages/               # Page components (*.view.*)
-│   ├── Home.view.tsx
-│   └── Dashboard.view.tsx
-├── hooks/               # React hooks (*.hook.*)
-│   ├── useAuth.hook.ts
-│   └── useOrders.hook.ts
-├── logic/               # Business logic (*.logic.*)
-│   ├── order.logic.ts
-│   └── pricing.logic.ts
-├── data/                # Data access (*.data.*)
-│   ├── order.data.ts
-│   └── user.data.ts
-├── mappers/             # Data mappers (*.mapper.*)
-│   ├── order.mapper.ts
-│   └── user.mapper.ts
-├── ports/               # Port interfaces (*.port.*)
-│   ├── email.port.ts
-│   └── payment.port.ts
-├── adapters/            # Port implementations (*.adapter.*)
-│   ├── sendgrid.adapter.ts
-│   └── stripe.adapter.ts
-├── repositories/        # Repositories (*.repository.*)
-│   ├── order.repository.ts
-│   └── user.repository.ts
-├── usecases/            # Use cases (*.use-case.*)
-│   ├── create-order.usecase.ts
-│   └── cancel-order.usecase.ts
-├── entities/            # Domain entities (*.entity.*)
-│   ├── order.entity.ts
-│   └── user.entity.ts
-├── value-objects/       # Value objects (*.value-object.*)
-│   ├── money.value-object.ts
-│   └── email.value-object.ts
-├── policies/            # Business policies (*.policy.*)
-│   ├── order-policy.policy.ts
-│   └── pricing-policy.policy.ts
-├── events/              # Domain events (*.event.*)
-│   ├── order-created.event.ts
-│   └── order-cancelled.event.ts
-├── schemas/             # Validation schemas (*.schema.*)
-│   ├── order.schema.ts
-│   └── user.schema.ts
-├── types/               # Type definitions (*.types.*)
-│   ├── order.types.ts
-│   └── user.types.ts
-└── main.ts              # Application entry point
+â”œâ”€â”€ components/          # UI components (*.view.*)
+â”‚   â”œâ”€â”€ OrderList.view.tsx
+â”‚   â””â”€â”€ OrderDetail.view.tsx
+â”œâ”€â”€ pages/               # Page components (*.view.*)
+â”‚   â”œâ”€â”€ Home.view.tsx
+â”‚   â””â”€â”€ Dashboard.view.tsx
+â”œâ”€â”€ hooks/               # React hooks (*.hook.*)
+â”‚   â”œâ”€â”€ useAuth.hook.ts
+â”‚   â””â”€â”€ useOrders.hook.ts
+â”œâ”€â”€ logic/               # Business logic (*.logic.*)
+â”‚   â”œâ”€â”€ order.logic.ts
+â”‚   â””â”€â”€ pricing.logic.ts
+â”œâ”€â”€ data/                # Data access (*.data.*)
+â”‚   â”œâ”€â”€ order.data.ts
+â”‚   â””â”€â”€ user.data.ts
+â”œâ”€â”€ mappers/             # Data mappers (*.mapper.*)
+â”‚   â”œâ”€â”€ order.mapper.ts
+â”‚   â””â”€â”€ user.mapper.ts
+â”œâ”€â”€ ports/               # Port interfaces (*.port.*)
+â”‚   â”œâ”€â”€ email.port.ts
+â”‚   â””â”€â”€ payment.port.ts
+â”œâ”€â”€ adapters/            # Port implementations (*.adapter.*)
+â”‚   â”œâ”€â”€ sendgrid.adapter.ts
+â”‚   â””â”€â”€ stripe.adapter.ts
+â”œâ”€â”€ repositories/        # Repositories (*.repository.*)
+â”‚   â”œâ”€â”€ order.repository.ts
+â”‚   â””â”€â”€ user.repository.ts
+â”œâ”€â”€ usecases/            # Use cases (*.use-case.*)
+â”‚   â”œâ”€â”€ create-order.usecase.ts
+â”‚   â””â”€â”€ cancel-order.usecase.ts
+â”œâ”€â”€ entities/            # Domain entities (*.entity.*)
+â”‚   â”œâ”€â”€ order.entity.ts
+â”‚   â””â”€â”€ user.entity.ts
+â”œâ”€â”€ value-objects/       # Value objects (*.value-object.*)
+â”‚   â”œâ”€â”€ money.value-object.ts
+â”‚   â””â”€â”€ email.value-object.ts
+â”œâ”€â”€ policies/            # Business policies (*.policy.*)
+â”‚   â”œâ”€â”€ order-policy.policy.ts
+â”‚   â””â”€â”€ pricing-policy.policy.ts
+â”œâ”€â”€ events/              # Domain events (*.event.*)
+â”‚   â”œâ”€â”€ order-created.event.ts
+â”‚   â””â”€â”€ order-cancelled.event.ts
+â”œâ”€â”€ schemas/             # Validation schemas (*.schema.*)
+â”‚   â”œâ”€â”€ order.schema.ts
+â”‚   â””â”€â”€ user.schema.ts
+â”œâ”€â”€ types/               # Type definitions (*.types.*)
+â”‚   â”œâ”€â”€ order.types.ts
+â”‚   â””â”€â”€ user.types.ts
+â””â”€â”€ main.ts              # Application entry point
 ```
 
 ---

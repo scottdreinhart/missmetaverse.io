@@ -1,32 +1,23 @@
----
+﻿---
 slug: cache-aside-pattern
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside
   - https://www.enterpriseintegrationpatterns.com/patterns/performance/Cache.html
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
   - caching
   - performance
   - distributed-systems
   - patterns
----
-
+  - --
 # Cache-Aside Pattern
 
 ## Definition
 
 Cache-Aside is a **caching pattern where the application checks the cache first, and if data is missing, loads it from the source and stores it in the cache**.
 
-> "The cache-aside pattern is a lazy loading pattern where the cache and database are updated by the application code, not automatically." — Microsoft Azure Architecture
+> "The cache-aside pattern is a lazy loading pattern where the cache and database are updated by the application code, not automatically." â€” Microsoft Azure Architecture
 
 ## Problem Addressed
 
@@ -38,8 +29,8 @@ Without caching:
 
 ## Scope and Boundaries
 
-- Cache-Aside ≠ Read-Through (cache-aside is application-managed, read-through is cache-managed)
-- Cache-Aside ≠ Write-Through (cache-aside reads lazily, write-through writes synchronously)
+- Cache-Aside â‰  Read-Through (cache-aside is application-managed, read-through is cache-managed)
+- Cache-Aside â‰  Write-Through (cache-aside reads lazily, write-through writes synchronously)
 - Cache-Aside is a **performance pattern**, not a consistency pattern
 
 ## When to Apply
@@ -53,21 +44,21 @@ Without caching:
 
 | Cost | Description |
 |------|-------------|
-| **Stale data** — Cache may have old data |
-| **Complexity** — Cache invalidation is hard |
-| **Memory** — Cache uses memory |
+| **Stale data** â€” Cache may have old data |
+| **Complexity** â€” Cache invalidation is hard |
+| **Memory** â€” Cache uses memory |
 
 ## Common Misuses
 
 - **Caching everything**: Not everything benefits from caching
 - **No invalidation**: Cached data becomes stale
-- **Confusing with read-through**: Cache-aside ≠ read-through
+- **Confusing with read-through**: Cache-aside â‰  read-through
 
 ## Related Concepts
 
-- [Read-Through Cache](Architecture/architecture-patterns.md) — Alternative caching pattern
-- [Write-Through Cache](Architecture/architecture-patterns.md) — Alternative caching pattern
-- [Eventual Consistency](Architecture/architecture-patterns.md) — Cache consistency
+- [Read-Through Cache](Architecture/architecture-patterns.md) â€” Alternative caching pattern
+- [Write-Through Cache](Architecture/architecture-patterns.md) â€” Alternative caching pattern
+- [Eventual Consistency](Architecture/architecture-patterns.md) â€” Cache consistency
 
 ## Project Observations
 

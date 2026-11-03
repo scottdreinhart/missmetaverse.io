@@ -1,9 +1,11 @@
+﻿---
+slug: yagni
+---
+
 # YAGNI
 
 > **Purpose:** Don't build anything until it's necessary.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-yagni`
@@ -51,8 +53,6 @@ declared
 - arch-dry
 - arch-explicit-over-implicit
 - arch-fail-fast
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ YAGNI does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/kiss]] — KISS Principle
-- [[Architecture/dry]] — DRY Principle
-- [[Architecture/explicit-over-implicit]] — Explicit over Implicit
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/kiss]] â€” KISS Principle
+- [[Architecture/dry]] â€” DRY Principle
+- [[Architecture/explicit-over-implicit]] â€” Explicit over Implicit
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows YAGNI through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of YAGNI Note**

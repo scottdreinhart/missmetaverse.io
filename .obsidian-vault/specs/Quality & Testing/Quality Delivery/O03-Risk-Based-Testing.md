@@ -1,31 +1,22 @@
----
+﻿---
 slug: risk-based-testing
 sources:
   - https://www.ministryoftesting.com/
   - https://martinfowler.com/articles/risk-based-testing.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - risk-based-testing
   - testing
   - quality
   - strategy
----
-
+  - --
 # Risk-Based Testing
 
 ## Definition
 
 Risk-Based Testing is **a testing strategy that prioritizes testing efforts based on the risk level of different parts of the system**.
 
-> "Risk-based testing prioritizes testing efforts based on the risk level of different parts of the system." — Martin Fowler
+> "Risk-based testing prioritizes testing efforts based on the risk level of different parts of the system." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without risk-based testing:
 
 ## Scope and Boundaries
 
-- Risk-Based Testing ≠ TDD (risk-based testing prioritizes tests, TDD writes tests before code)
+- Risk-Based Testing â‰  TDD (risk-based testing prioritizes tests, TDD writes tests before code)
 - Risk-Based Testing = Prioritization (risk-based testing prioritizes testing efforts)
 - Risk-Based Testing is a **testing strategy**, not a pattern
 
@@ -52,9 +43,9 @@ Without risk-based testing:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Risk assessment adds complexity |
-| **Time** — Risk assessment takes time |
-| **Subjectivity** — Risk assessment can be subjective |
+| **Complexity** â€” Risk assessment adds complexity |
+| **Time** â€” Risk assessment takes time |
+| **Subjectivity** â€” Risk assessment can be subjective |
 
 ## Common Misuses
 
@@ -64,9 +55,9 @@ Without risk-based testing:
 
 ## Related Concepts
 
-- [Test-Driven Development](Quality Delivery/test-driven-development.md) — TDD complements risk-based testing
-- [Automated Testing](Quality Delivery/automated-testing.md) — Automated testing supports risk-based testing
-- [Property-Based Testing](Quality Delivery/property-based-testing.md) — Property-based testing can be applied based on risk
+- [Test-Driven Development](Quality Delivery/test-driven-development.md) â€” TDD complements risk-based testing
+- [Automated Testing](Quality Delivery/automated-testing.md) â€” Automated testing supports risk-based testing
+- [Property-Based Testing](Quality Delivery/property-based-testing.md) â€” Property-based testing can be applied based on risk
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without risk-based testing:
   - The project's architecture patterns note covers testing concepts
   - No evidence of risk-based testing in existing code (src/ is empty)
 - File naming conventions support risk-based testing:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

@@ -1,32 +1,22 @@
----
+﻿---
 slug: pure-functions
 sources:
   - https://en.wikipedia.org/wiki/Pure_function
   - https://wiki.c2.com/?PureFunction
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - pure-functions
   - functional
   - typescript
   - design
----
-
+  - --
 # Pure Functions
 
 ## Definition
 
 A Pure Function is a function that **always produces the same output for the same input and has no side effects**. It doesn't modify external state or depend on external state.
 
-> "A pure function is a function that has the following properties: 1. It always returns the same result given the same arguments. 2. It has no side effects." — Functional programming definition
+> "A pure function is a function that has the following properties: 1. It always returns the same result given the same arguments. 2. It has no side effects." â€” Functional programming definition
 
 ## Problem Addressed
 
@@ -38,9 +28,9 @@ Impure functions lead to:
 
 ## Scope and Boundaries
 
-- Pure ≠ Simple (complex calculations can be pure)
-- Pure ≠ No I/O (pure functions can be composed with impure functions)
-- Pure ≠ Functional (functional programming uses pure functions but is broader)
+- Pure â‰  Simple (complex calculations can be pure)
+- Pure â‰  No I/O (pure functions can be composed with impure functions)
+- Pure â‰  Functional (functional programming uses pure functions but is broader)
 
 ## When to Apply
 
@@ -53,9 +43,9 @@ Impure functions lead to:
 
 | Cost | Description |
 |------|-------------|
-| **Immutability overhead** — Pure functions need immutable inputs |
-| **Composition complexity** — Composing many pure functions can be complex |
-| **I/O handling** — Pure functions can't do I/O directly |
+| **Immutability overhead** â€” Pure functions need immutable inputs |
+| **Composition complexity** â€” Composing many pure functions can be complex |
+| **I/O handling** â€” Pure functions can't do I/O directly |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Impure functions lead to:
 
 ## Related Concepts
 
-- [Immutability](Architecture/immutable-data.md) — Pure functions need immutable inputs
-- [Command-Query Separation](Architecture/command-query-separation.md) — Queries should be pure
-- [Parse, Don't Validate](Architecture/parse-dont-validate.md) — Parsing is a pure operation
+- [Immutability](Architecture/immutable-data.md) â€” Pure functions need immutable inputs
+- [Command-Query Separation](Architecture/command-query-separation.md) â€” Queries should be pure
+- [Parse, Don't Validate](Architecture/parse-dont-validate.md) â€” Parsing is a pure operation
 
 ## Project Observations
 
@@ -76,8 +66,8 @@ Impure functions lead to:
   - No implicit any (forces explicit types)
   - Strict mode (catches side effects)
 - File naming conventions support purity:
-  - `*.logic.ts` — Business logic should be pure
-  - `*.data.ts` — Data access is impure (by design)
+  - `*.logic.ts` â€” Business logic should be pure
+  - `*.data.ts` â€” Data access is impure (by design)
 
 ## Sources
 

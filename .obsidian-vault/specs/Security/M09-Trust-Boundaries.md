@@ -1,36 +1,22 @@
----
+﻿---
 slug: trust-boundaries
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
-
   - trust-boundaries
   - security
   - architecture
   - design
----
-
+  - --
 # Trust Boundaries
 
 ## Definition
 
 Trust Boundaries is **a security concept that defines the points where data crosses from one trust level to another, requiring validation and authentication**.
 
-> "A trust boundary is a point where data crosses from one trust level to another. At each trust boundary, data must be treated as untrusted." — OWASP
+> "A trust boundary is a point where data crosses from one trust level to another. At each trust boundary, data must be treated as untrusted." â€” OWASP
 
 ## Problem Addressed
 
@@ -42,7 +28,7 @@ Without trust boundaries:
 
 ## Scope and Boundaries
 
-- Trust Boundaries ≠ Authentication (trust boundaries define where authentication is needed, authentication verifies identity)
+- Trust Boundaries â‰  Authentication (trust boundaries define where authentication is needed, authentication verifies identity)
 - Trust Boundaries = Validation (trust boundaries require validation)
 - Trust Boundaries is a **security concept**, not a pattern
 
@@ -57,8 +43,8 @@ Without trust boundaries:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Trust boundaries add validation complexity |
-| **Time** — Identifying trust boundaries takes time |
+| **Complexity** â€” Trust boundaries add validation complexity |
+| **Time** â€” Identifying trust boundaries takes time |
 | **Performance**: Validation adds overhead |
 
 ## Common Misuses
@@ -69,9 +55,9 @@ Without trust boundaries:
 
 ## Related Concepts
 
-- [Authentication](Security/authentication.md) — Authentication is needed at trust boundaries
-- [Input Validation](Security/input-validation.md) — Input validation is needed at trust boundaries
-- [Security Principles](Security/security-principles.md) — Security principles include trust boundaries
+- [Authentication](Security/authentication.md) â€” Authentication is needed at trust boundaries
+- [Input Validation](Security/input-validation.md) â€” Input validation is needed at trust boundaries
+- [Security Principles](Security/security-principles.md) â€” Security principles include trust boundaries
 
 ## Project Observations
 
@@ -81,8 +67,8 @@ Without trust boundaries:
   - The project's architecture patterns note covers security concepts
   - No evidence of trust boundaries in existing code (src/ is empty)
 - File naming conventions support trust boundaries:
-  - `*.guard.ts` — Guard files
-  - `*.middleware.ts` — Middleware files
+  - `*.guard.ts` â€” Guard files
+  - `*.middleware.ts` â€” Middleware files
 
 ## Sources
 
@@ -354,12 +340,12 @@ export const boundaryLogger = new BoundaryLogger()
 5. **Log crossings**: Audit all boundary crossings
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `zod` — for validation
-- **npm Package**: `jsonwebtoken` — for JWT authentication
-- **npm Package**: `express` — for middleware
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `zod` â€” for validation
+- **npm Package**: `jsonwebtoken` â€” for JWT authentication
+- **npm Package**: `express` â€” for middleware
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when designing boundaries

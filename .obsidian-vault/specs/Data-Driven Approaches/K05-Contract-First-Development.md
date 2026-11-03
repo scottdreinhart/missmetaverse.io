@@ -1,32 +1,22 @@
----
+﻿---
 slug: contract-first
 sources:
   - https://swagger.io/
   - https://www.openapis.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - contract-first
   - api
   - design
   - swagger
----
-
+  - --
 # Contract-First Development
 
 ## Definition
 
 Contract-First Development is **an API design approach where the API contract (schema) is defined before implementation, ensuring clear agreements between consumers and providers**.
 
-> "Contract-first development defines the API contract before implementation, ensuring clear agreements between consumers and providers." — Swagger
+> "Contract-first development defines the API contract before implementation, ensuring clear agreements between consumers and providers." â€” Swagger
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without contract-first:
 
 ## Scope and Boundaries
 
-- Contract-First ≠ Code-First (contract-first defines the contract first, code-first generates the contract from code)
+- Contract-First â‰  Code-First (contract-first defines the contract first, code-first generates the contract from code)
 - Contract-First = Agreement (contract-first defines agreements before implementation)
 - Contract-First is a **design approach**, not a pattern
 
@@ -53,9 +43,9 @@ Without contract-first:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — Defining contracts takes time |
-| **Complexity** — More upfront design required |
-| **Rigidity** — Changes to contract require versioning |
+| **Time** â€” Defining contracts takes time |
+| **Complexity** â€” More upfront design required |
+| **Rigidity** â€” Changes to contract require versioning |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without contract-first:
 
 ## Related Concepts
 
-- [Schema-Driven Development](Data-Driven Approaches/schema-driven-development.md) — Schema-driven development is related to contract-first
-- [API Versioning](Architecture/api-versioning.md) — API versioning manages contract changes
-- [REST API Design](APIs Distributed Systems/rest-api-design.md) — REST API design uses contracts
+- [Schema-Driven Development](Data-Driven Approaches/schema-driven-development.md) â€” Schema-driven development is related to contract-first
+- [API Versioning](Architecture/api-versioning.md) â€” API versioning manages contract changes
+- [REST API Design](APIs Distributed Systems/rest-api-design.md) â€” REST API design uses contracts
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without contract-first:
   - The project's architecture patterns note covers API concepts
   - No evidence of contract-first in existing code (src/ is empty)
 - File naming conventions support contract-first:
-  - `*.schema.ts` — Schema files
-  - `*.types.ts` — Type files
+  - `*.schema.ts` â€” Schema files
+  - `*.types.ts` â€” Type files
 
 ## Sources
 

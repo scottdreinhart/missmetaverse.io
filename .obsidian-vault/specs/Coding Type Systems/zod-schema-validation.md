@@ -1,9 +1,11 @@
+﻿---
+slug: zod-schema-validation
+---
+
 # Zod Schema Validation
 
 > **Purpose:** Runtime schema validation with TypeScript.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `zod-schema-validation`
@@ -49,8 +51,6 @@ declared
 - coding-strict-typing
 - coding-boundary-validation
 - coding-explicit-error-modeling
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Zod does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/parse-dont-validate]] — Parse, Don't Merely Validate
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Coding Type Systems/boundary-validation]] — Boundary Validation
-- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
+- [[Coding Type Systems/parse-dont-validate]] â€” Parse, Don't Merely Validate
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Coding Type Systems/boundary-validation]] â€” Boundary Validation
+- [[Coding Type Systems/explicit-error-modeling]] â€” Explicit Error Modeling
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Zod through:
 ## Sources
 
 - [[Sources/zod-documentation|Zod Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Zod Schema Validation Note**

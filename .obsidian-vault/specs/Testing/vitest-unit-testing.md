@@ -1,9 +1,11 @@
+﻿---
+slug: vitest-unit-testing
+---
+
 # Vitest Unit Testing
 
 > **Purpose:** Configure Vitest for unit testing.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `vitest-unit-testing`
@@ -50,8 +52,6 @@ declared
 - vitest-coverage
 - vitest-mock
 - vitest-snapshot
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Vitest does not apply to:
 
 ## Related Concepts
 
-- [[Vitest/vitest-configuration]] — Vitest Configuration
-- [[Vitest/vitest-coverage]] — Vitest Coverage
-- [[Vitest/vitest-mock]] — Vitest Mock
-- [[Vitest/vitest-snapshot]] — Vitest Snapshot
+- [[Vitest/vitest-configuration]] â€” Vitest Configuration
+- [[Vitest/vitest-coverage]] â€” Vitest Coverage
+- [[Vitest/vitest-mock]] â€” Vitest Mock
+- [[Vitest/vitest-snapshot]] â€” Vitest Snapshot
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Vitest through:
 ## Sources
 
 - [[Sources/vitest-documentation|Vitest Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Vitest Unit Testing Note**

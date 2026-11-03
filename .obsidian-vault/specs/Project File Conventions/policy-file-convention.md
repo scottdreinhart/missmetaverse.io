@@ -1,9 +1,11 @@
+﻿---
+slug: policy-file-convention
+---
+
 # Policy File Convention
 
 > **Purpose:** Define business rules and policies.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-policy-file`
@@ -51,11 +53,9 @@ declared
 - project-hook-file
 - ddd-domain-invariant
 
----
-
 ## Definition
 
-The *.policy.ts file convention designates files that define business policies — rules and constraints that govern domain behavior.
+The *.policy.ts file convention designates files that define business policies â€” rules and constraints that govern domain behavior.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Policy files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
-- [[DDD/domain-invariant]] — Domain Invariant
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
+- [[DDD/domain-invariant]] â€” Domain Invariant
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows policy file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Policy File Convention Note**

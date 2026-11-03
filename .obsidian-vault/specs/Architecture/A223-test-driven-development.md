@@ -1,31 +1,22 @@
----
+﻿---
 slug: test-driven-development
 sources:
   - https://martinfowler.com/articles/changeTestFirst.html
   - https://en.wikipedia.org/wiki/Test-driven_development
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - tdd
   - testing
   - red-green-refactor
   - design
----
-
+  - --
 # Test-Driven Development
 
 ## Definition
 
 Test-Driven Development (TDD) is a **software development process where tests are written before the implementation, following the Red-Green-Refactor cycle**.
 
-> "TDD is not about testing. It's about design. The tests drive the design of the code." — Kent Beck
+> "TDD is not about testing. It's about design. The tests drive the design of the code." â€” Kent Beck
 
 ## Problem Addressed
 
@@ -37,8 +28,8 @@ Without TDD:
 
 ## Scope and Boundaries
 
-- TDD ≠ Testing (TDD is a design process, testing is verification)
-- TDD ≠ Unit testing (TDD uses unit tests, but is about design)
+- TDD â‰  Testing (TDD is a design process, testing is verification)
+- TDD â‰  Unit testing (TDD uses unit tests, but is about design)
 - TDD is a **development process**, not a testing strategy
 
 ## When to Apply
@@ -52,21 +43,21 @@ Without TDD:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — Writing tests first takes time |
-| **Learning curve** — TDD is hard to learn |
-| **UI testing** — TDD is less effective for UI |
+| **Time** â€” Writing tests first takes time |
+| **Learning curve** â€” TDD is hard to learn |
+| **UI testing** â€” TDD is less effective for UI |
 
 ## Common Misuses
 
 - **Everything TDD**: Not everything needs TDD
-- **Confusing with testing**: TDD ≠ testing
+- **Confusing with testing**: TDD â‰  testing
 - **Skipping refactor**: Refactor is essential to TDD
 
 ## Related Concepts
 
-- [Continuous Integration](Architecture/continuous-integration.md) — TDD with CI
-- [Unit Testing](Architecture/quality-delivery-maintainability.md) — TDD uses unit tests
-- [Refactoring](Architecture/quality-delivery-maintainability.md) — TDD includes refactor
+- [Continuous Integration](Architecture/continuous-integration.md) â€” TDD with CI
+- [Unit Testing](Architecture/quality-delivery-maintainability.md) â€” TDD uses unit tests
+- [Refactoring](Architecture/quality-delivery-maintainability.md) â€” TDD includes refactor
 
 ## Project Observations
 
@@ -75,8 +66,8 @@ Without TDD:
   - The project's quality and delivery note covers TDD
   - No evidence of TDD in existing code (src/ is empty)
 - File naming conventions support TDD:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

@@ -1,9 +1,11 @@
+﻿---
+slug: react-query-data-fetching
+---
+
 # React Query Data Fetching
 
 > **Purpose:** Fetch data with React Query.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `react-query-data-fetching`
@@ -50,8 +52,6 @@ declared
 - react-query-server-state
 - react-query-caching
 - react-query-configuration
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ React Query does not apply to:
 
 ## Related Concepts
 
-- [[React Query/react-query-data-fetching]] — React Query Data Fetching
-- [[React Query/react-query-server-state]] — React Query Server State
-- [[React Query/react-query-caching]] — React Query Caching
-- [[React Query/react-query-configuration]] — React Query Configuration
+- [[React Query/react-query-data-fetching]] â€” React Query Data Fetching
+- [[React Query/react-query-server-state]] â€” React Query Server State
+- [[React Query/react-query-caching]] â€” React Query Caching
+- [[React Query/react-query-configuration]] â€” React Query Configuration
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React Query through:
 ## Sources
 
 - [[Sources/react-query-documentation|React Query Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Query Data Fetching Note**

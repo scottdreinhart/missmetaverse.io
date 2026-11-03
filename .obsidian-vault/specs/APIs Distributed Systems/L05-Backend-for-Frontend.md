@@ -1,32 +1,22 @@
----
+﻿---
 slug: bff
 sources:
   - https://www.thoughtworks.com/radar/techniques/backend-for-frontend
   - https://martinfowler.com/articles/201701-frontend.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - bff
   - api
   - backend
   - frontend
----
-
+  - --
 # Backend for Frontend
 
 ## Definition
 
 Backend for Frontend (BFF) is **a pattern where a dedicated backend service is created for each frontend type (web, mobile, etc.) to aggregate and transform data**.
 
-> "A BFF is a specialized backend service that serves a specific frontend, aggregating data from multiple backend services." — ThoughtWorks
+> "A BFF is a specialized backend service that serves a specific frontend, aggregating data from multiple backend services." â€” ThoughtWorks
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without BFF:
 
 ## Scope and Boundaries
 
-- BFF ≠ API Gateway (BFF is per-frontend, API gateway is shared across all frontends)
+- BFF â‰  API Gateway (BFF is per-frontend, API gateway is shared across all frontends)
 - BFF = Specialization (BFF specializes for each frontend type)
 - BFF is an **architecture pattern**, not a design pattern
 
@@ -53,9 +43,9 @@ Without BFF:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — BFF adds backend services |
-| **Time** — Implementing BFFs takes time |
-| **Duplication** — Common logic may be duplicated |
+| **Complexity** â€” BFF adds backend services |
+| **Time** â€” Implementing BFFs takes time |
+| **Duplication** â€” Common logic may be duplicated |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without BFF:
 
 ## Related Concepts
 
-- [API Gateway](Architecture/api-gateway.md) — API gateway complements BFF
-- [DTOs](APIs Distributed Systems/dtos.md) — BFFs use DTOs to transform data
-- [REST API Design](APIs Distributed Systems/rest-api-design.md) — BFFs consume REST APIs
+- [API Gateway](Architecture/api-gateway.md) â€” API gateway complements BFF
+- [DTOs](APIs Distributed Systems/dtos.md) â€” BFFs use DTOs to transform data
+- [REST API Design](APIs Distributed Systems/rest-api-design.md) â€” BFFs consume REST APIs
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without BFF:
   - The project's architecture patterns note covers API concepts
   - No evidence of BFF in existing code (src/ is empty)
 - File naming conventions support BFF:
-  - `*.bff.ts` — BFF files
-  - `*.service.ts` — Service files
+  - `*.bff.ts` â€” BFF files
+  - `*.service.ts` â€” Service files
 
 ## Sources
 

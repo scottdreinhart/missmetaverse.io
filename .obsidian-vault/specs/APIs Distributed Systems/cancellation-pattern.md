@@ -1,9 +1,11 @@
+﻿---
+slug: cancellation-pattern
+---
+
 # Cancellation Pattern
 
 > **Purpose:** Cancel long-running operations with Cancellation.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `cancellation-pattern`
@@ -50,8 +52,6 @@ declared
 - timeout-pattern
 - retry-pattern
 - async-programming
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Cancellation does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/cancellation-pattern]] — Cancellation Pattern
-- [[APIs Distributed Systems/timeout-pattern]] — Timeout Pattern
-- [[APIs Distributed Systems/retry-pattern]] — Retry Pattern
-- [[APIs Distributed Systems/async-programming]] — Async Programming
+- [[APIs Distributed Systems/cancellation-pattern]] â€” Cancellation Pattern
+- [[APIs Distributed Systems/timeout-pattern]] â€” Timeout Pattern
+- [[APIs Distributed Systems/retry-pattern]] â€” Retry Pattern
+- [[APIs Distributed Systems/async-programming]] â€” Async Programming
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Cancellation Pattern through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of Cancellation Pattern Note**

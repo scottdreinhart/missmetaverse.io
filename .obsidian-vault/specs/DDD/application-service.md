@@ -1,9 +1,11 @@
+﻿---
+slug: application-service
+---
+
 # Application Service
 
 > **Purpose:** Implement application services with Application Service.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `application-service`
@@ -50,8 +52,6 @@ declared
 - application-layer
 - use-case-coordinator
 - workflow
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Application Service does not apply to:
 
 ## Related Concepts
 
-- [[DDD/application-service]] — Application Service
-- [[DDD/application-layer]] — Application Layer
-- [[DDD/use-case-coordinator]] — Use Case Coordinator
-- [[DDD/workflow]] — Workflow
+- [[DDD/application-service]] â€” Application Service
+- [[DDD/application-layer]] â€” Application Layer
+- [[DDD/use-case-coordinator]] â€” Use Case Coordinator
+- [[DDD/workflow]] â€” Workflow
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Application Service through:
 ## Sources
 
 - [[Sources/evans-ddd|Domain-Driven Design by Eric Evans]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Application Service Note**

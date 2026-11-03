@@ -1,9 +1,11 @@
+﻿---
+slug: sentry-error-monitoring
+---
+
 # Sentry Error Monitoring
 
 > **Purpose:** Monitor errors with Sentry.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `sentry-error-monitoring`
@@ -50,8 +52,6 @@ declared
 - sentry-performance-monitoring
 - sentry-issue-tracking
 - sentry-integration
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Sentry does not apply to:
 
 ## Related Concepts
 
-- [[Sentry/sentry-error-tracking]] — Sentry Error Tracking
-- [[Sentry/sentry-performance-monitoring]] — Sentry Performance Monitoring
-- [[Sentry/sentry-issue-tracking]] — Sentry Issue Tracking
-- [[Sentry/sentry-integration]] — Sentry Integration
+- [[Sentry/sentry-error-tracking]] â€” Sentry Error Tracking
+- [[Sentry/sentry-performance-monitoring]] â€” Sentry Performance Monitoring
+- [[Sentry/sentry-issue-tracking]] â€” Sentry Issue Tracking
+- [[Sentry/sentry-integration]] â€” Sentry Integration
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Sentry through:
 ## Sources
 
 - [[Sources/sentry-documentation|Sentry Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Sentry Error Monitoring Note**

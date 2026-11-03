@@ -1,37 +1,23 @@
----
+﻿---
 slug: secrets-management
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
   - secrets-management
   - security
   - secrets
   - compliance
----
-
+  - --
 # Secrets Management
 
 ## Definition
 
 Secrets Management is **the practice of securely storing, rotating, and accessing sensitive data such as passwords, API keys, and certificates**.
 
-> "Secrets management is the practice of securely storing, rotating, and accessing sensitive data." — OWASP
+> "Secrets management is the practice of securely storing, rotating, and accessing sensitive data." â€” OWASP
 
 ## Problem Addressed
 
@@ -43,7 +29,7 @@ Without secrets management:
 
 ## Scope and Boundaries
 
-- Secrets Management ≠ Data Encryption (secrets management manages secrets, data encryption protects data)
+- Secrets Management â‰  Data Encryption (secrets management manages secrets, data encryption protects data)
 - Secrets Management = Protection (secrets management protects secrets)
 - Secrets Management is a **security practice**, not a pattern
 
@@ -58,8 +44,8 @@ Without secrets management:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Secrets management adds infrastructure complexity |
-| **Time** — Implementing secrets management takes time |
+| **Complexity** â€” Secrets management adds infrastructure complexity |
+| **Time** â€” Implementing secrets management takes time |
 | **Overhead**: Secrets management adds overhead |
 
 ## Common Misuses
@@ -70,9 +56,9 @@ Without secrets management:
 
 ## Related Concepts
 
-- [Data Encryption](Security/data-encryption.md) — Data encryption protects secrets
-- [Data Minimization](Security/data-minimization.md) — Data minimization limits secrets collection
-- [Security Principles](Security/security-principles.md) — Security principles include secrets management
+- [Data Encryption](Security/data-encryption.md) â€” Data encryption protects secrets
+- [Data Minimization](Security/data-minimization.md) â€” Data minimization limits secrets collection
+- [Security Principles](Security/security-principles.md) â€” Security principles include secrets management
 
 ## Project Observations
 
@@ -82,8 +68,8 @@ Without secrets management:
   - The project's architecture patterns note covers security concepts
   - No evidence of secrets management in existing code (src/ is empty)
 - File naming conventions support secrets management:
-  - `*.env.ts` — Environment files
-  - `*.config.ts` — Config files
+  - `*.env.ts` â€” Environment files
+  - `*.config.ts` â€” Config files
 
 ## Sources
 
@@ -126,7 +112,7 @@ graph TD
 ### Step 1: Create .env.local for Local Development
 
 ```bash
-# .env.local — NEVER commit this file
+# .env.local â€” NEVER commit this file
 # Add to .gitignore
 
 # Database
@@ -150,7 +136,7 @@ AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 ### Step 2: Create .env.example Template
 
 ```bash
-# .env.example — Commit this file (with placeholder values)
+# .env.example â€” Commit this file (with placeholder values)
 # Team members copy this to .env.local
 
 DATABASE_URL=postgresql://user:password@localhost:5432/mydb
@@ -353,12 +339,12 @@ secrets/
 5. **Rotate regularly**: Set up automatic rotation
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `zod` — for environment validation
-- **npm Package**: `@aws-sdk/client-secrets-manager` — for AWS Secrets Manager
-- **npm Package**: `dotenv` — for loading .env files
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `zod` â€” for environment validation
+- **npm Package**: `@aws-sdk/client-secrets-manager` â€” for AWS Secrets Manager
+- **npm Package**: `dotenv` â€” for loading .env files
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when configuring secrets

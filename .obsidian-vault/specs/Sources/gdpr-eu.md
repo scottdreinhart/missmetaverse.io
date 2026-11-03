@@ -1,4 +1,4 @@
----
+﻿---
 slug: gdpr-eu
 sources:
   - https://gdpr.eu/
@@ -6,15 +6,11 @@ sources:
 
 ---
 tags:
-
-
-
-
   - gdpr
   - privacy
   - compliance
 source_id: gdpr-eu
-title: "GDPR — General Data Protection Regulation"
+title: "GDPR â€” General Data Protection Regulation"
 author: "European Union"
 source_type: regulation
 canonical_url: https://gdpr.eu/

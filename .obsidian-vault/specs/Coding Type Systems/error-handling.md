@@ -1,9 +1,11 @@
+﻿---
+slug: error-handling
+---
+
 # Error Handling
 
 > **Purpose:** Handle errors with Error Handling.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `error-handling`
@@ -50,8 +52,6 @@ declared
 - exception-handling
 - error-recovery
 - error-reporting
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Error Handling does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/error-handling]] — Error Handling
-- [[Coding Type Systems/exception-handling]] — Exception Handling
-- [[Coding Type Systems/error-recovery]] — Error Recovery
-- [[Coding Type Systems/error-reporting]] — Error Reporting
+- [[Coding Type Systems/error-handling]] â€” Error Handling
+- [[Coding Type Systems/exception-handling]] â€” Exception Handling
+- [[Coding Type Systems/error-recovery]] â€” Error Recovery
+- [[Coding Type Systems/error-reporting]] â€” Error Reporting
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Error Handling through:
 ## Sources
 
 - [[Sources/error-handling-guide|Error Handling Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Error Handling Note**

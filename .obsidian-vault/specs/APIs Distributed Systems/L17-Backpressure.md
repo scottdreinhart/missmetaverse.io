@@ -1,32 +1,22 @@
----
+﻿---
 slug: backpressure
 sources:
   - https://en.wikipedia.org/wiki/Backpressure_(computing)
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - backpressure
   - distributed-systems
   - reliability
   - performance
----
-
+  - --
 # Backpressure
 
 ## Definition
 
 Backpressure is **a distributed systems pattern that controls the rate of data flow between components to prevent overwhelming downstream systems**.
 
-> "Backpressure is a mechanism that allows a consumer to signal to a producer that it is unable to keep up with the current rate of data." — Wikipedia
+> "Backpressure is a mechanism that allows a consumer to signal to a producer that it is unable to keep up with the current rate of data." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without backpressure:
 
 ## Scope and Boundaries
 
-- Backpressure ≠ Flow Control (backpressure is consumer-driven, flow control is network-driven)
+- Backpressure â‰  Flow Control (backpressure is consumer-driven, flow control is network-driven)
 - Backpressure = Protection (backpressure protects downstream systems)
 - Backpressure is a **reliability pattern**, not a design pattern
 
@@ -53,9 +43,9 @@ Without backpressure:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Backpressure requires coordination |
-| **Time** — Implementing backpressure takes time |
-| **Performance** — Backpressure can reduce throughput |
+| **Complexity** â€” Backpressure requires coordination |
+| **Time** â€” Implementing backpressure takes time |
+| **Performance** â€” Backpressure can reduce throughput |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without backpressure:
 
 ## Related Concepts
 
-- [Bulkheads](Architecture/bulkheads-pattern.md) — Bulkheads complement backpressure
-- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) — Circuit breaker works with backpressure
-- [Caching Strategies](Data Databases/caching-strategies.md) — Caching can reduce backpressure needs
+- [Bulkheads](Architecture/bulkheads-pattern.md) â€” Bulkheads complement backpressure
+- [Circuit Breaker](Architecture/circuit-breaker-pattern.md) â€” Circuit breaker works with backpressure
+- [Caching Strategies](Data Databases/caching-strategies.md) â€” Caching can reduce backpressure needs
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without backpressure:
   - The project's architecture patterns note covers distributed systems concepts
   - No evidence of backpressure in existing code (src/ is empty)
 - File naming conventions support backpressure:
-  - `*.service.ts` — Service files
-  - `*.repository.ts` — Repository files
+  - `*.service.ts` â€” Service files
+  - `*.repository.ts` â€” Repository files
 
 ## Sources
 

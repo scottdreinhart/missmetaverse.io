@@ -1,9 +1,11 @@
+﻿---
+slug: graphql-schema-design
+---
+
 # GraphQL Schema Design
 
 > **Purpose:** Design GraphQL schemas with GraphQL Schema Design.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `graphql-schema-design`
@@ -50,8 +52,6 @@ declared
 - graphql-types
 - graphql-queries
 - graphql-mutations
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ GraphQL Schema Design does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/graphql-schema-design]] — GraphQL Schema Design
-- [[APIs Distributed Systems/graphql-types]] — GraphQL Types
-- [[APIs Distributed Systems/graphql-queries]] — GraphQL Queries
-- [[APIs Distributed Systems/graphql-mutations]] — GraphQL Mutations
+- [[APIs Distributed Systems/graphql-schema-design]] â€” GraphQL Schema Design
+- [[APIs Distributed Systems/graphql-types]] â€” GraphQL Types
+- [[APIs Distributed Systems/graphql-queries]] â€” GraphQL Queries
+- [[APIs Distributed Systems/graphql-mutations]] â€” GraphQL Mutations
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses GraphQL Schema Design through:
 ## Sources
 
 - [[Sources/graphql-schema-guide|GraphQL Schema Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of GraphQL Schema Design Note**

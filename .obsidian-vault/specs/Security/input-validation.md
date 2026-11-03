@@ -1,9 +1,11 @@
+﻿---
+slug: input-validation
+---
+
 # Input Validation
 
 > **Purpose:** Validate user input securely.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `input-validation`
@@ -50,8 +52,6 @@ declared
 - output-encoding
 - parameterized-queries
 - xss-prevention
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Input Validation does not apply to:
 
 ## Related Concepts
 
-- [[Security/input-validation]] — Input Validation
-- [[Security/output-encoding]] — Output Encoding
-- [[Security/parameterized-queries]] — Parameterized Queries
-- [[Security/xss-prevention]] — XSS Prevention
+- [[Security/input-validation]] â€” Input Validation
+- [[Security/output-encoding]] â€” Output Encoding
+- [[Security/parameterized-queries]] â€” Parameterized Queries
+- [[Security/xss-prevention]] â€” XSS Prevention
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Input Validation through:
 ## Sources
 
 - [[Sources/owasp-top-10|OWASP Top 10]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Input Validation Note**

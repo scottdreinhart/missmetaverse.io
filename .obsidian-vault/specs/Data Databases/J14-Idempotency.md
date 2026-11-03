@@ -1,32 +1,22 @@
----
+﻿---
 slug: idempotency
 sources:
   - https://www.postgresql.org/docs/
   - https://martinfowler.com/bliki/IdempotentOperation.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - database
   - idempotency
   - distributed-systems
   - reliability
----
-
+  - --
 # Idempotency
 
 ## Definition
 
 Idempotency is **the property that an operation can be applied multiple times without changing the result beyond the initial application**.
 
-> "An idempotent operation is one whose effect on the system state is the same whether it is executed once or multiple times." — Martin Fowler
+> "An idempotent operation is one whose effect on the system state is the same whether it is executed once or multiple times." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without idempotency:
 
 ## Scope and Boundaries
 
-- Idempotency ≠ Safety (idempotency guarantees no change on repeat, safety guarantees no harm)
+- Idempotency â‰  Safety (idempotency guarantees no change on repeat, safety guarantees no harm)
 - Idempotency = Reliability (idempotency improves reliability)
 - Idempotency is a **system property**, not a pattern
 
@@ -53,9 +43,9 @@ Without idempotency:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Idempotency requires tracking |
-| **Storage** — Need to track processed operations |
-| **Time** — Implementing idempotency takes time |
+| **Complexity** â€” Idempotency requires tracking |
+| **Storage** â€” Need to track processed operations |
+| **Time** â€” Implementing idempotency takes time |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without idempotency:
 
 ## Related Concepts
 
-- [Retry with Backoff](Architecture/retry-with-backoff.md) — Retry with backoff benefits from idempotency
-- [Transactional Outbox](Architecture/transactional-outbox.md) — Transactional outbox ensures idempotency
-- [Dead-Letter Queues](Architecture/dead-letter-queues.md) — Dead-letter queues handle non-idempotent operations
+- [Retry with Backoff](Architecture/retry-with-backoff.md) â€” Retry with backoff benefits from idempotency
+- [Transactional Outbox](Architecture/transactional-outbox.md) â€” Transactional outbox ensures idempotency
+- [Dead-Letter Queues](Architecture/dead-letter-queues.md) â€” Dead-letter queues handle non-idempotent operations
 
 ## Project Observations
 
@@ -76,8 +66,8 @@ Without idempotency:
   - The project's architecture patterns note covers distributed systems concepts
   - No evidence of idempotency in existing code (src/ is empty)
 - File naming conventions support idempotency:
-  - `*.repository.ts` — Repository files
-  - `*.service.ts` — Service files
+  - `*.repository.ts` â€” Repository files
+  - `*.service.ts` â€” Service files
 
 ## Sources
 

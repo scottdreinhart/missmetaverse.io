@@ -1,30 +1,23 @@
----
+﻿---
 slug: separation-of-conventions
 sources:
   - https://en.wikipedia.org/wiki/Convention_over_configuration
   - https://en.wikipedia.org/wiki/Configuration-driven_development
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
   - conventions
   - separation-of-conventions
   - configuration
   - patterns
----
-
+  - --
 # Separation of Conventions
 
 ## Definition
 
 Separation of Conventions is a **principle where code organization follows consistent naming and location conventions rather than explicit configuration**.
 
-> "Convention over configuration reduces the amount of configuration needed by following consistent conventions." — Software engineering principle
+> "Convention over configuration reduces the amount of configuration needed by following consistent conventions." â€” Software engineering principle
 
 ## Problem Addressed
 
@@ -36,8 +29,8 @@ Explicit configuration leads to:
 
 ## Scope and Boundaries
 
-- Conventions ≠ Configuration (conventions are about structure, configuration is about behavior)
-- Conventions ≠ Standards (conventions are about structure, standards are about quality)
+- Conventions â‰  Configuration (conventions are about structure, configuration is about behavior)
+- Conventions â‰  Standards (conventions are about structure, standards are about quality)
 - Conventions is a **principle**, not a specific pattern
 
 ## When to Apply
@@ -51,21 +44,21 @@ Explicit configuration leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Flexibility** — Conventions may not fit all cases |
-| **Learning curve** — Need to learn conventions |
-| **Debugging** — Hard to trace convention-based behavior |
+| **Flexibility** â€” Conventions may not fit all cases |
+| **Learning curve** â€” Need to learn conventions |
+| **Debugging** â€” Hard to trace convention-based behavior |
 
 ## Common Misuses
 
 - **Everything by convention**: Not everything should follow conventions
-- **Confusing with standards**: Conventions ≠ standards
+- **Confusing with standards**: Conventions â‰  standards
 - **Over-convention**: Too many conventions create rigidity
 
 ## Related Concepts
 
-- [Configuration-Driven Development](Architecture/configuration-driven-development.md) — Complementary approach
-- [Data-Driven Design](Architecture/data-driven-design.md) — Complementary approach
-- [File Separation Conventions](Architecture/file-level-separation-conventions.md) — Project-specific conventions
+- [Configuration-Driven Development](Architecture/configuration-driven-development.md) â€” Complementary approach
+- [Data-Driven Design](Architecture/data-driven-design.md) â€” Complementary approach
+- [File Separation Conventions](Architecture/file-level-separation-conventions.md) â€” Project-specific conventions
 
 ## Project Observations
 

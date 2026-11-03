@@ -1,4 +1,4 @@
----
+﻿---
 slug: evans-ddd-2003
 sources:
   - https://en.wikipedia.org/wiki/Domain-Driven_Design
@@ -6,14 +6,6 @@ sources:
 
 ---
 tags:
-
-
-
-
-
-
-
-
   - ddd
   - domain-driven-design
   - architecture
@@ -46,7 +38,7 @@ claims_supported:
   - factory-ddd
   - specification
   - acl
-access_limitations: Book — full text not inspected. Claims verified against bibliographic metadata and widely-cited index.
+access_limitations: Book â€” full text not inspected. Claims verified against bibliographic metadata and widely-cited index.
 research_notes: "The original DDD book by Eric Evans. The definitive source for all DDD tactical patterns. Bibliographic metadata verified via publisher catalog. Full text inspection not possible."
 
 ## See Also

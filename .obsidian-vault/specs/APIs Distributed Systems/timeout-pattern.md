@@ -1,9 +1,11 @@
+﻿---
+slug: timeout-pattern
+---
+
 # Timeout Pattern
 
 > **Purpose:** Prevent hanging requests with Timeout Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `timeout-pattern`
@@ -50,8 +52,6 @@ declared
 - retry-pattern
 - circuit-breaker-pattern
 - cancellation-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Timeout does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/timeout-pattern]] — Timeout Pattern
-- [[APIs Distributed Systems/retry-pattern]] — Retry Pattern
-- [[APIs Distributed Systems/circuit-breaker-pattern]] — Circuit Breaker Pattern
-- [[APIs Distributed Systems/cancellation-pattern]] — Cancellation Pattern
+- [[APIs Distributed Systems/timeout-pattern]] â€” Timeout Pattern
+- [[APIs Distributed Systems/retry-pattern]] â€” Retry Pattern
+- [[APIs Distributed Systems/circuit-breaker-pattern]] â€” Circuit Breaker Pattern
+- [[APIs Distributed Systems/cancellation-pattern]] â€” Cancellation Pattern
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Timeout Pattern through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of Timeout Pattern Note**

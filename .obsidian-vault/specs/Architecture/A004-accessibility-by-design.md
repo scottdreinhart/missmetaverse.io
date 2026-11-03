@@ -1,26 +1,15 @@
----
+﻿---
 slug: accessibility-by-design
 sources:
   - https://www.w3.org/WAI/
   - https://developer.mozilla.org/en-US/docs/Web/Accessibility
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - accessibility
   - a11y
   - design
   - w3c
----
-
+  - --
 ## Sources
 
 - [[Sources/wcag-21|wcag-21]]
@@ -31,7 +20,7 @@ tags:
 
 Accessibility by Design is the principle that **accessible features should be built into the design from the start, not added as an afterthought**.
 
-> "Accessibility is not a feature. It's a fundamental aspect of good design." — Web Accessibility Initiative
+> "Accessibility is not a feature. It's a fundamental aspect of good design." â€” Web Accessibility Initiative
 
 ## Problem Addressed
 
@@ -43,8 +32,8 @@ Accessibility as an afterthought leads to:
 
 ## Scope and Boundaries
 
-- Accessibility ≠ Screen readers (it includes keyboard, color, motion, etc.)
-- Accessibility ≠ WCAG (WCAG is a standard, accessibility is a principle)
+- Accessibility â‰  Screen readers (it includes keyboard, color, motion, etc.)
+- Accessibility â‰  WCAG (WCAG is a standard, accessibility is a principle)
 - Accessibility is a **design principle**, not a testing checklist
 
 ## When to Apply
@@ -58,9 +47,9 @@ Accessibility as an afterthought leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Design constraints** — Accessibility limits design choices |
-| **Testing** — Requires testing with assistive technologies |
-| **Knowledge** — Accessibility is complex and evolving |
+| **Design constraints** â€” Accessibility limits design choices |
+| **Testing** â€” Requires testing with assistive technologies |
+| **Knowledge** â€” Accessibility is complex and evolving |
 
 ## Common Misuses
 
@@ -70,9 +59,9 @@ Accessibility as an afterthought leads to:
 
 ## Related Concepts
 
-- [HTML Semantic Patterns](../Hypertext%20HTML/html-semantic-patterns.md) — Semantic HTML is accessible
-- [React Patterns](../React/react-patterns) — Accessible React components
-- [ShadCN UI](../ShadCN/shadcn-ui-patterns.md) — Accessible components by default
+- [HTML Semantic Patterns](../Hypertext%20HTML/html-semantic-patterns.md) â€” Semantic HTML is accessible
+- [React Patterns](../React/react-patterns) â€” Accessible React components
+- [ShadCN UI](../ShadCN/shadcn-ui-patterns.md) â€” Accessible components by default
 
 ## Project Observations
 

@@ -1,30 +1,22 @@
----
+﻿---
 slug: structured-concurrency
 sources:
   - https://www.typescriptlang.org/
   - https://nodejs.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
   - structured-concurrency
   - typescript
   - type-system
   - patterns
----
-
+  - --
 # Structured Concurrency
 
 ## Definition
 
 Structured Concurrency is **a programming pattern where concurrent operations are organized into hierarchical structures, ensuring proper cleanup and error propagation**.
 
-> "Structured concurrency organizes concurrent operations into hierarchical structures, ensuring proper cleanup and error propagation." — Wikipedia
+> "Structured concurrency organizes concurrent operations into hierarchical structures, ensuring proper cleanup and error propagation." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -36,7 +28,7 @@ Without structured concurrency:
 
 ## Scope and Boundaries
 
-- Structured Concurrency ≠ Async/Await (structured concurrency organizes concurrent operations, async/await is a syntax)
+- Structured Concurrency â‰  Async/Await (structured concurrency organizes concurrent operations, async/await is a syntax)
 - Structured Concurrency = Organization (structured concurrency organizes concurrent operations)
 - Structured Concurrency is a **programming pattern**, not a design pattern
 
@@ -51,8 +43,8 @@ Without structured concurrency:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Structured concurrency adds abstraction |
-| **Time** — Implementing structured concurrency takes time |
+| **Complexity** â€” Structured concurrency adds abstraction |
+| **Time** â€” Implementing structured concurrency takes time |
 | **Over-structured**: Not every concurrent operation needs structure |
 
 ## Common Misuses
@@ -63,9 +55,9 @@ Without structured concurrency:
 
 ## Related Concepts
 
-- [Resource Lifecycle](Coding Type Systems/resource-lifecycle.md) — Resource lifecycle benefits from structured concurrency
-- [Explicit Error Modeling](Architecture/explicit-error-modeling.md) — Explicit error modeling supports structured concurrency
-- [Pure Functions](Coding Type Systems/pure-functions-coding.md) — Pure functions benefit from structured concurrency
+- [Resource Lifecycle](Coding Type Systems/resource-lifecycle.md) â€” Resource lifecycle benefits from structured concurrency
+- [Explicit Error Modeling](Architecture/explicit-error-modeling.md) â€” Explicit error modeling supports structured concurrency
+- [Pure Functions](Coding Type Systems/pure-functions-coding.md) â€” Pure functions benefit from structured concurrency
 
 ## Project Observations
 
@@ -75,8 +67,8 @@ Without structured concurrency:
   - The project's architecture patterns note covers TypeScript concepts
   - No evidence of structured concurrency in existing code (src/ is empty)
 - File naming conventions support structured concurrency:
-  - `*.concurrency.ts` — Concurrency files
-  - `*.async.ts` — Async files
+  - `*.concurrency.ts` â€” Concurrency files
+  - `*.async.ts` â€” Async files
 
 ## Sources
 

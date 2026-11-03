@@ -1,35 +1,22 @@
----
+﻿---
 slug: threat-modeling
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - threat-modeling
   - security
   - design
   - risk
----
-
+  - --
 # Threat Modeling
 
 ## Definition
 
 Threat Modeling is **a security practice that identifies, quantifies, and addresses security risks in a system before it is built**.
 
-> "Threat modeling is an exercise intended to help you identify and prioritize the security risks your application faces, and define and prioritize the countermeasures you want to put in place to deal with those risks." — Microsoft
+> "Threat modeling is an exercise intended to help you identify and prioritize the security risks your application faces, and define and prioritize the countermeasures you want to put in place to deal with those risks." â€” Microsoft
 
 ## Problem Addressed
 
@@ -41,7 +28,7 @@ Without threat modeling:
 
 ## Scope and Boundaries
 
-- Threat Modeling ≠ Security Testing (threat modeling identifies threats before building, security testing finds issues after building)
+- Threat Modeling â‰  Security Testing (threat modeling identifies threats before building, security testing finds issues after building)
 - Threat Modeling = Prevention (threat modeling prevents security issues)
 - Threat Modeling is a **security practice**, not a pattern
 
@@ -56,8 +43,8 @@ Without threat modeling:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — Threat modeling takes time |
-| **Complexity** — Threat modeling adds process complexity |
+| **Time** â€” Threat modeling takes time |
+| **Complexity** â€” Threat modeling adds process complexity |
 | **Expertise**: Requires security expertise |
 
 ## Common Misuses
@@ -68,9 +55,9 @@ Without threat modeling:
 
 ## Related Concepts
 
-- [Secure by Design](Security/secure-by-design.md) — Secure by design includes threat modeling
-- [Security Principles](Security/security-principles.md) — Security principles include threat modeling
-- [Trust Boundaries](Security/trust-boundaries.md) — Trust boundaries are identified through threat modeling
+- [Secure by Design](Security/secure-by-design.md) â€” Secure by design includes threat modeling
+- [Security Principles](Security/security-principles.md) â€” Security principles include threat modeling
+- [Trust Boundaries](Security/trust-boundaries.md) â€” Trust boundaries are identified through threat modeling
 
 ## Project Observations
 
@@ -79,8 +66,8 @@ Without threat modeling:
   - The project's architecture patterns note covers security concepts
   - No evidence of threat modeling in existing code (src/ is empty)
 - File naming conventions support threat modeling:
-  - `*.security.ts` — Security files
-  - `*.guard.ts` — Guard files
+  - `*.security.ts` â€” Security files
+  - `*.guard.ts` â€” Guard files
 
 ## Sources
 
@@ -331,12 +318,12 @@ export class ThreatMonitor {
 5. **Monitor threats**: Set up threat monitoring
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `winston` — for threat logging
-- **npm Package**: `express-rate-limit` — for DoS prevention
-- **npm Package**: `helmet` — for security headers
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm audit` — check vulnerabilities
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `winston` â€” for threat logging
+- **npm Package**: `express-rate-limit` â€” for DoS prevention
+- **npm Package**: `helmet` â€” for security headers
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm audit` â€” check vulnerabilities
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when designing new features

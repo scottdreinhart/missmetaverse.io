@@ -1,34 +1,22 @@
----
+﻿---
 slug: fail-fast
 sources:
   - https://en.wikipedia.org/wiki/Fail-fast
   - https://en.wikipedia.org/wiki/Fail-safe
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - fail-fast
   - principles
   - error-handling
   - debugging
----
-
+  - --
 # Fail Fast
 
 ## Definition
 
 Fail Fast is the principle that **systems should detect and report errors as early as possible**, rather than allowing invalid states to propagate.
 
-> "Fail fast means that a program should immediately detect and report conditions that could lead to errors." — Software engineering principle
+> "Fail fast means that a program should immediately detect and report conditions that could lead to errors." â€” Software engineering principle
 
 ## Problem Addressed
 
@@ -40,8 +28,8 @@ Not failing fast leads to:
 
 ## Scope and Boundaries
 
-- Fail Fast ≠ Crash immediately (graceful failure is still fail fast)
-- Fail Fast ≠ No error handling (it's about early detection)
+- Fail Fast â‰  Crash immediately (graceful failure is still fail fast)
+- Fail Fast â‰  No error handling (it's about early detection)
 - Fail Fast is about **detection timing**, not **failure handling**
 
 ## When to Apply
@@ -55,9 +43,9 @@ Not failing fast leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Performance** — Early checks add overhead |
-| **Over-validation** — Checking too many things |
-| **User experience** — Early errors may frustrate users |
+| **Performance** â€” Early checks add overhead |
+| **Over-validation** â€” Checking too many things |
+| **User experience** â€” Early errors may frustrate users |
 
 ## Common Misuses
 
@@ -67,9 +55,9 @@ Not failing fast leads to:
 
 ## Related Concepts
 
-- **Design by Contract** — Fail fast is a practical application
-- **Input Validation** — Fail fast at boundaries
-- **Type Systems** — TypeScript catches errors at compile time (fail fast)
+- **Design by Contract** â€” Fail fast is a practical application
+- **Input Validation** â€” Fail fast at boundaries
+- **Type Systems** â€” TypeScript catches errors at compile time (fail fast)
 
 ## Project Observations
 

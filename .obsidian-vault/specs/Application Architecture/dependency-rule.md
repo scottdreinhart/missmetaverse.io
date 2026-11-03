@@ -1,9 +1,11 @@
+﻿---
+slug: dependency-rule
+---
+
 # Dependency Rule
 
 > **Purpose:** Enforce dependency direction in Clean Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `dependency-rule`
@@ -50,8 +52,6 @@ declared
 - clean-architecture-layers
 - dependency-inversion
 - dependency-hygiene
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Dependency Rule does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/dependency-rule]] — Dependency Rule
-- [[Application Architecture/clean-architecture-layers]] — Clean Architecture Layers
-- [[Architecture/dependency-inversion]] — Dependency Inversion
-- [[Coding Type Systems/dependency-hygiene]] — Dependency Hygiene
+- [[Application Architecture/dependency-rule]] â€” Dependency Rule
+- [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture Layers
+- [[Architecture/dependency-inversion]] â€” Dependency Inversion
+- [[Coding Type Systems/dependency-hygiene]] â€” Dependency Hygiene
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project enforces Dependency Rule through:
 
 ## Sources
 
-- [[Sources/clean-architecture-martin|Clean Architecture — Robert Martin]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/clean-architecture-martin|Clean Architecture â€” Robert Martin]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Dependency Rule Note**

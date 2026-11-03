@@ -1,9 +1,11 @@
+﻿---
+slug: exhaustive-handling
+---
+
 # Exhaustive Handling
 
 > **Purpose:** Ensure all cases are handled in type-safe way.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-exhaustive-handling`
@@ -51,8 +53,6 @@ declared
 - coding-strict-typing
 - coding-immutability
 - coding-pure-functions
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ Exhaustive handling does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/discriminated-unions]] — Discriminated Unions
-- [[Coding Type Systems/make-invalid-states-unrepresentable]] — Make Invalid States Unrepresentable
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Coding Type Systems/immutability]] — Immutability
+- [[Coding Type Systems/discriminated-unions]] â€” Discriminated Unions
+- [[Coding Type Systems/make-invalid-states-unrepresentable]] â€” Make Invalid States Unrepresentable
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Coding Type Systems/immutability]] â€” Immutability
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project uses TypeScript, which supports exhaustive handling through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Exhaustive Handling Note**

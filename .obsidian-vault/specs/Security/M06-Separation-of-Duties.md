@@ -1,35 +1,22 @@
----
+﻿---
 slug: separation-of-duties
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - separation-of-duties
   - security
   - access-control
   - compliance
----
-
+  - --
 # Separation of Duties
 
 ## Definition
 
 Separation of Duties is **a security principle that critical tasks require multiple people to complete, preventing any single person from having too much power**.
 
-> "Separation of duties is a key internal control concept that aims to reduce the risk of error and inappropriate behavior." — OWASP
+> "Separation of duties is a key internal control concept that aims to reduce the risk of error and inappropriate behavior." â€” OWASP
 
 ## Problem Addressed
 
@@ -41,7 +28,7 @@ Without separation of duties:
 
 ## Scope and Boundaries
 
-- Separation of Duties ≠ RBAC (separation of duties is a principle, RBAC is an implementation)
+- Separation of Duties â‰  RBAC (separation of duties is a principle, RBAC is an implementation)
 - Separation of Duties = Prevention (separation of duties prevents abuse)
 - Separation of Duties is a **security principle**, not a pattern
 
@@ -56,8 +43,8 @@ Without separation of duties:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Separation of duties adds complexity |
-| **Time** — Implementing separation of duties takes time |
+| **Complexity** â€” Separation of duties adds complexity |
+| **Time** â€” Implementing separation of duties takes time |
 | **Overhead**: More people needed for critical tasks |
 
 ## Common Misuses
@@ -68,9 +55,9 @@ Without separation of duties:
 
 ## Related Concepts
 
-- [RBAC](Security/rbac.md) — RBAC implements separation of duties
-- [Authorization](Security/authorization.md) — Authorization enforces separation of duties
-- [Security Principles](Security/security-principles.md) — Security principles include separation of duties
+- [RBAC](Security/rbac.md) â€” RBAC implements separation of duties
+- [Authorization](Security/authorization.md) â€” Authorization enforces separation of duties
+- [Security Principles](Security/security-principles.md) â€” Security principles include separation of duties
 
 ## Project Observations
 
@@ -79,8 +66,8 @@ Without separation of duties:
   - The project's architecture patterns note covers security concepts
   - No evidence of separation of duties in existing code (src/ is empty)
 - File naming conventions support separation of duties:
-  - `*.guard.ts` — Guard files
-  - `*.middleware.ts` — Middleware files
+  - `*.guard.ts` â€” Guard files
+  - `*.middleware.ts` â€” Middleware files
 
 ## Sources
 
@@ -111,7 +98,7 @@ graph TD
 |-------|-------------|---------|
 | **Two-person rule** | Highest risk (production deploy) | Two admins must approve |
 | **Manager approval** | High risk (large transactions) | Manager approves >$10k |
-| **Role separation** | Medium risk (code review) | Developer ≠ Deployer |
+| **Role separation** | Medium risk (code review) | Developer â‰  Deployer |
 | **Audit trail** | All operations | Log all actions |
 
 ---
@@ -379,12 +366,12 @@ export class DeployService {
 5. **Review regularly**: Audit separation rules
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `winston` — for audit logging
-- **npm Package**: `express` — for middleware
-- **npm Package**: `pg` — for audit database
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `winston` â€” for audit logging
+- **npm Package**: `express` â€” for middleware
+- **npm Package**: `pg` â€” for audit database
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when implementing separation

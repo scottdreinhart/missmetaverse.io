@@ -1,9 +1,11 @@
+﻿---
+slug: risk-based-testing
+---
+
 # Risk-Based Testing
 
 > **Purpose:** Prioritize testing based on risk.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-risk-based`
@@ -50,8 +52,6 @@ declared
 - testing-mutation
 - testing-contract-testing
 - testing-property-based
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Risk-based testing does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/test-driven-development]] — Test-Driven Development
-- [[Quality & Testing/behavior-driven-development]] — Behavior-Driven Development
-- [[Quality & Testing/mutation-testing]] — Mutation Testing
-- [[Quality & Testing/contract-testing]] — Contract Testing
+- [[Quality & Testing/test-driven-development]] â€” Test-Driven Development
+- [[Quality & Testing/behavior-driven-development]] â€” Behavior-Driven Development
+- [[Quality & Testing/mutation-testing]] â€” Mutation Testing
+- [[Quality & Testing/contract-testing]] â€” Contract Testing
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows risk-based testing through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Risk-Based Testing Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: principle-of-least-privilege
+---
+
 # Principle of Least Privilege
 
 > **Purpose:** Grant minimum access necessary to perform tasks.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `security-polk`
@@ -50,8 +52,6 @@ declared
 - security-rbac
 - security-zero-trust
 - security-data-minimization
-
----
 
 ## Definition
 
@@ -115,11 +115,11 @@ Least privilege does not address:
 
 ## Related Concepts
 
-- [[Security/deny-by-default]] — Deny by Default
-- [[Security/defense-in-depth]] — Defense in Depth
-- [[Security/rbac]] — Role-Based Access Control
-- [[Security/zero-trust]] — Zero Trust
-- [[Security/data-minimization]] — Data Minimization
+- [[Security/deny-by-default]] â€” Deny by Default
+- [[Security/defense-in-depth]] â€” Defense in Depth
+- [[Security/rbac]] â€” Role-Based Access Control
+- [[Security/zero-trust]] â€” Zero Trust
+- [[Security/data-minimization]] â€” Data Minimization
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project uses TypeScript with authentication middleware, which supports least
 
 ## Sources
 
-- [[Sources/gdpr-eu|EU — General Data Protection Regulation]]
-- [[Sources/owasp-top-10|OWASP — Top 10 Web Application Security Risks]]
-
----
+- [[Sources/gdpr-eu|EU â€” General Data Protection Regulation]]
+- [[Sources/owasp-top-10|OWASP â€” Top 10 Web Application Security Risks]]
 
 **End of Principle of Least Privilege Note**

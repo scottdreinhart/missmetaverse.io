@@ -1,9 +1,11 @@
+﻿---
+slug: typescript-strict-mode
+---
+
 # TypeScript Strict Mode
 
 > **Purpose:** Enable strict TypeScript compiler options.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `typescript-strict-mode`
@@ -50,8 +52,6 @@ declared
 - coding-type-inference
 - coding-generics
 - coding-no-explicit-any
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Strict mode does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Coding Type Systems/compile-time-checks]] — Compile-Time Checks
-- [[Coding Type Systems/type-inference]] — Type Inference
-- [[Coding Type Systems/generics]] — Generics
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Coding Type Systems/compile-time-checks]] â€” Compile-Time Checks
+- [[Coding Type Systems/type-inference]] â€” Type Inference
+- [[Coding Type Systems/generics]] â€” Generics
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses TypeScript with strict mode enabled through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of TypeScript Strict Mode Note**

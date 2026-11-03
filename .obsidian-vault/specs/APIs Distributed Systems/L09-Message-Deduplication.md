@@ -1,32 +1,22 @@
----
+﻿---
 slug: message-deduplication
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/guide/components/inbox-outbox
   - https://microservices.io/patterns/data/transactional-outbox.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - message-deduplication
   - distributed-systems
   - messaging
   - reliability
----
-
+  - --
 # Message Deduplication
 
 ## Definition
 
 Message Deduplication is **a distributed systems pattern that ensures each message is processed only once, even when delivered multiple times**.
 
-> "Message deduplication ensures that each message is processed only once, even when delivered multiple times by the messaging system." — Microsoft
+> "Message deduplication ensures that each message is processed only once, even when delivered multiple times by the messaging system." â€” Microsoft
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without message deduplication:
 
 ## Scope and Boundaries
 
-- Message Deduplication ≠ Inbox Pattern (message deduplication is the general concept, inbox pattern is a specific implementation)
+- Message Deduplication â‰  Inbox Pattern (message deduplication is the general concept, inbox pattern is a specific implementation)
 - Message Deduplication = Reliability (message deduplication ensures reliability)
 - Message Deduplication is a **reliability pattern**, not a design pattern
 
@@ -53,9 +43,9 @@ Without message deduplication:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Message deduplication requires tracking |
-| **Storage** — Need to track processed messages |
-| **Time** — Implementing message deduplication takes time |
+| **Complexity** â€” Message deduplication requires tracking |
+| **Storage** â€” Need to track processed messages |
+| **Time** â€” Implementing message deduplication takes time |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without message deduplication:
 
 ## Related Concepts
 
-- [Inbox Pattern](APIs Distributed Systems/inbox-pattern.md) — Inbox pattern is a specific implementation of message deduplication
-- [Idempotency](Data Databases/idempotency.md) — Idempotency complements message deduplication
-- [Transactional Outbox](Architecture/transactional-outbox.md) — Transactional outbox ensures reliable delivery
+- [Inbox Pattern](APIs Distributed Systems/inbox-pattern.md) â€” Inbox pattern is a specific implementation of message deduplication
+- [Idempotency](Data Databases/idempotency.md) â€” Idempotency complements message deduplication
+- [Transactional Outbox](Architecture/transactional-outbox.md) â€” Transactional outbox ensures reliable delivery
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without message deduplication:
   - The project's architecture patterns note covers distributed systems concepts
   - No evidence of message deduplication in existing code (src/ is empty)
 - File naming conventions support message deduplication:
-  - `*.event.ts` — Event files
-  - `*.repository.ts` — Repository files
+  - `*.event.ts` â€” Event files
+  - `*.repository.ts` â€” Repository files
 
 ## Sources
 

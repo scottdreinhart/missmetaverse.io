@@ -1,9 +1,11 @@
+﻿---
+slug: small-cohesive-modules
+---
+
 # Small Cohesive Modules
 
 > **Purpose:** Keep modules small and focused.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-small-cohesive-modules`
@@ -51,8 +53,6 @@ declared
 - arch-single-responsibility
 - arch-separation-of-concerns
 - arch-dry
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ Small cohesive modules do not apply to:
 
 ## Related Concepts
 
-- [[Architecture/high-cohesion]] — High Cohesion
-- [[Architecture/low-coupling]] — Low Coupling
-- [[Architecture/single-responsibility-principle]] — Single Responsibility Principle
-- [[Architecture/separation-of-concerns]] — Separation of Concerns
+- [[Architecture/high-cohesion]] â€” High Cohesion
+- [[Architecture/low-coupling]] â€” Low Coupling
+- [[Architecture/single-responsibility-principle]] â€” Single Responsibility Principle
+- [[Architecture/separation-of-concerns]] â€” Separation of Concerns
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project follows small cohesive modules through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Small Cohesive Modules Note**

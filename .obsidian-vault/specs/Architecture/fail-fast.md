@@ -1,9 +1,11 @@
+﻿---
+slug: fail-fast
+---
+
 # Fail Fast
 
 > **Purpose:** Detect and report errors as early as possible.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-fail-fast`
@@ -51,8 +53,6 @@ declared
 - arch-input-validation
 - arch-boundary-validation
 - arch-pure-functions
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Fail fast does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/design-by-contract]] — Design by Contract
-- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
-- [[Security/input-validation]] — Input Validation
-- [[Coding Type Systems/boundary-validation]] — Boundary Validation
+- [[Architecture/design-by-contract]] â€” Design by Contract
+- [[Coding Type Systems/explicit-error-modeling]] â€” Explicit Error Modeling
+- [[Security/input-validation]] â€” Input Validation
+- [[Coding Type Systems/boundary-validation]] â€” Boundary Validation
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows fail fast through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Fail Fast Note**

@@ -1,22 +1,11 @@
----
+﻿---
 slug: data-modeling-principles
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
   - https://www.enterpriseintegrationpatterns.com/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
   - data-modeling
   - database
   - crud
@@ -34,8 +23,7 @@ tags:
   - audit-trails
   - event-sourcing
   - materialized-views
----
-
+  - --
 # Data Modeling & Database Principles
 
 ## Overview
@@ -48,7 +36,7 @@ Data modeling principles govern how data is structured, stored, and accessed. Th
 
 ### CRUD
 
-**Create, Read, Update, Delete — the four basic operations for persistent storage.**
+**Create, Read, Update, Delete â€” the four basic operations for persistent storage.**
 
 ```typescript
 class UserRepository {
@@ -87,7 +75,7 @@ class UserRepository {
 
 ### ACID
 
-**Atomicity, Consistency, Isolation, Durability — properties that guarantee reliable database transactions.**
+**Atomicity, Consistency, Isolation, Durability â€” properties that guarantee reliable database transactions.**
 
 | Property | Description | Example |
 |----------|-------------|---------|
@@ -140,7 +128,7 @@ async function transferMoney(fromId: string, toId: string, amount: number): Prom
 | **3NF** | No transitive dependencies | Move `customer_address` to `customers` table |
 
 ```sql
--- ❌ Not normalized (redundant data)
+-- âŒ Not normalized (redundant data)
 CREATE TABLE orders (
   id INT,
   customer_name VARCHAR(100),
@@ -150,7 +138,7 @@ CREATE TABLE orders (
   product_price DECIMAL(10,2)
 );
 
--- ✅ Normalized (no redundancy)
+-- âœ… Normalized (no redundancy)
 CREATE TABLE customers (
   id INT PRIMARY KEY,
   name VARCHAR(100),
@@ -296,7 +284,7 @@ class OrderService {
 }
 
 // Usage
-await orderService.updateStatus('order-123', 'shipped', 5) // version 5 → 6
+await orderService.updateStatus('order-123', 'shipped', 5) // version 5 â†’ 6
 ```
 
 ### Pessimistic Concurrency
@@ -435,7 +423,7 @@ class OrderAggregate {
   }
 }
 
-// Usage — replay events to reconstruct state
+// Usage â€” replay events to reconstruct state
 const events = await eventStore.getEvents('order-123')
 const order = new OrderAggregate(events)
 ```

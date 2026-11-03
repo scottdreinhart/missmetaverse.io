@@ -1,31 +1,22 @@
----
+﻿---
 slug: decorator-pattern
 sources:
   - https://en.wikipedia.org/wiki/Decorator_pattern
   - https://martinfowler.com/eaaDev/adapter.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - decorator-pattern
   - structural-patterns
   - patterns
   - design-patterns
----
-
+  - --
 # Decorator Pattern
 
 ## Definition
 
 Decorator Pattern is a **structural design pattern that allows behavior to be added to individual objects dynamically**.
 
-> "The Decorator pattern attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing." — GoF
+> "The Decorator pattern attaches additional responsibilities to an object dynamically, providing a flexible alternative to subclassing." â€” GoF
 
 ## Problem Addressed
 
@@ -37,8 +28,8 @@ Without decorator pattern:
 
 ## Scope and Boundaries
 
-- Decorator Pattern ≠ Adapter (decorator pattern adds behavior, adapter pattern adapts)
-- Decorator Pattern ≠ Facade (decorator pattern adds behavior, facade pattern simplifies)
+- Decorator Pattern â‰  Adapter (decorator pattern adds behavior, adapter pattern adapts)
+- Decorator Pattern â‰  Facade (decorator pattern adds behavior, facade pattern simplifies)
 - Decorator Pattern is a **structural pattern**, not a behavioral pattern
 
 ## When to Apply
@@ -52,21 +43,21 @@ Without decorator pattern:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Decorator pattern is complex |
-| **Time** — Decorator pattern takes time |
-| **Over-decorator** — Don't use decorator for everything |
+| **Complexity** â€” Decorator pattern is complex |
+| **Time** â€” Decorator pattern takes time |
+| **Over-decorator** â€” Don't use decorator for everything |
 
 ## Common Misuses
 
 - **Everything decorator**: Not everything needs decorator pattern
-- **Confusing with adapter**: Decorator pattern ≠ adapter
+- **Confusing with adapter**: Decorator pattern â‰  adapter
 - **Over-decorator**: Too many decorators create complexity
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) — Decorator pattern with DDD
-- [Adapter Pattern](Architecture/adapter-pattern.md) — Decorator pattern with adapter
-- [Facade Pattern](Architecture/facade-pattern.md) — Decorator pattern with facade
+- [DDD Patterns](Architecture/ddd-patterns.md) â€” Decorator pattern with DDD
+- [Adapter Pattern](Architecture/adapter-pattern.md) â€” Decorator pattern with adapter
+- [Facade Pattern](Architecture/facade-pattern.md) â€” Decorator pattern with facade
 
 ## Project Observations
 
@@ -74,8 +65,8 @@ Without decorator pattern:
   - The project's architecture patterns note covers decorator pattern (from existing notes)
   - No evidence of decorator pattern in existing code (src/ is empty)
 - File naming conventions support decorator pattern:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

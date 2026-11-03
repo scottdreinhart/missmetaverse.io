@@ -1,9 +1,11 @@
+﻿---
+slug: complete-mediation
+---
+
 # Complete Mediation
 
 > **Purpose:** Mediate access with Complete Mediation.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `complete-mediation`
@@ -50,8 +52,6 @@ declared
 - every-access-check
 - always-verify
 - mediate-every-request
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Complete Mediation does not apply to:
 
 ## Related Concepts
 
-- [[Security/complete-mediation]] — Complete Mediation
-- [[Security/every-access-check]] — Every Access Check
-- [[Security/always-verify]] — Always Verify
-- [[Security/mediate-every-request]] — Mediate Every Request
+- [[Security/complete-mediation]] â€” Complete Mediation
+- [[Security/every-access-check]] â€” Every Access Check
+- [[Security/always-verify]] â€” Always Verify
+- [[Security/mediate-every-request]] â€” Mediate Every Request
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Complete Mediation through:
 ## Sources
 
 - [[Sources/security-principles|Security Principles]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Complete Mediation Note**

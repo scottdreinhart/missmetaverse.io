@@ -1,9 +1,11 @@
+﻿---
+slug: clean-architecture-layers
+---
+
 # Clean Architecture Layers
 
 > **Purpose:** Structure apps with Clean Architecture layers.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `clean-architecture-layers`
@@ -50,8 +52,6 @@ declared
 - dependency-rule
 - entities-use-cases
 - interfaces-adapters
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Clean Layers do not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/clean-architecture-layers]] — Clean Architecture Layers
-- [[Application Architecture/dependency-rule]] — Dependency Rule
-- [[Application Architecture/entities-use-cases]] — Entities Use Cases
-- [[Application Architecture/interfaces-adapters]] — Interfaces Adapters
+- [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture Layers
+- [[Application Architecture/dependency-rule]] â€” Dependency Rule
+- [[Application Architecture/entities-use-cases]] â€” Entities Use Cases
+- [[Application Architecture/interfaces-adapters]] â€” Interfaces Adapters
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Clean Architecture Layers through:
 
 ## Sources
 
-- [[Sources/clean-architecture-martin|Clean Architecture — Robert Martin]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/clean-architecture-martin|Clean Architecture â€” Robert Martin]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Clean Architecture Layers Note**

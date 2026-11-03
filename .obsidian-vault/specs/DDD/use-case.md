@@ -1,9 +1,11 @@
+﻿---
+slug: use-case
+---
+
 # Use Case
 
 > **Purpose:** Model use cases with Use Case.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `use-case`
@@ -50,8 +52,6 @@ declared
 - application-use-case
 - user-goal
 - system-interaction
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Use Case does not apply to:
 
 ## Related Concepts
 
-- [[DDD/use-case]] — Use Case
-- [[DDD/application-use-case]] — Application Use Case
-- [[DDD/user-goal]] — User Goal
-- [[DDD/system-interaction]] — System Interaction
+- [[DDD/use-case]] â€” Use Case
+- [[DDD/application-use-case]] â€” Application Use Case
+- [[DDD/user-goal]] â€” User Goal
+- [[DDD/system-interaction]] â€” System Interaction
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Use Cases through:
 ## Sources
 
 - [[Sources/evans-ddd|Domain-Driven Design by Eric Evans]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Use Case Note**

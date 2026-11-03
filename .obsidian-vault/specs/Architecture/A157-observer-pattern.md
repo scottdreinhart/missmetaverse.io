@@ -1,31 +1,22 @@
----
+﻿---
 slug: observer-pattern
 sources:
   - https://en.wikipedia.org/wiki/Observer_pattern
   - https://martinfowler.com/eaaDev/observer.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - observer-pattern
   - behavioral-patterns
   - patterns
   - design-patterns
----
-
+  - --
 # Observer Pattern
 
 ## Definition
 
 Observer Pattern is a **behavioral design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified**.
 
-> "The Observer pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified." — GoF
+> "The Observer pattern defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified." â€” GoF
 
 ## Problem Addressed
 
@@ -37,8 +28,8 @@ Without observer pattern:
 
 ## Scope and Boundaries
 
-- Observer Pattern ≠ Event Emitter (observer pattern is a pattern, event emitter is an implementation)
-- Observer Pattern ≠ Pub/Sub (observer pattern is one-to-many, pub/sub is many-to-many)
+- Observer Pattern â‰  Event Emitter (observer pattern is a pattern, event emitter is an implementation)
+- Observer Pattern â‰  Pub/Sub (observer pattern is one-to-many, pub/sub is many-to-many)
 - Observer Pattern is a **behavioral pattern**, not a structural pattern
 
 ## When to Apply
@@ -52,21 +43,21 @@ Without observer pattern:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Observer pattern is complex |
-| **Time** — Observer pattern takes time |
-| **Over-observer** — Don't use observer for everything |
+| **Complexity** â€” Observer pattern is complex |
+| **Time** â€” Observer pattern takes time |
+| **Over-observer** â€” Don't use observer for everything |
 
 ## Common Misuses
 
 - **Everything observer**: Not everything needs observer pattern
-- **Confusing with event emitter**: Observer pattern ≠ event emitter
+- **Confusing with event emitter**: Observer pattern â‰  event emitter
 - **Over-observer**: Too many observers create complexity
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) — Observer pattern with DDD
-- [Event-Driven Architecture](Architecture/event-driven-architecture.md) — Observer pattern with EDA
-- [State Pattern](Architecture/state-pattern.md) — Observer pattern with state
+- [DDD Patterns](Architecture/ddd-patterns.md) â€” Observer pattern with DDD
+- [Event-Driven Architecture](Architecture/event-driven-architecture.md) â€” Observer pattern with EDA
+- [State Pattern](Architecture/state-pattern.md) â€” Observer pattern with state
 
 ## Project Observations
 
@@ -74,8 +65,8 @@ Without observer pattern:
   - The project's architecture patterns note covers observer pattern (from existing notes)
   - No evidence of observer pattern in existing code (src/ is empty)
 - File naming conventions support observer pattern:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

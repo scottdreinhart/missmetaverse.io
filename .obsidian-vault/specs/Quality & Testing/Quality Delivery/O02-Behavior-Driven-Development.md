@@ -1,31 +1,23 @@
----
+﻿---
 slug: bdd
 sources:
   - https://behaviorspec.org/
   - https://cucumber.io/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
   - bdd
   - testing
   - behavior-driven
   - cucumber
----
-
+  - --
 # Behavior-Driven Development
 
 ## Definition
 
 Behavior-Driven Development (BDD) is **a software development process that emphasizes collaboration between developers, QA, and non-technical stakeholders through examples**.
 
-> "BDD is a second-generation feedback on behavior-driven techniques that provide a toolkit for teams to deliver quality." — Dan North
+> "BDD is a second-generation feedback on behavior-driven techniques that provide a toolkit for teams to deliver quality." â€” Dan North
 
 ## Problem Addressed
 
@@ -37,7 +29,7 @@ Without BDD:
 
 ## Scope and Boundaries
 
-- BDD ≠ TDD (BDD focuses on behavior, TDD focuses on unit tests)
+- BDD â‰  TDD (BDD focuses on behavior, TDD focuses on unit tests)
 - BDD = Collaboration (BDD emphasizes collaboration)
 - BDD is a **development process**, not a pattern
 
@@ -52,9 +44,9 @@ Without BDD:
 
 | Cost | Description |
 |------|-------------|
-| **Time** — BDD requires more upfront time |
-| **Complexity** — BDD adds tooling complexity |
-| **Over-documentation** — Not every feature needs BDD |
+| **Time** â€” BDD requires more upfront time |
+| **Complexity** â€” BDD adds tooling complexity |
+| **Over-documentation** â€” Not every feature needs BDD |
 
 ## Common Misuses
 
@@ -64,9 +56,9 @@ Without BDD:
 
 ## Related Concepts
 
-- [Test-Driven Development](Quality Delivery/test-driven-development.md) — TDD is the precursor to BDD
-- [Automated Testing](Quality Delivery/automated-testing.md) — Automated testing supports BDD
-- [Risk-Based Testing](Quality Delivery/risk-based-testing.md) — Risk-based testing complements BDD
+- [Test-Driven Development](Quality Delivery/test-driven-development.md) â€” TDD is the precursor to BDD
+- [Automated Testing](Quality Delivery/automated-testing.md) â€” Automated testing supports BDD
+- [Risk-Based Testing](Quality Delivery/risk-based-testing.md) â€” Risk-based testing complements BDD
 
 ## Project Observations
 
@@ -76,8 +68,8 @@ Without BDD:
   - The project's architecture patterns note covers testing concepts
   - No evidence of BDD in existing code (src/ is empty)
 - File naming conventions support BDD:
-  - `*.spec.ts` — Spec files
-  - `*.test.ts` — Test files
+  - `*.spec.ts` â€” Spec files
+  - `*.test.ts` â€” Test files
 
 ## Sources
 

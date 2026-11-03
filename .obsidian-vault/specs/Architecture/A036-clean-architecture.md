@@ -1,29 +1,17 @@
----
+﻿---
 slug: clean-architecture
 sources:
   - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
   - https://blog.cleancoder.com/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - clean-architecture
   - hexagonal-architecture
   - ports-adapters
   - onion-architecture
   - dependency-inversion
   - architecture
----
-
+  - --
 # Clean Architecture
 
 ## Overview
@@ -37,26 +25,26 @@ Clean Architecture (also known as Hexagonal Architecture, Ports and Adapters, On
 > Source code dependencies can only point inwards. Nothing in an inner circle can know anything at all about something in an outer circle.
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│  Frameworks & Drivers (Outermost)                       │
-│  • Databases, Web frameworks, UI, 3rd-party libs        │
-│  • Details, not policies                                │
-├─────────────────────────────────────────────────────────┤
-│  Interface Adapters                                     │
-│  • Controllers, Presenters, Gateways, Use Case Port     │
-│  • Data conversion: outer ↔ inner                       │
-├─────────────────────────────────────────────────────────┤
-│  Use Cases (Application Business Rules)                 │
-│  • Orchestrate flow of data to/from entities            │
-│  • Application-specific business rules                  │
-├─────────────────────────────────────────────────────────┤
-│  Entities (Enterprise Business Rules) (Innermost)       │
-│  • Most general, least likely to change                 │
-│  • Encapsulate enterprise-wide business rules           │
-└─────────────────────────────────────────────────────────┘
-         ▲         ▲         ▲         ▲
-         │         │         │         │
-         └─────────┴─────────┴─────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Frameworks & Drivers (Outermost)                       â”‚
+â”‚  â€¢ Databases, Web frameworks, UI, 3rd-party libs        â”‚
+â”‚  â€¢ Details, not policies                                â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Interface Adapters                                     â”‚
+â”‚  â€¢ Controllers, Presenters, Gateways, Use Case Port     â”‚
+â”‚  â€¢ Data conversion: outer â†” inner                       â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Use Cases (Application Business Rules)                 â”‚
+â”‚  â€¢ Orchestrate flow of data to/from entities            â”‚
+â”‚  â€¢ Application-specific business rules                  â”‚
+â”œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”¤
+â”‚  Entities (Enterprise Business Rules) (Innermost)       â”‚
+â”‚  â€¢ Most general, least likely to change                 â”‚
+â”‚  â€¢ Encapsulate enterprise-wide business rules           â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+         â–²         â–²         â–²         â–²
+         â”‚         â”‚         â”‚         â”‚
+         â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
          Dependencies point INWARDS only
 ```
 
@@ -334,17 +322,17 @@ app.listen(3000)
 ### How Control Flow vs Dependency Direction Work
 
 ```
-┌──────────────────────────────────────────────────────┐
-│  Flow of Control:                                    │
-│  Controller → Use Case → Presenter                   │
-│                                                      │
-│  Source Code Dependencies (point INWARDS):           │
-│  Controller depends on Use Case interface            │
-│  Use Case depends on Entity interface                │
-│  Use Case depends on Port interface                  │
-│                                                      │
-│  Result: Inner circles NEVER know about outer circles│
-└──────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚  Flow of Control:                                    â”‚
+â”‚  Controller â†’ Use Case â†’ Presenter                   â”‚
+â”‚                                                      â”‚
+â”‚  Source Code Dependencies (point INWARDS):           â”‚
+â”‚  Controller depends on Use Case interface            â”‚
+â”‚  Use Case depends on Entity interface                â”‚
+â”‚  Use Case depends on Port interface                  â”‚
+â”‚                                                      â”‚
+â”‚  Result: Inner circles NEVER know about outer circlesâ”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ### Using Dependency Inversion
@@ -378,23 +366,23 @@ class EmailServiceAdapter implements EmailPort {
 **Always use simple data structures. Never pass Entities or Database rows inward.**
 
 ```typescript
-// ✅ GOOD: Simple DTO
+// âœ… GOOD: Simple DTO
 interface CreateUserDto {
   name: string
   email: string
 }
 
-// ✅ GOOD: Simple result
+// âœ… GOOD: Simple result
 interface UserResponse {
   id: string
   name: string
   email: string
 }
 
-// ❌ BAD: Passing Entity inward
+// âŒ BAD: Passing Entity inward
 async function updateUser(user: User) { /* ... */ }
 
-// ❌ BAD: Passing DB row inward
+// âŒ BAD: Passing DB row inward
 async function processRow(doc: DbDocument) { /* ... */ }
 ```
 
@@ -577,16 +565,16 @@ const orderController = new OrderController(
 
 ### What to Do With This Information
 1. **When creating new code**: Place business logic in `entities/` and `usecases/`, keep frameworks in `adapters/` and `frameworks/`
-2. **When reviewing code**: Check that dependencies point inward — inner circles should never import from outer circles
+2. **When reviewing code**: Check that dependencies point inward â€” inner circles should never import from outer circles
 3. **When adding a new feature**: Create a port interface in the use case layer, implement the adapter in the outer layer
 4. **When refactoring**: Move business logic inward, push framework dependencies outward
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display while refactoring
-- **VS Code Extension**: GitLens — for understanding dependency history
-- **npm Package**: `typescript` — for type-safe dependency injection
+- **VS Code Extension**: Error Lens â€” for inline error display while refactoring
+- **VS Code Extension**: GitLens â€” for understanding dependency history
+- **npm Package**: `typescript` â€” for type-safe dependency injection
 - **VS Code Setting**: `"editor.codeActionsOnSave": { "source.organizeImports": "explicit" }`
-- **Terminal Command**: `pnpm tsc --noEmit` — verify no type errors after refactoring
+- **Terminal Command**: `pnpm tsc --noEmit` â€” verify no type errors after refactoring
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when creating new modules to verify Clean Architecture compliance

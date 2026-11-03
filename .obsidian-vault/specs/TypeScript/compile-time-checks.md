@@ -1,9 +1,11 @@
+﻿---
+slug: compile-time-checks
+---
+
 # Compile-Time Checks
 
 > **Purpose:** Catch errors at compile time, not runtime.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-compile-time-checks`
@@ -50,8 +52,6 @@ declared
 - coding-type-inference
 - coding-generics
 - coding-no-explicit-any
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Compile-time checks do not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[TypeScript/typescript-strict-mode]] — TypeScript Strict Mode
-- [[Coding Type Systems/type-inference]] — Type Inference
-- [[Coding Type Systems/generics]] — Generics
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[TypeScript/typescript-strict-mode]] â€” TypeScript Strict Mode
+- [[Coding Type Systems/type-inference]] â€” Type Inference
+- [[Coding Type Systems/generics]] â€” Generics
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses compile-time checks through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Compile-Time Checks Note**

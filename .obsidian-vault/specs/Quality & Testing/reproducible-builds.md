@@ -1,9 +1,11 @@
+﻿---
+slug: reproducible-builds
+---
+
 # Reproducible Builds
 
 > **Purpose:** Ensure builds are deterministic and reproducible.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-reproducible-builds`
@@ -49,8 +51,6 @@ declared
 - testing-observability
 - arch-quality-gate
 - testing-continuous-integration
-
----
 
 ## Definition
 
@@ -117,9 +117,9 @@ Reproducible builds do not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/continuous-integration]] — Continuous Integration
-- [[Quality & Testing/observability]] — Observability
-- [[Quality & Testing/architecture-fitness-functions]] — Architecture Fitness Functions
+- [[Quality & Testing/continuous-integration]] â€” Continuous Integration
+- [[Quality & Testing/observability]] â€” Observability
+- [[Quality & Testing/architecture-fitness-functions]] â€” Architecture Fitness Functions
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project follows reproducible builds through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Reproducible Builds Note**

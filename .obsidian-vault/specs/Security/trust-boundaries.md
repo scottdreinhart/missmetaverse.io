@@ -1,9 +1,11 @@
+﻿---
+slug: trust-boundaries
+---
+
 # Trust Boundaries
 
 > **Purpose:** Define trust with Trust Boundaries.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `trust-boundaries`
@@ -50,8 +52,6 @@ declared
 - trust-zones
 - security-boundaries
 - perimeter-security
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Trust Boundaries does not apply to:
 
 ## Related Concepts
 
-- [[Security/trust-boundaries]] — Trust Boundaries
-- [[Security/trust-zones]] — Trust Zones
-- [[Security/security-boundaries]] — Security Boundaries
-- [[Security/perimeter-security]] — Perimeter Security
+- [[Security/trust-boundaries]] â€” Trust Boundaries
+- [[Security/trust-zones]] â€” Trust Zones
+- [[Security/security-boundaries]] â€” Security Boundaries
+- [[Security/perimeter-security]] â€” Perimeter Security
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Trust Boundaries through:
 ## Sources
 
 - [[Sources/security-principles|Security Principles]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Trust Boundaries Note**

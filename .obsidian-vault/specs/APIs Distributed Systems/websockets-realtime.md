@@ -1,9 +1,11 @@
+﻿---
+slug: websockets-realtime
+---
+
 # WebSockets Real-time Communication
 
 > **Purpose:** Enable real-time communication with WebSockets.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `websockets-realtime`
@@ -50,8 +52,6 @@ declared
 - server-sent-events
 - graphql-subscriptions
 - long-polling
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ WebSockets does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/websockets-realtime]] — WebSockets Real-time Communication
-- [[APIs Distributed Systems/server-sent-events]] — Server-Sent Events
-- [[APIs Distributed Systems/graphql-subscriptions]] — GraphQL Subscriptions
-- [[APIs Distributed Systems/long-polling]] — Long Polling
+- [[APIs Distributed Systems/websockets-realtime]] â€” WebSockets Real-time Communication
+- [[APIs Distributed Systems/server-sent-events]] â€” Server-Sent Events
+- [[APIs Distributed Systems/graphql-subscriptions]] â€” GraphQL Subscriptions
+- [[APIs Distributed Systems/long-polling]] â€” Long Polling
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses WebSockets Real-time Communication through:
 
 ## Sources
 
-- [[Sources/websocket-rfc6455|WebSocket Protocol — RFC 6455]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/websocket-rfc6455|WebSocket Protocol â€” RFC 6455]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of WebSockets Real-time Communication Note**

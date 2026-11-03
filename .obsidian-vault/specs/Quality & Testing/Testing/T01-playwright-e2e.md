@@ -1,4 +1,4 @@
----
+﻿---
 slug: playwright-e2e
 title: Playwright End-to-End Testing Guide
 description: Comprehensive guide for QA automation using Playwright with TypeScript for reliable E2E testing
@@ -30,21 +30,7 @@ sources:
   - https://playwright.dev/docs/test-circus
   - https://playwright.dev/docs/test-cli
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
-
   - playwright
   - e2e-testing
   - testing
@@ -93,35 +79,35 @@ npx playwright install-deps
 
 ```
 e2e-tests/
-├── tests/                          # Test files
-│   ├── auth/
-│   │   ├── login.spec.ts
-│   │   └── registration.spec.ts
-│   ├── user-management/
-│   │   ├── profile.spec.ts
-│   │   └── settings.spec.ts
-│   └── api/
-│       └── user-api.spec.ts
-├── fixtures/                       # Custom fixtures
-│   ├── auth-fixture.ts
-│   └── database-fixture.ts
-├── page-objects/                   # Page Object Models
-│   ├── login-page.ts
-│   ├── dashboard-page.ts
-│   └── base-page.ts
-├── utils/                          # Helper utilities
-│   ├── test-data.ts
-│   ├── api-helpers.ts
-│   └── database-helpers.ts
-├── config/                         # Configuration files
-│   ├── environments.ts
-│   └── test-data.json
-├── reports/                        # Test reports
-├── screenshots/                    # Visual comparisons
-├── playwright.config.ts           # Main configuration
-├── global-setup.ts               # Global setup
-├── global-teardown.ts            # Global teardown
-└── package.json
+â”œâ”€â”€ tests/                          # Test files
+â”‚   â”œâ”€â”€ auth/
+â”‚   â”‚   â”œâ”€â”€ login.spec.ts
+â”‚   â”‚   â””â”€â”€ registration.spec.ts
+â”‚   â”œâ”€â”€ user-management/
+â”‚   â”‚   â”œâ”€â”€ profile.spec.ts
+â”‚   â”‚   â””â”€â”€ settings.spec.ts
+â”‚   â””â”€â”€ api/
+â”‚       â””â”€â”€ user-api.spec.ts
+â”œâ”€â”€ fixtures/                       # Custom fixtures
+â”‚   â”œâ”€â”€ auth-fixture.ts
+â”‚   â””â”€â”€ database-fixture.ts
+â”œâ”€â”€ page-objects/                   # Page Object Models
+â”‚   â”œâ”€â”€ login-page.ts
+â”‚   â”œâ”€â”€ dashboard-page.ts
+â”‚   â””â”€â”€ base-page.ts
+â”œâ”€â”€ utils/                          # Helper utilities
+â”‚   â”œâ”€â”€ test-data.ts
+â”‚   â”œâ”€â”€ api-helpers.ts
+â”‚   â””â”€â”€ database-helpers.ts
+â”œâ”€â”€ config/                         # Configuration files
+â”‚   â”œâ”€â”€ environments.ts
+â”‚   â””â”€â”€ test-data.json
+â”œâ”€â”€ reports/                        # Test reports
+â”œâ”€â”€ screenshots/                    # Visual comparisons
+â”œâ”€â”€ playwright.config.ts           # Main configuration
+â”œâ”€â”€ global-setup.ts               # Global setup
+â”œâ”€â”€ global-teardown.ts            # Global teardown
+â””â”€â”€ package.json
 ```
 
 ## Core Testing Principles

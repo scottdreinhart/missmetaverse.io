@@ -1,31 +1,22 @@
----
+﻿---
 slug: dtos
 sources:
   - https://martinfowler.com/bliki/DataTransferObject.html
   - https://www.npmjs.com/package/class-transformer
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - dto
   - api
   - data-transfer
   - serialization
----
-
+  - --
 # Data Transfer Objects
 
 ## Definition
 
 Data Transfer Objects (DTOs) are **objects that carry data between processes to reduce the number of method calls, encapsulating data without business logic**.
 
-> "A DTO is an object that carries data between processes. The reason for its existence is to reduce the number of method calls required." — Martin Fowler
+> "A DTO is an object that carries data between processes. The reason for its existence is to reduce the number of method calls required." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without DTOs:
 
 ## Scope and Boundaries
 
-- DTO ≠ Domain Model (DTO carries data, domain model contains business logic)
+- DTO â‰  Domain Model (DTO carries data, domain model contains business logic)
 - DTO = Data Carrying (DTO carries data between processes)
 - DTO is a **data pattern**, not a design pattern
 
@@ -52,9 +43,9 @@ Without DTOs:
 
 | Cost | Description |
 |------|-------------|
-| **Boilerplate** — DTOs add boilerplate code |
-| **Mapping** — Mapping between DTOs and domain models |
-| **Over-DTO** — Not every data transfer needs a DTO |
+| **Boilerplate** â€” DTOs add boilerplate code |
+| **Mapping** â€” Mapping between DTOs and domain models |
+| **Over-DTO** â€” Not every data transfer needs a DTO |
 
 ## Common Misuses
 
@@ -64,9 +55,9 @@ Without DTOs:
 
 ## Related Concepts
 
-- [REST API Design](APIs Distributed Systems/rest-api-design.md) — REST APIs use DTOs
-- [GraphQL Patterns](APIs Distributed Systems/graphql-patterns.md) — GraphQL uses DTOs
-- [Service Layer Pattern](Architecture/service-layer-pattern.md) — Service layer uses DTOs
+- [REST API Design](APIs Distributed Systems/rest-api-design.md) â€” REST APIs use DTOs
+- [GraphQL Patterns](APIs Distributed Systems/graphql-patterns.md) â€” GraphQL uses DTOs
+- [Service Layer Pattern](Architecture/service-layer-pattern.md) â€” Service layer uses DTOs
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without DTOs:
   - The project's architecture patterns note covers API concepts
   - No evidence of DTOs in existing code (src/ is empty)
 - File naming conventions support DTOs:
-  - `*.dto.ts` — DTO files
-  - `*.data.ts` — Data files
+  - `*.dto.ts` â€” DTO files
+  - `*.data.ts` â€” Data files
 
 ## Sources
 

@@ -1,9 +1,11 @@
+﻿---
+slug: deny-by-default
+---
+
 # Deny by Default
 
 > **Purpose:** Secure apps with Deny by Default.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `deny-by-default`
@@ -50,8 +52,6 @@ declared
 - default-deny
 - implicit-deny
 - deny-all
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Deny by Default does not apply to:
 
 ## Related Concepts
 
-- [[Security/deny-by-default]] — Deny by Default
-- [[Security/default-deny]] — Default Deny
-- [[Security/implicit-deny]] — Implicit Deny
-- [[Security/deny-all]] — Deny All
+- [[Security/deny-by-default]] â€” Deny by Default
+- [[Security/default-deny]] â€” Default Deny
+- [[Security/implicit-deny]] â€” Implicit Deny
+- [[Security/deny-all]] â€” Deny All
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Deny by Default through:
 ## Sources
 
 - [[Sources/security-principles|Security Principles]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Deny by Default Note**

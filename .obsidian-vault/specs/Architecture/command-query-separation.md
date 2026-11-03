@@ -1,9 +1,11 @@
+﻿---
+slug: command-query-separation
+---
+
 # Command-Query Separation
 
 > **Purpose:** Methods should either do something or return something, not both.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-command-query-separation`
@@ -51,8 +53,6 @@ declared
 - arch-explicit-error-modeling
 - arch-fail-fast
 - arch-single-responsibility
-
----
 
 ## Definition
 
@@ -117,9 +117,9 @@ CQS does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/pure-functions]] — Pure Functions
-- [[Coding Type Systems/immutability]] — Immutability
-- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
+- [[Coding Type Systems/pure-functions]] â€” Pure Functions
+- [[Coding Type Systems/immutability]] â€” Immutability
+- [[Coding Type Systems/explicit-error-modeling]] â€” Explicit Error Modeling
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project follows CQS through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Command-Query Separation Note**

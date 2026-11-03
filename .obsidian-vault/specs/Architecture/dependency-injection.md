@@ -1,9 +1,11 @@
+﻿---
+slug: dependency-injection
+---
+
 # Dependency Injection
 
 > **Purpose:** Provide dependencies from outside rather than creating them internally.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-dependency-injection`
@@ -50,8 +52,6 @@ declared
 - arch-hexagonal-architecture
 - arch-clean-architecture
 - ddd-repository
-
----
 
 ## Definition
 
@@ -116,10 +116,10 @@ DI does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/dependency-inversion-principle]] — Dependency Inversion Principle
-- [[Architecture/composition-root]] — Composition Root
-- [[Architecture/hexagonal-architecture]] — Hexagonal Architecture
-- [[DDD/repository]] — Repository Pattern
+- [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion Principle
+- [[Architecture/composition-root]] â€” Composition Root
+- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[DDD/repository]] â€” Repository Pattern
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project uses TypeScript, which supports DI through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Dependency Injection Note**

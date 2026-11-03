@@ -1,9 +1,11 @@
+﻿---
+slug: saga-pattern
+---
+
 # Saga Pattern
 
 > **Purpose:** Manage distributed transactions with Saga Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `saga-pattern`
@@ -50,8 +52,6 @@ declared
 - orchestration-pattern
 - choreography-pattern
 - compensating-action
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Saga does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/saga-pattern]] — Saga Pattern
-- [[APIs Distributed Systems/orchestration-pattern]] — Orchestration Pattern
-- [[APIs Distributed Systems/choreography-pattern]] — Choreography Pattern
-- [[APIs Distributed Systems/compensating-action]] — Compensating Action
+- [[APIs Distributed Systems/saga-pattern]] â€” Saga Pattern
+- [[APIs Distributed Systems/orchestration-pattern]] â€” Orchestration Pattern
+- [[APIs Distributed Systems/choreography-pattern]] â€” Choreography Pattern
+- [[APIs Distributed Systems/compensating-action]] â€” Compensating Action
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Saga Pattern through:
 
 ## Sources
 
-- [[Sources/saga-pattern-cockburn|Saga Pattern — Cockburn]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/saga-pattern-cockburn|Saga Pattern â€” Cockburn]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Saga Pattern Note**

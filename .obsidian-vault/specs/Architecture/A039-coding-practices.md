@@ -1,23 +1,11 @@
----
+﻿---
 slug: coding-practices
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
   - https://www.enterpriseintegrationpatterns.com/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
   - coding-practices
   - strict-typing
   - parse-dont-validate
@@ -34,8 +22,7 @@ tags:
   - dependency-hygiene
   - accessibility-by-design
   - internationalization-by-design
----
-
+  - --
 # Coding Practices & Type-System Practices
 
 ## Overview
@@ -51,17 +38,17 @@ Coding practices and type-system practices ensure code is maintainable, reliable
 **Use TypeScript's strict mode and avoid `any` or `unknown` when possible.**
 
 ```typescript
-// ❌ Insecure: using any
+// âŒ Insecure: using any
 function process(data: any): void {
   console.log(data.property)  // No compile-time check
 }
 
-// ✅ Secure: explicit types
+// âœ… Secure: explicit types
 function process(data: UserData): void {
   console.log(data.name)  // Compile-time check
 }
 
-// ✅ When you must accept unknown, validate
+// âœ… When you must accept unknown, validate
 function process(data: unknown): void {
   if (isUserData(data)) {
     console.log(data.name)  // Safe after type guard
@@ -84,7 +71,7 @@ function isUserData(data: unknown): data is UserData {
 **Parse input into typed values rather than validating raw strings.**
 
 ```typescript
-// ❌ Validate raw input
+// âŒ Validate raw input
 function createUser(input: CreateUserInput): User {
   if (!input.name || input.name.length < 2) {
     throw new Error('Invalid name')
@@ -98,7 +85,7 @@ function createUser(input: CreateUserInput): User {
   return { name: input.name, email: input.email, age: input.age }
 }
 
-// ✅ Parse into typed values
+// âœ… Parse into typed values
 class Name {
   private constructor(private value: string) {}
   static create(name: string): Name {
@@ -132,7 +119,7 @@ class Age {
   get value() { return this.value }
 }
 
-// Usage — parsing enforces invariants
+// Usage â€” parsing enforces invariants
 function createUser(input: { name: string; email: string; age: number }): User {
   return {
     name: Name.create(input.name),
@@ -147,7 +134,7 @@ function createUser(input: { name: string; email: string; age: number }): User {
 **Use the type system to prevent invalid states at compile time.**
 
 ```typescript
-// ❌ Invalid state possible
+// âŒ Invalid state possible
 interface Order {
   status: 'pending' | 'confirmed' | 'shipped' | 'cancelled'
   shippedAt?: Date
@@ -155,14 +142,14 @@ interface Order {
   trackingNumber?: string
 }
 
-// Can have status 'shipped' without trackingNumber — invalid!
+// Can have status 'shipped' without trackingNumber â€” invalid!
 const badOrder: Order = {
   status: 'shipped',
   shippedAt: new Date(),
-  // Missing trackingNumber — but TypeScript allows it
+  // Missing trackingNumber â€” but TypeScript allows it
 }
 
-// ✅ Invalid states are unrepresentable
+// âœ… Invalid states are unrepresentable
 type Order =
   | { status: 'pending'; items: OrderItem[] }
   | { status: 'confirmed'; items: OrderItem[]; customerId: string }
@@ -202,7 +189,7 @@ async function fetchUser(id: string): Promise<Result<User, NotFoundError | Netwo
   }
 }
 
-// Usage — exhaustive handling
+// Usage â€” exhaustive handling
 const result = await fetchUser('123')
 switch (result.kind) {
   case 'success':
@@ -250,7 +237,7 @@ function area(shape: Shape): number {
 **Prefer immutable data structures to prevent unexpected mutations.**
 
 ```typescript
-// ❌ Mutable state
+// âŒ Mutable state
 class ShoppingCart {
   items: CartItem[] = []
 
@@ -259,7 +246,7 @@ class ShoppingCart {
   }
 }
 
-// ✅ Immutable state
+// âœ… Immutable state
 class ShoppingCart {
   constructor(private readonly items: readonly CartItem[] = []) {}
 
@@ -276,13 +263,13 @@ class ShoppingCart {
   }
 }
 
-// Usage — no unexpected mutations
+// Usage â€” no unexpected mutations
 let cart = new ShoppingCart()
 cart = cart.addItem({ id: '1', name: 'Book', price: 10 })
 const previousCart = cart
 cart = cart.addItem({ id: '2', name: 'Pen', price: 5 })
 
-console.log(previousCart.items.length)  // 1 — not affected by new item
+console.log(previousCart.items.length)  // 1 â€” not affected by new item
 ```
 
 ### Pure Functions
@@ -290,22 +277,22 @@ console.log(previousCart.items.length)  // 1 — not affected by new item
 **Functions that always produce the same output for the same input with no side effects.**
 
 ```typescript
-// ❌ Impure function
+// âŒ Impure function
 let discount = 0.1
 function calculateTotal(price: number): number {
   return price * (1 - discount)  // Depends on external state
 }
 
-// ✅ Pure function
+// âœ… Pure function
 function calculateTotal(price: number, discount: number): number {
-  return price * (1 - discount)  // Same input → same output
+  return price * (1 - discount)  // Same input â†’ same output
 }
 
 // Benefits of pure functions:
-// 1. Predictable — no hidden state
-// 2. Testable — no mocking needed
-// 3. Composable — can be combined safely
-// 4. Cacheable — result depends only on input
+// 1. Predictable â€” no hidden state
+// 2. Testable â€” no mocking needed
+// 3. Composable â€” can be combined safely
+// 4. Cacheable â€” result depends only on input
 ```
 
 ### Explicit Error Modeling
@@ -313,7 +300,7 @@ function calculateTotal(price: number, discount: number): number {
 **Model errors as values, not exceptions.**
 
 ```typescript
-// ❌ Using exceptions for control flow
+// âŒ Using exceptions for control flow
 function findUser(id: string): User {
   const user = db.find(id)
   if (!user) {
@@ -322,7 +309,7 @@ function findUser(id: string): User {
   return user
 }
 
-// ✅ Explicit error types
+// âœ… Explicit error types
 type Result<T> = { success: true; data: T } | { success: false; error: Error }
 
 function findUser(id: string): Result<User> {
@@ -333,7 +320,7 @@ function findUser(id: string): Result<User> {
   return { success: true, data: user }
 }
 
-// Usage — forced to handle both cases
+// Usage â€” forced to handle both cases
 const result = findUser('123')
 if (result.success) {
   console.log(result.data.name)
@@ -377,7 +364,7 @@ class DatabaseConnection {
   }
 }
 
-// Usage — explicit lifecycle
+// Usage â€” explicit lifecycle
 const db = new DatabaseConnection()
 await db.connect()
 try {
@@ -412,7 +399,7 @@ class TaskGroup {
   }
 }
 
-// Usage — structured concurrency
+// Usage â€” structured concurrency
 async function fetchData(): Promise<void> {
   const group = new TaskGroup()
 
@@ -464,8 +451,8 @@ async importUsers(csv: string): Promise<User[]> {
 **Keep modules focused on a single responsibility.**
 
 ```typescript
-// ❌ Large, non-cohesive module
-// user-service.ts — 500+ lines
+// âŒ Large, non-cohesive module
+// user-service.ts â€” 500+ lines
 class UserService {
   createUser() { /* ... */ }
   validateEmail() { /* ... */ }
@@ -475,8 +462,8 @@ class UserService {
   // ... many more responsibilities
 }
 
-// ✅ Small, cohesive modules
-// user-service.ts — focused on user operations
+// âœ… Small, cohesive modules
+// user-service.ts â€” focused on user operations
 class UserService {
   constructor(
     private validator: EmailValidator,
@@ -493,7 +480,7 @@ class UserService {
   }
 }
 
-// email-validator.ts — focused on email validation
+// email-validator.ts â€” focused on email validation
 class EmailValidator {
   validate(email: string): void {
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
@@ -502,7 +489,7 @@ class EmailValidator {
   }
 }
 
-// email-service.ts — focused on sending emails
+// email-service.ts â€” focused on sending emails
 class EmailService {
   async sendWelcomeEmail(to: string, name: string): Promise<void> {
     // ... send email
@@ -515,7 +502,7 @@ class EmailService {
 **Manage dependencies explicitly and avoid circular dependencies.**
 
 ```typescript
-// ❌ Circular dependency
+// âŒ Circular dependency
 // user-service.ts
 import { OrderService } from './order-service'
 class UserService {
@@ -528,7 +515,7 @@ class OrderService {
   constructor(private userService: UserService) {}
 }
 
-// ✅ Dependency injection — both depend on abstraction
+// âœ… Dependency injection â€” both depend on abstraction
 // user-port.ts
 export interface UserPort {
   getUser(id: string): Promise<User | null>
@@ -559,7 +546,7 @@ class OrderService {
 **Build accessible interfaces from the start, not as an afterthought.**
 
 ```typescript
-// ✅ Accessible components
+// âœ… Accessible components
 function SearchInput() {
   return (
     <div className="relative">
@@ -577,7 +564,7 @@ function SearchInput() {
   )
 }
 
-// ✅ Keyboard navigation
+// âœ… Keyboard navigation
 function Navigation() {
   return (
     <nav role="navigation" aria-label="Main navigation">
@@ -604,7 +591,7 @@ function Navigation() {
 **Design for multiple languages from the start.**
 
 ```typescript
-// ✅ i18n-ready application
+// âœ… i18n-ready application
 class I18nService {
   private translations: Record<string, Record<string, string>> = {}
   private currentLocale: string = 'en'
@@ -634,11 +621,11 @@ class I18nService {
 // Usage
 const i18n = new I18nService()
 i18n.register('en', { 'welcome': 'Welcome, {name}!' })
-i18n.register('es', { 'welcome': '¡Bienvenido, {name}!' })
+i18n.register('es', { 'welcome': 'Â¡Bienvenido, {name}!' })
 
 console.log(i18n.t('welcome', { name: 'John' }))  // "Welcome, John!"
 i18n.setLocale('es')
-console.log(i18n.t('welcome', { name: 'John' }))  // "¡Bienvenido, John!"
+console.log(i18n.t('welcome', { name: 'John' }))  // "Â¡Bienvenido, John!"
 ```
 
 ---

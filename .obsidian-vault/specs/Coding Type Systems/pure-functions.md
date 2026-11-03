@@ -1,9 +1,11 @@
+﻿---
+slug: pure-functions
+---
+
 # Pure Functions
 
 > **Purpose:** Functions that always return same output for same input.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-pure-functions`
@@ -51,8 +53,6 @@ declared
 - coding-explicit-error-modeling
 - arch-command-query-separation
 - arch-tell-dont-ask
-
----
 
 ## Definition
 
@@ -122,10 +122,10 @@ Pure functions do not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/immutability]] — Immutability
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Coding Type Systems/explicit-error-modeling]] — Explicit Error Modeling
-- [[Architecture/command-query-separation]] — Command-Query Separation
+- [[Coding Type Systems/immutability]] â€” Immutability
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Coding Type Systems/explicit-error-modeling]] â€” Explicit Error Modeling
+- [[Architecture/command-query-separation]] â€” Command-Query Separation
 
 ## Project Observations
 
@@ -137,9 +137,7 @@ The project uses TypeScript, which supports pure functions through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Pure Functions Note**

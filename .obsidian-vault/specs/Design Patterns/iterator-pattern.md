@@ -1,9 +1,11 @@
+﻿---
+slug: iterator-pattern
+---
+
 # Iterator Pattern
 
 > **Purpose:** Traverse collections with Iterator Pattern.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `iterator-pattern`
@@ -50,8 +52,6 @@ declared
 - generator-pattern
 - collection-abstraction
 - enumerable-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Iterator does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/iterator-pattern]] — Iterator Pattern
-- [[Design Patterns/generator-pattern]] — Generator Pattern
-- [[Design Patterns/collection-abstraction]] — Collection Abstraction
-- [[Design Patterns/enumerable-pattern]] — Enumerable Pattern
+- [[Design Patterns/iterator-pattern]] â€” Iterator Pattern
+- [[Design Patterns/generator-pattern]] â€” Generator Pattern
+- [[Design Patterns/collection-abstraction]] â€” Collection Abstraction
+- [[Design Patterns/enumerable-pattern]] â€” Enumerable Pattern
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Iterator Pattern through:
 ## Sources
 
 - [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Iterator Pattern Note**

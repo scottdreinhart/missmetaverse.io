@@ -1,3 +1,7 @@
+---
+slug: enterprise-integration-patterns
+---
+
 # Enterprise Integration Patterns
 
 > **Purpose:** Solve enterprise integration challenges with EIP.

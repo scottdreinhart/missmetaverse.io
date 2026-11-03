@@ -1,9 +1,11 @@
+﻿---
+slug: accessibility-by-design
+---
+
 # Accessibility by Design
 
 > **Purpose:** Build accessible interfaces from the start.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-accessibility-by-design`
@@ -50,8 +52,6 @@ declared
 - arch-design-systems
 - arch-headless-components
 - testing-observability
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Accessibility by design does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/internationalization-by-design]] — Internationalization by Design
-- [[Architecture/design-systems]] — Design Systems
-- [[Architecture/headless-components]] — Headless Components
-- [[Quality & Testing/observability]] — Observability
+- [[Coding Type Systems/internationalization-by-design]] â€” Internationalization by Design
+- [[Architecture/design-systems]] â€” Design Systems
+- [[Architecture/headless-components]] â€” Headless Components
+- [[Quality & Testing/observability]] â€” Observability
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project follows accessibility by design through:
 ## Sources
 
 - [[Sources/mdn-web-documentation|MDN Web Documentation]]
-- [[Sources/owasp-top-10|OWASP — Top 10 Web Application Security Risks]]
-
----
+- [[Sources/owasp-top-10|OWASP â€” Top 10 Web Application Security Risks]]
 
 **End of Accessibility by Design Note**

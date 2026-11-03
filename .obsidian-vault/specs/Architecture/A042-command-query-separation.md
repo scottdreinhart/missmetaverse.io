@@ -1,34 +1,22 @@
----
+﻿---
 slug: command-query-separation
 sources:
   - https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
   - https://en.wikipedia.org/wiki/CQRS
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - cqs
   - cqrs
   - principles
   - design
----
-
+  - --
 # Command-Query Separation (CQS)
 
 ## Definition
 
 Command-Query Separation is the principle that **methods should either do something (command) or return something (query), not both**. A method should not have side effects when it is a query, and a command should not return meaningful data.
 
-> "Every method should either do something or answer something, but not both." — Bertrand Meyer (1988)
+> "Every method should either do something or answer something, but not both." â€” Bertrand Meyer (1988)
 
 ## Problem Addressed
 
@@ -41,7 +29,7 @@ Violating CQS leads to:
 ## Scope and Boundaries
 
 - CQS is about **method behavior**, not about architecture
-- CQS ≠ CQRS (CQRS is an architectural pattern that extends CQS)
+- CQS â‰  CQRS (CQRS is an architectural pattern that extends CQS)
 - CQS is a guideline, not an absolute rule (some methods need both)
 
 ## When to Apply
@@ -55,9 +43,9 @@ Violating CQS leads to:
 
 | Cost | Description |
 |------|-------------|
-| **More methods** — Separating commands and queries increases method count |
-| **Boilerplate** — Extra methods for what could be one |
-| **Performance** — Separate calls may be less efficient |
+| **More methods** â€” Separating commands and queries increases method count |
+| **Boilerplate** â€” Extra methods for what could be one |
+| **Performance** â€” Separate calls may be less efficient |
 
 ## Common Misuses
 
@@ -67,16 +55,16 @@ Violating CQS leads to:
 
 ## Related Concepts
 
-- **CQRS** — Architectural extension of CQS
-- **Pure Functions** — Functions that only query (no side effects)
-- **Side Effects** — CQS prevents hidden side effects
+- **CQRS** â€” Architectural extension of CQS
+- **Pure Functions** â€” Functions that only query (no side effects)
+- **Side Effects** â€” CQS prevents hidden side effects
 
 ## Project Observations
 
 - TypeScript's type system supports CQS through explicit return types
 - File naming conventions support CQS:
-  - `*.logic.ts` — Business logic (commands)
-  - `*.data.ts` — Data access (queries)
+  - `*.logic.ts` â€” Business logic (commands)
+  - `*.data.ts` â€” Data access (queries)
 - No evidence of CQS violations in existing code
 
 ## Sources

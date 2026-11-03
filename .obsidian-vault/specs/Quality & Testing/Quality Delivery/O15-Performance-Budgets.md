@@ -1,32 +1,22 @@
----
+﻿---
 slug: performance-budgets
 sources:
   - https://web.dev/performance-budgets/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - performance-budgets
   - performance
   - monitoring
   - quality
----
-
+  - --
 # Performance Budgets
 
 ## Definition
 
 Performance Budgets are **limits on performance metrics (bundle size, load time, etc.) that prevent performance regression**.
 
-> "A performance budget is a limit on a performance metric that prevents performance regression." — web.dev
+> "A performance budget is a limit on a performance metric that prevents performance regression." â€” web.dev
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without performance budgets:
 
 ## Scope and Boundaries
 
-- Performance Budgets ≠ Performance Optimization (performance budgets prevent regression, optimization improves performance)
+- Performance Budgets â‰  Performance Optimization (performance budgets prevent regression, optimization improves performance)
 - Performance Budgets = Limits (performance budgets set limits)
 - Performance Budgets is a **quality gate**, not a pattern
 
@@ -53,8 +43,8 @@ Without performance budgets:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Performance budgets add tooling complexity |
-| **Time** — Setting up performance budgets takes time |
+| **Complexity** â€” Performance budgets add tooling complexity |
+| **Time** â€” Setting up performance budgets takes time |
 | **Rigidity**: Too strict budgets can limit features |
 
 ## Common Misuses
@@ -65,9 +55,9 @@ Without performance budgets:
 
 ## Related Concepts
 
-- [Performance Optimization](Frontend UI/performance-optimization-patterns.md) — Performance optimization improves performance
-- [Profiling](Frontend UI/profiling-patterns.md) — Profiling identifies performance issues
-- [Vite Configuration](Performance/vite-configuration.md) — Vite supports performance budgets
+- [Performance Optimization](Frontend UI/performance-optimization-patterns.md) â€” Performance optimization improves performance
+- [Profiling](Frontend UI/profiling-patterns.md) â€” Profiling identifies performance issues
+- [Vite Configuration](Performance/vite-configuration.md) â€” Vite supports performance budgets
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without performance budgets:
   - The project's architecture patterns note covers performance concepts
   - No evidence of performance budgets in existing code (src/ is empty)
 - File naming conventions support performance budgets:
-  - `*.config.ts` — Config files
-  - `*.metrics.ts` — Metrics files
+  - `*.config.ts` â€” Config files
+  - `*.metrics.ts` â€” Metrics files
 
 ## Sources
 

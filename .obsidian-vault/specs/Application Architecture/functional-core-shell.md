@@ -1,9 +1,11 @@
+﻿---
+slug: functional-core-shell
+---
+
 # Functional Core Imperative Shell
 
 > **Purpose:** Structure apps with Functional Core, Imperative Shell.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `functional-core-shell`
@@ -50,8 +52,6 @@ declared
 - functional-core
 - imperative-shell
 - fcs-pattern
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Functional Core, Imperative Shell does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/functional-core-shell]] — Functional Core, Imperative Shell
-- [[Application Architecture/functional-core]] — Functional Core
-- [[Application Architecture/imperative-shell]] — Imperative Shell
-- [[Application Architecture/fcs-pattern]] — FCS Pattern
+- [[Application Architecture/functional-core-shell]] â€” Functional Core, Imperative Shell
+- [[Application Architecture/functional-core]] â€” Functional Core
+- [[Application Architecture/imperative-shell]] â€” Imperative Shell
+- [[Application Architecture/fcs-pattern]] â€” FCS Pattern
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Functional Core, Imperative Shell through:
 
 ## Sources
 
-- [[Sources/fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Functional Core, Imperative Shell Note**

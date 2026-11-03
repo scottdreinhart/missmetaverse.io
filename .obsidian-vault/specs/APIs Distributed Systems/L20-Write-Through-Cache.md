@@ -1,34 +1,22 @@
----
+﻿---
 slug: write-through-cache
 sources:
   - https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html
   - https://redis.io/docs/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - write-through-cache
   - caching
   - distributed-systems
   - performance
----
-
+  - --
 # Write-Through Cache
 
 ## Definition
 
 Write-Through Cache is **a caching pattern where writes are applied to both the cache and the data source simultaneously, ensuring consistency**.
 
-> "A write-through cache is a caching pattern where writes are applied to both the cache and the data source simultaneously." — AWS
+> "A write-through cache is a caching pattern where writes are applied to both the cache and the data source simultaneously." â€” AWS
 
 ## Problem Addressed
 
@@ -40,7 +28,7 @@ Without write-through cache:
 
 ## Scope and Boundaries
 
-- Write-Through Cache ≠ Write-Behind (write-through writes immediately, write-behind writes asynchronously)
+- Write-Through Cache â‰  Write-Behind (write-through writes immediately, write-behind writes asynchronously)
 - Write-Through Cache = Consistency (write-through ensures consistency)
 - Write-Through Cache is a **caching pattern**, not a design pattern
 
@@ -55,9 +43,9 @@ Without write-through cache:
 
 | Cost | Description |
 |------|-------------|
-| **Performance** — Write-through adds write latency |
-| **Complexity** — Write-through cache adds caching complexity |
-| **Time** — Implementing write-through cache takes time |
+| **Performance** â€” Write-through adds write latency |
+| **Complexity** â€” Write-through cache adds caching complexity |
+| **Time** â€” Implementing write-through cache takes time |
 
 ## Common Misuses
 
@@ -67,9 +55,9 @@ Without write-through cache:
 
 ## Related Concepts
 
-- [Cache-Aside](Architecture/cache-aside-pattern.md) — Cache-aside is the alternative to write-through cache
-- [Caching Strategies](Data Databases/caching-strategies.md) — Caching strategies include write-through cache
-- [Read-Through Cache](APIs Distributed Systems/read-through-cache.md) — Read-through cache is the read counterpart
+- [Cache-Aside](Architecture/cache-aside-pattern.md) â€” Cache-aside is the alternative to write-through cache
+- [Caching Strategies](Data Databases/caching-strategies.md) â€” Caching strategies include write-through cache
+- [Read-Through Cache](APIs Distributed Systems/read-through-cache.md) â€” Read-through cache is the read counterpart
 
 ## Project Observations
 
@@ -79,8 +67,8 @@ Without write-through cache:
   - The project's architecture patterns note covers caching concepts
   - No evidence of write-through cache in existing code (src/ is empty)
 - File naming conventions support write-through cache:
-  - `*.cache.ts` — Cache files
-  - `*.repository.ts` — Repository files
+  - `*.cache.ts` â€” Cache files
+  - `*.repository.ts` â€” Repository files
 
 ## Sources
 

@@ -1,31 +1,22 @@
----
+﻿---
 slug: repository-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.repository.ts
 
 ## Definition
 
 `*.repository.ts` is **a file naming convention for TypeScript files that contain repository implementations for data access**.
 
-> "The *.repository.ts convention identifies TypeScript files that contain repository implementations." — TypeScript Docs
+> "The *.repository.ts convention identifies TypeScript files that contain repository implementations." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.repository.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.repository.ts` ≠ `*.port.ts` (`*.repository.ts` is for implementations, `*.port.ts` is for interfaces)
+- `*.repository.ts` â‰  `*.port.ts` (`*.repository.ts` is for implementations, `*.port.ts` is for interfaces)
 - `*.repository.ts` = Repositories (`*.repository.ts` is for repository implementations)
 - `*.repository.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.repository.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every repository needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.repository.ts` convention:
 
 ## Related Concepts
 
-- [Repository Pattern](Architecture/repository-pattern.md) — Repository pattern is the pattern behind `*.repository.ts`
-- [Port File Convention](Project File Conventions/port-file-convention.md) — Port file convention defines repository interfaces
-- [Data Mapper Pattern](Architecture/data-mapper-pattern.md) — Data mapper pattern is related
+- [Repository Pattern](Architecture/repository-pattern.md) â€” Repository pattern is the pattern behind `*.repository.ts`
+- [Port File Convention](Project File Conventions/port-file-convention.md) â€” Port file convention defines repository interfaces
+- [Data Mapper Pattern](Architecture/data-mapper-pattern.md) â€” Data mapper pattern is related
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.repository.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.repository.ts` in existing code (src/ is empty)
 - File naming conventions support `*.repository.ts`:
-  - `*.repository.ts` — Repository files
-  - `*.port.ts` — Port files
+  - `*.repository.ts` â€” Repository files
+  - `*.port.ts` â€” Port files
 
 ## Sources
 

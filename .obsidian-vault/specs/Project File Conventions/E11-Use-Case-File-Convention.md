@@ -1,31 +1,22 @@
----
+﻿---
 slug: use-case-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
   - file-conventions
   - react
   - typescript
   - project-structure
----
-
+  - --
 # *.use-case.ts
 
 ## Definition
 
 `*.use-case.ts` is **a file naming convention for TypeScript files that contain use case implementations (application services)**.
 
-> "The *.use-case.ts convention identifies TypeScript files that contain use case implementations." — TypeScript Docs
+> "The *.use-case.ts convention identifies TypeScript files that contain use case implementations." â€” TypeScript Docs
 
 ## Problem Addressed
 
@@ -37,7 +28,7 @@ Without `*.use-case.ts` convention:
 
 ## Scope and Boundaries
 
-- `*.use-case.ts` ≠ `*.logic.ts` (`*.use-case.ts` is for use cases, `*.logic.ts` is for general business logic)
+- `*.use-case.ts` â‰  `*.logic.ts` (`*.use-case.ts` is for use cases, `*.logic.ts` is for general business logic)
 - `*.use-case.ts` = Use Cases (`*.use-case.ts` is for use case implementations)
 - `*.use-case.ts` is a **file naming convention**, not a pattern
 
@@ -52,8 +43,8 @@ Without `*.use-case.ts` convention:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — File conventions add naming complexity |
-| **Time** — Following conventions takes time |
+| **Complexity** â€” File conventions add naming complexity |
+| **Time** â€” Following conventions takes time |
 | **Over-convention**: Not every use case needs a separate file |
 
 ## Common Misuses
@@ -64,9 +55,9 @@ Without `*.use-case.ts` convention:
 
 ## Related Concepts
 
-- [Use Case Driven Design](Architecture/use-case-driven-design.md) — Use case driven design uses `*.use-case.ts`
-- [Logic File Convention](Project File Conventions/logic-file-convention.md) — Logic file convention separates business logic
-- [Application Service](DDD/application-service.md) — Application service is the pattern behind `*.use-case.ts`
+- [Use Case Driven Design](Architecture/use-case-driven-design.md) â€” Use case driven design uses `*.use-case.ts`
+- [Logic File Convention](Project File Conventions/logic-file-convention.md) â€” Logic file convention separates business logic
+- [Application Service](DDD/application-service.md) â€” Application service is the pattern behind `*.use-case.ts`
 
 ## Project Observations
 
@@ -76,8 +67,8 @@ Without `*.use-case.ts` convention:
   - The project's architecture patterns note covers file conventions
   - No evidence of `*.use-case.ts` in existing code (src/ is empty)
 - File naming conventions support `*.use-case.ts`:
-  - `*.use-case.ts` — Use case files
-  - `*.logic.ts` — Logic files
+  - `*.use-case.ts` â€” Use case files
+  - `*.logic.ts` â€” Logic files
 
 ## Sources
 

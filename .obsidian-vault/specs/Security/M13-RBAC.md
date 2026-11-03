@@ -1,34 +1,22 @@
----
+﻿---
 slug: rbac
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - rbac
   - security
   - access-control
   - authorization
----
-
+  - --
 # Role-Based Access Control (RBAC)
 
 ## Definition
 
 Role-Based Access Control (RBAC) is **an access control model where permissions are assigned to roles, and users are assigned to roles**.
 
-> "RBAC is an access control model where permissions are assigned to roles, and users are assigned to roles." — NIST
+> "RBAC is an access control model where permissions are assigned to roles, and users are assigned to roles." â€” NIST
 
 ## Problem Addressed
 
@@ -40,7 +28,7 @@ Without RBAC:
 
 ## Scope and Boundaries
 
-- RBAC ≠ ABAC (RBAC uses roles, ABAC uses attributes)
+- RBAC â‰  ABAC (RBAC uses roles, ABAC uses attributes)
 - RBAC = Roles (RBAC uses roles for access control)
 - RBAC is an **access control model**, not a pattern
 
@@ -55,8 +43,8 @@ Without RBAC:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — RBAC adds access control complexity |
-| **Time** — Implementing RBAC takes time |
+| **Complexity** â€” RBAC adds access control complexity |
+| **Time** â€” Implementing RBAC takes time |
 | **Rigidity**: RBAC may not support all access patterns |
 
 ## Common Misuses
@@ -67,9 +55,9 @@ Without RBAC:
 
 ## Related Concepts
 
-- [Authorization](Security/authorization.md) — Authorization uses RBAC
-- [Separation of Duties](Security/separation-of-duties.md) — Separation of duties is implemented through RBAC
-- [ABAC](Security/abac.md) — ABAC is an alternative to RBAC
+- [Authorization](Security/authorization.md) â€” Authorization uses RBAC
+- [Separation of Duties](Security/separation-of-duties.md) â€” Separation of duties is implemented through RBAC
+- [ABAC](Security/abac.md) â€” ABAC is an alternative to RBAC
 
 ## Project Observations
 
@@ -78,8 +66,8 @@ Without RBAC:
   - The project's architecture patterns note covers security concepts
   - No evidence of RBAC in existing code (src/ is empty)
 - File naming conventions support RBAC:
-  - `*.guard.ts` — Guard files
-  - `*.middleware.ts` — Middleware files
+  - `*.guard.ts` â€” Guard files
+  - `*.middleware.ts` â€” Middleware files
 
 ## Sources
 
@@ -359,12 +347,12 @@ export class RoleAssignmentService {
 5. **Add guards**: Protect components with role guards
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `express` — for middleware
-- **npm Package**: `@nestjs/passport` — for authentication
-- **npm Package**: `casl` — for authorization
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `express` â€” for middleware
+- **npm Package**: `@nestjs/passport` â€” for authentication
+- **npm Package**: `casl` â€” for authorization
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when implementing RBAC

@@ -1,33 +1,22 @@
----
+﻿---
 slug: declarative-programming
 sources:
   - https://en.wikipedia.org/wiki/Declarative_programming
   - https://en.wikipedia.org/wiki/Imperative_programming
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - declarative
   - programming-paradigm
   - data-driven
   - configuration-driven
----
-
+  - --
 # Declarative Programming
 
 ## Definition
 
 Declarative Programming is a **paradigm where you describe WHAT should be done rather than HOW to do it**. The implementation details are handled by the framework or language.
 
-> "Declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow." — Wikipedia
+> "Declarative programming is a programming paradigm that expresses the logic of a computation without describing its control flow." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,8 +28,8 @@ Imperative programming leads to:
 
 ## Scope and Boundaries
 
-- Declarative ≠ Functional (declarative is broader than functional)
-- Declarative ≠ Data-driven (declarative is a paradigm, data-driven is an approach)
+- Declarative â‰  Functional (declarative is broader than functional)
+- Declarative â‰  Data-driven (declarative is a paradigm, data-driven is an approach)
 - Declarative is a **programming paradigm**, not a specific technique
 
 ## When to Apply
@@ -54,21 +43,21 @@ Imperative programming leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Abstraction** — Hard to control implementation |
-| **Debugging** — Hard to trace what's happening |
-| **Limitations** — May not support all requirements |
+| **Abstraction** â€” Hard to control implementation |
+| **Debugging** â€” Hard to trace what's happening |
+| **Limitations** â€” May not support all requirements |
 
 ## Common Misuses
 
 - **Everything declarative**: Some things need imperative control
-- **Confusing with data-driven**: Declarative ≠ data-driven
+- **Confusing with data-driven**: Declarative â‰  data-driven
 - **Over-abstraction**: Too much abstraction hides important details
 
 ## Related Concepts
 
-- [Data-Driven Design](Architecture/data-driven-design.md) — Complementary approach
-- [Configuration-Driven Development](Architecture/configuration-driven-development.md) — Declarative configuration
-- [React Patterns](../React/react-patterns) — React is declarative
+- [Data-Driven Design](Architecture/data-driven-design.md) â€” Complementary approach
+- [Configuration-Driven Development](Architecture/configuration-driven-development.md) â€” Declarative configuration
+- [React Patterns](../React/react-patterns) â€” React is declarative
 
 ## Project Observations
 

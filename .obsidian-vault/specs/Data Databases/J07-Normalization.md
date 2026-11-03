@@ -1,33 +1,22 @@
----
+﻿---
 slug: normalization
 sources:
   - https://www.postgresql.org/docs/
   - https://dev.mysql.com/doc/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - database
   - normalization
   - data-modeling
   - sql
----
-
+  - --
 # Normalization
 
 ## Definition
 
 Normalization is **the process of organizing data in a database to reduce redundancy and improve data integrity through decomposition**.
 
-> "Normalization is the process of efficiently organizing data in a database. Two goals are the organization of data to minimize redundancy and minimize modification anomalies." — Wikipedia
+> "Normalization is the process of efficiently organizing data in a database. Two goals are the organization of data to minimize redundancy and minimize modification anomalies." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without normalization:
 
 ## Scope and Boundaries
 
-- Normalization ≠ Denormalization (normalization reduces redundancy, denormalization introduces it for performance)
+- Normalization â‰  Denormalization (normalization reduces redundancy, denormalization introduces it for performance)
 - Normalization = Integrity (normalization improves data integrity)
 - Normalization is a **database design principle**, not a pattern
 
@@ -54,9 +43,9 @@ Without normalization:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Normalized databases require more joins |
-| **Performance** — More joins can slow queries |
-| **Over-normalization** — Don't normalize when performance is critical |
+| **Complexity** â€” Normalized databases require more joins |
+| **Performance** â€” More joins can slow queries |
+| **Over-normalization** â€” Don't normalize when performance is critical |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without normalization:
 
 ## Related Concepts
 
-- [Denormalization](Data Databases/denormalization.md) — Denormalization is the opposite of normalization
-- [Database Design](Data Databases/database-design.md) — Database design includes normalization
-- [Referential Integrity](Data Databases/referential-integrity.md) — Referential integrity is maintained through normalization
+- [Denormalization](Data Databases/denormalization.md) â€” Denormalization is the opposite of normalization
+- [Database Design](Data Databases/database-design.md) â€” Database design includes normalization
+- [Referential Integrity](Data Databases/referential-integrity.md) â€” Referential integrity is maintained through normalization
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without normalization:
   - The project's architecture patterns note covers database concepts
   - No evidence of normalized databases in existing code (src/ is empty)
 - File naming conventions support normalization:
-  - `*.schema.ts` — Schema files
-  - `*.migration.ts` — Migration files
+  - `*.schema.ts` â€” Schema files
+  - `*.migration.ts` â€” Migration files
 
 ## Sources
 

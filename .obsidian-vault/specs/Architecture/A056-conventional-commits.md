@@ -1,35 +1,22 @@
----
+﻿---
 slug: conventional-commits
 sources:
   - https://www.conventionalcommits.org/
   - https://www.npmjs.com/package/@commitlint/config-conventional
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - conventional-commits
   - commits
   - linting
   - patterns
----
-
+  - --
 # Conventional Commits
 
 ## Definition
 
 Conventional Commits is a **convention for writing commit messages**.
 
-> "Conventional Commits is a specification for adding human and system readable meaning to commit messages." — Conventional Commits
+> "Conventional Commits is a specification for adding human and system readable meaning to commit messages." â€” Conventional Commits
 
 ## Problem Addressed
 
@@ -41,8 +28,8 @@ Without conventional commits:
 
 ## Scope and Boundaries
 
-- Conventional Commits ≠ commitlint (conventional commits is a convention, commitlint is a tool)
-- Conventional Commits ≠ Git (conventional commits is a convention, git is a tool)
+- Conventional Commits â‰  commitlint (conventional commits is a convention, commitlint is a tool)
+- Conventional Commits â‰  Git (conventional commits is a convention, git is a tool)
 - Conventional Commits is a **convention**, not a tool
 
 ## When to Apply
@@ -56,21 +43,21 @@ Without conventional commits:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Conventional commits are complex |
-| **Time** — Conventional commits take time |
-| **Over-conventional-commits** — Don't use conventional commits for everything |
+| **Complexity** â€” Conventional commits are complex |
+| **Time** â€” Conventional commits take time |
+| **Over-conventional-commits** â€” Don't use conventional commits for everything |
 
 ## Common Misuses
 
 - **Everything conventional commits**: Not everything needs conventional commits
-- **Confusing with commitlint**: Conventional commits ≠ commitlint
+- **Confusing with commitlint**: Conventional commits â‰  commitlint
 - **Over-conventional-commits**: Too much conventional commits creates complexity
 
 ## Related Concepts
 
-- [commitlint Patterns](Architecture/commitlint-patterns.md) — Conventional commits with commitlint
-- [Commit Management](../Commit%20Management/commit-management-integration.md) — Conventional commits with commit management
-- [Husky Patterns](Architecture/husky-patterns.md) — Conventional commits with Husky
+- [commitlint Patterns](Architecture/commitlint-patterns.md) â€” Conventional commits with commitlint
+- [Commit Management](../Commit%20Management/commit-management-integration.md) â€” Conventional commits with commit management
+- [Husky Patterns](Architecture/husky-patterns.md) â€” Conventional commits with Husky
 
 ## Project Observations
 
@@ -78,8 +65,8 @@ Without conventional commits:
   - The project's commit management note covers conventional commits (from existing notes)
   - No evidence of conventional commits in existing code (src/ is empty)
 - File naming conventions support conventional commits:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 
@@ -221,13 +208,13 @@ pnpm changeset publish
 5. **Auto-release**: Use changesets for automated releases
 
 ### Tools to Use
-- **VS Code Extension**: GitLens — for Git history visualization
-- **VS Code Extension**: Error Lens — for inline commit lint errors
-- **npm Package**: `@commitlint/cli` — for commit message linting
-- **npm Package**: `husky` — for Git hooks
-- **npm Package**: `@changesets/cli` — for automated releases
-- **Terminal Command**: `npx commitlint --edit ${1}` — lint commit message
-- **Terminal Command**: `npx changeset` — create changeset
+- **VS Code Extension**: GitLens â€” for Git history visualization
+- **VS Code Extension**: Error Lens â€” for inline commit lint errors
+- **npm Package**: `@commitlint/cli` â€” for commit message linting
+- **npm Package**: `husky` â€” for Git hooks
+- **npm Package**: `@changesets/cli` â€” for automated releases
+- **Terminal Command**: `npx commitlint --edit ${1}` â€” lint commit message
+- **Terminal Command**: `npx changeset` â€” create changeset
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing PRs with multiple commits

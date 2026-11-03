@@ -1,4 +1,4 @@
----
+﻿---
 slug: ts-path-resolution
 sources:
   - https://vite.dev/guide/features.html
@@ -8,15 +8,6 @@ sources:
   - https://playwright.dev/docs/typescript
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - integration
   - typescript
   - vite
@@ -24,8 +15,7 @@ tags:
   - playwright
   - path-resolution
   - aliases
----
-
+  - --
 # TypeScript Path Resolution
 
 ## Overview
@@ -85,7 +75,7 @@ import { formatDate } from '@utils/date'
 
 ## 3. Vite Configuration (`vite.config.ts`)
 
-### Method 1: Manual Alias (Recommended — Faster)
+### Method 1: Manual Alias (Recommended â€” Faster)
 
 ```typescript
 import { defineConfig } from 'vite'
@@ -121,7 +111,7 @@ export default defineConfig({
 })
 ```
 
-**⚠️ Warning**: `tsconfigPaths` has a performance cost. It parses `tsconfig.json` on every dev server start. The Vite documentation explicitly discourages this for large projects.
+**âš ï¸ Warning**: `tsconfigPaths` has a performance cost. It parses `tsconfig.json` on every dev server start. The Vite documentation explicitly discourages this for large projects.
 
 ### Method 3: Hybrid (Best of Both Worlds)
 
@@ -322,7 +312,7 @@ export default tseslint.config({
 ### Import Resolution
 
 ```javascript
-// eslint.config.mjs — Ensure imports are resolved correctly
+// eslint.config.mjs â€” Ensure imports are resolved correctly
 import tseslint from 'typescript-eslint'
 import importPlugin from 'eslint-plugin-import'
 
@@ -344,50 +334,50 @@ export default tseslint.config({
 ## 7. Complete Integration Map
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    PATH RESOLUTION FLOW                      │
-│                                                             │
-│  Developer writes:                                          │
-│  import { Button } from '@components/ui/button'            │
-│                     │                                       │
-│                     ▼                                       │
-│  ┌──────────────────────────────────────────────────┐      │
-│  │              IDE / Editor                        │      │
-│  │  Reads: tsconfig.json paths                     │      │
-│  │  Provides: IntelliSense, go-to-definition       │      │
-│  └──────────────────────────────────────────────────┘      │
-│                     │                                       │
-│        ┌────────────┴────────────┐                         │
-│        ▼                         ▼                         │
-│  ┌─────────────┐        ┌─────────────────┐               │
-│  │ Vite (dev)  │        │ Vite (build)    │               │
-│  │ resolve.alias│       │ resolve.alias   │               │
-│  │ ✅ Works     │        │ ✅ Works        │               │
-│  └─────────────┘        └─────────────────┘               │
-│        │                         │                        │
-│        ▼                         ▼                        │
-│  ┌──────────────────────────────────────────┐             │
-│  │         Output (JavaScript)               │             │
-│  │  import { Button } from '/src/.../button'│             │
-│  │  (Aliases are resolved to real paths)    │             │
-│  └──────────────────────────────────────────┘             │
-│                     │                                       │
-│        ┌────────────┴────────────┐                         │
-│        ▼                         ▼                         │
-│  ┌─────────────┐        ┌─────────────────┐               │
-│  │ Vitest      │        │ Playwright        │             │
-│  │ resolve.alias│       │ tsconfig paths   │               │
-│  │ ✅ Works     │        │ ✅ Works         │               │
-│  └─────────────┘        └─────────────────┘               │
-│                     │                                       │
-│        ┌────────────┴────────────┐                         │
-│        ▼                         ▼                         │
-│  ┌─────────────┐        ┌─────────────────┐               │
-│  │ ESLint       │        │ TypeScript      │               │
-│  │ ts resolver  │        │ tsc --noEmit    │               │
-│  │ ✅ Works     │        │ ✅ Works        │               │
-│  └─────────────┘        └─────────────────┘               │
-└─────────────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚                    PATH RESOLUTION FLOW                      â”‚
+â”‚                                                             â”‚
+â”‚  Developer writes:                                          â”‚
+â”‚  import { Button } from '@components/ui/button'            â”‚
+â”‚                     â”‚                                       â”‚
+â”‚                     â–¼                                       â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”      â”‚
+â”‚  â”‚              IDE / Editor                        â”‚      â”‚
+â”‚  â”‚  Reads: tsconfig.json paths                     â”‚      â”‚
+â”‚  â”‚  Provides: IntelliSense, go-to-definition       â”‚      â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜      â”‚
+â”‚                     â”‚                                       â”‚
+â”‚        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                         â”‚
+â”‚        â–¼                         â–¼                         â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”               â”‚
+â”‚  â”‚ Vite (dev)  â”‚        â”‚ Vite (build)    â”‚               â”‚
+â”‚  â”‚ resolve.aliasâ”‚       â”‚ resolve.alias   â”‚               â”‚
+â”‚  â”‚ âœ… Works     â”‚        â”‚ âœ… Works        â”‚               â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜        â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜               â”‚
+â”‚        â”‚                         â”‚                        â”‚
+â”‚        â–¼                         â–¼                        â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”             â”‚
+â”‚  â”‚         Output (JavaScript)               â”‚             â”‚
+â”‚  â”‚  import { Button } from '/src/.../button'â”‚             â”‚
+â”‚  â”‚  (Aliases are resolved to real paths)    â”‚             â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜             â”‚
+â”‚                     â”‚                                       â”‚
+â”‚        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                         â”‚
+â”‚        â–¼                         â–¼                         â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”               â”‚
+â”‚  â”‚ Vitest      â”‚        â”‚ Playwright        â”‚             â”‚
+â”‚  â”‚ resolve.aliasâ”‚       â”‚ tsconfig paths   â”‚               â”‚
+â”‚  â”‚ âœ… Works     â”‚        â”‚ âœ… Works         â”‚               â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜        â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜               â”‚
+â”‚                     â”‚                                       â”‚
+â”‚        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”´â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                         â”‚
+â”‚        â–¼                         â–¼                         â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”        â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”               â”‚
+â”‚  â”‚ ESLint       â”‚        â”‚ TypeScript      â”‚               â”‚
+â”‚  â”‚ ts resolver  â”‚        â”‚ tsc --noEmit    â”‚               â”‚
+â”‚  â”‚ âœ… Works     â”‚        â”‚ âœ… Works        â”‚               â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜        â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜               â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
@@ -397,14 +387,14 @@ export default tseslint.config({
 ### Problem 1: Works in IDE but not in Vite dev server
 
 ```typescript
-// ❌ Only in tsconfig.json (Vite doesn't read this by default)
+// âŒ Only in tsconfig.json (Vite doesn't read this by default)
 {
   "compilerOptions": {
     "paths": { "@components/*": ["src/components/*"] }
   }
 }
 
-// ✅ Also add to vite.config.ts
+// âœ… Also add to vite.config.ts
 resolve: {
   alias: {
     '@components': resolve(__dirname, 'src/components'),
@@ -415,14 +405,14 @@ resolve: {
 ### Problem 2: Works in Vite but not in Vitest
 
 ```typescript
-// ❌ Vitest config missing resolve.alias
+// âŒ Vitest config missing resolve.alias
 // vitest.config.ts
 export default defineConfig({
   test: { /* ... */ }
   // Missing resolve.alias!
 })
 
-// ✅ Vitest inherits from vite.config.ts
+// âœ… Vitest inherits from vite.config.ts
 import viteConfig from './vite.config'
 export default defineConfig({
   ...viteConfig,
@@ -433,12 +423,12 @@ export default defineConfig({
 ### Problem 3: Path alias with trailing slash
 
 ```typescript
-// ❌ This won't work
+// âŒ This won't work
 alias: {
   '@components': resolve(__dirname, 'src/components/')  // Trailing slash
 }
 
-// ✅ Remove trailing slash
+// âœ… Remove trailing slash
 alias: {
   '@components': resolve(__dirname, 'src/components')
 }
@@ -447,16 +437,16 @@ alias: {
 ### Problem 4: Wildcard paths
 
 ```typescript
-// ❌ Wildcards in vite alias don't work
+// âŒ Wildcards in vite alias don't work
 alias: {
   '@components/*': resolve(__dirname, 'src/components/*')  // Won't work
 }
 
-// ✅ Use base path (wildcard is implicit)
+// âœ… Use base path (wildcard is implicit)
 alias: {
   '@components': resolve(__dirname, 'src/components')
 }
-// Then import: import { X } from '@components/ui/button'  ✅
+// Then import: import { X } from '@components/ui/button'  âœ…
 ```
 
 ---

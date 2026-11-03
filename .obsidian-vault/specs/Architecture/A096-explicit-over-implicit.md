@@ -1,34 +1,22 @@
----
+﻿---
 slug: explicit-over-implicit
 sources:
   - https://pragmaticprogrammer.com/books/pp
   - https://pragmaticprogrammer.com/titles/tpphr/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - explicit
   - principles
   - design
   - pragmatie-programmer
----
-
+  - --
 # Explicit over Implicit
 
 ## Definition
 
 Explicit over Implicit is the principle that **code should make its intentions, dependencies, and behavior clear and visible rather than hidden or automatic**.
 
-> "Explicit is better than implicit." — From The Zen of Python (Tim Peters)
+> "Explicit is better than implicit." â€” From The Zen of Python (Tim Peters)
 
 ## Problem Addressed
 
@@ -40,7 +28,7 @@ Implicit behavior leads to:
 
 ## Scope and Boundaries
 
-- Explicit ≠ Verbose (clarity ≠ length)
+- Explicit â‰  Verbose (clarity â‰  length)
 - Implicit has its place (conventions, defaults, inference)
 - The goal is **predictable implicit behavior**, not eliminating all implicit behavior
 
@@ -55,21 +43,21 @@ Implicit behavior leads to:
 
 | Cost | Description |
 |------|-------------|
-| **Verbosity** — Explicit code is longer |
-| **Repetition** — Explicit code may repeat information |
-| **Developer experience** — Too much explicit code is tiring |
+| **Verbosity** â€” Explicit code is longer |
+| **Repetition** â€” Explicit code may repeat information |
+| **Developer experience** â€” Too much explicit code is tiring |
 
 ## Common Misuses
 
 - **Explicit everywhere**: No conventions, no defaults, no inference
 - **Implicit everywhere**: Magic behavior, hidden dependencies
-- **Confusing with verbosity**: Explicit ≠ verbose (you can be explicit and concise)
+- **Confusing with verbosity**: Explicit â‰  verbose (you can be explicit and concise)
 
 ## Related Concepts
 
-- **Principle of Least Astonishment** — Explicit code is less surprising
-- **Fail Fast** — Explicit errors are clearer than implicit failures
-- **Type Systems** — TypeScript types make types explicit
+- **Principle of Least Astonishment** â€” Explicit code is less surprising
+- **Fail Fast** â€” Explicit errors are clearer than implicit failures
+- **Type Systems** â€” TypeScript types make types explicit
 
 ## Project Observations
 

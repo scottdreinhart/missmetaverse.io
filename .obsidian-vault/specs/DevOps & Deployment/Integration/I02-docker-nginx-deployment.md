@@ -1,4 +1,4 @@
----
+﻿---
 slug: docker-nginx-deployment
 sources:
   - https://docs.docker.com/build/building/multi-stage/
@@ -7,27 +7,14 @@ sources:
   - https://vite.dev/config/build-options.html
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
   - integration
   - docker
   - nginx
   - deployment
   - multi-stage
   - static-content
----
-
+  - --
 # Docker & Nginx Deployment
 
 ## Overview
@@ -43,9 +30,9 @@ This note covers containerizing a React + Vite + TypeScript application using mu
 ```dockerfile
 # syntax=docker/dockerfile:1
 
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 # STAGE 1: Build
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 FROM node:22-alpine AS build
 
 # Install dependencies first (layer caching)
@@ -70,21 +57,21 @@ ENV VITE_API_URL=${VITE_API_URL}
 # Build the application
 RUN pnpm build
 
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 # STAGE 2: Production (Nginx)
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 FROM nginx:1.27-alpine AS production
 
-# ─── Copy built assets ──────────────────────────────────
+# â”€â”€â”€ Copy built assets â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# ─── Custom Nginx configuration ─────────────────────────
+# â”€â”€â”€ Custom Nginx configuration â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 COPY nginx/nginx.conf /etc/nginx/conf.d/default.conf
 
-# ─── Security headers file ──────────────────────────────
+# â”€â”€â”€ Security headers file â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 COPY nginx/security.conf /etc/nginx/snippets/security.conf
 
-# ─── Create non-root user ───────────────────────────────
+# â”€â”€â”€ Create non-root user â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 RUN addgroup -g 1001 -S nonroot && \
     adduser -S nonroot -u 1001 -G nonroot && \
     chown -R nonroot:nonroot /usr/share/nginx/html && \
@@ -93,17 +80,17 @@ RUN addgroup -g 1001 -S nonroot && \
     chown -R nonroot:nonroot /etc/nginx/conf.d && \
     chown -R nonroot:nonroot /run
 
-# ─── Health check ───────────────────────────────────────
+# â”€â”€â”€ Health check â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
   CMD wget --no-verbose --tries=1 --spider http://localhost:80/ || exit 1
 
-# ─── Expose port ────────────────────────────────────────
+# â”€â”€â”€ Expose port â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 EXPOSE 80
 
-# ─── Run as non-root ────────────────────────────────────
+# â”€â”€â”€ Run as non-root â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 USER nonroot
 
-# ─── Start Nginx ────────────────────────────────────────
+# â”€â”€â”€ Start Nginx â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
@@ -112,9 +99,9 @@ CMD ["nginx", "-g", "daemon off;"]
 ```dockerfile
 # syntax=docker/dockerfile:1
 
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 # STAGE 1: Dependencies
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 FROM node:22-alpine AS deps
 
 WORKDIR /app
@@ -124,9 +111,9 @@ COPY package.json pnpm-lock.yaml ./
 RUN corepack enable && corepack prepare pnpm@latest --activate
 RUN pnpm install --frozen-lockfile
 
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 # STAGE 2: Build
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 FROM node:22-alpine AS build
 
 WORKDIR /app
@@ -144,9 +131,9 @@ ARG VITE_API_URL
 ENV VITE_API_URL=${VITE_API_URL}
 RUN pnpm build
 
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 # STAGE 3: Production (Nginx)
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 FROM nginx:1.27-alpine AS production
 
 COPY --from=build /app/dist /usr/share/nginx/html
@@ -156,9 +143,9 @@ COPY nginx/security.conf /etc/nginx/snippets/security.conf
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 # STAGE 4: Development (Node.js)
-# ═══════════════════════════════════════════════════════════
+# â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
 FROM node:22-alpine AS dev
 
 WORKDIR /app
@@ -187,14 +174,14 @@ server {
     listen 80;
     server_name _;
 
-    # ─── Root directory ─────────────────────────────────
+    # â”€â”€â”€ Root directory â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     root /usr/share/nginx/html;
     index index.html;
 
-    # ─── Security Headers ───────────────────────────────
+    # â”€â”€â”€ Security Headers â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     include /etc/nginx/snippets/security.conf;
 
-    # ─── Gzip Compression ───────────────────────────────
+    # â”€â”€â”€ Gzip Compression â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     gzip on;
     gzip_vary on;
     gzip_proxied any;
@@ -215,7 +202,7 @@ server {
         image/x-icon;
     gzip_min_length 1024;
 
-    # ─── Static Asset Caching ───────────────────────────
+    # â”€â”€â”€ Static Asset Caching â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     # Assets directory (Vite content-hashed files)
     location /assets/ {
         expires 1y;
@@ -224,32 +211,32 @@ server {
         access_log off;
     }
 
-    # ─── Favicon ────────────────────────────────────────
+    # â”€â”€â”€ Favicon â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     location = /favicon.ico {
         access_log off;
         log_not_found off;
     }
 
-    # ─── Robots.txt ─────────────────────────────────────
+    # â”€â”€â”€ Robots.txt â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     location = /robots.txt {
         access_log off;
         log_not_found off;
     }
 
-    # ─── SPA Routing (History Mode) ─────────────────────
+    # â”€â”€â”€ SPA Routing (History Mode) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     # For React Router with history mode
     location / {
         try_files $uri $uri/ /index.html;
     }
 
-    # ─── Security ───────────────────────────────────────
+    # â”€â”€â”€ Security â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     # Disable directory listing
     autoindex off;
 
     # Hide server version
     server_tokens off;
 
-    # ─── Error Pages ────────────────────────────────────
+    # â”€â”€â”€ Error Pages â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     error_page 404 /index.html;
     error_page 500 502 503 504 /50x.html;
 
@@ -263,28 +250,28 @@ server {
 ### `nginx/security.conf`
 
 ```nginx
-# ─── Content Security Policy ────────────────────────────
+# â”€â”€â”€ Content Security Policy â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 add_header Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self'; media-src 'self'; object-src 'none'; frame-src 'none'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';" always;
 
-# ─── X-Frame-Options ───────────────────────────────────
+# â”€â”€â”€ X-Frame-Options â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 add_header X-Frame-Options "SAMEORIGIN" always;
 
-# ─── X-Content-Type-Options ────────────────────────────
+# â”€â”€â”€ X-Content-Type-Options â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 add_header X-Content-Type-Options "nosniff" always;
 
-# ─── X-XSS-Protection ──────────────────────────────────
+# â”€â”€â”€ X-XSS-Protection â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 add_header X-XSS-Protection "1; mode=block" always;
 
-# ─── Referrer-Policy ───────────────────────────────────
+# â”€â”€â”€ Referrer-Policy â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 add_header Referrer-Policy "no-referrer-when-downgrade" always;
 
-# ─── Permissions-Policy ────────────────────────────────
+# â”€â”€â”€ Permissions-Policy â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 add_header Permissions-Policy "geolocation=(), microphone=(), camera=(), payment=(), usb=()" always;
 
-# ─── Strict-Transport-Security (HTTPS only) ────────────
+# â”€â”€â”€ Strict-Transport-Security (HTTPS only) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 # add_header Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" always;
 
-# ─── Cross-Origin Policies ─────────────────────────────
+# â”€â”€â”€ Cross-Origin Policies â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 add_header Cross-Origin-Opener-Policy "same-origin" always;
 add_header Cross-Origin-Resource-Policy "same-origin" always;
 add_header Cross-Origin-Embedder-Policy "require-corp" always;
@@ -298,7 +285,7 @@ add_header Cross-Origin-Embedder-Policy "require-corp" always;
 
 ```yaml
 services:
-  # ─── Production ───────────────────────────────────────
+  # â”€â”€â”€ Production â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   app:
     build:
       context: .
@@ -327,7 +314,7 @@ services:
         max-size: "10m"
         max-file: "3"
 
-  # ─── Development ──────────────────────────────────────
+  # â”€â”€â”€ Development â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   dev:
     build:
       context: .
@@ -509,27 +496,27 @@ http {
     include /etc/nginx/mime.types;
     default_type application/octet-stream;
 
-    # ─── Logging ──────────────────────────────────────
+    # â”€â”€â”€ Logging â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     log_format main '$remote_addr - $remote_user [$time_local] '
                     '"$request" $status $body_bytes_sent '
                     '"$http_referer" "$http_user_agent"';
     access_log /var/log/nginx/access.log main;
 
-    # ─── Performance ──────────────────────────────────
+    # â”€â”€â”€ Performance â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     sendfile on;                  # Direct file transfer
     tcp_nopush on;                # Combine headers with data
     tcp_nodelay on;               # Disable Nagle's algorithm
     keepalive_timeout 65;         # Connection reuse
     types_hash_max_size 2048;
 
-    # ─── Compression ─────────────────────────────────
+    # â”€â”€â”€ Compression â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     gzip on;
     gzip_vary on;
     gzip_proxied any;
     gzip_comp_level 6;
     gzip_types text/plain text/css application/json application/javascript text/xml application/xml;
 
-    # ─── Buffer Sizes ───────────────────────────────
+    # â”€â”€â”€ Buffer Sizes â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
     client_body_buffer_size 16k;
     client_header_buffer_size 1k;
     large_client_header_buffers 4 8k;

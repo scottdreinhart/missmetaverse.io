@@ -1,9 +1,11 @@
+﻿---
+slug: domain-driven-design
+---
+
 # Domain-Driven Design
 
 > **Purpose:** Implement DDD with Domain-Driven Design.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `domain-driven-design`
@@ -50,8 +52,6 @@ declared
 - ddd
 - strategic-design
 - tactical-design
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Domain-Driven Design does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/domain-driven-design]] — Domain-Driven Design
-- [[Application Architecture/ddd]] — DDD
-- [[Application Architecture/strategic-design]] — Strategic Design
-- [[Application Architecture/tactical-design]] — Tactical Design
+- [[Application Architecture/domain-driven-design]] â€” Domain-Driven Design
+- [[Application Architecture/ddd]] â€” DDD
+- [[Application Architecture/strategic-design]] â€” Strategic Design
+- [[Application Architecture/tactical-design]] â€” Tactical Design
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Domain-Driven Design through:
 ## Sources
 
 - [[Sources/ddd-bluebook|Domain-Driven Design by Eric Evans]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Domain-Driven Design Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: continuous-integration
+---
+
 # Continuous Integration
 
 > **Purpose:** Automate build and test on every code change.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-ci`
@@ -50,8 +52,6 @@ declared
 - testing-observability
 - testing-architecture-fitness-functions
 - arch-quality-gate
-
----
 
 ## Definition
 
@@ -117,9 +117,9 @@ CI does not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/reproducible-builds]] — Reproducible Builds
-- [[Quality & Testing/observability]] — Observability
-- [[Quality & Testing/architecture-fitness-functions]] — Architecture Fitness Functions
+- [[Quality & Testing/reproducible-builds]] â€” Reproducible Builds
+- [[Quality & Testing/observability]] â€” Observability
+- [[Quality & Testing/architecture-fitness-functions]] â€” Architecture Fitness Functions
 
 ## Project Observations
 
@@ -131,9 +131,7 @@ The project uses GitHub Actions or similar CI, which supports CI through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Continuous Integration]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Continuous Integration]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Continuous Integration Note**

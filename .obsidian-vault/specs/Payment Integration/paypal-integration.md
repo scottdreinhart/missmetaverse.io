@@ -1,9 +1,11 @@
+﻿---
+slug: paypal-integration
+---
+
 # PayPal Integration
 
 > **Purpose:** Integrate PayPal for payments.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `paypal-integration`
@@ -50,8 +52,6 @@ declared
 - paypal-configuration
 - paypal-e-commerce
 - paypal-webhooks
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ PayPal does not apply to:
 
 ## Related Concepts
 
-- [[PayPal/paypal-payments]] — PayPal Payments
-- [[PayPal/paypal-configuration]] — PayPal Configuration
-- [[PayPal/paypal-e-commerce]] — PayPal E-commerce
-- [[PayPal/paypal-webhooks]] — PayPal Webhooks
+- [[PayPal/paypal-payments]] â€” PayPal Payments
+- [[PayPal/paypal-configuration]] â€” PayPal Configuration
+- [[PayPal/paypal-e-commerce]] â€” PayPal E-commerce
+- [[PayPal/paypal-webhooks]] â€” PayPal Webhooks
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses PayPal through:
 ## Sources
 
 - [[Sources/paypal-documentation|PayPal Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of PayPal Integration Note**

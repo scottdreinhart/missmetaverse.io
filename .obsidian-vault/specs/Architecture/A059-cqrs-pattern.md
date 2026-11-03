@@ -1,35 +1,23 @@
----
+﻿---
 slug: cqrs-pattern
 sources:
   - https://martinfowler.com/bliki/CQRS.html
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - cqrs
   - architecture
   - command
   - query
   - cqs
----
-
+  - --
 # CQRS (Command Query Responsibility Segregation)
 
 ## Definition
 
 CQRS is an **architectural pattern that separates read and write operations into different models**. Commands modify state, queries read state.
 
-> "CQRS separates the responsibility of reading data from the responsibility of writing data." — Martin Fowler
+> "CQRS separates the responsibility of reading data from the responsibility of writing data." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -40,7 +28,7 @@ Combined read/write models lead to:
 
 ## Scope and Boundaries
 
-- CQS ≠ CQRS (CQS is method-level, CQRS is architectural)
+- CQS â‰  CQRS (CQS is method-level, CQRS is architectural)
 - CQRS does **not** require separate databases
 - CQRS does **not** require event sourcing
 
@@ -55,9 +43,9 @@ Combined read/write models lead to:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Two models to maintain |
-| **Eventual consistency** — Reads may lag writes |
-| **Boilerplate** — More code to maintain |
+| **Complexity** â€” Two models to maintain |
+| **Eventual consistency** â€” Reads may lag writes |
+| **Boilerplate** â€” More code to maintain |
 
 ## Common Misuses
 
@@ -67,9 +55,9 @@ Combined read/write models lead to:
 
 ## Related Concepts
 
-- [Command-Query Separation](Architecture/command-query-separation.md) — Method-level CQS
-- [Event Sourcing](Architecture/data-modeling-principles.md) — Often used with CQRS
-- [Clean Architecture](Architecture/clean-architecture.md) — CQRS fits in use cases layer
+- [Command-Query Separation](Architecture/command-query-separation.md) â€” Method-level CQS
+- [Event Sourcing](Architecture/data-modeling-principles.md) â€” Often used with CQRS
+- [Clean Architecture](Architecture/clean-architecture.md) â€” CQRS fits in use cases layer
 
 ## Project Observations
 
@@ -99,10 +87,10 @@ Combined read/write models lead to:
 5. **Validate**: Queries must never modify state
 
 ### Tools to Use
-- **VS Code Extension**: ESLint with `@typescript-eslint` — for type safety
-- **npm Package**: `@nestjs/cqrs` — for NestJS CQRS implementation (optional)
-- **Terminal Command**: `pnpm add @nestjs/cqrs` — install CQRS package
-- **Terminal Command**: `pnpm tsc --noEmit` — verify type safety
+- **VS Code Extension**: ESLint with `@typescript-eslint` â€” for type safety
+- **npm Package**: `@nestjs/cqrs` â€” for NestJS CQRS implementation (optional)
+- **Terminal Command**: `pnpm add @nestjs/cqrs` â€” install CQRS package
+- **Terminal Command**: `pnpm tsc --noEmit` â€” verify type safety
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when creating new CQRS handlers

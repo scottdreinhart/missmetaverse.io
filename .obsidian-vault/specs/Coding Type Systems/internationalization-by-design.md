@@ -1,9 +1,11 @@
+﻿---
+slug: internationalization-by-design
+---
+
 # Internationalization by Design
 
 > **Purpose:** Build internationalized applications from the start.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-internationalization-by-design`
@@ -50,8 +52,6 @@ declared
 - arch-design-systems
 - arch-headless-components
 - testing-observability
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Internationalization by design does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/accessibility-by-design]] — Accessibility by Design
-- [[Architecture/design-systems]] — Design Systems
-- [[Architecture/headless-components]] — Headless Components
-- [[Quality & Testing/observability]] — Observability
+- [[Coding Type Systems/accessibility-by-design]] â€” Accessibility by Design
+- [[Architecture/design-systems]] â€” Design Systems
+- [[Architecture/headless-components]] â€” Headless Components
+- [[Quality & Testing/observability]] â€” Observability
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows internationalization by design through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
 - [[Sources/mdn-web-documentation|MDN Web Documentation]]
-
----
 
 **End of Internationalization by Design Note**

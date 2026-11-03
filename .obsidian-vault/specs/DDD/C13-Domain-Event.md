@@ -1,34 +1,22 @@
----
+﻿---
 slug: domain-event
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/DomainEvent.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
   - ddd
   - domain-event
   - domain-modeling
   - event-driven
----
-
+  - --
 # Domain Event
 
 ## Definition
 
 Domain Event is **a significant occurrence or change in the domain that is important to other parts of the system**.
 
-> "A domain event is something that happened in the domain that the rest of the domain model needs to know about." — Eric Evans
+> "A domain event is something that happened in the domain that the rest of the domain model needs to know about." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -40,7 +28,7 @@ Without domain events:
 
 ## Scope and Boundaries
 
-- Domain Event ≠ Application Event (domain event represents domain knowledge, application event represents application state changes)
+- Domain Event â‰  Application Event (domain event represents domain knowledge, application event represents application state changes)
 - Domain Event = Notification (domain events notify other parts of the system)
 - Domain Event is a **domain model building block**, not a pattern
 
@@ -55,9 +43,9 @@ Without domain events:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Domain events add architectural complexity |
-| **Time** — Designing domain events takes time |
-| **Over-event** — Not every change needs to be an event |
+| **Complexity** â€” Domain events add architectural complexity |
+| **Time** â€” Designing domain events takes time |
+| **Over-event** â€” Not every change needs to be an event |
 
 ## Common Misuses
 
@@ -67,9 +55,9 @@ Without domain events:
 
 ## Related Concepts
 
-- [Event-Driven Architecture](Architecture/event-driven-architecture.md) — Domain events are a form of event-driven architecture
-- [Domain Invariant](DDD/domain-invariant.md) — Domain events can trigger invariant checks
-- [Transactional Outbox](Architecture/transactional-outbox.md) — Transactional outbox ensures domain events are persisted
+- [Event-Driven Architecture](Architecture/event-driven-architecture.md) â€” Domain events are a form of event-driven architecture
+- [Domain Invariant](DDD/domain-invariant.md) â€” Domain events can trigger invariant checks
+- [Transactional Outbox](Architecture/transactional-outbox.md) â€” Transactional outbox ensures domain events are persisted
 
 ## Project Observations
 
@@ -78,8 +66,8 @@ Without domain events:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of domain events in existing code (src/ is empty)
 - File naming conventions support domain events:
-  - `*.event.ts` — Event files
-  - `*.domain-event.ts` — Domain event files
+  - `*.event.ts` â€” Event files
+  - `*.domain-event.ts` â€” Domain event files
 
 ## Sources
 
@@ -199,7 +187,7 @@ export class Order {
     this.raisedEvents = []
   }
 
-  // Factory method — raises OrderCreated
+  // Factory method â€” raises OrderCreated
   static create(
     customerId: string,
     items: OrderItem[],
@@ -217,7 +205,7 @@ export class Order {
     return order
   }
 
-  // Domain method — raises OrderCancelled
+  // Domain method â€” raises OrderCancelled
   cancel(reason: string): void {
     if (this.status !== OrderStatus.PENDING) {
       throw new Error('Only pending orders can be cancelled')
@@ -392,12 +380,12 @@ export class OrderRepository {
 5. **Handle asynchronously**: For cross-aggregate events
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `@prisma/client` — for database access
-- **npm Package**: `bullmq` — for job queues
-- **npm Package**: `amqplib` — for RabbitMQ
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `@prisma/client` â€” for database access
+- **npm Package**: `bullmq` â€” for job queues
+- **npm Package**: `amqplib` â€” for RabbitMQ
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **DDD Review Agent**: Run when designing domain events

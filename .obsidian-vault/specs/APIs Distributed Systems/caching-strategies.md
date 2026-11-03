@@ -1,9 +1,11 @@
+﻿---
+slug: caching-strategies
+---
+
 # Caching Strategies
 
 > **Purpose:** Implement caching with Caching Strategies.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `caching-strategies`
@@ -50,8 +52,6 @@ declared
 - cache-strategies
 - cache-invalidation
 - cache-policies
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Caching Strategies does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/caching-strategies]] — Caching Strategies
-- [[APIs Distributed Systems/cache-strategies]] — Cache Strategies
-- [[APIs Distributed Systems/cache-invalidation]] — Cache Invalidation
-- [[APIs Distributed Systems/cache-policies]] — Cache Policies
+- [[APIs Distributed Systems/caching-strategies]] â€” Caching Strategies
+- [[APIs Distributed Systems/cache-strategies]] â€” Cache Strategies
+- [[APIs Distributed Systems/cache-invalidation]] â€” Cache Invalidation
+- [[APIs Distributed Systems/cache-policies]] â€” Cache Policies
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Caching Strategies through:
 ## Sources
 
 - [[Sources/caching-guide|Caching Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Caching Strategies Note**

@@ -1,36 +1,22 @@
----
+﻿---
 slug: secure-defaults
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
-
   - secure-defaults
   - security
   - design
   - principles
----
-
+  - --
 # Secure Defaults
 
 ## Definition
 
 Secure Defaults is **a security principle that systems should ship with the most secure configuration by default, requiring explicit action to reduce security**.
 
-> "Secure defaults means that systems should ship with the most secure configuration by default." — OWASP
+> "Secure defaults means that systems should ship with the most secure configuration by default." â€” OWASP
 
 ## Problem Addressed
 
@@ -42,7 +28,7 @@ Without secure defaults:
 
 ## Scope and Boundaries
 
-- Secure Defaults ≠ Security Testing (secure defaults prevent security issues through configuration, security testing finds them)
+- Secure Defaults â‰  Security Testing (secure defaults prevent security issues through configuration, security testing finds them)
 - Secure Defaults = Configuration (secure defaults are about configuration)
 - Secure Defaults is a **security principle**, not a pattern
 
@@ -57,9 +43,9 @@ Without secure defaults:
 
 | Cost | Description |
 |------|-------------|
-| **Usability** — Secure defaults may reduce usability |
-| **Complexity** — Secure defaults add configuration complexity |
-| **Time** — Designing secure defaults takes time |
+| **Usability** â€” Secure defaults may reduce usability |
+| **Complexity** â€” Secure defaults add configuration complexity |
+| **Time** â€” Designing secure defaults takes time |
 
 ## Common Misuses
 
@@ -69,9 +55,9 @@ Without secure defaults:
 
 ## Related Concepts
 
-- [Security Principles](Security/security-principles.md) — Security principles include secure defaults
-- [Secure by Design](Security/secure-by-design.md) — Secure by design includes secure defaults
-- [Deny by Default](Security/deny-by-default.md) — Deny by default is related to secure defaults
+- [Security Principles](Security/security-principles.md) â€” Security principles include secure defaults
+- [Secure by Design](Security/secure-by-design.md) â€” Secure by design includes secure defaults
+- [Deny by Default](Security/deny-by-default.md) â€” Deny by default is related to secure defaults
 
 ## Project Observations
 
@@ -81,8 +67,8 @@ Without secure defaults:
   - The project's architecture patterns note covers security concepts
   - No evidence of secure defaults in existing code (src/ is empty)
 - File naming conventions support secure defaults:
-  - `*.config.ts` — Config files
-  - `*.env.ts` — Environment files
+  - `*.config.ts` â€” Config files
+  - `*.env.ts` â€” Environment files
 
 ## Sources
 
@@ -341,12 +327,12 @@ export const databaseConfig = {
 5. **Limit database**: Set query timeouts and row limits
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `helmet` — for security headers
-- **npm Package**: `cors` — for CORS configuration
-- **npm Package**: `express-session` — for secure sessions
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `helmet` â€” for security headers
+- **npm Package**: `cors` â€” for CORS configuration
+- **npm Package**: `express-session` â€” for secure sessions
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when configuring defaults

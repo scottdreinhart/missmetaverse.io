@@ -1,9 +1,11 @@
+﻿---
+slug: api-gateway-pattern
+---
+
 # API Gateway Pattern
 
 > **Purpose:** Manage APIs with API Gateway.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `api-gateway-pattern`
@@ -50,8 +52,6 @@ declared
 - backend-for-frontend
 - service-mesh
 - load-balancer
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ API Gateway does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/api-gateway-pattern]] — API Gateway Pattern
-- [[APIs Distributed Systems/backend-for-frontend]] — Backend for Frontend
-- [[APIs Distributed Systems/service-mesh]] — Service Mesh
-- [[APIs Distributed Systems/load-balancer]] — Load Balancer
+- [[APIs Distributed Systems/api-gateway-pattern]] â€” API Gateway Pattern
+- [[APIs Distributed Systems/backend-for-frontend]] â€” Backend for Frontend
+- [[APIs Distributed Systems/service-mesh]] â€” Service Mesh
+- [[APIs Distributed Systems/load-balancer]] â€” Load Balancer
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses API Gateway Pattern through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns — Christensen]]
-
----
+- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
 
 **End of API Gateway Pattern Note**

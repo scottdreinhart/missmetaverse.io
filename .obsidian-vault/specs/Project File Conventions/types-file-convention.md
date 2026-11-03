@@ -1,9 +1,11 @@
+﻿---
+slug: types-file-convention
+---
+
 # Types File Convention
 
 > **Purpose:** Centralize type definitions.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-types-file`
@@ -51,11 +53,9 @@ declared
 - project-data-file
 - coding-strict-typing
 
----
-
 ## Definition
 
-The *.types.ts file convention designates files that contain type definitions — interfaces, types, and enums that define the shape of data.
+The *.types.ts file convention designates files that contain type definitions â€” interfaces, types, and enums that define the shape of data.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Types files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/schema-file-convention]] — *.schema.ts File Convention
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
+- [[Project File Conventions/schema-file-convention]] â€” *.schema.ts File Convention
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows types file convention through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Types File Convention Note**

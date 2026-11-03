@@ -1,24 +1,11 @@
----
+﻿---
 slug: quality-delivery-maintainability
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/framework/
   - https://www.enterpriseintegrationpatterns.com/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
   - quality
   - delivery
   - maintainability
@@ -37,8 +24,7 @@ tags:
   - incremental-refactoring
   - evolutionary-architecture
   - performance-budgets
----
-
+  - --
 # Quality, Delivery & Maintainability Practices
 
 ## Overview
@@ -51,28 +37,28 @@ Quality, delivery, and maintainability practices ensure software is reliable, de
 
 ### TDD (Test-Driven Development)
 
-**Write tests before implementation. Red → Green → Refactor.**
+**Write tests before implementation. Red â†’ Green â†’ Refactor.**
 
 ```typescript
-// 1. RED — Write a failing test
+// 1. RED â€” Write a failing test
 describe('Calculator', () => {
   it('should add two numbers', () => {
     const calc = new Calculator()
-    expect(calc.add(2, 3)).toBe(5)  // Fails — Calculator doesn't exist yet
+    expect(calc.add(2, 3)).toBe(5)  // Fails â€” Calculator doesn't exist yet
   })
 })
 
-// 2. GREEN — Write minimal code to pass
+// 2. GREEN â€” Write minimal code to pass
 class Calculator {
   add(a: number, b: number): number {
     return a + b
   }
 }
 
-// 3. REFACTOR — Improve code while keeping tests green
+// 3. REFACTOR â€” Improve code while keeping tests green
 // (Add more tests, improve implementation, remove duplication)
 
-// Next cycle — subtract
+// Next cycle â€” subtract
 describe('Calculator', () => {
   it('should subtract two numbers', () => {
     const calc = new Calculator()
@@ -474,10 +460,10 @@ trace.spans.push({ name: 'save', duration: 10 })
 **Context**: We are building a large-scale React application with multiple teams.
 **Decision**: Use TypeScript for all new code. Existing JavaScript can be migrated incrementally.
 **Consequences**:
-- ✅ Better tooling, autocomplete, and compile-time errors
-- ✅ Easier refactoring across teams
-- ✅ Learning curve for team members
-- ✅ Additional build step for compilation
+- âœ… Better tooling, autocomplete, and compile-time errors
+- âœ… Easier refactoring across teams
+- âœ… Learning curve for team members
+- âœ… Additional build step for compilation
 ```
 
 ### Incremental Refactoring

@@ -1,32 +1,23 @@
----
+﻿---
 slug: backward-compatibility
 sources:
   - https://swagger.io/
   - https://www.openapis.org/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
   - backward-compatibility
   - api
   - versioning
   - compatibility
----
-
+  - --
 # Backward Compatibility
 
 ## Definition
 
 Backward Compatibility is **the property that a new version of an API can be used by clients written for an older version without modification**.
 
-> "Backward compatibility ensures that new versions of an API can be used by clients written for older versions." — Swagger
+> "Backward compatibility ensures that new versions of an API can be used by clients written for older versions." â€” Swagger
 
 ## Problem Addressed
 
@@ -38,7 +29,7 @@ Without backward compatibility:
 
 ## Scope and Boundaries
 
-- Backward Compatibility ≠ Forward Compatibility (backward compatibility means old clients work with new API, forward compatibility means new clients work with old API)
+- Backward Compatibility â‰  Forward Compatibility (backward compatibility means old clients work with new API, forward compatibility means new clients work with old API)
 - Backward Compatibility = Stability (backward compatibility ensures stability)
 - Backward Compatibility is a **compatibility principle**, not a pattern
 
@@ -53,9 +44,9 @@ Without backward compatibility:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Maintaining backward compatibility adds complexity |
-| **Time** — Testing backward compatibility takes time |
-| **Technical debt** — Old API surface must be maintained |
+| **Complexity** â€” Maintaining backward compatibility adds complexity |
+| **Time** â€” Testing backward compatibility takes time |
+| **Technical debt** â€” Old API surface must be maintained |
 
 ## Common Misuses
 
@@ -65,9 +56,9 @@ Without backward compatibility:
 
 ## Related Concepts
 
-- [API Versioning](Architecture/api-versioning.md) — API versioning manages backward compatibility
-- [REST API Design](APIs Distributed Systems/rest-api-design.md) — REST API design considers backward compatibility
-- [Contract-First Development](Data-Driven Approaches/contract-first.md) — Contract-first development ensures backward compatibility
+- [API Versioning](Architecture/api-versioning.md) â€” API versioning manages backward compatibility
+- [REST API Design](APIs Distributed Systems/rest-api-design.md) â€” REST API design considers backward compatibility
+- [Contract-First Development](Data-Driven Approaches/contract-first.md) â€” Contract-first development ensures backward compatibility
 
 ## Project Observations
 
@@ -77,8 +68,8 @@ Without backward compatibility:
   - The project's architecture patterns note covers API concepts
   - No evidence of backward compatibility in existing code (src/ is empty)
 - File naming conventions support backward compatibility:
-  - `*.schema.ts` — Schema files
-  - `*.types.ts` — Type files
+  - `*.schema.ts` â€” Schema files
+  - `*.types.ts` â€” Type files
 
 ## Sources
 

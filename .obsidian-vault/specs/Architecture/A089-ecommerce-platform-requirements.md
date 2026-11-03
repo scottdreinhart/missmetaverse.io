@@ -1,4 +1,8 @@
-# eCommerce Platform — Requirements Specification
+﻿---
+slug: A089-ecommerce-platform-requirements
+---
+
+# eCommerce Platform â€” Requirements Specification
 
 > **Date:** 2026-11-02
 > **Scope:** Build an eCommerce platform / online store from scratch with PayPal integration
@@ -10,22 +14,8 @@
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 1. Executive Summary
 
 This document defines the requirements for building a **custom eCommerce platform** from the ground up. No Shopify, WooCommerce, Magento, or similar off-the-shelf solutions. This is a greenfield project that will be architected using **Clean Architecture**, **Domain-Driven Design**, **CQRS**, and **Event-Driven Architecture** patterns, with **PayPal REST API** as the primary payment gateway.
@@ -35,7 +25,7 @@ This document defines the requirements for building a **custom eCommerce platfor
 | Reason | Explanation |
 |--------|-------------|
 | **Full control** | No legacy code, no forced abstractions, no platform limitations |
-| **Performance** | No bloat, only what you need — sub-second page loads |
+| **Performance** | No bloat, only what you need â€” sub-second page loads |
 | **Custom workflows** | Model exactly your product/catalog processes |
 | **Payment flexibility** | Integrate any payment gateway, not just platform-supported ones |
 | **Ownership** | No vendor lock-in, no platform fee changes, no deprecations |
@@ -60,22 +50,8 @@ This document defines the requirements for building a **custom eCommerce platfor
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 2. Architectural Style
 
 ### Recommended: Modular Monolith with CQRS
@@ -150,8 +126,8 @@ graph TB
 |---------|------------------|-----------|
 | **Clean Architecture** | Business rules independent of React, DB, PayPal API | More files, more abstractions |
 | **DDD** | eCommerce has complex domain (products, orders, inventory, payments) | Requires domain expertise, more modeling |
-| **CQRS** | Reads (product browsing) >> Writes (orders) — scale independently | Two models to maintain, eventual consistency |
-| **Event-Driven** | Order created → inventory reserved, email sent, analytics updated | Complex debugging, eventual consistency |
+| **CQRS** | Reads (product browsing) >> Writes (orders) â€” scale independently | Two models to maintain, eventual consistency |
+| **Event-Driven** | Order created â†’ inventory reserved, email sent, analytics updated | Complex debugging, eventual consistency |
 | **Modular Monolith** | Start simple, scale modules independently later | Module boundaries must be well-defined |
 
 ### Consistency Model
@@ -170,22 +146,8 @@ graph TB
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 3. PayPal Integration Architecture
 
 ### 3.1 PayPal API Flow
@@ -382,22 +344,8 @@ class PayPalWebhookService {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 4. Core Domain Model (DDD)
 
 ### 4.1 Bounded Contexts
@@ -1008,22 +956,8 @@ export class Inventory {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 5. Functional Requirements
 
 ### 5.1 Product Catalog
@@ -1273,22 +1207,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 6. Non-Functional Requirements
 
 ### 6.1 Performance
@@ -1414,22 +1334,8 @@ graph TB
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 7. Technical Architecture
 
 ### 7.1 Clean Architecture Layers
@@ -1749,22 +1655,8 @@ CREATE TABLE cart_cache (
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 8. API Design
 
 ### 8.1 REST API Endpoints
@@ -1990,168 +1882,154 @@ interface PaymentCapturedResponse {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 9. Frontend Architecture (React 19)
 
 ### 9.1 Storefront Structure
 
 ```
 src/
-├── components/
-│   ├── products/
-│   │   ├── ProductCard.tsx
-│   │   ├── ProductList.tsx
-│   │   ├── ProductDetail.tsx
-│   │   ├── ProductGallery.tsx
-│   │   ├── ProductVariants.tsx
-│   │   ├── ProductReviews.tsx
-│   │   └── ProductRelated.tsx
-│   ├── cart/
-│   │   ├── CartDrawer.tsx
-│   │   ├── CartItem.tsx
-│   │   ├── CartSummary.tsx
-│   │   └── CartEmpty.tsx
-│   ├── checkout/
-│   │   ├── CheckoutForm.tsx
-│   │   ├── ShippingForm.tsx
-│   │   ├── PaymentForm.tsx
-│   │   ├── OrderSummary.tsx
-│   │   └── PayPalButton.tsx
-│   ├── layout/
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Navigation.tsx
-│   │   ├── Sidebar.tsx
-│   │   └── MainLayout.tsx
-│   ├── search/
-│   │   ├── SearchBar.tsx
-│   │   ├── SearchResults.tsx
-│   │   └── SearchSuggestions.tsx
-│   ├── filters/
-│   │   ├── PriceFilter.tsx
-│   │   ├── CategoryFilter.tsx
-│   │   ├── RatingFilter.tsx
-│   │   └── AvailabilityFilter.tsx
-│   └── common/
-│       ├── Loading.tsx
-│       ├── ErrorBoundary.tsx
-│       ├── Image.tsx
-│       ├── Pagination.tsx
-│       └── StarRating.tsx
-├── hooks/
-│   ├── useProducts.ts
-│   ├── useProduct.ts
-│   ├── useCart.ts
-│   ├── useCheckout.ts
-│   ├── useOrders.ts
-│   ├── useAuth.ts
-│   ├── useSearch.ts
-│   └── useWishlist.ts
-├── pages/
-│   ├── Index.tsx              // Homepage
-│   ├── Shop.tsx               // Product listing
-│   ├── Product.tsx            // Single product
-│   ├── Cart.tsx               // Shopping cart
-│   ├── Checkout.tsx           // Checkout flow
-│   ├── OrderConfirmation.tsx  // Order confirmation
-│   ├── Order.tsx              // Order details
-│   ├── Account.tsx            // Customer account
-│   ├── Login.tsx              // Login
-│   ├── Register.tsx           // Register
-│   ├── Search.tsx             // Search results
-│   ├── Category.tsx           // Category page
-│   ├── Tag.tsx                // Tag page
-│   ├── About.tsx              // About page
-│   ├── Contact.tsx            // Contact page
-│   └── NotFound.tsx           // 404 page
-└── utils/
-    ├── seo.ts                 // SEO helpers
-    ├── metadata.ts            // Page metadata
-    └── analytics.ts           // Analytics tracking
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ products/
+â”‚   â”‚   â”œâ”€â”€ ProductCard.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductList.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductDetail.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductGallery.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductVariants.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductReviews.tsx
+â”‚   â”‚   â””â”€â”€ ProductRelated.tsx
+â”‚   â”œâ”€â”€ cart/
+â”‚   â”‚   â”œâ”€â”€ CartDrawer.tsx
+â”‚   â”‚   â”œâ”€â”€ CartItem.tsx
+â”‚   â”‚   â”œâ”€â”€ CartSummary.tsx
+â”‚   â”‚   â””â”€â”€ CartEmpty.tsx
+â”‚   â”œâ”€â”€ checkout/
+â”‚   â”‚   â”œâ”€â”€ CheckoutForm.tsx
+â”‚   â”‚   â”œâ”€â”€ ShippingForm.tsx
+â”‚   â”‚   â”œâ”€â”€ PaymentForm.tsx
+â”‚   â”‚   â”œâ”€â”€ OrderSummary.tsx
+â”‚   â”‚   â””â”€â”€ PayPalButton.tsx
+â”‚   â”œâ”€â”€ layout/
+â”‚   â”‚   â”œâ”€â”€ Header.tsx
+â”‚   â”‚   â”œâ”€â”€ Footer.tsx
+â”‚   â”‚   â”œâ”€â”€ Navigation.tsx
+â”‚   â”‚   â”œâ”€â”€ Sidebar.tsx
+â”‚   â”‚   â””â”€â”€ MainLayout.tsx
+â”‚   â”œâ”€â”€ search/
+â”‚   â”‚   â”œâ”€â”€ SearchBar.tsx
+â”‚   â”‚   â”œâ”€â”€ SearchResults.tsx
+â”‚   â”‚   â””â”€â”€ SearchSuggestions.tsx
+â”‚   â”œâ”€â”€ filters/
+â”‚   â”‚   â”œâ”€â”€ PriceFilter.tsx
+â”‚   â”‚   â”œâ”€â”€ CategoryFilter.tsx
+â”‚   â”‚   â”œâ”€â”€ RatingFilter.tsx
+â”‚   â”‚   â””â”€â”€ AvailabilityFilter.tsx
+â”‚   â””â”€â”€ common/
+â”‚       â”œâ”€â”€ Loading.tsx
+â”‚       â”œâ”€â”€ ErrorBoundary.tsx
+â”‚       â”œâ”€â”€ Image.tsx
+â”‚       â”œâ”€â”€ Pagination.tsx
+â”‚       â””â”€â”€ StarRating.tsx
+â”œâ”€â”€ hooks/
+â”‚   â”œâ”€â”€ useProducts.ts
+â”‚   â”œâ”€â”€ useProduct.ts
+â”‚   â”œâ”€â”€ useCart.ts
+â”‚   â”œâ”€â”€ useCheckout.ts
+â”‚   â”œâ”€â”€ useOrders.ts
+â”‚   â”œâ”€â”€ useAuth.ts
+â”‚   â”œâ”€â”€ useSearch.ts
+â”‚   â””â”€â”€ useWishlist.ts
+â”œâ”€â”€ pages/
+â”‚   â”œâ”€â”€ Index.tsx              // Homepage
+â”‚   â”œâ”€â”€ Shop.tsx               // Product listing
+â”‚   â”œâ”€â”€ Product.tsx            // Single product
+â”‚   â”œâ”€â”€ Cart.tsx               // Shopping cart
+â”‚   â”œâ”€â”€ Checkout.tsx           // Checkout flow
+â”‚   â”œâ”€â”€ OrderConfirmation.tsx  // Order confirmation
+â”‚   â”œâ”€â”€ Order.tsx              // Order details
+â”‚   â”œâ”€â”€ Account.tsx            // Customer account
+â”‚   â”œâ”€â”€ Login.tsx              // Login
+â”‚   â”œâ”€â”€ Register.tsx           // Register
+â”‚   â”œâ”€â”€ Search.tsx             // Search results
+â”‚   â”œâ”€â”€ Category.tsx           // Category page
+â”‚   â”œâ”€â”€ Tag.tsx                // Tag page
+â”‚   â”œâ”€â”€ About.tsx              // About page
+â”‚   â”œâ”€â”€ Contact.tsx            // Contact page
+â”‚   â””â”€â”€ NotFound.tsx           // 404 page
+â””â”€â”€ utils/
+    â”œâ”€â”€ seo.ts                 // SEO helpers
+    â”œâ”€â”€ metadata.ts            // Page metadata
+    â””â”€â”€ analytics.ts           // Analytics tracking
 ```
 
 ### 9.2 Admin Dashboard Structure
 
 ```
 src/admin/
-├── components/
-│   ├── layout/
-│   │   ├── Sidebar.tsx
-│   │   ├── Header.tsx
-│   │   └── AdminLayout.tsx
-│   ├── products/
-│   │   ├── ProductList.tsx
-│   │   ├── ProductForm.tsx
-│   │   ├── ProductEditor.tsx
-│   │   ├── ProductPreview.tsx
-│   │   └── MediaUploader.tsx
-│   ├── orders/
-│   │   ├── OrderList.tsx
-│   │   ├── OrderDetail.tsx
-│   │   ├── OrderStatusUpdate.tsx
-│   │   └── OrderPrint.tsx
-│   ├── customers/
-│   │   ├── CustomerList.tsx
-│   │   ├── CustomerDetail.tsx
-│   │   └── CustomerOrders.tsx
-│   ├── inventory/
-│   │   ├── InventoryList.tsx
-│   │   ├── InventoryAdjustment.tsx
-│   │   └── LowStockAlerts.tsx
-│   ├── discounts/
-│   │   ├── DiscountList.tsx
-│   │   └── DiscountForm.tsx
-│   ├── analytics/
-│   │   ├── Dashboard.tsx
-│   │   ├── SalesReport.tsx
-│   │   ├── ProductPerformance.tsx
-│   │   └── CustomerReport.tsx
-│   └── settings/
-│       ├── GeneralSettings.tsx
-│       ├── PayPalSettings.tsx
-│       ├── ShippingSettings.tsx
-│       ├── TaxSettings.tsx
-│       └── ApiSettings.tsx
-├── hooks/
-│   ├── useAuth.ts
-│   ├── useProducts.ts
-│   ├── useOrders.ts
-│   ├── useCustomers.ts
-│   ├── useInventory.ts
-│   ├── useDiscounts.ts
-│   ├── useAnalytics.ts
-│   └── useSettings.ts
-├── pages/
-│   ├── Login.tsx
-│   ├── Dashboard.tsx
-│   ├── Products.tsx
-│   ├── ProductEdit.tsx
-│   ├── Orders.tsx
-│   ├── OrderDetail.tsx
-│   ├── Customers.tsx
-│   ├── CustomerDetail.tsx
-│   ├── Inventory.tsx
-│   ├── Discounts.tsx
-│   ├── Analytics.tsx
-│   └── Settings.tsx
-└── utils/
-    ├── validators.ts
-    └── formatters.ts
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ layout/
+â”‚   â”‚   â”œâ”€â”€ Sidebar.tsx
+â”‚   â”‚   â”œâ”€â”€ Header.tsx
+â”‚   â”‚   â””â”€â”€ AdminLayout.tsx
+â”‚   â”œâ”€â”€ products/
+â”‚   â”‚   â”œâ”€â”€ ProductList.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductForm.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductEditor.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductPreview.tsx
+â”‚   â”‚   â””â”€â”€ MediaUploader.tsx
+â”‚   â”œâ”€â”€ orders/
+â”‚   â”‚   â”œâ”€â”€ OrderList.tsx
+â”‚   â”‚   â”œâ”€â”€ OrderDetail.tsx
+â”‚   â”‚   â”œâ”€â”€ OrderStatusUpdate.tsx
+â”‚   â”‚   â””â”€â”€ OrderPrint.tsx
+â”‚   â”œâ”€â”€ customers/
+â”‚   â”‚   â”œâ”€â”€ CustomerList.tsx
+â”‚   â”‚   â”œâ”€â”€ CustomerDetail.tsx
+â”‚   â”‚   â””â”€â”€ CustomerOrders.tsx
+â”‚   â”œâ”€â”€ inventory/
+â”‚   â”‚   â”œâ”€â”€ InventoryList.tsx
+â”‚   â”‚   â”œâ”€â”€ InventoryAdjustment.tsx
+â”‚   â”‚   â””â”€â”€ LowStockAlerts.tsx
+â”‚   â”œâ”€â”€ discounts/
+â”‚   â”‚   â”œâ”€â”€ DiscountList.tsx
+â”‚   â”‚   â””â”€â”€ DiscountForm.tsx
+â”‚   â”œâ”€â”€ analytics/
+â”‚   â”‚   â”œâ”€â”€ Dashboard.tsx
+â”‚   â”‚   â”œâ”€â”€ SalesReport.tsx
+â”‚   â”‚   â”œâ”€â”€ ProductPerformance.tsx
+â”‚   â”‚   â””â”€â”€ CustomerReport.tsx
+â”‚   â””â”€â”€ settings/
+â”‚       â”œâ”€â”€ GeneralSettings.tsx
+â”‚       â”œâ”€â”€ PayPalSettings.tsx
+â”‚       â”œâ”€â”€ ShippingSettings.tsx
+â”‚       â”œâ”€â”€ TaxSettings.tsx
+â”‚       â””â”€â”€ ApiSettings.tsx
+â”œâ”€â”€ hooks/
+â”‚   â”œâ”€â”€ useAuth.ts
+â”‚   â”œâ”€â”€ useProducts.ts
+â”‚   â”œâ”€â”€ useOrders.ts
+â”‚   â”œâ”€â”€ useCustomers.ts
+â”‚   â”œâ”€â”€ useInventory.ts
+â”‚   â”œâ”€â”€ useDiscounts.ts
+â”‚   â”œâ”€â”€ useAnalytics.ts
+â”‚   â””â”€â”€ useSettings.ts
+â”œâ”€â”€ pages/
+â”‚   â”œâ”€â”€ Login.tsx
+â”‚   â”œâ”€â”€ Dashboard.tsx
+â”‚   â”œâ”€â”€ Products.tsx
+â”‚   â”œâ”€â”€ ProductEdit.tsx
+â”‚   â”œâ”€â”€ Orders.tsx
+â”‚   â”œâ”€â”€ OrderDetail.tsx
+â”‚   â”œâ”€â”€ Customers.tsx
+â”‚   â”œâ”€â”€ CustomerDetail.tsx
+â”‚   â”œâ”€â”€ Inventory.tsx
+â”‚   â”œâ”€â”€ Discounts.tsx
+â”‚   â”œâ”€â”€ Analytics.tsx
+â”‚   â””â”€â”€ Settings.tsx
+â””â”€â”€ utils/
+    â”œâ”€â”€ validators.ts
+    â””â”€â”€ formatters.ts
 ```
 
 ### 9.3 PayPal Checkout Integration
@@ -2213,22 +2091,8 @@ function PayPalButton({ orderId, onSuccess, onError }: PayPalButtonProps) {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 10. Testing Strategy
 
 ### 10.1 Test Pyramid
@@ -2353,22 +2217,8 @@ describe('PayPalWebhookService', () => {
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 11. Deployment & DevOps
 
 ### 11.1 CI/CD Pipeline
@@ -2475,122 +2325,94 @@ graph TB
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 12. Project Structure
 
 ```
 ecommerce-platform/
-├── apps/
-│   ├── storefront/             # Public Storefront (Vite + React)
-│   │   ├── src/
-│   │   ├── public/
-│   │   ├── vite.config.ts
-│   │   └── tsconfig.json
-│   ├── admin/                  # Admin Dashboard (Vite + React)
-│   │   ├── src/
-│   │   ├── public/
-│   │   ├── vite.config.ts
-│   │   └── tsconfig.json
-│   └── api/                    # API Server (Node.js/Express)
-│       ├── src/
-│       ├── package.json
-│       └── tsconfig.json
-├── packages/
-│   ├── domain/                 # Domain layer (shared)
-│   │   ├── src/
-│   │   │   ├── entities/
-│   │   │   │   ├── product.entity.ts
-│   │   │   │   ├── order.entity.ts
-│   │   │   │   ├── cart.entity.ts
-│   │   │   │   ├── customer.entity.ts
-│   │   │   │   ├── inventory.entity.ts
-│   │   │   │   └── payment.entity.ts
-│   │   │   ├── value-objects/
-│   │   │   │   ├── money.ts
-│   │   │   │   ├── currency.ts
-│   │   │   │   ├── title.ts
-│   │   │   │   └── slug.ts
-│   │   │   ├── domain-events/
-│   │   │   │   ├── order-events.ts
-│   │   │   │   ├── product-events.ts
-│   │   │   │   └── payment-events.ts
-│   │   │   ├── domain-services/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   ├── application/            # Application layer (shared)
-│   │   ├── src/
-│   │   │   ├── use-cases/
-│   │   │   │   ├── product-use-cases.ts
-│   │   │   │   ├── order-use-cases.ts
-│   │   │   │   ├── cart-use-cases.ts
-│   │   │   │   ├── customer-use-cases.ts
-│   │   │   │   └── payment-use-cases.ts
-│   │   │   ├── dtos/
-│   │   │   ├── ports/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   ├── infrastructure/         # Infrastructure layer (shared)
-│   │   ├── src/
-│   │   │   ├── database/
-│   │   │   ├── cache/
-│   │   │   ├── storage/
-│   │   │   ├── messaging/
-│   │   │   ├── search/
-│   │   │   ├── paypal/
-│   │   │   │   ├── paypal-auth.service.ts
-│   │   │   │   ├── paypal-orders.service.ts
-│   │   │   │   ├── paypal-payments.service.ts
-│   │   │   │   └── paypal-webhook.service.ts
-│   │   │   ├── email/
-│   │   │   └── index.ts
-│   │   └── package.json
-│   └── shared/                 # Shared utilities
-│       ├── src/
-│       │   ├── types/
-│       │   ├── utils/
-│       │   ├── validators/
-│       │   └── index.ts
-│       └── package.json
-├── docker-compose.yml
-├── pnpm-workspace.yaml
-├── tsconfig.json
-└── package.json
+â”œâ”€â”€ apps/
+â”‚   â”œâ”€â”€ storefront/             # Public Storefront (Vite + React)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”œâ”€â”€ public/
+â”‚   â”‚   â”œâ”€â”€ vite.config.ts
+â”‚   â”‚   â””â”€â”€ tsconfig.json
+â”‚   â”œâ”€â”€ admin/                  # Admin Dashboard (Vite + React)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”œâ”€â”€ public/
+â”‚   â”‚   â”œâ”€â”€ vite.config.ts
+â”‚   â”‚   â””â”€â”€ tsconfig.json
+â”‚   â””â”€â”€ api/                    # API Server (Node.js/Express)
+â”‚       â”œâ”€â”€ src/
+â”‚       â”œâ”€â”€ package.json
+â”‚       â””â”€â”€ tsconfig.json
+â”œâ”€â”€ packages/
+â”‚   â”œâ”€â”€ domain/                 # Domain layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ entities/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ product.entity.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ order.entity.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ cart.entity.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ customer.entity.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ inventory.entity.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ payment.entity.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ value-objects/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ money.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ currency.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ title.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ slug.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ domain-events/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ order-events.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ product-events.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ payment-events.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ domain-services/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â”œâ”€â”€ application/            # Application layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ use-cases/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ product-use-cases.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ order-use-cases.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ cart-use-cases.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ customer-use-cases.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ payment-use-cases.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ dtos/
+â”‚   â”‚   â”‚   â”œâ”€â”€ ports/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â”œâ”€â”€ infrastructure/         # Infrastructure layer (shared)
+â”‚   â”‚   â”œâ”€â”€ src/
+â”‚   â”‚   â”‚   â”œâ”€â”€ database/
+â”‚   â”‚   â”‚   â”œâ”€â”€ cache/
+â”‚   â”‚   â”‚   â”œâ”€â”€ storage/
+â”‚   â”‚   â”‚   â”œâ”€â”€ messaging/
+â”‚   â”‚   â”‚   â”œâ”€â”€ search/
+â”‚   â”‚   â”‚   â”œâ”€â”€ paypal/
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ paypal-auth.service.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ paypal-orders.service.ts
+â”‚   â”‚   â”‚   â”‚   â”œâ”€â”€ paypal-payments.service.ts
+â”‚   â”‚   â”‚   â”‚   â””â”€â”€ paypal-webhook.service.ts
+â”‚   â”‚   â”‚   â”œâ”€â”€ email/
+â”‚   â”‚   â”‚   â””â”€â”€ index.ts
+â”‚   â”‚   â””â”€â”€ package.json
+â”‚   â””â”€â”€ shared/                 # Shared utilities
+â”‚       â”œâ”€â”€ src/
+â”‚       â”‚   â”œâ”€â”€ types/
+â”‚       â”‚   â”œâ”€â”€ utils/
+â”‚       â”‚   â”œâ”€â”€ validators/
+â”‚       â”‚   â””â”€â”€ index.ts
+â”‚       â””â”€â”€ package.json
+â”œâ”€â”€ docker-compose.yml
+â”œâ”€â”€ pnpm-workspace.yaml
+â”œâ”€â”€ tsconfig.json
+â””â”€â”€ package.json
 ```
 
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 13. Development Phases
 
 ### Phase 1: Foundation (Weeks 1-3)
@@ -2645,22 +2467,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 14. Risk Assessment
 
 | Risk | Impact | Likelihood | Mitigation |
@@ -2679,22 +2487,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 15. Success Criteria
 
 ### MVP (Minimum Viable Product)
@@ -2736,22 +2530,8 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 16. Key Differentiators vs. Shopify/WooCommerce
 
 | Feature | Custom eCommerce | Shopify | WooCommerce |
@@ -2771,54 +2551,40 @@ tags:
 ---
 
 tags:
-
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
-
-
-
----
+  - --
 ## 17. References & Sources
 
 ### Architectural Patterns
-- [[Sources/martin-clean-architecture-2017|Clean Architecture]] — Robert C. Martin
-- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] — Martin Fowler
-- [[Sources/evans-ddd-2003|Domain-Driven Design]] — Eric Evans
-- [[Sources/goF-1994|Design Patterns]] — GoF
+- [[Sources/martin-clean-architecture-2017|Clean Architecture]] â€” Robert C. Martin
+- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] â€” Martin Fowler
+- [[Sources/evans-ddd-2003|Domain-Driven Design]] â€” Eric Evans
+- [[Sources/goF-1994|Design Patterns]] â€” GoF
 
 ### Technical Documentation
-- [[Sources/react-docs-2026|React 19 Documentation]] — React Team
-- [[Sources/microsoft-typescript-handbook|TypeScript Handbook]] — Microsoft
-- [[Sources/tailwind-docs-2024|Tailwind CSS Documentation]] — Tailwind Labs
-- [[Sources/pnpm-docs-2024|pnpm Documentation]] — pnpm
-- [[Sources/vitest-docs-2024|Vitest Documentation]] — Vitest
-- [[Sources/playwright-docs-2024|Playwright Documentation]] — Microsoft
+- [[Sources/react-docs-2026|React 19 Documentation]] â€” React Team
+- [[Sources/microsoft-typescript-handbook|TypeScript Handbook]] â€” Microsoft
+- [[Sources/tailwind-docs-2024|Tailwind CSS Documentation]] â€” Tailwind Labs
+- [[Sources/pnpm-docs-2024|pnpm Documentation]] â€” pnpm
+- [[Sources/vitest-docs-2024|Vitest Documentation]] â€” Vitest
+- [[Sources/playwright-docs-2024|Playwright Documentation]] â€” Microsoft
 
 ### Security
-- [[Sources/owasp-top-ten-2021|OWASP Top 10]] — OWASP
-- [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] — NIST
+- [[Sources/owasp-top-ten-2021|OWASP Top 10]] â€” OWASP
+- [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] â€” NIST
 
 ### Architecture Patterns
-- [[Sources/martin-fowler-patterns|CQRS]] — Martin Fowler
-- [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] — Microsoft Azure
-- [[Sources/martin-fowler-patterns|Repository Pattern]] — Martin Fowler
-- [[Sources/martin-fowler-patterns|Service Layer Pattern]] — Martin Fowler
-- [[Sources/martin-fowler-patterns|Cache-Aside Pattern]] — Microsoft Azure
+- [[Sources/martin-fowler-patterns|CQRS]] â€” Martin Fowler
+- [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] â€” Microsoft Azure
+- [[Sources/martin-fowler-patterns|Repository Pattern]] â€” Martin Fowler
+- [[Sources/martin-fowler-patterns|Service Layer Pattern]] â€” Martin Fowler
+- [[Sources/martin-fowler-patterns|Cache-Aside Pattern]] â€” Microsoft Azure
 
 ### Payment & API
-- [[Sources/swagger-openapi|REST API Design]] — OpenAPI Specification
-- [[Sources/microsoft-distributed-systems|OAuth 2.0]] — Microsoft Identity Platform
-- [[Sources/martin-fowler-patterns|Webhooks]] — Martin Fowler
-- PayPal Developer Documentation — PayPal REST API (Orders v2, Payments v2)
+- [[Sources/swagger-openapi|REST API Design]] â€” OpenAPI Specification
+- [[Sources/microsoft-distributed-systems|OAuth 2.0]] â€” Microsoft Identity Platform
+- [[Sources/martin-fowler-patterns|Webhooks]] â€” Martin Fowler
+- PayPal Developer Documentation â€” PayPal REST API (Orders v2, Payments v2)
 
 
 ## See Also

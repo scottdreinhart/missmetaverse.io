@@ -1,9 +1,11 @@
+﻿---
+slug: atomic-design
+---
+
 # Atomic Design
 
 > **Purpose:** UI composition methodology for building consistent interfaces.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-atomic-design`
@@ -54,8 +56,6 @@ declared
 - arch-design-systems
 - arch-design-tokens
 - arch-component-composition
-
----
 
 ## Definition
 
@@ -128,12 +128,12 @@ Atomic design does not directly address:
 
 ## Related Concepts
 
-- [[Architecture/atoms]] — Atoms
-- [[Architecture/molecules]] — Molecules
-- [[Architecture/organisms]] — Organisms
-- [[Architecture/templates]] — Templates
-- [[Architecture/pages]] — Pages
-- [[Architecture/design-systems]] — Design Systems
+- [[Architecture/atoms]] â€” Atoms
+- [[Architecture/molecules]] â€” Molecules
+- [[Architecture/organisms]] â€” Organisms
+- [[Architecture/templates]] â€” Templates
+- [[Architecture/pages]] â€” Pages
+- [[Architecture/design-systems]] â€” Design Systems
 
 ## Project Observations
 
@@ -145,9 +145,7 @@ The project uses React and ShadCN UI, which supports atomic design through:
 
 ## Sources
 
-- [[Sources/frost-atomic-design-2016|Brad Frost — Atomic Design]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/frost-atomic-design-2016|Brad Frost â€” Atomic Design]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Atomic Design Note**

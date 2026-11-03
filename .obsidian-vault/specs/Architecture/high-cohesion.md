@@ -1,9 +1,11 @@
+﻿---
+slug: high-cohesion
+---
+
 # High Cohesion
 
 > **Purpose:** Keep related functionality together in modules.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-high-cohesion`
@@ -51,8 +53,6 @@ declared
 - arch-separation-of-concerns
 - arch-low-coupling
 - arch-dry
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ High cohesion does not address:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/single-responsibility-principle]] — Single Responsibility Principle
-- [[Architecture/separation-of-concerns]] — Separation of Concerns
-- [[Architecture/low-coupling]] — Low Coupling
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/single-responsibility-principle]] â€” Single Responsibility Principle
+- [[Architecture/separation-of-concerns]] â€” Separation of Concerns
+- [[Architecture/low-coupling]] â€” Low Coupling
 
 ## Project Observations
 
@@ -132,9 +132,7 @@ The project follows high cohesion through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of High Cohesion Note**

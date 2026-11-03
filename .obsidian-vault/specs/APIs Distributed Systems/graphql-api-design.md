@@ -1,9 +1,11 @@
+﻿---
+slug: graphql-api-design
+---
+
 # GraphQL API Design
 
 > **Purpose:** Design GraphQL APIs following best practices.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `graphql-api-design`
@@ -50,8 +52,6 @@ declared
 - rest-api-design
 - apollo-graphql
 - graphql-subscriptions
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ GraphQL does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/graphql-api-design]] — GraphQL API Design
-- [[APIs Distributed Systems/rest-api-design]] — REST API Design
-- [[APIs Distributed Systems/apollo-graphql]] — Apollo GraphQL
-- [[APIs Distributed Systems/graphql-subscriptions]] — GraphQL Subscriptions
+- [[APIs Distributed Systems/graphql-api-design]] â€” GraphQL API Design
+- [[APIs Distributed Systems/rest-api-design]] â€” REST API Design
+- [[APIs Distributed Systems/apollo-graphql]] â€” Apollo GraphQL
+- [[APIs Distributed Systems/graphql-subscriptions]] â€” GraphQL Subscriptions
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses GraphQL API Design through:
 ## Sources
 
 - [[Sources/graphql-spec|GraphQL Specification]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of GraphQL API Design Note**

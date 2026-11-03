@@ -1,9 +1,11 @@
+﻿---
+slug: database-sharding
+---
+
 # Database Sharding
 
 > **Purpose:** Scale with Database Sharding.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `database-sharding`
@@ -50,8 +52,6 @@ declared
 - horizontal-scaling
 - data-distribution
 - distributed-databases
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Sharding does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/database-sharding]] — Database Sharding
-- [[Data Databases/horizontal-scaling]] — Horizontal Scaling
-- [[Data Databases/data-distribution]] — Data Distribution
-- [[Data Databases/distributed-databases]] — Distributed Databases
+- [[Data Databases/database-sharding]] â€” Database Sharding
+- [[Data Databases/horizontal-scaling]] â€” Horizontal Scaling
+- [[Data Databases/data-distribution]] â€” Data Distribution
+- [[Data Databases/distributed-databases]] â€” Distributed Databases
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Database Sharding through:
 
 ## Sources
 
-- [[Sources/database-design-hoffer|Database Design — Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Sharding Note**

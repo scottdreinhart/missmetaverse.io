@@ -1,9 +1,11 @@
+﻿---
+slug: modern-react-state
+---
+
 # React Modern React State
 
 > **Purpose:** Manage state in React effectively.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `modern-react-state`
@@ -50,8 +52,6 @@ declared
 - modern-react-hooks
 - modern-react-components
 - modern-react-state-local
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ React state does not apply to:
 
 ## Related Concepts
 
-- [[React/modern-react-project-template]] — Modern React Project Template
-- [[React/modern-react-hooks]] — Modern React Hooks
-- [[React/modern-react-components]] — Modern React Components
-- [[React/modern-react-state-local]] — Modern React Local State
+- [[React/modern-react-project-template]] â€” Modern React Project Template
+- [[React/modern-react-hooks]] â€” Modern React Hooks
+- [[React/modern-react-components]] â€” Modern React Components
+- [[React/modern-react-state-local]] â€” Modern React Local State
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React state through:
 ## Sources
 
 - [[Sources/react-documentation|React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Modern React State Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: composition-over-inheritance
+---
+
 # Composition over Inheritance
 
 > **Purpose:** Prefer composition over inheritance for flexibility.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-composition-over-inheritance`
@@ -51,8 +53,6 @@ declared
 - arch-dependency-injection
 - arch-low-coupling
 - arch-high-cohesion
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Composition does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/open-closed-principle]] — Open/Closed Principle
-- [[Architecture/dependency-injection]] — Dependency Injection
-- [[Architecture/low-coupling]] — Low Coupling
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/open-closed-principle]] â€” Open/Closed Principle
+- [[Architecture/dependency-injection]] â€” Dependency Injection
+- [[Architecture/low-coupling]] â€” Low Coupling
 
 ## Project Observations
 
@@ -132,9 +132,7 @@ The project follows composition over inheritance through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Composition over Inheritance Note**

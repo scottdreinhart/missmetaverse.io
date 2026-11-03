@@ -1,9 +1,11 @@
+﻿---
+slug: metadata-driven-ui
+---
+
 # Metadata-Driven UI
 
 > **Purpose:** Build UI from metadata rather than hardcoded components.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `data-driven-metadata-driven-ui`
@@ -50,8 +52,6 @@ declared
 - data-driven-schema-driven
 - data-driven-contract-first
 - data-driven-declarative
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Metadata-driven UI does not apply to:
 
 ## Related Concepts
 
-- [[Data-Driven Approaches/data-driven-design]] — Data-Driven Design
-- [[Data-Driven Approaches/configuration-driven-development]] — Configuration-Driven Development
-- [[Data-Driven Approaches/schema-driven-development]] — Schema-Driven Development
-- [[Data-Driven Approaches/contract-first-development]] — Contract-First Development
+- [[Data-Driven Approaches/data-driven-design]] â€” Data-Driven Design
+- [[Data-Driven Approaches/configuration-driven-development]] â€” Configuration-Driven Development
+- [[Data-Driven Approaches/schema-driven-development]] â€” Schema-Driven Development
+- [[Data-Driven Approaches/contract-first-development]] â€” Contract-First Development
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows metadata-driven UI through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Metadata-Driven UI Note**

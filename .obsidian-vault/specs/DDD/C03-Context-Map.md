@@ -1,36 +1,23 @@
----
+﻿---
 slug: context-map
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/ContextMap.html
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
   - ddd
   - context-map
   - domain-modeling
   - integration
----
-
+  - --
 # Context Map
 
 ## Definition
 
 Context Map is **a document that describes the relationships between bounded contexts and the integration patterns used between them**.
 
-> "The context map is a diagram that shows the relationships between bounded contexts." — Eric Evans
+> "The context map is a diagram that shows the relationships between bounded contexts." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -42,7 +29,7 @@ Without context map:
 
 ## Scope and Boundaries
 
-- Context Map ≠ Bounded Context (context map describes relationships, bounded context is a single model)
+- Context Map â‰  Bounded Context (context map describes relationships, bounded context is a single model)
 - Context Map = Integration (context map defines integration patterns)
 - Context Map is a **documentation artifact**, not a pattern
 
@@ -57,9 +44,9 @@ Without context map:
 
 | Cost | Description |
 |------|-------------|
-| **Effort** — Maintaining context map requires effort |
-| **Time** — Creating context map takes time |
-| **Over-documentation** — Don't create context maps for simple systems |
+| **Effort** â€” Maintaining context map requires effort |
+| **Time** â€” Creating context map takes time |
+| **Over-documentation** â€” Don't create context maps for simple systems |
 
 ## Common Misuses
 
@@ -69,9 +56,9 @@ Without context map:
 
 ## Related Concepts
 
-- [Bounded Context](DDD/bounded-context.md) — Context map describes relationships between bounded contexts
-- [Anti-Corruption Layer](DDD/anti-corruption-layer.md) — Anti-corruption layer is an integration pattern
-- [Shared Kernel](DDD/context-map.md) — Shared kernel is an integration pattern
+- [Bounded Context](DDD/bounded-context.md) â€” Context map describes relationships between bounded contexts
+- [Anti-Corruption Layer](DDD/anti-corruption-layer.md) â€” Anti-corruption layer is an integration pattern
+- [Shared Kernel](DDD/context-map.md) â€” Shared kernel is an integration pattern
 
 ## Project Observations
 
@@ -80,8 +67,8 @@ Without context map:
   - TypeScript modules can serve as bounded context boundaries
   - No evidence of context maps in existing code (src/ is empty)
 - File naming conventions support context maps:
-  - `*.integration.ts` — Integration files
-  - `*.bounded-context.ts` — Bounded context files
+  - `*.integration.ts` â€” Integration files
+  - `*.bounded-context.ts` â€” Bounded context files
 
 ## Sources
 
@@ -103,7 +90,7 @@ graph TD
     B -->|Loose coupling| G[Pub-Sub]
     B -->|Direct mapping| H[Shared Database]
     C --> I[Same team, same model]
-    D --> J[Upstream → Downstream]
+    D --> J[Upstream â†’ Downstream]
     E --> K[Downstream adopts upstream]
     F --> L[Translate between models]
     G --> M[Event bus, message queue]
@@ -128,7 +115,7 @@ graph TD
 ### Step 1: Identify Bounded Contexts
 
 ```typescript
-// contexts/index.ts — Bounded context registry
+// contexts/index.ts â€” Bounded context registry
 import { UserContext } from './user-context'
 import { OrderContext } from './order-context'
 import { PaymentContext } from './payment-context'
@@ -268,14 +255,14 @@ interface DomainEvent {
 
 /**
  * Bounded Contexts:
- * 1. User Context — Manages user accounts
- * 2. Order Context — Manages orders
- * 3. Payment Context — Manages payments
+ * 1. User Context â€” Manages user accounts
+ * 2. Order Context â€” Manages orders
+ * 3. Payment Context â€” Manages payments
  *
  * Integration Patterns:
- * 1. User Context → Order Context: Pub-Sub (user created events)
- * 2. Order Context → Payment Context: Customer-Supplier (order events)
- * 3. Payment Context → Order Context: Anti-Corruption Layer (payment status)
+ * 1. User Context â†’ Order Context: Pub-Sub (user created events)
+ * 2. Order Context â†’ Payment Context: Customer-Supplier (order events)
+ * 3. Payment Context â†’ Order Context: Anti-Corruption Layer (payment status)
  */
 
 export const contextMap = {
@@ -322,12 +309,12 @@ export const contextMap = {
 5. **Document context map**: Keep context map updated
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `@prisma/client` — for database access
-- **npm Package**: `amqplib` — for RabbitMQ pub-sub
-- **npm Package**: `bullmq` — for job queues
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `@prisma/client` â€” for database access
+- **npm Package**: `amqplib` â€” for RabbitMQ pub-sub
+- **npm Package**: `bullmq` â€” for job queues
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **Architecture Review Agent**: Run when designing new bounded contexts

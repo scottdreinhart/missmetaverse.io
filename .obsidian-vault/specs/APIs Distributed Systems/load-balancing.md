@@ -1,9 +1,11 @@
+﻿---
+slug: load-balancing
+---
+
 # Load Balancing
 
 > **Purpose:** Balance load with Load Balancing.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `load-balancing`
@@ -50,8 +52,6 @@ declared
 - load-balancer
 - traffic-distribution
 - request-routing
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Load Balancing does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/load-balancing]] — Load Balancing
-- [[APIs Distributed Systems/load-balancer]] — Load Balancer
-- [[APIs Distributed Systems/traffic-distribution]] — Traffic Distribution
-- [[APIs Distributed Systems/request-routing]] — Request Routing
+- [[APIs Distributed Systems/load-balancing]] â€” Load Balancing
+- [[APIs Distributed Systems/load-balancer]] â€” Load Balancer
+- [[APIs Distributed Systems/traffic-distribution]] â€” Traffic Distribution
+- [[APIs Distributed Systems/request-routing]] â€” Request Routing
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Load Balancing through:
 ## Sources
 
 - [[Sources/load-balancing-guide|Load Balancing Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Load Balancing Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: api-versioning
+---
+
 # API Versioning
 
 > **Purpose:** Manage API changes with Versioning strategies.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `api-versioning`
@@ -50,8 +52,6 @@ declared
 - backward-compatibility
 - api-deprecation
 - version-strategy
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ API Versioning does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/api-versioning]] — API Versioning
-- [[APIs Distributed Systems/backward-compatibility]] — Backward Compatibility
-- [[APIs Distributed Systems/api-deprecation]] — API Deprecation
-- [[APIs Distributed Systems/version-strategy]] — Version Strategy
+- [[APIs Distributed Systems/api-versioning]] â€” API Versioning
+- [[APIs Distributed Systems/backward-compatibility]] â€” Backward Compatibility
+- [[APIs Distributed Systems/api-deprecation]] â€” API Deprecation
+- [[APIs Distributed Systems/version-strategy]] â€” Version Strategy
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses API Versioning through:
 
 ## Sources
 
-- [[Sources/fielding-rest-2000|REST Architectural Style — Fielding 2000]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/fielding-rest-2000|REST Architectural Style â€” Fielding 2000]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of API Versioning Note**

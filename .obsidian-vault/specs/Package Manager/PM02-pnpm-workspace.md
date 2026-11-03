@@ -1,4 +1,4 @@
----
+﻿---
 slug: pnpm-workspace
 sources:
   - https://pnpm.io/package-json
@@ -6,25 +6,14 @@ sources:
   - https://pnpm.io/workspaces
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
   - pnpm
   - package-manager
   - workspace
   - dependencies
   - scripts
   - lockfile
----
-
+  - --
 # pnpm Package Manager
 
 ## Overview
@@ -108,21 +97,21 @@ packages:
 
 ```
 project/
-├── apps/
-│   ├── web/
-│   │   ├── package.json
-│   │   └── vite.config.ts
-│   └── admin/
-│       ├── package.json
-│       └── vite.config.ts
-├── packages/
-│   ├── ui/
-│   │   ├── package.json
-│   │   └── tsconfig.json
-│   └── utils/
-│       ├── package.json
-│       └── tsconfig.json
-└── pnpm-workspace.yaml
+â”œâ”€â”€ apps/
+â”‚   â”œâ”€â”€ web/
+â”‚   â”‚   â”œâ”€â”€ package.json
+â”‚   â”‚   â””â”€â”€ vite.config.ts
+â”‚   â””â”€â”€ admin/
+â”‚       â”œâ”€â”€ package.json
+â”‚       â””â”€â”€ vite.config.ts
+â”œâ”€â”€ packages/
+â”‚   â”œâ”€â”€ ui/
+â”‚   â”‚   â”œâ”€â”€ package.json
+â”‚   â”‚   â””â”€â”€ tsconfig.json
+â”‚   â””â”€â”€ utils/
+â”‚       â”œâ”€â”€ package.json
+â”‚       â””â”€â”€ tsconfig.json
+â””â”€â”€ pnpm-workspace.yaml
 ```
 
 ### Workspace Dependencies
@@ -449,12 +438,12 @@ pnpm audit
 5. **Audit**: Regularly run pnpm audit for security
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline dependency errors
-- **Terminal Command**: `pnpm add <package>` — add dependency
-- **Terminal Command**: `pnpm add -D <package>` — add dev dependency
-- **Terminal Command**: `pnpm install` — install dependencies
-- **Terminal Command**: `pnpm audit` — check for vulnerabilities
-- **Terminal Command**: `pnpm outdated` — check for updates
+- **VS Code Extension**: Error Lens â€” for inline dependency errors
+- **Terminal Command**: `pnpm add <package>` â€” add dependency
+- **Terminal Command**: `pnpm add -D <package>` â€” add dev dependency
+- **Terminal Command**: `pnpm install` â€” install dependencies
+- **Terminal Command**: `pnpm audit` â€” check for vulnerabilities
+- **Terminal Command**: `pnpm outdated` â€” check for updates
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing PRs with dependency changes

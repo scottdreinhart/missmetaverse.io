@@ -1,9 +1,11 @@
+﻿---
+slug: oauth2-authentication
+---
+
 # OAuth 2.0 Authentication
 
 > **Purpose:** Implement OAuth 2.0 for authorization.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `oauth2-authentication`
@@ -50,8 +52,6 @@ declared
 - jwt-tokens
 - openid-connect
 - sso-authentication
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ OAuth 2.0 does not apply to:
 
 ## Related Concepts
 
-- [[Security/oauth2-authentication]] — OAuth 2.0 Authentication
-- [[Security/jwt-tokens]] — JWT Tokens
-- [[Security/openid-connect]] — OpenID Connect
-- [[Security/sso-authentication]] — SSO Authentication
+- [[Security/oauth2-authentication]] â€” OAuth 2.0 Authentication
+- [[Security/jwt-tokens]] â€” JWT Tokens
+- [[Security/openid-connect]] â€” OpenID Connect
+- [[Security/sso-authentication]] â€” SSO Authentication
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses OAuth 2.0 through:
 
 ## Sources
 
-- [[Sources/oauth2-rfc6749|OAuth 2.0 Authorization Framework — RFC 6749]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/oauth2-rfc6749|OAuth 2.0 Authorization Framework â€” RFC 6749]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of OAuth 2.0 Authentication Note**

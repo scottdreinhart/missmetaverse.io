@@ -1,9 +1,11 @@
+﻿---
+slug: accessibility-wcag
+---
+
 # Accessibility WCAG
 
 > **Purpose:** Ensure accessibility with WCAG guidelines.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `accessibility-wcag`
@@ -50,8 +52,6 @@ declared
 - aria-usage
 - screen-readers
 - accessibility-testing
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ WCAG does not apply to:
 
 ## Related Concepts
 
-- [[Accessibility/accessibility-wcag]] — Accessibility WCAG
-- [[Accessibility/aria-usage]] — ARIA Usage
-- [[Accessibility/screen-readers]] — Screen Readers
-- [[Accessibility/accessibility-testing]] — Accessibility Testing
+- [[Accessibility/accessibility-wcag]] â€” Accessibility WCAG
+- [[Accessibility/aria-usage]] â€” ARIA Usage
+- [[Accessibility/screen-readers]] â€” Screen Readers
+- [[Accessibility/accessibility-testing]] â€” Accessibility Testing
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Accessibility WCAG through:
 ## Sources
 
 - [[Sources/wcag-21-specification|WCAG 2.1 Specification]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Accessibility WCAG Note**

@@ -1,33 +1,22 @@
----
+﻿---
 slug: referential-integrity
 sources:
   - https://www.postgresql.org/docs/
   - https://dev.mysql.com/doc/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - database
   - referential-integrity
   - data-modeling
   - constraints
----
-
+  - --
 # Referential Integrity
 
 ## Definition
 
-Referential Integrity is **a database constraint that ensures relationships between tables remain consistent — foreign keys must reference existing primary keys**.
+Referential Integrity is **a database constraint that ensures relationships between tables remain consistent â€” foreign keys must reference existing primary keys**.
 
-> "Referential integrity is a concept in relational databases that ensures that foreign key values in a table exist in the referenced primary key or unique key in another table." — Wikipedia
+> "Referential integrity is a concept in relational databases that ensures that foreign key values in a table exist in the referenced primary key or unique key in another table." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without referential integrity:
 
 ## Scope and Boundaries
 
-- Referential Integrity ≠ Primary Key (referential integrity is about relationships, primary key is about uniqueness)
+- Referential Integrity â‰  Primary Key (referential integrity is about relationships, primary key is about uniqueness)
 - Referential Integrity = Relationships (referential integrity ensures relationships are valid)
 - Referential Integrity is a **database constraint**, not a pattern
 
@@ -54,9 +43,9 @@ Without referential integrity:
 
 | Cost | Description |
 |------|-------------|
-| **Performance** — Referential integrity adds overhead |
-| **Complexity** — More constraints to manage |
-| **Rigidity** — Harder to make changes |
+| **Performance** â€” Referential integrity adds overhead |
+| **Complexity** â€” More constraints to manage |
+| **Rigidity** â€” Harder to make changes |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without referential integrity:
 
 ## Related Concepts
 
-- [Database Constraints](Data Databases/db-constraints.md) — Referential integrity is a type of constraint
-- [Normalization](Data Databases/normalization.md) — Normalization relies on referential integrity
-- [Database Design](Data Databases/database-design.md) — Database design includes referential integrity
+- [Database Constraints](Data Databases/db-constraints.md) â€” Referential integrity is a type of constraint
+- [Normalization](Data Databases/normalization.md) â€” Normalization relies on referential integrity
+- [Database Design](Data Databases/database-design.md) â€” Database design includes referential integrity
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without referential integrity:
   - The project's architecture patterns note covers database concepts
   - No evidence of referential integrity in existing code (src/ is empty)
 - File naming conventions support referential integrity:
-  - `*.schema.ts` — Schema files
-  - `*.migration.ts` — Migration files
+  - `*.schema.ts` â€” Schema files
+  - `*.migration.ts` â€” Migration files
 
 ## Sources
 

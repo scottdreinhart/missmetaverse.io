@@ -1,9 +1,11 @@
+﻿---
+slug: performance-optimization
+---
+
 # Performance Optimization
 
 > **Purpose:** Optimize performance with Performance Optimization.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `performance-optimization`
@@ -50,8 +52,6 @@ declared
 - core-web-vitals
 - performance-budgets
 - optimization-techniques
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Performance Optimization does not apply to:
 
 ## Related Concepts
 
-- [[Web Frontend/performance-optimization]] — Performance Optimization
-- [[Web Frontend/core-web-vitals]] — Core Web Vitals
-- [[Web Frontend/performance-budgets]] — Performance Budgets
-- [[Web Frontend/optimization-techniques]] — Optimization Techniques
+- [[Web Frontend/performance-optimization]] â€” Performance Optimization
+- [[Web Frontend/core-web-vitals]] â€” Core Web Vitals
+- [[Web Frontend/performance-budgets]] â€” Performance Budgets
+- [[Web Frontend/optimization-techniques]] â€” Optimization Techniques
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Performance Optimization through:
 ## Sources
 
 - [[Sources/web-performance-guide|Web Performance Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Performance Optimization Note**

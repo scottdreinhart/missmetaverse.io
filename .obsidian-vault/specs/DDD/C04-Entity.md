@@ -1,33 +1,22 @@
----
+﻿---
 slug: entity-ddd
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/Entity.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - ddd
   - entity
   - domain-modeling
   - identity
----
-
+  - --
 # Entity
 
 ## Definition
 
 Entity is **a unit of identity in a domain model that is defined by its identity rather than its attributes**.
 
-> "An object not defined by its attributes, but by a continuum of identity and a link to other objects." — Eric Evans
+> "An object not defined by its attributes, but by a continuum of identity and a link to other objects." â€” Eric Evans
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without entities:
 
 ## Scope and Boundaries
 
-- Entity ≠ Value Object (entity has identity, value object is defined by attributes)
+- Entity â‰  Value Object (entity has identity, value object is defined by attributes)
 - Entity = Identity (entity is defined by its identity)
 - Entity is a **domain model building block**, not a pattern
 
@@ -54,21 +43,21 @@ Without entities:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Entities require identity management |
-| **Time** — Designing entities takes time |
-| **Over-entity** — Not everything needs identity |
+| **Complexity** â€” Entities require identity management |
+| **Time** â€” Designing entities takes time |
+| **Over-entity** â€” Not everything needs identity |
 
 ## Common Misuses
 
-- **Everything an entity**: Not everything needs identity — use value objects when appropriate
+- **Everything an entity**: Not everything needs identity â€” use value objects when appropriate
 - **Ignoring invariants**: Entities should maintain domain invariants
-- **Confusing with database row**: Entity identity ≠ database primary key (though they often align)
+- **Confusing with database row**: Entity identity â‰  database primary key (though they often align)
 
 ## Related Concepts
 
-- [Value Object](DDD/value-object.md) — Value objects are compared by attributes, entities by identity
-- [Aggregate](DDD/aggregate.md) — Aggregates contain entities and value objects
-- [Domain Service](DDD/domain-service.md) — Domain services operate on entities
+- [Value Object](DDD/value-object.md) â€” Value objects are compared by attributes, entities by identity
+- [Aggregate](DDD/aggregate.md) â€” Aggregates contain entities and value objects
+- [Domain Service](DDD/domain-service.md) â€” Domain services operate on entities
 
 ## Project Observations
 
@@ -77,8 +66,8 @@ Without entities:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of entities in existing code (src/ is empty)
 - File naming conventions support entities:
-  - `*.entity.ts` — Entity files
-  - `*.types.ts` — Type files
+  - `*.entity.ts` â€” Entity files
+  - `*.types.ts` â€” Type files
 
 ## Sources
 
@@ -316,11 +305,11 @@ export class CreateUserUseCase {
 5. **Repository pattern**: Use repositories for persistence
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `vitest` — for testing entities
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `vitest` â€” for testing entities
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check
 
 ### Agents to Invoke
 - **Architecture Validation Agent**: Run when designing new entities

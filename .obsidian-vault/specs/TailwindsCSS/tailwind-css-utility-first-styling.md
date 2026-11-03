@@ -1,9 +1,11 @@
+﻿---
+slug: tailwind-css-utility-first-styling
+---
+
 # Tailwind CSS Utility-First Styling
 
 > **Purpose:** Style with utility-first CSS framework.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `tailwind-css`
@@ -49,8 +51,6 @@ declared
 - arch-design-tokens
 - arch-headless-components
 - shadcn-ui
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ Tailwind does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/design-systems]] — Design Systems
-- [[Architecture/design-tokens]] — Design Tokens
-- [[Architecture/headless-components]] — Headless Components
-- [[ShadCN/shadcn-ui]] — ShadCN UI
+- [[Architecture/design-systems]] â€” Design Systems
+- [[Architecture/design-tokens]] â€” Design Tokens
+- [[Architecture/headless-components]] â€” Headless Components
+- [[ShadCN/shadcn-ui]] â€” ShadCN UI
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses Tailwind CSS through:
 ## Sources
 
 - [[Sources/tailwind-css-documentation|Tailwind CSS Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Tailwind CSS Utility-First Styling Note**

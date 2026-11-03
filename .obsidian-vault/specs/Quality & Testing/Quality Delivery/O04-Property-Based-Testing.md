@@ -1,33 +1,23 @@
----
+﻿---
 slug: property-based-testing
 sources:
   - https://github.com/quicktype/quicktype
   - https://vitest.dev/
 date: 2026-11-02
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
   - property-based-testing
   - testing
   - quicktype
   - vitest
----
-
+  - --
 # Property-Based Testing
 
 ## Definition
 
 Property-Based Testing is **a testing approach that tests properties (invariants) of code by generating random test data rather than hand-crafted examples**.
 
-> "Property-based testing tests properties that should hold for all inputs, generating random test data to find counterexamples." — Wikipedia
+> "Property-based testing tests properties that should hold for all inputs, generating random test data to find counterexamples." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,7 +29,7 @@ Without property-based testing:
 
 ## Scope and Boundaries
 
-- Property-Based Testing ≠ Unit Testing (property-based testing generates random inputs, unit testing uses hand-crafted examples)
+- Property-Based Testing â‰  Unit Testing (property-based testing generates random inputs, unit testing uses hand-crafted examples)
 - Property-Based Testing = Coverage (property-based testing improves test coverage)
 - Property-Based Testing is a **testing approach**, not a pattern
 
@@ -54,9 +44,9 @@ Without property-based testing:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Property-based testing adds tooling complexity |
-| **Time** — Writing properties takes time |
-| **Debugging** — Random failures can be hard to debug |
+| **Complexity** â€” Property-based testing adds tooling complexity |
+| **Time** â€” Writing properties takes time |
+| **Debugging** â€” Random failures can be hard to debug |
 
 ## Common Misuses
 
@@ -66,9 +56,9 @@ Without property-based testing:
 
 ## Related Concepts
 
-- [Test-Driven Development](Quality Delivery/test-driven-development.md) — TDD complements property-based testing
-- [Automated Testing](Quality Delivery/automated-testing.md) — Automated testing supports property-based testing
-- [Mutation Testing](Quality Delivery/mutation-testing.md) — Mutation testing complements property-based testing
+- [Test-Driven Development](Quality Delivery/test-driven-development.md) â€” TDD complements property-based testing
+- [Automated Testing](Quality Delivery/automated-testing.md) â€” Automated testing supports property-based testing
+- [Mutation Testing](Quality Delivery/mutation-testing.md) â€” Mutation testing complements property-based testing
 
 ## Project Observations
 
@@ -78,8 +68,8 @@ Without property-based testing:
   - The project's architecture patterns note covers testing concepts
   - No evidence of property-based testing in existing code (src/ is empty)
 - File naming conventions support property-based testing:
-  - `*.test.ts` — Test files
-  - `*.spec.ts` — Spec files
+  - `*.test.ts` â€” Test files
+  - `*.spec.ts` â€” Spec files
 
 ## Sources
 

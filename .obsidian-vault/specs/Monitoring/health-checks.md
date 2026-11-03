@@ -1,9 +1,11 @@
+﻿---
+slug: health-checks
+---
+
 # Health Checks
 
 > **Purpose:** Monitor health with Health Checks.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `health-checks`
@@ -50,8 +52,6 @@ declared
 - readiness-probes
 - liveness-probes
 - service-health
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Health Checks does not apply to:
 
 ## Related Concepts
 
-- [[Monitoring/health-checks]] — Health Checks
-- [[Monitoring/readiness-probes]] — Readiness Probes
-- [[Monitoring/liveness-probes]] — Liveness Probes
-- [[Monitoring/service-health]] — Service Health
+- [[Monitoring/health-checks]] â€” Health Checks
+- [[Monitoring/readiness-probes]] â€” Readiness Probes
+- [[Monitoring/liveness-probes]] â€” Liveness Probes
+- [[Monitoring/service-health]] â€” Service Health
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Health Checks through:
 ## Sources
 
 - [[Sources/health-checks-guide|Health Checks Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Health Checks Note**

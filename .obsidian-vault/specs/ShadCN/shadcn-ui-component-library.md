@@ -1,9 +1,11 @@
+﻿---
+slug: shadcn-ui-component-library
+---
+
 # ShadCN UI Component Library
 
 > **Purpose:** Accessible, customizable UI components.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `shadcn-ui`
@@ -49,8 +51,6 @@ declared
 - arch-design-systems
 - arch-design-tokens
 - arch-headless-components
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ ShadCN does not apply to:
 
 ## Related Concepts
 
-- [[TailwindsCSS/tailwind-css-utility-first-styling]] — Tailwind CSS Utility-First Styling
-- [[Architecture/design-systems]] — Design Systems
-- [[Architecture/design-tokens]] — Design Tokens
-- [[Architecture/headless-components]] — Headless Components
+- [[TailwindsCSS/tailwind-css-utility-first-styling]] â€” Tailwind CSS Utility-First Styling
+- [[Architecture/design-systems]] â€” Design Systems
+- [[Architecture/design-tokens]] â€” Design Tokens
+- [[Architecture/headless-components]] â€” Headless Components
 
 ## Project Observations
 
@@ -133,8 +133,6 @@ The project uses ShadCN UI through:
 ## Sources
 
 - [[Sources/shadcn-ui-documentation|ShadCN UI Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of ShadCN UI Component Library Note**

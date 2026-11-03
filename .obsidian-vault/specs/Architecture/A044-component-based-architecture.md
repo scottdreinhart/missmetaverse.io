@@ -1,32 +1,22 @@
----
+﻿---
 slug: component-based-architecture
 sources:
   - https://react.dev/
   - https://en.wikipedia.org/wiki/Component-based_software_engineering
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - component-based
   - architecture
   - react
   - composition
----
-
+  - --
 # Component-Based Architecture
 
 ## Definition
 
 Component-Based Architecture is **an architectural style that structures applications as a collection of reusable, self-contained components that communicate through well-defined interfaces**.
 
-> "Component-based architecture structures applications as reusable components that communicate through well-defined interfaces." — React Docs
+> "Component-based architecture structures applications as reusable components that communicate through well-defined interfaces." â€” React Docs
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without component-based architecture:
 
 ## Scope and Boundaries
 
-- Component-Based Architecture ≠ Microservices (component-based is for UI/frontend, microservices is for backend)
+- Component-Based Architecture â‰  Microservices (component-based is for UI/frontend, microservices is for backend)
 - Component-Based Architecture = Components (component-based structures applications as components)
 - Component-Based Architecture is an **architectural style**, not a pattern
 
@@ -53,8 +43,8 @@ Without component-based architecture:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Component-based architecture adds abstraction |
-| **Time** — Designing components takes time |
+| **Complexity** â€” Component-based architecture adds abstraction |
+| **Time** â€” Designing components takes time |
 | **Over-component**: Not every UI needs a component |
 
 ## Common Misuses
@@ -65,9 +55,9 @@ Without component-based architecture:
 
 ## Related Concepts
 
-- [Atomic Design](Architecture/atomic-design.md) — Atomic design is a component-based methodology
-- [Component Composition](Architecture/component-composition.md) — Component composition is a component-based pattern
-- [Design Systems](Architecture/design-systems.md) — Design systems provide component libraries
+- [Atomic Design](Architecture/atomic-design.md) â€” Atomic design is a component-based methodology
+- [Component Composition](Architecture/component-composition.md) â€” Component composition is a component-based pattern
+- [Design Systems](Architecture/design-systems.md) â€” Design systems provide component libraries
 
 ## Project Observations
 
@@ -77,8 +67,8 @@ Without component-based architecture:
   - The project's architecture patterns note covers component-based concepts
   - No evidence of component-based architecture in existing code (src/ is empty)
 - File naming conventions support component-based architecture:
-  - `*.component.tsx` — Component files
-  - `*.view.tsx` — View files
+  - `*.component.tsx` â€” Component files
+  - `*.view.tsx` â€” View files
 
 ## Sources
 

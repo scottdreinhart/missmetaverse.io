@@ -1,9 +1,11 @@
+﻿---
+slug: use-case-file-convention
+---
+
 # Use Case File Convention
 
 > **Purpose:** Encapsulate application use cases.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-use-case-file`
@@ -51,11 +53,9 @@ declared
 - project-hook-file
 - ddd-application-service
 
----
-
 ## Definition
 
-The *.use-case.ts file convention designates files that encapsulate application use cases — coordinated sequences of operations that achieve a specific business goal.
+The *.use-case.ts file convention designates files that encapsulate application use cases â€” coordinated sequences of operations that achieve a specific business goal.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ Use case files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/view-file-convention]] — *.view.tsx File Convention
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
-- [[DDD/application-service]] — Application Service
+- [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
+- [[DDD/application-service]] â€” Application Service
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows use case file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Use Case File Convention Note**

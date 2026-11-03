@@ -1,32 +1,22 @@
----
+﻿---
 slug: high-cohesion
 sources:
   - https://en.wikipedia.org/wiki/Cohesion_(computer_science)
   - https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - cohesion
   - principles
   - design
   - modularity
----
-
+  - --
 # High Cohesion
 
 ## Definition
 
 High Cohesion is the principle that **a module or class should have a narrow, well-focused purpose**. All responsibilities of a module should be closely related and support the same overall goal.
 
-> "Cohesion refers to the strength of the relationship between modules. High cohesion is desirable." — Robert C. Martin
+> "Cohesion refers to the strength of the relationship between modules. High cohesion is desirable." â€” Robert C. Martin
 
 ## Problem Addressed
 
@@ -64,16 +54,16 @@ Low cohesion leads to:
 
 ## Related Concepts
 
-- **Single Responsibility Principle** — SRP is the practical application of high cohesion
-- **Separation of Concerns** — SoC enables high cohesion
-- **Low Coupling** — High cohesion + low coupling = good design
+- **Single Responsibility Principle** â€” SRP is the practical application of high cohesion
+- **Separation of Concerns** â€” SoC enables high cohesion
+- **Low Coupling** â€” High cohesion + low coupling = good design
 
 ## Project Observations
 
 - File naming conventions support high cohesion:
-  - `*.logic.ts` — business logic only
-  - `*.data.ts` — data access only
-  - `*.hook.ts` — React hooks only
+  - `*.logic.ts` â€” business logic only
+  - `*.data.ts` â€” data access only
+  - `*.hook.ts` â€” React hooks only
 - No evidence of low-cohesion modules in existing code (src/ is empty)
 
 ## Sources

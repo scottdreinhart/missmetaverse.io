@@ -1,35 +1,22 @@
----
+﻿---
 slug: parameterized-queries
 sources:
   - https://owasp.org/
   - https://www.postgresql.org/docs/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
   - parameterized-queries
   - security
   - sql-injection
   - database
----
-
+  - --
 # Parameterized Queries
 
 ## Definition
 
 Parameterized Queries is **a security technique that separates SQL code from data to prevent SQL injection attacks**.
 
-> "Parameterized queries separate SQL code from data, preventing SQL injection attacks." — OWASP
+> "Parameterized queries separate SQL code from data, preventing SQL injection attacks." â€” OWASP
 
 ## Problem Addressed
 
@@ -41,7 +28,7 @@ Without parameterized queries:
 
 ## Scope and Boundaries
 
-- Parameterized Queries ≠ Input Validation (parameterized queries prevent SQL injection, input validation validates data)
+- Parameterized Queries â‰  Input Validation (parameterized queries prevent SQL injection, input validation validates data)
 - Parameterized Queries = Protection (parameterized queries protect against SQL injection)
 - Parameterized Queries is a **security technique**, not a pattern
 
@@ -56,8 +43,8 @@ Without parameterized queries:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Parameterized queries add query complexity |
-| **Time** — Implementing parameterized queries takes time |
+| **Complexity** â€” Parameterized queries add query complexity |
+| **Time** â€” Implementing parameterized queries takes time |
 | **Limitations**: Some queries can't use parameterized queries |
 
 ## Common Misuses
@@ -68,9 +55,9 @@ Without parameterized queries:
 
 ## Related Concepts
 
-- [Input Validation](Security/input-validation.md) — Input validation complements parameterized queries
-- [ORM Patterns](Data Databases/orm-patterns.md) — ORMs use parameterized queries
-- [Security Principles](Security/security-principles.md) — Security principles include parameterized queries
+- [Input Validation](Security/input-validation.md) â€” Input validation complements parameterized queries
+- [ORM Patterns](Data Databases/orm-patterns.md) â€” ORMs use parameterized queries
+- [Security Principles](Security/security-principles.md) â€” Security principles include parameterized queries
 
 ## Project Observations
 
@@ -80,8 +67,8 @@ Without parameterized queries:
   - The project's architecture patterns note covers security concepts
   - No evidence of parameterized queries in existing code (src/ is empty)
 - File naming conventions support parameterized queries:
-  - `*.repository.ts` — Repository files
-  - `*.schema.ts` — Schema files
+  - `*.repository.ts` â€” Repository files
+  - `*.schema.ts` â€” Schema files
 
 ## Sources
 
@@ -134,21 +121,21 @@ export class PrismaUserRepository {
     this.prisma = new PrismaClient()
   }
 
-  // ✅ Safe — Prisma uses parameterized queries
+  // âœ… Safe â€” Prisma uses parameterized queries
   async findById(id: string) {
     return this.prisma.user.findUnique({
       where: { id },
     })
   }
 
-  // ✅ Safe — Prisma escapes user input
+  // âœ… Safe â€” Prisma escapes user input
   async findByEmail(email: string) {
     return this.prisma.user.findUnique({
       where: { email },
     })
   }
 
-  // ✅ Safe — Prisma handles SQL injection
+  // âœ… Safe â€” Prisma handles SQL injection
   async searchUsers(query: string) {
     return this.prisma.user.findMany({
       where: {
@@ -160,14 +147,14 @@ export class PrismaUserRepository {
     })
   }
 
-  // ✅ Safe — Prisma uses parameterized queries
+  // âœ… Safe â€” Prisma uses parameterized queries
   async createUser(name: string, email: string) {
     return this.prisma.user.create({
       data: { name, email },
     })
   }
 
-  // ✅ Safe — Prisma escapes user input
+  // âœ… Safe â€” Prisma escapes user input
   async updateUser(id: string, name: string) {
     return this.prisma.user.update({
       where: { id },
@@ -175,7 +162,7 @@ export class PrismaUserRepository {
     })
   }
 
-  // ✅ Safe — Prisma uses parameterized queries
+  // âœ… Safe â€” Prisma uses parameterized queries
   async deleteUser(id: string) {
     return this.prisma.user.delete({
       where: { id },
@@ -199,7 +186,7 @@ export class PgUserRepository {
     })
   }
 
-  // ✅ Safe — Uses $1, $2 parameters
+  // âœ… Safe â€” Uses $1, $2 parameters
   async findById(id: string) {
     const result: QueryResult = await this.pool.query(
       'SELECT * FROM users WHERE id = $1',
@@ -208,7 +195,7 @@ export class PgUserRepository {
     return result.rows[0]
   }
 
-  // ✅ Safe — Uses $1, $2 parameters
+  // âœ… Safe â€” Uses $1, $2 parameters
   async findByEmail(email: string) {
     const result: QueryResult = await this.pool.query(
       'SELECT * FROM users WHERE email = $1',
@@ -217,7 +204,7 @@ export class PgUserRepository {
     return result.rows[0]
   }
 
-  // ✅ Safe — Uses $1, $2 parameters
+  // âœ… Safe â€” Uses $1, $2 parameters
   async searchUsers(query: string) {
     const result: QueryResult = await this.pool.query(
       'SELECT * FROM users WHERE name ILIKE $1 OR email ILIKE $1',
@@ -226,7 +213,7 @@ export class PgUserRepository {
     return result.rows
   }
 
-  // ✅ Safe — Uses $1, $2 parameters
+  // âœ… Safe â€” Uses $1, $2 parameters
   async createUser(name: string, email: string) {
     const result: QueryResult = await this.pool.query(
       'INSERT INTO users (name, email) VALUES ($1, $2) RETURNING *',
@@ -235,7 +222,7 @@ export class PgUserRepository {
     return result.rows[0]
   }
 
-  // ✅ Safe — Uses $1, $2 parameters
+  // âœ… Safe â€” Uses $1, $2 parameters
   async updateUser(id: string, name: string) {
     const result: QueryResult = await this.pool.query(
       'UPDATE users SET name = $1 WHERE id = $2 RETURNING *',
@@ -244,7 +231,7 @@ export class PgUserRepository {
     return result.rows[0]
   }
 
-  // ✅ Safe — Uses $1, $2 parameters
+  // âœ… Safe â€” Uses $1, $2 parameters
   async deleteUser(id: string) {
     return this.pool.query('DELETE FROM users WHERE id = $1', [id])
   }
@@ -277,17 +264,17 @@ export class TypeOrmUserRepository {
     this.repository = dataSource.getRepository(UserEntity)
   }
 
-  // ✅ Safe — TypeORM uses parameterized queries
+  // âœ… Safe â€” TypeORM uses parameterized queries
   async findById(id: string) {
     return this.repository.findOne({ where: { id } })
   }
 
-  // ✅ Safe — TypeORM uses parameterized queries
+  // âœ… Safe â€” TypeORM uses parameterized queries
   async findByEmail(email: string) {
     return this.repository.findOne({ where: { email } })
   }
 
-  // ✅ Safe — TypeORM uses parameterized queries
+  // âœ… Safe â€” TypeORM uses parameterized queries
   async searchUsers(query: string) {
     return this.repository.find({
       where: [
@@ -297,19 +284,19 @@ export class TypeOrmUserRepository {
     })
   }
 
-  // ✅ Safe — TypeORM uses parameterized queries
+  // âœ… Safe â€” TypeORM uses parameterized queries
   async createUser(name: string, email: string) {
     const user = this.repository.create({ name, email })
     return this.repository.save(user)
   }
 
-  // ✅ Safe — TypeORM uses parameterized queries
+  // âœ… Safe â€” TypeORM uses parameterized queries
   async updateUser(id: string, name: string) {
     await this.repository.update(id, { name })
     return this.repository.findOne({ where: { id } })
   }
 
-  // ✅ Safe — TypeORM uses parameterized queries
+  // âœ… Safe â€” TypeORM uses parameterized queries
   async deleteUser(id: string) {
     return this.repository.delete(id)
   }
@@ -319,32 +306,32 @@ export class TypeOrmUserRepository {
 ### Step 4: Avoid SQL Injection
 
 ```typescript
-// ❌ NEVER do this — SQL injection vulnerable
+// âŒ NEVER do this â€” SQL injection vulnerable
 async findByEmailUnsafe(email: string) {
   return this.pool.query(`SELECT * FROM users WHERE email = '${email}'`)
 }
 
-// ❌ NEVER do this — SQL injection vulnerable
+// âŒ NEVER do this â€” SQL injection vulnerable
 async searchUsersUnsafe(query: string) {
   return this.pool.query(`SELECT * FROM users WHERE name LIKE '%${query}%'`)
 }
 
-// ❌ NEVER do this — SQL injection vulnerable
+// âŒ NEVER do this â€” SQL injection vulnerable
 async deleteUserUnsafe(id: string) {
   return this.pool.query(`DELETE FROM users WHERE id = ${id}`)
 }
 
-// ✅ ALWAYS do this — Parameterized query
+// âœ… ALWAYS do this â€” Parameterized query
 async findByEmailSafe(email: string) {
   return this.pool.query('SELECT * FROM users WHERE email = $1', [email])
 }
 
-// ✅ ALWAYS do this — Parameterized query
+// âœ… ALWAYS do this â€” Parameterized query
 async searchUsersSafe(query: string) {
   return this.pool.query('SELECT * FROM users WHERE name LIKE $1', [`%${query}%`])
 }
 
-// ✅ ALWAYS do this — Parameterized query
+// âœ… ALWAYS do this â€” Parameterized query
 async deleteUserSafe(id: string) {
   return this.pool.query('DELETE FROM users WHERE id = $1', [id])
 }
@@ -361,12 +348,12 @@ describe('SQL Injection Prevention', () => {
     // Malicious input
     const maliciousEmail = "admin'--"
     
-    // With parameterized query — safe
+    // With parameterized query â€” safe
     // The query treats the entire string as the email value
     // It will not find a user with email "admin'--"
     // unless such a user actually exists
     
-    // With string concatenation — vulnerable
+    // With string concatenation â€” vulnerable
     // const query = `SELECT * FROM users WHERE email = '${maliciousEmail}'`
     // This would become: SELECT * FROM users WHERE email = 'admin'--'
     // Which comments out the rest of the query!
@@ -376,11 +363,11 @@ describe('SQL Injection Prevention', () => {
     // Malicious input
     const maliciousQuery = "' OR '1'='1"
     
-    // With parameterized query — safe
+    // With parameterized query â€” safe
     // The query treats the entire string as the search term
     // It will not return all users
     
-    // With string concatenation — vulnerable
+    // With string concatenation â€” vulnerable
     // const query = `SELECT * FROM users WHERE name LIKE '%${maliciousQuery}%'`
     // This would become: SELECT * FROM users WHERE name LIKE '%'' OR '1'='1%'
     // Which returns all users!
@@ -407,12 +394,12 @@ describe('SQL Injection Prevention', () => {
 5. **Test security**: Test with malicious input
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `@prisma/client` — for Prisma ORM
-- **npm Package**: `typeorm` — for TypeORM
-- **npm Package**: `pg` — for PostgreSQL client
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm audit` — check for vulnerabilities
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `@prisma/client` â€” for Prisma ORM
+- **npm Package**: `typeorm` â€” for TypeORM
+- **npm Package**: `pg` â€” for PostgreSQL client
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm audit` â€” check for vulnerabilities
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when adding new database queries

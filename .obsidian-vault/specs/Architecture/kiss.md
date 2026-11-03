@@ -1,9 +1,11 @@
+﻿---
+slug: kiss
+---
+
 # KISS
 
 > **Purpose:** Keep it simple, stupid.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `arch-kiss`
@@ -51,8 +53,6 @@ declared
 - arch-explicit-over-implicit
 - arch-dry
 - arch-fail-fast
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ KISS does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/solid-principles]] — SOLID Principles
-- [[Architecture/yagni]] — YAGNI
-- [[Architecture/explicit-over-implicit]] — Explicit over Implicit
-- [[Architecture/dry]] — DRY Principle
+- [[Architecture/solid-principles]] â€” SOLID Principles
+- [[Architecture/yagni]] â€” YAGNI
+- [[Architecture/explicit-over-implicit]] â€” Explicit over Implicit
+- [[Architecture/dry]] â€” DRY Principle
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows KISS through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of KISS Note**

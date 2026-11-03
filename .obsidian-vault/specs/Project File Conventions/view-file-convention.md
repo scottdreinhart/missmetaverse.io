@@ -1,9 +1,11 @@
+﻿---
+slug: view-file-convention
+---
+
 # View File Convention
 
 > **Purpose:** Separate view logic from other concerns.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `project-view-file`
@@ -51,11 +53,9 @@ declared
 - project-schema-file
 - arch-presentation-logic-separation
 
----
-
 ## Definition
 
-The *.view.tsx file convention designates files that contain UI view logic — the presentation layer that renders components and handles user interaction.
+The *.view.tsx file convention designates files that contain UI view logic â€” the presentation layer that renders components and handles user interaction.
 
 ## Problem Addressed
 
@@ -118,10 +118,10 @@ View files do not apply to:
 
 ## Related Concepts
 
-- [[Project File Conventions/logic-file-convention]] — *.logic.ts File Convention
-- [[Project File Conventions/data-file-convention]] — *.data.ts File Convention
-- [[Project File Conventions/hook-file-convention]] — *.hook.ts File Convention
-- [[Architecture/presentation-logic-separation]] — Presentation-Logic Separation
+- [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
+- [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
+- [[Project File Conventions/hook-file-convention]] â€” *.hook.ts File Convention
+- [[Architecture/presentation-logic-separation]] â€” Presentation-Logic Separation
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project follows view file convention through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of View File Convention Note**

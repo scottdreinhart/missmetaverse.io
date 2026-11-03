@@ -1,32 +1,22 @@
----
+﻿---
 slug: repository-ddd-pattern
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/Repository.html
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - ddd
   - repository
   - domain-modeling
   - data-access
----
-
+  - --
 # Repository (DDD)
 
 ## Definition
 
 Repository (DDD) is **a mechanism for encapsulating storage, retrieval, and search behavior which emulates a collection of objects**.
 
-> "A repository performs the tasks of an intermediary between the domain model and data mapping, acting similarly to a collection." — Martin Fowler
+> "A repository performs the tasks of an intermediary between the domain model and data mapping, acting similarly to a collection." â€” Martin Fowler
 
 ## Problem Addressed
 
@@ -38,7 +28,7 @@ Without repositories:
 
 ## Scope and Boundaries
 
-- Repository ≠ Data Mapper (repository provides collection-like interface, data mapper handles object-relational mapping)
+- Repository â‰  Data Mapper (repository provides collection-like interface, data mapper handles object-relational mapping)
 - Repository = Collection (repository emulates a collection in memory)
 - Repository is a **domain model building block**, not a pattern
 
@@ -53,9 +43,9 @@ Without repositories:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Repositories add an abstraction layer |
-| **Time** — Implementing repositories takes time |
-| **Over-repository** — Simple CRUD may not need a repository |
+| **Complexity** â€” Repositories add an abstraction layer |
+| **Time** â€” Implementing repositories takes time |
+| **Over-repository** â€” Simple CRUD may not need a repository |
 
 ## Common Misuses
 
@@ -65,9 +55,9 @@ Without repositories:
 
 ## Related Concepts
 
-- [Data Mapper](Architecture/data-mapper-pattern.md) — Data mapper handles object-relational mapping
-- [Unit of Work](Architecture/unit-of-work-pattern.md) — Unit of work coordinates repositories
-- [Aggregate Root](DDD/aggregate-root.md) — Repositories typically manage aggregate roots
+- [Data Mapper](Architecture/data-mapper-pattern.md) â€” Data mapper handles object-relational mapping
+- [Unit of Work](Architecture/unit-of-work-pattern.md) â€” Unit of work coordinates repositories
+- [Aggregate Root](DDD/aggregate-root.md) â€” Repositories typically manage aggregate roots
 
 ## Project Observations
 
@@ -76,8 +66,8 @@ Without repositories:
   - The project's architecture patterns note covers DDD concepts
   - No evidence of repositories in existing code (src/ is empty)
 - File naming conventions support repositories:
-  - `*.repository.ts` — Repository files
-  - `*.port.ts` — Port files
+  - `*.repository.ts` â€” Repository files
+  - `*.port.ts` â€” Port files
 
 ## Sources
 
@@ -380,12 +370,12 @@ export class CreateUserService {
 5. **Use dependency injection**: Inject repositories
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `@prisma/client` — for Prisma ORM
-- **npm Package**: `typeorm` — for TypeORM
-- **npm Package**: `pg` — for PostgreSQL client
-- **Terminal Command**: `pnpm test` — run tests
-- **Terminal Command**: `pnpm lint` — check code quality
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `@prisma/client` â€” for Prisma ORM
+- **npm Package**: `typeorm` â€” for TypeORM
+- **npm Package**: `pg` â€” for PostgreSQL client
+- **Terminal Command**: `pnpm test` â€” run tests
+- **Terminal Command**: `pnpm lint` â€” check code quality
 
 ### Agents to Invoke
 - **DDD Review Agent**: Run when designing repositories

@@ -1,9 +1,11 @@
+﻿---
+slug: plugin-architecture
+---
+
 # Plugin Architecture
 
 > **Purpose:** Extend apps with Plugin Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `plugin-architecture`
@@ -50,8 +52,6 @@ declared
 - plugin-system
 - extension-points
 - module-system
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Plugin Architecture does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/plugin-architecture]] — Plugin Architecture
-- [[Application Architecture/plugin-system]] — Plugin System
-- [[Application Architecture/extension-points]] — Extension Points
-- [[Application Architecture/module-system]] — Module System
+- [[Application Architecture/plugin-architecture]] â€” Plugin Architecture
+- [[Application Architecture/plugin-system]] â€” Plugin System
+- [[Application Architecture/extension-points]] â€” Extension Points
+- [[Application Architecture/module-system]] â€” Module System
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Plugin Architecture through:
 
 ## Sources
 
-- [[Sources/fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Plugin Architecture Note**

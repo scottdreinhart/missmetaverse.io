@@ -1,9 +1,11 @@
+﻿---
+slug: react-hook-form-form-management
+---
+
 # React Hook Form Form Management
 
 > **Purpose:** Manage forms with React Hook Form.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `react-hook-form-form-management`
@@ -50,8 +52,6 @@ declared
 - react-hook-form-validation
 - react-hook-form-state
 - react-hook-form-configuration
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ React Hook Form does not apply to:
 
 ## Related Concepts
 
-- [[React Hook Form/react-hook-form-form-management]] — React Hook Form Form Management
-- [[React Hook Form/react-hook-form-validation]] — React Hook Form Validation
-- [[React Hook Form/react-hook-form-state]] — React Hook Form State
-- [[React Hook Form/react-hook-form-configuration]] — React Hook Form Configuration
+- [[React Hook Form/react-hook-form-form-management]] â€” React Hook Form Form Management
+- [[React Hook Form/react-hook-form-validation]] â€” React Hook Form Validation
+- [[React Hook Form/react-hook-form-state]] â€” React Hook Form State
+- [[React Hook Form/react-hook-form-configuration]] â€” React Hook Form Configuration
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses React Hook Form through:
 ## Sources
 
 - [[Sources/react-hook-form-documentation|React Hook Form Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Hook Form Form Management Note**

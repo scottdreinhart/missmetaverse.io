@@ -1,33 +1,22 @@
----
+﻿---
 slug: schema-migrations
 sources:
   - https://knexjs.org/
   - https://www.postgresql.org/docs/
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
-
   - database
   - migrations
   - schema
   - devops
----
-
+  - --
 # Schema Migrations
 
 ## Definition
 
 Schema Migrations are **version-controlled scripts that incrementally modify a database schema, enabling consistent schema changes across environments**.
 
-> "A database migration is a set of defined, incremental, atomic, ordered changes to the database schema." — Wikipedia
+> "A database migration is a set of defined, incremental, atomic, ordered changes to the database schema." â€” Wikipedia
 
 ## Problem Addressed
 
@@ -39,7 +28,7 @@ Without schema migrations:
 
 ## Scope and Boundaries
 
-- Schema Migrations ≠ Database Design (schema migrations implement changes, database design defines the structure)
+- Schema Migrations â‰  Database Design (schema migrations implement changes, database design defines the structure)
 - Schema Migrations = Version Control (schema migrations are version controlled)
 - Schema Migrations is a **devops practice**, not a pattern
 
@@ -54,9 +43,9 @@ Without schema migrations:
 
 | Cost | Description |
 |------|-------------|
-| **Complexity** — Migrations add tooling complexity |
-| **Time** — Writing migrations takes time |
-| **Risk** — Bad migrations can corrupt data |
+| **Complexity** â€” Migrations add tooling complexity |
+| **Time** â€” Writing migrations takes time |
+| **Risk** â€” Bad migrations can corrupt data |
 
 ## Common Misuses
 
@@ -66,9 +55,9 @@ Without schema migrations:
 
 ## Related Concepts
 
-- [Expand-Contract](Data Databases/expand-contract.md) — Expand-contract is a migration strategy
-- [Database Design](Data Databases/database-design.md) — Database design defines the schema
-- [CI/CD](DevOps/ci-cd.md) — CI/CD pipelines run migrations
+- [Expand-Contract](Data Databases/expand-contract.md) â€” Expand-contract is a migration strategy
+- [Database Design](Data Databases/database-design.md) â€” Database design defines the schema
+- [CI/CD](DevOps/ci-cd.md) â€” CI/CD pipelines run migrations
 
 ## Project Observations
 
@@ -78,8 +67,8 @@ Without schema migrations:
   - The project's architecture patterns note covers database concepts
   - No evidence of schema migrations in existing code (src/ is empty)
 - File naming conventions support schema migrations:
-  - `*.migration.ts` — Migration files
-  - `*.schema.ts` — Schema files
+  - `*.migration.ts` â€” Migration files
+  - `*.schema.ts` â€” Schema files
 
 ## Sources
 

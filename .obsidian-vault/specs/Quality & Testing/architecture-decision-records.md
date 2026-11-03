@@ -1,9 +1,11 @@
+﻿---
+slug: architecture-decision-records
+---
+
 # Architecture Decision Records
 
 > **Purpose:** Document architectural decisions and rationale.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `testing-adr`
@@ -50,8 +52,6 @@ declared
 - testing-incremental-refactoring
 - arch-quality-gate
 - testing-continuous-integration
-
----
 
 ## Definition
 
@@ -118,9 +118,9 @@ ADRs do not apply to:
 
 ## Related Concepts
 
-- [[Quality & Testing/evolutionary-architecture]] — Evolutionary Architecture
-- [[Quality & Testing/incremental-refactoring]] — Incremental Refactoring
-- [[Quality & Testing/continuous-integration]] — Continuous Integration
+- [[Quality & Testing/evolutionary-architecture]] â€” Evolutionary Architecture
+- [[Quality & Testing/incremental-refactoring]] â€” Incremental Refactoring
+- [[Quality & Testing/continuous-integration]] â€” Continuous Integration
 
 ## Project Observations
 
@@ -132,9 +132,7 @@ The project follows ADRs through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler — Test Driven Development]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Architecture Decision Records Note**

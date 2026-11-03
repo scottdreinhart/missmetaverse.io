@@ -1,9 +1,11 @@
+﻿---
+slug: infrastructure-as-code
+---
+
 # Infrastructure as Code
 
 > **Purpose:** Manage infrastructure with IaC.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `infrastructure-as-code`
@@ -50,8 +52,6 @@ declared
 - terraform
 - cloudformation
 - ansible
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ IaC does not apply to:
 
 ## Related Concepts
 
-- [[DevOps & Deployment/infrastructure-as-code]] — Infrastructure as Code
-- [[DevOps & Deployment/terraform]] — Terraform
-- [[DevOps & Deployment/cloudformation]] — CloudFormation
-- [[DevOps & Deployment/ansible]] — Ansible
+- [[DevOps & Deployment/infrastructure-as-code]] â€” Infrastructure as Code
+- [[DevOps & Deployment/terraform]] â€” Terraform
+- [[DevOps & Deployment/cloudformation]] â€” CloudFormation
+- [[DevOps & Deployment/ansible]] â€” Ansible
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Infrastructure as Code through:
 ## Sources
 
 - [[Sources/iac-best-practices|Infrastructure as Code Best Practices]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Infrastructure as Code Note**

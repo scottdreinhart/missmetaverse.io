@@ -1,4 +1,4 @@
----
+﻿---
 slug: react-performance-security
 sources:
   - https://react.dev/reference/react/useMemo
@@ -10,28 +10,14 @@ sources:
   - https://react.dev/learn/security
 date: 2025-01-15
 tags:
-
   - maturity/deprecated
-
-
-
-
-
-
-
-
-
-
-
-
   - react
   - performance
   - optimization
   - security
   - concurrent
   - best-practices
----
-
+  - --
 # React: Performance, Security & Best Practices
 
 ## Overview
@@ -52,7 +38,7 @@ function TodoList({ todos, tab }) {
 
 ## Performance Optimization
 
-### useMemo — Cache Expensive Calculations
+### useMemo â€” Cache Expensive Calculations
 
 ```tsx
 import { useMemo } from 'react';
@@ -77,13 +63,13 @@ function TodoList({ todos, tab }) {
 - Code readability is more important
 - React Compiler is enabled (handles automatically)
 
-### useCallback — Cache Function References
+### useCallback â€” Cache Function References
 
 ```tsx
 import { useCallback } from 'react';
 
 function ProductPage({ productId, referrer }) {
-  // Cached function reference — only changes when deps change
+  // Cached function reference â€” only changes when deps change
   const handleSubmit = useCallback((orderDetails) => {
     post(`/product/${productId}/buy`, { referrer, orderDetails });
   }, [productId, referrer]);
@@ -97,7 +83,7 @@ function ProductPage({ productId, referrer }) {
 - Used as a dependency of another Hook or Effect
 - Returned from a custom Hook
 
-**Updater function pattern — remove state dependencies:**
+**Updater function pattern â€” remove state dependencies:**
 
 ```tsx
 // BAD: todos is a dependency
@@ -111,7 +97,7 @@ const handleAddTodo = useCallback((text) => {
 }, []);
 ```
 
-### memo — Skip Re-renders
+### memo â€” Skip Re-renders
 
 ```tsx
 import { memo } from 'react';
@@ -126,7 +112,7 @@ const ExpensiveList = memo(function ExpensiveList({ items }) {
 });
 ```
 
-### useTransition — Non-Blocking Updates
+### useTransition â€” Non-Blocking Updates
 
 ```tsx
 import { useState, useTransition } from 'react';
@@ -156,10 +142,10 @@ function TabContainer() {
 **Key behaviors:**
 - UI stays responsive during expensive updates
 - `isPending` tracks transition state
-- Interruptible — user clicks are handled immediately
+- Interruptible â€” user clicks are handled immediately
 - Works with Suspense to prevent loading flicker
 
-### useDeferredValue — Lag Behind for Performance
+### useDeferredValue â€” Lag Behind for Performance
 
 ```tsx
 import { useState, useDeferredValue } from 'react';
@@ -181,10 +167,10 @@ function SearchPage() {
 **How it works:**
 1. React re-renders with old `deferredQuery` (input stays fast)
 2. Background re-render with new value (interruptible)
-3. Integrates with Suspense — shows stale content while loading
+3. Integrates with Suspense â€” shows stale content while loading
 
 **Better than debouncing/throttling:**
-- No fixed delay — adapts to device speed
+- No fixed delay â€” adapts to device speed
 - Interruptible by default
 - Deeply integrated with React's rendering
 
@@ -243,7 +229,7 @@ function UserContent({ content }) {
 DB_PASSWORD=secret
 API_KEY=secret123
 
-# .env (safe to commit — only VITE_ prefix is exposed)
+# .env (safe to commit â€” only VITE_ prefix is exposed)
 VITE_APP_TITLE=My App
 VITE_API_URL=https://api.example.com
 ```
@@ -251,7 +237,7 @@ VITE_API_URL=https://api.example.com
 ```tsx
 // SAFE: Only VITE_ prefixed vars are exposed to client
 console.log(import.meta.env.VITE_APP_TITLE); // "My App"
-console.log(import.meta.env.DB_PASSWORD); // undefined — NOT exposed
+console.log(import.meta.env.DB_PASSWORD); // undefined â€” NOT exposed
 
 // NEVER put secrets in VITE_ variables
 // They are bundled into source code at build time
@@ -292,7 +278,7 @@ function Greeting({ name }) {
   return <h1>Hello, {name}!</h1>;
 }
 
-// BAD: Impure — mutates external state
+// BAD: Impure â€” mutates external state
 function BadGreeting({ name }) {
   externalCounter++; // Side effect in render
   return <h1>Hello, {name}!</h1>;
@@ -301,7 +287,7 @@ function BadGreeting({ name }) {
 
 ### React Calls Components and Hooks
 
-- Don't call components directly — return JSX
+- Don't call components directly â€” return JSX
 - Don't call hooks conditionally
 - Follow the Rules of Hooks
 
@@ -321,7 +307,7 @@ function Component() {
 // BAD
 function Component() {
   if (condition) {
-    const [state, setState] = useState(0); // Conditional — breaks!
+    const [state, setState] = useState(0); // Conditional â€” breaks!
   }
   return <div></div>;
 }
@@ -384,7 +370,7 @@ useEffect(() => {
 - [ ] Wrap slow children in `memo`
 - [ ] Use `useTransition` for non-urgent updates
 - [ ] Use `useDeferredValue` for search/large lists
-- [ ] Prefer local state — don't lift too high
+- [ ] Prefer local state â€” don't lift too high
 - [ ] Avoid unnecessary Effects
 - [ ] Move objects/functions inside Effects
 - [ ] Sanitize user content before rendering
@@ -584,12 +570,12 @@ export function App() {
 5. **Code split**: Use React.lazy for route/component splitting
 
 ### Tools to Use
-- **VS Code Extension**: React Developer Tools — for performance profiling
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `react-window` — for virtualized lists
-- **npm Package**: `react-virtualized` — alternative for virtualization
-- **Terminal Command**: `pnpm test` — run tests after optimization
-- **Terminal Command**: `pnpm build --mode production` — build for production
+- **VS Code Extension**: React Developer Tools â€” for performance profiling
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `react-window` â€” for virtualized lists
+- **npm Package**: `react-virtualized` â€” alternative for virtualization
+- **Terminal Command**: `pnpm test` â€” run tests after optimization
+- **Terminal Command**: `pnpm build --mode production` â€” build for production
 
 ### Agents to Invoke
 - **Performance Review Agent**: Run when optimizing React performance

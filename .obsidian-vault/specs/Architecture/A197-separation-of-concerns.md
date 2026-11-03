@@ -1,32 +1,22 @@
----
+﻿---
 slug: separation-of-concerns
 sources:
   - https://en.wikipedia.org/wiki/Separation_of_concerns
   - https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
 date: 2026-11-02
 tags:
-
-
-
-
-
-
-
-
-
   - separation-of-concerns
   - principles
   - dijkstra
   - architecture
----
-
+  - --
 # Separation of Concerns
 
 ## Definition
 
 Separation of Concerns (SoC) is the principle of **dividing a computer program into distinct sections such that each section addresses a separate concern**. A concern is any feature or behavior that affects a program.
 
-> "The basic idea is to separate a system into parts, where each part handles a distinct concern." — Edsger W. Dijkstra (1974)
+> "The basic idea is to separate a system into parts, where each part handles a distinct concern." â€” Edsger W. Dijkstra (1974)
 
 ## Problem Addressed
 
@@ -61,14 +51,14 @@ Without SoC:
 
 - **Granularity obsession**: Separating at the function level when module-level is sufficient
 - **Ignoring cross-cutting concerns**: Logging, error handling, validation span all layers
-- **Confusing with file separation**: More files ≠ better separation
+- **Confusing with file separation**: More files â‰  better separation
 
 ## Related Concepts
 
-- **Single Responsibility Principle** — SoC at the module level
-- **High Cohesion** — Related concerns grouped together
-- **Low Coupling** — Independent concerns separated
-- **Clean Architecture** — SoC at the architectural level
+- **Single Responsibility Principle** â€” SoC at the module level
+- **High Cohesion** â€” Related concerns grouped together
+- **Low Coupling** â€” Independent concerns separated
+- **Clean Architecture** â€” SoC at the architectural level
 
 ## Project Observations
 

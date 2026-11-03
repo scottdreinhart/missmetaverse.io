@@ -1,4 +1,4 @@
----
+﻿---
 slug: frost-atomic-design-2016
 sources:
   - https://bradfrost.com/
@@ -6,14 +6,6 @@ sources:
 
 ---
 tags:
-
-
-
-
-
-
-
-
   - atomic-design
   - ui
   - components

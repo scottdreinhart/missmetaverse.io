@@ -1,9 +1,11 @@
+﻿---
+slug: hexagonal-architecture-ports
+---
+
 # Hexagonal Architecture Ports
 
 > **Purpose:** Define ports in Hexagonal Architecture.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `hexagonal-architecture-ports`
@@ -51,8 +53,6 @@ declared
 - hexagonal-architecture-adapters
 - dependency-inversion
 - port-pattern
-
----
 
 ## Definition
 
@@ -119,10 +119,10 @@ Ports do not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/hexagonal-architecture-ports]] — Hexagonal Architecture Ports
-- [[Application Architecture/hexagonal-architecture-adapters]] — Hexagonal Architecture Adapters
-- [[Architecture/dependency-inversion]] — Dependency Inversion
-- [[Design Patterns/port-pattern]] — Port Pattern
+- [[Application Architecture/hexagonal-architecture-ports]] â€” Hexagonal Architecture Ports
+- [[Application Architecture/hexagonal-architecture-adapters]] â€” Hexagonal Architecture Adapters
+- [[Architecture/dependency-inversion]] â€” Dependency Inversion
+- [[Design Patterns/port-pattern]] â€” Port Pattern
 
 ## Project Observations
 
@@ -134,9 +134,7 @@ The project uses Hexagonal Architecture Ports through:
 
 ## Sources
 
-- [[Sources/hexagonal-architecture-perez|Hexagonal Architecture — Alberto Perez]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/hexagonal-architecture-perez|Hexagonal Architecture â€” Alberto Perez]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Hexagonal Architecture Ports Note**

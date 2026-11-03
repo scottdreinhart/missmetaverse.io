@@ -1,9 +1,11 @@
+﻿---
+slug: date-fns-date-library
+---
+
 # date-fns Date Library
 
 > **Purpose:** Handle dates with date-fns.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `date-fns-date-library`
@@ -50,8 +52,6 @@ declared
 - date-fns-manipulation
 - date-fns-configuration
 - date-fns-localization
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ date-fns does not apply to:
 
 ## Related Concepts
 
-- [[date-fns/date-fns-formatting]] — date-fns Formatting
-- [[date-fns/date-fns-manipulation]] — date-fns Manipulation
-- [[date-fns/date-fns-configuration]] — date-fns Configuration
-- [[date-fns/date-fns-localization]] — date-fns Localization
+- [[date-fns/date-fns-formatting]] â€” date-fns Formatting
+- [[date-fns/date-fns-manipulation]] â€” date-fns Manipulation
+- [[date-fns/date-fns-configuration]] â€” date-fns Configuration
+- [[date-fns/date-fns-localization]] â€” date-fns Localization
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses date-fns through:
 ## Sources
 
 - [[Sources/date-fns-documentation|date-fns Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of date-fns Date Library Note**

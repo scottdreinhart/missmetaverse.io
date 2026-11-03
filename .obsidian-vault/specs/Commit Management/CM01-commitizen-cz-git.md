@@ -1,4 +1,4 @@
----
+﻿---
 slug: commitizen-cz-git
 sources:
   - https://github.com/commitizen/cz-cli
@@ -8,23 +8,12 @@ date: 2026-11-02
 tags:
   - priority/low
   - maturity/experimental
-
-
-
-
-
-
-
-
-
-
   - commitizen
   - cz-git
   - conventional-commits
   - interactive-commit
   - commit-prompt
----
-
+  - --
 # Commitizen & cz-git
 
 ## Overview
@@ -130,7 +119,7 @@ bootstrap({
 
 ---
 
-## 2. cz-git — Modern Adapter
+## 2. cz-git â€” Modern Adapter
 
 ### What It Does
 
@@ -171,21 +160,21 @@ const rules = [
 ]
 
 const emojiRules = [
-  { value: 'feat',     emoji: '✨',   name: '✨  feat:     A new feature' },
-  { value: 'fix',      emoji: '🐛',   name: '🐛  fix:      A bug fix' },
-  { value: 'docs',     emoji: '📝',   name: '📝  docs:     Documentation' },
-  { value: 'style',    emoji: '💄',   name: '💄  style:    Styling' },
-  { value: 'refactor', emoji: '♻️',   name: '♻️  refactor: Refactoring' },
-  { value: 'perf',     emoji: '⚡️',  name: '⚡️  perf:     Performance' },
-  { value: 'test',     emoji: '✅',   name: '✅  test:     Tests' },
-  { value: 'build',    emoji: '🔨',   name: '🔨  build:    Build' },
-  { value: 'ci',       emoji: '👷',   name: '👷  ci:       CI' },
-  { value: 'chore',    emoji: '🗂️',   name: '🗂️  chore:    Chores' },
-  { value: 'revert',   emoji: '⏪',   name: '⏪  revert:   Revert' },
+  { value: 'feat',     emoji: 'âœ¨',   name: 'âœ¨  feat:     A new feature' },
+  { value: 'fix',      emoji: 'ðŸ›',   name: 'ðŸ›  fix:      A bug fix' },
+  { value: 'docs',     emoji: 'ðŸ“',   name: 'ðŸ“  docs:     Documentation' },
+  { value: 'style',    emoji: 'ðŸ’„',   name: 'ðŸ’„  style:    Styling' },
+  { value: 'refactor', emoji: 'â™»ï¸',   name: 'â™»ï¸  refactor: Refactoring' },
+  { value: 'perf',     emoji: 'âš¡ï¸',  name: 'âš¡ï¸  perf:     Performance' },
+  { value: 'test',     emoji: 'âœ…',   name: 'âœ…  test:     Tests' },
+  { value: 'build',    emoji: 'ðŸ”¨',   name: 'ðŸ”¨  build:    Build' },
+  { value: 'ci',       emoji: 'ðŸ‘·',   name: 'ðŸ‘·  ci:       CI' },
+  { value: 'chore',    emoji: 'ðŸ—‚ï¸',   name: 'ðŸ—‚ï¸  chore:    Chores' },
+  { value: 'revert',   emoji: 'âª',   name: 'âª  revert:   Revert' },
 ]
 
 module.exports = defineConfig({
-  // ─── Custom Questions ──────────────────────────────
+  // â”€â”€â”€ Custom Questions â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   customQuestions: [
     {
       name: 'issue',
@@ -193,7 +182,7 @@ module.exports = defineConfig({
     }
   ],
 
-  // ─── Rules ─────────────────────────────────────────
+  // â”€â”€â”€ Rules â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   rules: {
     // type-enum
     'type-enum': {
@@ -215,7 +204,7 @@ module.exports = defineConfig({
     'body-max-length': 5000,
   },
 
-  // ─── Scopes ────────────────────────────────────────
+  // â”€â”€â”€ Scopes â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   scopes: [
     { name: 'app' },
     { name: 'web' },
@@ -227,19 +216,19 @@ module.exports = defineConfig({
     { name: 'none(/)' },
   ].map(s => ({ ...s, value: s.value === 'none(/)' ? '' : s.value })),
 
-  // ─── Use Emoji ─────────────────────────────────────
+  // â”€â”€â”€ Use Emoji â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   useEmoji: true,
 
-  // ─── Theme ─────────────────────────────────────────
+  // â”€â”€â”€ Theme â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   themeColorCode: '#3178c6',
 
-  // ─── Allow Custom Scope ────────────────────────────
+  // â”€â”€â”€ Allow Custom Scope â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   allowCustomScope: true,
 
-  // ─── Send CI Prefixes ──────────────────────────────
+  // â”€â”€â”€ Send CI Prefixes â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   allowCustomIssue: true,
 
-  // ─── Override Messages ─────────────────────────────
+  // â”€â”€â”€ Override Messages â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   messages: {
     type: 'Select the type of change:',
     scope: '\nSelect the scope (or leave blank):\n  (Use arrow keys or type)',
@@ -251,18 +240,18 @@ module.exports = defineConfig({
     confirmCommit: 'Are you sure you want to proceed with the commit above?',
   },
 
-  // ─── Allow Empty Commit ────────────────────────────
+  // â”€â”€â”€ Allow Empty Commit â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
   allowEmptySubject: false,
 
-  // ─── Questions Order ───────────────────────────────
-  // type → scope → subject → body → footer → confirm
+  // â”€â”€â”€ Questions Order â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
+  // type â†’ scope â†’ subject â†’ body â†’ footer â†’ confirm
 })
 ```
 
 ### Simplified Configuration
 
 ```javascript
-// cz.config.js — Minimal setup
+// cz.config.js â€” Minimal setup
 const { defineConfig } = require('cz-git')
 
 module.exports = defineConfig({
@@ -295,11 +284,11 @@ export CZ_GIT_ALLOW_EMPTY_SUBJECT=true
 
 ---
 
-## 3. czg — Standalone CLI
+## 3. czg â€” Standalone CLI
 
 ### What It Does
 
-czg is a standalone git commit CLI built by the same author as cz-git. It doesn't require Commitizen — it's a complete replacement for `git commit`.
+czg is a standalone git commit CLI built by the same author as cz-git. It doesn't require Commitizen â€” it's a complete replacement for `git commit`.
 
 ### Installation
 
@@ -359,34 +348,34 @@ pnpm add -D @commitlint/cz-commitlint
 ### Full Integration Pattern
 
 ```
-┌─────────────────────────────────────────────────────┐
-│              COMMIT WORKFLOW                         │
-│                                                      │
-│  Developer runs:                                     │
-│  pnpm commit  (or npx cz)                            │
-│         │                                            │
-│         ▼                                            │
-│  ┌──────────────────┐                               │
-│  │  cz-git / czg    │  Interactive prompt           │
-│  │  (Commitizen)    │  guides message format        │
-│  └────────┬─────────┘                               │
-│           │                                          │
-│           ▼                                          │
-│  ┌──────────────────┐                               │
-│  │  git commit      │  Creates commit               │
-│  └────────┬─────────┘                               │
-│           │                                          │
-│           ▼                                          │
-│  ┌──────────────────┐                               │
-│  │  Husky commit-msg│                               │
-│  │  commitlint      │  Validates format             │
-│  └────────┬─────────┘                               │
-│           │                                          │
-│           ▼                                          │
-│  ┌──────────────────┐                               │
-│  │  commit accepted │  or rejected with error       │
-│  └──────────────────┘                               │
-└─────────────────────────────────────────────────────┘
+â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”
+â”‚              COMMIT WORKFLOW                         â”‚
+â”‚                                                      â”‚
+â”‚  Developer runs:                                     â”‚
+â”‚  pnpm commit  (or npx cz)                            â”‚
+â”‚         â”‚                                            â”‚
+â”‚         â–¼                                            â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                               â”‚
+â”‚  â”‚  cz-git / czg    â”‚  Interactive prompt           â”‚
+â”‚  â”‚  (Commitizen)    â”‚  guides message format        â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜                               â”‚
+â”‚           â”‚                                          â”‚
+â”‚           â–¼                                          â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                               â”‚
+â”‚  â”‚  git commit      â”‚  Creates commit               â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜                               â”‚
+â”‚           â”‚                                          â”‚
+â”‚           â–¼                                          â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                               â”‚
+â”‚  â”‚  Husky commit-msgâ”‚                               â”‚
+â”‚  â”‚  commitlint      â”‚  Validates format             â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”¬â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜                               â”‚
+â”‚           â”‚                                          â”‚
+â”‚           â–¼                                          â”‚
+â”‚  â”Œâ”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”                               â”‚
+â”‚  â”‚  commit accepted â”‚  or rejected with error       â”‚
+â”‚  â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜                               â”‚
+â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
 ```
 
 ---
@@ -395,19 +384,19 @@ pnpm add -D @commitlint/cz-commitlint
 
 ### Do's
 
-- ✅ Use cz-git for modern DX with emoji and AI
-- ✅ Configure commitlint to validate what cz-git produces
-- ✅ Use Husky commit-msg hook as safety net
-- ✅ Allow custom scopes for flexibility
-- ✅ Use `--retry` flag after failed pre-commit hooks
-- ✅ Configure `rules` to match your team's conventions
+- âœ… Use cz-git for modern DX with emoji and AI
+- âœ… Configure commitlint to validate what cz-git produces
+- âœ… Use Husky commit-msg hook as safety net
+- âœ… Allow custom scopes for flexibility
+- âœ… Use `--retry` flag after failed pre-commit hooks
+- âœ… Configure `rules` to match your team's conventions
 
 ### Don'ts
 
-- ❌ Don't rely solely on cz-git — always have commitlint validation
-- ❌ Don't make rules too restrictive (blocks productivity)
-- ❌ Don't use both cz-git and cz-conventional-changelog together
-- ❌ Don't forget to add Husky commit-msg hook
+- âŒ Don't rely solely on cz-git â€” always have commitlint validation
+- âŒ Don't make rules too restrictive (blocks productivity)
+- âŒ Don't use both cz-git and cz-conventional-changelog together
+- âŒ Don't forget to add Husky commit-msg hook
 
 ---
 

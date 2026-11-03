@@ -1,9 +1,11 @@
+﻿---
+slug: make-invalid-states-unrepresentable
+---
+
 # Make Invalid States Unrepresentable
 
 > **Purpose:** Use types to prevent invalid states at compile time.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-make-invalid-states-unrepresentable`
@@ -51,8 +53,6 @@ declared
 - coding-discriminated-unions
 - coding-exhaustive-handling
 - coding-immutability
-
----
 
 ## Definition
 
@@ -117,10 +117,10 @@ This practice does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Coding Type Systems/parse-dont-validate]] — Parse, Don't Merely Validate
-- [[Coding Type Systems/discriminated-unions]] — Discriminated Unions
-- [[Coding Type Systems/exhaustive-handling]] — Exhaustive Handling
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Coding Type Systems/parse-dont-validate]] â€” Parse, Don't Merely Validate
+- [[Coding Type Systems/discriminated-unions]] â€” Discriminated Unions
+- [[Coding Type Systems/exhaustive-handling]] â€” Exhaustive Handling
 
 ## Project Observations
 
@@ -132,9 +132,7 @@ The project uses TypeScript, which supports this practice through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/zod-documentation|Zod — TypeScript-first schema validation]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/zod-documentation|Zod â€” TypeScript-first schema validation]]
 
 **End of Make Invalid States Unrepresentable Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: concurrency
+---
+
 # Concurrency
 
 > **Purpose:** Handle concurrency with Concurrency.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `concurrency`
@@ -50,8 +52,6 @@ declared
 - parallel-processing
 - async-await
 - threading
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Concurrency does not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/concurrency]] — Concurrency
-- [[Coding Type Systems/parallel-processing]] — Parallel Processing
-- [[Coding Type Systems/async-await]] — Async/Await
-- [[Coding Type Systems/threading]] — Threading
+- [[Coding Type Systems/concurrency]] â€” Concurrency
+- [[Coding Type Systems/parallel-processing]] â€” Parallel Processing
+- [[Coding Type Systems/async-await]] â€” Async/Await
+- [[Coding Type Systems/threading]] â€” Threading
 
 ## Project Observations
 
@@ -134,8 +134,6 @@ The project uses Concurrency through:
 ## Sources
 
 - [[Sources/concurrency-guide|Concurrency Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Concurrency Note**

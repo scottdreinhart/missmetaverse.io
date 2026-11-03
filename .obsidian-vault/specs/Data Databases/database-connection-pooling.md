@@ -1,9 +1,11 @@
+﻿---
+slug: database-connection-pooling
+---
+
 # Database Connection Pooling
 
 > **Purpose:** Manage connections with Connection Pooling.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `database-connection-pooling`
@@ -50,8 +52,6 @@ declared
 - database-connection
 - resource-pooling
 - connection-management
-
----
 
 ## Definition
 
@@ -118,10 +118,10 @@ Connection Pooling does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/connection-pooling]] — Connection Pooling
-- [[Data Databases/database-connection]] — Database Connection
-- [[Data Databases/resource-pooling]] — Resource Pooling
-- [[Data Databases/connection-management]] — Connection Management
+- [[Data Databases/connection-pooling]] â€” Connection Pooling
+- [[Data Databases/database-connection]] â€” Database Connection
+- [[Data Databases/resource-pooling]] â€” Resource Pooling
+- [[Data Databases/connection-management]] â€” Connection Management
 
 ## Project Observations
 
@@ -133,9 +133,7 @@ The project uses Database Connection Pooling through:
 
 ## Sources
 
-- [[Sources/database-design-hoffer|Database Design — Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-
----
+- [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Connection Pooling Note**

@@ -1,9 +1,11 @@
+﻿---
+slug: discriminated-unions
+---
+
 # Discriminated Unions
 
 > **Purpose:** Use tagged unions for type-safe state representation.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `coding-discriminated-unions`
@@ -52,8 +54,6 @@ declared
 - coding-strict-typing
 - coding-immutability
 - coding-pure-functions
-
----
 
 ## Definition
 
@@ -120,10 +120,10 @@ Discriminated unions do not apply to:
 
 ## Related Concepts
 
-- [[Coding Type Systems/exhaustive-handling]] — Exhaustive Handling
-- [[Coding Type Systems/make-invalid-states-unrepresentable]] — Make Invalid States Unrepresentable
-- [[Coding Type Systems/strict-typing]] — Strict Typing
-- [[Coding Type Systems/immutability]] — Immutability
+- [[Coding Type Systems/exhaustive-handling]] â€” Exhaustive Handling
+- [[Coding Type Systems/make-invalid-states-unrepresentable]] â€” Make Invalid States Unrepresentable
+- [[Coding Type Systems/strict-typing]] â€” Strict Typing
+- [[Coding Type Systems/immutability]] â€” Immutability
 
 ## Project Observations
 
@@ -135,9 +135,7 @@ The project uses TypeScript, which supports discriminated unions through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft — TypeScript Documentation]]
-- [[Sources/goF-1994|GoF — Design Patterns: Elements of Reusable Object-Oriented Software]]
-
----
+- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Discriminated Unions Note**

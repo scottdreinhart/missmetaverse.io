@@ -1,9 +1,11 @@
+﻿---
+slug: repository
+---
+
 # Repository Pattern
 
 > **Purpose:** Abstract data access behind a collection-like interface.
 > **Last Updated:** 2026-11-03
-
----
 
 ## concept_id
 `ddd-repository`
@@ -52,8 +54,6 @@ declared
 - arch-hexagonal-architecture
 - arch-clean-architecture
 - arch-port-file-convention
-
----
 
 ## Definition
 
@@ -120,11 +120,11 @@ Repositories do not apply to:
 
 ## Related Concepts
 
-- [[DDD/aggregate]] — Aggregate
-- [[DDD/entity]] — Entity
-- [[DDD/value-object]] — Value Object
-- [[Architecture/hexagonal-architecture]] — Hexagonal Architecture
-- [[Architecture/clean-architecture]] — Clean Architecture
+- [[DDD/aggregate]] â€” Aggregate
+- [[DDD/entity]] â€” Entity
+- [[DDD/value-object]] â€” Value Object
+- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Architecture/clean-architecture]] â€” Clean Architecture
 
 ## Project Observations
 
@@ -136,9 +136,7 @@ The project uses TypeScript, which supports repositories through:
 
 ## Sources
 
-- [[Sources/martin-fowler-patterns|Martin Fowler — Patterns of Enterprise Application Architecture]]
-- [[Sources/evans-ddd-2003|Eric Evans — Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-
----
+- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
 
 **End of Repository Pattern Note**
