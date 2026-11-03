@@ -385,6 +385,219 @@ function process(obj: unknown) {
 
 ---
 
+## Decision Tree: TypeScript Type Selection
+
+```mermaid
+graph TD
+    A[Need to define a type?]\n    A --> B{What type?}
+    B -->|Object shape| C[interface]
+    B -->|Union| D[| union]
+    B -->|Intersection| E[& intersection]
+    B -->|Literal| F[string literal]
+    B -->|Function| G[() => T]
+    B -->|Mapped| H[{[K in Keys]: T}]
+    C --> I{Extension?}
+    I -->|Yes| J[extends interface]
+    I -->|No| K[Standalone]
+    D --> L{Exhaustive?}
+    L -->|Yes| M[never check]
+    L -->|No| N[Simple union]
+```
+
+### When to Use Each TypeScript Pattern
+
+| Pattern | When to Use | Example |
+|---------|-------------|---------|
+| **interface** | Object shapes, extension | interface User |
+| **type** | Unions, intersections, mapped | type Status = 'A' \| 'B' |
+| **enum** | Named constants | enum Role { Admin, User } |
+| **generic** | Reusable types | function identity<T>(arg: T) |
+| **utility** | Type transformation | Partial<T>, Pick<T, K> |
+
+---
+
+## Procedural Guidance: TypeScript Setup
+
+### Step 1: Configure tsconfig.json
+
+```jsonc
+// tsconfig.json
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "useUnknownInCatchVariables": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
+```
+
+### Step 2: Define Types
+
+```typescript
+// types/user.ts
+export interface User {
+  id: string
+  name: string
+  email: string
+  role: UserRole
+  createdAt: Date
+}
+
+export enum UserRole {
+  Admin = 'admin',
+  User = 'user',
+  Guest = 'guest',
+}
+
+export type CreateUserInput = Omit<User, 'id' | 'createdAt'>
+export type UpdateUserInput = Partial<CreateUserInput>
+```
+
+### Step 3: Use Type Guards
+
+```typescript
+// utils/type-guards.ts
+function isUser(value: unknown): value is User {
+  return (
+    typeof value === 'object' &&
+    value !== null &&
+    'id' in value &&
+    'name' in value &&
+    'email' in value
+  )
+}
+
+// Usage
+function processUser(input: unknown) {
+  if (isUser(input)) {
+    // TypeScript knows input is User here
+    console.log(input.name)
+  } else {
+    throw new Error('Invalid user')
+  }
+}
+```
+
+### Step 4: Add Exhaustiveness Checking
+
+```typescript
+type Status = 'pending' | 'approved' | 'rejected'
+
+function handleStatus(status: Status) {
+  switch (status) {
+    case 'pending':
+      return 'Waiting for review'
+    case 'approved':
+      return 'Approved'
+    case 'rejected':
+      return 'Rejected'
+    default: {
+      const _exhaustiveCheck: never = status
+      return `Unknown status: ${_exhaustiveCheck}`
+    }
+  }
+}
+```
+
+### Step 5: Test Types
+
+```typescript
+// types/user.test.ts
+import { describe, it, expectTypeOf } from 'vitest'
+import type { User, CreateUserInput } from './user'
+
+describe('User types', () => {
+  it('User should have required fields', () => {
+    const user: User = {
+      id: '1',
+      name: 'John',
+      email: 'john@example.com',
+      role: 'admin',
+      createdAt: new Date(),
+    }
+    expectTypeOf(user.id).toBeString()
+    expectTypeOf(user.name).toBeString()
+  })
+
+  it('CreateUserInput should omit id and createdAt', () => {
+    const input: CreateUserInput = {
+      name: 'John',
+      email: 'john@example.com',
+      role: 'admin',
+    }
+    expectTypeOf(input).not.toHaveProperty('id')
+    expectTypeOf(input).not.toHaveProperty('createdAt')
+  })
+})
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Setting up TypeScript configuration
+- Defining types and interfaces
+- Implementing type guards
+- Adding exhaustiveness checking
+- Testing TypeScript types
+
+### What to Do With This Information
+1. **Enable strict mode**: Use full strict mode for all projects
+2. **Separate types**: Keep type definitions in dedicated files
+3. **Use type guards**: Validate at runtime with type predicates
+4. **Exhaustiveness checking**: Catch missing cases with never
+5. **Test types**: Use expectTypeOf to verify types
+
+### Tools to Use
+- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
+- **VS Code Extension**: Error Lens — for inline TypeScript error display
+- **npm Package**: `vitest` — for type testing with expectTypeOf
+- **Terminal Command**: `pnpm tsc --noEmit` — type check without emitting
+- **Terminal Command**: `pnpm tsc --strict` — enable strict mode
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with TypeScript changes
+- **Security Review Agent**: Run when adding new types
+
+### Integration with Other Notes
+- Read [[typescript-strict-mode]] for TypeScript strict mode configuration
+- Read [[ts-fundamentals]] for TypeScript fundamentals
+- Read [[ts-advanced-types]] for advanced TypeScript types
+- Read [[ts-narrowing]] for type narrowing patterns
+- Read [[ts-security-best-practices]] for TypeScript security best practices
+- Read [[ts-optimization-performance]] for TypeScript optimization
+- Read [[ts-tsconfig]] for tsconfig.json configuration
+
+### Common Pitfalls
+- Don't use any type (use unknown instead)
+- Don't skip runtime validation (types don't replace validation)
+- Don't ignore null checks (always check for null/undefined)
+- Don't skip override checks (use noImplicitOverride)
+- Don't use satisfies incorrectly (use for object validation)
+
+### Quick Validation Checklist
+- [ ] Is strict mode enabled?
+- [ ] Are types separated into dedicated files?
+- [ ] Are type guards used for runtime validation?
+- [ ] Is exhaustiveness checking implemented?
+- [ ] Are types tested?
+- [ ] Is tsconfig configured properly?
+
+---
+
 ## Integration with Other Notes
 
 - Read [[typescript-strict-mode]] for TypeScript strict mode configuration

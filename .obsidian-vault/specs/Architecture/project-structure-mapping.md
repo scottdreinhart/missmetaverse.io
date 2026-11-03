@@ -271,6 +271,191 @@ Inner folders NEVER import outer folders.
 
 ---
 
-*Template Version: 1.0*
-*Last Updated: 2026-11-02*
-*Based on: Clean Architecture, DDD, CQRS conventions*
+## Decision Tree: File Creation
+
+```mermaid
+graph TD
+    A[Need to create a file?]\n    A --> B{What is it?}
+    B -->|Entity| C[entities/]
+    B -->|Value Object| D[value-objects/]
+    B -->|Use Case| E[usecases/]
+    B -->|Command| F[commands/]
+    B -->|Query| G[queries/]
+    B -->|Controller| H[adapters/controllers/]
+    B -->|Gateway| I[adapters/gateways/]
+    B -->|Event| J[events/]
+    B -->|Handler| K[events/]
+    B -->|Error| L[shared/errors/]
+    B -->|Utility| M[shared/utils/]
+    B -->|Test| N[tests/]
+    C --> O[*.entity.ts]
+    D --> P[*.vo.ts]
+    E --> Q[*.usecase.ts]
+    F --> R[*.command.ts]
+    G --> S[*.query.ts]
+    H --> T[*.controller.ts]
+    I --> U[*.gateway.ts]
+    J --> V[*.event.ts]
+    K --> W[*.handler.ts]
+    L --> X[*.error.ts]
+    M --> Y[*.util.ts]
+    N --> Z[*.test.ts]
+```
+
+### When to Use Each Folder
+
+| Folder | When to Use | Example |
+|--------|-------------|---------|
+| **entities/** | Core business entities | user.entity.ts |
+| **value-objects/** | Immutable value objects | money.vo.ts |
+| **usecases/** | Business logic use cases | create-user.usecase.ts |
+| **commands/** | CQRS commands | CreateUserCommand.ts |
+| **queries/** | CQRS queries | GetUserQuery.ts |
+| **adapters/controllers/** | API endpoints | user.controller.ts |
+| **adapters/gateways/** | External services | email.gateway.ts |
+| **events/** | Domain events/handlers | UserCreatedEvent.ts |
+| **shared/** | Cross-cutting utilities | shared/utils/format.ts |
+| **tests/** | All tests | tests/unit/user.test.ts |
+
+---
+
+## Procedural Guidance: Creating New Files
+
+### Step 1: Determine File Type
+
+```
+Is it a core business entity?
+  → entities/
+Is it an immutable value object?
+  → value-objects/
+Is it a business logic use case?
+  → usecases/
+Is it a CQRS command or query?
+  → commands/ or queries/
+Is it an API endpoint?
+  → adapters/controllers/
+Is it an external service integration?
+  → adapters/gateways/
+Is it a domain event?
+  → events/
+Is it a shared utility?
+  → shared/
+```
+
+### Step 2: Create File with Correct Naming
+
+```typescript
+// entities/user.entity.ts
+export class UserEntity {
+  constructor(
+    public readonly id: string,
+    public readonly name: string,
+    public readonly email: string,
+  ) {}
+}
+
+// value-objects/email.vo.ts
+export class EmailValueObject {
+  constructor(public readonly value: string) {
+    if (!this.value.includes('@')) {
+      throw new Error('Invalid email')
+    }
+  }
+}
+
+// usecases/create-user.usecase.ts
+import { UserEntity } from '@/entities/user.entity'
+import { EmailValueObject } from '@/value-objects/email.vo'
+
+export class CreateUserUseCase {
+  constructor(
+    private readonly userRepository: UserRepository,
+  ) {}
+
+  async execute(name: string, email: string): Promise<UserEntity> {
+    const emailVO = new EmailValueObject(email)
+    const user = new UserEntity(crypto.randomUUID(), name, emailVO.value)
+    return this.userRepository.save(user)
+  }
+}
+```
+
+### Step 3: Write Tests
+
+```typescript
+// tests/unit/create-user.usecase.test.ts
+import { describe, it, expect } from 'vitest'
+import { CreateUserUseCase } from '@/usecases/create-user.usecase'
+import { UserEntity } from '@/entities/user.entity'
+
+describe('CreateUserUseCase', () => {
+  it('should create a user', async () => {
+    const mockRepo = {
+      save: vi.fn().mockResolvedValue(new UserEntity('1', 'John', 'john@example.com')),
+    }
+    const useCase = new CreateUserUseCase(mockRepo as any)
+    const user = await useCase.execute('John', 'john@example.com')
+    expect(user.name).toBe('John')
+  })
+})
+```
+
+### Step 4: Update Imports
+
+```typescript
+// Always use absolute imports with @/ alias
+import { UserEntity } from '@/entities/user.entity'
+import { EmailValueObject } from '@/value-objects/email.vo'
+import { CreateUserUseCase } from '@/usecases/create-user.usecase'
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Creating new files in the project
+- Refactoring file structure
+- Onboarding new developers
+- Suggesting file creation or refactoring
+- Understanding project architecture
+
+### What to Do With This Information
+1. **Follow folder conventions**: Create files in the correct folder based on type
+2. **Use naming patterns**: Follow the established naming conventions
+3. **Absolute imports**: Use @/ alias for all imports
+4. **Dependency rules**: Respect inward-only dependencies
+5. **Test placement**: Put tests in the correct test folder
+
+### Tools to Use
+- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
+- **VS Code Extension**: Error Lens — for inline error display
+- **Terminal Command**: `pnpm tsc --noEmit` — type check
+- **Terminal Command**: `pnpm test` — run tests
+- **Terminal Command**: `pnpm build` — production build
+
+### Agents to Invoke
+- **Architecture Validation Agent**: Run when creating new files or refactoring
+- **Code Review Agent**: Run when reviewing PRs with file structure changes
+
+### Integration with Other Notes
+- Read [[clean-architecture]] for Clean Architecture principles
+- Read [[ddd-patterns]] for DDD patterns
+- Read [[cqrs-pattern]] for CQRS patterns
+- Read [[repository-pattern]] for repository pattern
+- Read [[ts-best-practices]] for TypeScript best practices
+
+### Common Pitfalls
+- Don't create files in wrong folder (follow conventions)
+- Don't use relative imports (use @/ alias)
+- Don't break dependency rules (inward-only)
+- Don't skip tests (create tests with new files)
+- Don't ignore naming conventions (follow patterns)
+
+### Quick Validation Checklist
+- [ ] Is the file in the correct folder?
+- [ ] Does the filename follow naming conventions?
+- [ ] Are imports using @/ alias?
+- [ ] Are tests created in the correct test folder?
+- [ ] Are dependency rules respected?
+- [ ] Is the file referenced in imports?

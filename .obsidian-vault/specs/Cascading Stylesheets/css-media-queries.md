@@ -365,5 +365,215 @@ Container queries allow styles based on the **parent container's size**, not the
 
 ---
 
+## Decision Tree: Media Query Selection
+
+```mermaid
+graph TD
+    A[Need to style for condition?]\n    A --> B{What condition?}
+    B -->|Screen size| C[width/height]
+    B -->|Device type| D[screen/print]
+    B -->|Orientation| E[landscape/portrait]
+    B -->|Resolution| F[dppx/dpi]
+    B -->|Color| G[color/gamut]
+    B -->|Interaction| H[pointer/hover]
+    B -->|Preference| I[prefers-*]
+    C --> J{Mobile-first?}
+    J -->|Yes| K[min-width]
+    J -->|No| L[max-width]
+    I --> M{Which preference?}
+    M -->|Dark mode| N[prefers-color-scheme]
+    M -->|Motion| O[prefers-reduced-motion]
+    M -->|Contrast| P[prefers-contrast]
+```
+
+### When to Use Each Media Feature
+
+| Feature | When to Use | Example |
+|---------|-------------|---------|
+| **width/height** | Responsive layouts | min-width: 768px |
+| **orientation** | Rotate handling | orientation: landscape |
+| **resolution** | High DPI screens | min-resolution: 2dppx |
+| **pointer** | Touch vs mouse | pointer: coarse |
+| **hover** | Hover capability | hover: hover |
+| **color-gamut** | Color display | color-gamut: p3 |
+| **prefers-color-scheme** | Dark mode | prefers-color-scheme: dark |
+| **prefers-reduced-motion** | Accessibility | prefers-reduced-motion: reduce |
+
+---
+
+## Procedural Guidance: Responsive Design Setup
+
+### Step 1: Mobile-First Base Styles
+
+```css
+/* Base styles for mobile */
+.container {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+```
+
+### Step 2: Add Breakpoints
+
+```css
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Large Desktop */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+```
+
+### Step 3: Add Dark Mode
+
+```css
+/* Light mode (default) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000000;
+    --text-color: #ffffff;
+  }
+}
+
+/* Usage */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+```
+
+### Step 4: Add High DPI Support
+
+```css
+/* High DPI screens */
+@media (min-resolution: 2dppx) {
+  .logo {
+    background-image: url('logo@2x.png');
+  }
+}
+
+/* Ultra HD */
+@media (min-resolution: 3dppx) {
+  .logo {
+    background-image: url('logo@3x.png');
+  }
+}
+```
+
+### Step 5: Add Accessibility Preferences
+
+```css
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast */
+@media (prefers-contrast: high) {
+  .button {
+    border: 2px solid currentColor;
+  }
+}
+
+/* Forced colors (Windows High Contrast) */
+@media (forced-colors: active) {
+  .button {
+    forced-color-adjust: none;
+    border: 1px solid ButtonText;
+  }
+}
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Building responsive layouts
+- Implementing dark mode
+- Adding high DPI support
+- Creating accessibility-friendly styles
+- Setting up breakpoints
+
+### What to Do With This Information
+1. **Mobile-first**: Start with mobile styles, add breakpoints with min-width
+2. **Content-driven**: Break at content needs, not specific devices
+3. **Dark mode**: Use prefers-color-scheme for automatic dark mode
+4. **High DPI**: Use min-resolution for retina displays
+5. **Accessibility**: Honor prefers-reduced-motion, prefers-contrast
+
+### Tools to Use
+- **VS Code Extension**: Tailwind CSS IntelliSense — for responsive classes
+- **VS Code Extension**: Error Lens — for inline CSS error display
+- **Browser Extension**: Responsive Design Mode — for testing breakpoints
+- **Terminal Command**: `npx tailwindcss -i src/styles.css -o dist/styles.css` — build CSS
+- **Terminal Command**: `pnpm dev` — start dev server with hot reload
+
+### Agents to Invoke
+- **Code Review Agent**: Run when reviewing PRs with CSS changes
+- **Performance Review Agent**: Run when optimizing CSS bundle size
+
+### Integration with Other Notes
+- Read [[css-fundamentals]] for CSS fundamentals
+- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[html5-best-practices]] for HTML5 responsive patterns
+- Read [[responsive-design]] for responsive design patterns
+
+### Common Pitfalls
+- Don't use max-width for mobile-first (use min-width)
+- Don't create too many breakpoints (3-5 max)
+- Don't forget dark mode (add prefers-color-scheme)
+- Don't ignore high DPI (add min-resolution)
+- Don't skip accessibility (honor prefers-reduced-motion)
+
+### Quick Validation Checklist
+- [ ] Are styles mobile-first?
+- [ ] Are breakpoints content-driven?
+- [ ] Is dark mode implemented?
+- [ ] Is high DPI support added?
+- [ ] Are accessibility preferences honored?
+- [ ] Are tests run on multiple viewports?
+
+---
+
 *Source: MDN Web Docs — CSS Media Queries*
 *Last Verified: 2026-11-02*

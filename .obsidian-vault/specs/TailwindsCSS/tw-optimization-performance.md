@@ -368,3 +368,179 @@ export default defineConfig({
 - Read [[html5-best-practices]] for HTML5 best practices
 - Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
 
+---
+
+## Decision Tree: Tailwind Optimization
+
+```mermaid
+graph TD
+    A[Need to optimize Tailwind?]\n    A --> B{What issue?}
+    B -->|Bundle size| C[Content scanning]
+    B -->|Build speed| D[CSS processing]
+    B -->|Unused CSS| E[Production build]
+    B -->|Dynamic classes| F[Content array]
+    C --> G{Scan all files?}
+    G -->|Yes| H[content array]
+    G -->|No| I[content.files]
+    D --> J{Vite?}
+    J -->|Yes| K[@tailwindcss/vite]
+    J -->|No| L[@tailwindcss/postcss]
+    F --> M{Known classes?}
+    M -->|Yes| N[string array]
+    M -->|No| O[safeList]
+```
+
+### When to Use Each Optimization Pattern
+
+| Pattern | When to Use | Example |
+|---------|-------------|---------|
+| **Content scanning** | Remove unused CSS | content array |
+| **Production build** | Minify CSS | tailwindcss -m |
+| **Dynamic classes** | Unknown classes | content array |
+| **safeList** | External content | safelist: ['bg-red-500'] |
+| **@apply** | Repeated utilities | @apply px-4 py-2 |
+
+---
+
+## Procedural Guidance: Tailwind Performance Setup
+
+### Step 1: Configure Content Scanning
+
+```typescript
+// vite.config.ts
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [
+    tailwindcss({
+      content: [
+        './index.html',
+        './src/**/*.{js,ts,jsx,tsx,vue,svelte,html}',
+      ],
+    }),
+  ],
+})
+```
+
+### Step 2: Handle Dynamic Classes
+
+```typescript
+// For dynamic class names, use content array
+const content = [
+  './src/**/*.{js,ts,jsx,tsx}',
+  // Add dynamic classes
+  'bg-red-500',
+  'bg-blue-500',
+  'bg-green-500',
+]
+
+// Or use safelist
+tailwindcss({
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  safelist: [
+    'bg-red-500',
+    'bg-blue-500',
+    'bg-green-500',
+  ],
+})
+```
+
+### Step 3: Production Build
+
+```bash
+# Build for production
+pnpm build
+
+# This runs: vite build
+# Which includes:
+# - CSS minification
+# - Tree shaking
+# - PurgeCSS (automatic in Tailwind v4)
+```
+
+### Step 4: Optimize Build Speed
+
+```typescript
+// vite.config.ts
+export default defineConfig({
+  css: {
+    postcss: {
+      plugins: [
+        tailwindcss({
+          content: ['./src/**/*.{js,ts,jsx,tsx}'],
+        }),
+      ],
+    },
+  },
+  // Enable fast refresh
+  optimizeDeps: {
+    include: ['react', 'react-dom'],
+  },
+})
+```
+
+### Step 5: Use @apply for Repeated Utilities
+
+```css
+/* Instead of repeating utilities */
+.btn-primary {
+  @apply px-4 py-2 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600;
+}
+
+.btn-secondary {
+  @apply px-4 py-2 bg-gray-500 text-white font-semibold rounded hover:bg-gray-600;
+}
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Setting up Tailwind CSS for performance
+- Optimizing build speed
+- Removing unused CSS
+- Handling dynamic classes
+- Configuring content scanning
+
+### What to Do With This Information
+1. **Content scanning**: Configure content array to scan all files
+2. **Dynamic classes**: Use content array or safelist for dynamic classes
+3. **Production build**: Use vite build for optimized CSS
+4. **@apply**: Use @apply for repeated utility combinations
+5. **Build speed**: Enable fast refresh and optimize dependencies
+
+### Tools to Use
+- **VS Code Extension**: Tailwind CSS IntelliSense — for autocomplete and preview
+- **VS Code Extension**: Error Lens — for inline CSS error display
+- **npm Package**: `@tailwindcss/vite` — for Vite integration
+- **Terminal Command**: `pnpm build` — production build
+- **Terminal Command**: `pnpm dev` — dev server with hot reload
+
+### Agents to Invoke
+- **Performance Review Agent**: Run when optimizing CSS bundle size
+- **Code Review Agent**: Run when reviewing PRs with Tailwind changes
+
+### Integration with Other Notes
+- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[css-fundamentals]] for CSS fundamentals
+- Read [[css-media-queries]] for media query patterns
+- Read [[html5-best-practices]] for HTML5 best practices
+- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+
+### Common Pitfalls
+- Don't forget to add new files to content array
+- Don't use dynamic classes without safelist
+- Don't skip production build testing
+- Don't ignore bundle size (check CSS output)
+- Don't use @apply for simple cases (use utilities directly)
+
+### Quick Validation Checklist
+- [ ] Is content scanning configured?
+- [ ] Are dynamic classes in safelist?
+- [ ] Is production build tested?
+- [ ] Is bundle size optimized?
+- [ ] Are @apply patterns used correctly?
+- [ ] Is Tailwind IntelliSense enabled?
+
