@@ -138,6 +138,6 @@ The project uses GitHub Actions through:
 ## Sources
 
 - [[Sources/github-actions-documentation|GitHub Actions Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of GitHub Actions CI/CD Note**

@@ -1,5 +1,5 @@
 ---
-slug: microsoft-typescript-handbook
+slug: S011-microsoft-typescript-handbook
 sources:
   - https://learn.microsoft.com/
 ---

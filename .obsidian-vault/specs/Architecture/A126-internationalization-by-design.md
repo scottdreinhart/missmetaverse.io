@@ -33,7 +33,7 @@ verified
 
 ## project_adoption
 recommended
-- [[Sources/w3c-i18n.md|w3c-i18n]]
+- [[Sources/S023-w3c-i18n|w3c-i18n]]
 
 # Internationalization by Design
 

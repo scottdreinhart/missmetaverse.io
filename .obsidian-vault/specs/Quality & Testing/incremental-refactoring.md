@@ -135,7 +135,7 @@ The project follows incremental refactoring through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Test Driven Development]]
-- [[Sources/goF-1994.md|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
+- [[Sources/S005-gof-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Incremental Refactoring Note**

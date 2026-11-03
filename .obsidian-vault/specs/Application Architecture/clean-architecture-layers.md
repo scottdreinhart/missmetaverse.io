@@ -137,7 +137,7 @@ The project uses Clean Architecture Layers through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki.md|Clean Architecture â€” Robert Martin]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Clean Architecture â€” Robert Martin]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Clean Architecture Layers Note**

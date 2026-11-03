@@ -1,5 +1,5 @@
 ---
-slug: wikipedia
+slug: S025-wikipedia
 tags:
   - references   - external-sources
 

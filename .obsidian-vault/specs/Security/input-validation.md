@@ -137,7 +137,7 @@ The project uses Input Validation through:
 
 ## Sources
 
-- [[Sources/owasp-top-ten-2021.md|OWASP Top 10]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S014-owasp-top-ten-2021|OWASP Top 10]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Input Validation Note**

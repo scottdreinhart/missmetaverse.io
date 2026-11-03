@@ -138,6 +138,6 @@ The project uses Semantic Versioning through:
 ## Sources
 
 - [[Sources/semver-specification|Semantic Versioning Specification]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Semantic Versioning Note**

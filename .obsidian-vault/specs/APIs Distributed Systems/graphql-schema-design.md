@@ -138,6 +138,6 @@ The project uses GraphQL Schema Design through:
 ## Sources
 
 - [[Sources/graphql-schema-guide|GraphQL Schema Guide]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of GraphQL Schema Design Note**

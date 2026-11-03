@@ -1,5 +1,5 @@
 ---
-slug: vitest-docs-2024
+slug: S022-vitest-docs-2024
 sources:
   - https://vitest.dev/
 ---

@@ -138,6 +138,6 @@ The project uses JWT Token Management through:
 ## Sources
 
 - [[Sources/jwt-io-spec|JWT Specification â€” jwt.io]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of JWT Token Management Note**

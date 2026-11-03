@@ -138,6 +138,6 @@ The project uses Zero Trust through:
 ## Sources
 
 - [[Security/zero-trust|Zero Trust Guide]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Zero Trust Note**

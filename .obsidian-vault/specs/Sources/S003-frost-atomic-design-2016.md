@@ -1,5 +1,5 @@
 ---
-slug: frost-atomic-design-2016
+slug: S003-frost-atomic-design-2016
 sources:
   - https://bradfrost.com/
 ---

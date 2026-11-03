@@ -1,5 +1,5 @@
 ---
-slug: pnpm-docs-2024
+slug: S016-pnpm-docs-2024
 sources:
   - https://pnpm.io/
 ---

@@ -1,5 +1,5 @@
 ---
-slug: gdpr-eu
+slug: S004-gdpr-eu
 sources:
   - https://gdpr.eu/
 ---

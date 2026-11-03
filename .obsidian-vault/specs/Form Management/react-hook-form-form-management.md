@@ -137,7 +137,7 @@ The project uses React Hook Form through:
 
 ## Sources
 
-- [[Sources/react-docs-2026.md|React Hook Form Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S018-react-docs-2026|React Hook Form Documentation]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Hook Form Form Management Note**

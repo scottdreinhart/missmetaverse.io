@@ -137,7 +137,7 @@ The project uses pnpm through:
 
 ## Sources
 
-- [[Sources/pnpm-docs-2024.md|pnpm Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S016-pnpm-docs-2024|pnpm Documentation]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of pnpm Package Manager Note**

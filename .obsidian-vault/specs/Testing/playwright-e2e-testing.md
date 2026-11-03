@@ -137,7 +137,7 @@ The project uses Playwright through:
 
 ## Sources
 
-- [[Sources/playwright-docs-2024.md|Playwright Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S015-playwright-docs-2024|Playwright Documentation]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Playwright E2E Testing Note**

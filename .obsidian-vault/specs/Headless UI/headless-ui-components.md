@@ -137,7 +137,7 @@ The project uses Headless UI through:
 
 ## Sources
 
-- [[Sources/radix-ui-docs-2024.md|Headless UI Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S017-radix-ui-docs-2024|Headless UI Documentation]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Headless UI Components Note**

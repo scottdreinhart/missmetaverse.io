@@ -1,5 +1,5 @@
 ---
-slug: mdn-css-2024
+slug: S009-mdn-html-2024
 sources:
   - https://developer.mozilla.org/en-US/docs/
 ---
@@ -8,51 +8,43 @@ sources:
 tags:
   - references   - external-sources
 
-  - css
+  - html
   - mdn
   - web-standards
-source_id: mdn-css-2024
-title: "MDN Web Docs â€” CSS"
+source_id: mdn-html-2024
+title: "MDN Web Docs â€” HTML"
 author: "Mozilla Developer Network"
 source_type: documentation
-canonical_url: https://developer.mozilla.org/en-US/docs/Web/CSS
+canonical_url: https://developer.mozilla.org/en-US/docs/Web/HTML
 publication_date: 2024
 accessed_on: 2026-11-02
 version: "Current"
 verification_status: verified
 relevant_sections:
-  - "CSS Reference"
-  - "Flexbox"
-  - "Grid"
-  - "Custom Properties (CSS Variables)"
-  - "Selectors"
-  - "Specificity"
-  - "Animations"
-  - "Media Queries"
-  - "Container Queries"
-  - ":has() selector"
+  - "HTML Reference"
+  - "HTML elements reference"
+  - "Accessibility"
+  - "Forms"
+  - "Semantic elements"
+  - "Structured data (JSON-LD)"
 claims_supported:
-  - css-fundamentals
-  - flexbox
-  - grid
-  - custom-properties
-  - specificity
-  - css-animations
-  - media-queries
-  - container-queries
+  - html-semantic-markup
+  - html-accessibility
+  - html-forms
+  - html-structured-data
 access_limitations: None
-research_notes: "MDN CSS documentation. Primary authoritative source for CSS specifications, features, and browser compatibility."
+research_notes: "MDN HTML documentation. Primary authoritative source for HTML elements, semantics, accessibility, and forms."
 
 ## See Also
 
 ## concept_id
-mdn-css-2024
+mdn-html-2024
 
 ## title
-mdn-css-2024
+mdn-html-2024
 
 ## aliases
-- mdn-css-2024
+- mdn-html-2024
 
 ## category
 external-reference

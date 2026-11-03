@@ -1,5 +1,5 @@
 ---
-slug: opentelemetry
+slug: S013-opentelemetry
 tags:
   - references   - external-sources
 

@@ -138,7 +138,7 @@ The project follows dependency hygiene through:
 
 ## Sources
 
-- [[Sources/microsoft-typescript-handbook.md|Microsoft â€” TypeScript Documentation]]
-- [[Sources/goF-1994.md|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
+- [[Sources/S011-microsoft-typescript-handbook|Microsoft â€” TypeScript Documentation]]
+- [[Sources/S005-gof-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Dependency Hygiene Note**

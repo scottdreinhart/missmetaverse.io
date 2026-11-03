@@ -136,7 +136,7 @@ The project uses Vite through:
 
 ## Sources
 
-- [[Sources/vitest-docs-2024.md|Vite Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S022-vitest-docs-2024|Vite Documentation]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Vite Build Configuration Note**

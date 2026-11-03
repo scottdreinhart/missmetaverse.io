@@ -137,7 +137,7 @@ The project uses CQRS Pattern through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 - [[Application Architecture/cqrs-pattern|CQRS Pattern â€” Martin Fowler]]
 
 **End of CQRS Pattern Note**

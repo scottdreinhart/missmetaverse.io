@@ -137,7 +137,7 @@ The project uses Domain Service through:
 
 ## Sources
 
-- [[Sources/evans-ddd-2003.md|Domain-Driven Design by Eric Evans]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S002-evans-ddd-2003|Domain-Driven Design by Eric Evans]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Domain Service Note**

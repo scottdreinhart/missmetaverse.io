@@ -138,6 +138,6 @@ The project uses Caching Strategies through:
 ## Sources
 
 - [[Sources/caching-guide|Caching Guide]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Caching Strategies Note**

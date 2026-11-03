@@ -137,7 +137,7 @@ The project follows accessibility by design through:
 
 ## Sources
 
-- [[Sources/mdn-css-2024.md|MDN Web Documentation]]
-- [[Sources/owasp-top-ten-2021.md|OWASP â€” Top 10 Web Application Security Risks]]
+- [[Sources/S008-mdn-css-2024|MDN Web Documentation]]
+- [[Sources/S014-owasp-top-ten-2021|OWASP â€” Top 10 Web Application Security Risks]]
 
 **End of Accessibility by Design Note**

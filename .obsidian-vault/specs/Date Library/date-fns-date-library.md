@@ -138,6 +138,6 @@ The project uses date-fns through:
 ## Sources
 
 - [[Sources/date-fns-documentation|date-fns Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of date-fns Date Library Note**

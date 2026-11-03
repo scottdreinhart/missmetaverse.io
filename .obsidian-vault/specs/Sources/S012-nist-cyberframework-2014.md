@@ -1,5 +1,5 @@
 ---
-slug: nist-cyberframework-2014
+slug: S012-nist-cyberframework-2014
 tags:
   - references   - external-sources
 

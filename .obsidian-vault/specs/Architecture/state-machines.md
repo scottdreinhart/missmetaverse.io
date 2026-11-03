@@ -137,7 +137,7 @@ The project uses Jotai for state management, which supports state machines throu
 
 ## Sources
 
-- [[Sources/harel-statecharts.md|David Harel â€” Statecharts: A Visual Formalism for Complex Systems]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S006-harel-statecharts|David Harel â€” Statecharts: A Visual Formalism for Complex Systems]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of State Machines Note**

@@ -149,7 +149,7 @@ The project uses React and ShadCN UI, which supports atomic design through:
 
 ## Sources
 
-- [[Sources/frost-atomic-design-2016.md|Brad Frost â€” Atomic Design]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S003-frost-atomic-design-2016|Brad Frost â€” Atomic Design]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Atomic Design Note**

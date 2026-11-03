@@ -138,6 +138,6 @@ The project uses PayPal through:
 ## Sources
 
 - [[Sources/paypal-documentation|PayPal Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of PayPal Integration Note**

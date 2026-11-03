@@ -137,7 +137,7 @@ The project uses React Router through:
 
 ## Sources
 
-- [[Sources/react-docs-2026.md|React Router Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S018-react-docs-2026|React Router Documentation]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Router Configuration Note**

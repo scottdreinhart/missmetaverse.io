@@ -138,6 +138,6 @@ The project uses Specification Pattern through:
 ## Sources
 
 - [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns â€” Hohpe & Woolf]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Specification Pattern Note**

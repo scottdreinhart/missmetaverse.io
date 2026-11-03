@@ -137,7 +137,7 @@ The project uses Composition Root through:
 
 ## Sources
 
-- [[Sources/seemann-dd.md|Dependency Injection by Mark Seemann]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S019-seemann-dd|Dependency Injection by Mark Seemann]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Composition Root Note**

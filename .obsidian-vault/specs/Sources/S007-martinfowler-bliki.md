@@ -1,5 +1,5 @@
 ---
-slug: martinfowler-bliki
+slug: S007-martinfowler-bliki
 tags:
   - references   - external-sources
 

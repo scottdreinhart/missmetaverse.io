@@ -1,5 +1,5 @@
 ---
-slug: react-docs-2026
+slug: S018-react-docs-2026
 sources:
   - https://react.dev/
 ---

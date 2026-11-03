@@ -137,7 +137,7 @@ The project uses React performance optimization through:
 
 ## Sources
 
-- [[Sources/react-docs-2026.md|React Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S018-react-docs-2026|React Documentation]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Modern React Performance Note**

@@ -138,6 +138,6 @@ The project uses Logging through:
 ## Sources
 
 - [[Monitoring/logging|Logging Guide]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Logging Note**

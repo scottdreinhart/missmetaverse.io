@@ -138,6 +138,6 @@ The project uses Zustand through:
 ## Sources
 
 - [[Sources/zustand-documentation|Zustand Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Zustand State Management Note**

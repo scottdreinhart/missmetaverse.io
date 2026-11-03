@@ -137,7 +137,7 @@ The project uses Chain of Responsibility Pattern through:
 
 ## Sources
 
-- [[Sources/goF-1994.md|GoF Design Patterns]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S005-gof-1994|GoF Design Patterns]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Chain of Responsibility Pattern Note**

@@ -1,5 +1,5 @@
 ---
-slug: microsoft-distributed-systems
+slug: S010-microsoft-distributed-systems
 sources:
   - https://learn.microsoft.com/
 ---

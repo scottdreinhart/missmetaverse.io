@@ -136,7 +136,7 @@ The project uses Vertical Slice Architecture through:
 
 ## Sources
 
-- [[Sources/bogard-vertical-slice.md|Vertical Slice Architecture by Scott Bogard]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S001-bogard-vertical-slice|Vertical Slice Architecture by Scott Bogard]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Vertical Slice Architecture Note**

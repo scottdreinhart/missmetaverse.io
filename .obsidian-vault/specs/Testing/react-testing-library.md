@@ -138,6 +138,6 @@ The project uses React Testing Library through:
 ## Sources
 
 - [[Testing/react-testing-library|React Testing Library Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Testing Library Note**

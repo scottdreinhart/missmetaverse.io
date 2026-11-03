@@ -137,7 +137,7 @@ The project uses TypeScript with Express, which supports REST through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 - [[Sources/rest-dissertation|Roy Fielding â€” Architectural Styles and the Design of Network-based Software Architectures]]
 
 **End of REST Note**

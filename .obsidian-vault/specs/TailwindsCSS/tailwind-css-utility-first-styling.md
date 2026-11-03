@@ -136,7 +136,7 @@ The project uses Tailwind CSS through:
 
 ## Sources
 
-- [[Sources/tailwind-docs-2024.md|Tailwind CSS Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S021-tailwind-docs-2024|Tailwind CSS Documentation]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Tailwind CSS Utility-First Styling Note**

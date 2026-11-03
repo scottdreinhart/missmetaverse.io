@@ -1,5 +1,5 @@
 ---
-slug: harel-statecharts
+slug: S006-harel-statecharts
 tags:
   - references   - external-sources
 

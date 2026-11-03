@@ -138,6 +138,6 @@ The project uses Deny by Default through:
 ## Sources
 
 - [[Sources/security-principles|Security Principles]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Deny by Default Note**

@@ -1,5 +1,5 @@
 ---
-slug: tailwind-docs-2024
+slug: S021-tailwind-docs-2024
 sources:
   - https://tailwindcss.com/docs
 ---

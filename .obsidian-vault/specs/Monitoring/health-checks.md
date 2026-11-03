@@ -138,6 +138,6 @@ The project uses Health Checks through:
 ## Sources
 
 - [[Monitoring/health-checks|Health Checks Guide]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Health Checks Note**

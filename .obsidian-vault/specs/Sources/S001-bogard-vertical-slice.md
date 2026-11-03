@@ -1,5 +1,5 @@
 ---
-slug: bogard-vertical-slice
+slug: S001-bogard-vertical-slice
 sources:
   - https://www.jimmybogard.com/
 ---

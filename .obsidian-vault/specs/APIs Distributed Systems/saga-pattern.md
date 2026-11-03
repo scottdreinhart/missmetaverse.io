@@ -138,6 +138,6 @@ The project uses Saga Pattern through:
 ## Sources
 
 - [[Sources/saga-pattern-cockburn|Saga Pattern â€” Cockburn]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Saga Pattern Note**

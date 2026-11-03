@@ -1,5 +1,5 @@
 ---
-slug: swagger-openapi
+slug: S020-swagger-openapi
 tags:
   - references   - external-sources
 

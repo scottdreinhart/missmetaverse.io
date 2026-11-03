@@ -137,7 +137,7 @@ The project uses Microservices Architecture through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
-- [[Sources/microsoft-distributed-systems.md|Microservices Patterns â€” Christensen]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S010-microsoft-distributed-systems|Microservices Patterns â€” Christensen]]
 
 **End of Microservices Architecture Note**

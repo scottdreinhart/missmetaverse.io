@@ -135,7 +135,7 @@ The project uses TypeScript, which supports ubiquitous language through:
 
 ## Sources
 
-- [[Sources/evans-ddd-2003.md|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S002-evans-ddd-2003|Eric Evans â€” Domain-Driven Design: Tackling Complexity in the Heart of Software]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Ubiquitous Language Note**

@@ -138,6 +138,6 @@ The project uses Recharts through:
 ## Sources
 
 - [[Sources/recharts-documentation|Recharts Documentation]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Recharts Data Visualization Note**

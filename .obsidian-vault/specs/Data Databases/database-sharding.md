@@ -138,6 +138,6 @@ The project uses Database Sharding through:
 ## Sources
 
 - [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
-- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Sharding Note**

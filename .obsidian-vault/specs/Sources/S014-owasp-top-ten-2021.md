@@ -1,5 +1,5 @@
 ---
-slug: owasp-top-ten-2021
+slug: S014-owasp-top-ten-2021
 sources:
   - https://owasp.org/
 ---
