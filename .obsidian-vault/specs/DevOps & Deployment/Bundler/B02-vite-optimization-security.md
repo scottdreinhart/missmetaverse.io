@@ -525,10 +525,10 @@ export default defineConfig({
 
 ## Cross-References
 
-- See [react-performance-security](D/react-performance-security.md) for React optimization
-- See [pnpm-best-practices](D/pnpm-best-practices.md) for package management
+- See [React/modern-react-performance](D/React/modern-react-performance.md) for React optimization
+- See [Package Manager/pnpm-package-manager](D/Package Manager/pnpm-package-manager.md) for package management
 - See [vitest-testing](D/vitest-testing.md) for testing setup
-- See [tw-optimization-performance](D/tw-optimization-performance.md) for Tailwind CSS integration
+- See [TailwindsCSS/tailwind-css-utility-first-styling](D/TailwindsCSS/tailwind-css-utility-first-styling.md) for Tailwind CSS integration
 
 ---
 
@@ -703,8 +703,8 @@ export default defineConfig({
 
 ### Integration with Other Notes
 - Read [vite-configuration](D/vite-configuration.md) for Vite configuration patterns
-- read [react-performance-security](D/react-performance-security.md) for React optimization
-- Read [pnpm-best-practices](D/pnpm-best-practices.md) for package management
+- read [React/modern-react-performance](D/React/modern-react-performance.md) for React optimization
+- Read [Package Manager/pnpm-package-manager](D/Package Manager/pnpm-package-manager.md) for package management
 - Read [docker-deployment](D/docker-deployment.md) for Docker deployment
 
 ### Common Pitfalls

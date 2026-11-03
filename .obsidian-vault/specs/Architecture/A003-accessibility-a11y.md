@@ -60,7 +60,7 @@ Without accessibility:
 ## Related Concepts
 
 - [Design Tokens](Architecture/design-tokens.md) â€” Accessibility with design tokens
-- [React Patterns](../React/react-patterns) â€” Accessibility with React
+- [React Patterns](../React/Architecture/react-patterns) â€” Accessibility with React
 - [Tailwind CSS](../Tailwind%20CSS/tailwind-css-patterns.md) â€” Accessibility with Tailwind
 
 ## Project Observations

@@ -42,10 +42,10 @@ research_notes: "Official TypeScript documentation. Primary source for all TypeS
 
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 
 

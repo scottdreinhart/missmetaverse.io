@@ -121,7 +121,7 @@ React performance does not apply to:
 - [[React/modern-react-project-template]] â€” Modern React Project Template
 - [[React/modern-react-hooks]] â€” Modern React Hooks
 - [[React/modern-react-components]] â€” Modern React Components
-- [[React/modern-react-performance-memo]] â€” Modern React React.memo
+- [[React/modern-react-performance]] â€” Modern React React.memo
 
 ## Project Observations
 

@@ -119,9 +119,9 @@ Secure by Design does not apply to:
 ## Related Concepts
 
 - [[Security/secure-by-design]] â€” Secure by Design
-- [[Security/security-by-design]] â€” Security by Design
-- [[Security/built-in-security]] â€” Built-in Security
-- [[Security/security-first]] â€” Security First
+- [[Security/secure-by-design]] â€” Security by Design
+- [[Security/secure-by-design]] â€” Built-in Security
+- [[Security/secure-by-design]] â€” Security First
 
 ## Project Observations
 

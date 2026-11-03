@@ -119,8 +119,8 @@ Mediator does not apply to:
 ## Related Concepts
 
 - [[Design Patterns/mediator-pattern]] â€” Mediator Pattern
-- [[Design Patterns/event-emitter]] â€” Event Emitter
-- [[Design Patterns/pub-sub-pattern]] â€” Pub-Sub Pattern
+- [[Design Patterns/observer-pattern]] â€” Event Emitter
+- [[Design Patterns/message-queue-pattern]] â€” Pub-Sub Pattern
 - [[Design Patterns/command-pattern]] â€” Command Pattern
 
 ## Project Observations

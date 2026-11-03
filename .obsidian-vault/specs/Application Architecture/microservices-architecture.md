@@ -49,7 +49,7 @@ declared
 
 ## related_concept_ids
 - microservices-architecture
-- modular-monolith
+- Application Architecture/modular-monolith-architecture
 - service-mesh
 - api-gateway
 
@@ -119,9 +119,9 @@ Microservices does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/microservices-architecture]] â€” Microservices Architecture
-- [[Application Architecture/modular-monolith]] â€” Modular Monolith
+- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture]] â€” Modular Monolith
 - [[APIs Distributed Systems/service-mesh]] â€” Service Mesh
-- [[APIs Distributed Systems/api-gateway]] â€” API Gateway
+- [[APIs Distributed Systems/api-gateway-pattern]] â€” API Gateway
 
 ## Project Observations
 

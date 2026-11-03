@@ -119,7 +119,7 @@ Project template does not apply to:
 ## Related Concepts
 
 - [[Architecture/atomic-design]] â€” Atomic Design
-- [[Architecture/custom-hooks-composables]] â€” Custom Hooks / Composables
+- [[React/modern-react-hooks-custom]] â€” Custom Hooks / Composables
 - [[Architecture/unidirectional-data-flow]] â€” Unidirectional Data Flow
 - [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
 

@@ -124,9 +124,9 @@ Clean architecture does not directly address:
 
 ## Related Concepts
 
-- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
-- [[Architecture/onion-architecture]] â€” Onion Architecture
-- [[Architecture/domain-driven-design]] â€” Domain-Driven Design
+- [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Application Architecture/onion-architecture]] â€” Onion Architecture
+- [[Application Architecture/domain-driven-design]] â€” Domain-Driven Design
 - [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion Principle
 
 ## Project Observations

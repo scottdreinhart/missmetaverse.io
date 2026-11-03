@@ -55,7 +55,7 @@ Without template method pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Template method pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Template method pattern with DDD
 - [Strategy Pattern](Architecture/strategy-pattern.md) â€” Template method pattern with strategy
 - [Factory Method Pattern](Architecture/factory-method-pattern.md) â€” Template method pattern with factory method
 

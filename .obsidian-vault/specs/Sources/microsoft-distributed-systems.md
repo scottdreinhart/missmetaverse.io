@@ -39,10 +39,10 @@ access_limitations: Free public documentation
 research_notes: "Primary source for distributed systems patterns in the vault. Covers all transactional and resilience patterns used in microservices architectures."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 
 

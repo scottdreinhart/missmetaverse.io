@@ -1,5 +1,5 @@
 ﻿---
-slug: pnpm-best-practices
+slug: Package Manager/pnpm-package-manager
 sources:
   - https://pnpm.io/cli/install
   - https://pnpm.io/cli/add
@@ -473,7 +473,7 @@ interface ImportMeta {
 
 - See [vite-optimization-security](D/vite-optimization-security.md) for Vite build optimization
 - See [vitest-testing](D/vitest-testing.md) for Vitest testing setup
-- See [react-performance-security](D/react-performance-security.md) for React integration
+- See [React/modern-react-performance](D/React/modern-react-performance.md) for React integration
 
 ---
 
@@ -646,10 +646,10 @@ jobs:
 - **Code Review Agent**: Run when reviewing PRs with dependency changes
 
 ### Integration with Other Notes
-- Read [[Quality Delivery/ci-cd-patterns]] for CI/CD deployment patterns
+- Read [[Quality & Testing/continuous-integration]] for CI/CD deployment patterns
 - read [[Bundler/vite-configuration]] for Vite configuration
 - Read [docker-deployment](D/docker-deployment.md) for Docker deployment patterns
-- Read [testing-patterns](D/testing-patterns.md) for testing strategies
+- Read [Quality & Testing/test-driven-developments](D/Quality & Testing/test-driven-developments.md) for testing strategies
 
 ### Common Pitfalls
 - Don't use npm/pnpm interchangeably (stick to one)

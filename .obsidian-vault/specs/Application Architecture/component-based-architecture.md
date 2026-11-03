@@ -119,9 +119,9 @@ Component-Based Architecture does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/component-based-architecture]] â€” Component-Based Architecture
-- [[Application Architecture/component-architecture]] â€” Component Architecture
+- [[Application Architecture/component-based-architecture]] â€” Component Architecture
 - [[Application Architecture/ui-components]] â€” UI Components
-- [[Application Architecture/reusable-components]] â€” Reusable Components
+- [[Application Architecture/ui-components]] â€” Reusable Components
 
 ## Project Observations
 

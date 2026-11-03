@@ -1,5 +1,5 @@
 ﻿---
-slug: playwright-e2e-testing
+slug: Testing/playwright-e2e-testing-testing
 ---
 
 # Playwright E2E Testing
@@ -8,7 +8,7 @@ slug: playwright-e2e-testing
 > **Last Updated:** 2026-11-03
 
 ## concept_id
-`playwright-e2e-testing`
+`Testing/playwright-e2e-testing-testing`
 
 ## title
 Playwright E2E Testing

@@ -1,4 +1,4 @@
----
+﻿---
 slug: css-fundamentals
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -232,39 +232,39 @@ function Button() {
 ```css
 /* Specificity order (lowest to highest) */
 
-/* 0,0,1 — Element */
+/* 0,0,1 â€” Element */
 div { }
 
-/* 0,0,2 — Two elements */
+/* 0,0,2 â€” Two elements */
 div span { }
 
-/* 0,1,0 — Class */
+/* 0,1,0 â€” Class */
 .card { }
 
-/* 0,1,1 — Class + element */
+/* 0,1,1 â€” Class + element */
 .card span { }
 
-/* 0,1,2 — Class + two elements */
+/* 0,1,2 â€” Class + two elements */
 .card span strong { }
 
-/* 0,2,0 — Two classes */
+/* 0,2,0 â€” Two classes */
 .card.primary { }
 
-/* 0,0,10 — Ten elements */
+/* 0,0,10 â€” Ten elements */
 div div div div div div div div div div { }
 
-/* 1,0,0 — ID */
+/* 1,0,0 â€” ID */
 #main { }
 
-/* 1,1,0 — ID + class */
+/* 1,1,0 â€” ID + class */
 #main .card { }
 
-/* 0,1,0 — Inline style (highest) */
+/* 0,1,0 â€” Inline style (highest) */
 /* style="..." */
 
 /* Pseudo-classes and pseudo-elements */
-a:hover { }        /* 0,1,0 — same as class */
-a::before { }      /* 0,1,1 — class + pseudo-element */
+a:hover { }        /* 0,1,0 â€” same as class */
+a::before { }      /* 0,1,1 â€” class + pseudo-element */
 a::first-line { }  /* 0,1,1 */
 
 /* !important (overrides everything) */
@@ -495,8 +495,8 @@ body {
 
 - [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md)
 - [ShadCN UI](../ShadCN/shadcn-ui-patterns.md)
-- [React Patterns](../React/react-patterns)
-- [CSS Media Queries](css-media-queries.md) — Media types, features, container queries, device queries
+- [React Patterns](../React/Architecture/react-patterns)
+- [CSS Media Queries](Web Frontend/responsive-design.md) â€” Media types, features, container queries, device queries
 
 ## Sources
 
@@ -712,12 +712,12 @@ module.exports = {
 5. **Flexbox/Grid**: Use Flexbox for 1D layouts, Grid for 2D layouts
 
 ### Tools to Use
-- **VS Code Extension**: Tailwind CSS IntelliSense — for Tailwind autocomplete
-- **VS Code Extension**: CSS Peek — for jumping to CSS definitions
-- **Browser Extension**: Chrome DevTools — for CSS debugging
-- **Browser Extension**: Firefox Inspector — for CSS debugging
-- **Terminal Command**: `pnpm tailwindcss -o dist/tailwind.css` — build CSS
-- **Terminal Command**: `pnpm postcss src/styles.css -o dist/styles.css` — process CSS
+- **VS Code Extension**: Tailwind CSS IntelliSense â€” for Tailwind autocomplete
+- **VS Code Extension**: CSS Peek â€” for jumping to CSS definitions
+- **Browser Extension**: Chrome DevTools â€” for CSS debugging
+- **Browser Extension**: Firefox Inspector â€” for CSS debugging
+- **Terminal Command**: `pnpm tailwindcss -o dist/tailwind.css` â€” build CSS
+- **Terminal Command**: `pnpm postcss src/styles.css -o dist/styles.css` â€” process CSS
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing PRs with CSS changes
@@ -725,7 +725,7 @@ module.exports = {
 
 ### Integration with Other Notes
 - Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS patterns
-- read [[css-media-queries]] for media query patterns
+- read [[Web Frontend/responsive-design]] for media query patterns
 - Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui component patterns
 - Read [design-tokens](D/design-tokens.md) for design token patterns
 
@@ -748,6 +748,6 @@ module.exports = {
 
 ## See Also
 - [[CS01-css3-performance-security]]
-- [[CS03-css-media-queries]]
+- [[CS03-Web Frontend/responsive-design]]
 
 

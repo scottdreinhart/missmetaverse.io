@@ -118,7 +118,7 @@ MobX does not apply to:
 
 ## Related Concepts
 
-- [[MobX/mobx-state-management]] â€” MobX State Management
+- [[State Management/mobx-state-management]] â€” MobX State Management
 - [[MobX/mobx-observable]] â€” MobX Observable
 - [[MobX/mobx-configuration]] â€” MobX Configuration
 - [[MobX/mobx-reactive-state]] â€” MobX Reactive State

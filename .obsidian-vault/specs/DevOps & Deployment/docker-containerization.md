@@ -119,9 +119,9 @@ Docker does not apply to:
 ## Related Concepts
 
 - [[DevOps & Deployment/docker-containerization]] â€” Docker Containerization
-- [[DevOps & Deployment/docker-compose]] â€” Docker Compose
-- [[DevOps & Deployment/dockerfile-optimization]] â€” Dockerfile Optimization
-- [[DevOps & Deployment/container-orchestration]] â€” Container Orchestration
+- [[DevOps & Deployment/docker-containerization]] â€” Docker Compose
+- [[DevOps & Deployment/docker-containerization]] â€” Dockerfile Optimization
+- [[DevOps & Deployment/docker-containerization]] â€” Container Orchestration
 
 ## Project Observations
 

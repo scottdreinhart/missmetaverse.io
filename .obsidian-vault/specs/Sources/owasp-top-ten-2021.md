@@ -27,16 +27,16 @@ relevant_sections:
 claims_supported:
   - input-validation
   - polp
-  - security-best-practices
+  - Security/web-security
   - parameterized-queries
 access_limitations: None
 research_notes: "Industry-standard security risk guide. The 2021 edition is the current version. Covers the most critical security risks to web applications."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 
 

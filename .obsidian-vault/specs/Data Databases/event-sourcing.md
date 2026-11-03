@@ -119,9 +119,9 @@ Event Sourcing does not apply to:
 ## Related Concepts
 
 - [[Data Databases/event-sourcing]] â€” Event Sourcing
-- [[Data Databases/event-store]] â€” Event Store
-- [[Data Databases/event-log]] â€” Event Log
-- [[Data Databases/cqrs]] â€” CQRS
+- [[Data Databases/event-sourcing]] â€” Event Store
+- [[Data Databases/event-sourcing]] â€” Event Log
+- [[Application Architecture/cqrs-pattern]] â€” CQRS
 
 ## Project Observations
 

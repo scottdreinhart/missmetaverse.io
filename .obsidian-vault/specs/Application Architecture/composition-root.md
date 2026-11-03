@@ -119,9 +119,9 @@ Composition Root does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/composition-root]] â€” Composition Root
-- [[Application Architecture/dependency-injection-container]] â€” Dependency Injection Container
-- [[Application Architecture/di-container]] â€” DI Container
-- [[Application Architecture/ioc-container]] â€” IoC Container
+- [[Architecture/dependency-injection]] â€” Dependency Injection Container
+- [[Architecture/dependency-injection]] â€” DI Container
+- [[Architecture/dependency-injection]] â€” IoC Container
 
 ## Project Observations
 

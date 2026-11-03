@@ -119,9 +119,9 @@ Security Headers do not apply to:
 ## Related Concepts
 
 - [[Security/security-headers]] â€” Security Headers
-- [[Security/csp-header]] â€” CSP Header
-- [[Security/hsts-header]] â€” HSTS Header
-- [[Security/x-frame-options]] â€” X-Frame-Options
+- [[Security/security-headers]] â€” CSP Header
+- [[Security/security-headers]] â€” HSTS Header
+- [[Security/security-headers]] â€” X-Frame-Options
 
 ## Project Observations
 

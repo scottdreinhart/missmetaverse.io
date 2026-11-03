@@ -120,7 +120,7 @@ State does not apply to:
 
 - [[Design Patterns/state-pattern]] â€” State Pattern
 - [[Architecture/state-machines]] â€” State Machines
-- [[Design Patterns/fsm-pattern]] â€” FSM Pattern
+- [[Architecture/state-machines]] â€” FSM Pattern
 - [[Design Patterns/workflow-pattern]] â€” Workflow Pattern
 
 ## Project Observations

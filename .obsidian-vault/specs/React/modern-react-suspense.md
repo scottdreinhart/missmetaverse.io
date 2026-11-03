@@ -121,7 +121,7 @@ Suspense does not apply to:
 - [[React/modern-react-project-template]] â€” Modern React Project Template
 - [[React/modern-react-hooks]] â€” Modern React Hooks
 - [[React/modern-react-components]] â€” Modern React Components
-- [[React/modern-react-suspense-loading]] â€” Modern React Suspense Loading
+- [[React/modern-react-suspense]] â€” Modern React Suspense Loading
 
 ## Project Observations
 

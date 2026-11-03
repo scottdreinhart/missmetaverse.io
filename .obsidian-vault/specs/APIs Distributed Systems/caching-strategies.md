@@ -119,9 +119,9 @@ Caching Strategies does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/caching-strategies]] â€” Caching Strategies
-- [[APIs Distributed Systems/cache-strategies]] â€” Cache Strategies
-- [[APIs Distributed Systems/cache-invalidation]] â€” Cache Invalidation
-- [[APIs Distributed Systems/cache-policies]] â€” Cache Policies
+- [[APIs Distributed Systems/caching-strategies]] â€” Cache Strategies
+- [[APIs Distributed Systems/caching-strategies]] â€” Cache Invalidation
+- [[APIs Distributed Systems/caching-strategies]] â€” Cache Policies
 
 ## Project Observations
 

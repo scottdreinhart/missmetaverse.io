@@ -119,9 +119,9 @@ IaC does not apply to:
 ## Related Concepts
 
 - [[DevOps & Deployment/infrastructure-as-code]] â€” Infrastructure as Code
-- [[DevOps & Deployment/terraform]] â€” Terraform
-- [[DevOps & Deployment/cloudformation]] â€” CloudFormation
-- [[DevOps & Deployment/ansible]] â€” Ansible
+- [[DevOps & Deployment/infrastructure-as-code]] â€” Terraform
+- [[DevOps & Deployment/infrastructure-as-code]] â€” CloudFormation
+- [[DevOps & Deployment/infrastructure-as-code]] â€” Ansible
 
 ## Project Observations
 

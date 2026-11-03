@@ -119,9 +119,9 @@ Domain Service does not apply to:
 ## Related Concepts
 
 - [[DDD/domain-service]] â€” Domain Service
-- [[DDD/ds]] â€” DS
-- [[DDD/domain-operation]] â€” Domain Operation
-- [[DDD/business-service]] â€” Business Service
+- [[DDD/domain-service]] â€” DS
+- [[DDD/domain-service]] â€” Domain Operation
+- [[DDD/domain-service]] â€” Business Service
 
 ## Project Observations
 

@@ -1,5 +1,5 @@
----
-slug: ts-optimization-performance
+﻿---
+slug: TypeScript/typescript-strict-mode
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/decorators.html
 date: 2026-11-02
@@ -119,7 +119,7 @@ Debug why files are included in compilation:
 }
 ```
 
-Output shows which files TypeScript processes and why — useful for identifying unnecessary file inclusion.
+Output shows which files TypeScript processes and why â€” useful for identifying unnecessary file inclusion.
 
 ### Performance Profiling
 
@@ -129,7 +129,7 @@ Generate CPU profiles to identify bottlenecks:
 tsc --generateCpuProfile tsc-output.cpuprofile
 ```
 
-Open `tsc-output.cpuprofile` in Chrome DevTools → Performance tab for detailed analysis.
+Open `tsc-output.cpuprofile` in Chrome DevTools â†’ Performance tab for detailed analysis.
 
 ## Runtime Performance
 
@@ -138,13 +138,13 @@ Open `tsc-output.cpuprofile` in Chrome DevTools → Performance tab for detailed
 Use `import type` to avoid runtime overhead for type-only imports:
 
 ```typescript
-// ❌ Type import is erased but bundler may still process it
+// âŒ Type import is erased but bundler may still process it
 import { MyType } from "./types";
 
-// ✅ Explicit type-only import — bundlers can tree-shake
+// âœ… Explicit type-only import â€” bundlers can tree-shake
 import type { MyType } from "./types";
 
-// ✅ For namespace imports
+// âœ… For namespace imports
 import type * as Types from "./types";
 ```
 
@@ -158,7 +158,7 @@ import type * as Types from "./types";
 }
 ```
 
-- No automatic import elision — what you write is what you get
+- No automatic import elision â€” what you write is what you get
 - `import type` statements are dropped; regular imports are preserved
 - Makes side-effects explicit and predictable
 - Better compatibility with single-file transpilers (Babel, esbuild, SWC)
@@ -255,10 +255,10 @@ For very large projects that hit memory limits:
 
 
 ## See Also
-- [[T01-ts-advanced-types]]
-- [[T02-ts-best-practices]]
+- [[T01-TypeScript/generics]]
+- [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
-- [[T04-ts-fundamentals]]
-- [[T05-ts-narrowing]]
+- [[T04-TypeScript/typescript-strict-mode]]
+- [[T05-TypeScript/type-inference]]
 
 

@@ -56,7 +56,7 @@ Without proxy pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Proxy pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Proxy pattern with DDD
 - [Facade Pattern](Architecture/facade-pattern.md) â€” Proxy pattern with facade
 - [Decorator Pattern](Architecture/decorator-pattern.md) â€” Proxy pattern with decorator
 

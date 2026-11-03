@@ -1,5 +1,5 @@
 ﻿---
-slug: react-performance-security
+slug: React/modern-react-performance
 sources:
   - https://react.dev/reference/react/useMemo
   - https://react.dev/reference/react/useCallback
@@ -380,7 +380,7 @@ useEffect(() => {
 
 ## Cross-References
 
-- See [ts-best-practices](D/ts-best-practices.md) for TypeScript integration with React
+- See [TypeScript/typescript-strict-mode](D/TypeScript/typescript-strict-mode.md) for TypeScript integration with React
 - See [vite-optimization-security](D/vite-optimization-security.md) for build optimization
 - See [vitest-testing](D/vitest-testing.md) for testing React components
 - See [playwright-patterns](D/playwright-patterns.md) for end-to-end testing
@@ -582,7 +582,7 @@ export function App() {
 - **Security Review Agent**: Run when adding security best practices
 
 ### Integration with Other Notes
-- Read [[react-patterns]] for React component patterns
+- Read [[Architecture/react-pattern]] for React component patterns
 - read [vitest-testing](D/vitest-testing.md) for testing React components
 - Read [vite-optimization](D/vite-optimization.md) for build optimization
 - Read [playwright-patterns](D/playwright-patterns.md) for E2E testing
@@ -607,6 +607,6 @@ export function App() {
 
 ## See Also
 - [[R01-modern-react-project-template]]
-- [[R02-react-patterns]]
+- [[R02-Architecture/react-patterns]]
 
 

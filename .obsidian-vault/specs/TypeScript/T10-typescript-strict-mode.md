@@ -1,4 +1,4 @@
----
+﻿---
 slug: typescript-strict-mode
 sources:
   - https://www.typescriptlang.org/tsconfig#strict
@@ -102,17 +102,17 @@ interface User {
   address?: { city: string }
 }
 
-// ❌ Non-null assertion (bypasses safety)
+// âŒ Non-null assertion (bypasses safety)
 function getCity(user: User): string {
   return user.address!.city  // Crashes if address is undefined
 }
 
-// ✅ Optional chaining (safe)
+// âœ… Optional chaining (safe)
 function getCity(user: User): string | undefined {
   return user.address?.city
 }
 
-// ✅ Nullish coalescing with default
+// âœ… Nullish coalescing with default
 function getCity(user: User): string {
   return user.address?.city ?? 'Unknown'
 }
@@ -235,54 +235,54 @@ interface User {
   password?: string
 }
 
-// Partial — make all properties optional
+// Partial â€” make all properties optional
 type PartialUser = Partial<User>
 // { id?: string; name?: string; email?: string; password?: string }
 
-// Required — make all properties required
+// Required â€” make all properties required
 type RequiredUser = Required<User>
 // { id: string; name: string; email: string; password: string }
 
-// Readonly — make all properties readonly
+// Readonly â€” make all properties readonly
 type ReadonlyUser = Readonly<User>
 // readonly id: string; readonly name: string; ...
 
-// Pick — select specific properties
+// Pick â€” select specific properties
 type UserSummary = Pick<User, 'id' | 'name'>
 // { id: string; name: string }
 
-// Omit — exclude specific properties
+// Omit â€” exclude specific properties
 type UserWithoutPassword = Omit<User, 'password'>
 // { id: string; name: string; email: string }
 
-// Record — map types
+// Record â€” map types
 type RolePermissions = Record<'admin' | 'user' | 'guest', string[]>
 // { admin: string[]; user: string[]; guest: string[] }
 
-// Extract — extract from union
+// Extract â€” extract from union
 type StringOrNumber = 'a' | 'b' | 1 | 2
 type OnlyStrings = Extract<StringOrNumber, string>  // 'a' | 'b'
 
-// Exclude — exclude from union
+// Exclude â€” exclude from union
 type OnlyNumbers = Exclude<StringOrNumber, string>  // 1 | 2
 
-// Parameters — extract function parameters
+// Parameters â€” extract function parameters
 function createUser(name: string, age: number): User { /* ... */ }
 type CreateUserParams = Parameters<typeof createUser>
 // [name: string, age: number]
 
-// ReturnType — extract function return type
+// ReturnType â€” extract function return type
 type CreateUserReturn = ReturnType<typeof createUser>
 // User
 
-// InstanceType — extract instance type from constructor
+// InstanceType â€” extract instance type from constructor
 class UserClass {
   constructor(public name: string) {}
 }
 type UserInstance = InstanceType<typeof UserClass>
 // { name: string }
 
-// NonNullable — remove null and undefined
+// NonNullable â€” remove null and undefined
 type NonNullableUser = NonNullable<User['password']>
 // string (removes undefined)
 ```
@@ -307,8 +307,8 @@ function emit<K extends EventName>(event: K, payload: EventPayload[K]): void {
   console.log(event, payload)
 }
 
-emit('user:login', { userId: '123' })  // ✅ Type-safe
-// emit('user:login', { wrong: 'field' })  // ❌ Compile error
+emit('user:login', { userId: '123' })  // âœ… Type-safe
+// emit('user:login', { wrong: 'field' })  // âŒ Compile error
 
 // Route types
 type Route = '/users' | '/users/:id' | '/orders'
@@ -401,7 +401,7 @@ async function fetchUser(id: string): Promise<Result<User, NotFoundError | Netwo
   }
 }
 
-// Usage — exhaustive handling
+// Usage â€” exhaustive handling
 const result = await fetchUser('123')
 if (result.success) {
   console.log(result.data.name)
@@ -444,29 +444,29 @@ emitter.on('user:login', (data) => {
   // TypeScript knows data has userId and timestamp
 })
 
-// emitter.on('user:login', (data) => { console.log(data.wrong) })  // ❌ Error
+// emitter.on('user:login', (data) => { console.log(data.wrong) })  // âŒ Error
 ```
 
 ---
 
 ## Cross-References
 
-- [React Patterns](./react-patterns.md)
-- [Testing Patterns](./testing-patterns.md)
-- [Coding Practices](./coding-practices.md)
+- [React Patterns](./Architecture/react-patterns.md)
+- [Testing Patterns](./Quality & Testing/test-driven-developments.md)
+- [Coding Practices](./Architecture/clean-architecture.md)
 
 ---
 
 ## Integration with Other Notes
 
-- Read [[ts-best-practices]] for TypeScript best practices
-- Read [[ts-fundamentals]] for TypeScript fundamentals
-- Read [[ts-advanced-types]] for advanced TypeScript types
-- Read [[ts-narrowing]] for type narrowing patterns
-- Read [[ts-security-best-practices]] for TypeScript security best practices
-- Read [[ts-optimization-performance]] for TypeScript optimization
-- Read [[ts-tsconfig]] for tsconfig.json configuration
-- Read [react-patterns](D/react-patterns.md) for React patterns
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript best practices
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript fundamentals
+- Read [[TypeScript/generics]] for advanced TypeScript types
+- Read [[TypeScript/type-inference]] for type narrowing patterns
+- Read [[ts-Security/web-security]] for TypeScript security best practices
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript optimization
+- Read [[TypeScript/typescript-configuration]] for tsconfig.json configuration
+- Read [Architecture/react-patterns](D/Architecture/react-patterns.md) for React patterns
 
 ---
 
@@ -531,12 +531,12 @@ graph TD
 ### Step 2: Enable Strict Null Checks
 
 ```typescript
-// ❌ Without strictNullChecks
+// âŒ Without strictNullChecks
 function getName(user: User): string {
   return user.name // May be undefined!
 }
 
-// ✅ With strictNullChecks
+// âœ… With strictNullChecks
 function getName(user: User): string {
   if (!user.name) throw new Error('Name required')
   return user.name
@@ -633,25 +633,25 @@ pnpm tsc --noEmit --pretty
 5. **Test types**: Use expectTypeOf to verify types
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline TypeScript error display
-- **npm Package**: `vitest` — for type testing with expectTypeOf
-- **Terminal Command**: `pnpm tsc --noEmit` — type check without emitting
-- **Terminal Command**: `pnpm tsc --strict` — enable strict mode
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline TypeScript error display
+- **npm Package**: `vitest` â€” for type testing with expectTypeOf
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check without emitting
+- **Terminal Command**: `pnpm tsc --strict` â€” enable strict mode
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing PRs with TypeScript changes
 - **Security Review Agent**: Run when adding new types
 
 ### Integration with Other Notes
-- Read [[ts-best-practices]] for TypeScript best practices
-- Read [[ts-fundamentals]] for TypeScript fundamentals
-- Read [[ts-advanced-types]] for advanced TypeScript types
-- Read [[ts-narrowing]] for type narrowing patterns
-- Read [[ts-security-best-practices]] for TypeScript security best practices
-- Read [[ts-optimization-performance]] for TypeScript optimization
-- Read [[ts-tsconfig]] for tsconfig.json configuration
-- Read [react-patterns](D/react-patterns.md) for React patterns
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript best practices
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript fundamentals
+- Read [[TypeScript/generics]] for advanced TypeScript types
+- Read [[TypeScript/type-inference]] for type narrowing patterns
+- Read [[ts-Security/web-security]] for TypeScript security best practices
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript optimization
+- Read [[TypeScript/typescript-configuration]] for tsconfig.json configuration
+- Read [Architecture/react-patterns](D/Architecture/react-patterns.md) for React patterns
 
 ### Common Pitfalls
 - Don't use any type (use unknown instead)
@@ -671,10 +671,10 @@ pnpm tsc --noEmit --pretty
 
 
 ## See Also
-- [[T01-ts-advanced-types]]
-- [[T02-ts-best-practices]]
+- [[T01-TypeScript/generics]]
+- [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
-- [[T04-ts-fundamentals]]
-- [[T05-ts-narrowing]]
+- [[T04-TypeScript/typescript-strict-mode]]
+- [[T05-TypeScript/type-inference]]
 
 

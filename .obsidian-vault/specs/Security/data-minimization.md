@@ -119,9 +119,9 @@ Data Minimization does not apply to:
 ## Related Concepts
 
 - [[Security/data-minimization]] â€” Data Minimization
-- [[Security/minimal-data-collection]] â€” Minimal Data Collection
-- [[Security/data-retention]] â€” Data Retention
-- [[Security/privacy-by-design]] â€” Privacy by Design
+- [[Security/data-minimization]] â€” Minimal Data Collection
+- [[Security/data-minimization]] â€” Data Retention
+- [[Security/data-minimization]] â€” Privacy by Design
 
 ## Project Observations
 

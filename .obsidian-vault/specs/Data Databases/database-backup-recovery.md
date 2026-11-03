@@ -118,9 +118,9 @@ Backup and Recovery does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/database-backup]] â€” Database Backup
-- [[Data Databases/disaster-recovery]] â€” Disaster Recovery
-- [[Data Databases/rpo-rto]] â€” RPO/RTO
+- [[Data Databases/database-backup-recovery]] â€” Database Backup
+- [[Data Databases/database-backup-recovery-recovery]] â€” Disaster Recovery
+- [[Data Databases/database-backup-recovery]] â€” RPO/RTO
 - [[Data Databases/data-retention]] â€” Data Retention
 
 ## Project Observations

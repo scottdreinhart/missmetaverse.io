@@ -119,9 +119,9 @@ Factory does not apply to:
 ## Related Concepts
 
 - [[DDD/factory]] â€” Factory
-- [[DDD/domain-factory]] â€” Domain Factory
-- [[DDD/object-factory]] â€” Object Factory
-- [[DDD/creation-logic]] â€” Creation Logic
+- [[DDD/factory]] â€” Domain Factory
+- [[DDD/factory]] â€” Object Factory
+- [[DDD/factory]] â€” Creation Logic
 
 ## Project Observations
 

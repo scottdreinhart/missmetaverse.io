@@ -1,7 +1,7 @@
----
+﻿---
 slug: w3c-i18n
 title: W3C Internationalization (i18n) Resources
-description: W3C Internationalization activity — standards, guides, and best practices for building software that supports multiple languages, regions, and writing systems.
+description: W3C Internationalization activity â€” standards, guides, and best practices for building software that supports multiple languages, regions, and writing systems.
 author: Copilot
 source: w3c-i18n
 canonical_url: https://www.w3.org/International/
@@ -49,7 +49,7 @@ The **W3C Internationalization (i18n) activity** develops standards, guides, and
 | **l10n** (localization) | Adapting software for a specific region/language | Translation, cultural adaptation |
 | **g11n** (globalization) | The combination of i18n + l10n + cultural adaptation | Full global strategy |
 
-> "Internationalization is the design and development of software so that it can be adapted to various languages and regions. Localization is the adaptation for a specific region." — W3C
+> "Internationalization is the design and development of software so that it can be adapted to various languages and regions. Localization is the adaptation for a specific region." â€” W3C
 
 ## Key i18n Concerns
 
@@ -73,16 +73,16 @@ CSS support: `direction`, `unicode-bidi`, `text-orientation`
 | Region | Date | Number | Currency |
 |--------|------|--------|----------|
 | US | 01/15/2025 | 1,234.56 | $1,234.56 |
-| EU | 15.01.2025 | 1.234,56 | €1.234,56 |
-| JP | 2025/01/15 | 1,234 | ¥1,234 |
-| CN | 2025-01-15 | 1,234.56 | ¥1,234.56 |
+| EU | 15.01.2025 | 1.234,56 | â‚¬1.234,56 |
+| JP | 2025/01/15 | 1,234 | Â¥1,234 |
+| CN | 2025-01-15 | 1,234.56 | Â¥1,234.56 |
 
 Use `Intl.DateTimeFormat`, `Intl.NumberFormat`, `Intl.Collator`
 
 ### 4. Collation and Sorting
 
 - Different languages have different sort orders
-- Example: German `ß` sorts as `ss`
+- Example: German `ÃŸ` sorts as `ss`
 - Use `localeCompare()` with `locale` parameter
 
 ### 5. Pluralization Rules
@@ -128,29 +128,29 @@ Use `Intl.DateTimeFormat`, `Intl.NumberFormat`, `Intl.Collator`
 ```javascript
 // Date formatting
 new Intl.DateTimeFormat('en-US').format(new Date())
-// → "1/15/2025"
+// â†’ "1/15/2025"
 new Intl.DateTimeFormat('de-DE').format(new Date())
-// → "15.1.2025"
+// â†’ "15.1.2025"
 
 // Number formatting
 new Intl.NumberFormat('en-US').format(1234.56)
-// → "1,234.56"
+// â†’ "1,234.56"
 new Intl.NumberFormat('de-DE').format(1234.56)
-// → "1.234,56"
+// â†’ "1.234,56"
 
 // Currency formatting
 new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' })
   .format(1234.56)
-// → "$1,234.56"
+// â†’ "$1,234.56"
 
 // Collation (sorting)
-['café', 'apple', 'banana'].sort((a, b) => a.localeCompare(b, 'fr'))
-// → French sort order
+['cafÃ©', 'apple', 'banana'].sort((a, b) => a.localeCompare(b, 'fr'))
+// â†’ French sort order
 
 // Pluralization
 const pr = new Intl.PluralRules('en')
-pr.select(1) // → "one"
-pr.select(2) // → "other"
+pr.select(1) // â†’ "one"
+pr.select(2) // â†’ "other"
 ```
 
 ---
@@ -159,10 +159,10 @@ pr.select(2) // → "other"
 *Last Verified: 2026-11-02*
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 
 

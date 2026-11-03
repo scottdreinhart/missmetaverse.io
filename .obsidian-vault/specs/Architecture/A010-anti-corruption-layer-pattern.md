@@ -56,7 +56,7 @@ Without anti-corruption layer pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Anti-corruption layer pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Anti-corruption layer pattern with DDD
 - [Integration Layer](Architecture/integration-layer.md) â€” Anti-corruption layer pattern with integration layer
 - [Adapter](Architecture/adapter-pattern.md) â€” Anti-corruption layer pattern with adapter
 

@@ -119,9 +119,9 @@ Data Modeling does not apply to:
 ## Related Concepts
 
 - [[Data Databases/data-modeling]] â€” Data Modeling
-- [[Data Databases/entity-modeling]] â€” Entity Modeling
-- [[Data Databases/schema-design]] â€” Schema Design
-- [[Data Databases/data-architecture]] â€” Data Architecture
+- [[Data Databases/data-modeling]] â€” Entity Modeling
+- [[Data Databases/data-modeling]] â€” Schema Design
+- [[Data Databases/data-modeling]] â€” Data Architecture
 
 ## Project Observations
 

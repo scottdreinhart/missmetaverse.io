@@ -1,5 +1,5 @@
----
-slug: ts-narrowing
+﻿---
+slug: TypeScript/type-inference
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 date: 2026-11-02
@@ -541,11 +541,11 @@ function example(): string | number {
 5. **Use type predicates**: For custom narrowing
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `zod` — for runtime validation
-- **npm Package**: `typescript` — for type checking
-- **Terminal Command**: `tsc --noEmit` — check types
-- **Terminal Command**: `pnpm test` — run tests
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `zod` â€” for runtime validation
+- **npm Package**: `typescript` â€” for type checking
+- **Terminal Command**: `tsc --noEmit` â€” check types
+- **Terminal Command**: `pnpm test` â€” run tests
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing type guards
@@ -553,8 +553,8 @@ function example(): string | number {
 
 ### Integration with Other Notes
 - read [[typescript-strict-mode]] for strict mode configuration
-- read [[ts-advanced-types]] for advanced type patterns
-- read [[ts-security-best-practices]] for type security
+- read [[TypeScript/generics]] for advanced type patterns
+- read [[ts-Security/web-security]] for type security
 
 ### Common Pitfalls
 - Don't forget typeof null === 'object' quirk
@@ -574,10 +574,10 @@ function example(): string | number {
 
 
 ## See Also
-- [[T01-ts-advanced-types]]
-- [[T02-ts-best-practices]]
+- [[T01-TypeScript/generics]]
+- [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
-- [[T04-ts-fundamentals]]
-- [[T06-ts-optimization-performance]]
+- [[T04-TypeScript/typescript-strict-mode]]
+- [[T06-TypeScript/typescript-strict-mode]]
 
 

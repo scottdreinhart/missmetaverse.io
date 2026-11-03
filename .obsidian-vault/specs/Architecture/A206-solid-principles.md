@@ -424,9 +424,9 @@ const service2 = new OrderService(new MongoDB())
 ## Cross-References
 
 - [Clean Architecture](./clean-architecture.md)
-- [DDD Patterns](./ddd-patterns.md)
+- [DDD Patterns](./Application Architecture/domain-driven-design.md)
 - [Design Patterns](./design-patterns.md)
-- [Coding Practices](./coding-practices.md)
+- [Coding Practices](./Architecture/clean-architecture.md)
 - [Architecture Patterns](./architecture-patterns.md)
 
 ---
@@ -460,9 +460,9 @@ const service2 = new OrderService(new MongoDB())
 
 ### Integration with Other Notes
 - Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for layer-level application of SOLID
-- Read [[ddd-patterns]] for domain-level application of SOLID
+- Read [[Application Architecture/domain-driven-design]] for domain-level application of SOLID
 - Read [dependency-injection](https://en.wikipedia.org/wiki/Dependency_injection) for DIP implementation patterns
-- Read [[coding-practices]] for SOLID in daily coding
+- Read [[Architecture/clean-architecture]] for SOLID in daily coding
 
 ### Common Pitfalls
 - Don't create interfaces just to satisfy DIP â€” only when there are multiple implementations
@@ -481,7 +481,7 @@ const service2 = new OrderService(new MongoDB())
 
 ## See Also
 - [[A001-abstract-factory-pattern]]
-- [[A002-abstract-factory-patterns]]
+- [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]
 - [[A005-active-record-pattern]]

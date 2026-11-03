@@ -57,7 +57,7 @@ Without structured concurrency:
 
 - [Resource Lifecycle](Coding Type Systems/resource-lifecycle.md) â€” Resource lifecycle benefits from structured concurrency
 - [Explicit Error Modeling](Architecture/explicit-error-modeling.md) â€” Explicit error modeling supports structured concurrency
-- [Pure Functions](Coding Type Systems/pure-functions-coding.md) â€” Pure functions benefit from structured concurrency
+- [Pure Functions](Coding Type Systems/Coding Type Systems/pure-functions.md) â€” Pure functions benefit from structured concurrency
 
 ## Project Observations
 

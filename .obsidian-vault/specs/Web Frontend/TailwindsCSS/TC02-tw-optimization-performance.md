@@ -1,5 +1,5 @@
----
-slug: tw-optimization-performance
+﻿---
+slug: TailwindsCSS/tailwind-css-utility-first-styling
 sources:
   - https://tailwindcss.com/docs/content-configuration
   - https://tailwindcss.com/docs/responsive-design
@@ -28,7 +28,7 @@ tags:
 
 ## Overview
 
-Tailwind CSS v4.3 is a utility-first CSS framework that works by scanning all your HTML files, JavaScript components, and templates for class names, generating corresponding styles, and writing them to a static CSS file. It is **fast, flexible, and reliable — with zero-runtime**.
+Tailwind CSS v4.3 is a utility-first CSS framework that works by scanning all your HTML files, JavaScript components, and templates for class names, generating corresponding styles, and writing them to a static CSS file. It is **fast, flexible, and reliable â€” with zero-runtime**.
 
 ## Installation (Vite + React)
 
@@ -57,7 +57,7 @@ export default defineConfig({
 
 ### How Tailwind Scans Files
 
-Tailwind CSS scans your source files for class names using **plain text scanning** — it doesn't need to parse your HTML/JSX. It looks for patterns that match class names.
+Tailwind CSS scans your source files for class names using **plain text scanning** â€” it doesn't need to parse your HTML/JSX. It looks for patterns that match class names.
 
 **Scanned by default:**
 - `./src/**/*.{html,js,ts,jsx,tsx,vue,svelte}`
@@ -175,7 +175,7 @@ Usage:
 
 ### Tree-Shaking & PurgeCSS (v3) / Automatic (v4)
 
-**Tailwind v4** automatically tree-shakes unused CSS — no PurgeCSS configuration needed.
+**Tailwind v4** automatically tree-shakes unused CSS â€” no PurgeCSS configuration needed.
 
 **Tailwind v3** required PurgeCSS:
 ```js
@@ -303,9 +303,9 @@ Prefer Tailwind classes over inline styles for CSP compliance:
 - [x] **Safelist dynamic classes** with `@source { inline() }`
 - [x] **Use `@layer`** for custom component styles
 - [x] **Extend theme** instead of creating custom CSS when possible
-- [x] **Avoid `!important`** — use specificity properly
+- [x] **Avoid `!important`** â€” use specificity properly
 - [x] **Use responsive prefixes** instead of media queries when possible
-- [x] **Minimize arbitrary values** (`[color:red]`) — use theme values
+- [x] **Minimize arbitrary values** (`[color:red]`) â€” use theme values
 - [x] **Enable CSS minification** in production
 - [x] **Use container queries** for component-level responsiveness
 
@@ -357,8 +357,8 @@ export default defineConfig({
 
 ## Cross-References
 
-- See [ts-best-practices](D/ts-best-practices.md) for TypeScript integration patterns
-- See [css-media-queries](D/css-media-queries.md) for media query patterns and breakpoints
+- See [TypeScript/typescript-strict-mode](D/TypeScript/typescript-strict-mode.md) for TypeScript integration patterns
+- See [Web Frontend/responsive-design](D/Web Frontend/responsive-design.md) for media query patterns and breakpoints
 - See [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
 
 ## Sources
@@ -373,8 +373,8 @@ export default defineConfig({
 ## Integration with Other Notes
 
 - Read [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
-- Read [[Cascading Stylesheets/css-fundamentals]] for CSS fundamentals
-- Read [css-media-queries](D/css-media-queries.md) for media query patterns
+- Read [[Web Frontend/css-architecture]] for CSS fundamentals
+- Read [Web Frontend/responsive-design](D/Web Frontend/responsive-design.md) for media query patterns
 - Read [html5-best-practices](D/html5-best-practices.md) for HTML5 best practices
 - Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui component patterns
 
@@ -522,11 +522,11 @@ export default defineConfig({
 5. **Build speed**: Enable fast refresh and optimize dependencies
 
 ### Tools to Use
-- **VS Code Extension**: Tailwind CSS IntelliSense — for autocomplete and preview
-- **VS Code Extension**: Error Lens — for inline CSS error display
-- **npm Package**: `@tailwindcss/vite` — for Vite integration
-- **Terminal Command**: `pnpm build` — production build
-- **Terminal Command**: `pnpm dev` — dev server with hot reload
+- **VS Code Extension**: Tailwind CSS IntelliSense â€” for autocomplete and preview
+- **VS Code Extension**: Error Lens â€” for inline CSS error display
+- **npm Package**: `@tailwindcss/vite` â€” for Vite integration
+- **Terminal Command**: `pnpm build` â€” production build
+- **Terminal Command**: `pnpm dev` â€” dev server with hot reload
 
 ### Agents to Invoke
 - **Performance Review Agent**: Run when optimizing CSS bundle size
@@ -534,8 +534,8 @@ export default defineConfig({
 
 ### Integration with Other Notes
 - Read [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
-- Read [[Cascading Stylesheets/css-fundamentals]] for CSS fundamentals
-- Read [css-media-queries](D/css-media-queries.md) for media query patterns
+- Read [[Web Frontend/css-architecture]] for CSS fundamentals
+- Read [Web Frontend/responsive-design](D/Web Frontend/responsive-design.md) for media query patterns
 - Read [html5-best-practices](D/html5-best-practices.md) for HTML5 best practices
 - Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui component patterns
 

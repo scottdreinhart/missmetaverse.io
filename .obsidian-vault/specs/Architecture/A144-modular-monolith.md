@@ -1,12 +1,12 @@
 ﻿---
-slug: modular-monolith
+slug: Application Architecture/modular-monolith-architecture
 sources:
   - https://martinfowler.com/bliki/ModularMonolith.html
-  - https://www.infoq.com/articles/modular-monolith/
+  - https://www.infoq.com/articles/Application Architecture/modular-monolith-architecture/
 date: 2026-11-02
 tags:
   - maturity/deprecated
-  - modular-monolith
+  - Application Architecture/modular-monolith-architecture
   - architecture
   - monolith
   - microservices
@@ -57,7 +57,7 @@ Monoliths without modules lead to:
 
 - [Microservices](Architecture/architecture-patterns.md) â€” Alternative for scaling
 - [Clean Architecture](Architecture/clean-architecture.md) â€” Module boundaries
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Module design
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Module design
 
 ## Project Observations
 
@@ -190,7 +190,7 @@ pnpm test modules/orders/
 ### Integration with Other Notes
 - Read [microservices](https://martinfowler.com/microservices.html) for when to consider microservices
 - Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for module-level architecture
-- read [[project-structure-mapping]] for folder structure
+- read [[Project File Conventions]] for folder structure
 
 ### Common Pitfalls
 - Don't create physical folders without logical boundaries

@@ -56,7 +56,7 @@ Without CSS fundamentals:
 ## Related Concepts
 
 - [Tailwind CSS Patterns](Architecture/tailwind-css-patterns.md) â€” CSS fundamentals with Tailwind
-- [React Patterns](../React/react-patterns) â€” CSS fundamentals with React
+- [React Patterns](../React/Architecture/react-patterns) â€” CSS fundamentals with React
 - [ShadCN UI Patterns](Architecture/shadcn-ui-patterns.md) â€” CSS fundamentals with ShadCN
 
 ## Project Observations

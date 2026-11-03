@@ -355,7 +355,7 @@ export default defineConfig({
 ## Cross-References
 
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md)
-- [Testing Patterns](../Testing/testing-patterns.md)
+- [Testing Patterns](../Testing/Quality & Testing/test-driven-developments.md)
 - [Docker Nginx Deployment](./docker-nginx-deployment.md)
 
 ---
@@ -489,7 +489,7 @@ pnpm preview
 - Read [vite-optimization](D/vite-optimization.md) for build optimization patterns
 - Read [docker-nginx-deployment](D/docker-nginx-deployment.md) for deployment configuration
 - Read [typescript-strict-mode](D/typescript-strict-mode.md) for TypeScript integration
-- Read [testing-patterns](D/testing-patterns.md) for testing configuration
+- Read [Quality & Testing/test-driven-developments](D/Quality & Testing/test-driven-developments.md) for testing configuration
 
 ### Common Pitfalls
 - Don't over-optimize development config (keep it fast)

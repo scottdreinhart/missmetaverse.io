@@ -119,9 +119,9 @@ Memory Management does not apply to:
 ## Related Concepts
 
 - [[Coding Type Systems/memory-management]] â€” Memory Management
-- [[Coding Type Systems/garbage-collection]] â€” Garbage Collection
-- [[Coding Type Systems/memory-leaks]] â€” Memory Leaks
-- [[Coding Type Systems/resource-cleanup]] â€” Resource Cleanup
+- [[Coding Type Systems/memory-management]] â€” Garbage Collection
+- [[Coding Type Systems/memory-management]] â€” Memory Leaks
+- [[Coding Type Systems/resource-lifecycle]] â€” Resource Cleanup
 
 ## Project Observations
 

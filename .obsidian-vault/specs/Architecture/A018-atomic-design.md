@@ -428,9 +428,9 @@ src/components/
 
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
-- [DDD Patterns](./ddd-patterns.md)
+- [DDD Patterns](./Application Architecture/domain-driven-design.md)
 - [Architecture Patterns](./architecture-patterns.md)
-- [Coding Practices](./coding-practices.md)
+- [Coding Practices](./Architecture/clean-architecture.md)
 
 ---
 
@@ -438,7 +438,7 @@ src/components/
 
 - Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for clean architecture patterns
 - Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for SOLID design principles
-- Read [[ddd-patterns]] for domain-driven design patterns
+- Read [[Application Architecture/domain-driven-design]] for domain-driven design patterns
 - Read [architecture-patterns](https://en.wikipedia.org/wiki/Software_architecture_pattern) for architecture patterns
 - Read [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
 - Read [shadcn-ui-patterns](D/shadcn-ui-patterns.md) for shadcn/ui component patterns
@@ -447,7 +447,7 @@ src/components/
 
 ## See Also
 - [[A001-abstract-factory-pattern]]
-- [[A002-abstract-factory-patterns]]
+- [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]
 - [[A005-active-record-pattern]]

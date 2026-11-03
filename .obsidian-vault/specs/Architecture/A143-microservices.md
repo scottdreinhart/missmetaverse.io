@@ -56,7 +56,7 @@ Monolithic architectures lead to:
 
 ## Related Concepts
 
-- [Modular Monolith](modular-monolith.md) â€” Microservices vs. modular monolith
+- [Modular Monolith](Application Architecture/modular-monolith-architecture.md) â€” Microservices vs. modular monolith
 - [Event-Driven Architecture](event-driven-architecture.md) â€” Microservices with EDA
 - [API Versioning](api-versioning.md) â€” Microservices with API versioning
 - [API Gateway](api-gateway-pattern.md) â€” Service gateway patterns
@@ -218,11 +218,11 @@ pnpm test:e2e services/user/
 - **Security Review Agent**: Run when adding inter-service communication
 
 ### Integration with Other Notes
-- Read [[modular-monolith]] for when to choose monolith over microservices
+- Read [[Application Architecture/modular-monolith-architecture]] for when to choose monolith over microservices
 - Read [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) for async communication patterns
 - Read [api-gateway-pattern](https://martinfowler.com/articles/microservices.html#APIGateway) for service gateway patterns
 - read [circuit-breaker-pattern](https://martinfowler.com/bliki/CircuitBreaker.html) for failure handling
-- read [[project-structure-mapping]] for folder structure
+- read [[Project File Conventions]] for folder structure
 
 ### Common Pitfalls
 - Don't create microservices for a small team (start with modular monolith)
@@ -360,11 +360,11 @@ Order Service â†’ [OrderPlaced] â†’ Notification Service
 - **Security Review Agent**: Run when adding inter-service communication
 
 ### Integration with Other Notes
-- Read [[modular-monolith]] for when to choose monolith over microservices
+- Read [[Application Architecture/modular-monolith-architecture]] for when to choose monolith over microservices
 - Read [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) for async communication patterns
 - Read [api-gateway-pattern](https://martinfowler.com/articles/microservices.html#APIGateway) for service gateway patterns
 - read [circuit-breaker-pattern](https://martinfowler.com/bliki/CircuitBreaker.html) for failure handling
-- read [[project-structure-mapping]] for folder structure
+- read [[Project File Conventions]] for folder structure
 
 ### Common Pitfalls
 - Don't create microservices for a small team (start with modular monolith)

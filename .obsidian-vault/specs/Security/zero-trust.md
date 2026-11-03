@@ -119,9 +119,9 @@ Zero Trust does not apply to:
 ## Related Concepts
 
 - [[Security/zero-trust]] â€” Zero Trust
-- [[Security/zero-trust-security]] â€” Zero Trust Security
-- [[Security/never-trust-always-verify]] â€” Never Trust, Always Verify
-- [[Security/zero-trust-architecture]] â€” Zero Trust Architecture
+- [[Security/zero-trust]] â€” Zero Trust Security
+- [[Security/zero-trust]] â€” Never Trust, Always Verify
+- [[Security/zero-trust]] â€” Zero Trust Architecture
 
 ## Project Observations
 

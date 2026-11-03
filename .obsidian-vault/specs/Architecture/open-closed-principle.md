@@ -120,7 +120,7 @@ OCP does not apply to:
 - [[Architecture/solid-principles]] â€” SOLID Principles
 - [[Architecture/composition-over-inheritance]] â€” Composition over Inheritance
 - [[Architecture/dependency-injection]] â€” Dependency Injection
-- [[Architecture/strategy]] â€” Strategy Pattern
+- [[Design Patterns/strategy-pattern]] â€” Strategy Pattern
 
 ## Project Observations
 

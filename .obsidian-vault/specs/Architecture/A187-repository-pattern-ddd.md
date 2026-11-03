@@ -55,7 +55,7 @@ Without repository pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Repository pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Repository pattern with DDD
 - [Data Mapper](Architecture/data-mapper.md) â€” Repository pattern with data mapper
 - [Unit of Work](Architecture/unit-of-work.md) â€” Repository pattern with unit of work
 

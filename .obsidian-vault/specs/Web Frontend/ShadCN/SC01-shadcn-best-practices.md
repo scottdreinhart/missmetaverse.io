@@ -1,5 +1,5 @@
----
-slug: shadcn-best-practices
+﻿---
+slug: ShadCN/shadcn-ui-component-library
 sources:
   - https://ui.shadcn.com/docs
   - https://ui.shadcn.com/docs/components
@@ -30,7 +30,7 @@ tags:
 
 ## Overview
 
-shadcn/ui is **not a component library** — it's a collection of **reusable components** you can copy and paste into your apps. It follows five core principles.
+shadcn/ui is **not a component library** â€” it's a collection of **reusable components** you can copy and paste into your apps. It follows five core principles.
 
 ## Core Principles
 
@@ -117,13 +117,13 @@ shadcn/ui uses a flat file structure for easy navigation:
 
 ```
 src/components/ui/
-├── button.tsx
-├── card.tsx
-├── dialog.tsx
-├── input.tsx
-├── select.tsx
-├── table.tsx
-└── ...
+â”œâ”€â”€ button.tsx
+â”œâ”€â”€ card.tsx
+â”œâ”€â”€ dialog.tsx
+â”œâ”€â”€ input.tsx
+â”œâ”€â”€ select.tsx
+â”œâ”€â”€ table.tsx
+â””â”€â”€ ...
 ```
 
 ### Available Components (50+)
@@ -337,16 +337,16 @@ function Page() {
 
 ```
 src/
-├── app/
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── ui/          # shadcn/ui components
-│   └── layout/      # Custom layout components
-├── lib/
-│   └── utils.ts     # cn() utility
-└── styles/
-    └── globals.css
+â”œâ”€â”€ app/
+â”‚   â”œâ”€â”€ layout.tsx
+â”‚   â””â”€â”€ page.tsx
+â”œâ”€â”€ components/
+â”‚   â”œâ”€â”€ ui/          # shadcn/ui components
+â”‚   â””â”€â”€ layout/      # Custom layout components
+â”œâ”€â”€ lib/
+â”‚   â””â”€â”€ utils.ts     # cn() utility
+â””â”€â”€ styles/
+    â””â”€â”€ globals.css
 ```
 
 ### Utility Function (cn)
@@ -432,7 +432,7 @@ function UserContent({ content }: { content: string }) {
 - See [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS integration
 - See [css3-performance-security](D/css3-performance-security.md) for CSS3 performance fundamentals
 - See [html5-best-practices](D/html5-best-practices.md) for HTML5 accessibility patterns
-- See [react-patterns](D/react-patterns.md) for React component integration
+- See [Architecture/react-patterns](D/Architecture/react-patterns.md) for React component integration
 - See [accessibility-a11y](D/accessibility-a11y.md) for accessibility best practices
 - See [shadcn-ui-patterns](D/shadcn-ui-patterns.md) for shadcn/ui component patterns
 
@@ -674,11 +674,11 @@ export function MemoizedList({ items }: { items: ListItem[] }) {
 5. **Security**: Sanitize user-generated content with DOMPurify
 
 ### Tools to Use
-- **VS Code Extension**: Tailwind CSS IntelliSense — for Tailwind autocomplete
-- **VS Code Extension**: Error Lens — for inline CSS error display
-- **npm Package**: `class-variance-authority` — for component variants
-- **npm Package**: `dompurify` — for HTML sanitization
-- **Terminal Command**: `npx shadcn@latest add <component>` — add component
+- **VS Code Extension**: Tailwind CSS IntelliSense â€” for Tailwind autocomplete
+- **VS Code Extension**: Error Lens â€” for inline CSS error display
+- **npm Package**: `class-variance-authority` â€” for component variants
+- **npm Package**: `dompurify` â€” for HTML sanitization
+- **Terminal Command**: `npx shadcn@latest add <component>` â€” add component
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing PRs with UI changes
@@ -689,7 +689,7 @@ export function MemoizedList({ items }: { items: ListItem[] }) {
 - Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS integration
 - Read [css3-performance-security](D/css3-performance-security.md) for CSS3 performance fundamentals
 - Read [html5-best-practices](D/html5-best-practices.md) for HTML5 accessibility patterns
-- Read [react-patterns](D/react-patterns.md) for React component integration
+- Read [Architecture/react-patterns](D/Architecture/react-patterns.md) for React component integration
 - Read [accessibility-a11y](D/accessibility-a11y.md) for accessibility best practices
 - Read [shadcn-ui-patterns](D/shadcn-ui-patterns.md) for shadcn/ui component patterns
 

@@ -120,8 +120,8 @@ Specification does not apply to:
 
 - [[Design Patterns/specification-pattern]] â€” Specification Pattern
 - [[Design Patterns/repository-pattern]] â€” Repository Pattern
-- [[Design Patterns/criteria-pattern]] â€” Criteria Pattern
-- [[Design Patterns/predicate-pattern]] â€” Predicate Pattern
+- [[Design Patterns/specification-pattern]] â€” Criteria Pattern
+- [[Design Patterns/specification-pattern]] â€” Predicate Pattern
 
 ## Project Observations
 

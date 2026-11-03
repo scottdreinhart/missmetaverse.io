@@ -450,8 +450,8 @@ pnpm audit
 - **Security Review Agent**: Run when adding new dependencies
 
 ### Integration with Other Notes
-- Read [[pnpm-best-practices]] for pnpm best practices
-- Read [[Quality Delivery/ci-cd-patterns]] for CI/CD integration
+- Read [[Package Manager/pnpm-package-manager]] for pnpm best practices
+- Read [[Quality & Testing/continuous-integration]] for CI/CD integration
 - Read [docker-deployment](D/docker-deployment.md) for Docker integration
 - Read [conventional-commits](D/conventional-commits.md) for commit conventions
 
@@ -471,6 +471,6 @@ pnpm audit
 - [ ] Are outdated packages updated?
 
 ## See Also
-- [[PM01-pnpm-best-practices]]
+- [[PM01-Package Manager/pnpm-package-manager]]
 
 

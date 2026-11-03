@@ -55,7 +55,7 @@ Synchronous communication leads to:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Domain Events
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Domain Events
 - [Transaction Outbox](Architecture/architecture-patterns.md) â€” Reliable event publishing
 - [CQRS](Architecture/cqrs-pattern.md) â€” Often used with EDA
 
@@ -100,7 +100,7 @@ Synchronous communication leads to:
 - **Security Review Agent**: Run when events contain sensitive data
 
 ### Integration with Other Notes
-- Read [[ddd-patterns]] for domain event patterns
+- Read [[Application Architecture/domain-driven-design]] for domain event patterns
 - Read [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) for CQRS + EDA integration
 - Read [transactional-outbox](https://microservices.io/patterns/data/transactional-outbox.html) for reliable event publishing
 - Read [circuit-breaker-pattern](https://martinfowler.com/bliki/CircuitBreaker.html) for handling event processing failures

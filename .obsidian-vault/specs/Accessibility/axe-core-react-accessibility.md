@@ -118,10 +118,10 @@ Without @axe-core/react:
 
 ## Related Concepts
 
-- [[axe-core/axe-core-react-testing]] â€” axe-core React Testing
-- [[axe-core/axe-core-wcag-compliance]] â€” axe-core WCAG Compliance
-- [[axe-core/axe-core-configuration]] â€” axe-core Configuration
-- [[axe-core/axe-core-monitoring]] â€” axe-core Monitoring
+- [[Accessibility/axe-core-react-accessibility]] â€” axe-core React Testing
+- [[Accessibility/axe-core-react-accessibility]] â€” axe-core WCAG Compliance
+- [[Accessibility/axe-core-react-accessibility]] â€” axe-core Configuration
+- [[Accessibility/axe-core-react-accessibility]] â€” axe-core Monitoring
 
 ## Project Observations
 

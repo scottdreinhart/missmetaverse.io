@@ -119,9 +119,9 @@ React Router does not apply to:
 ## Related Concepts
 
 - [[React/modern-react-project-template]] â€” Modern React Project Template
-- [[React/modern-react-react-hooks]] â€” React Hooks
-- [[React/modern-react-react-components]] â€” React Components
-- [[React/modern-react-react-state]] â€” React State
+- [[React/modern-react-hooks]] â€” React Hooks
+- [[React/modern-react-components]] â€” React Components
+- [[React/modern-react-state]] â€” React State
 
 ## Project Observations
 

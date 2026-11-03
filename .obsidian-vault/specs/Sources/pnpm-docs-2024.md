@@ -30,15 +30,15 @@ claims_supported:
   - pnpm-workspace
   - pnpm-dependencies
   - pnpm-lockfile
-  - pnpm-best-practices
+  - Package Manager/pnpm-package-manager
 access_limitations: None
 research_notes: "Official pnpm documentation. Primary source for pnpm workspace configuration, dependency management, and best practices."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 
 

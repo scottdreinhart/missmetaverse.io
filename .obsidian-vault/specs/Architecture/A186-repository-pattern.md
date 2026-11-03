@@ -56,7 +56,7 @@ Without repository pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](ddd-patterns.md) â€” Repository pattern with DDD
+- [DDD Patterns](Application Architecture/domain-driven-design.md) â€” Repository pattern with DDD
 - [Data Mapper](data-mapper-pattern.md) â€” Repository pattern with data mapper
 - [Unit of Work](unit-of-work-pattern.md) â€” Repository pattern with unit of work
 
@@ -196,10 +196,10 @@ export class InMemoryUserRepository implements UserRepository {
 - **Code Review Agent**: Run when reviewing repository changes
 
 ### Integration with Other Notes
-- Read [[ddd-patterns]] for repository in DDD context
+- Read [[Application Architecture/domain-driven-design]] for repository in DDD context
 - read [data-mapper-pattern](https://martinfowler.com/eaaCatalog/dataMapper.html) for data mapper relationship
 - read [unit-of-work-pattern](https://martinfowler.com/eaaCatalog/unitOfWork.html) for transaction management
-- read [[project-structure-mapping]] for folder placement
+- read [[Project File Conventions]] for folder placement
 - read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for layer boundaries
 
 ### Common Pitfalls

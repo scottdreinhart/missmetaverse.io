@@ -120,8 +120,8 @@ Onion Architecture does not apply to:
 
 - [[Application Architecture/onion-architecture]] â€” Onion Architecture
 - [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
-- [[Application Architecture/clean-architecture]] â€” Clean Architecture
-- [[Application Architecture/domain-centric]] â€” Domain Centric
+- [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture
+- [[Application Architecture/domain-driven-design]] â€” Domain Centric
 
 ## Project Observations
 

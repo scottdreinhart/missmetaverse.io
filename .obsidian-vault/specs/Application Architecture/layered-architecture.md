@@ -51,7 +51,7 @@ declared
 - layered-architecture
 - hexagonal-architecture
 - clean-architecture
-- modular-monolith
+- Application Architecture/modular-monolith-architecture
 
 ## Definition
 
@@ -120,8 +120,8 @@ Layered Architecture does not apply to:
 
 - [[Application Architecture/layered-architecture]] â€” Layered Architecture
 - [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
-- [[Application Architecture/clean-architecture]] â€” Clean Architecture
-- [[Application Architecture/modular-monolith]] â€” Modular Monolith
+- [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture
+- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture]] â€” Modular Monolith
 
 ## Project Observations
 

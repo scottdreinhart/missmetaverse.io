@@ -55,7 +55,7 @@ Without active record pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Active record pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Active record pattern with DDD
 - [Data Mapper Pattern](Architecture/data-mapper-pattern.md) â€” Active record pattern with data mapper
 - [Repository Pattern](Architecture/repository-pattern-ddd.md) â€” Active record pattern with repository
 

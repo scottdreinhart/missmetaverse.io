@@ -119,8 +119,8 @@ Domain events do not apply to:
 
 ## Related Concepts
 
-- [[DDD/aggregate]] â€” Aggregate
-- [[Architecture/event-driven-architecture]] â€” Event-Driven Architecture
+- [[DDD/aggregate-root]] â€” Aggregate
+- [[Application Architecture/event-driven-architecture]] â€” Event-Driven Architecture
 - [[APIs Distributed Systems/transactional-outbox]] â€” Transactional Outbox
 
 ## Project Observations

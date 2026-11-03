@@ -121,7 +121,7 @@ TDD does not apply to:
 - [[Quality & Testing/behavior-driven-development]] â€” Behavior-Driven Development
 - [[Quality & Testing/risk-based-testing]] â€” Risk-Based Testing
 - [[Quality & Testing/mutation-testing]] â€” Mutation Testing
-- [[Architecture/incremental-refactoring]] â€” Incremental Refactoring
+- [[Quality & Testing/incremental-refactoring]] â€” Incremental Refactoring
 
 ## Project Observations
 

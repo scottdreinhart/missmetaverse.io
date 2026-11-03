@@ -118,10 +118,10 @@ API Gateway does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/api-gateway-pattern]] â€” API Gateway Pattern
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]] â€” API Gateway Pattern
 - [[APIs Distributed Systems/backend-for-frontend]] â€” Backend for Frontend
 - [[APIs Distributed Systems/service-mesh]] â€” Service Mesh
-- [[APIs Distributed Systems/load-balancer]] â€” Load Balancer
+- [[APIs Distributed Systems/load-balancing]] â€” Load Balancer
 
 ## Project Observations
 

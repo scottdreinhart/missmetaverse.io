@@ -121,7 +121,7 @@ Hook files do not apply to:
 - [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
 - [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
 - [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
-- [[Architecture/custom-hooks-composables]] â€” Custom Hooks / Composables
+- [[React/modern-react-hooks-custom]] â€” Custom Hooks / Composables
 
 ## Project Observations
 

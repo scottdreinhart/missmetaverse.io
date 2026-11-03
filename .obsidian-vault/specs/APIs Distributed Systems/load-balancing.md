@@ -119,9 +119,9 @@ Load Balancing does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/load-balancing]] â€” Load Balancing
-- [[APIs Distributed Systems/load-balancer]] â€” Load Balancer
-- [[APIs Distributed Systems/traffic-distribution]] â€” Traffic Distribution
-- [[APIs Distributed Systems/request-routing]] â€” Request Routing
+- [[APIs Distributed Systems/load-balancing]] â€” Load Balancer
+- [[APIs Distributed Systems/load-balancing]] â€” Traffic Distribution
+- [[APIs Distributed Systems/api-gateway-pattern]] â€” Request Routing
 
 ## Project Observations
 

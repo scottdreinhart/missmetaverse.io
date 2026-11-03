@@ -1,7 +1,7 @@
----
+﻿---
 slug: wikipedia
 source_id: wikipedia
-title: "Wikipedia — Software Engineering"
+title: "Wikipedia â€” Software Engineering"
 author: "Wikipedia Contributors"
 source_type: encyclopedia
 canonical_url: https://en.wikipedia.org/wiki/Software_engineering
@@ -25,9 +25,9 @@ access_limitations: Free public encyclopedia
 research_notes: "General reference for software engineering concepts. Used as a fallback source when more specific documentation is unavailable."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 

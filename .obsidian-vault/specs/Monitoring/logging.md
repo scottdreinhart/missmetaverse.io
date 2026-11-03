@@ -119,9 +119,9 @@ Logging does not apply to:
 ## Related Concepts
 
 - [[Monitoring/logging]] â€” Logging
-- [[Monitoring/application-logging]] â€” Application Logging
-- [[Monitoring/structured-logging]] â€” Structured Logging
-- [[Monitoring/log-levels]] â€” Log Levels
+- [[Monitoring/logging]] â€” Application Logging
+- [[Monitoring/logging]] â€” Structured Logging
+- [[Monitoring/logging]] â€” Log Levels
 
 ## Project Observations
 

@@ -119,9 +119,9 @@ Performance Optimization does not apply to:
 ## Related Concepts
 
 - [[Web Frontend/performance-optimization]] â€” Performance Optimization
-- [[Web Frontend/core-web-vitals]] â€” Core Web Vitals
-- [[Web Frontend/performance-budgets]] â€” Performance Budgets
-- [[Web Frontend/optimization-techniques]] â€” Optimization Techniques
+- [[Web Frontend/web-vitals]] â€” Core Web Vitals
+- [[Web Frontend/performance-optimization]] â€” Performance Budgets
+- [[Web Frontend/performance-optimization]] â€” Optimization Techniques
 
 ## Project Observations
 

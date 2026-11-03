@@ -119,9 +119,9 @@ Concurrency does not apply to:
 ## Related Concepts
 
 - [[Coding Type Systems/concurrency]] â€” Concurrency
-- [[Coding Type Systems/parallel-processing]] â€” Parallel Processing
-- [[Coding Type Systems/async-await]] â€” Async/Await
-- [[Coding Type Systems/threading]] â€” Threading
+- [[Coding Type Systems/concurrency]] â€” Parallel Processing
+- [[Coding Type Systems/concurrency]] â€” Async/Await
+- [[Coding Type Systems/concurrency]] â€” Threading
 
 ## Project Observations
 

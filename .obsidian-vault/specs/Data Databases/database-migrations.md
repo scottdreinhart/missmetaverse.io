@@ -119,9 +119,9 @@ Migrations do not apply to:
 ## Related Concepts
 
 - [[Data Databases/database-migrations]] â€” Database Migrations
-- [[Data Databases/schema-versioning]] â€” Schema Versioning
-- [[Data Databases/migration-strategy]] â€” Migration Strategy
-- [[Data Databases/database-deployment]] â€” Database Deployment
+- [[Data Databases/database-migrations]] â€” Schema Versioning
+- [[Data Databases/database-migrations]] â€” Migration Strategy
+- [[Data Databases/database-migrations]] â€” Database Deployment
 
 ## Project Observations
 

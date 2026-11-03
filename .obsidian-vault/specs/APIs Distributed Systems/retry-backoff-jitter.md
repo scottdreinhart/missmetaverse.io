@@ -118,9 +118,9 @@ Retry does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/retry-pattern]] â€” Retry Pattern
-- [[APIs Distributed Systems/exponential-backoff]] â€” Exponential Backoff
-- [[APIs Distributed Systems/jitter-pattern]] â€” Jitter Pattern
+- [[APIs Distributed Systems/retry-backoff-jitter]] â€” Retry Pattern
+- [[APIs Distributed Systems/retry-backoff-jitter]] â€” Exponential Backoff
+- [[APIs Distributed Systems/retry-backoff-jitter]] â€” Jitter Pattern
 - [[APIs Distributed Systems/circuit-breaker]] â€” Circuit Breaker
 
 ## Project Observations

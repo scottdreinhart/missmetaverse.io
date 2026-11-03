@@ -119,9 +119,9 @@ Complete Mediation does not apply to:
 ## Related Concepts
 
 - [[Security/complete-mediation]] â€” Complete Mediation
-- [[Security/every-access-check]] â€” Every Access Check
-- [[Security/always-verify]] â€” Always Verify
-- [[Security/mediate-every-request]] â€” Mediate Every Request
+- [[Security/complete-mediation]] â€” Every Access Check
+- [[Security/complete-mediation]] â€” Always Verify
+- [[Security/complete-mediation]] â€” Mediate Every Request
 
 ## Project Observations
 

@@ -119,9 +119,9 @@ Rate Limiting does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/rate-limiting]] â€” Rate Limiting
-- [[APIs Distributed Systems/throttling]] â€” Throttling
-- [[APIs Distributed Systems/request-limiting]] â€” Request Limiting
-- [[APIs Distributed Systems/api-rate-limiting]] â€” API Rate Limiting
+- [[APIs Distributed Systems/rate-limiting]] â€” Throttling
+- [[APIs Distributed Systems/rate-limiting]] â€” Request Limiting
+- [[APIs Distributed Systems/rate-limiting]] â€” API Rate Limiting
 
 ## Project Observations
 

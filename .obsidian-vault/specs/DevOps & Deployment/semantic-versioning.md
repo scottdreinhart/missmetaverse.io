@@ -120,7 +120,7 @@ Semantic Versioning does not apply to:
 
 - [[Commit Management/conventional-commits]] â€” Conventional Commits
 - [[APIs Distributed Systems/api-versioning]] â€” API Versioning
-- [[DevOps & Deployment/dependency-management]] â€” Dependency Management
+- [[Package Manager/pnpm-package-manager]] â€” Dependency Management
 - [[DevOps & Deployment/release-management]] â€” Release Management
 
 ## Project Observations

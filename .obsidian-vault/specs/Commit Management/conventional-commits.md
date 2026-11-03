@@ -117,10 +117,10 @@ Conventional Commits does not apply to:
 
 ## Related Concepts
 
-- [[Commit Management/commitizen-cz-git]] â€” Commitizen CZ Git
-- [[Commit Management/commitlint-cli-config]] â€” Commitlint CLI Config
-- [[Commit Management/conventional-changelog]] â€” Conventional Changelog
-- [[Commit Management/husky-git-hooks]] â€” Husky Git Hooks
+- [[Commit Management/conventional-commits]] â€” Commitizen CZ Git
+- [[Commit Management/conventional-commits]] â€” Commitlint CLI Config
+- [[Commit Management/conventional-commits]] â€” Conventional Changelog
+- [[Commit Management/conventional-commits]] â€” Husky Git Hooks
 
 ## Project Observations
 

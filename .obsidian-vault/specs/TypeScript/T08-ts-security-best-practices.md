@@ -1,5 +1,5 @@
----
-slug: ts-security-best-practices
+﻿---
+slug: ts-Security/web-security
 sources:
   - https://www.typescriptlang.org/docs/handbook/security.html
 date: 2026-11-02
@@ -37,7 +37,7 @@ date: 2026-11-02
 
 ## Type Safety as Security
 
-TypeScript's primary security benefit is **compile-time type safety** — catching errors before they reach production. This prevents entire classes of runtime vulnerabilities.
+TypeScript's primary security benefit is **compile-time type safety** â€” catching errors before they reach production. This prevents entire classes of runtime vulnerabilities.
 
 ## Strict Type Checking
 
@@ -52,50 +52,50 @@ TypeScript's primary security benefit is **compile-time type safety** — catchi
 ```
 
 This enables:
-- `strictNullChecks` — prevents null/undefined dereferencing
-- `strictFunctionTypes` — correct function parameter checking
-- `strictBindCallApply` — validates call/bind/apply arguments
-- `noImplicitAny` — prevents implicit `any` types
-- `noImplicitThis` — prevents ambiguous `this` references
-- `strictPropertyInitialization` — enforces constructor initialization
-- `useUnknownInCatchVariables` — catch variables are `unknown` by default
+- `strictNullChecks` â€” prevents null/undefined dereferencing
+- `strictFunctionTypes` â€” correct function parameter checking
+- `strictBindCallApply` â€” validates call/bind/apply arguments
+- `noImplicitAny` â€” prevents implicit `any` types
+- `noImplicitThis` â€” prevents ambiguous `this` references
+- `strictPropertyInitialization` â€” enforces constructor initialization
+- `useUnknownInCatchVariables` â€” catch variables are `unknown` by default
 
 ### Strict Null Checks
 
 ```typescript
-// ❌ Without strictNullChecks — runtime error possible
+// âŒ Without strictNullChecks â€” runtime error possible
 const user = users.find(u => u.id === id);
 console.log(user.name); // Could crash if user is undefined
 
-// ✅ With strictNullChecks — must handle undefined
+// âœ… With strictNullChecks â€” must handle undefined
 const user = users.find(u => u.id === id);
 if (user) {
   console.log(user.name); // Safe
 }
 
-// ✅ Or use optional chaining
+// âœ… Or use optional chaining
 console.log(user?.name);
 
-// ✅ Or provide a default
+// âœ… Or provide a default
 const userName = user?.name ?? "Guest";
 ```
 
 ### Use `unknown` Instead of `any`
 
 ```typescript
-// ❌ any — bypasses all type checking, security risk
+// âŒ any â€” bypasses all type checking, security risk
 function process(data: any) {
   data.someMethod(); // No compile-time check
 }
 
-// ✅ unknown — must be narrowed before use
+// âœ… unknown â€” must be narrowed before use
 function process(data: unknown) {
   if (typeof data === "string") {
     console.log(data.toUpperCase()); // Safe
   }
 }
 
-// ✅ In catch blocks (with useUnknownInCatchVariables)
+// âœ… In catch blocks (with useUnknownInCatchVariables)
 try {
   fetchData();
 } catch (err: unknown) {
@@ -157,11 +157,11 @@ function handleResponse(response: ApiResponse) {
 ### Avoid `as` Assertions for Validation
 
 ```typescript
-// ❌ Dangerous — bypasses type checking
+// âŒ Dangerous â€” bypasses type checking
 const userInput = getFormData() as FormData;
 processForm(userInput); // If shape is wrong, runtime error
 
-// ✅ Use type guards instead
+// âœ… Use type guards instead
 const rawInput = getFormData();
 if (isFormData(rawInput)) {
   processForm(rawInput); // Type-safe
@@ -171,22 +171,22 @@ if (isFormData(rawInput)) {
 ### Use `satisfies` Operator for Validation
 
 ```typescript
-// ❌ Object literal may have excess properties
+// âŒ Object literal may have excess properties
 const config = {
   host: "localhost",
   port: 3000,
   debug: true,
-  secretKey: "abc123" // Excess property — no error without satisfies
+  secretKey: "abc123" // Excess property â€” no error without satisfies
 } as Config;
 
-// ✅ satisfies — validates shape without changing type
+// âœ… satisfies â€” validates shape without changing type
 const config = {
   host: "localhost",
   port: 3000,
   debug: true
 } satisfies Config;
 
-// ❌ Error — secretKey is not in Config type
+// âŒ Error â€” secretKey is not in Config type
 const badConfig = {
   host: "localhost",
   port: 3000,
@@ -216,7 +216,7 @@ declare const env: EnvVars;
 
 // With noUncheckedIndexedAccess:
 const name = env.NAME;           // string
-const custom = env.CUSTOM;       // string | undefined — must handle!
+const custom = env.CUSTOM;       // string | undefined â€” must handle!
 
 // Safe usage
 if (env.CUSTOM) {
@@ -224,7 +224,7 @@ if (env.CUSTOM) {
 }
 ```
 
-## noImplicitOverride — Prevent Inheritance Bugs
+## noImplicitOverride â€” Prevent Inheritance Bugs
 
 ```typescript
 class Base {
@@ -232,10 +232,10 @@ class Base {
 }
 
 class Child extends Base {
-  // ❌ Without noImplicitOverride — silently fails to override
+  // âŒ Without noImplicitOverride â€” silently fails to override
   setup() { /* ... */ }
 
-  // ✅ With noImplicitOverride — error if override is missing
+  // âœ… With noImplicitOverride â€” error if override is missing
   override setup() { /* ... */ }
 }
 ```
@@ -243,12 +243,12 @@ class Child extends Base {
 ## Use `const` Enums Sparingly
 
 ```typescript
-// ❌ const enums are erased at compile time — no runtime safety
+// âŒ const enums are erased at compile time â€” no runtime safety
 const enum Direction { Up, Down, Left, Right }
 const dir = getDirection();
 if (dir === Direction.Up) { /* ... */ }
 
-// ✅ Regular enums — exist at runtime, can be validated
+// âœ… Regular enums â€” exist at runtime, can be validated
 enum Direction { Up, Down, Left, Right }
 const dir = getDirection();
 if (dir === Direction.Up) { /* ... */ }
@@ -271,10 +271,10 @@ if (dir === Direction.Up) { /* ... */ }
 
 ## Key Takeaways
 
-1. **Always enable `strict: true`** — it's the foundation of TypeScript security
-2. **Prefer `unknown` over `any`** — forces type narrowing before use
-3. **Use type guards for runtime validation** — never trust external input
-4. **Avoid `as` assertions** — they bypass type safety
+1. **Always enable `strict: true`** â€” it's the foundation of TypeScript security
+2. **Prefer `unknown` over `any`** â€” forces type narrowing before use
+3. **Use type guards for runtime validation** â€” never trust external input
+4. **Avoid `as` assertions** â€” they bypass type safety
 ---
 
 ## Decision Tree: TypeScript Security Patterns
@@ -450,12 +450,12 @@ class ExtendedComponent extends BaseComponent {
 5. **Override safety**: Use noImplicitOverride for inheritance
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline TypeScript error display
-- **npm Package**: `zod` — for runtime validation
-- **npm Package**: `joi` — alternative to Zod
-- **Terminal Command**: `pnpm tsc --noEmit` — type check without emitting
-- **Terminal Command**: `pnpm tsc --strict` — enable strict mode
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline TypeScript error display
+- **npm Package**: `zod` â€” for runtime validation
+- **npm Package**: `joi` â€” alternative to Zod
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check without emitting
+- **Terminal Command**: `pnpm tsc --strict` â€” enable strict mode
 
 ### Agents to Invoke
 - **Security Review Agent**: Run when adding new types
@@ -464,8 +464,8 @@ class ExtendedComponent extends BaseComponent {
 ### Integration with Other Notes
 - Read [security-principles](D/security-principles.md) for security best practices
 - read [input-validation](D/input-validation.md) for input validation patterns
-- Read [react-patterns](D/react-patterns.md) for React component patterns
-- Read [testing-patterns](D/testing-patterns.md) for testing strategies
+- Read [Architecture/react-patterns](D/Architecture/react-patterns.md) for React component patterns
+- Read [Quality & Testing/test-driven-developments](D/Quality & Testing/test-driven-developments.md) for testing strategies
 
 ### Common Pitfalls
 - Don't use any type (use unknown instead)
@@ -486,10 +486,10 @@ class ExtendedComponent extends BaseComponent {
 
 
 ## See Also
-- [[T01-ts-advanced-types]]
-- [[T02-ts-best-practices]]
+- [[T01-TypeScript/generics]]
+- [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
-- [[T04-ts-fundamentals]]
-- [[T05-ts-narrowing]]
+- [[T04-TypeScript/typescript-strict-mode]]
+- [[T05-TypeScript/type-inference]]
 
 

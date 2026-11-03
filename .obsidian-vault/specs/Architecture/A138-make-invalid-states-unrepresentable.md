@@ -57,8 +57,8 @@ Representable invalid states lead to:
 ## Related Concepts
 
 - [Parse, Don't Validate](Architecture/parse-dont-validate.md) â€” Parsing enforces invariants
-- [Discriminated Unions](Architecture/coding-practices.md) â€” Type-safe state representation
-- [Exhaustive Handling](Architecture/coding-practices.md) â€” Handle all valid states
+- [Discriminated Unions](Architecture/Architecture/clean-architecture.md) â€” Type-safe state representation
+- [Exhaustive Handling](Architecture/Architecture/clean-architecture.md) â€” Handle all valid states
 
 ## Project Observations
 

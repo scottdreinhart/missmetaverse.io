@@ -119,9 +119,9 @@ Input Validation does not apply to:
 ## Related Concepts
 
 - [[Security/input-validation]] â€” Input Validation
-- [[Security/output-encoding]] â€” Output Encoding
+- [[Security/contextual-output-encoding]] â€” Output Encoding
 - [[Security/parameterized-queries]] â€” Parameterized Queries
-- [[Security/xss-prevention]] â€” XSS Prevention
+- [[Security/contextual-output-encoding]] â€” XSS Prevention
 
 ## Project Observations
 

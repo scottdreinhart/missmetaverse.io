@@ -55,7 +55,7 @@ Without pnpm workspace:
 
 ## Related Concepts
 
-- [pnpm Best Practices](../Package%20Manager/pnpm-best-practices.md) â€” pnpm workspace with pnpm
+- [pnpm Best Practices](../Package%20Manager/Package Manager/pnpm-package-manager.md) â€” pnpm workspace with pnpm
 - [Monorepo](Architecture/monorepo.md) â€” pnpm workspace with monorepo
 - [Dependency Management](Architecture/dependency-management.md) â€” pnpm workspace with dependency management
 

@@ -118,7 +118,7 @@ Redux does not apply to:
 
 ## Related Concepts
 
-- [[Redux/redux-state-management]] â€” Redux State Management
+- [[State Management/redux-state-management]] â€” Redux State Management
 - [[Redux/redux-store]] â€” Redux Store
 - [[Redux/redux-configuration]] â€” Redux Configuration
 - [[Redux/redux-complex-state]] â€” Redux Complex State

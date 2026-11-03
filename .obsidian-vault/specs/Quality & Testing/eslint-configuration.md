@@ -117,7 +117,7 @@ ESLint configuration does not apply to:
 
 ## Related Concepts
 
-- [[Prettier/prettier-configuration]] â€” Prettier Configuration
+- [[Quality & Testing/prettier-configuration]] â€” Prettier Configuration
 - [[TypeScript/typescript-eslint]] â€” TypeScript ESLint
 - [[ESLint/eslint-react]] â€” ESLint React
 - [[ESLint/eslint-security]] â€” ESLint Security

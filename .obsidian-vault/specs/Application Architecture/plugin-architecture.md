@@ -119,9 +119,9 @@ Plugin Architecture does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/plugin-architecture]] â€” Plugin Architecture
-- [[Application Architecture/plugin-system]] â€” Plugin System
-- [[Application Architecture/extension-points]] â€” Extension Points
-- [[Application Architecture/module-system]] â€” Module System
+- [[Application Architecture/plugin-architecture]] â€” Plugin System
+- [[Application Architecture/plugin-architecture]] â€” Extension Points
+- [[Application Architecture/modular-monolith-architecture]] â€” Module System
 
 ## Project Observations
 

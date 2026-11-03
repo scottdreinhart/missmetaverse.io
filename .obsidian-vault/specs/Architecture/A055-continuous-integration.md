@@ -56,7 +56,7 @@ Without CI:
 ## Related Concepts
 
 - [CI/CD GitHub Actions](../Integration/cicd-github-actions.md) â€” GitHub Actions CI/CD
-- [Testing Patterns](../Testing/testing-patterns.md) â€” Tests run in CI
+- [Testing Patterns](../Testing/Quality & Testing/test-driven-developments.md) â€” Tests run in CI
 - [Commit Management](../Commit%20Management/commit-management-integration.md) â€” CI validates commits
 
 ## Project Observations

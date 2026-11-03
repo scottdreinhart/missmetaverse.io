@@ -66,7 +66,7 @@ Without design tokens:
 - Read [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
 - Read [css-fundamentals](D/css-fundamentals.md) for CSS fundamentals
 - Read [shadcn-ui-patterns](D/shadcn-ui-patterns.md) for shadcn/ui component patterns
-- Read [shadcn-best-practices](D/shadcn-best-practices.md) for shadcn/ui best practices
+- Read [ShadCN/shadcn-ui-component-library](D/ShadCN/shadcn-ui-component-library.md) for shadcn/ui best practices
 - Read [atomic-design](https://bradfrost.com/blog/post/atomic-web-design/) for atomic design patterns
 
 ## Project Observations

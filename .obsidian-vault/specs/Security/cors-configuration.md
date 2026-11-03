@@ -120,8 +120,8 @@ CORS does not apply to:
 
 - [[Security/cors-configuration]] â€” CORS Configuration
 - [[Security/security-headers]] â€” Security Headers
-- [[Security/same-origin-policy]] â€” Same Origin Policy
-- [[Security/api-security]] â€” API Security
+- [[Security/cors-configuration]] â€” Same Origin Policy
+- [[Security/web-security]] â€” API Security
 
 ## Project Observations
 

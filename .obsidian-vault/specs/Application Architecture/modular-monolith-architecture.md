@@ -1,5 +1,5 @@
 ﻿---
-slug: modular-monolith-architecture
+slug: Application Architecture/modular-monolith-architecture-architecture
 ---
 
 # Modular Monolith Architecture
@@ -8,7 +8,7 @@ slug: modular-monolith-architecture
 > **Last Updated:** 2026-11-03
 
 ## concept_id
-`modular-monolith-architecture`
+`Application Architecture/modular-monolith-architecture-architecture`
 
 ## title
 Modular Monolith Architecture
@@ -48,7 +48,7 @@ declared
 - microservices-patterns
 
 ## related_concept_ids
-- modular-monolith-architecture
+- Application Architecture/modular-monolith-architecture-architecture
 - microservices-architecture
 - layered-architecture
 - hexagonal-architecture
@@ -118,7 +118,7 @@ Modular Monolith does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/modular-monolith-architecture]] â€” Modular Monolith Architecture
+- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture-architecture]] â€” Modular Monolith Architecture
 - [[Application Architecture/microservices-architecture]] â€” Microservices Architecture
 - [[Application Architecture/layered-architecture]] â€” Layered Architecture
 - [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture

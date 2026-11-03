@@ -55,7 +55,7 @@ Without factory pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Factory pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Factory pattern with DDD
 - [Abstract Factory](Architecture/abstract-factory.md) â€” Factory pattern with abstract factory
 - [Builder](Architecture/builder.md) â€” Factory pattern with builder
 

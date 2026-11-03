@@ -55,7 +55,7 @@ Without specification pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Specification pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Specification pattern with DDD
 - [Business Rules](Architecture/business-rules.md) â€” Specification pattern with business rules
 - [Validation](Architecture/validation.md) â€” Specification pattern with validation
 

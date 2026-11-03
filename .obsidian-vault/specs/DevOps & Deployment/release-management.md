@@ -120,8 +120,8 @@ Release Management does not apply to:
 
 - [[DevOps & Deployment/release-management]] â€” Release Management
 - [[DevOps & Deployment/semantic-versioning]] â€” Semantic Versioning
-- [[DevOps & Deployment/release-planning]] â€” Release Planning
-- [[DevOps & Deployment/release-notes]] â€” Release Notes
+- [[DevOps & Deployment/release-management]] â€” Release Planning
+- [[DevOps & Deployment/release-management]] â€” Release Notes
 
 ## Project Observations
 

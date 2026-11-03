@@ -56,7 +56,7 @@ Without Vite configuration:
 ## Related Concepts
 
 - [Vite Optimization](../Bundler/vite-optimization-security.md) â€” Vite configuration with optimization
-- [React Patterns](../React/react-patterns) â€” Vite configuration with React
+- [React Patterns](../React/Architecture/react-patterns) â€” Vite configuration with React
 - [Bundler Configuration](../Bundler/vite-configuration.md) â€” Vite configuration with bundling
 
 ## Project Observations

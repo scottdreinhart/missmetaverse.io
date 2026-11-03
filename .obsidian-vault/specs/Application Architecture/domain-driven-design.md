@@ -119,9 +119,9 @@ Domain-Driven Design does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/domain-driven-design]] â€” Domain-Driven Design
-- [[Application Architecture/ddd]] â€” DDD
-- [[Application Architecture/strategic-design]] â€” Strategic Design
-- [[Application Architecture/tactical-design]] â€” Tactical Design
+- [[Application Architecture/domain-driven-design]] â€” DDD
+- [[Application Architecture/domain-driven-design]] â€” Strategic Design
+- [[Application Architecture/domain-driven-design]] â€” Tactical Design
 
 ## Project Observations
 

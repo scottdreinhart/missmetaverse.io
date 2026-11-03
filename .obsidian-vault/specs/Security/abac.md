@@ -119,9 +119,9 @@ ABAC does not apply to:
 ## Related Concepts
 
 - [[Security/abac]] â€” ABAC
-- [[Security/attribute-based-access-control]] â€” Attribute-Based Access Control
-- [[Security/attribute-management]] â€” Attribute Management
-- [[Security/context-aware-access]] â€” Context-Aware Access
+- [[Security/abac]] â€” Attribute-Based Access Control
+- [[Security/abac]] â€” Attribute Management
+- [[Security/abac]] â€” Context-Aware Access
 
 ## Project Observations
 

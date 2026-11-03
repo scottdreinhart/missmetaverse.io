@@ -119,9 +119,9 @@ Domain Invariant does not apply to:
 ## Related Concepts
 
 - [[DDD/domain-invariant]] â€” Domain Invariant
-- [[DDD/business-rule]] â€” Business Rule
-- [[DDD/constraint]] â€” Constraint
-- [[DDD/consistency-rule]] â€” Consistency Rule
+- [[DDD/domain-invariant]] â€” Business Rule
+- [[DDD/domain-invariant]] â€” Constraint
+- [[DDD/domain-invariant]] â€” Consistency Rule
 
 ## Project Observations
 

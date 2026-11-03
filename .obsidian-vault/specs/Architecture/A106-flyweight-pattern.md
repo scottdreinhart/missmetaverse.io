@@ -55,7 +55,7 @@ Without flyweight pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Flyweight pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Flyweight pattern with DDD
 - [Singleton Pattern](Architecture/singleton-pattern.md) â€” Flyweight pattern with singleton
 - [Cache Pattern](Architecture/cache-pattern.md) â€” Flyweight pattern with cache
 

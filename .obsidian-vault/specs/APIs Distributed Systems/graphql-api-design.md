@@ -120,8 +120,8 @@ GraphQL does not apply to:
 
 - [[APIs Distributed Systems/graphql-api-design]] â€” GraphQL API Design
 - [[APIs Distributed Systems/rest-api-design]] â€” REST API Design
-- [[APIs Distributed Systems/apollo-graphql]] â€” Apollo GraphQL
-- [[APIs Distributed Systems/graphql-subscriptions]] â€” GraphQL Subscriptions
+- [[APIs Distributed Systems/graphql-api-design]] â€” Apollo GraphQL
+- [[APIs Distributed Systems/graphql-api-design]] â€” GraphQL Subscriptions
 
 ## Project Observations
 

@@ -119,9 +119,9 @@ Use Case does not apply to:
 ## Related Concepts
 
 - [[DDD/use-case]] â€” Use Case
-- [[DDD/application-use-case]] â€” Application Use Case
-- [[DDD/user-goal]] â€” User Goal
-- [[DDD/system-interaction]] â€” System Interaction
+- [[DDD/use-case]] â€” Application Use Case
+- [[DDD/use-case]] â€” User Goal
+- [[DDD/use-case]] â€” System Interaction
 
 ## Project Observations
 

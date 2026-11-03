@@ -119,8 +119,8 @@ Dependency Rule does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/dependency-rule]] â€” Dependency Rule
-- [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture Layers
-- [[Architecture/dependency-inversion]] â€” Dependency Inversion
+- [[Application Architecture/clean-architecture-layers-layers]] â€” Clean Architecture Layers
+- [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion
 - [[Coding Type Systems/dependency-hygiene]] â€” Dependency Hygiene
 
 ## Project Observations

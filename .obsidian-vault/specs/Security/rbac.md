@@ -119,9 +119,9 @@ RBAC does not apply to:
 ## Related Concepts
 
 - [[Security/rbac]] â€” RBAC
-- [[Security/role-based-access-control]] â€” Role-Based Access Control
-- [[Security/role-management]] â€” Role Management
-- [[Security/access-control]] â€” Access Control
+- [[Security/rbac]] â€” Role-Based Access Control
+- [[Security/rbac]] â€” Role Management
+- [[Security/rbac]] â€” Access Control
 
 ## Project Observations
 

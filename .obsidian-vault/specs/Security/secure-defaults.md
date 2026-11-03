@@ -119,9 +119,9 @@ Secure Defaults does not apply to:
 ## Related Concepts
 
 - [[Security/secure-defaults]] â€” Secure Defaults
-- [[Security/default-security]] â€” Default Security
-- [[Security/safe-defaults]] â€” Safe Defaults
-- [[Security/out-of-the-box-security]] â€” Out-of-the-Box Security
+- [[Security/secure-by-design]] â€” Default Security
+- [[Security/secure-by-design]] â€” Safe Defaults
+- [[Security/secure-by-design]] â€” Out-of-the-Box Security
 
 ## Project Observations
 

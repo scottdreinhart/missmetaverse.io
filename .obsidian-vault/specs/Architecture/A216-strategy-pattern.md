@@ -55,7 +55,7 @@ Without strategy pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Strategy pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Strategy pattern with DDD
 - [State Pattern](Architecture/state-pattern.md) â€” Strategy pattern with state
 - [Command Pattern](Architecture/command-pattern.md) â€” Strategy pattern with command
 

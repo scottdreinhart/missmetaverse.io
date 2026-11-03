@@ -120,8 +120,8 @@ Deny by Default does not apply to:
 
 - [[Security/deny-by-default]] â€” Deny by Default
 - [[Security/default-deny]] â€” Default Deny
-- [[Security/implicit-deny]] â€” Implicit Deny
-- [[Security/deny-all]] â€” Deny All
+- [[Security/deny-by-default]] â€” Implicit Deny
+- [[Security/deny-by-default]] â€” Deny All
 
 ## Project Observations
 

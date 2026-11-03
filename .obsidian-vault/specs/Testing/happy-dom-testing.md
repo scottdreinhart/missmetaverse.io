@@ -118,10 +118,10 @@ Happy DOM does not apply to:
 
 ## Related Concepts
 
-- [[Happy DOM/happy-dom-configuration]] â€” Happy DOM Configuration
-- [[Happy DOM/happy-dom-testing-library]] â€” Happy DOM Testing Library
-- [[Happy DOM/happy-dom-unit-testing]] â€” Happy DOM Unit Testing
-- [[Happy DOM/happy-dom-fast-testing]] â€” Happy DOM Fast Testing
+- [[Testing/happy-dom-testing]] â€” Happy DOM Configuration
+- [[Testing/happy-dom-testing]] â€” Happy DOM Testing Library
+- [[Testing/happy-dom-testing]] â€” Happy DOM Unit Testing
+- [[Testing/happy-dom-testing]] â€” Happy DOM Fast Testing
 
 ## Project Observations
 

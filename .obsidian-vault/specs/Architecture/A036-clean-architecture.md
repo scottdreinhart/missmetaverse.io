@@ -417,10 +417,10 @@ async function processRow(doc: DbDocument) { /* ... */ }
 ## Cross-References
 
 - [SOLID Principles](./solid-principles.md)
-- [DDD Patterns](./ddd-patterns.md)
+- [DDD Patterns](./Application Architecture/domain-driven-design.md)
 - [Architecture Patterns](./architecture-patterns.md)
 - [Atomic Design](./atomic-design.md)
-- [Coding Practices](./coding-practices.md)
+- [Coding Practices](./Architecture/clean-architecture.md)
 
 ---
 
@@ -582,7 +582,7 @@ const orderController = new OrderController(
 
 ### Integration with Other Notes
 - Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for single responsibility within each layer
-- Read [[ddd-patterns]] for domain model patterns within entities
+- Read [[Application Architecture/domain-driven-design]] for domain model patterns within entities
 - Read [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) for separating read/write models
 - Read [dependency-injection](https://en.wikipedia.org/wiki/Dependency_injection) for wiring dependencies at the boundary
 
@@ -604,7 +604,7 @@ const orderController = new OrderController(
 
 ## See Also
 - [[A001-abstract-factory-pattern]]
-- [[A002-abstract-factory-patterns]]
+- [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]
 - [[A005-active-record-pattern]]

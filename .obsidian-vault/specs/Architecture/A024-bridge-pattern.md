@@ -55,7 +55,7 @@ Without bridge pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Bridge pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Bridge pattern with DDD
 - [Adapter Pattern](Architecture/adapter-pattern.md) â€” Bridge pattern with adapter
 - [Facade Pattern](Architecture/facade-pattern.md) â€” Bridge pattern with facade
 

@@ -394,7 +394,7 @@ export class CreateOrderService {
 - read [[entity]] for entity patterns
 - read [[domain-invariant]] for domain invariant patterns
 - read [[application-service]] for application service patterns
-- read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
+- read [Application Architecture/domain-driven-design](D/Application Architecture/domain-driven-design.md) for domain-driven design patterns
 
 ### Common Pitfalls
 - Don't create one aggregate per table (aggregates don't map to tables)

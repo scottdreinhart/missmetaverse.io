@@ -55,7 +55,7 @@ Without resource lifecycle management:
 
 ## Related Concepts
 
-- [Pure Functions](Coding Type Systems/pure-functions-coding.md) â€” Pure functions benefit from resource lifecycle management
+- [Pure Functions](Coding Type Systems/Coding Type Systems/pure-functions.md) â€” Pure functions benefit from resource lifecycle management
 - [Explicit Error Modeling](Architecture/explicit-error-modeling.md) â€” Explicit error modeling supports resource lifecycle management
 - [Fail Fast](Architecture/fail-fast.md) â€” Fail fast supports resource lifecycle management
 

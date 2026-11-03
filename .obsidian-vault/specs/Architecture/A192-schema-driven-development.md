@@ -57,7 +57,7 @@ Manual validation leads to:
 
 - [Data-Driven Design](Architecture/data-driven-design.md) â€” Complementary approach
 - [Configuration-Driven Development](Architecture/configuration-driven-development.md) â€” Complementary approach
-- [TypeScript Best Practices](../TypeScript/ts-best-practices.md) â€” Type safety
+- [TypeScript Best Practices](../TypeScript/TypeScript/typescript-strict-mode.md) â€” Type safety
 
 ## Project Observations
 

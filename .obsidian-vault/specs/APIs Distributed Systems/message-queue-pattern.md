@@ -118,9 +118,9 @@ Message Queue does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/message-queue-pattern]] â€” Message Queue Pattern
-- [[APIs Distributed Systems/pub-sub-pattern]] â€” Pub-Sub Pattern
-- [[APIs Distributed Systems/event-driven-architecture]] â€” Event-Driven Architecture
+- [[APIs Distributed Systems/message-queue-pattern-pattern]] â€” Message Queue Pattern
+- [[APIs Distributed Systems/message-queue-pattern-pattern]] â€” Pub-Sub Pattern
+- [[Application Architecture/event-driven-architecture]] â€” Event-Driven Architecture
 - [[APIs Distributed Systems/saga-pattern]] â€” Saga Pattern
 
 ## Project Observations

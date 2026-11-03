@@ -118,9 +118,9 @@ ShadCN does not apply to:
 ## Related Concepts
 
 - [[TailwindsCSS/tailwind-css-utility-first-styling]] â€” Tailwind CSS Utility-First Styling
-- [[Architecture/design-systems]] â€” Design Systems
+- [[Architecture/atomic-design]] â€” Design Systems
 - [[Architecture/design-tokens]] â€” Design Tokens
-- [[Architecture/headless-components]] â€” Headless Components
+- [[Headless UI/headless-ui-components]] â€” Headless Components
 
 ## Project Observations
 

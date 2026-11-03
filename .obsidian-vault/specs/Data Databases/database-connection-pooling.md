@@ -118,10 +118,10 @@ Connection Pooling does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/connection-pooling]] â€” Connection Pooling
-- [[Data Databases/database-connection]] â€” Database Connection
-- [[Data Databases/resource-pooling]] â€” Resource Pooling
-- [[Data Databases/connection-management]] â€” Connection Management
+- [[Data Databases/database-connection-pooling-pooling]] â€” Connection Pooling
+- [[Data Databases/database-connection-pooling]] â€” Database Connection
+- [[Data Databases/database-connection-pooling]] â€” Resource Pooling
+- [[Data Databases/database-connection-pooling]] â€” Connection Management
 
 ## Project Observations
 

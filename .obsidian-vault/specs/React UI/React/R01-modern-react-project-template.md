@@ -367,7 +367,7 @@ export default defineConfig({
 
 
 ## See Also
-- [[R02-react-patterns]]
-- [[R03-react-performance-security]]
+- [[R02-Architecture/react-patterns]]
+- [[R03-React/modern-react-performance]]
 
 

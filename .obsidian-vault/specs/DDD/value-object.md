@@ -116,8 +116,8 @@ Value objects do not apply to:
 ## Related Concepts
 
 - [[DDD/entity]] â€” Entity
-- [[DDD/aggregate]] â€” Aggregate
-- [[Architecture/value-object-file-convention]] â€” Value Object File Convention
+- [[DDD/aggregate-root]] â€” Aggregate
+- [[Project File Conventions/value-object-file-convention]] â€” Value Object File Convention
 - [[DDD/domain-invariant]] â€” Domain Invariant
 
 ## Project Observations

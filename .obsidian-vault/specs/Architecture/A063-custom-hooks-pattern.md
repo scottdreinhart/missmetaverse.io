@@ -55,7 +55,7 @@ Without custom hooks:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) â€” Custom hooks with React
+- [React Patterns](../React/Architecture/react-patterns) â€” Custom hooks with React
 - [Headless UI Pattern](Architecture/headless-ui-pattern.md) â€” Custom hooks with headless UI
 - [Component Composition](Architecture/component-composition.md) â€” Custom hooks with composition
 

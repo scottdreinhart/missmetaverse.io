@@ -119,9 +119,9 @@ SEO Fundamentals does not apply to:
 ## Related Concepts
 
 - [[Web Frontend/seo-fundamentals]] â€” SEO Fundamentals
-- [[Web Frontend/meta-tags]] â€” Meta Tags
-- [[Web Frontend/structured-data]] â€” Structured Data
-- [[Web Frontend/content-optimization]] â€” Content Optimization
+- [[Web Frontend/seo-fundamentals]] â€” Meta Tags
+- [[Web Frontend/seo-fundamentals]] â€” Structured Data
+- [[Web Frontend/seo-fundamentals]] â€” Content Optimization
 
 ## Project Observations
 

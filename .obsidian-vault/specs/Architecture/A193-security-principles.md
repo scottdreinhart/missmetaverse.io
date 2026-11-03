@@ -508,9 +508,9 @@ interface OrderDto {
 
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
-- [DDD Patterns](./ddd-patterns.md)
+- [DDD Patterns](./Application Architecture/domain-driven-design.md)
 - [Architecture Patterns](./architecture-patterns.md)
-- [Coding Practices](./coding-practices.md)
+- [Coding Practices](./Architecture/clean-architecture.md)
 
 ---
 
@@ -653,10 +653,10 @@ pnpm eslint --ext .ts src/
 - **Code Review Agent**: Run when reviewing PRs that touch security-critical code
 
 ### Integration with Other Notes
-- Read [[react-security]] for React-specific security
+- Read [[Security/web-security]] for React-specific security
 - Read [input-validation](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html) for input validation patterns
 - Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for security in architecture
-- Read [[security-best-practices]] for additional security patterns
+- Read [[Security/web-security]] for additional security patterns
 
 ### Common Pitfalls
 - Don't trust client-side validation (always validate server-side)
@@ -677,7 +677,7 @@ pnpm eslint --ext .ts src/
 
 ## See Also
 - [[A001-abstract-factory-pattern]]
-- [[A002-abstract-factory-patterns]]
+- [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]
 - [[A005-active-record-pattern]]

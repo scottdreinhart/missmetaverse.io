@@ -119,9 +119,9 @@ Replication does not apply to:
 ## Related Concepts
 
 - [[Data Databases/database-replication]] â€” Database Replication
-- [[Data Databases/high-availability]] â€” High Availability
-- [[Data Databases/read-replicas]] â€” Read Replicas
-- [[Data Databases/disaster-recovery]] â€” Disaster Recovery
+- [[Data Databases/database-replication]] â€” High Availability
+- [[Data Databases/database-replication]] â€” Read Replicas
+- [[Data Databases/database-backup-recovery-recovery]] â€” Disaster Recovery
 
 ## Project Observations
 

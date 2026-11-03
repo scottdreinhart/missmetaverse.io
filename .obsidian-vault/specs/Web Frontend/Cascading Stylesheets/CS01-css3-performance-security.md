@@ -1,4 +1,4 @@
----
+﻿---
 slug: css3-performance-security
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -128,7 +128,7 @@ Hint to the browser about upcoming animations:
 }
 ```
 
-**Caution:** Don't overuse `will-change` — it consumes memory.
+**Caution:** Don't overuse `will-change` â€” it consumes memory.
 
 ### CSS Containment
 
@@ -474,13 +474,13 @@ button:focus-visible {
 
 ## Cross-References
 
-- See [tw-optimization-performance](D/tw-optimization-performance.md) for Tailwind CSS performance patterns
-- See [shadcn-best-practices](D/shadcn-best-practices.md) for component-level CSS practices
+- See [TailwindsCSS/tailwind-css-utility-first-styling](D/TailwindsCSS/tailwind-css-utility-first-styling.md) for Tailwind CSS performance patterns
+- See [ShadCN/shadcn-ui-component-library](D/ShadCN/shadcn-ui-component-library.md) for component-level CSS practices
 - See [html5-best-practices](D/html5-best-practices.md) for HTML5 integration with CSS
 
 
 ## See Also
 - [[CS02-css-fundamentals]]
-- [[CS03-css-media-queries]]
+- [[CS03-Web Frontend/responsive-design]]
 
 

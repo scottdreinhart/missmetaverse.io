@@ -55,8 +55,8 @@ Without type narrowing:
 
 ## Related Concepts
 
-- [TypeScript Best Practices](../TypeScript/ts-best-practices.md) â€” Type narrowing with TypeScript
-- [TypeScript Narrowing](../TypeScript/ts-narrowing.md) â€” Type narrowing with TypeScript
+- [TypeScript Best Practices](../TypeScript/TypeScript/typescript-strict-mode.md) â€” Type narrowing with TypeScript
+- [TypeScript Narrowing](../TypeScript/TypeScript/type-inference.md) â€” Type narrowing with TypeScript
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md) â€” Type narrowing with strict mode
 
 ## Project Observations

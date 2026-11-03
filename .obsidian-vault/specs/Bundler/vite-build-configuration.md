@@ -117,7 +117,7 @@ Vite configuration does not apply to:
 
 ## Related Concepts
 
-- [[Architecture/vite-configuration]] â€” Vite Configuration
+- [[Bundler/vite-build-configuration]] â€” Vite Configuration
 - [[Bundler/vite-plugins]] â€” Vite Plugins
 - [[Bundler/build-optimization]] â€” Build Optimization
 - [[Bundler/development-server]] â€” Development Server

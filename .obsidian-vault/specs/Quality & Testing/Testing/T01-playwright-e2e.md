@@ -1,5 +1,5 @@
 ﻿---
-slug: playwright-e2e
+slug: Testing/playwright-e2e-testing
 title: Playwright End-to-End Testing Guide
 description: Comprehensive guide for QA automation using Playwright with TypeScript for reliable E2E testing
 author: Copilot
@@ -728,7 +728,7 @@ export async function uploadFile(
 
 
 ## See Also
-- [[T02-testing-patterns]]
+- [[T02-Quality & Testing/test-driven-developments]]
 - [[T03-vitest-testing]]
 
 

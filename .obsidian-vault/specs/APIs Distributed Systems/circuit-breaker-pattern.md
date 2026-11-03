@@ -119,7 +119,7 @@ Circuit Breaker does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/circuit-breaker-pattern]] â€” Circuit Breaker Pattern
-- [[APIs Distributed Systems/retry-pattern]] â€” Retry Pattern
+- [[APIs Distributed Systems/retry-backoff-jitter]] â€” Retry Pattern
 - [[APIs Distributed Systems/timeout-pattern]] â€” Timeout Pattern
 - [[APIs Distributed Systems/bulkhead-pattern]] â€” Bulkhead Pattern
 

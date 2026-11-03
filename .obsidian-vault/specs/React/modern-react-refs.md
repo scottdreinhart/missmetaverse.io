@@ -121,7 +121,7 @@ Refs do not apply to:
 - [[React/modern-react-project-template]] â€” Modern React Project Template
 - [[React/modern-react-hooks]] â€” Modern React Hooks
 - [[React/modern-react-components]] â€” Modern React Components
-- [[React/modern-react-refs-dom]] â€” Modern React Refs DOM
+- [[React/modern-react-refs]] â€” Modern React Refs DOM
 
 ## Project Observations
 

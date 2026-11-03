@@ -1,5 +1,5 @@
 ﻿---
-slug: project-structure-mapping
+slug: Project File Conventions
 title: Project Structure Mapping
 description: Maps architectural patterns and concepts to actual file/folder structure in the project.
 author: Copilot
@@ -441,10 +441,10 @@ import { CreateUserUseCase } from '@/usecases/create-user.usecase'
 
 ### Integration with Other Notes
 - Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for Clean Architecture principles
-- Read [[ddd-patterns]] for DDD patterns
+- Read [[Application Architecture/domain-driven-design]] for DDD patterns
 - Read [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) for CQRS patterns
 - Read [repository-pattern](https://martinfowler.com/eaaCatalog/repository.html) for repository pattern
-- Read [ts-best-practices](D/ts-best-practices.md) for TypeScript best practices
+- Read [TypeScript/typescript-strict-mode](D/TypeScript/typescript-strict-mode.md) for TypeScript best practices
 
 ### Common Pitfalls
 - Don't create files in wrong folder (follow conventions)
@@ -464,7 +464,7 @@ import { CreateUserUseCase } from '@/usecases/create-user.usecase'
 
 ## See Also
 - [[A001-abstract-factory-pattern]]
-- [[A002-abstract-factory-patterns]]
+- [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]
 - [[A005-active-record-pattern]]

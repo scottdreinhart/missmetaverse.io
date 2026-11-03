@@ -53,9 +53,9 @@ Validation-only leads to:
 
 ## Related Concepts
 
-- [Boundary Validation](Architecture/coding-practices.md) â€” Parse at boundaries
-- [Make Invalid States Unrepresentable](Architecture/coding-practices.md) â€” Parsing enforces invariants
-- [Strict Typing](Architecture/coding-practices.md) â€” Parsed values are strongly typed
+- [Boundary Validation](Architecture/Architecture/clean-architecture.md) â€” Parse at boundaries
+- [Make Invalid States Unrepresentable](Architecture/Architecture/clean-architecture.md) â€” Parsing enforces invariants
+- [Strict Typing](Architecture/Architecture/clean-architecture.md) â€” Parsed values are strongly typed
 
 ## Project Observations
 

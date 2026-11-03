@@ -118,10 +118,10 @@ React Query does not apply to:
 
 ## Related Concepts
 
-- [[React Query/react-query-data-fetching]] â€” React Query Data Fetching
-- [[React Query/react-query-server-state]] â€” React Query Server State
-- [[React Query/react-query-caching]] â€” React Query Caching
-- [[React Query/react-query-configuration]] â€” React Query Configuration
+- [[Data Fetching/react-query-data-fetching]] â€” React Query Data Fetching
+- [[Data Fetching/react-query-data-fetching]] â€” React Query Server State
+- [[Data Fetching/react-query-data-fetching]] â€” React Query Caching
+- [[Data Fetching/react-query-data-fetching]] â€” React Query Configuration
 
 ## Project Observations
 

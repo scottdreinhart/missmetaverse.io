@@ -137,7 +137,7 @@ export interface Mitigation {
 ### Step 2: Perform STRIDE Analysis
 
 ```typescript
-// security/stride-analysis.ts
+// Security/threat-modeling-analysis.ts
 import { Threat, ThreatModel } from './threat-model'
 
 export class StrideAnalysis {

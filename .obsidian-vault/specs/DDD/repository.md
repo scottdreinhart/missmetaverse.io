@@ -120,10 +120,10 @@ Repositories do not apply to:
 
 ## Related Concepts
 
-- [[DDD/aggregate]] â€” Aggregate
+- [[DDD/aggregate-root]] â€” Aggregate
 - [[DDD/entity]] â€” Entity
 - [[DDD/value-object]] â€” Value Object
-- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
 - [[Architecture/clean-architecture]] â€” Clean Architecture
 
 ## Project Observations

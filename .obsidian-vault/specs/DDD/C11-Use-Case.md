@@ -418,7 +418,7 @@ export class CheckoutUseCase {
 - read [[domain-service]] for domain service patterns
 - read [[use-case]] for use case patterns
 - read [[event-sourcing]] for event sourcing patterns
-- read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
+- read [Application Architecture/domain-driven-design](D/Application Architecture/domain-driven-design.md) for domain-driven design patterns
 
 ### Common Pitfalls
 - Don't write use cases for simple systems (keep it lightweight)

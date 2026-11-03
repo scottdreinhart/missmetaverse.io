@@ -363,7 +363,7 @@ export class CreateOrderUseCase {
 - **Code Review Agent**: Run when reviewing PRs with DDD changes
 
 ### Integration with Other Notes
-- Read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
+- Read [Application Architecture/domain-driven-design](D/Application Architecture/domain-driven-design.md) for domain-driven design patterns
 - read [[aggregate-root]] for aggregate root patterns
 - read [[bounded-context]] for bounded context patterns
 - read [[entity]] for entity patterns

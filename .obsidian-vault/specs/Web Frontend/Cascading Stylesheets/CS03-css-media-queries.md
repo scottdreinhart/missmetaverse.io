@@ -1,6 +1,6 @@
----
-slug: css-media-queries
-title: CSS Media Queries — Types, Ranges, Features, and Selectors
+﻿---
+slug: Web Frontend/responsive-design
+title: CSS Media Queries â€” Types, Ranges, Features, and Selectors
 description: Comprehensive reference for CSS media queries including media types, media features, logical operators, container queries, and device-specific selectors.
 author: Copilot
 source: mdn-css
@@ -52,27 +52,27 @@ Media types define the **category of device** the styles apply to. Most are depr
 
 | Media Type | Description | Status |
 |-----------|-------------|--------|
-| `all` | Matches all devices | ✅ Recommended |
-| `screen` | Screen devices (monitors, phones, tablets) | ✅ Most common |
-| `print` | Print media / print preview | ✅ Common |
-| `speech` | Screen readers / speech synthesizers | ✅ Niche |
-| `tty` | Terminal devices with fixed-width characters | ❌ Deprecated |
-| `tv` | Television-type devices | ❌ Deprecated |
-| `projection` | Projected presentations | ❌ Deprecated |
-| `braille` | Braille tactile feedback devices | ❌ Deprecated |
-| `embossed` | Braille printers | ❌ Deprecated |
-| `aural` | Speech synthesizers | ❌ Deprecated (use `speech`) |
+| `all` | Matches all devices | âœ… Recommended |
+| `screen` | Screen devices (monitors, phones, tablets) | âœ… Most common |
+| `print` | Print media / print preview | âœ… Common |
+| `speech` | Screen readers / speech synthesizers | âœ… Niche |
+| `tty` | Terminal devices with fixed-width characters | âŒ Deprecated |
+| `tv` | Television-type devices | âŒ Deprecated |
+| `projection` | Projected presentations | âŒ Deprecated |
+| `braille` | Braille tactile feedback devices | âŒ Deprecated |
+| `embossed` | Braille printers | âŒ Deprecated |
+| `aural` | Speech synthesizers | âŒ Deprecated (use `speech`) |
 
 ### Recommended Usage
 
 ```css
-/* ✅ Modern: use media features, not types */
+/* âœ… Modern: use media features, not types */
 @media (min-width: 768px) { /* ... */ }
 
-/* ✅ For print: use the print type */
+/* âœ… For print: use the print type */
 @media print { /* ... */ }
 
-/* ✅ For screen: use the screen type */
+/* âœ… For screen: use the screen type */
 @media screen and (min-width: 768px) { /* ... */ }
 ```
 
@@ -177,11 +177,11 @@ Media features test **specific characteristics** of the device/environment.
 | Breakpoint | Width | Device |
 |-----------|-------|--------|
 | `xs` | `< 576px` | Small phones |
-| `sm` | `≥ 576px` | Large phones |
-| `md` | `≥ 768px` | Tablets |
-| `lg` | `≥ 1024px` | Small laptops |
-| `xl` | `≥ 1280px` | Desktops |
-| `2xl` | `≥ 1536px` | Large screens |
+| `sm` | `â‰¥ 576px` | Large phones |
+| `md` | `â‰¥ 768px` | Tablets |
+| `lg` | `â‰¥ 1024px` | Small laptops |
+| `xl` | `â‰¥ 1280px` | Desktops |
+| `2xl` | `â‰¥ 1536px` | Large screens |
 
 ### Device-Specific Breakpoints
 
@@ -560,11 +560,11 @@ body {
 5. **Accessibility**: Honor prefers-reduced-motion, prefers-contrast
 
 ### Tools to Use
-- **VS Code Extension**: Tailwind CSS IntelliSense — for responsive classes
-- **VS Code Extension**: Error Lens — for inline CSS error display
-- **Browser Extension**: Responsive Design Mode — for testing breakpoints
-- **Terminal Command**: `npx tailwindcss -i src/styles.css -o dist/styles.css` — build CSS
-- **Terminal Command**: `pnpm dev` — start dev server with hot reload
+- **VS Code Extension**: Tailwind CSS IntelliSense â€” for responsive classes
+- **VS Code Extension**: Error Lens â€” for inline CSS error display
+- **Browser Extension**: Responsive Design Mode â€” for testing breakpoints
+- **Terminal Command**: `npx tailwindcss -i src/styles.css -o dist/styles.css` â€” build CSS
+- **Terminal Command**: `pnpm dev` â€” start dev server with hot reload
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing PRs with CSS changes
@@ -593,7 +593,7 @@ body {
 
 ---
 
-*Source: MDN Web Docs — CSS Media Queries*
+*Source: MDN Web Docs â€” CSS Media Queries*
 *Last Verified: 2026-11-02*
 
 ## See Also

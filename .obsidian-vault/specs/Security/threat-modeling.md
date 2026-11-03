@@ -119,9 +119,9 @@ Threat Modeling does not apply to:
 ## Related Concepts
 
 - [[Security/threat-modeling]] â€” Threat Modeling
-- [[Security/security-threat-analysis]] â€” Security Threat Analysis
-- [[Security/stride]] â€” STRIDE
-- [[Security/attack-trees]] â€” Attack Trees
+- [[Security/threat-modeling]] â€” Security Threat Analysis
+- [[Security/threat-modeling]] â€” STRIDE
+- [[Security/threat-modeling]] â€” Attack Trees
 
 ## Project Observations
 

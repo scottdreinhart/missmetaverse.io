@@ -35,10 +35,10 @@ access_limitations: None
 research_notes: "Official Tailwind CSS documentation. Primary source for all Tailwind CSS features, configuration, and best practices."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 
 

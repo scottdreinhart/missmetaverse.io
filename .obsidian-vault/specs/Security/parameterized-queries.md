@@ -119,9 +119,9 @@ Parameterized Queries does not apply to:
 ## Related Concepts
 
 - [[Security/parameterized-queries]] â€” Parameterized Queries
-- [[Security/prepared-statements]] â€” Prepared Statements
-- [[Security/sql-parameters]] â€” SQL Parameters
-- [[Security/query-parameters]] â€” Query Parameters
+- [[Security/parameterized-queries]] â€” Prepared Statements
+- [[Security/parameterized-queries]] â€” SQL Parameters
+- [[Security/parameterized-queries]] â€” Query Parameters
 
 ## Project Observations
 

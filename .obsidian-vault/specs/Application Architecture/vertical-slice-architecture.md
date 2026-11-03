@@ -48,7 +48,7 @@ declared
 
 ## related_concept_ids
 - vertical-slice-architecture
-- modular-monolith
+- Application Architecture/modular-monolith-architecture
 - feature-based-architecture
 - cross-cutting-concerns
 
@@ -118,8 +118,8 @@ Vertical Slice Architecture does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/vertical-slice-architecture]] â€” Vertical Slice Architecture
-- [[Application Architecture/modular-monolith]] â€” Modular Monolith
-- [[Application Architecture/feature-based-architecture]] â€” Feature-Based Architecture
+- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture]] â€” Modular Monolith
+- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture-architecture]] â€” Feature-Based Architecture
 - [[Application Architecture/cross-cutting-concerns]] â€” Cross-Cutting Concerns
 
 ## Project Observations

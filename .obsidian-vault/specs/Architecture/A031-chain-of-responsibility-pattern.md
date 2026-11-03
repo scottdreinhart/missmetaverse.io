@@ -55,7 +55,7 @@ Without chain of responsibility pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Chain of responsibility pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Chain of responsibility pattern with DDD
 - [Mediator Pattern](Architecture/mediator-pattern.md) â€” Chain of responsibility pattern with mediator
 - [Strategy Pattern](Architecture/strategy-pattern.md) â€” Chain of responsibility pattern with strategy
 

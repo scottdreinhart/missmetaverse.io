@@ -119,9 +119,9 @@ Separation of Duties does not apply to:
 ## Related Concepts
 
 - [[Security/separation-of-duties]] â€” Separation of Duties
-- [[Security/sod]] â€” SoD
-- [[Security/segregation-of-duties]] â€” Segregation of Duties
-- [[Security/dual-control]] â€” Dual Control
+- [[Security/separation-of-duties]] â€” SoD
+- [[Security/separation-of-duties]] â€” Segregation of Duties
+- [[Security/separation-of-duties]] â€” Dual Control
 
 ## Project Observations
 

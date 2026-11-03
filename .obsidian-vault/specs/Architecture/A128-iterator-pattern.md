@@ -55,7 +55,7 @@ Without iterator pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Iterator pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Iterator pattern with DDD
 - [Iterator Protocol](Architecture/iterator-protocol.md) â€” Iterator pattern with iterator protocol
 - [Iterator](Architecture/iterator.md) â€” Iterator pattern with iterator
 

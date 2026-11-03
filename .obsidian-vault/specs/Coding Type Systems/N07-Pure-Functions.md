@@ -1,5 +1,5 @@
 ﻿---
-slug: pure-functions-coding
+slug: Coding Type Systems/pure-functions
 sources:
   - https://www.typescriptlang.org/
   - https://react.dev/
@@ -56,7 +56,7 @@ Without pure functions:
 
 ## Related Concepts
 
-- [Immutability](Coding Type Systems/immutability-coding.md) â€” Immutability supports pure functions
+- [Immutability](Coding Type Systems/Coding Type Systems/immutability.md) â€” Immutability supports pure functions
 - [TDD Pattern](Architecture/tdd-pattern.md) â€” TDD benefits from pure functions
 - [Command-Query Separation](Architecture/command-query-separation.md) â€” Command-query separation supports pure functions
 
@@ -289,9 +289,9 @@ describe('Pure Functions', () => {
 - **Testing Agent**: Run when writing tests for pure functions
 
 ### Integration with Other Notes
-- read [[immutability-coding]] for immutable data patterns
+- read [[Coding Type Systems/immutability]] for immutable data patterns
 - read [[exhaustive-handling]] for exhaustive pattern matching
-- read [[pure-functions-coding]] for pure function patterns
+- read [[Coding Type Systems/pure-functions]] for pure function patterns
 
 ### Common Pitfalls
 - Don't mutate input parameters (create new objects)

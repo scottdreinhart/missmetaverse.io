@@ -457,14 +457,14 @@ SELECT * FROM daily_sales WHERE sale_date > '2026-01-01';
 
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
-- [DDD Patterns](./ddd-patterns.md)
+- [DDD Patterns](./Application Architecture/domain-driven-design.md)
 - [Architecture Patterns](./architecture-patterns.md)
-- [Coding Practices](./coding-practices.md)
+- [Coding Practices](./Architecture/clean-architecture.md)
 
 
 ## See Also
 - [[A001-abstract-factory-pattern]]
-- [[A002-abstract-factory-patterns]]
+- [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]
 - [[A005-active-record-pattern]]

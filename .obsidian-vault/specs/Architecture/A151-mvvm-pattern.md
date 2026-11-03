@@ -55,7 +55,7 @@ Without MVVM:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) â€” MVVM with React
+- [React Patterns](../React/Architecture/react-patterns) â€” MVVM with React
 - [State Machines](Architecture/state-machines.md) â€” MVVM with state machines
 - [Statecharts](Architecture/statecharts.md) â€” MVVM with statecharts
 

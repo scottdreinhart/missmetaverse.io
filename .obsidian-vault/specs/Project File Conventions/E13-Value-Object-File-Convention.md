@@ -57,7 +57,7 @@ Without `*.value-object.ts` convention:
 
 - [Value Object (DDD)](DDD/value-object.md) â€” Value object pattern is the pattern behind `*.value-object.ts`
 - [Entity File Convention](Project File Conventions/entity-file-convention.md) â€” Entity file convention is related
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” DDD patterns use `*.value-object.ts`
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” DDD patterns use `*.value-object.ts`
 
 ## Project Observations
 

@@ -120,8 +120,8 @@ EDA does not apply to:
 
 - [[Application Architecture/event-driven-architecture]] â€” Event-Driven Architecture
 - [[Data Databases/event-sourcing]] â€” Event Sourcing
-- [[Architecture/cqs-pattern]] â€” Command-Query Separation
-- [[APIs Distributed Systems/message-queue]] â€” Message Queue
+- [[Architecture/command-query-separation]] â€” Command-Query Separation
+- [[APIs Distributed Systems/message-queue-pattern]] â€” Message Queue
 
 ## Project Observations
 

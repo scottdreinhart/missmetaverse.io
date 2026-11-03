@@ -119,9 +119,9 @@ Defense in Depth does not apply to:
 ## Related Concepts
 
 - [[Security/defense-in-depth]] â€” Defense in Depth
-- [[Security/layered-security]] â€” Layered Security
-- [[Security/multiple-layers]] â€” Multiple Layers
-- [[Security/security-layers]] â€” Security Layers
+- [[Security/defense-in-depth]] â€” Layered Security
+- [[Security/defense-in-depth]] â€” Multiple Layers
+- [[Security/defense-in-depth]] â€” Security Layers
 
 ## Project Observations
 

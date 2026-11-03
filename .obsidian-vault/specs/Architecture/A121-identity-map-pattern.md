@@ -55,7 +55,7 @@ Without identity map pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Identity map pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Identity map pattern with DDD
 - [Repository Pattern](Architecture/repository-pattern-ddd.md) â€” Identity map pattern with repository
 - [Data Mapper Pattern](Architecture/data-mapper-pattern.md) â€” Identity map pattern with data mapper
 

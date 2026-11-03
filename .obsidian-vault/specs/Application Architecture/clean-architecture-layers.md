@@ -118,10 +118,10 @@ Clean Layers do not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture Layers
+- [[Application Architecture/clean-architecture-layers-layers]] â€” Clean Architecture Layers
 - [[Application Architecture/dependency-rule]] â€” Dependency Rule
-- [[Application Architecture/entities-use-cases]] â€” Entities Use Cases
-- [[Application Architecture/interfaces-adapters]] â€” Interfaces Adapters
+- [[Application Architecture/clean-architecture-layers]] â€” Entities Use Cases
+- [[Application Architecture/clean-architecture-layers]] â€” Interfaces Adapters
 
 ## Project Observations
 

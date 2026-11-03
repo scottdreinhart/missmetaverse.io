@@ -119,9 +119,9 @@ Application Service does not apply to:
 ## Related Concepts
 
 - [[DDD/application-service]] â€” Application Service
-- [[DDD/application-layer]] â€” Application Layer
-- [[DDD/use-case-coordinator]] â€” Use Case Coordinator
-- [[DDD/workflow]] â€” Workflow
+- [[DDD/application-service]] â€” Application Layer
+- [[DDD/application-service]] â€” Use Case Coordinator
+- [[DDD/application-service]] â€” Workflow
 
 ## Project Observations
 

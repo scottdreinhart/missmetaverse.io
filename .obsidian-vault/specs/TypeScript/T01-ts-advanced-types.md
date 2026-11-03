@@ -1,5 +1,5 @@
----
-slug: ts-advanced-types
+﻿---
+slug: TypeScript/generics
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/types-from-types.html
   - https://www.typescriptlang.org/docs/handbook/2/conditional-types.html
@@ -213,7 +213,7 @@ type CamelCase<S extends string> = S extends `${infer First}_${infer Rest}`
 | Feature | Type Assertion | Type Guard |
 |---------|---------------|------------|
 | Syntax | `as Type` or `<Type>` | `x is Type` function |
-| Runtime check | ❌ No | ✅ Yes |
+| Runtime check | âŒ No | âœ… Yes |
 | Compiler trust | You assert, compiler trusts | Compiler verifies logic |
 | Safety | Can lie to compiler | Safe |
 | Use case | Known at runtime, compiler can't see | Filter/branch based on type |
@@ -387,11 +387,11 @@ export function isUser(obj: unknown): obj is { id: string; name: string } {
 5. **Use type guards**: For safe type narrowing
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `typescript` — for type checking
-- **npm Package**: `zod` — for runtime validation
-- **Terminal Command**: `tsc --noEmit` — check types
-- **Terminal Command**: `pnpm test` — run tests
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `typescript` â€” for type checking
+- **npm Package**: `zod` â€” for runtime validation
+- **Terminal Command**: `tsc --noEmit` â€” check types
+- **Terminal Command**: `pnpm test` â€” run tests
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing complex types
@@ -399,8 +399,8 @@ export function isUser(obj: unknown): obj is { id: string; name: string } {
 
 ### Integration with Other Notes
 - read [[typescript-strict-mode]] for strict mode configuration
-- read [[ts-narrowing]] for type narrowing techniques
-- read [[ts-security-best-practices]] for type security
+- read [[TypeScript/type-inference]] for type narrowing techniques
+- read [[ts-Security/web-security]] for type security
 
 ### Common Pitfalls
 - Don't use type assertions when type guards will work
@@ -420,10 +420,10 @@ export function isUser(obj: unknown): obj is { id: string; name: string } {
 
 
 ## See Also
-- [[T02-ts-best-practices]]
+- [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
-- [[T04-ts-fundamentals]]
-- [[T05-ts-narrowing]]
-- [[T06-ts-optimization-performance]]
+- [[T04-TypeScript/typescript-strict-mode]]
+- [[T05-TypeScript/type-inference]]
+- [[T06-TypeScript/typescript-strict-mode]]
 
 

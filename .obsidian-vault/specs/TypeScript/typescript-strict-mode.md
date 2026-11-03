@@ -119,9 +119,9 @@ Strict mode does not apply to:
 ## Related Concepts
 
 - [[Coding Type Systems/strict-typing]] â€” Strict Typing
-- [[Coding Type Systems/compile-time-checks]] â€” Compile-Time Checks
-- [[Coding Type Systems/type-inference]] â€” Type Inference
-- [[Coding Type Systems/generics]] â€” Generics
+- [[TypeScript/compile-time-checks]] â€” Compile-Time Checks
+- [[TypeScript/type-inference]] â€” Type Inference
+- [[TypeScript/generics]] â€” Generics
 
 ## Project Observations
 

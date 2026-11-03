@@ -55,7 +55,7 @@ Without composite pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Composite pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Composite pattern with DDD
 - [Decorator Pattern](Architecture/decorator-pattern.md) â€” Composite pattern with decorator
 - [Facade Pattern](Architecture/facade-pattern.md) â€” Composite pattern with facade
 

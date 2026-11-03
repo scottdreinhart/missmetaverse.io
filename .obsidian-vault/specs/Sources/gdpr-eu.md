@@ -29,10 +29,10 @@ access_limitations: Public regulation
 research_notes: "EU GDPR Article 5(1)(c) establishes the data minimization principle: personal data must be adequate, relevant, and limited to what is necessary."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 
 

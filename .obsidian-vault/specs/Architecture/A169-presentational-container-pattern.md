@@ -55,7 +55,7 @@ Without presentational/container pattern:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) â€” Presentational/container with React
+- [React Patterns](../React/Architecture/react-patterns) â€” Presentational/container with React
 - [Headless Components](Architecture/headless-components.md) â€” Presentational/container with headless components
 - [Component Composition](Architecture/component-composition.md) â€” Presentational/container with composition
 

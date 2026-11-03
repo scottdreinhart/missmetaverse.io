@@ -42,10 +42,10 @@ access_limitations: Book â€” full text not inspected. Claims verified again
 research_notes: "The original DDD book by Eric Evans. The definitive source for all DDD tactical patterns. Bibliographic metadata verified via publisher catalog. Full text inspection not possible."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[martin-fowler-patterns]]
 
 

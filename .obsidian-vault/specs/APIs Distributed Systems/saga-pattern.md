@@ -119,9 +119,9 @@ Saga does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/saga-pattern]] â€” Saga Pattern
-- [[APIs Distributed Systems/orchestration-pattern]] â€” Orchestration Pattern
-- [[APIs Distributed Systems/choreography-pattern]] â€” Choreography Pattern
-- [[APIs Distributed Systems/compensating-action]] â€” Compensating Action
+- [[APIs Distributed Systems/saga-pattern]] â€” Orchestration Pattern
+- [[APIs Distributed Systems/saga-pattern]] â€” Choreography Pattern
+- [[APIs Distributed Systems/saga-pattern]] â€” Compensating Action
 
 ## Project Observations
 

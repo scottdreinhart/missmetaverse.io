@@ -119,7 +119,7 @@ Ubiquitous language does not address:
 
 - [[DDD/bounded-context]] â€” Bounded Context
 - [[DDD/context-map]] â€” Context Map
-- [[Architecture/domain-driven-design]] â€” Domain-Driven Design
+- [[Application Architecture/domain-driven-design]] â€” Domain-Driven Design
 
 ## Project Observations
 

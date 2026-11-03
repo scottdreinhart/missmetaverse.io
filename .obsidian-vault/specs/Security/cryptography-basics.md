@@ -119,9 +119,9 @@ Cryptography Basics does not apply to:
 ## Related Concepts
 
 - [[Security/cryptography-basics]] â€” Cryptography Basics
-- [[Security/encryption]] â€” Encryption
-- [[Security/hashing]] â€” Hashing
-- [[Security/symmetric-asymmetric]] â€” Symmetric/Asymmetric
+- [[Security/cryptography-basics]] â€” Encryption
+- [[Security/cryptography-basics]] â€” Hashing
+- [[Security/cryptography-basics]] â€” Symmetric/Asymmetric
 
 ## Project Observations
 

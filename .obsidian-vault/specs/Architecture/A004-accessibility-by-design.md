@@ -60,7 +60,7 @@ Accessibility as an afterthought leads to:
 ## Related Concepts
 
 - [HTML Semantic Patterns](../Hypertext%20HTML/html-semantic-patterns.md) â€” Semantic HTML is accessible
-- [React Patterns](../React/react-patterns) â€” Accessible React components
+- [React Patterns](../React/Architecture/react-patterns) â€” Accessible React components
 - [ShadCN UI](../ShadCN/shadcn-ui-patterns.md) â€” Accessible components by default
 
 ## Project Observations

@@ -118,10 +118,10 @@ Functional Core, Imperative Shell does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/functional-core-shell]] â€” Functional Core, Imperative Shell
-- [[Application Architecture/functional-core]] â€” Functional Core
-- [[Application Architecture/imperative-shell]] â€” Imperative Shell
-- [[Application Architecture/fcs-pattern]] â€” FCS Pattern
+- [[Application Architecture/functional-core-shell-shell]] â€” Functional Core, Imperative Shell
+- [[Application Architecture/functional-core-shell]] â€” Functional Core
+- [[Application Architecture/functional-core-shell]] â€” Imperative Shell
+- [[Application Architecture/functional-core-shell]] â€” FCS Pattern
 
 ## Project Observations
 

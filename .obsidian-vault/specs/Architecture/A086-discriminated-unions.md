@@ -55,7 +55,7 @@ Without discriminated unions:
 
 ## Related Concepts
 
-- [TypeScript Best Practices](../TypeScript/ts-best-practices.md) â€” Discriminated unions with TypeScript
+- [TypeScript Best Practices](../TypeScript/TypeScript/typescript-strict-mode.md) â€” Discriminated unions with TypeScript
 - [Type Narrowing](Architecture/type-narrowing.md) â€” Discriminated unions with type narrowing
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md) â€” Discriminated unions with strict mode
 

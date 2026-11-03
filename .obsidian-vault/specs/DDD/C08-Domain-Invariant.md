@@ -418,7 +418,7 @@ describe('AccountEntity Invariants', () => {
 - read [[entity]] for entity patterns
 - read [[value-object]] for value object patterns
 - read [[domain-service]] for domain service patterns
-- read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
+- read [Application Architecture/domain-driven-design](D/Application Architecture/domain-driven-design.md) for domain-driven design patterns
 
 ### Common Pitfalls
 - Don't skip invariant checks (always validate in constructor/methods)

@@ -119,9 +119,9 @@ Secrets Management does not apply to:
 ## Related Concepts
 
 - [[Security/secrets-management]] â€” Secrets Management
-- [[Security/secret-rotation]] â€” Secret Rotation
-- [[Security/key-management]] â€” Key Management
-- [[Security/credential-management]] â€” Credential Management
+- [[Security/secrets-management]] â€” Secret Rotation
+- [[Security/secrets-management]] â€” Key Management
+- [[Security/secrets-management]] â€” Credential Management
 
 ## Project Observations
 

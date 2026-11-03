@@ -120,8 +120,8 @@ Query Optimization does not apply to:
 
 - [[Data Databases/query-optimization]] â€” Query Optimization
 - [[Data Databases/database-indexes]] â€” Database Indexes
-- [[Data Databases/execution-plans]] â€” Execution Plans
-- [[Data Databases/database-performance]] â€” Database Performance
+- [[Data Databases/query-optimization]] â€” Execution Plans
+- [[Data Databases/query-optimization]] â€” Database Performance
 
 ## Project Observations
 

@@ -119,9 +119,9 @@ Source Control Strategies do not apply to:
 ## Related Concepts
 
 - [[Commit Management/source-control-strategies]] â€” Source Control Strategies
-- [[Commit Management/git-flow]] â€” Git Flow
-- [[Commit Management/trunk-based-development]] â€” Trunk-Based Development
-- [[Commit Management/github-flow]] â€” GitHub Flow
+- [[Commit Management/source-control-strategies]] â€” Git Flow
+- [[Commit Management/source-control-strategies]] â€” Trunk-Based Development
+- [[Commit Management/source-control-strategies]] â€” GitHub Flow
 
 ## Project Observations
 

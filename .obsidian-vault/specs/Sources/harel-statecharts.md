@@ -1,4 +1,4 @@
----
+﻿---
 slug: harel-statecharts
 source_id: harel-statecharts
 title: "Statecharts: A Visual Formalism for Complex Systems"
@@ -21,9 +21,9 @@ access_limitations: Academic paper, freely available
 research_notes: "The original academic paper that formalized statecharts. Foundation for all modern state machine libraries including XState."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 

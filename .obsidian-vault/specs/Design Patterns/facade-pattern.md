@@ -119,7 +119,7 @@ Facade does not apply to:
 ## Related Concepts
 
 - [[Design Patterns/facade-pattern]] â€” Facade Pattern
-- [[Design Patterns/api-gateway-pattern]] â€” API Gateway Pattern
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]] â€” API Gateway Pattern
 - [[Design Patterns/mediator-pattern]] â€” Mediator Pattern
 - [[Design Patterns/adapter-pattern]] â€” Adapter Pattern
 

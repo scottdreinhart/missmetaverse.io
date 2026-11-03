@@ -1104,7 +1104,7 @@ sequenceDiagram
 ### 8.1 Vault Sources
 
 - [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) â€” Robert C. Martin's Clean Architecture principles
-- [[ddd-patterns]] â€” Domain-Driven Design patterns by Eric Evans
+- [[Application Architecture/domain-driven-design]] â€” Domain-Driven Design patterns by Eric Evans
 - [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) â€” Command Query Responsibility Segregation pattern
 - [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) â€” Event-Driven Architecture patterns and topologies
 - [rest-api-design](D/rest-api-design.md) â€” REST API design best practices
@@ -1114,7 +1114,7 @@ sequenceDiagram
 - [circuit-breaker-pattern](https://martinfowler.com/bliki/CircuitBreaker.html) â€” Circuit Breaker pattern for resilience
 - [transactional-outbox](https://microservices.io/patterns/data/transactional-outbox.html) â€” Transactional Outbox pattern for event consistency
 - [saga-pattern](https://microsoft.github.io/dotnet/patterns/assets/saga/Saga.png) â€” Saga pattern for distributed transactions
-- [[modular-monolith]] â€” Modular Monolith architecture
+- [[Application Architecture/modular-monolith-architecture]] â€” Modular Monolith architecture
 - [dependency-injection](https://en.wikipedia.org/wiki/Dependency_injection) â€” Dependency Injection patterns
 - [solid-principles](https://en.wikipedia.org/wiki/SOLID) â€” SOLID principles
 - [microservices](https://martinfowler.com/microservices.html) â€” Microservices architecture considerations
@@ -1160,7 +1160,7 @@ sequenceDiagram
 
 ## See Also
 - [[A001-abstract-factory-pattern]]
-- [[A002-abstract-factory-patterns]]
+- [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]
 - [[A005-active-record-pattern]]

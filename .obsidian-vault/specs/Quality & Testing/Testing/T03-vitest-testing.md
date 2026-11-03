@@ -660,9 +660,9 @@ test('test 2', () => {
 
 ## Cross-References
 
-- See [react-performance-security](D/react-performance-security.md) for React testing patterns
+- See [React/modern-react-performance](D/React/modern-react-performance.md) for React testing patterns
 - See [vite-optimization-security](D/vite-optimization-security.md) for Vite configuration
-- See [pnpm-best-practices](D/pnpm-best-practices.md) for package management
+- See [Package Manager/pnpm-package-manager](D/Package Manager/pnpm-package-manager.md) for package management
 - See [playwright-patterns](D/playwright-patterns.md) for E2E testing with Playwright
 
 ---
@@ -794,9 +794,9 @@ pnpm test -- --ui
 
 ### Integration with Other Notes
 - Read [playwright-patterns](D/playwright-patterns.md) for E2E testing
-- Read [[testing-patterns]] for testing strategies
-- Read [react-performance-security](D/react-performance-security.md) for React testing patterns
-- Read [pnpm-best-practices](D/pnpm-best-practices.md) for package management
+- Read [[Quality & Testing/test-driven-development]] for testing strategies
+- Read [React/modern-react-performance](D/React/modern-react-performance.md) for React testing patterns
+- Read [Package Manager/pnpm-package-manager](D/Package Manager/pnpm-package-manager.md) for package management
 - Read [vite-optimization-security](D/vite-optimization-security.md) for Vite configuration
 
 ### Common Pitfalls
@@ -817,7 +817,7 @@ pnpm test -- --ui
 
 
 ## See Also
-- [[T01-playwright-e2e]]
-- [[T02-testing-patterns]]
+- [[T01-Testing/playwright-e2e-testing]]
+- [[T02-Quality & Testing/test-driven-developments]]
 
 

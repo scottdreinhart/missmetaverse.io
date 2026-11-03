@@ -119,7 +119,7 @@ Command does not apply to:
 ## Related Concepts
 
 - [[Design Patterns/command-pattern]] â€” Command Pattern
-- [[Architecture/cqs-pattern]] â€” Command-Query Separation
+- [[Architecture/command-query-separation]] â€” Command-Query Separation
 - [[Data Databases/event-sourcing]] â€” Event Sourcing
 - [[Design Patterns/mediator-pattern]] â€” Mediator Pattern
 

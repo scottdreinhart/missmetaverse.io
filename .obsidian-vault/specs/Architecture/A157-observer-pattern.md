@@ -55,7 +55,7 @@ Without observer pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Observer pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Observer pattern with DDD
 - [Event-Driven Architecture](Architecture/event-driven-architecture.md) â€” Observer pattern with EDA
 - [State Pattern](Architecture/state-pattern.md) â€” Observer pattern with state
 

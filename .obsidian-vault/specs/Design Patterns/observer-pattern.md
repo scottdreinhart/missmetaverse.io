@@ -119,8 +119,8 @@ Observer does not apply to:
 ## Related Concepts
 
 - [[Design Patterns/observer-pattern]] â€” Observer Pattern
-- [[Design Patterns/event-emitter]] â€” Event Emitter
-- [[Design Patterns/pub-sub-pattern]] â€” Pub-Sub Pattern
+- [[Design Patterns/observer-pattern]] â€” Event Emitter
+- [[Design Patterns/message-queue-pattern]] â€” Pub-Sub Pattern
 - [[Design Patterns/reactive-programming]] â€” Reactive Programming
 
 ## Project Observations

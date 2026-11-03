@@ -119,8 +119,8 @@ Accessibility by design does not apply to:
 ## Related Concepts
 
 - [[Coding Type Systems/internationalization-by-design]] â€” Internationalization by Design
-- [[Architecture/design-systems]] â€” Design Systems
-- [[Architecture/headless-components]] â€” Headless Components
+- [[Architecture/atomic-design]] â€” Design Systems
+- [[Headless UI/headless-ui-components]] â€” Headless Components
 - [[Quality & Testing/observability]] â€” Observability
 
 ## Project Observations

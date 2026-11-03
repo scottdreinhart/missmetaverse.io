@@ -609,7 +609,7 @@ location = /nginx-health {
 - [Integration Master Config](./integration-master-config.md)
 - [CI/CD GitHub Actions](./cicd-github-actions.md)
 - [Vite Optimization & Security](./vite-optimization-security.md)
-- [TypeScript Best Practices](./TypeScript/ts-best-practices.md)
+- [TypeScript Best Practices](./TypeScript/TypeScript/typescript-strict-mode.md)
 - [HTML5 Best Practices](./Hypertext%20Markup/html5-best-practices.md)
 - [CSS3 Performance & Security](./Cascading%20Stylesheets/css3-performance-security.md)
 

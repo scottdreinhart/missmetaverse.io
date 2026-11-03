@@ -119,9 +119,9 @@ Sharding does not apply to:
 ## Related Concepts
 
 - [[Data Databases/database-sharding]] â€” Database Sharding
-- [[Data Databases/horizontal-scaling]] â€” Horizontal Scaling
-- [[Data Databases/data-distribution]] â€” Data Distribution
-- [[Data Databases/distributed-databases]] â€” Distributed Databases
+- [[Data Databases/database-sharding]] â€” Horizontal Scaling
+- [[Data Databases/database-sharding]] â€” Data Distribution
+- [[Data Databases/database-sharding]] â€” Distributed Databases
 
 ## Project Observations
 

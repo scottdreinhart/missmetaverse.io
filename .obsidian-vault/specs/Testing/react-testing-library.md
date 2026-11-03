@@ -118,10 +118,10 @@ React Testing Library does not apply to:
 
 ## Related Concepts
 
-- [[React Testing Library/react-testing-library-component-testing]] â€” React Testing Library Component Testing
-- [[React Testing Library/react-testing-library-user-interaction]] â€” React Testing Library User Interaction
-- [[React Testing Library/react-testing-library-accessibility]] â€” React Testing Library Accessibility
-- [[React Testing Library/react-testing-library-configuration]] â€” React Testing Library Configuration
+- [[Testing/react-testing-library]] â€” React Testing Library Component Testing
+- [[Testing/react-testing-library]] â€” React Testing Library User Interaction
+- [[Testing/react-testing-library]] â€” React Testing Library Accessibility
+- [[Testing/react-testing-library]] â€” React Testing Library Configuration
 
 ## Project Observations
 

@@ -121,7 +121,7 @@ Error Boundaries do not apply to:
 - [[React/modern-react-project-template]] â€” Modern React Project Template
 - [[React/modern-react-hooks]] â€” Modern React Hooks
 - [[React/modern-react-components]] â€” Modern React Components
-- [[React/modern-react-error-handling]] â€” Modern React Error Handling
+- [[React/modern-react-error-boundaries]] â€” Modern React Error Handling
 
 ## Project Observations
 

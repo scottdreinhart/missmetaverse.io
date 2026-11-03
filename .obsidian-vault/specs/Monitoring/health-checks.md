@@ -119,9 +119,9 @@ Health Checks does not apply to:
 ## Related Concepts
 
 - [[Monitoring/health-checks]] â€” Health Checks
-- [[Monitoring/readiness-probes]] â€” Readiness Probes
-- [[Monitoring/liveness-probes]] â€” Liveness Probes
-- [[Monitoring/service-health]] â€” Service Health
+- [[Monitoring/health-checks]] â€” Readiness Probes
+- [[Monitoring/health-checks]] â€” Liveness Probes
+- [[Monitoring/health-checks]] â€” Service Health
 
 ## Project Observations
 

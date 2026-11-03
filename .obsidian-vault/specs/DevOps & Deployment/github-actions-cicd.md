@@ -118,10 +118,10 @@ GitHub Actions does not apply to:
 
 ## Related Concepts
 
-- [[DevOps & Deployment/github-actions-workflow]] â€” GitHub Actions Workflow
-- [[DevOps & Deployment/github-actions-configuration]] â€” GitHub Actions Configuration
-- [[DevOps & Deployment/github-actions-testing]] â€” GitHub Actions Testing
-- [[DevOps & Deployment/github-actions-deployment]] â€” GitHub Actions Deployment
+- [[DevOps & Deployment/github-actions-cicd]] â€” GitHub Actions Workflow
+- [[DevOps & Deployment/github-actions-cicd]] â€” GitHub Actions Configuration
+- [[DevOps & Deployment/github-actions-cicd]] â€” GitHub Actions Testing
+- [[DevOps & Deployment/github-actions-cicd]] â€” GitHub Actions Deployment
 
 ## Project Observations
 

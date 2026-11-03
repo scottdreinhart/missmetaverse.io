@@ -118,7 +118,7 @@ Recoil does not apply to:
 
 ## Related Concepts
 
-- [[Recoil/recoil-state-management]] â€” Recoil State Management
+- [[State Management/recoil-state-management]] â€” Recoil State Management
 - [[Recoil/recoil-atoms]] â€” Recoil Atoms
 - [[Recoil/recoil-configuration]] â€” Recoil Configuration
 - [[Recoil/recoil-derived-state]] â€” Recoil Derived State

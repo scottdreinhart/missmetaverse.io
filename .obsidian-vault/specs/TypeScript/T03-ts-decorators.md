@@ -1,4 +1,4 @@
----
+﻿---
 slug: ts-decorators
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/decorators.html
@@ -31,8 +31,8 @@ Decorators are a special kind of declaration that can annotate or modify classes
 | Feature | Legacy (`--experimentalDecorators`) | Standard (TS 5.0+) |
 |---------|-------------------------------------|---------------------|
 | Enable | Requires `--experimentalDecorators` | Enabled by default |
-| Parameter decorators | ✅ Supported | ❌ Not supported |
-| `--emitDecoratorMetadata` | ✅ Supported | ❌ Not compatible |
+| Parameter decorators | âœ… Supported | âŒ Not supported |
+| `--emitDecoratorMetadata` | âœ… Supported | âŒ Not compatible |
 | Type checking | Limited | Full type checking |
 | Emit | Different transformation | Different transformation |
 | Standard status | Experimental | TC39 Stage 3 |
@@ -125,7 +125,7 @@ class Greeter {
 ```
 
 - Arguments: `(target, propertyKey)`
-- Cannot modify the property — only observe it
+- Cannot modify the property â€” only observe it
 - Commonly used with `reflect-metadata` for metadata
 
 ### Parameter Decorators (Legacy Only)
@@ -507,11 +507,11 @@ class User {
 5. **Use validation**: For property validation
 
 ### Tools to Use
-- **VS Code Extension**: Error Lens — for inline error display
-- **npm Package**: `reflect-metadata` — for metadata reflection
-- **npm Package**: `typescript` — for type checking
-- **Terminal Command**: `tsc --noEmit` — check types
-- **Terminal Command**: `pnpm test` — run tests
+- **VS Code Extension**: Error Lens â€” for inline error display
+- **npm Package**: `reflect-metadata` â€” for metadata reflection
+- **npm Package**: `typescript` â€” for type checking
+- **Terminal Command**: `tsc --noEmit` â€” check types
+- **Terminal Command**: `pnpm test` â€” run tests
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing decorator implementations
@@ -519,8 +519,8 @@ class User {
 
 ### Integration with Other Notes
 - read [[typescript-strict-mode]] for strict mode configuration
-- read [[ts-advanced-types]] for advanced type patterns
-- read [[ts-security-best-practices]] for security decorators
+- read [[TypeScript/generics]] for advanced type patterns
+- read [[ts-Security/web-security]] for security decorators
 
 ### Common Pitfalls
 - Don't mix legacy and standard decorators
@@ -552,8 +552,8 @@ The context parameter provides metadata about the decorated member:
 
 ## Decorator Evaluation Order
 
-1. Parameter decorators → Method/Accessor/Property decorators (for each instance member)
-2. Parameter decorators → Method/Accessor/Property decorators (for each static member)
+1. Parameter decorators â†’ Method/Accessor/Property decorators (for each instance member)
+2. Parameter decorators â†’ Method/Accessor/Property decorators (for each static member)
 3. Parameter decorators (for constructor)
 4. Class decorators (for the class)
 
@@ -583,10 +583,10 @@ function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescrip
 ## Best Practices
 
 1. **Prefer standard decorators** (TS 5.0+) for new code
-2. **Type your decorator functions** — use `ClassMethodDecoratorContext` and generics
+2. **Type your decorator functions** â€” use `ClassMethodDecoratorContext` and generics
 3. **Use `addInitializer`** for constructor-side effects
-4. **Stack decorators carefully** — order matters when decorators have side effects
-5. **Don't mix legacy and standard** — they have incompatible type-checking and emit
+4. **Stack decorators carefully** â€” order matters when decorators have side effects
+5. **Don't mix legacy and standard** â€” they have incompatible type-checking and emit
 
 
 
@@ -596,10 +596,10 @@ function LogMethod(target: any, propertyKey: string, descriptor: PropertyDescrip
 
 
 ## See Also
-- [[T01-ts-advanced-types]]
-- [[T02-ts-best-practices]]
-- [[T04-ts-fundamentals]]
-- [[T05-ts-narrowing]]
-- [[T06-ts-optimization-performance]]
+- [[T01-TypeScript/generics]]
+- [[T02-TypeScript/typescript-strict-mode]]
+- [[T04-TypeScript/typescript-strict-mode]]
+- [[T05-TypeScript/type-inference]]
+- [[T06-TypeScript/typescript-strict-mode]]
 
 

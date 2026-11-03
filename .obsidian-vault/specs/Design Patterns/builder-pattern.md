@@ -120,8 +120,8 @@ Builder does not apply to:
 
 - [[Design Patterns/builder-pattern]] â€” Builder Pattern
 - [[Design Patterns/factory-pattern]] â€” Factory Pattern
-- [[Design Patterns/abstract-factory-pattern]] â€” Abstract Factory Pattern
-- [[Design Patterns/immutable-objects]] â€” Immutable Objects
+- [[Architecture/abstract-factory-pattern]] â€” Abstract Factory Pattern
+- [[Coding Type Systems/immutability]] â€” Immutable Objects
 
 ## Project Observations
 

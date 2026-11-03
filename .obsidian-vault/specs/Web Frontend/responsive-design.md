@@ -119,9 +119,9 @@ Responsive Design does not apply to:
 ## Related Concepts
 
 - [[Web Frontend/responsive-design]] â€” Responsive Design
-- [[Web Frontend/mobile-first-design]] â€” Mobile-First Design
-- [[Web Frontend/fluid-layouts]] â€” Fluid Layouts
-- [[Web Frontend/media-queries]] â€” Media Queries
+- [[Web Frontend/responsive-design]] â€” Mobile-First Design
+- [[Web Frontend/responsive-design]] â€” Fluid Layouts
+- [[Web Frontend/responsive-design]] â€” Media Queries
 
 ## Project Observations
 

@@ -1,4 +1,4 @@
----
+﻿---
 slug: seemann-dd
 source_id: seemann-dd
 title: "Dependency Injection in .NET"
@@ -21,9 +21,9 @@ access_limitations: Paid book
 research_notes: "Definitive reference for Dependency Injection in .NET. Defines Composition Root pattern and contrasts DI containers with manual composition."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 

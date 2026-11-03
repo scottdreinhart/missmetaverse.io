@@ -57,7 +57,7 @@ Imperative programming leads to:
 
 - [Data-Driven Design](Architecture/data-driven-design.md) â€” Complementary approach
 - [Configuration-Driven Development](Architecture/configuration-driven-development.md) â€” Declarative configuration
-- [React Patterns](../React/react-patterns) â€” React is declarative
+- [React Patterns](../React/Architecture/react-patterns) â€” React is declarative
 
 ## Project Observations
 

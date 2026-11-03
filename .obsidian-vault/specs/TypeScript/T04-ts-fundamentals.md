@@ -1,5 +1,5 @@
----
-slug: ts-fundamentals
+﻿---
+slug: TypeScript/typescript-strict-mode
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/basic-types.html
   - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
@@ -21,7 +21,7 @@ tags:
   - interfaces
   - basics
 
-# TypeScript Fundamentals — Types & Interfaces
+# TypeScript Fundamentals â€” Types & Interfaces
 
 
 ## Static Type Checking
@@ -30,14 +30,14 @@ TypeScript is a **static type checker** that predicts what code will do *before*
 
 ### Key Benefits
 - **Bug prevention**: Catches typos, uncallable values, missing properties before runtime
-- **Tooling**: Powers IDE features — autocomplete, go-to-definition, refactoring
+- **Tooling**: Powers IDE features â€” autocomplete, go-to-definition, refactoring
 - **Documentation**: Types serve as living documentation for code shape
 
-### `tsc` — The TypeScript Compiler
-- Compiles `.ts` → `.js` (erasing type annotations)
-- Type annotations are **erased** at compile time — they don't affect runtime behavior
+### `tsc` â€” The TypeScript Compiler
+- Compiles `.ts` â†’ `.js` (erasing type annotations)
+- Type annotations are **erased** at compile time â€” they don't affect runtime behavior
 - Can emit with errors (`tsc hello.ts`) or block emission (`tsc --noEmitOnError hello.ts`)
-- Supports **downleveling**: transpiling newer JS to older targets (ES6 → ES5)
+- Supports **downleveling**: transpiling newer JS to older targets (ES6 â†’ ES5)
 
 ## Primitives
 
@@ -51,7 +51,7 @@ TypeScript is a **static type checker** that predicts what code will do *before*
 | `undefined` | `undefined` | Uninitialized values |
 | `null` | `null` | Absent value |
 
-> **Note:** `String`, `Number`, `Boolean` (capitalized) refer to special built-in wrapper objects — avoid them. Use lowercase `string`, `number`, `boolean`.
+> **Note:** `String`, `Number`, `Boolean` (capitalized) refer to special built-in wrapper objects â€” avoid them. Use lowercase `string`, `number`, `boolean`.
 
 ## Arrays
 
@@ -61,11 +61,11 @@ let numbers: number[] = [1, 2, 3];
 let strings: Array<string> = ["a", "b"];
 ```
 
-## `any` — The Escape Hatch
+## `any` â€” The Escape Hatch
 
 ```typescript
 let obj: any = { x: 0 };
-obj.foo();    // OK — no type checking
+obj.foo();    // OK â€” no type checking
 obj();        // OK
 obj = "hello";// OK
 ```
@@ -96,7 +96,7 @@ async function getFavoriteNumber(): Promise<number> {
 }
 ```
 
-> **Rule of thumb:** Use fewer type annotations than you think — TypeScript infers most types automatically.
+> **Rule of thumb:** Use fewer type annotations than you think â€” TypeScript infers most types automatically.
 
 ## Object Types
 
@@ -152,7 +152,7 @@ type Primitive = string | number | boolean | bigint | symbol | undefined | null;
 ```
 
 - Names for **any** type (not just objects)
-- Not distinct — aliases are exactly as if you wrote the aliased type
+- Not distinct â€” aliases are exactly as if you wrote the aliased type
 - Cannot be re-opened (unlike interfaces)
 
 ## Interfaces
@@ -177,11 +177,11 @@ interface Window { ts: TypeScriptAPI; }
 | Feature | Interface | Type |
 |---------|-----------|------|
 | Extending | `extends` | Intersection `&` |
-| Re-opening | ✅ Yes | ❌ No |
-| Union/Intersection | ❌ No | ✅ Yes |
-| Primitive aliases | ❌ No | ✅ Yes |
+| Re-opening | âœ… Yes | âŒ No |
+| Union/Intersection | âŒ No | âœ… Yes |
+| Primitive aliases | âŒ No | âœ… Yes |
 | Error messages | Shows interface name | May show inline type |
-| Performance | Often faster for `extends` | — |
+| Performance | Often faster for `extends` | â€” |
 
 > **Heuristic:** Use `interface` until you need features from `type`.
 
@@ -209,7 +209,7 @@ function compare(a: string, b: string): -1 | 0 | 1 {
   return a === b ? 0 : a > b ? 1 : -1;
 }
 
-// as const — makes all properties literal
+// as const â€” makes all properties literal
 const req = { url: "https://example.com", method: "GET" } as const;
 // req.method has type "GET", not string
 ```
@@ -226,7 +226,7 @@ function doSomething(x: string | null) {
   }
 }
 
-// Non-null assertion operator (!) — use with caution
+// Non-null assertion operator (!) â€” use with caution
 function liveDangerously(x?: number | null) {
   console.log(x!.toFixed()); // asserts x is not null/undefined
 }
@@ -264,10 +264,10 @@ enum Color { Red, Orange, Yellow, Green, Blue, Violet }
 
 
 ## See Also
-- [[T01-ts-advanced-types]]
-- [[T02-ts-best-practices]]
+- [[T01-TypeScript/generics]]
+- [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
-- [[T05-ts-narrowing]]
-- [[T06-ts-optimization-performance]]
+- [[T05-TypeScript/type-inference]]
+- [[T06-TypeScript/typescript-strict-mode]]
 
 

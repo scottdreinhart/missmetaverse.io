@@ -118,7 +118,7 @@ Zustand does not apply to:
 
 ## Related Concepts
 
-- [[Zustand/zustand-state-management]] â€” Zustand State Management
+- [[State Management/zustand-state-management]] â€” Zustand State Management
 - [[Zustand/zustand-store]] â€” Zustand Store
 - [[Zustand/zustand-configuration]] â€” Zustand Configuration
 - [[Zustand/zustand-simple-state]] â€” Zustand Simple State

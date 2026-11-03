@@ -55,7 +55,7 @@ Without headless UI:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) â€” Headless UI with React
+- [React Patterns](../React/Architecture/react-patterns) â€” Headless UI with React
 - [Design Systems](Architecture/design-systems.md) â€” Headless UI with design systems
 - [Component Composition](Architecture/component-composition.md) â€” Headless UI with composition
 

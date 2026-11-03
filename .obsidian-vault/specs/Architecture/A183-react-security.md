@@ -1,5 +1,5 @@
 ﻿---
-slug: react-security
+slug: Security/web-security
 sources:
   - https://react.dev/reference/react
   - https://owasp.org/www-project-web-security-testing-guide/
@@ -55,7 +55,7 @@ Without React security:
 
 ## Related Concepts
 
-- [[React/react-patterns|React Patterns]] â€” React security with React
+- [[React/Architecture/react-patterns|React Patterns]] â€” React security with React
 - [[security-principles|Security Principles]] â€” React security with security
 - [[input-validation|Input Validation]] â€” React security with input validation
 

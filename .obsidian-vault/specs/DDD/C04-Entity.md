@@ -321,7 +321,7 @@ export class CreateUserUseCase {
 - read [[value-object]] for value object patterns
 - read [[domain-invariant]] for domain invariant patterns
 - read [[application-service]] for application service patterns
-- read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
+- read [Application Architecture/domain-driven-design](D/Application Architecture/domain-driven-design.md) for domain-driven design patterns
 
 ### Common Pitfalls
 - Don't make everything an entity (use value objects when appropriate)

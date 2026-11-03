@@ -55,7 +55,7 @@ Without transaction script pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Transaction script pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Transaction script pattern with DDD
 - [Service Layer Pattern](Architecture/service-layer-pattern.md) â€” Transaction script pattern with service layer
 - [Business Logic](Architecture/business-logic.md) â€” Transaction script pattern with business logic
 

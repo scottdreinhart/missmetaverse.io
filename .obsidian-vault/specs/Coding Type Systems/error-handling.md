@@ -119,9 +119,9 @@ Error Handling does not apply to:
 ## Related Concepts
 
 - [[Coding Type Systems/error-handling]] â€” Error Handling
-- [[Coding Type Systems/exception-handling]] â€” Exception Handling
-- [[Coding Type Systems/error-recovery]] â€” Error Recovery
-- [[Coding Type Systems/error-reporting]] â€” Error Reporting
+- [[Coding Type Systems/error-handling]] â€” Exception Handling
+- [[Coding Type Systems/error-handling]] â€” Error Recovery
+- [[Coding Type Systems/error-handling]] â€” Error Reporting
 
 ## Project Observations
 

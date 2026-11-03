@@ -103,7 +103,7 @@ Combined read/write models lead to:
 - Read [api-versioning](https://restfulapi.net/versioning/) for versioning CQRS endpoints
 
 ### Common Pitfalls
-- Don't use CQRS for simple CRUD (see [[modular-monolith]])
+- Don't use CQRS for simple CRUD (see [[Application Architecture/modular-monolith-architecture]])
 - Don't forget eventual consistency (see [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture))
 - Don't mix read/write logic in the same handler
 - Don't create separate databases without a good reason (CQRS doesn't require it)

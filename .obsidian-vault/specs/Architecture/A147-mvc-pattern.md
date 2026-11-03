@@ -55,7 +55,7 @@ Without MVC:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) â€” MVC with React
+- [React Patterns](../React/Architecture/react-patterns) â€” MVC with React
 - [State Machines](Architecture/state-machines.md) â€” MVC with state machines
 - [Statecharts](Architecture/statecharts.md) â€” MVC with statecharts
 

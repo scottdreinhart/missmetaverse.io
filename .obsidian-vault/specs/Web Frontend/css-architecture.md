@@ -119,9 +119,9 @@ CSS Architecture does not apply to:
 ## Related Concepts
 
 - [[Web Frontend/css-architecture]] â€” CSS Architecture
-- [[Web Frontend/bem-methodology]] â€” BEM Methodology
-- [[Web Frontend/css-modules]] â€” CSS Modules
-- [[Web Frontend/style-scoping]] â€” Style Scoping
+- [[Web Frontend/css-architecture]] â€” BEM Methodology
+- [[Web Frontend/css-architecture]] â€” CSS Modules
+- [[Web Frontend/css-architecture]] â€” Style Scoping
 
 ## Project Observations
 

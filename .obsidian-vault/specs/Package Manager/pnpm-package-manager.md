@@ -48,7 +48,7 @@ declared
 - martinfowler-patterns
 
 ## related_concept_ids
-- pnpm-best-practices
+- Package Manager/pnpm-package-manager
 - pnpm-workspace
 - npm-package-manager
 - yarn-package-manager
@@ -118,10 +118,10 @@ pnpm does not apply to:
 
 ## Related Concepts
 
-- [[Package Manager/pnpm-best-practices]] â€” pnpm Best Practices
-- [[Package Manager/pnpm-workspace]] â€” pnpm Workspace
-- [[Package Manager/npm-package-manager]] â€” npm Package Manager
-- [[Package Manager/yarn-package-manager]] â€” yarn Package Manager
+- [[Package Manager/Package Manager/pnpm-package-manager]] â€” pnpm Best Practices
+- [[Package Manager/pnpm-package-manager]] â€” pnpm Workspace
+- [[Package Manager/pnpm-package-manager]] â€” npm Package Manager
+- [[Package Manager/pnpm-package-manager]] â€” yarn Package Manager
 
 ## Project Observations
 

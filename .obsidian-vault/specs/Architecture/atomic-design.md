@@ -128,12 +128,12 @@ Atomic design does not directly address:
 
 ## Related Concepts
 
-- [[Architecture/atoms]] â€” Atoms
-- [[Architecture/molecules]] â€” Molecules
-- [[Architecture/organisms]] â€” Organisms
-- [[Architecture/templates]] â€” Templates
-- [[Architecture/pages]] â€” Pages
-- [[Architecture/design-systems]] â€” Design Systems
+- [[Architecture/atomic-design]] â€” Atoms
+- [[Architecture/atomic-design]] â€” Molecules
+- [[Architecture/atomic-design]] â€” Organisms
+- [[Architecture/atomic-design]] â€” Templates
+- [[Architecture/atomic-design]] â€” Pages
+- [[Architecture/atomic-design]] â€” Design Systems
 
 ## Project Observations
 

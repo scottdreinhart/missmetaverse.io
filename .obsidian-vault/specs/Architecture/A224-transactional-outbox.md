@@ -56,7 +56,7 @@ Without outbox:
 ## Related Concepts
 
 - [Event-Driven Architecture](Architecture/event-driven-architecture.md) â€” Outbox enables reliable EDA
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Domain Events
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Domain Events
 - [Saga Pattern](Architecture/architecture-patterns.md) â€” Often used with outbox
 
 ## Project Observations

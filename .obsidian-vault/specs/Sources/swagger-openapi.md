@@ -1,4 +1,4 @@
----
+﻿---
 slug: swagger-openapi
 source_id: swagger-openapi
 title: "OpenAPI Specification"
@@ -23,9 +23,9 @@ access_limitations: Free public specification
 research_notes: "Official OpenAPI 3.1 specification. Primary source for REST API versioning, backward compatibility, and contract-first development patterns."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 

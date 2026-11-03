@@ -116,8 +116,8 @@ Entities do not apply to:
 ## Related Concepts
 
 - [[DDD/value-object]] â€” Value Object
-- [[DDD/aggregate]] â€” Aggregate
-- [[Architecture/entity-file-convention]] â€” Entity File Convention
+- [[DDD/aggregate-root]] â€” Aggregate
+- [[Project File Conventions/entity-file-convention]] â€” Entity File Convention
 - [[DDD/domain-invariant]] â€” Domain Invariant
 
 ## Project Observations

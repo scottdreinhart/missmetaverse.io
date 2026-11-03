@@ -55,7 +55,7 @@ Without command pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Command pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Command pattern with DDD
 - [Strategy Pattern](Architecture/strategy-pattern.md) â€” Command pattern with strategy
 - [Mediator Pattern](Architecture/mediator-pattern.md) â€” Command pattern with mediator
 

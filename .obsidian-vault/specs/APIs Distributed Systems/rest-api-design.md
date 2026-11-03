@@ -120,8 +120,8 @@ REST Design does not apply to:
 
 - [[APIs Distributed Systems/rest-api-design]] â€” REST API Design
 - [[APIs Distributed Systems/api-versioning]] â€” API Versioning
-- [[APIs Distributed Systems/hateoas]] â€” HATEOAS
-- [[APIs Distributed Systems/api-gateway]] â€” API Gateway
+- [[APIs Distributed Systems/rest-api-design]] â€” HATEOAS
+- [[APIs Distributed Systems/api-gateway-pattern]] â€” API Gateway
 
 ## Project Observations
 

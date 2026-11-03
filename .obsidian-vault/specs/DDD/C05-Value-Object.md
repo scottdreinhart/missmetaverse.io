@@ -405,7 +405,7 @@ describe('MoneyValueObject', () => {
 - read [[aggregate]] for aggregate patterns
 - read [[domain-service]] for domain service patterns
 - read [immutable-data](D/immutable-data.md) for immutable data patterns
-- read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
+- read [Application Architecture/domain-driven-design](D/Application Architecture/domain-driven-design.md) for domain-driven design patterns
 
 ### Common Pitfalls
 - Don't make value objects mutable (use readonly)

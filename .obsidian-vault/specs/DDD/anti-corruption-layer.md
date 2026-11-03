@@ -121,8 +121,8 @@ ACL does not apply to:
 
 - [[DDD/bounded-context]] â€” Bounded Context
 - [[DDD/context-map]] â€” Context Map
-- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
-- [[Architecture/adapter]] â€” Adapter Pattern
+- [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Design Patterns/adapter-pattern]] â€” Adapter Pattern
 
 ## Project Observations
 

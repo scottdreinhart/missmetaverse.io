@@ -591,15 +591,15 @@ build: {
 ## Cross-References
 
 - [Vite Optimization & Security](./vite-optimization-security.md)
-- [TypeScript Best Practices](./TypeScript/ts-best-practices.md)
-- [TypeScript tsconfig Reference](./TypeScript/ts-tsconfig.md)
-- [React Performance & Security](./React/react-performance-security.md)
-- [pnpm Best Practices](./Package%20Manager/pnpm-best-practices.md)
+- [TypeScript Best Practices](./TypeScript/TypeScript/typescript-strict-mode.md)
+- [TypeScript tsconfig Reference](./TypeScript/TypeScript/typescript-configuration.md)
+- [React Performance & Security](./React/React/modern-react-performance.md)
+- [pnpm Best Practices](./Package%20Manager/Package Manager/pnpm-package-manager.md)
 - [Vitest Testing](./Testing/vitest-testing.md)
 - [HTML5 Best Practices](./Hypertext%20Markup/html5-best-practices.md)
 - [CSS3 Performance & Security](./Cascading%20Stylesheets/css3-performance-security.md)
-- [Tailwind CSS Optimization](./TailwindsCSS/tw-optimization-performance.md)
-- [shadcn/ui Best Practices](./ShadCN/shadcn-best-practices.md)
+- [Tailwind CSS Optimization](./TailwindsCSS/TailwindsCSS/tailwind-css-utility-first-styling.md)
+- [shadcn/ui Best Practices](./ShadCN/ShadCN/shadcn-ui-component-library.md)
 
 ## See Also
 - [[I01-cicd-github-actions]]

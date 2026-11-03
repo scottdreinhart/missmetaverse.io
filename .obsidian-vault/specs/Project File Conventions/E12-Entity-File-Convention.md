@@ -57,7 +57,7 @@ Without `*.entity.ts` convention:
 
 - [Entity (DDD)](DDD/entity.md) â€” Entity pattern is the pattern behind `*.entity.ts`
 - [Value Object File Convention](Project File Conventions/value-object-file-convention.md) â€” Value object file convention is related
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” DDD patterns use `*.entity.ts`
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” DDD patterns use `*.entity.ts`
 
 ## Project Observations
 
@@ -333,7 +333,7 @@ src/
 - read [aggregate](D/aggregate.md) for aggregate patterns
 - read [value-object](D/value-object.md) for value object patterns
 - read [repository-pattern](D/repository-pattern.md) for repository patterns
-- read [project-structure-mapping](D/project-structure-mapping.md) for project structure mapping
+- read [Project File Conventions](D/Project File Conventions.md) for project structure mapping
 
 ### Common Pitfalls
 - Don't put business logic in entity files (use domain services)

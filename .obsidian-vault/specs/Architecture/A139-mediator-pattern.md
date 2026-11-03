@@ -55,7 +55,7 @@ Without mediator pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Mediator pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Mediator pattern with DDD
 - [Chain of Responsibility Pattern](Architecture/chain-of-responsibility-pattern.md) â€” Mediator pattern with chain of responsibility
 - [Command Pattern](Architecture/command-pattern.md) â€” Mediator pattern with command
 

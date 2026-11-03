@@ -55,7 +55,7 @@ Without atomic design:
 
 ## Related Concepts
 
-- [React Patterns](../React/react-patterns) â€” Atomic design with React
+- [React Patterns](../React/Architecture/react-patterns) â€” Atomic design with React
 - [Design Systems](Architecture/design-systems.md) â€” Atomic design with design systems
 - [Design Tokens](Architecture/design-tokens.md) â€” Atomic design with design tokens
 

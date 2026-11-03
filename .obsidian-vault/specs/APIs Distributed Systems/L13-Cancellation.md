@@ -55,7 +55,7 @@ Without cancellation:
 
 ## Related Concepts
 
-- [Timeouts](APIs Distributed Systems/timeouts.md) â€” Timeouts complement cancellation
+- [Timeouts](APIs Distributed Systems/timeout-pattern.md) â€” Timeouts complement cancellation
 - [Retry with Backoff](Architecture/retry-with-backoff.md) â€” Retry with backoff works with cancellation
 - [Circuit Breaker](Architecture/circuit-breaker-pattern.md) â€” Circuit breaker works with cancellation
 

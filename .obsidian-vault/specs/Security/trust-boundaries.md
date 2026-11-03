@@ -119,9 +119,9 @@ Trust Boundaries does not apply to:
 ## Related Concepts
 
 - [[Security/trust-boundaries]] â€” Trust Boundaries
-- [[Security/trust-zones]] â€” Trust Zones
-- [[Security/security-boundaries]] â€” Security Boundaries
-- [[Security/perimeter-security]] â€” Perimeter Security
+- [[Security/trust-boundaries]] â€” Trust Zones
+- [[Security/trust-boundaries]] â€” Security Boundaries
+- [[Security/trust-boundaries]] â€” Perimeter Security
 
 ## Project Observations
 

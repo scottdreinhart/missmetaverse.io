@@ -118,10 +118,10 @@ Headless UI does not apply to:
 
 ## Related Concepts
 
-- [[Headless UI/headless-ui-accessible-components]] â€” Headless UI Accessible Components
-- [[Headless UI/headless-ui-custom-styling]] â€” Headless UI Custom Styling
-- [[Headless UI/headless-ui-configuration]] â€” Headless UI Configuration
-- [[Headless UI/headless-ui-react]] â€” Headless UI React
+- [[Headless UI/headless-ui-components]] â€” Headless UI Accessible Components
+- [[Headless UI/headless-ui-components]] â€” Headless UI Custom Styling
+- [[Headless UI/headless-ui-components]] â€” Headless UI Configuration
+- [[Headless UI/headless-ui-components]] â€” Headless UI React
 
 ## Project Observations
 

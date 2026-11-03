@@ -469,10 +469,10 @@ alias: {
 ## Cross-References
 
 - [Integration Master Config](integration-master-config.md)
-- [TypeScript tsconfig Reference](ts-tsconfig.md)
+- [TypeScript tsconfig Reference](TypeScript/typescript-configuration.md)
 - [Vite Optimization & Security](./vite-optimization-security.md)
 - [Vitest Testing](vitest-testing.md)
-- [Playwright E2E Testing](playwright-e2e.md)
+- [Playwright E2E Testing](Testing/playwright-e2e-testing.md)
 - [Linting & Husky Pipeline](linting-husky-pipeline.md)
 
 ## See Also

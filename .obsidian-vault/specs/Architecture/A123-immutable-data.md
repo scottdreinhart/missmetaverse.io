@@ -55,9 +55,9 @@ Mutable state leads to:
 
 ## Related Concepts
 
-- [Pure Functions](Architecture/coding-practices.md) â€” Pure functions don't mutate
-- [Explicit Error Modeling](Architecture/coding-practices.md) â€” Immutability prevents hidden state changes
-- [React Patterns](../React/react-patterns) â€” React state should be immutable
+- [Pure Functions](Architecture/Architecture/clean-architecture.md) â€” Pure functions don't mutate
+- [Explicit Error Modeling](Architecture/Architecture/clean-architecture.md) â€” Immutability prevents hidden state changes
+- [React Patterns](../React/Architecture/react-patterns) â€” React state should be immutable
 
 ## Project Observations
 

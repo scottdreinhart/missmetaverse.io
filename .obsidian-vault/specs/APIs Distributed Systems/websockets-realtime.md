@@ -119,9 +119,9 @@ WebSockets does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/websockets-realtime]] â€” WebSockets Real-time Communication
-- [[APIs Distributed Systems/server-sent-events]] â€” Server-Sent Events
-- [[APIs Distributed Systems/graphql-subscriptions]] â€” GraphQL Subscriptions
-- [[APIs Distributed Systems/long-polling]] â€” Long Polling
+- [[APIs Distributed Systems/websockets-realtime]] â€” Server-Sent Events
+- [[APIs Distributed Systems/graphql-api-design]] â€” GraphQL Subscriptions
+- [[APIs Distributed Systems/websockets-realtime]] â€” Long Polling
 
 ## Project Observations
 

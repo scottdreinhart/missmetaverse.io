@@ -119,9 +119,9 @@ Idempotency does not apply to:
 ## Related Concepts
 
 - [[Data Databases/idempotency]] â€” Idempotency
-- [[APIs Distributed Systems/retry-pattern]] â€” Retry Pattern
+- [[APIs Distributed Systems/retry-backoff-jitter]] â€” Retry Pattern
 - [[APIs Distributed Systems/message-deduplication]] â€” Message Deduplication
-- [[APIs Distributed Systems/safe-retry]] â€” Safe Retry
+- [[APIs Distributed Systems/retry-backoff-jitter]] â€” Safe Retry
 
 ## Project Observations
 

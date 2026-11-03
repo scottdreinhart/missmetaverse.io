@@ -120,8 +120,8 @@ Deduplication does not apply to:
 
 - [[APIs Distributed Systems/message-deduplication]] â€” Message Deduplication
 - [[Data Databases/idempotency]] â€” Idempotency
-- [[APIs Distributed Systems/message-deduplication-id]] â€” Message Deduplication ID
-- [[APIs Distributed Systems/duplicate-prevention]] â€” Duplicate Prevention
+- [[APIs Distributed Systems/message-deduplication]] â€” Message Deduplication ID
+- [[APIs Distributed Systems/message-deduplication]] â€” Duplicate Prevention
 
 ## Project Observations
 

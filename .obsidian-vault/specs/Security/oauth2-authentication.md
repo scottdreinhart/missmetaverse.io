@@ -119,9 +119,9 @@ OAuth 2.0 does not apply to:
 ## Related Concepts
 
 - [[Security/oauth2-authentication]] â€” OAuth 2.0 Authentication
-- [[Security/jwt-tokens]] â€” JWT Tokens
-- [[Security/openid-connect]] â€” OpenID Connect
-- [[Security/sso-authentication]] â€” SSO Authentication
+- [[Security/jwt-token-management]] â€” JWT Tokens
+- [[Security/oauth2-authentication]] â€” OpenID Connect
+- [[Security/oauth2-authentication]] â€” SSO Authentication
 
 ## Project Observations
 

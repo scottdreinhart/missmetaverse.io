@@ -119,9 +119,9 @@ Distributed Tracing does not apply to:
 ## Related Concepts
 
 - [[Monitoring/distributed-tracing]] â€” Distributed Tracing
-- [[Monitoring/request-tracing]] â€” Request Tracing
-- [[Monitoring/trace-ids]] â€” Trace IDs
-- [[Monitoring/span-ids]] â€” Span IDs
+- [[Monitoring/distributed-tracing]] â€” Request Tracing
+- [[Monitoring/distributed-tracing]] â€” Trace IDs
+- [[Monitoring/distributed-tracing]] â€” Span IDs
 
 ## Project Observations
 

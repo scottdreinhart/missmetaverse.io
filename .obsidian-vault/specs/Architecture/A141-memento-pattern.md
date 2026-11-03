@@ -55,7 +55,7 @@ Without memento pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Memento pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Memento pattern with DDD
 - [Memento](Architecture/memento.md) â€” Memento pattern with memento
 - [State Pattern](Architecture/state-pattern.md) â€” Memento pattern with state
 

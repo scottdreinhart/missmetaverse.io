@@ -1,4 +1,4 @@
----
+﻿---
 slug: ts-release-notes
 sources:
   - https://www.typescriptlang.org/download/
@@ -52,7 +52,7 @@ function loggedMethod(headMessage = "LOG:") {
 
 // Usage with customization
 class Person {
-  @loggedMethod("⚠️")
+  @loggedMethod("âš ï¸")
   greet() { }
 }
 ```
@@ -60,11 +60,11 @@ class Person {
 ## `const` Type Parameters
 
 ```typescript
-// Before TS 5.0 — required 'as const'
+// Before TS 5.0 â€” required 'as const'
 const names1 = getNamesExactly({ names: ["Alice", "Bob", "Eve"] });
 // Inferred: string[]
 
-// With const type parameter — no 'as const' needed
+// With const type parameter â€” no 'as const' needed
 function getNamesExactly<const T extends HasNames>(arg: T): T["names"] {
   return arg.names;
 }
@@ -117,7 +117,7 @@ New module resolution strategy for bundlers (Vite, esbuild, swc, Webpack, Parcel
 
 ## `--verbatimModuleSyntax`
 
-Simplifies import handling — what you write is what you get:
+Simplifies import handling â€” what you write is what you get:
 
 ```typescript
 // Erased entirely
@@ -227,10 +227,10 @@ function printValue(value, maximumFractionDigits) { }
 
 
 ## See Also
-- [[T01-ts-advanced-types]]
-- [[T02-ts-best-practices]]
+- [[T01-TypeScript/generics]]
+- [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
-- [[T04-ts-fundamentals]]
-- [[T05-ts-narrowing]]
+- [[T04-TypeScript/typescript-strict-mode]]
+- [[T05-TypeScript/type-inference]]
 
 

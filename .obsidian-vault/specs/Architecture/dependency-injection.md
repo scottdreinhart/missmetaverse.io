@@ -117,8 +117,8 @@ DI does not apply to:
 ## Related Concepts
 
 - [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion Principle
-- [[Architecture/composition-root]] â€” Composition Root
-- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Application Architecture/composition-root]] â€” Composition Root
+- [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
 - [[DDD/repository]] â€” Repository Pattern
 
 ## Project Observations

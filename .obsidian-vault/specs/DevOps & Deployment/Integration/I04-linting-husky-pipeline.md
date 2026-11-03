@@ -483,7 +483,7 @@ HUSKY=1 git commit -m "test"
 ## Cross-References
 
 - [Integration Master Config](integration-master-config.md)
-- [TypeScript Best Practices](./TypeScript/ts-best-practices.md)
+- [TypeScript Best Practices](./TypeScript/TypeScript/typescript-strict-mode.md)
 - [Vite Optimization & Security](./vite-optimization-security.md)
 - [CI/CD GitHub Actions](./cicd-github-actions.md)
 - [Docker Nginx Deployment](./docker-nginx-deployment.md)

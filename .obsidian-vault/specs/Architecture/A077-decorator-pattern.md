@@ -55,7 +55,7 @@ Without decorator pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Decorator pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Decorator pattern with DDD
 - [Adapter Pattern](Architecture/adapter-pattern.md) â€” Decorator pattern with adapter
 - [Facade Pattern](Architecture/facade-pattern.md) â€” Decorator pattern with facade
 

@@ -120,10 +120,10 @@ ACID does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/atomicity]] â€” Atomicity
-- [[Data Databases/consistency]] â€” Consistency
-- [[Data Databases/isolation]] â€” Isolation
-- [[Data Databases/durability]] â€” Durability
+- [[Data Databases/acid]] â€” Atomicity
+- [[Data Databases/acid]] â€” Consistency
+- [[Data Databases/acid]] â€” Isolation
+- [[Data Databases/acid]] â€” Durability
 - [[APIs Distributed Systems/eventual-consistency]] â€” Eventual Consistency
 
 ## Project Observations

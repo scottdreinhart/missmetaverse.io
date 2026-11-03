@@ -119,9 +119,9 @@ Hexagonal Architecture does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
-- [[Application Architecture/ports-and-adapters]] â€” Ports and Adapters
-- [[Application Architecture/clean-architecture]] â€” Clean Architecture
-- [[Application Architecture/dependency-architecture]] â€” Dependency Architecture
+- [[Application Architecture/hexagonal-architecture]] â€” Ports and Adapters
+- [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture
+- [[Application Architecture/dependency-rule]] â€” Dependency Architecture
 
 ## Project Observations
 

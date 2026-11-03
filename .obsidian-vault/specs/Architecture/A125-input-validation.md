@@ -57,7 +57,7 @@ Without input validation:
 
 - [Schema-Driven Development](Architecture/schema-driven-development.md) â€” Input validation with schema
 - [Security Principles](Architecture/security-principles.md) â€” Input validation with security
-- [TypeScript Best Practices](../TypeScript/ts-best-practices.md) â€” Input validation with TypeScript
+- [TypeScript Best Practices](../TypeScript/TypeScript/typescript-strict-mode.md) â€” Input validation with TypeScript
 
 ## Project Observations
 

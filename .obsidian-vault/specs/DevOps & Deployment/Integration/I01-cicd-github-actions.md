@@ -777,9 +777,9 @@ secrets:
 - [Docker & Nginx Deployment](./docker-nginx-deployment.md)
 - [Vite Optimization & Security](./vite-optimization-security.md)
 - [Vitest Testing](./Testing/vitest-testing.md)
-- [Playwright E2E Testing](./playwright-e2e.md)
+- [Playwright E2E Testing](./Testing/playwright-e2e-testing.md)
 - [Linting & Husky Pipeline](./linting-husky-pipeline.md)
-- [TypeScript Best Practices](./TypeScript/ts-best-practices.md)
+- [TypeScript Best Practices](./TypeScript/TypeScript/typescript-strict-mode.md)
 
 ## See Also
 - [[I02-docker-nginx-deployment]]

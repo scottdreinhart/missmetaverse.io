@@ -119,9 +119,9 @@ PWA does not apply to:
 ## Related Concepts
 
 - [[Web Frontend/progressive-web-apps]] â€” Progressive Web Apps
-- [[Web Frontend/service-workers]] â€” Service Workers
-- [[Web Frontend/web-app-manifest]] â€” Web App Manifest
-- [[Web Frontend/offline-support]] â€” Offline Support
+- [[Web Frontend/progressive-web-apps]] â€” Service Workers
+- [[Web Frontend/progressive-web-apps]] â€” Web App Manifest
+- [[Web Frontend/progressive-web-apps]] â€” Offline Support
 
 ## Project Observations
 

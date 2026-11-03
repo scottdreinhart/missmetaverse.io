@@ -121,7 +121,7 @@ API Design does not apply to:
 - [[APIs Distributed Systems/api-design]] â€” API Design
 - [[APIs Distributed Systems/rest-api-design]] â€” REST API Design
 - [[APIs Distributed Systems/graphql-api-design]] â€” GraphQL API Design
-- [[APIs Distributed Systems/api-best-practices]] â€” API Best Practices
+- [[APIs Distributed Systems/api-design]] â€” API Best Practices
 
 ## Project Observations
 

@@ -119,9 +119,9 @@ Transactions do not apply to:
 ## Related Concepts
 
 - [[Data Databases/database-transactions]] â€” Database Transactions
-- [[Data Databases/acid-properties]] â€” ACID Properties
-- [[Data Databases/transaction-isolation]] â€” Transaction Isolation
-- [[Data Databases/distributed-transactions]] â€” Distributed Transactions
+- [[Data Databases/acid]] â€” ACID Properties
+- [[Data Databases/database-transactions]] â€” Transaction Isolation
+- [[Data Databases/database-transactions]] â€” Distributed Transactions
 
 ## Project Observations
 

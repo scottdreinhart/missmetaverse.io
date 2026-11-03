@@ -120,8 +120,8 @@ Specification does not apply to:
 
 - [[DDD/specification]] â€” Specification
 - [[DDD/specification-pattern]] â€” Specification Pattern
-- [[DDD/business-rule]] â€” Business Rule
-- [[DDD/validation-rule]] â€” Validation Rule
+- [[DDD/domain-invariant]] â€” Business Rule
+- [[DDD/domain-invariant]] â€” Validation Rule
 
 ## Project Observations
 

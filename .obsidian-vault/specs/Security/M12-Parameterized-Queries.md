@@ -408,7 +408,7 @@ describe('SQL Injection Prevention', () => {
 ### Integration with Other Notes
 - read [security-principles](D/security-principles.md) for security principles
 - read [input-validation](D/input-validation.md) for input validation
-- read [[output-encoding]] for output encoding
+- read [[contextual-output-encoding]] for output encoding
 - read [orm-patterns](D/orm-patterns.md) for ORM patterns
 - read [[event-sourcing]] for event sourcing patterns
 

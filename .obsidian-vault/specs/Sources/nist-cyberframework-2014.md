@@ -1,4 +1,4 @@
----
+﻿---
 slug: nist-cyberframework-2014
 source_id: nist-cyberframework-2014
 title: "NIST Cybersecurity Framework"
@@ -23,9 +23,9 @@ access_limitations: None
 research_notes: "U.S. federal cybersecurity framework. The 2024 version 1.1 updates include Zero Trust architecture guidance. Primary source for Zero Trust and defense-in-depth principles."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 

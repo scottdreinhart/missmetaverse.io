@@ -120,8 +120,8 @@ API Versioning does not apply to:
 
 - [[APIs Distributed Systems/api-versioning]] â€” API Versioning
 - [[APIs Distributed Systems/backward-compatibility]] â€” Backward Compatibility
-- [[APIs Distributed Systems/api-deprecation]] â€” API Deprecation
-- [[APIs Distributed Systems/version-strategy]] â€” Version Strategy
+- [[APIs Distributed Systems/api-versioning]] â€” API Deprecation
+- [[APIs Distributed Systems/api-versioning]] â€” Version Strategy
 
 ## Project Observations
 

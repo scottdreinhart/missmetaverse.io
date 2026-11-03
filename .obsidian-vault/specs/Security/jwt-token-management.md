@@ -120,8 +120,8 @@ JWT does not apply to:
 
 - [[Security/jwt-token-management]] â€” JWT Token Management
 - [[Security/oauth2-authentication]] â€” OAuth 2.0 Authentication
-- [[Security/token-validation]] â€” Token Validation
-- [[Security/claims-management]] â€” Claims Management
+- [[Security/jwt-token-management]] â€” Token Validation
+- [[Security/jwt-token-management]] â€” Claims Management
 
 ## Project Observations
 

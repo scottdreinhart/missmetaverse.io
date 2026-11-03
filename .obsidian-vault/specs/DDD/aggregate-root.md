@@ -119,9 +119,9 @@ Aggregate Root does not apply to:
 ## Related Concepts
 
 - [[DDD/aggregate-root]] â€” Aggregate Root
-- [[DDD/ar]] â€” AR
-- [[DDD/aggregate-root-entity]] â€” Aggregate Root Entity
-- [[DDD/root-entity]] â€” Root Entity
+- [[DDD/aggregate-root]] â€” AR
+- [[DDD/aggregate-root]] â€” Aggregate Root Entity
+- [[DDD/entity]] â€” Root Entity
 
 ## Project Observations
 

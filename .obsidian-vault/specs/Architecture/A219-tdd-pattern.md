@@ -55,7 +55,7 @@ Testing after implementation leads to:
 
 ## Related Concepts
 
-- [Testing Patterns](../Testing/testing-patterns.md) â€” Vitest, Playwright
+- [Testing Patterns](../Testing/Quality & Testing/test-driven-developments.md) â€” Vitest, Playwright
 - [Property-Based Testing](Architecture/quality-delivery-maintainability.md) â€” Complementary to TDD
 - [Risk-Based Testing](Architecture/quality-delivery-maintainability.md) â€” Focus testing effort
 

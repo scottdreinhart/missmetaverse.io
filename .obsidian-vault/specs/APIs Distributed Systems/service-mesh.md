@@ -119,9 +119,9 @@ Service Mesh does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/service-mesh]] â€” Service Mesh
-- [[APIs Distributed Systems/sidecar-pattern]] â€” Sidecar Pattern
-- [[APIs Distributed Systems/api-gateway]] â€” API Gateway
-- [[APIs Distributed Systems/service-discovery]] â€” Service Discovery
+- [[APIs Distributed Systems/service-mesh]] â€” Sidecar Pattern
+- [[APIs Distributed Systems/api-gateway-pattern]] â€” API Gateway
+- [[APIs Distributed Systems/service-mesh]] â€” Service Discovery
 
 ## Project Observations
 

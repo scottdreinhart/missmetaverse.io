@@ -104,7 +104,7 @@ Without REST API design:
 - Read [data-transfer-objects](https://martinfowler.com/eaaCatalog/dataTransferObject.html) for DTO patterns
 - Read [rate-limiting](https://cheatsheetseries.owasp.org/cheatsheets/Rate_Limiting_Cheat_Sheet.html) for rate limiting implementation
 - Read [authentication](https://en.wikipedia.org/wiki/Authentication) for auth patterns
-- Read [[project-structure-mapping]] for controller folder placement
+- Read [[Project File Conventions]] for controller folder placement
 
 ### Common Pitfalls
 - Don't use verbs in resource names (`/getUsers` â†’ `/users`)

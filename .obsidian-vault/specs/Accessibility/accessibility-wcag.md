@@ -119,9 +119,9 @@ WCAG does not apply to:
 ## Related Concepts
 
 - [[Accessibility/accessibility-wcag]] â€” Accessibility WCAG
-- [[Accessibility/aria-usage]] â€” ARIA Usage
-- [[Accessibility/screen-readers]] â€” Screen Readers
-- [[Accessibility/accessibility-testing]] â€” Accessibility Testing
+- [[Accessibility/accessibility-wcag]] â€” ARIA Usage
+- [[Accessibility/accessibility-wcag]] â€” Screen Readers
+- [[Accessibility/axe-core-react-accessibility]] â€” Accessibility Testing
 
 ## Project Observations
 

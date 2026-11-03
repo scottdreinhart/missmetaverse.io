@@ -55,7 +55,7 @@ Without visitor pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Visitor pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Visitor pattern with DDD
 - [Visitor Protocol](Architecture/visitor-protocol.md) â€” Visitor pattern with visitor protocol
 - [Visitor](Architecture/visitor.md) â€” Visitor pattern with visitor
 

@@ -55,7 +55,7 @@ Without type guards:
 
 ## Related Concepts
 
-- [TypeScript Best Practices](../TypeScript/ts-best-practices.md) â€” Type guards with TypeScript
+- [TypeScript Best Practices](../TypeScript/TypeScript/typescript-strict-mode.md) â€” Type guards with TypeScript
 - [Type Narrowing](Architecture/type-narrowing.md) â€” Type guards with type narrowing
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md) â€” Type guards with strict mode
 

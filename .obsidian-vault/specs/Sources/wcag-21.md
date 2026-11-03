@@ -1,7 +1,7 @@
----
+﻿---
 slug: wcag-21
-title: WCAG 2.1 — Web Content Accessibility Guidelines
-description: W3C Web Content Accessibility Guidelines 2.1 — the international standard for web accessibility covering perceivable, operable, understandable, and robust content.
+title: WCAG 2.1 â€” Web Content Accessibility Guidelines
+description: W3C Web Content Accessibility Guidelines 2.1 â€” the international standard for web accessibility covering perceivable, operable, understandable, and robust content.
 author: Copilot
 source: w3c-wai
 canonical_url: https://www.w3.org/TR/WCAG21/
@@ -24,7 +24,7 @@ tags:
 
 
 
-# WCAG 2.1 — Web Content Accessibility Guidelines
+# WCAG 2.1 â€” Web Content Accessibility Guidelines
 
 ## Overview
 
@@ -128,7 +128,7 @@ Content must be robust enough to work with current and future assistive technolo
 | Keyboard navigation | All interactive elements reachable |
 | Alt text | All meaningful images have alt text |
 | Form labels | All form inputs have associated labels |
-| Heading hierarchy | Logical h1 → h2 → h3 structure |
+| Heading hierarchy | Logical h1 â†’ h2 â†’ h3 structure |
 
 ---
 
@@ -136,10 +136,10 @@ Content must be robust enough to work with current and future assistive technolo
 *Last Verified: 2026-11-02*
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 
 

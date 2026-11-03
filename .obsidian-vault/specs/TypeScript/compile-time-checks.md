@@ -120,8 +120,8 @@ Compile-time checks do not apply to:
 
 - [[Coding Type Systems/strict-typing]] â€” Strict Typing
 - [[TypeScript/typescript-strict-mode]] â€” TypeScript Strict Mode
-- [[Coding Type Systems/type-inference]] â€” Type Inference
-- [[Coding Type Systems/generics]] â€” Generics
+- [[TypeScript/type-inference]] â€” Type Inference
+- [[TypeScript/generics]] â€” Generics
 
 ## Project Observations
 

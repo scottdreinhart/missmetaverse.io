@@ -123,11 +123,11 @@ Web Vitals does not apply to:
 ## Related Concepts
 
 - [[Web Frontend/web-vitals]] â€” Web Vitals
-- [[Web Frontend/core-web-vitals]] â€” Core Web Vitals
-- [[Web Frontend/performance-metrics]] â€” Performance Metrics
-- [[Web Frontend/lcp-metric]] â€” LCP Metric
-- [[Web Frontend/fid-metric]] â€” FID Metric
-- [[Web Frontend/cls-metric]] â€” CLS Metric
+- [[Web Frontend/web-vitals]] â€” Core Web Vitals
+- [[Web Frontend/web-vitals]] â€” Performance Metrics
+- [[Web Frontend/web-vitals]] â€” LCP Metric
+- [[Web Frontend/web-vitals]] â€” FID Metric
+- [[Web Frontend/web-vitals]] â€” CLS Metric
 
 ## Project Observations
 

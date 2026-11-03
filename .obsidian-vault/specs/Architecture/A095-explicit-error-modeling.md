@@ -57,7 +57,7 @@ Exception-based error handling leads to:
 
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md) â€” Result types use TypeScript
 - [Fail Fast](Architecture/fail-fast.md) â€” Early error detection
-- [Discriminated Unions](Architecture/coding-practices.md) â€” Result uses discriminated unions
+- [Discriminated Unions](Architecture/Architecture/clean-architecture.md) â€” Result uses discriminated unions
 
 ## Project Observations
 

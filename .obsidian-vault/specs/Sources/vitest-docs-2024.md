@@ -29,15 +29,15 @@ relevant_sections:
 claims_supported:
   - vitest-configuration
   - vitest-testing
-  - unit-testing-patterns
+  - unit-Quality & Testing/test-driven-developments
 access_limitations: None
 research_notes: "Official Vitest documentation. Fast unit test framework powered by Vite. Primary source for Vitest configuration and testing patterns."
 
 ## See Also
-- [[aws-api-gateway]]
-- [[aws-elasticache]]
+- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+- [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
-- [[documentation-ingestion-plan]]
+- [[Documentation]]
 - [[evans-ddd-2003]]
 
 

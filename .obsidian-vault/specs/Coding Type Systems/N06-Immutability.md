@@ -1,5 +1,5 @@
 ﻿---
-slug: immutability-coding
+slug: Coding Type Systems/immutability
 sources:
   - https://www.typescriptlang.org/
   - https://react.dev/

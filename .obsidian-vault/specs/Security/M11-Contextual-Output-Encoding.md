@@ -345,7 +345,7 @@ describe('Output Encoding', () => {
 - read [input-validation](D/input-validation.md) for input validation
 - read [content-security-policy](D/content-security-policy.md) for CSP headers
 - read [[parameterized-queries]] for SQL injection prevention
-- read [[output-encoding]] for output encoding patterns
+- read [[contextual-output-encoding]] for output encoding patterns
 
 ### Common Pitfalls
 - Don't rely only on input validation (always encode output)

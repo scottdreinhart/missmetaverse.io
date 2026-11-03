@@ -1,4 +1,4 @@
----
+﻿---
 slug: code-review-checklist
 title: Code Review Checklist
 description: Comprehensive checklist for systematic code reviews covering architecture, security, testing, performance, and maintainability.
@@ -56,7 +56,7 @@ access_limitations: None
 ### Copilot Actions
 ```
 1. Read [clean-architecture](D/clean-architecture.md) if unsure about dependency rules
-2. Read [ddd-patterns](D/ddd-patterns.md) if checking bounded context boundaries
+2. Read [Application Architecture/domain-driven-design](D/Application Architecture/domain-driven-design.md) if checking bounded context boundaries
 3. Read [solid-principles](D/solid-principles.md) if checking SRP/OCP/LSP
 4. Check for existing ADRs in .obsidian-vault/specs/Architecture/
 5. Flag any violations with specific line numbers and suggestions
@@ -77,11 +77,11 @@ access_limitations: None
 
 ### Copilot Actions
 ```
-1. Run: grep -r ": any" src/ — should return 0 results
-2. Run: grep -r "as " src/ — flag any that aren't type guards
-3. Run: grep -r "!" src/ — flag non-null assertions
+1. Run: grep -r ": any" src/ â€” should return 0 results
+2. Run: grep -r "as " src/ â€” flag any that aren't type guards
+3. Run: grep -r "!" src/ â€” flag non-null assertions
 4. Check tsconfig.json for strict mode enabled
-5. Read [ts-best-practices](D/ts-best-practices.md) for detailed guidance
+5. Read [TypeScript/typescript-strict-mode](D/TypeScript/typescript-strict-mode.md) for detailed guidance
 ```
 
 ---
@@ -101,8 +101,8 @@ access_limitations: None
 
 ### Copilot Actions
 ```
-1. Run: pnpm audit — flag any critical/high vulnerabilities
-2. Run: grep -r "process.env\." src/ — flag hardcoded secrets
+1. Run: pnpm audit â€” flag any critical/high vulnerabilities
+2. Run: grep -r "process.env\." src/ â€” flag hardcoded secrets
 3. Check for input validation on all API endpoints
 4. Check for sanitization on all user-generated content
 5. Read [security-principles](D/security-principles.md) for detailed security guidance
@@ -114,7 +114,7 @@ access_limitations: None
 ## 4. Testing
 
 - [ ] **Unit tests exist**: For all business logic, utilities, and domain functions
-- [ ] **Test coverage ≥ 80%**: For new code (check with `pnpm test -- --coverage`)
+- [ ] **Test coverage â‰¥ 80%**: For new code (check with `pnpm test -- --coverage`)
 - [ ] **Integration tests exist**: For API endpoints, database operations, external services
 - [ ] **E2E tests exist**: For critical user flows (login, checkout, etc.)
 - [ ] **Tests are deterministic**: No randomness, no time-dependent assertions
@@ -126,7 +126,7 @@ access_limitations: None
 
 ### Copilot Actions
 ```
-1. Run: pnpm test -- --coverage — check coverage ≥ 80%
+1. Run: pnpm test -- --coverage â€” check coverage â‰¥ 80%
 2. Check test file naming: *.test.ts or *.spec.ts
 3. Verify test descriptions are meaningful
 4. Check for mock implementations of external services
@@ -153,10 +153,10 @@ access_limitations: None
 1. Check for pagination on all list endpoints
 2. Check for caching headers on API responses
 3. Check React components for unnecessary re-renders (React DevTools)
-4. Run: pnpm build — check bundle size
+4. Run: pnpm build â€” check bundle size
 5. Check database queries for N+1 patterns
 6. Read [[Bundler/vite-configuration]] for bundle optimization
-7. Read [react-performance-security](D/react-performance-security.md) for React optimization
+7. Read [React/modern-react-performance](D/React/modern-react-performance.md) for React optimization
 ```
 
 ---
@@ -176,12 +176,12 @@ access_limitations: None
 
 ### Copilot Actions
 ```
-1. Run: pnpm lint — should have 0 errors
-2. Run: pnpm format — check formatting consistency
+1. Run: pnpm lint â€” should have 0 errors
+2. Run: pnpm format â€” check formatting consistency
 3. Check for unused imports: grep -r "^import.*from.*$" src/ | wc -l
 4. Check function lengths: awk '/^function|^const.*=.*=>/' src/**/*.ts | wc -l
-5. Check for TODOs: grep -r "TODO" src/ — should have ticket numbers
-6. Read [coding-practices](D/coding-practices.md) for detailed guidance
+5. Check for TODOs: grep -r "TODO" src/ â€” should have ticket numbers
+6. Read [Architecture/clean-architecture](D/Architecture/clean-architecture.md) for detailed guidance
 ```
 
 ---
@@ -300,10 +300,10 @@ access_limitations: None
 - [ ] Documentation improvements
 
 ### Approval Decision
-- [ ] **Approved** — All critical and warning items addressed
-- [ ] **Approved with comments** — Minor suggestions, no blocking issues
-- [ ] **Changes requested** — Critical or warning items need fixing
-- [ ] **Rejected** — Major architectural or security issues
+- [ ] **Approved** â€” All critical and warning items addressed
+- [ ] **Approved with comments** â€” Minor suggestions, no blocking issues
+- [ ] **Changes requested** â€” Critical or warning items need fixing
+- [ ] **Rejected** â€” Major architectural or security issues
 
 ---
 

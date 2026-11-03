@@ -118,10 +118,10 @@ Circuit breakers do not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/timeouts]] â€” Timeouts
-- [[APIs Distributed Systems/cancellation]] â€” Cancellation
-- [[APIs Distributed Systems/retry-with-backoff]] â€” Retry with Backoff and Jitter
-- [[APIs Distributed Systems/bulkheads]] â€” Bulkheads
+- [[APIs Distributed Systems/timeout-pattern]] â€” Timeouts
+- [[APIs Distributed Systems/cancellation-pattern]] â€” Cancellation
+- [[APIs Distributed Systems/retry-backoff-jitter]] â€” Retry with Backoff and Jitter
+- [[APIs Distributed Systems/bulkhead-pattern]] â€” Bulkheads
 
 ## Project Observations
 

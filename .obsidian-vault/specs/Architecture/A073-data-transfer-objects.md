@@ -57,7 +57,7 @@ Without DTOs:
 
 - [REST](Architecture/architecture-patterns.md) â€” REST APIs use DTOs
 - [API Versioning](Architecture/api-versioning.md) â€” Versioned DTOs
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” DTOs separate from entities
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” DTOs separate from entities
 
 ## Project Observations
 

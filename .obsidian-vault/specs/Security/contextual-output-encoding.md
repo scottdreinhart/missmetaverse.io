@@ -119,9 +119,9 @@ Contextual Output Encoding does not apply to:
 ## Related Concepts
 
 - [[Security/contextual-output-encoding]] â€” Contextual Output Encoding
-- [[Security/output-encoding]] â€” Output Encoding
-- [[Security/html-encoding]] â€” HTML Encoding
-- [[Security/xss-prevention]] â€” XSS Prevention
+- [[Security/contextual-output-encoding]] â€” Output Encoding
+- [[Security/contextual-output-encoding]] â€” HTML Encoding
+- [[Security/contextual-output-encoding]] â€” XSS Prevention
 
 ## Project Observations
 

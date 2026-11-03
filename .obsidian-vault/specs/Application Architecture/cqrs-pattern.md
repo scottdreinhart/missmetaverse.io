@@ -119,9 +119,9 @@ CQRS does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/cqrs-pattern]] â€” CQRS Pattern
-- [[Architecture/cqs-pattern]] â€” Command-Query Separation
+- [[Architecture/command-query-separation]] â€” Command-Query Separation
 - [[Data Databases/event-sourcing]] â€” Event Sourcing
-- [[Application Architecture/read-model]] â€” Read Model
+- [[Application Architecture/cqrs-pattern]] â€” Read Model
 
 ## Project Observations
 

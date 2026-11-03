@@ -119,9 +119,9 @@ Web Security does not apply to:
 ## Related Concepts
 
 - [[Security/web-security]] â€” Web Security
-- [[Security/http-security]] â€” HTTP Security
+- [[Security/web-security]] â€” HTTP Security
 - [[Security/security-headers]] â€” Security Headers
-- [[Security/https-protocol]] â€” HTTPS Protocol
+- [[Security/web-security]] â€” HTTPS Protocol
 
 ## Project Observations
 

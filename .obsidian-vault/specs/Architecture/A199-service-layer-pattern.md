@@ -55,7 +55,7 @@ Without service layer pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Service layer pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Service layer pattern with DDD
 - [Business Logic](Architecture/business-logic.md) â€” Service layer pattern with business logic
 - [API](Architecture/api.md) â€” Service layer pattern with API
 

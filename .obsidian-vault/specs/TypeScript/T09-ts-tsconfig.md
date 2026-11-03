@@ -1,5 +1,5 @@
----
-slug: ts-tsconfig
+﻿---
+slug: TypeScript/typescript-configuration
 sources:
   - https://www.typescriptlang.org/tsconfig
 date: 2026-11-02
@@ -73,14 +73,14 @@ tags:
 | `useUnknownInCatchVariables` | from `strict` | Catch variables are `unknown` by default |
 | `noImplicitThis` | from `strict` | Error on implicit `this: any` |
 | `alwaysStrict` | from `strict` | Emit `"use strict"` in output |
-| `exactOptionalPropertyTypes` | — | Optional properties can't be set to `undefined` |
-| `noFallthroughCasesInSwitch` | — | Error on fallthrough in switch |
-| `noImplicitReturns` | — | Error on missing return in function |
-| `noImplicitOverride` | — | Require `override` modifier on overrides |
-| `noPropertyAccessFromIndexSignature` | — | Use `['key']` for index signature access |
-| `noUncheckedIndexedAccess` | — | Index access adds `undefined` |
-| `noUnusedLocals` | — | Error on unused locals |
-| `noUnusedParameters` | — | Error on unused parameters |
+| `exactOptionalPropertyTypes` | â€” | Optional properties can't be set to `undefined` |
+| `noFallthroughCasesInSwitch` | â€” | Error on fallthrough in switch |
+| `noImplicitReturns` | â€” | Error on missing return in function |
+| `noImplicitOverride` | â€” | Require `override` modifier on overrides |
+| `noPropertyAccessFromIndexSignature` | â€” | Use `['key']` for index signature access |
+| `noUncheckedIndexedAccess` | â€” | Index access adds `undefined` |
+| `noUnusedLocals` | â€” | Error on unused locals |
+| `noUnusedParameters` | â€” | Error on unused parameters |
 
 ## Module Resolution
 
@@ -99,7 +99,7 @@ tags:
 | `resolvePackageJsonImports` | Respect `imports` field in package.json |
 | `customConditions` | Additional conditions for package.json resolution |
 | `noUncheckedSideEffectImports` | Error on missing side-effect imports |
-| `verbatimModuleSyntax` | Only erase `import type` — preserve all other imports |
+| `verbatimModuleSyntax` | Only erase `import type` â€” preserve all other imports |
 
 ## Emit Options
 
@@ -144,7 +144,7 @@ tags:
 
 | Option | Description |
 |--------|-------------|
-| `target` | ECMAScript target version (`ES3`, `ES5`, `ES2015`–`ES2024`, `ESNext`) |
+| `target` | ECMAScript target version (`ES3`, `ES5`, `ES2015`â€“`ES2024`, `ESNext`) |
 | `lib` | API definitions to include (`ES2020`, `DOM`, `DOM.Iterable`, etc.) |
 | `jsx` | JSX emit mode (`react`, `react-jsx`, `react-jsxdev`, `preserve`, `react-native`) |
 | `jsxFactory` | JSX factory function (default: `React.createElement`) |
@@ -207,10 +207,10 @@ Based on the project's tech stack (React 19 + Vite + TypeScript + pnpm):
 
 
 ## See Also
-- [[T01-ts-advanced-types]]
-- [[T02-ts-best-practices]]
+- [[T01-TypeScript/generics]]
+- [[T02-TypeScript/typescript-strict-mode]]
 - [[T03-ts-decorators]]
-- [[T04-ts-fundamentals]]
-- [[T05-ts-narrowing]]
+- [[T04-TypeScript/typescript-strict-mode]]
+- [[T05-TypeScript/type-inference]]
 
 

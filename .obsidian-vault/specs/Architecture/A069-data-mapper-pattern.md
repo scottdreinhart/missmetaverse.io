@@ -55,7 +55,7 @@ Without data mapper pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Data mapper pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Data mapper pattern with DDD
 - [Repository Pattern](Architecture/repository-pattern-ddd.md) â€” Data mapper pattern with repository
 - [ORM](Architecture/orm.md) â€” Data mapper pattern with ORM
 

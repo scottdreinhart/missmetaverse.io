@@ -57,7 +57,7 @@ Without evolutionary architecture:
 
 - [Architecture Decision Records](Architecture/architecture-decision-records.md) â€” Architecture decision records document evolutionary decisions
 - [Incremental Refactoring](Quality Delivery/incremental-refactoring.md) â€” Incremental refactoring supports evolutionary architecture
-- [Modular Monolith](Architecture/modular-monolith.md) â€” Modular monolith supports evolutionary architecture
+- [Modular Monolith](Architecture/Application Architecture/modular-monolith-architecture.md) â€” Modular monolith supports evolutionary architecture
 
 ## Project Observations
 

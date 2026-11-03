@@ -1,12 +1,12 @@
 ﻿---
-slug: coding-practices
+slug: Architecture/clean-architecture
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
   - https://www.enterpriseintegrationpatterns.com/
 date: 2026-11-02
 tags:
   - maturity/deprecated
-  - coding-practices
+  - Architecture/clean-architecture
   - strict-typing
   - parse-dont-validate
   - make-invalid-states-unrepresentable
@@ -634,9 +634,9 @@ console.log(i18n.t('welcome', { name: 'John' }))  // "Â¡Bienvenido, John!"
 
 - [Clean Architecture](./clean-architecture.md)
 - [SOLID Principles](./solid-principles.md)
-- [DDD Patterns](./ddd-patterns.md)
+- [DDD Patterns](./Application Architecture/domain-driven-design.md)
 - [Architecture Patterns](./architecture-patterns.md)
-- [Coding Practices](./coding-practices.md)
+- [Coding Practices](./Architecture/clean-architecture.md)
 
 ---
 
@@ -644,16 +644,16 @@ console.log(i18n.t('welcome', { name: 'John' }))  // "Â¡Bienvenido, John!"
 
 - Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for clean architecture patterns
 - Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for SOLID design principles
-- Read [[ddd-patterns]] for domain-driven design patterns
+- Read [[Application Architecture/domain-driven-design]] for domain-driven design patterns
 - Read [architecture-patterns](https://en.wikipedia.org/wiki/Software_architecture_pattern) for architecture patterns
-- Read [ts-best-practices](D/ts-best-practices.md) for TypeScript best practices
-- Read [react-patterns](D/react-patterns.md) for React patterns
+- Read [TypeScript/typescript-strict-mode](D/TypeScript/typescript-strict-mode.md) for TypeScript best practices
+- Read [Architecture/react-patterns](D/Architecture/react-patterns.md) for React patterns
 - Read [typescript-strict-mode](D/typescript-strict-mode.md) for TypeScript strict mode
 
 
 ## See Also
 - [[A001-abstract-factory-pattern]]
-- [[A002-abstract-factory-patterns]]
+- [[Architecture/abstract-factory-pattern]]
 - [[A003-accessibility-a11y]]
 - [[A004-accessibility-by-design]]
 - [[A005-active-record-pattern]]

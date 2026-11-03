@@ -55,7 +55,7 @@ Without interpreter pattern:
 
 ## Related Concepts
 
-- [DDD Patterns](Architecture/ddd-patterns.md) â€” Interpreter pattern with DDD
+- [DDD Patterns](Architecture/Application Architecture/domain-driven-design.md) â€” Interpreter pattern with DDD
 - [Interpreter](Architecture/interpreter.md) â€” Interpreter pattern with interpreter
 - [Grammar](Architecture/grammar.md) â€” Interpreter pattern with grammar
 

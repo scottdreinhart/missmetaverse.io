@@ -1,4 +1,4 @@
----
+﻿---
 tags:
 
 
@@ -14,7 +14,7 @@ tags:
 
 
 ---
-slug: ts-best-practices
+slug: TypeScript/typescript-strict-mode
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
   - https://www.typescriptlang.org/docs/handbook/2/functions.html
@@ -47,18 +47,18 @@ tags:
 
 ```
 src/
-├── components/        # React components
-├── services/          # API/business logic
-├── types/             # Shared type definitions
-├── utils/             # Helper functions
-├── hooks/             # Custom React hooks
-└── constants/         # Constants and enums
+â”œâ”€â”€ components/        # React components
+â”œâ”€â”€ services/          # API/business logic
+â”œâ”€â”€ types/             # Shared type definitions
+â”œâ”€â”€ utils/             # Helper functions
+â”œâ”€â”€ hooks/             # Custom React hooks
+â””â”€â”€ constants/         # Constants and enums
 ```
 
 ### Separate Type Definitions
 
 ```typescript
-// types/user.ts — dedicated type file
+// types/user.ts â€” dedicated type file
 export interface User {
   id: string;
   name: string;
@@ -72,7 +72,7 @@ export enum UserRole {
   Guest = "guest",
 }
 
-// In your component — import types explicitly
+// In your component â€” import types explicitly
 import type { User, UserRole } from "@/types/user";
 ```
 
@@ -81,7 +81,7 @@ import type { User, UserRole } from "@/types/user";
 ### Prefer Interfaces for Object Shapes
 
 ```typescript
-// ✅ Interface — extensible, clear intent
+// âœ… Interface â€” extensible, clear intent
 interface User {
   id: string;
   name: string;
@@ -98,7 +98,7 @@ interface User {
 ### Prefer Type Aliases for Unions and Computed Types
 
 ```typescript
-// ✅ Type alias — unions, intersections, computed types
+// âœ… Type alias â€” unions, intersections, computed types
 type ID = string | number;
 
 type CreateUserInput = Omit<User, "id" | "createdAt">;
@@ -109,14 +109,14 @@ type EventHandler<T> = (event: T) => void;
 ### Use Literal Types for Constraints
 
 ```typescript
-// ✅ Literal types — self-documenting, type-safe
+// âœ… Literal types â€” self-documenting, type-safe
 type ButtonVariant = "primary" | "secondary" | "danger";
 
 function Button({ variant }: { variant: ButtonVariant }) {
   // variant is restricted to the three options
 }
 
-// ❌ String — no constraints
+// âŒ String â€” no constraints
 function BadButton({ variant }: { variant: string }) {
   // variant can be anything
 }
@@ -127,12 +127,12 @@ function BadButton({ variant }: { variant: string }) {
 ### Explicit Return Types
 
 ```typescript
-// ✅ Explicit return type — self-documenting
+// âœ… Explicit return type â€” self-documenting
 function getUser(id: string): User | undefined {
   return users.find(u => u.id === id);
 }
 
-// ✅ For complex returns, explicit is better
+// âœ… For complex returns, explicit is better
 function processRequest(
   req: Request
 ): Result<{ data: UserData; meta: Metadata }> {
@@ -143,10 +143,10 @@ function processRequest(
 ### Use `Record` for Dictionary Types
 
 ```typescript
-// ✅ Record — clear key-value structure
+// âœ… Record â€” clear key-value structure
 const userMap: Record<string, User> = {};
 
-// ✅ With specific keys
+// âœ… With specific keys
 type ConfigKeys = "host" | "port" | "debug";
 const config: Record<ConfigKeys, string | boolean> = {
   host: "localhost",
@@ -158,12 +158,12 @@ const config: Record<ConfigKeys, string | boolean> = {
 ### Prefer Function Declarations for Named Functions
 
 ```typescript
-// ✅ Function declaration — hoisted, clearer
+// âœ… Function declaration â€” hoisted, clearer
 function calculateTotal(items: Item[]): number {
   return items.reduce((sum, item) => sum + item.price, 0);
 }
 
-// ✅ Arrow function — for callbacks, short functions
+// âœ… Arrow function â€” for callbacks, short functions
 const items = list.map(item => item.name);
 ```
 
@@ -172,12 +172,12 @@ const items = list.map(item => item.name);
 ### Keep Generics Simple
 
 ```typescript
-// ✅ Simple, constrained generic
+// âœ… Simple, constrained generic
 function firstElement<T extends Array<unknown>>(arr: T): T[number] {
   return arr[0];
 }
 
-// ❌ Overly complex — hard to understand
+// âŒ Overly complex â€” hard to understand
 function complex<T extends U, U extends V, V extends object, K extends keyof V>(
   obj: T,
   key: K
@@ -189,12 +189,12 @@ function complex<T extends U, U extends V, V extends object, K extends keyof V>(
 ### Use Constraints to Limit Generics
 
 ```typescript
-// ✅ Constrained — only objects with id property
+// âœ… Constrained â€” only objects with id property
 function findItem<T extends { id: string }>(items: T[], id: string): T | undefined {
   return items.find(item => item.id === id);
 }
 
-// ❌ Unconstrained — too broad
+// âŒ Unconstrained â€” too broad
 function findItem<T>(items: T[], id: string): T | undefined {
   // No guarantee items has id
 }
@@ -205,7 +205,7 @@ function findItem<T>(items: T[], id: string): T | undefined {
 ### Use Custom Error Classes
 
 ```typescript
-// ✅ Custom error — preserves stack trace
+// âœ… Custom error â€” preserves stack trace
 class AppError extends Error {
   constructor(
     message: string,
@@ -226,14 +226,14 @@ if (!user) {
 ### Never Use `any` in Error Handling
 
 ```typescript
-// ❌ any — loses type safety
+// âŒ any â€” loses type safety
 try {
   fetchData();
 } catch (err: any) {
   console.error(err.message); // Works but unsafe
 }
 
-// ✅ unknown — must narrow
+// âœ… unknown â€” must narrow
 try {
   fetchData();
 } catch (err: unknown) {
@@ -252,7 +252,7 @@ try {
 ### Type React Components Properly
 
 ```typescript
-// ✅ Functional component with typed props
+// âœ… Functional component with typed props
 interface ButtonProps {
   variant: "primary" | "secondary";
   disabled?: boolean;
@@ -272,14 +272,14 @@ function Button({ variant, disabled = false, onClick, children }: ButtonProps) {
 ### Type Hooks Correctly
 
 ```typescript
-// ✅ Typed useState
+// âœ… Typed useState
 const [user, setUser] = useState<User | null>(null);
 
-// ✅ Typed useReducer
+// âœ… Typed useReducer
 type Action = { type: "SET_USER"; payload: User } | { type: "CLEAR_USER" };
 const [state, dispatch] = useReducer(reducer, initialState);
 
-// ✅ Typed useRef
+// âœ… Typed useRef
 const inputRef = useRef<HTMLInputElement>(null);
 ```
 
@@ -290,7 +290,7 @@ const inputRef = useRef<HTMLInputElement>(null);
 ```jsonc
 {
   "compilerOptions": {
-    // Strictness — never compromise
+    // Strictness â€” never compromise
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -331,11 +331,11 @@ const inputRef = useRef<HTMLInputElement>(null);
 ### Use Non-Null Assertion Sparingly
 
 ```typescript
-// ❌ Non-null assertion — bypasses safety
+// âŒ Non-null assertion â€” bypasses safety
 const element = document.getElementById("app")!;
 element.textContent = "Hello";
 
-// ✅ Optional chaining — safe
+// âœ… Optional chaining â€” safe
 const element = document.getElementById("app");
 if (element) {
   element.textContent = "Hello";
@@ -355,7 +355,7 @@ function area(shape: Shape): number {
       return shape.side ** 2;
     case "rectangle":
       return shape.width * shape.height;
-    // ✅ Exhaustiveness check — error if new kind added
+    // âœ… Exhaustiveness check â€” error if new kind added
     default: {
       const _exhaustive: never = shape;
       return _exhaustive;
@@ -367,7 +367,7 @@ function area(shape: Shape): number {
 ### Use Type Guards for Complex Logic
 
 ```typescript
-// ✅ Type guard function
+// âœ… Type guard function
 function isUser(obj: unknown): obj is User {
   return (
     typeof obj === "object" &&
@@ -378,7 +378,7 @@ function isUser(obj: unknown): obj is User {
   );
 }
 
-// ✅ Narrowing with type guard
+// âœ… Narrowing with type guard
 function process(obj: unknown) {
   if (isUser(obj)) {
     // TypeScript knows obj is User
@@ -402,16 +402,16 @@ function process(obj: unknown) {
 
 ## Key Takeaways
 
-1. **Always use `strict: true`** — non-negotiable for type safety
-2. **Prefer `unknown` over `any`** — forces proper handling
-3. **Use literal types** — self-documenting, type-safe constraints
-4. **Explicit return types** — improves readability and catches errors
-5. **Type guards over assertions** — maintain type safety
-6. **Exhaustiveness checking** — catch missing cases at compile time
-7. **Separate type definitions** — cleaner architecture
-8. **Avoid `as` and `@ts-ignore`** — fix the root cause instead
-9. **Use generics with constraints** — balance flexibility and safety
-10. **Configure tsconfig properly** — strictness is the foundation
+1. **Always use `strict: true`** â€” non-negotiable for type safety
+2. **Prefer `unknown` over `any`** â€” forces proper handling
+3. **Use literal types** â€” self-documenting, type-safe constraints
+4. **Explicit return types** â€” improves readability and catches errors
+5. **Type guards over assertions** â€” maintain type safety
+6. **Exhaustiveness checking** â€” catch missing cases at compile time
+7. **Separate type definitions** â€” cleaner architecture
+8. **Avoid `as` and `@ts-ignore`** â€” fix the root cause instead
+9. **Use generics with constraints** â€” balance flexibility and safety
+10. **Configure tsconfig properly** â€” strictness is the foundation
 
 ---
 
@@ -637,11 +637,11 @@ tags:
 5. **Test types**: Use expectTypeOf to verify types
 
 ### Tools to Use
-- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
-- **VS Code Extension**: Error Lens — for inline TypeScript error display
-- **npm Package**: `vitest` — for type testing with expectTypeOf
-- **Terminal Command**: `pnpm tsc --noEmit` — type check without emitting
-- **Terminal Command**: `pnpm tsc --strict` — enable strict mode
+- **VS Code Extension**: TypeScript Hero â€” for TypeScript shortcuts
+- **VS Code Extension**: Error Lens â€” for inline TypeScript error display
+- **npm Package**: `vitest` â€” for type testing with expectTypeOf
+- **Terminal Command**: `pnpm tsc --noEmit` â€” type check without emitting
+- **Terminal Command**: `pnpm tsc --strict` â€” enable strict mode
 
 ### Agents to Invoke
 - **Code Review Agent**: Run when reviewing PRs with TypeScript changes
@@ -649,12 +649,12 @@ tags:
 
 ### Integration with Other Notes
 - Read [[typescript-strict-mode]] for TypeScript strict mode configuration
-- Read [[ts-fundamentals]] for TypeScript fundamentals
-- Read [[ts-advanced-types]] for advanced TypeScript types
-- Read [[ts-narrowing]] for type narrowing patterns
-- Read [[ts-security-best-practices]] for TypeScript security best practices
-- Read [[ts-optimization-performance]] for TypeScript optimization
-- Read [[ts-tsconfig]] for tsconfig.json configuration
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript fundamentals
+- Read [[TypeScript/generics]] for advanced TypeScript types
+- Read [[TypeScript/type-inference]] for type narrowing patterns
+- Read [[ts-Security/web-security]] for TypeScript security best practices
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript optimization
+- Read [[TypeScript/typescript-configuration]] for tsconfig.json configuration
 
 ### Common Pitfalls
 - Don't use any type (use unknown instead)
@@ -691,19 +691,19 @@ tags:
 ## Integration with Other Notes
 
 - Read [[typescript-strict-mode]] for TypeScript strict mode configuration
-- Read [[ts-fundamentals]] for TypeScript fundamentals
-- Read [[ts-advanced-types]] for advanced TypeScript types
-- Read [[ts-narrowing]] for type narrowing patterns
-- Read [[ts-security-best-practices]] for TypeScript security best practices
-- Read [[ts-optimization-performance]] for TypeScript optimization
-- Read [[ts-tsconfig]] for tsconfig.json configuration
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript fundamentals
+- Read [[TypeScript/generics]] for advanced TypeScript types
+- Read [[TypeScript/type-inference]] for type narrowing patterns
+- Read [[ts-Security/web-security]] for TypeScript security best practices
+- Read [[TypeScript/typescript-strict-mode]] for TypeScript optimization
+- Read [[TypeScript/typescript-configuration]] for tsconfig.json configuration
 
 
 ## See Also
-- [[T01-ts-advanced-types]]
+- [[T01-TypeScript/generics]]
 - [[T03-ts-decorators]]
-- [[T04-ts-fundamentals]]
-- [[T05-ts-narrowing]]
-- [[T06-ts-optimization-performance]]
+- [[T04-TypeScript/typescript-strict-mode]]
+- [[T05-TypeScript/type-inference]]
+- [[T06-TypeScript/typescript-strict-mode]]
 
 

@@ -120,8 +120,8 @@ Indexes do not apply to:
 
 - [[Data Databases/database-indexes]] â€” Database Indexes
 - [[Data Databases/query-optimization]] â€” Query Optimization
-- [[Data Databases/indexing-strategy]] â€” Indexing Strategy
-- [[Data Databases/database-performance]] â€” Database Performance
+- [[Data Databases/database-indexes]] â€” Indexing Strategy
+- [[Data Databases/query-optimization]] â€” Database Performance
 
 ## Project Observations
 

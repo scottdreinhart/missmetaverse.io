@@ -121,8 +121,8 @@ Ports do not apply to:
 
 - [[Application Architecture/hexagonal-architecture-ports]] â€” Hexagonal Architecture Ports
 - [[Application Architecture/hexagonal-architecture-adapters]] â€” Hexagonal Architecture Adapters
-- [[Architecture/dependency-inversion]] â€” Dependency Inversion
-- [[Design Patterns/port-pattern]] â€” Port Pattern
+- [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion
+- [[Application Architecture/hexagonal-architecture]] â€” Port Pattern
 
 ## Project Observations
 

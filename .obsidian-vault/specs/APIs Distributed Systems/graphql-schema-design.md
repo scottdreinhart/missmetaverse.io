@@ -119,9 +119,9 @@ GraphQL Schema Design does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/graphql-schema-design]] â€” GraphQL Schema Design
-- [[APIs Distributed Systems/graphql-types]] â€” GraphQL Types
-- [[APIs Distributed Systems/graphql-queries]] â€” GraphQL Queries
-- [[APIs Distributed Systems/graphql-mutations]] â€” GraphQL Mutations
+- [[APIs Distributed Systems/graphql-schema-design]] â€” GraphQL Types
+- [[APIs Distributed Systems/graphql-schema-design]] â€” GraphQL Queries
+- [[APIs Distributed Systems/graphql-schema-design]] â€” GraphQL Mutations
 
 ## Project Observations
 

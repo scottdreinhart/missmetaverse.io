@@ -121,7 +121,7 @@ Port files do not apply to:
 - [[Project File Conventions/adapter-file-convention]] â€” *.adapter.ts File Convention
 - [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
 - [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
-- [[Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
+- [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
 
 ## Project Observations
 
