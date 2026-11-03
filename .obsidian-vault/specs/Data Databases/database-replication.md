@@ -1,6 +1,8 @@
-﻿---
+---
 slug: database-replication
 tags:
+  - core-concepts
+
   - database   - data   - backend
 ---
 

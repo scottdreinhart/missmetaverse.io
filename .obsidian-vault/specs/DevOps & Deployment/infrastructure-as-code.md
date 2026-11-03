@@ -1,6 +1,8 @@
-﻿---
+---
 slug: infrastructure-as-code
 tags:
+  - core-concepts
+
   - devops   - deployment   - cicd
 ---
 

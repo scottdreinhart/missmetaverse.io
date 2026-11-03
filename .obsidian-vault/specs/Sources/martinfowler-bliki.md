@@ -1,6 +1,8 @@
-﻿---
+---
 slug: martinfowler-bliki
 tags:
+  - references   - external-sources
+
   - source   - reference   - external
 source_id: martinfowler-bliki
 title: "Martin Fowler's Bliki"

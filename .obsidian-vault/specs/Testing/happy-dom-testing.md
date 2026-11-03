@@ -1,6 +1,8 @@
-﻿---
+---
 slug: happy-dom-testing
 tags:
+  - testing   - quality-assurance
+
   - testing   - e2e   - quality
 ---
 

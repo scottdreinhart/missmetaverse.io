@@ -1,6 +1,8 @@
-﻿---
+---
 slug: release-management
 tags:
+  - core-concepts
+
   - devops   - deployment   - cicd
 ---
 

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: trust-boundaries
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

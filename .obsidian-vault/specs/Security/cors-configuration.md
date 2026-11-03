@@ -1,6 +1,8 @@
-﻿---
+---
 slug: cors-configuration
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

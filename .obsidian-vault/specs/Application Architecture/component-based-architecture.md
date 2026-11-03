@@ -1,6 +1,8 @@
-﻿---
+---
 slug: component-based-architecture
 tags:
+  - application-design   - architecture-patterns   - core-concepts
+
   - architecture   - application-design   - patterns
 ---
 

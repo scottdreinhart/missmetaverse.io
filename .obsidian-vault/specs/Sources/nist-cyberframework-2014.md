@@ -1,6 +1,8 @@
-﻿---
+---
 slug: nist-cyberframework-2014
 tags:
+  - references   - external-sources
+
   - source   - reference   - external
 source_id: nist-cyberframework-2014
 title: "NIST Cybersecurity Framework"

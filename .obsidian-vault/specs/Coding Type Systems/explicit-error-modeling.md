@@ -1,6 +1,8 @@
-﻿---
+---
 slug: explicit-error-modeling
 tags:
+  - core-concepts
+
   - coding   - type-system   - best-practices
 ---
 

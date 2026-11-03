@@ -1,6 +1,8 @@
-﻿---
+---
 slug: bulkhead-pattern
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

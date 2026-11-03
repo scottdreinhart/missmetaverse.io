@@ -1,6 +1,8 @@
-﻿---
+---
 slug: websockets-realtime
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

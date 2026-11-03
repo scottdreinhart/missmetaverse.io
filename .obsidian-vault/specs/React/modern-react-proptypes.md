@@ -1,6 +1,8 @@
-﻿---
+---
 slug: modern-react-proptypes
 tags:
+  - core-concepts
+
   - react   - frontend   - ui
 ---
 

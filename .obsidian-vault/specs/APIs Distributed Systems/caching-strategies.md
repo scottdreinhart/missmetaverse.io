@@ -1,6 +1,8 @@
-﻿---
+---
 slug: caching-strategies
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

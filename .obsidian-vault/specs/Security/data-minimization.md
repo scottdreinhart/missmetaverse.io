@@ -1,6 +1,8 @@
-﻿---
+---
 slug: data-minimization
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

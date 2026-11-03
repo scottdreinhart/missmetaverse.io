@@ -1,6 +1,8 @@
-﻿---
+---
 slug: zod-schema-validation
 tags:
+  - core-concepts
+
   - coding   - type-system   - best-practices
 ---
 

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: modern-react-portals
 tags:
+  - core-concepts
+
   - react   - frontend   - ui
 ---
 

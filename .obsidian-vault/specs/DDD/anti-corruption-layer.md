@@ -1,6 +1,8 @@
-﻿---
+---
 slug: anti-corruption-layer
 tags:
+  - core-concepts
+
   - ddd   - domain-driven-design   - architecture
 ---
 

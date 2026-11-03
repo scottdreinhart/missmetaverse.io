@@ -1,6 +1,8 @@
-﻿---
+---
 slug: modern-react-state
 tags:
+  - core-concepts
+
   - react   - frontend   - ui
 ---
 

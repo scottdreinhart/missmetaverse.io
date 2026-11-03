@@ -1,6 +1,8 @@
-﻿---
+---
 slug: rest-api-design
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

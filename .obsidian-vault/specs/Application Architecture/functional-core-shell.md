@@ -1,6 +1,8 @@
-﻿---
+---
 slug: functional-core-shell
 tags:
+  - application-design   - architecture-patterns   - core-concepts
+
   - architecture   - application-design   - patterns
 ---
 

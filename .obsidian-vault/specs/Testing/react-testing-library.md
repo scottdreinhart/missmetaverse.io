@@ -1,6 +1,8 @@
-﻿---
+---
 slug: react-testing-library
 tags:
+  - testing   - quality-assurance
+
   - testing   - e2e   - quality
 ---
 

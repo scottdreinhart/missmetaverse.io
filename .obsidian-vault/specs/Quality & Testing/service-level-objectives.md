@@ -1,6 +1,8 @@
-﻿---
+---
 slug: service-level-objectives
 tags:
+  - core-concepts
+
   - quality   - testing   - best-practices
 ---
 

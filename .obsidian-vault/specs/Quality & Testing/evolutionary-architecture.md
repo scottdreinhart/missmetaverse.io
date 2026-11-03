@@ -1,6 +1,8 @@
-﻿---
+---
 slug: evolutionary-architecture
 tags:
+  - core-concepts
+
   - quality   - testing   - best-practices
 ---
 

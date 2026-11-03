@@ -1,6 +1,8 @@
-﻿---
+---
 slug: facade-pattern
 tags:
+  - core-concepts
+
   - design-patterns   - patterns   - reusable-solutions
 ---
 

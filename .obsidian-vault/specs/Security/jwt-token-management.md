@@ -1,6 +1,8 @@
-﻿---
+---
 slug: jwt-token-management
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

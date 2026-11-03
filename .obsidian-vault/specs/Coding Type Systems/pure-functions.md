@@ -1,6 +1,8 @@
-﻿---
+---
 slug: pure-functions
 tags:
+  - core-concepts
+
   - coding   - type-system   - best-practices
 ---
 

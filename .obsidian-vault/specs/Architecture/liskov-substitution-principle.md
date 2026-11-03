@@ -1,6 +1,8 @@
-﻿---
+---
 slug: liskov-substitution-principle
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

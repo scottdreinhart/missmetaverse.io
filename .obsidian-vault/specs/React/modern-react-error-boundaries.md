@@ -1,6 +1,8 @@
-﻿---
+---
 slug: modern-react-error-boundaries
 tags:
+  - core-concepts
+
   - react   - frontend   - ui
 ---
 

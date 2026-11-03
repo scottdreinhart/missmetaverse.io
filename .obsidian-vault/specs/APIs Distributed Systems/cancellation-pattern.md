@@ -1,6 +1,8 @@
-﻿---
+---
 slug: cancellation-pattern
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

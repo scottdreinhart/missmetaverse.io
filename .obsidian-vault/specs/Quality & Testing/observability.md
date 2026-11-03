@@ -1,6 +1,8 @@
-﻿---
+---
 slug: observability
 tags:
+  - core-concepts
+
   - quality   - testing   - best-practices
 ---
 

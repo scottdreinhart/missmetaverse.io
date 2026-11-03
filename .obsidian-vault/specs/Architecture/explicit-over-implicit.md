@@ -1,6 +1,8 @@
-﻿---
+---
 slug: explicit-over-implicit
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: defense-in-depth
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

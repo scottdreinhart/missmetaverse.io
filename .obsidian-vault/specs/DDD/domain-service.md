@@ -1,6 +1,8 @@
-﻿---
+---
 slug: domain-service
 tags:
+  - core-concepts
+
   - ddd   - domain-driven-design   - architecture
 ---
 

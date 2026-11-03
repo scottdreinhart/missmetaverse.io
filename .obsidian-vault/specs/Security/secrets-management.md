@@ -1,6 +1,8 @@
-﻿---
+---
 slug: secrets-management
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

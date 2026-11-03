@@ -1,6 +1,8 @@
-﻿---
+---
 slug: entity-file-convention
 tags:
+  - core-concepts
+
   - conventions   - file-structure   - organization
 ---
 

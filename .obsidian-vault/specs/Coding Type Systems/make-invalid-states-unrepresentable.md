@@ -1,6 +1,8 @@
-﻿---
+---
 slug: make-invalid-states-unrepresentable
 tags:
+  - core-concepts
+
   - coding   - type-system   - best-practices
 ---
 

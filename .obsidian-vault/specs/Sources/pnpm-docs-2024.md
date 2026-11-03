@@ -1,4 +1,4 @@
-﻿---
+---
 slug: pnpm-docs-2024
 sources:
   - https://pnpm.io/
@@ -6,6 +6,8 @@ sources:
 
 ---
 tags:
+  - references   - external-sources
+
   - pnpm
   - package-manager
   - nodejs

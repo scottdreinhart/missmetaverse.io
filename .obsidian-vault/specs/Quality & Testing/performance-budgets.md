@@ -1,6 +1,8 @@
-﻿---
+---
 slug: performance-budgets
 tags:
+  - core-concepts
+
   - quality   - testing   - best-practices
 ---
 

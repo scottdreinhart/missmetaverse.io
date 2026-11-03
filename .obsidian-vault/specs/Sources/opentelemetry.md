@@ -1,6 +1,8 @@
-﻿---
+---
 slug: opentelemetry
 tags:
+  - references   - external-sources
+
   - source   - reference   - external
 source_id: opentelemetry
 title: "OpenTelemetry Documentation"

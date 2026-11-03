@@ -1,4 +1,4 @@
-﻿---
+---
 slug: microsoft-typescript-handbook
 sources:
   - https://learn.microsoft.com/
@@ -6,6 +6,8 @@ sources:
 
 ---
 tags:
+  - references   - external-sources
+
   - typescript
   - microsoft
   - typing

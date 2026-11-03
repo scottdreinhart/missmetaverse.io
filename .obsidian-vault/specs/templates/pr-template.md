@@ -1,4 +1,4 @@
-﻿---
+---
 slug: pr-template
 title: Pull Request Template
 description: Comprehensive PR template for structured pull requests with context, changes, testing, and review guidance.
@@ -6,19 +6,7 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - templates   - boilerplate
 
   - pr
   - template
@@ -282,88 +270,3 @@ JWT_REFRESH_EXPIRATION=7d
 ---
 
 ## Copilot Integration
-
-## concept_id
-pr-template
-
-## title
-pr-template
-
-## aliases
-- pr-template
-
-## category
-template
-
-## concept_type
-template
-
-## research_status
-verified
-
-## project_adoption
-template
-
-### When Creating a PR
-```
-1. Analyze the diff: git diff main...HEAD
-2. Identify changed files and their purposes
-3. Suggest appropriate "Type of Change"
-4. Help write a clear Description
-5. Check for referenced ADRs
-6. Verify testing coverage
-7. Check security implications
-8. Assess performance impact
-9. Suggest reviewer guidance
-```
-
-### When Reviewing a PR
-```
-1. Read the PR description
-2. Check the Files Changed tab
-3. Run automated checks:
-   - pnpm run type-check
-   - pnpm run lint
-   - pnpm run test
-   - pnpm run build
-4. Review code for:
-   - Architecture compliance
-   - Security vulnerabilities
-   - Performance issues
-   - Test coverage
-5. Provide specific feedback with line numbers
-6. Suggest improvements with code examples
-```
-
----
-
-*Template Version: 1.0*
-*Last Updated: 2026-11-02*
-
-## See Also
-
-## concept_id
-pr-template
-
-## title
-pr-template
-
-## aliases
-- pr-template
-
-## category
-template
-
-## concept_type
-template
-
-## research_status
-verified
-
-## project_adoption
-template
-- [[adr-template]]
-- [[code-review-checklist]]
-- [[commit-message-template]]
-
-

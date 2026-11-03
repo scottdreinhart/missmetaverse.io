@@ -1,6 +1,8 @@
-﻿---
+---
 slug: docker-containerization
 tags:
+  - core-concepts
+
   - devops   - deployment   - cicd
 ---
 

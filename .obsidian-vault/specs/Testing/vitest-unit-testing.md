@@ -1,6 +1,8 @@
-﻿---
+---
 slug: vitest-unit-testing
 tags:
+  - testing   - quality-assurance
+
   - testing   - e2e   - quality
 ---
 

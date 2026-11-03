@@ -1,6 +1,8 @@
-﻿---
+---
 slug: oauth2-authentication
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

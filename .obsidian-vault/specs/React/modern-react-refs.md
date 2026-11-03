@@ -1,6 +1,8 @@
-﻿---
+---
 slug: modern-react-refs
 tags:
+  - core-concepts
+
   - react   - frontend   - ui
 ---
 

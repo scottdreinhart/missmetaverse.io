@@ -1,6 +1,8 @@
-﻿---
+---
 slug: logging
 tags:
+  - monitoring   - observability
+
   - monitoring   - observability   - devops
 ---
 

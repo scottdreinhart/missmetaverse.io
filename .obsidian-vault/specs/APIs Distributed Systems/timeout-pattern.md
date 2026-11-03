@@ -1,6 +1,8 @@
-﻿---
+---
 slug: timeout-pattern
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

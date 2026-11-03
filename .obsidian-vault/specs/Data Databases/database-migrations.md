@@ -1,6 +1,8 @@
-﻿---
+---
 slug: database-migrations
 tags:
+  - core-concepts
+
   - database   - data   - backend
 ---
 

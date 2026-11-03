@@ -1,6 +1,8 @@
-﻿---
+---
 slug: swagger-openapi
 tags:
+  - references   - external-sources
+
   - source   - reference   - external
 source_id: swagger-openapi
 title: "OpenAPI Specification"

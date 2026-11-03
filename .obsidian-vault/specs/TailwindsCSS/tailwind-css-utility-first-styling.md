@@ -1,6 +1,8 @@
-﻿---
+---
 slug: tailwind-css-utility-first-styling
 tags:
+  - core-concepts
+
   - css   - tailwind   - frontend
 ---
 

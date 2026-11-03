@@ -1,6 +1,8 @@
-﻿---
+---
 slug: declarative-programming
 tags:
+  - core-concepts
+
   - data-driven   - declarative   - architecture
 ---
 

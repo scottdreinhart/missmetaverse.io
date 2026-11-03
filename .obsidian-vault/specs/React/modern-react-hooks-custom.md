@@ -1,6 +1,8 @@
-﻿---
+---
 slug: modern-react-hooks-custom
 tags:
+  - core-concepts
+
   - react   - frontend   - ui
 ---
 

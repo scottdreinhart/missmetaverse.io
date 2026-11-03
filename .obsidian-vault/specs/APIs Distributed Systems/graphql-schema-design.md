@@ -1,6 +1,8 @@
-﻿---
+---
 slug: graphql-schema-design
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

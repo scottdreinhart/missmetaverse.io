@@ -1,6 +1,8 @@
-﻿---
+---
 slug: query-optimization
 tags:
+  - core-concepts
+
   - database   - data   - backend
 ---
 

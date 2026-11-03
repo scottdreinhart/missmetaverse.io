@@ -1,6 +1,8 @@
-﻿---
+---
 slug: radix-ui-docs-2024
 tags:
+  - references   - external-sources
+
   - source   - reference   - external
 source_id: radix-ui-docs-2024
 title: "Radix UI Primitives"

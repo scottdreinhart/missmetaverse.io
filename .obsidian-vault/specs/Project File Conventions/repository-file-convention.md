@@ -1,6 +1,8 @@
-﻿---
+---
 slug: repository-file-convention
 tags:
+  - core-concepts
+
   - conventions   - file-structure   - organization
 ---
 

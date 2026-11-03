@@ -1,6 +1,8 @@
-﻿---
+---
 slug: ubiquitous-language
 tags:
+  - core-concepts
+
   - ddd   - domain-driven-design   - architecture
 ---
 

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: data-modeling
 tags:
+  - core-concepts
+
   - database   - data   - backend
 ---
 

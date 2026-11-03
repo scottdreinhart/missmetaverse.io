@@ -1,6 +1,8 @@
-﻿---
+---
 slug: zero-trust
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

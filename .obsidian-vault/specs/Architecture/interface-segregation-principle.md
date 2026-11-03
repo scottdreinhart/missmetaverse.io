@@ -1,6 +1,8 @@
-﻿---
+---
 slug: interface-segregation-principle
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

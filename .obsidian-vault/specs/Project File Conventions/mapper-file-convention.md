@@ -1,6 +1,8 @@
-﻿---
+---
 slug: mapper-file-convention
 tags:
+  - core-concepts
+
   - conventions   - file-structure   - organization
 ---
 

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: rest
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: logic-file-convention
 tags:
+  - core-concepts
+
   - conventions   - file-structure   - organization
 ---
 

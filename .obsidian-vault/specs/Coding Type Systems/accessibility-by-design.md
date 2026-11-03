@@ -1,6 +1,8 @@
-﻿---
+---
 slug: accessibility-by-design
 tags:
+  - core-concepts
+
   - coding   - type-system   - best-practices
 ---
 

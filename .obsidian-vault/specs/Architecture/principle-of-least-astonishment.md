@@ -1,6 +1,8 @@
-﻿---
+---
 slug: principle-of-least-astonishment
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: vitest-docs-2024
 sources:
   - https://vitest.dev/
@@ -6,6 +6,8 @@ sources:
 
 ---
 tags:
+  - references   - external-sources
+
   - vitest
   - testing
   - unit-testing

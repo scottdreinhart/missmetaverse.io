@@ -1,6 +1,8 @@
-﻿---
+---
 slug: lucide-icon-library
 tags:
+  - core-concepts
+
   - icons   - ui   - frontend
 ---
 

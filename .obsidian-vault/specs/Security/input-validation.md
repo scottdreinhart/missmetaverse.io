@@ -1,6 +1,8 @@
-﻿---
+---
 slug: input-validation
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

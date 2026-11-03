@@ -1,6 +1,8 @@
-﻿---
+---
 slug: error-handling
 tags:
+  - core-concepts
+
   - coding   - type-system   - best-practices
 ---
 

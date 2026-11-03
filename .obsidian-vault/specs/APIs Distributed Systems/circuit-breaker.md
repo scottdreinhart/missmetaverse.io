@@ -1,6 +1,8 @@
-﻿---
+---
 slug: circuit-breaker
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

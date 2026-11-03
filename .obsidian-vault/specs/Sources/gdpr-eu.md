@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gdpr-eu
 sources:
   - https://gdpr.eu/
@@ -6,6 +6,8 @@ sources:
 
 ---
 tags:
+  - references   - external-sources
+
   - gdpr
   - privacy
   - compliance

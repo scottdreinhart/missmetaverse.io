@@ -1,6 +1,8 @@
-﻿---
+---
 slug: performance-optimization
 tags:
+  - core-concepts
+
   - frontend   - web   - ui
 ---
 

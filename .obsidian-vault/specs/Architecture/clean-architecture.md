@@ -1,6 +1,8 @@
-﻿---
+---
 slug: clean-architecture
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

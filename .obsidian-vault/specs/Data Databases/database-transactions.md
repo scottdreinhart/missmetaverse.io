@@ -1,6 +1,8 @@
-﻿---
+---
 slug: database-transactions
 tags:
+  - core-concepts
+
   - database   - data   - backend
 ---
 

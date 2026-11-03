@@ -1,6 +1,8 @@
-﻿---
+---
 slug: mutation-testing
 tags:
+  - core-concepts
+
   - quality   - testing   - best-practices
 ---
 

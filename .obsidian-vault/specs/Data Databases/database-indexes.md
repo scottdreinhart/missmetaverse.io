@@ -1,6 +1,8 @@
-﻿---
+---
 slug: database-indexes
 tags:
+  - core-concepts
+
   - database   - data   - backend
 ---
 

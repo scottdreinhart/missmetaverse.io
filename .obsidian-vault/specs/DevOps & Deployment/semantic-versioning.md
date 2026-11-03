@@ -1,6 +1,8 @@
-﻿---
+---
 slug: semantic-versioning
 tags:
+  - core-concepts
+
   - devops   - deployment   - cicd
 ---
 

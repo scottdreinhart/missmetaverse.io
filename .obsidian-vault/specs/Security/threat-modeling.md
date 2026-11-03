@@ -1,6 +1,8 @@
-﻿---
+---
 slug: threat-modeling
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

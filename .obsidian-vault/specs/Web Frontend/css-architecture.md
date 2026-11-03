@@ -1,6 +1,8 @@
-﻿---
+---
 slug: css-architecture
 tags:
+  - core-concepts
+
   - frontend   - web   - ui
 ---
 

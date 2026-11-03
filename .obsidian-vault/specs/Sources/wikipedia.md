@@ -1,6 +1,8 @@
-﻿---
+---
 slug: wikipedia
 tags:
+  - references   - external-sources
+
   - source   - reference   - external
 source_id: wikipedia
 title: "Wikipedia â€” Software Engineering"

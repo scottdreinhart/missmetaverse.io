@@ -1,4 +1,4 @@
-﻿---
+---
 slug: react-docs-2026
 sources:
   - https://react.dev/
@@ -6,6 +6,8 @@ sources:
 
 ---
 tags:
+  - references   - external-sources
+
   - maturity/deprecated
   - react
   - meta

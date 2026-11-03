@@ -1,6 +1,8 @@
-﻿---
+---
 slug: modern-react-components
 tags:
+  - core-concepts
+
   - react   - frontend   - ui
 ---
 

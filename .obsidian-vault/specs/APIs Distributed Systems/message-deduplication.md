@@ -1,6 +1,8 @@
-﻿---
+---
 slug: message-deduplication
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

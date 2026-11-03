@@ -1,6 +1,8 @@
-﻿---
+---
 slug: continuous-integration
 tags:
+  - core-concepts
+
   - quality   - testing   - best-practices
 ---
 

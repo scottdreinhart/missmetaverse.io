@@ -1,6 +1,8 @@
-﻿---
+---
 slug: discriminated-unions
 tags:
+  - core-concepts
+
   - coding   - type-system   - best-practices
 ---
 

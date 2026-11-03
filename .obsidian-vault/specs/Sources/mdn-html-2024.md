@@ -1,4 +1,4 @@
-﻿---
+---
 slug: mdn-html-2024
 sources:
   - https://developer.mozilla.org/en-US/docs/
@@ -6,6 +6,8 @@ sources:
 
 ---
 tags:
+  - references   - external-sources
+
   - html
   - mdn
   - web-standards

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: high-cohesion
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

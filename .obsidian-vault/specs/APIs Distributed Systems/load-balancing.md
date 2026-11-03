@@ -1,6 +1,8 @@
-﻿---
+---
 slug: load-balancing
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: conventional-commits
 tags:
+  - core-concepts
+
   - git   - version-control   - conventions
 ---
 

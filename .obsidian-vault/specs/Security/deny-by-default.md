@@ -1,6 +1,8 @@
-﻿---
+---
 slug: deny-by-default
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

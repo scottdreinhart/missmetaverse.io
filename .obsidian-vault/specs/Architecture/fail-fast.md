@@ -1,6 +1,8 @@
-﻿---
+---
 slug: fail-fast
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

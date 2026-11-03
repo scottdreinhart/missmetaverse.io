@@ -1,6 +1,8 @@
-﻿---
+---
 slug: small-cohesive-modules
 tags:
+  - core-concepts
+
   - coding   - type-system   - best-practices
 ---
 

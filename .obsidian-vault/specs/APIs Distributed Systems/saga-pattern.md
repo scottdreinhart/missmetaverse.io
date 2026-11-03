@@ -1,6 +1,8 @@
-﻿---
+---
 slug: saga-pattern
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

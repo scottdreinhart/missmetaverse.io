@@ -1,6 +1,8 @@
-﻿---
+---
 slug: principle-of-least-privilege
 tags:
+  - security   - authentication   - authorization
+
   - security   - authentication   - best-practices
 ---
 

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: incremental-refactoring
 tags:
+  - core-concepts
+
   - quality   - testing   - best-practices
 ---
 

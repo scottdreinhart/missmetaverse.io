@@ -1,6 +1,8 @@
-﻿---
+---
 slug: microservices
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

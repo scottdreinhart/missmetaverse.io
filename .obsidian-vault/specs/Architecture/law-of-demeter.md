@@ -1,6 +1,8 @@
-﻿---
+---
 slug: law-of-demeter
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

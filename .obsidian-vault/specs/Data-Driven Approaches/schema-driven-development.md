@@ -1,6 +1,8 @@
-﻿---
+---
 slug: schema-driven-development
 tags:
+  - core-concepts
+
   - data-driven   - declarative   - architecture
 ---
 

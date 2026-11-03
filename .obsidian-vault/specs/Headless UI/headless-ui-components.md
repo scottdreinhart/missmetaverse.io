@@ -1,6 +1,8 @@
-﻿---
+---
 slug: headless-ui-components
 tags:
+  - core-concepts
+
   - headless   - ui   - components
 ---
 

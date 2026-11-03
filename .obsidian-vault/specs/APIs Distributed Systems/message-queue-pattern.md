@@ -1,6 +1,8 @@
-﻿---
+---
 slug: message-queue-pattern
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

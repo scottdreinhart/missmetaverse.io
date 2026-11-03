@@ -1,6 +1,8 @@
-﻿---
+---
 slug: service-mesh
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

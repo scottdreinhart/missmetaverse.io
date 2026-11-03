@@ -1,6 +1,8 @@
-﻿---
+---
 slug: vite-build-configuration
 tags:
+  - core-concepts
+
   - build-tool   - bundler   - devops
 ---
 

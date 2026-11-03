@@ -1,6 +1,8 @@
-﻿---
+---
 slug: cqrs-pattern
 tags:
+  - application-design   - architecture-patterns   - core-concepts
+
   - architecture   - application-design   - patterns
 ---
 

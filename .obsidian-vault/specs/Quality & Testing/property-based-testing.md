@@ -1,6 +1,8 @@
-﻿---
+---
 slug: property-based-testing
 tags:
+  - core-concepts
+
   - quality   - testing   - best-practices
 ---
 

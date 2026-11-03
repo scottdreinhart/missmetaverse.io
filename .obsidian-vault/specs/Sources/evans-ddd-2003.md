@@ -1,4 +1,4 @@
-﻿---
+---
 slug: evans-ddd-2003
 sources:
   - https://en.wikipedia.org/wiki/Domain-Driven_Design
@@ -6,6 +6,8 @@ sources:
 
 ---
 tags:
+  - references   - external-sources
+
   - ddd
   - domain-driven-design
   - architecture

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: port-file-convention
 tags:
+  - core-concepts
+
   - conventions   - file-structure   - organization
 ---
 

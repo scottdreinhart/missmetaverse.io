@@ -1,6 +1,8 @@
-﻿---
+---
 slug: web-vitals
 tags:
+  - core-concepts
+
   - frontend   - web   - ui
 ---
 

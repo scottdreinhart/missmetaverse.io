@@ -1,6 +1,8 @@
-﻿---
+---
 slug: value-object-file-convention
 tags:
+  - core-concepts
+
   - conventions   - file-structure   - organization
 ---
 

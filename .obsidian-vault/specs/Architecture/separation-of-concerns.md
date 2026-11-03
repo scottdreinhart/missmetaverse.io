@@ -1,6 +1,8 @@
-﻿---
+---
 slug: separation-of-concerns
 tags:
+  - architecture   - design-patterns
+
   - architecture   - design-patterns   - core-concepts
 ---
 

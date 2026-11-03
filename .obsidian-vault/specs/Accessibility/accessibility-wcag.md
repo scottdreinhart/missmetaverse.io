@@ -1,6 +1,8 @@
-﻿---
+---
 slug: accessibility-wcag
 tags:
+  - accessibility   - a11y
+
   - accessibility   - a11y   - frontend
 ---
 

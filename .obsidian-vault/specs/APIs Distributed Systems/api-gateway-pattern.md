@@ -1,6 +1,8 @@
-﻿---
+---
 slug: api-gateway-pattern
 tags:
+  - core-concepts
+
   - api   - distributed-systems   - backend
 ---
 

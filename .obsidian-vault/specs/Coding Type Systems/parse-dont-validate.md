@@ -1,6 +1,8 @@
-﻿---
+---
 slug: parse-dont-validate
 tags:
+  - core-concepts
+
   - coding   - type-system   - best-practices
 ---
 

@@ -1,6 +1,8 @@
-﻿---
+---
 slug: data-file-convention
 tags:
+  - core-concepts
+
   - conventions   - file-structure   - organization
 ---
 
