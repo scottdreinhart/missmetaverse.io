@@ -1,0 +1,29 @@
+---
+slug: ssg
+sources:
+  - https://en.wikipedia.org/wiki/Software_design_pattern
+date: 2026-11-03
+tags:
+  - principles
+  - ssg
+  - best-practices
+---
+
+# Static Site Generation
+
+## Overview
+
+Generating static HTML pages at build time
+
+## Related Notes
+
+- [[Quality & Testing/continuous-integration.md]]
+
+## See Also
+
+- [[Architecture]] — Main architecture notes
+- [[Application Architecture]] — Application-level architecture patterns
+
+---
+
+*Auto-generated index for Static Site Generation*
