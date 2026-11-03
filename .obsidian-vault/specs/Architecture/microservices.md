@@ -1,4 +1,4 @@
----
+﻿---
 slug: microservices
 sources:
   - https://martinfowler.com/articles/microservices.html
@@ -219,9 +219,9 @@ pnpm test:e2e services/user/
 
 ### Integration with Other Notes
 - Read [[modular-monolith]] for when to choose monolith over microservices
-- Read [[event-driven-architecture]] for async communication patterns
-- Read [[api-gateway-pattern]] for service gateway patterns
-- read [[circuit-breaker-pattern]] for failure handling
+- Read [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) for async communication patterns
+- Read [api-gateway-pattern](https://martinfowler.com/articles/microservices.html#APIGateway) for service gateway patterns
+- read [circuit-breaker-pattern](https://martinfowler.com/bliki/CircuitBreaker.html) for failure handling
 - read [[project-structure-mapping]] for folder structure
 
 ### Common Pitfalls
@@ -361,9 +361,9 @@ Order Service → [OrderPlaced] → Notification Service
 
 ### Integration with Other Notes
 - Read [[modular-monolith]] for when to choose monolith over microservices
-- Read [[event-driven-architecture]] for async communication patterns
-- Read [[api-gateway-pattern]] for service gateway patterns
-- read [[circuit-breaker-pattern]] for failure handling
+- Read [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) for async communication patterns
+- Read [api-gateway-pattern](https://martinfowler.com/articles/microservices.html#APIGateway) for service gateway patterns
+- read [circuit-breaker-pattern](https://martinfowler.com/bliki/CircuitBreaker.html) for failure handling
 - read [[project-structure-mapping]] for folder structure
 
 ### Common Pitfalls

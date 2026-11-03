@@ -1,5 +1,5 @@
 ---
-slug: atomic-design
+slug: atomic-design-methodology-original
 sources:
   - https://bradfrost.com/blog/post/atomic-web-design/
   - https://atomicdesign.bradfrost.com/

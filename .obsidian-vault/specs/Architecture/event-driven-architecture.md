@@ -1,4 +1,4 @@
----
+﻿---
 slug: event-driven-architecture
 sources:
   - https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html
@@ -102,9 +102,9 @@ Synchronous communication leads to:
 
 ### Integration with Other Notes
 - Read [[ddd-patterns]] for domain event patterns
-- Read [[cqrs-pattern]] for CQRS + EDA integration
-- Read [[transactional-outbox]] for reliable event publishing
-- Read [[circuit-breaker-pattern]] for handling event processing failures
+- Read [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) for CQRS + EDA integration
+- Read [transactional-outbox](https://microservices.io/patterns/data/transactional-outbox.html) for reliable event publishing
+- Read [circuit-breaker-pattern](https://martinfowler.com/bliki/CircuitBreaker.html) for handling event processing failures
 
 ### Common Pitfalls
 - Don't make everything event-driven (synchronous is fine for simple cases)

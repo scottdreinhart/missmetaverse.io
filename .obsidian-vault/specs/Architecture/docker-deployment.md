@@ -1,4 +1,4 @@
----
+﻿---
 slug: docker-deployment
 sources:
   - https://docs.docker.com/
@@ -309,10 +309,10 @@ services:
 - **Performance Review Agent**: Run when optimizing Docker images
 
 ### Integration with Other Notes
-- Read [[ci-cd-patterns]] for CI/CD deployment patterns
-- read [[nginx-patterns]] for nginx configuration
-- Read [[deployment-patterns]] for deployment strategies
-- Read [[monitoring-patterns]] for monitoring Docker containers
+- Read [ci-cd-patterns](D/ci-cd-patterns.md) for CI/CD deployment patterns
+- read [nginx-patterns](D/nginx-patterns.md) for nginx configuration
+- Read [deployment-patterns](D/deployment-patterns.md) for deployment strategies
+- Read [monitoring-patterns](D/monitoring-patterns.md) for monitoring Docker containers
 
 ### Common Pitfalls
 - Don't hardcode secrets in Dockerfiles (use environment variables)

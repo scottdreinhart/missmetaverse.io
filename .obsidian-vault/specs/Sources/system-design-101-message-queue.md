@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-message-queue
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-message-queue]]
+Reference: [Guide: how-do-we-design-a-message-queue](https://bytebytego.com/guides/how-do-we-design-a-message-queue)
 
 This guide covers message queues, event-driven architecture, and messaging patterns.
 
@@ -144,13 +144,13 @@ class KafkaService {
 
 Read these vault notes for deeper understanding:
 
-- [[event-driven-architecture]] — Event-driven patterns
+- [event-driven-architecture](D/event-driven-architecture.md) — Event-driven patterns
 - [[message-queues]] — Message queue patterns
 - [[event-sourcing]] — Event sourcing pattern
 - [[cqrs]] — CQRS pattern
-- [[microservices]] — Microservices communication
+- [microservices](D/microservices.md) — Microservices communication
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-message-queue|message-queue-guide]]
+- [message-queue-guide](https://bytebytego.com/guides/how-do-we-design-a-message-queue)

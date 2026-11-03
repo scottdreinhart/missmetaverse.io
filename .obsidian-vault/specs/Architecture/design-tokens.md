@@ -1,4 +1,4 @@
----
+﻿---
 slug: design-tokens
 sources:
   - https://design-tokens.github.io/community-group/format/
@@ -64,11 +64,11 @@ Without design tokens:
 
 ## Integration with Other Notes
 
-- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
-- Read [[css-fundamentals]] for CSS fundamentals
-- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
-- Read [[shadcn-best-practices]] for shadcn/ui best practices
-- Read [[atomic-design]] for atomic design patterns
+- Read [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
+- Read [css-fundamentals](D/css-fundamentals.md) for CSS fundamentals
+- Read [shadcn-ui-patterns](D/shadcn-ui-patterns.md) for shadcn/ui component patterns
+- Read [shadcn-best-practices](D/shadcn-best-practices.md) for shadcn/ui best practices
+- Read [atomic-design](https://bradfrost.com/blog/post/atomic-web-design/) for atomic design patterns
 
 ## Project Observations
 

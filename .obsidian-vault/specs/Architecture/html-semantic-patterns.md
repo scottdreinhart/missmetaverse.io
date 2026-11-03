@@ -1,5 +1,5 @@
 ---
-slug: html-semantic-patterns
+slug: html-semantic-patterns-original
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/HTML
   - https://html.spec.whatwg.org/

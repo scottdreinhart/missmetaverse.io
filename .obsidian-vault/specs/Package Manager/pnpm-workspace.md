@@ -1,4 +1,4 @@
----
+﻿---
 slug: pnpm-workspace
 sources:
   - https://pnpm.io/package-json
@@ -451,9 +451,9 @@ pnpm audit
 
 ### Integration with Other Notes
 - Read [[pnpm-best-practices]] for pnpm best practices
-- Read [[ci-cd-patterns]] for CI/CD integration
-- Read [[docker-deployment]] for Docker integration
-- Read [[conventional-commits]] for commit conventions
+- Read [[Quality Delivery/ci-cd-patterns]] for CI/CD integration
+- Read [docker-deployment](D/docker-deployment.md) for Docker integration
+- Read [conventional-commits](D/conventional-commits.md) for commit conventions
 
 ### Common Pitfalls
 - Don't ignore peer dependencies (use --peer)

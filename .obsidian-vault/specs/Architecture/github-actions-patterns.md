@@ -1,5 +1,5 @@
----
-slug: github-actions-patterns
+﻿---
+slug: github-actions-patterns-original
 sources:
   - https://docs.github.com/en/actions
   - https://github.com/features/actions
@@ -314,10 +314,10 @@ jobs:
 - **Code Review Agent**: Run when reviewing PRs with workflow changes
 
 ### Integration with Other Notes
-- Read [[ci-cd-patterns]] for CI/CD deployment patterns
-- read [[docker-deployment]] for Docker deployment patterns
-- Read [[deployment-patterns]] for deployment strategies
-- Read [[monitoring-patterns]] for monitoring deployments
+- Read [ci-cd-patterns](D/ci-cd-patterns.md) for CI/CD deployment patterns
+- read [docker-deployment](https://docs.docker.com/deployment/) for Docker deployment patterns
+- Read [deployment-patterns](D/deployment-patterns.md) for deployment strategies
+- Read [monitoring-patterns](D/monitoring-patterns.md) for monitoring deployments
 
 ### Common Pitfalls
 - Don't hardcode secrets in workflows (use GitHub Secrets)

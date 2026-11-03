@@ -1,4 +1,4 @@
----
+﻿---
 slug: trust-boundaries
 sources:
   - https://owasp.org/
@@ -354,9 +354,9 @@ export const boundaryLogger = new BoundaryLogger()
 
 ### Integration with Other Notes
 - read [[threat-modeling]] for threat modeling
-- read [[authentication]] for authentication patterns
-- read [[input-validation]] for input validation
-- read [[security-principles]] for security principles
+- read [authentication](D/authentication.md) for authentication patterns
+- read [input-validation](D/input-validation.md) for input validation
+- read [security-principles](D/security-principles.md) for security principles
 
 ### Common Pitfalls
 - Don't skip validation at untrusted boundaries

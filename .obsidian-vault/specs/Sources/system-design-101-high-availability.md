@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-high-availability
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-for-high-availability]]
+Reference: [Guide: how-do-we-design-for-high-availability](https://bytebytego.com/guides/how-do-we-design-for-high-availability)
 
 This guide covers key strategies for designing systems with high availability.
 
@@ -200,7 +200,7 @@ Read these vault notes for deeper understanding:
 
 - [[scalability-strategies]] — Scalability patterns
 - [[resiliency-patterns]] — Resiliency patterns
-- [[circuit-breaker-pattern]] — Circuit breaker implementation
+- [circuit-breaker-pattern](D/circuit-breaker-pattern.md) — Circuit breaker implementation
 - [[load-balancing]] — Load balancing patterns
 - [[disaster-recovery]] — Disaster recovery planning
 - [[monitoring-and-alerting]] — Monitoring strategies
@@ -208,4 +208,4 @@ Read these vault notes for deeper understanding:
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-for-high-availability|high-availability-guide]]
+- [high-availability-guide](https://bytebytego.com/guides/how-do-we-design-for-high-availability)

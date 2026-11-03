@@ -1,4 +1,4 @@
----
+﻿---
 slug: html5-best-practices
 sources:
   - https://developer.mozilla.org/en-US/docs/Glossary/HTML5
@@ -603,10 +603,10 @@ customElements.define('my-card', MyCard);
 
 ## Cross-References
 
-- See [[css3-performance-security]] for CSS3 integration patterns
-- See [[tw-optimization-performance]] for Tailwind CSS styling
-- See [[shadcn-best-practices]] for component accessibility patterns
-- See [[css-media-queries]] for responsive design and media query patterns
+- See [css3-performance-security](D/css3-performance-security.md) for CSS3 integration patterns
+- See [tw-optimization-performance](D/tw-optimization-performance.md) for Tailwind CSS styling
+- See [shadcn-best-practices](D/shadcn-best-practices.md) for component accessibility patterns
+- See [css-media-queries](D/css-media-queries.md) for responsive design and media query patterns
 
 ## Sources
 
@@ -779,10 +779,10 @@ px lighthouse https://localhost:3000 --categories accessibility,seo\ — run aud
 - **Code Review Agent**: Run when reviewing PRs with HTML changes
 
 ### Integration with Other Notes
-- Read [[css-media-queries]] for responsive design patterns
-- Read [[accessibility-a11y]] for accessibility best practices
+- Read [css-media-queries](D/css-media-queries.md) for responsive design patterns
+- Read [accessibility-a11y](D/accessibility-a11y.md) for accessibility best practices
 - Read [[seo-best-practices]] for SEO optimization
-- Read [[html-semantic-patterns]] for HTML semantic patterns
+- Read [[Hypertext HTML/html-semantic-patterns]] for HTML semantic patterns
 
 ### Common Pitfalls
 - Don't use divs for everything (use semantic elements)

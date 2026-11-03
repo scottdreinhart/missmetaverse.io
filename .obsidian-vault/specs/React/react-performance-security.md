@@ -1,4 +1,4 @@
----
+﻿---
 slug: react-performance-security
 sources:
   - https://react.dev/reference/react/useMemo
@@ -380,10 +380,10 @@ useEffect(() => {
 
 ## Cross-References
 
-- See [[ts-best-practices]] for TypeScript integration with React
-- See [[vite-optimization-security]] for build optimization
-- See [[vitest-testing]] for testing React components
-- See [[playwright-patterns]] for end-to-end testing
+- See [ts-best-practices](D/ts-best-practices.md) for TypeScript integration with React
+- See [vite-optimization-security](D/vite-optimization-security.md) for build optimization
+- See [vitest-testing](D/vitest-testing.md) for testing React components
+- See [playwright-patterns](D/playwright-patterns.md) for end-to-end testing
 
 ---
 
@@ -583,9 +583,9 @@ export function App() {
 
 ### Integration with Other Notes
 - Read [[react-patterns]] for React component patterns
-- read [[vitest-testing]] for testing React components
-- Read [[vite-optimization]] for build optimization
-- Read [[playwright-patterns]] for E2E testing
+- read [vitest-testing](D/vitest-testing.md) for testing React components
+- Read [vite-optimization](D/vite-optimization.md) for build optimization
+- Read [playwright-patterns](D/playwright-patterns.md) for E2E testing
 
 ### Common Pitfalls
 - Don't over-optimize (measure before optimizing)

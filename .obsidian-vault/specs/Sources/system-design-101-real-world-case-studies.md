@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-real-world-case-studies
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -10,142 +10,50 @@ tags:
   - reference
 ---
 
-# Real-World System Design Case Studies
+# Real-World Case Studies — Complete ByteByteGo Guide Index
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-real-world-systems]]
+Reference: [Guide: real-world-case-studies](https://bytebytego.com/guides/real-world-case-studies)
 
-This guide covers real-world system design examples and lessons learned.
+This category covers all real-world case study guides from ByteByteGo System Design 101.
 
-## Case Study 1: URL Shortener (Bitly)
+## Case Studies
 
-### Requirements
-- Shorten long URLs
-- Redirect to original URL
-- Track click analytics
-- Expiration support
-
-### Design
-- Hash function for short codes
-- Database for URL mapping
-- 302 redirect for temporary redirects
-- Analytics service for tracking
-
-### Key Decisions
-- Base62 encoding for short codes
-- Distributed ID generation
-- Caching for popular URLs
-
-## Case Study 2: Social Network Feed (Twitter)
-
-### Requirements
-- Post tweets
-- Follow/unfollow users
-- Timeline with tweets from followed users
-- Real-time updates
-
-### Design Options
-
-**Fan-out on Write** (Twitter's original approach):
-- Push tweets to followers' timelines
-- Fast reads, slow writes
-- Works well for most users
-
-**Fan-out on Read** (for celebrities):
-- Fetch followed tweets on demand
-- Slow reads, fast writes
-- Used for users with many followers
-
-### Key Decisions
-- Hybrid approach for scalability
-- Redis for timeline caching
-- Kafka for event streaming
-
-## Case Study 3: E-commerce Platform (Amazon)
-
-### Requirements
-- Product catalog
-- Shopping cart
-- Order management
-- Payment processing
-- Inventory management
-
-### Design
-- Microservices architecture
-- Event-driven order processing
-- Distributed inventory management
-- CDN for product images
-
-### Key Decisions
-- CQRS for order management
-- Event sourcing for audit trail
-- Multi-region deployment
-
-## Case Study 4: Video Streaming (YouTube)
-
-### Requirements
-- Upload videos
-- Transcode to multiple formats
-- Stream to users globally
-- Track views and analytics
-
-### Design
-- CDN for video distribution
-- Adaptive bitrate streaming
-- Distributed transcoding pipeline
-- Analytics at edge
-
-### Key Decisions
-- HLS/DASH for adaptive streaming
-- Edge caching for popular videos
-- Batch processing for analytics
-
-## Case Study 5: Ride-Sharing (Uber)
-
-### Requirements
-- Match riders with drivers
-- Real-time location tracking
-- Route optimization
-- Payment processing
-
-### Design
-- Geospatial indexing (GeoHash)
-- WebSocket for real-time updates
-- Event-driven architecture
-- Multi-layer caching
-
-### Key Decisions
-- Redis Geo for location tracking
-- Kafka for event streaming
-- Machine learning for ETA prediction
-
-## Lessons Learned
-
-### Common Patterns
-1. **Start simple, scale later** — Don't over-engineer early
-2. **Cache aggressively** — Most systems are read-heavy
-3. **Design for failure** — Assume components will fail
-4. **Monitor everything** — You can't improve what you don't measure
-5. **Automate operations** — Manual processes don't scale
-
-### Common Anti-Patterns
-1. **Single point of failure** — Always have redundancy
-2. **Tight coupling** — Services should be loosely coupled
-3. **No monitoring** — Blind deployments are risky
-4. **Ignoring security** — Security can't be an afterthought
-5. **Over-optimization** — Optimize based on data, not assumptions
+### Company Architecture
+| Guide | Slug | Description |
+|-------|------|-------------|
+| [Netflix's Overall Architecture](https://bytebytego.com/guides/netflixs-overall-architecture) | `system-design-101-netflix-arch` | Netflix architecture |
+| [Netflix Tech Stack](https://bytebytego.com/guides/netflixs-tech-stack) | `system-design-101-netflix-stack` | Netflix technologies |
+| [Netflix CI/CD Pipeline](https://bytebytego.com/guides/netflix-tech-stack-cicd-pipeline) | `system-design-101-netflix-cicd` | Netflix deployment |
+| [Netflix Databases](https://bytebytego.com/guides/netflix-tech-stack-databases) | `system-design-101-netflix-db` | Netflix data storage |
+| [How Netflix Really Uses Java](https://bytebytego.com/guides/how-netflix-really-uses-java) | `system-design-101-netflix-java` | Netflix Java usage |
+| [4 Ways Netflix Uses Caching](https://bytebytego.com/guides/4-ways-netflix-uses-caching-to-hold-user-attention) | `system-design-101-netflix-cache` | Netflix caching |
+| [Uber Tech Stack](https://bytebytego.com/guides/uber-tech-stack) | `system-design-101-uber-stack` | Uber technologies |
+| [Uber CI/CD](https://bytebytego.com/guides/uber-tech-stack-cicd) | `system-design-101-uber-cicd` | Uber deployment |
+| [Twitter 1.0 Tech Stack](https://bytebytego.com/guides/twitter-10-tech-stack) | `system-design-101-twitter-stack` | Twitter architecture |
+| [Twitter Architecture 2022 vs 2012](https://bytebytego.com/guides/twitter-architecture-2022-vs-2012) | `system-design-101-twitter-evolve` | Twitter evolution |
+| [Reddit's Core Architecture](https://bytebytego.com/guides/reddit's-core-architecture) | `system-design-101-reddit` | Reddit architecture |
+| [Is Telegram Secure?](https://bytebytego.com/guides/is-telegram-secure) | `system-design-101-telegram` | Telegram security |
+| [McDonald's Event-Driven Architecture](https://bytebytego.com/guides/mcdonald's-event-driven-architecture) | `system-design-101-mcdonalds` | McDonald's architecture |
+| [Levelsfyi Scaled with Google Sheets](https://bytebytego.com/guides/how-levelsfyi-scaled-to-millions-of-users-with-google-sheets) | `system-design-101-levelsfyi` | Levelsfyi scaling |
+| [TikTok 200K File Monorepo](https://bytebytego.com/guides/how-tiktok-manages-a-200k-file-frontend-monorepo) | `system-design-101-tiktok` | TikTok monorepo |
+| [Pinterest 99% Clone Time Reduction](https://bytebytego.com/guides/the-one-line-change-that-reduced-clone-times-by-a-whopping-99-says-pinterest) | `system-design-101-pinterest` | Pinterest optimization |
+| [Design Stack Overflow](https://bytebytego.com/guides/how-will-you-design-the-stack-overflow-website) | `system-design-101-stackoverflow` | Stack Overflow architecture |
+| [Top 9 Engineering Blogs](https://bytebytego.com/guides/top-9-engineering-blog-favorites) | `system-design-101-eng-blogs` | Engineering resources |
+| [Journey of a Slack Message](https://bytebytego.com/guides/what-is-the-journey-of-a-slack-message) | `system-design-101-slack` | Slack messaging |
 
 ## Integration with Vault
 
 Read these vault notes for deeper understanding:
 
-- [[microservices]] — Microservices architecture
-- [[event-driven-architecture]] — Event-driven patterns
+- [microservices](D/microservices.md) — Microservices architecture
+- [event-driven-architecture](D/event-driven-architecture.md) — Event-driven patterns
 - [[scalability-strategies]] — Scalability patterns
-- [[architecture-patterns]] — Architecture patterns
+- [architecture-patterns](D/architecture-patterns.md) — Architecture patterns
 
-## Sources
+## Citation Format
 
-- [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-real-world-systems|case-studies-guide]]
+All guides use the citation format:
+- `system-design-101/real-world-case-studies/<guide-name>` — Citation slug for verification
+- Original source: https://bytebytego.com/

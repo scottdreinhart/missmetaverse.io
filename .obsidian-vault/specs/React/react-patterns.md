@@ -1,4 +1,4 @@
----
+﻿---
 slug: react-patterns
 sources:
   - https://react.dev/reference/react
@@ -500,9 +500,9 @@ class ErrorBoundary extends React.Component<
 ## Integration with Other Notes
 
 - Read [[react-performance-security]] for React performance optimization
-- Read [[vitest-testing]] for testing React components
-- Read [[playwright-patterns]] for E2E testing
-- Read [[typescript-strict-mode]] for TypeScript integration
+- Read [vitest-testing](D/vitest-testing.md) for testing React components
+- Read [playwright-patterns](D/playwright-patterns.md) for E2E testing
+- Read [typescript-strict-mode](D/typescript-strict-mode.md) for TypeScript integration
 
 ---
 
@@ -753,10 +753,10 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 
 ### Integration with Other Notes
 - Read [[react-performance-security]] for React performance optimization
-- Read [[vitest-testing]] for testing React components
-- Read [[playwright-patterns]] for E2E testing
-- Read [[typescript-strict-mode]] for TypeScript integration
-- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+- Read [vitest-testing](D/vitest-testing.md) for testing React components
+- Read [playwright-patterns](D/playwright-patterns.md) for E2E testing
+- Read [typescript-strict-mode](D/typescript-strict-mode.md) for TypeScript integration
+- Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui component patterns
 
 ### Common Pitfalls
 - Don't put too much logic in components (use custom hooks)

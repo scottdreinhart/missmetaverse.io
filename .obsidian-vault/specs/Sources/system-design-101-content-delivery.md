@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-content-delivery
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-cdn]]
+Reference: [Guide: how-do-we-design-a-cdn](https://bytebytego.com/guides/how-do-we-design-a-cdn)
 
 This guide covers CDN architecture, caching strategies, and edge computing.
 
@@ -81,10 +81,10 @@ export const cacheStrategies = {
 Read these vault notes for deeper understanding:
 
 - [[cdn-patterns]] — CDN patterns
-- [[caching-strategies]] — Caching patterns
-- [[performance-optimization]] — Performance optimization
+- [caching-strategies](D/caching-strategies.md) — Caching patterns
+- [performance-optimization](D/performance-optimization.md) — Performance optimization
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-cdn|cdn-guide]]
+- [cdn-guide](https://bytebytego.com/guides/how-do-we-design-a-cdn)

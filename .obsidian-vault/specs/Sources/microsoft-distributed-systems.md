@@ -1,4 +1,14 @@
+﻿---
+slug: microsoft-distributed-systems
+sources:
+  - https://learn.microsoft.com/
 ---
+
+---
+tags:
+  - distributed-systems
+  - microsoft
+  - architecture
 source_id: microsoft-distributed-systems
 title: "Azure Distributed Patterns & Best Practices"
 author: "Microsoft Azure Architecture Center"

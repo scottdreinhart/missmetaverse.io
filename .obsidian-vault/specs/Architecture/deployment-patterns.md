@@ -1,5 +1,5 @@
----
-slug: deployment-patterns
+﻿---
+slug: deployment-patterns-original
 sources:
   - https://en.wikipedia.org/wiki/Software_deployment
   - https://docs.github.com/en/actions/deployment
@@ -256,10 +256,10 @@ curl http://localhost:3000/api/features
 - **Performance Review Agent**: Run after deployment to verify performance
 
 ### Integration with Other Notes
-- Read [[ci-cd-patterns]] for CI/CD deployment patterns
-- read [[docker-deployment]] for Docker deployment patterns
-- Read [[nginx-patterns]] for nginx configuration
-- Read [[monitoring-patterns]] for monitoring deployments
+- Read [ci-cd-patterns](D/ci-cd-patterns.md) for CI/CD deployment patterns
+- read [docker-deployment](https://docs.docker.com/deployment/) for Docker deployment patterns
+- Read [nginx-patterns](D/nginx-patterns.md) for nginx configuration
+- Read [monitoring-patterns](D/monitoring-patterns.md) for monitoring deployments
 
 ### Common Pitfalls
 - Don't deploy without testing (run tests first)

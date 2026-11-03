@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-ml-systems
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-ml-systems]]
+Reference: [Guide: how-do-we-design-ml-systems](https://bytebytego.com/guides/how-do-we-design-ml-systems)
 
 This guide covers ML system architecture, training pipelines, and model serving.
 
@@ -126,4 +126,4 @@ Read these vault notes for deeper understanding:
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-ml-systems|ml-systems-guide]]
+- [ml-systems-guide](https://bytebytego.com/guides/how-do-we-design-ml-systems)

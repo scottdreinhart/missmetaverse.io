@@ -1,4 +1,4 @@
----
+﻿---
 slug: context-map
 sources:
   - https://www.domainlanguage.com/ddd/reference/
@@ -325,7 +325,7 @@ export const contextMap = {
 - read [[aggregate-root]] for aggregate root design
 - read [[domain-event]] for domain event patterns
 - read [[application-service]] for application services
-- read [[event-driven-architecture]] for event-driven patterns
+- read [event-driven-architecture](D/event-driven-architecture.md) for event-driven patterns
 
 ### Common Pitfalls
 - Don't create too many bounded contexts (start with 3-5)

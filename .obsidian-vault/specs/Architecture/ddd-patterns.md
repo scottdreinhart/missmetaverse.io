@@ -1,4 +1,4 @@
----
+﻿---
 slug: ddd-patterns
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddc-caching/domain-driven-design-elements
@@ -632,12 +632,12 @@ export class InventoryAntiCorruptionLayer implements InventoryPort {
 - **Code Review Agent**: Run when reviewing domain model changes
 
 ### Integration with Other Notes
-- Read [[clean-architecture]] for layer placement of DDD patterns
-- Read [[solid-principles]] for applying SOLID within domain models
-- Read [[event-driven-architecture]] for processing domain events
-- Read [[repository-pattern]] for repository implementation details
-- Read [[domain-event]] for domain event patterns
-- Read [[bounded-context]] for defining aggregate boundaries
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for layer placement of DDD patterns
+- Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for applying SOLID within domain models
+- Read [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) for processing domain events
+- Read [repository-pattern](https://martinfowler.com/eaaCatalog/repository.html) for repository implementation details
+- Read [domain-event](D/domain-event.md) for domain event patterns
+- Read [bounded-context](D/bounded-context.md) for defining aggregate boundaries
 
 ### Common Pitfalls
 - Don't put database queries in entities (use repositories)

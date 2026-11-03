@@ -1,4 +1,14 @@
+﻿---
+slug: mdn-html-2024
+sources:
+  - https://developer.mozilla.org/en-US/docs/
 ---
+
+---
+tags:
+  - html
+  - mdn
+  - web-standards
 source_id: mdn-html-2024
 title: "MDN Web Docs — HTML"
 author: "Mozilla Developer Network"

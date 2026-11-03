@@ -1,5 +1,5 @@
 ---
-slug: shadcn-ui-patterns
+slug: shadcn-ui-patterns-original
 sources:
   - https://ui.shadcn.com/docs
   - https://ui.shadcn.com/docs/installation

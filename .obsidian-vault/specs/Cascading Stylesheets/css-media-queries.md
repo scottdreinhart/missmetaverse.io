@@ -1,4 +1,4 @@
----
+﻿---
 slug: css-media-queries
 title: CSS Media Queries — Types, Ranges, Features, and Selectors
 description: Comprehensive reference for CSS media queries including media types, media features, logical operators, container queries, and device-specific selectors.
@@ -10,6 +10,10 @@ accessed_on: 2026-11-02
 verification_status: verified
 claims_supported: 30
 access_limitations: None
+sources:
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Guide
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/@media
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
 ---
 
 # CSS Media Queries
@@ -358,10 +362,10 @@ Container queries allow styles based on the **parent container's size**, not the
 
 ## Integration with Other Notes
 
-- Read [[css-fundamentals]] for CSS fundamentals
-- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [css-fundamentals](D/css-fundamentals.md) for CSS fundamentals
+- Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS patterns
 - Read [[responsive-design]] for responsive design patterns
-- Read [[html5-best-practices]] for HTML5 responsive patterns
+- Read [html5-best-practices](D/html5-best-practices.md) for HTML5 responsive patterns
 
 ---
 
@@ -553,9 +557,9 @@ body {
 - **Performance Review Agent**: Run when optimizing CSS bundle size
 
 ### Integration with Other Notes
-- Read [[css-fundamentals]] for CSS fundamentals
-- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
-- Read [[html5-best-practices]] for HTML5 responsive patterns
+- Read [css-fundamentals](D/css-fundamentals.md) for CSS fundamentals
+- Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [html5-best-practices](D/html5-best-practices.md) for HTML5 responsive patterns
 - Read [[responsive-design]] for responsive design patterns
 
 ### Common Pitfalls

@@ -1,4 +1,4 @@
----
+﻿---
 slug: aggregate
 sources:
   - https://www.domainlanguage.com/ddd/reference/
@@ -364,7 +364,7 @@ export class CreateOrderUseCase {
 - **Code Review Agent**: Run when reviewing PRs with DDD changes
 
 ### Integration with Other Notes
-- Read [[ddd-patterns]] for domain-driven design patterns
+- Read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
 - read [[aggregate-root]] for aggregate root patterns
 - read [[bounded-context]] for bounded context patterns
 - read [[entity]] for entity patterns

@@ -1,4 +1,4 @@
----
+﻿---
 slug: vite-configuration
 sources:
   - https://vitejs.dev/guide/
@@ -487,10 +487,10 @@ pnpm preview
 - **Code Review Agent**: Run when reviewing Vite config changes
 
 ### Integration with Other Notes
-- Read [[vite-optimization]] for build optimization patterns
-- Read [[docker-nginx-deployment]] for deployment configuration
-- Read [[typescript-strict-mode]] for TypeScript integration
-- Read [[testing-patterns]] for testing configuration
+- Read [vite-optimization](D/vite-optimization.md) for build optimization patterns
+- Read [docker-nginx-deployment](D/docker-nginx-deployment.md) for deployment configuration
+- Read [typescript-strict-mode](D/typescript-strict-mode.md) for TypeScript integration
+- Read [testing-patterns](D/testing-patterns.md) for testing configuration
 
 ### Common Pitfalls
 - Don't over-optimize development config (keep it fast)

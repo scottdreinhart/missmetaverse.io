@@ -1,4 +1,4 @@
----
+﻿---
 slug: playwright-e2e
 sources:
   - https://playwright.dev/docs/intro
@@ -664,7 +664,7 @@ test('CSP headers are set', async ({ page }) => {
 
 ## Cross-References
 
-- See [[vitest-testing]] for unit testing with Vitest
-- See [[react-performance-security]] for React testing patterns
-- See [[vite-optimization-security]] for Vite configuration
-- See [[pnpm-best-practices]] for package management
+- See [vitest-testing](D/vitest-testing.md) for unit testing with Vitest
+- See [react-performance-security](D/react-performance-security.md) for React testing patterns
+- See [vite-optimization-security](D/vite-optimization-security.md) for Vite configuration
+- See [pnpm-best-practices](D/pnpm-best-practices.md) for package management

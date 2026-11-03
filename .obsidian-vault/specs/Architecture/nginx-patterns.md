@@ -1,5 +1,5 @@
----
-slug: nginx-patterns
+﻿---
+slug: nginx-patterns-original
 sources:
   - https://nginx.org/
   - https://docs.nginx.com/
@@ -307,10 +307,10 @@ services:
 - **Performance Review Agent**: Run when configuring caching
 
 ### Integration with Other Notes
-- Read [[docker-deployment]] for Docker deployment patterns
-- read [[ci-cd-patterns]] for CI/CD deployment patterns
-- Read [[deployment-patterns]] for deployment strategies
-- Read [[monitoring-patterns]] for monitoring Nginx
+- Read [docker-deployment](https://docs.docker.com/deployment/) for Docker deployment patterns
+- read [ci-cd-patterns](D/ci-cd-patterns.md) for CI/CD deployment patterns
+- Read [deployment-patterns](D/deployment-patterns.md) for deployment strategies
+- Read [monitoring-patterns](D/monitoring-patterns.md) for monitoring Nginx
 
 ### Common Pitfalls
 - Don't forget security headers (X-Frame-Options, HSTS)

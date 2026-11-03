@@ -1,4 +1,14 @@
+﻿---
+slug: martin-oop-2000
+sources:
+  - https://martinfowler.com/
 ---
+
+---
+tags:
+  - oop
+  - object-oriented
+  - design
 source_id: martin-oop-2000
 title: "Design Principles and Design Patterns"
 author: "Robert C. Martin"

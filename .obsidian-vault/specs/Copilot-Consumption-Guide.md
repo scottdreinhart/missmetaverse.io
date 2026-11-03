@@ -1,4 +1,4 @@
-# Copilot Consumption Guide
+﻿# Copilot Consumption Guide
 
 > **Purpose:** Instructions for how GitHub Copilot should use this knowledge base during development.
 > **Last Updated:** 2026-11-02
@@ -10,7 +10,7 @@
 When given a task, follow these steps:
 
 ### 1. Read the Architecture Index
-Start with [[00-architecture-index]] to identify the relevant category for the task.
+Start with [[Architecture/00-architecture-index]] to identify the relevant category for the task.
 
 ### 2. Identify the Domain
 Determine which layer the task affects:
@@ -402,11 +402,11 @@ Each note may now include these additional sections:
 
 ```
 ---
-slug: cqrs-pattern
+slug: example-enhanced-note
 # ... existing fields ...
 ---
 
-# CQRS Pattern
+# Example Enhanced Note
 
 ## ... existing content ...
 
@@ -435,13 +435,13 @@ slug: cqrs-pattern
 - **Code Review Agent**: Run when reviewing CQRS-related PRs
 
 ### Integration with Other Notes
-- Read [[clean-architecture]] for the overall architectural context
-- Read [[event-driven-architecture]] for event publishing patterns
-- Read [[transactional-outbox]] for reliable event publishing
-- Read [[api-versioning]] for versioning CQRS endpoints
+- Read [clean-architecture](D/clean-architecture.md) for the overall architectural context
+- Read [event-driven-architecture](D/event-driven-architecture.md) for event publishing patterns
+- Read [transactional-outbox](D/transactional-outbox.md) for reliable event publishing
+- Read [api-versioning](D/api-versioning.md) for versioning CQRS endpoints
 
 ### Common Pitfalls
-- Don't use CQRS for simple CRUD (see [[modular-monolith]])
-- Don't forget eventual consistency (see [[event-driven-architecture]])
+- Don't use CQRS for simple CRUD (see [modular-monolith](D/modular-monolith.md))
+- Don't forget eventual consistency (see [event-driven-architecture](D/event-driven-architecture.md))
 - Don't mix read/write logic in the same handler
 ```

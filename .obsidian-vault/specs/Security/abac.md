@@ -1,4 +1,4 @@
----
+﻿---
 slug: abac
 sources:
   - https://owasp.org/
@@ -392,10 +392,10 @@ describe('PolicyEngine', () => {
 - **Code Review Agent**: Run when reviewing PRs with authorization changes
 
 ### Integration with Other Notes
-- Read [[security-principles]] for security principles
+- Read [security-principles](D/security-principles.md) for security principles
 - read [[rbac]] for RBAC patterns
-- read [[authorization]] for authorization patterns
-- read [[input-validation]] for input validation
+- read [authorization](D/authorization.md) for authorization patterns
+- read [input-validation](D/input-validation.md) for input validation
 - read [[separation-of-duties]] for separation of duties
 
 ### Common Pitfalls

@@ -1,4 +1,4 @@
----
+﻿---
 slug: entity-file-convention
 sources:
   - https://www.typescriptlang.org/
@@ -330,11 +330,11 @@ src/
 - **Code Review Agent**: Run when reviewing PRs with file changes
 
 ### Integration with Other Notes
-- read [[entity]] for entity patterns
-- read [[aggregate]] for aggregate patterns
-- read [[value-object]] for value object patterns
-- read [[repository-pattern]] for repository patterns
-- read [[project-structure-mapping]] for project structure mapping
+- read [entity](D/entity.md) for entity patterns
+- read [aggregate](D/aggregate.md) for aggregate patterns
+- read [value-object](D/value-object.md) for value object patterns
+- read [repository-pattern](D/repository-pattern.md) for repository patterns
+- read [project-structure-mapping](D/project-structure-mapping.md) for project structure mapping
 
 ### Common Pitfalls
 - Don't put business logic in entity files (use domain services)

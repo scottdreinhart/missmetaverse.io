@@ -1,4 +1,4 @@
----
+﻿---
 slug: security-principles
 sources:
   - https://owasp.org/www-project-top-ten/
@@ -655,8 +655,8 @@ pnpm eslint --ext .ts src/
 
 ### Integration with Other Notes
 - Read [[react-security]] for React-specific security
-- Read [[input-validation]] for input validation patterns
-- Read [[clean-architecture]] for security in architecture
+- Read [input-validation](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html) for input validation patterns
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for security in architecture
 - Read [[security-best-practices]] for additional security patterns
 
 ### Common Pitfalls

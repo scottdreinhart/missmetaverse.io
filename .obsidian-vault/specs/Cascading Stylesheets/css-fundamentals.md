@@ -1,4 +1,4 @@
----
+﻿---
 slug: css-fundamentals
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -714,10 +714,10 @@ module.exports = {
 - **Performance Review Agent**: Run when optimizing CSS bundle size
 
 ### Integration with Other Notes
-- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS patterns
 - read [[css-media-queries]] for media query patterns
-- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
-- Read [[design-tokens]] for design token patterns
+- Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui component patterns
+- Read [design-tokens](D/design-tokens.md) for design token patterns
 
 ### Common Pitfalls
 - Don't use !important (use specificity instead)

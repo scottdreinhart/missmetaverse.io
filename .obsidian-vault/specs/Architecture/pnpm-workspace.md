@@ -1,5 +1,5 @@
 ---
-slug: pnpm-workspace
+slug: pnpm-workspace-original
 sources:
   - https://pnpm.io/workspaces
   - https://pnpm.io/

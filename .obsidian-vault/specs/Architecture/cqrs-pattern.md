@@ -1,4 +1,4 @@
----
+﻿---
 slug: cqrs-pattern
 sources:
   - https://martinfowler.com/bliki/CQRS.html
@@ -98,13 +98,13 @@ Combined read/write models lead to:
 - **Code Review Agent**: Run when reviewing CQRS-related PRs
 
 ### Integration with Other Notes
-- Read [[clean-architecture]] for the overall architectural context
-- Read [[event-driven-architecture]] for event publishing patterns
-- Read [[transactional-outbox]] for reliable event publishing
-- Read [[api-versioning]] for versioning CQRS endpoints
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for the overall architectural context
+- Read [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) for event publishing patterns
+- Read [transactional-outbox](https://microservices.io/patterns/data/transactional-outbox.html) for reliable event publishing
+- Read [api-versioning](https://restfulapi.net/versioning/) for versioning CQRS endpoints
 
 ### Common Pitfalls
 - Don't use CQRS for simple CRUD (see [[modular-monolith]])
-- Don't forget eventual consistency (see [[event-driven-architecture]])
+- Don't forget eventual consistency (see [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture))
 - Don't mix read/write logic in the same handler
 - Don't create separate databases without a good reason (CQRS doesn't require it)

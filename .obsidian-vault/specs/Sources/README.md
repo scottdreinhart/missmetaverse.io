@@ -1,4 +1,4 @@
-# Sources Index
+﻿# Sources Index
 
 > **Purpose:** Canonical source notes for all verified citations in this knowledge base.
 > **Last Updated:** 2026-11-02
@@ -79,4 +79,4 @@ Sources are linked from concept notes using the format:
 
 Source notes will be created as research progresses. Each concept note links to its sources.
 
-See [[Research Status]] for the full mapping of concepts to sources.
+See [[Research-Status]] for the full mapping of concepts to sources.

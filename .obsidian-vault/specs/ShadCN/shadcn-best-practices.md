@@ -1,4 +1,4 @@
----
+﻿---
 slug: shadcn-best-practices
 sources:
   - https://ui.shadcn.com/docs
@@ -418,12 +418,12 @@ function UserContent({ content }: { content: string }) {
 
 ## Cross-References
 
-- See [[tailwind-css-patterns]] for Tailwind CSS integration
-- See [[css3-performance-security]] for CSS3 performance fundamentals
-- See [[html5-best-practices]] for HTML5 accessibility patterns
-- See [[react-patterns]] for React component integration
-- See [[accessibility-a11y]] for accessibility best practices
-- See [[shadcn-ui-patterns]] for shadcn/ui component patterns
+- See [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS integration
+- See [css3-performance-security](D/css3-performance-security.md) for CSS3 performance fundamentals
+- See [html5-best-practices](D/html5-best-practices.md) for HTML5 accessibility patterns
+- See [react-patterns](D/react-patterns.md) for React component integration
+- See [accessibility-a11y](D/accessibility-a11y.md) for accessibility best practices
+- See [shadcn-ui-patterns](D/shadcn-ui-patterns.md) for shadcn/ui component patterns
 
 ---
 
@@ -675,12 +675,12 @@ export function MemoizedList({ items }: { items: ListItem[] }) {
 - **Accessibility Agent**: Run when adding interactive components
 
 ### Integration with Other Notes
-- Read [[tailwind-css-patterns]] for Tailwind CSS integration
-- Read [[css3-performance-security]] for CSS3 performance fundamentals
-- Read [[html5-best-practices]] for HTML5 accessibility patterns
-- Read [[react-patterns]] for React component integration
-- Read [[accessibility-a11y]] for accessibility best practices
-- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+- Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS integration
+- Read [css3-performance-security](D/css3-performance-security.md) for CSS3 performance fundamentals
+- Read [html5-best-practices](D/html5-best-practices.md) for HTML5 accessibility patterns
+- Read [react-patterns](D/react-patterns.md) for React component integration
+- Read [accessibility-a11y](D/accessibility-a11y.md) for accessibility best practices
+- Read [shadcn-ui-patterns](D/shadcn-ui-patterns.md) for shadcn/ui component patterns
 
 ### Common Pitfalls
 - Don't modify component source directly (use cn() for customization)

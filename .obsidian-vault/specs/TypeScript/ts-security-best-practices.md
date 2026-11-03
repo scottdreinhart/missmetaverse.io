@@ -1,4 +1,4 @@
----
+﻿---
 slug: ts-security-best-practices
 sources:
   - https://www.typescriptlang.org/docs/handbook/security.html
@@ -448,10 +448,10 @@ class ExtendedComponent extends BaseComponent {
 - **Code Review Agent**: Run when reviewing PRs with TypeScript changes
 
 ### Integration with Other Notes
-- Read [[security-principles]] for security best practices
-- read [[input-validation]] for input validation patterns
-- Read [[react-patterns]] for React component patterns
-- Read [[testing-patterns]] for testing strategies
+- Read [security-principles](D/security-principles.md) for security best practices
+- read [input-validation](D/input-validation.md) for input validation patterns
+- Read [react-patterns](D/react-patterns.md) for React component patterns
+- Read [testing-patterns](D/testing-patterns.md) for testing strategies
 
 ### Common Pitfalls
 - Don't use any type (use unknown instead)

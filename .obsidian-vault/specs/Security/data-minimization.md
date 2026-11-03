@@ -1,4 +1,4 @@
----
+﻿---
 slug: data-minimization
 sources:
   - https://owasp.org/
@@ -390,11 +390,11 @@ describe('Data Minimization', () => {
 - **Code Review Agent**: Run when reviewing PRs with data handling changes
 
 ### Integration with Other Notes
-- read [[security-principles]] for security principles
+- read [security-principles](D/security-principles.md) for security principles
 - read [[abac]] for ABAC patterns
 - read [[secrets-management]] for secrets management
-- read [[data-encryption]] for data encryption
-- read [[retention-policies]] for retention policies
+- read [data-encryption](D/data-encryption.md) for data encryption
+- read [retention-policies](D/retention-policies.md) for retention policies
 
 ### Common Pitfalls
 - Don't collect more data than necessary (minimize collection)

@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-data-warehousing
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-data-warehouse]]
+Reference: [Guide: how-do-we-design-a-data-warehouse](https://bytebytego.com/guides/how-do-we-design-a-data-warehouse)
 
 This guide covers data warehousing architecture, ETL pipelines, and analytics systems.
 
@@ -98,4 +98,4 @@ Read these vault notes for deeper understanding:
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-data-warehouse|data-warehouse-guide]]
+- [data-warehouse-guide](https://bytebytego.com/guides/how-do-we-design-a-data-warehouse)

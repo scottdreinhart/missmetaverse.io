@@ -1,4 +1,4 @@
----
+﻿---
 slug: bounded-context
 sources:
   - https://www.domainlanguage.com/ddd/reference/
@@ -307,10 +307,10 @@ describe('UserAntiCorruptionLayer', () => {
 - **Code Review Agent**: Run when reviewing PRs with DDD changes
 
 ### Integration with Other Notes
-- Read [[ddd-patterns]] for domain-driven design patterns
+- Read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
 - Read [[context-map]] for context map patterns
 - Read [[ubiquitous-language]] for ubiquitous language patterns
-- Read [[anti-corruption-layer]] for anti-corruption layer patterns
+- Read [anti-corruption-layer](D/anti-corruption-layer.md) for anti-corruption layer patterns
 - Read [[aggregate]] for aggregate patterns
 - Read [[aggregate-root]] for aggregate root patterns
 - Read [[application-service]] for application service patterns

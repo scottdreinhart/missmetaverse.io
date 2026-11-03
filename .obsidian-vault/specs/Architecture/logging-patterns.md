@@ -1,5 +1,5 @@
----
-slug: logging-patterns
+﻿---
+slug: logging-patterns-original
 sources:
   - https://en.wikipedia.org/wiki/Logging_(computing)
   - https://docs.sentry.io/
@@ -283,10 +283,10 @@ export class UserService {
 - **Performance Review Agent**: Run when configuring high-volume logging
 
 ### Integration with Other Notes
-- Read [[monitoring-patterns]] for monitoring patterns
-- read [[ci-cd-patterns]] for CI/CD deployment patterns
-- Read [[docker-deployment]] for Docker deployment patterns
-- Read [[error-handling]] for error handling patterns
+- Read [monitoring-patterns](D/monitoring-patterns.md) for monitoring patterns
+- read [ci-cd-patterns](D/ci-cd-patterns.md) for CI/CD deployment patterns
+- Read [docker-deployment](https://docs.docker.com/deployment/) for Docker deployment patterns
+- Read [error-handling](https://en.wikipedia.org/wiki/Error_handling) for error handling patterns
 
 ### Common Pitfalls
 - Don't log sensitive data (passwords, tokens, PII)

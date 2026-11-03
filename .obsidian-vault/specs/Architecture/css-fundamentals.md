@@ -1,5 +1,5 @@
 ---
-slug: css-fundamentals
+slug: css-fundamentals-original
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS
   - https://css-tricks.com/

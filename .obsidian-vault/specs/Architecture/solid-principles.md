@@ -1,4 +1,4 @@
----
+﻿---
 slug: solid-principles
 sources:
   - https://en.wikipedia.org/wiki/SOLID
@@ -460,9 +460,9 @@ const service2 = new OrderService(new MongoDB())
 - **Architecture Validation Agent**: Run when designing new modules
 
 ### Integration with Other Notes
-- Read [[clean-architecture]] for layer-level application of SOLID
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for layer-level application of SOLID
 - Read [[ddd-patterns]] for domain-level application of SOLID
-- Read [[dependency-injection]] for DIP implementation patterns
+- Read [dependency-injection](https://en.wikipedia.org/wiki/Dependency_injection) for DIP implementation patterns
 - Read [[coding-practices]] for SOLID in daily coding
 
 ### Common Pitfalls

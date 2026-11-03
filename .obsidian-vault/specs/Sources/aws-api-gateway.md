@@ -1,4 +1,14 @@
+﻿---
+slug: aws-api-gateway
+sources:
+  - https://docs.aws.amazon.com/
 ---
+
+---
+tags:
+  - aws
+  - api-gateway
+  - cloud
 source_id: aws-api-gateway
 title: "AWS API Gateway Documentation"
 author: "Amazon Web Services"

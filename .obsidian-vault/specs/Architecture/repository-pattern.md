@@ -1,4 +1,4 @@
----
+﻿---
 slug: repository-pattern
 sources:
   - https://martinfowler.com/eaaDev/repository.html
@@ -197,10 +197,10 @@ export class InMemoryUserRepository implements UserRepository {
 
 ### Integration with Other Notes
 - Read [[ddd-patterns]] for repository in DDD context
-- read [[data-mapper-pattern]] for data mapper relationship
-- read [[unit-of-work-pattern]] for transaction management
+- read [data-mapper-pattern](https://martinfowler.com/eaaCatalog/dataMapper.html) for data mapper relationship
+- read [unit-of-work-pattern](https://martinfowler.com/eaaCatalog/unitOfWork.html) for transaction management
 - read [[project-structure-mapping]] for folder placement
-- read [[clean-architecture]] for layer boundaries
+- read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for layer boundaries
 
 ### Common Pitfalls
 - Don't put database queries in domain entities (use repositories)

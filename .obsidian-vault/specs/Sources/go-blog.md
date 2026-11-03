@@ -1,4 +1,4 @@
----
+﻿---
 source_id: go-blog
 title: "Go Programming Language Blog"
 author: "Google Go Team"

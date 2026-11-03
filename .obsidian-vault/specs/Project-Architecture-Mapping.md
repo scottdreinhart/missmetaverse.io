@@ -1,4 +1,4 @@
-# Project Architecture Mapping
+﻿# Project Architecture Mapping
 
 > **Purpose:** Map researched concepts to actual project implementation.
 > **Last Updated:** 2026-11-02
@@ -82,7 +82,7 @@ These take precedence over generic recommendations:
 
 ## File Structure Conventions
 
-The project uses these file naming conventions (documented in [[file-level-separation-conventions]]):
+The project uses these file naming conventions (documented in [file-level-separation-conventions](D/file-level-separation-conventions.md)):
 
 | Suffix | Purpose | Example |
 |--------|---------|---------|
@@ -137,7 +137,7 @@ The project uses these file naming conventions (documented in [[file-level-separ
 
 ## Cross-References
 
-- [[00-architecture-index]] — Main index
+- [[Architecture/00-architecture-index]] — Main index
 - [[Research-Status]] — Research progress
 - [[Copilot-Consumption-Guide]] — How to use this KB
 - AGENTS.md — Project constraints

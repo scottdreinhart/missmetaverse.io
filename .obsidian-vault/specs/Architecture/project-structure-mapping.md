@@ -1,4 +1,4 @@
----
+﻿---
 slug: project-structure-mapping
 title: Project Structure Mapping
 description: Maps architectural patterns and concepts to actual file/folder structure in the project.
@@ -439,11 +439,11 @@ import { CreateUserUseCase } from '@/usecases/create-user.usecase'
 - **Code Review Agent**: Run when reviewing PRs with file structure changes
 
 ### Integration with Other Notes
-- Read [[clean-architecture]] for Clean Architecture principles
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for Clean Architecture principles
 - Read [[ddd-patterns]] for DDD patterns
-- Read [[cqrs-pattern]] for CQRS patterns
-- Read [[repository-pattern]] for repository pattern
-- Read [[ts-best-practices]] for TypeScript best practices
+- Read [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) for CQRS patterns
+- Read [repository-pattern](https://martinfowler.com/eaaCatalog/repository.html) for repository pattern
+- Read [ts-best-practices](D/ts-best-practices.md) for TypeScript best practices
 
 ### Common Pitfalls
 - Don't create files in wrong folder (follow conventions)

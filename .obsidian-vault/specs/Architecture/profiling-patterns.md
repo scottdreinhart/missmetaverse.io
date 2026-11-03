@@ -1,5 +1,5 @@
 ---
-slug: profiling-patterns
+slug: profiling-patterns-original
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/Performance/Profiling
   - https://vitest.dev/

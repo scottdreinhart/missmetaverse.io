@@ -1,4 +1,4 @@
----
+﻿---
 slug: vitest-testing
 sources:
   - https://vitest.dev/guide/
@@ -660,10 +660,10 @@ test('test 2', () => {
 
 ## Cross-References
 
-- See [[react-performance-security]] for React testing patterns
-- See [[vite-optimization-security]] for Vite configuration
-- See [[pnpm-best-practices]] for package management
-- See [[playwright-patterns]] for E2E testing with Playwright
+- See [react-performance-security](D/react-performance-security.md) for React testing patterns
+- See [vite-optimization-security](D/vite-optimization-security.md) for Vite configuration
+- See [pnpm-best-practices](D/pnpm-best-practices.md) for package management
+- See [playwright-patterns](D/playwright-patterns.md) for E2E testing with Playwright
 
 ---
 
@@ -793,11 +793,11 @@ pnpm test -- --ui
 - **Code Review Agent**: Run when reviewing PRs with test changes
 
 ### Integration with Other Notes
-- Read [[playwright-patterns]] for E2E testing
+- Read [playwright-patterns](D/playwright-patterns.md) for E2E testing
 - Read [[testing-patterns]] for testing strategies
-- Read [[react-performance-security]] for React testing patterns
-- Read [[pnpm-best-practices]] for package management
-- Read [[vite-optimization-security]] for Vite configuration
+- Read [react-performance-security](D/react-performance-security.md) for React testing patterns
+- Read [pnpm-best-practices](D/pnpm-best-practices.md) for package management
+- Read [vite-optimization-security](D/vite-optimization-security.md) for Vite configuration
 
 ### Common Pitfalls
 - Don't test implementation details (test behavior, not implementation)

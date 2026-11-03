@@ -1,4 +1,4 @@
----
+﻿---
 slug: polling-platform-requirements
 title: Polling Platform Requirements
 description: Comprehensive requirements for a custom Polling Platform with Voting, automated report generation, and real-time analytics built from scratch using Clean Architecture, DDD, CQRS, and Event-Driven patterns.
@@ -1102,21 +1102,21 @@ sequenceDiagram
 
 ### 8.1 Vault Sources
 
-- [[clean-architecture]] — Robert C. Martin's Clean Architecture principles
+- [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) — Robert C. Martin's Clean Architecture principles
 - [[ddd-patterns]] — Domain-Driven Design patterns by Eric Evans
-- [[cqrs-pattern]] — Command Query Responsibility Segregation pattern
-- [[event-driven-architecture]] — Event-Driven Architecture patterns and topologies
-- [[rest-api-design]] — REST API design best practices
-- [[authentication]] — OAuth 2.0, JWT, and authentication mechanisms
-- [[api-versioning]] — API versioning strategies
-- [[cache-aside-pattern]] — Cache-Aside pattern for performance optimization
-- [[circuit-breaker-pattern]] — Circuit Breaker pattern for resilience
-- [[transactional-outbox]] — Transactional Outbox pattern for event consistency
-- [[saga-pattern]] — Saga pattern for distributed transactions
+- [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) — Command Query Responsibility Segregation pattern
+- [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) — Event-Driven Architecture patterns and topologies
+- [rest-api-design](D/rest-api-design.md) — REST API design best practices
+- [authentication](https://en.wikipedia.org/wiki/Authentication) — OAuth 2.0, JWT, and authentication mechanisms
+- [api-versioning](https://restfulapi.net/versioning/) — API versioning strategies
+- [cache-aside-pattern](https://learn.microsoft.com/azure/architecture/patterns/cache-aside) — Cache-Aside pattern for performance optimization
+- [circuit-breaker-pattern](https://martinfowler.com/bliki/CircuitBreaker.html) — Circuit Breaker pattern for resilience
+- [transactional-outbox](https://microservices.io/patterns/data/transactional-outbox.html) — Transactional Outbox pattern for event consistency
+- [saga-pattern](https://microsoft.github.io/dotnet/patterns/assets/saga/Saga.png) — Saga pattern for distributed transactions
 - [[modular-monolith]] — Modular Monolith architecture
-- [[dependency-injection]] — Dependency Injection patterns
-- [[solid-principles]] — SOLID principles
-- [[microservices]] — Microservices architecture considerations
+- [dependency-injection](https://en.wikipedia.org/wiki/Dependency_injection) — Dependency Injection patterns
+- [solid-principles](https://en.wikipedia.org/wiki/SOLID) — SOLID principles
+- [microservices](https://martinfowler.com/microservices.html) — Microservices architecture considerations
 
 ### 8.2 External Sources
 
@@ -1146,8 +1146,8 @@ sequenceDiagram
 
 ### 8.4 Vault Source Citations
 
-- [[wcag-21]] — WCAG 2.1 accessibility guidelines (POUR principles, conformance levels, legal framework)
-- [[w3c-i18n]] — W3C internationalization standards (character encoding, text direction, date/number formatting, RTL)
+- [wcag-21](D/wcag-21.md) — WCAG 2.1 accessibility guidelines (POUR principles, conformance levels, legal framework)
+- [w3c-i18n](D/w3c-i18n.md) — W3C internationalization standards (character encoding, text direction, date/number formatting, RTL)
 
 ---
 

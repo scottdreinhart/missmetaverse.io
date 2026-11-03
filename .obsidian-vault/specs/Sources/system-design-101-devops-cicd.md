@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-devops-cicd
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -10,135 +10,54 @@ tags:
   - reference
 ---
 
-# DevOps and CI/CD Design
+# DevOps & CI/CD — Complete ByteByteGo Guide Index
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-devops-and-cicd]]
+Reference: [Guide: devops-cicd](https://bytebytego.com/guides/devops-cicd)
 
-This guide covers DevOps practices, CI/CD pipelines, and infrastructure as code.
+This category covers all DevOps and CI/CD guides from ByteByteGo System Design 101.
 
-## CI/CD Pipeline Stages
+## DevOps Guides
 
-### 1. Source
-- Version control (Git)
-- Branching strategies
-- Code review process
+### CI/CD & Deployment
+| Guide | Slug | Description |
+|-------|------|-------------|
+| [Deployment Strategies](https://bytebytego.com/guides/how-to-deploy-services) | `system-design-101-deploy` | Deployment strategies |
+| [Top 5 Deployment Strategies](https://bytebytego.com/guides/top-5-most-used-deployment-strategies) | `system-design-101-top-deploy` | 5 deployment strategies |
+| [Dev to Tester Ratio](https://bytebytego.com/guides/paradigm-shift-how-developer-to-tester-ratio-changed-from-11-to-1001) | `system-design-101-dev-tester` | Testing paradigm shift |
+| [DevOps Books](https://bytebytego.com/guides/some-devops-books-i-find-enlightening) | `system-design-101-devops-books` | Recommended DevOps books |
 
-### 2. Build
-- Compile code
-- Run linters
-- Generate artifacts
+### Kubernetes
+| Guide | Slug | Description |
+|-------|------|-------------|
+| [What is Kubernetes?](https://bytebytego.com/guides/what-is-k8s-kubernetes) | `system-design-101-k8s` | Kubernetes fundamentals |
+| [Kubernetes Deployment Strategies](https://bytebytego.com/guides/kubernetes-deployment-strategies) | `system-design-101-k8s-deploy` | K8s deployment |
+| [Kubernetes Periodic Table](https://bytebytego.com/guides/kubernetes-periodic-table) | `system-design-101-k8s-periodic` | K8s components |
+| [Kubernetes Tools Ecosystem](https://bytebytego.com/guides/kubernetes-tools-ecosystem) | `system-design-101-k8s-tools` | K8s tools |
+| [Kubernetes Tools Stack Wheel](https://bytebytego.com/guides/kubernetes-tools-stack-wheel) | `system-design-101-k8s-stack` | K8s stack |
+| [Top 10 K8s Design Patterns](https://bytebytego.com/guides/top-10-k8s-design-patterns) | `system-design-101-k8s-patterns` | K8s patterns |
+| [Kubernetes Command Cheatsheet](https://bytebytego.com/guides/the-ultimate-kubernetes-command-cheatsheet) | `system-design-101-k8s-commands` | K8s commands |
+| [Top 4 K8s Service Types](https://bytebytego.com/guides/top-4-kubernetes-service-types-in-one-diagram) | `system-design-101-k8s-services` | K8s service types |
 
-### 3. Test
-- Unit tests
-- Integration tests
-- E2E tests
-- Security scans
+### Docker & Containers
+| Guide | Slug | Description |
+|-------|------|-------------|
+| [Top 8 Docker Concepts](https://bytebytego.com/guides/top-8-must-know-docker-concepts) | `system-design-101-docker` | Docker fundamentals |
 
-### 4. Deploy
-- Staging environment
-- Production deployment
-- Rollback capability
+### Monitoring & Logging
+| Guide | Slug | Description |
+|-------|------|-------------|
+| [Logging, Tracing, Metrics](https://bytebytego.com/guides/logging-tracing-metrics) | `system-design-101-logging` | Observability |
+| [Push vs Pull Metrics](https://bytebytego.com/guides/push-vs-pull-in-metrics-collecting-systems) | `system-design-101-metrics` | Metrics collection |
+| [Log Parsing Cheat Sheet](https://bytebytego.com/guides/log-parsing-cheat-sheet) | `system-design-101-log-parsing` | Log analysis |
+| [Why is Nginx so Popular?](https://bytebytego.com/guides/why-is-nginx-so-popular) | `system-design-101-nginx` | Nginx overview |
 
-### 5. Monitor
-- Application monitoring
-- Log aggregation
-- Alerting
-
-## Deployment Strategies
-
-### 1. Blue-Green Deployment
-- Two identical environments
-- Switch traffic between them
-- Fast rollback
-
-### 2. Canary Deployment
-- Deploy to small subset
-- Gradually increase traffic
-- Monitor for issues
-
-### 3. Rolling Deployment
-- Update instances one by one
-- No downtime
-- Simple implementation
-
-### 4. Feature Flags
-- Toggle features without deployment
-- Gradual rollout
-- A/B testing
-
-## Infrastructure as Code
-
-### Terraform Example
-
-```hcl
-# infrastructure/main.tf
-provider "aws" {
-  region = "us-east-1"
-}
-
-resource "aws_instance" "web" {
-  ami           = "ami-0c55b159cbfafe1f0"
-  instance_type = "t3.medium"
-
-  tags = {
-    Name        = "web-server"
-    Environment = "production"
-  }
-}
-
-resource "aws_lb" "main" {
-  name               = "main-lb"
-  internal           = false
-  load_balancer_type = "application"
-
-  security_groups = [aws_security_group.lb.id]
-  subnets         = aws_subnet.public.*.id
-
-  tags = {
-    Name = "main-load-balancer"
-  }
-}
-```
-
-### Kubernetes Deployment
-
-```yaml
-# k8s/deployment.yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: web-app
-spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: web
-  template:
-    metadata:
-      labels:
-        app: web
-    spec:
-      containers:
-      - name: web
-        image: registry/web-app:1.0.0
-        ports:
-        - containerPort: 8080
-        resources:
-          requests:
-            memory: "128Mi"
-            cpu: "250m"
-          limits:
-            memory: "256Mi"
-            cpu: "500m"
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: 8080
-          initialDelaySeconds: 30
-          periodSeconds: 10
-```
+### Configuration & Tools
+| Guide | Slug | Description |
+|-------|------|-------------|
+| [Manage Configurations](https://bytebytego.com/guides/how-do-we-manage-configurations-in-a-system) | `system-design-101-config` | Configuration management |
+| [Tools for Shipping Code](https://bytebytego.com/guides/what-tools-does-your-team-use-to-ship-code-to-production-and-ensure-code-quality) | `system-design-101-ship-tools` | Shipping tools |
 
 ## Integration with Vault
 
@@ -148,8 +67,10 @@ Read these vault notes for deeper understanding:
 - [[cicd-pipeline]] — CI/CD pipeline design
 - [[infrastructure-as-code]] — IaC patterns
 - [[container-orchestration]] — Container orchestration
+- [[monitoring-and-alerting]] — Monitoring strategies
 
-## Sources
+## Citation Format
 
-- [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-devops-and-cicd|devops-guide]]
+All guides use the citation format:
+- `system-design-101/devops-cicd/<guide-name>` — Citation slug for verification
+- Original source: https://bytebytego.com/

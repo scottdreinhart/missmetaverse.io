@@ -1,4 +1,4 @@
----
+﻿---
 slug: output-encoding
 sources:
   - https://owasp.org/
@@ -341,9 +341,9 @@ describe('Output Encoding', () => {
 - **Code Review Agent**: Run when reviewing PRs with user input handling
 
 ### Integration with Other Notes
-- read [[security-principles]] for security principles
-- read [[input-validation]] for input validation
-- read [[content-security-policy]] for CSP headers
+- read [security-principles](D/security-principles.md) for security principles
+- read [input-validation](D/input-validation.md) for input validation
+- read [content-security-policy](D/content-security-policy.md) for CSP headers
 - read [[parameterized-queries]] for SQL injection prevention
 - read [[output-encoding]] for output encoding patterns
 

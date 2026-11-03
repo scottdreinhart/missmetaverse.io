@@ -1,4 +1,4 @@
----
+﻿---
 slug: atomic-design
 sources:
   - https://atomicdesign.bradfrost.com/chapter-2/
@@ -436,10 +436,10 @@ src/components/
 
 ## Integration with Other Notes
 
-- Read [[clean-architecture]] for clean architecture patterns
-- Read [[solid-principles]] for SOLID design principles
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for clean architecture patterns
+- Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for SOLID design principles
 - Read [[ddd-patterns]] for domain-driven design patterns
-- Read [[architecture-patterns]] for architecture patterns
-- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
-- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
-- Read [[design-tokens]] for design token patterns
+- Read [architecture-patterns](https://en.wikipedia.org/wiki/Software_architecture_pattern) for architecture patterns
+- Read [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
+- Read [shadcn-ui-patterns](D/shadcn-ui-patterns.md) for shadcn/ui component patterns
+- Read [design-tokens](https://design-tokens.github.io/) for design token patterns

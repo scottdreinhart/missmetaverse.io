@@ -1,4 +1,4 @@
----
+﻿---
 slug: tailwind-css-patterns
 sources:
   - https://tailwindcss.com/docs
@@ -558,10 +558,10 @@ export function Button({ children, variant = 'primary' }) {
 - **Performance Review Agent**: Run when optimizing CSS bundle size
 
 ### Integration with Other Notes
-- Read [[css-fundamentals]] for CSS fundamentals
-- Read [[css-media-queries]] for media query patterns
+- Read [[Cascading Stylesheets/css-fundamentals]] for CSS fundamentals
+- Read [css-media-queries](D/css-media-queries.md) for media query patterns
 - read [[tw-optimization-performance]] for Tailwind optimization
-- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+- Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui component patterns
 
 ### Common Pitfalls
 - Don't use arbitrary values for repeated patterns (extend config instead)

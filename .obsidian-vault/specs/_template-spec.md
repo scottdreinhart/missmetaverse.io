@@ -1,4 +1,4 @@
----
+﻿---
 title: 
 date: 
 status: draft
@@ -56,9 +56,9 @@ category:
 - [ ] Service Layer Pattern
 
 **Related Concept Notes:**
-- [[clean-architecture]]
-- [[ddd-patterns]]
-- [[cqrs-pattern]]
+- [clean-architecture](D/clean-architecture.md)
+- [ddd-patterns](D/ddd-patterns.md)
+- [cqrs-pattern](D/cqrs-pattern.md)
 - Add more as needed...
 
 ## Implementation Plan

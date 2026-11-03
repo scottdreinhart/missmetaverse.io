@@ -1,4 +1,14 @@
+﻿---
+slug: fowler-ddd-2003
+sources:
+  - https://martinfowler.com/
 ---
+
+---
+tags:
+  - ddd
+  - domain-driven-design
+  - patterns
 source_id: fowler-ddd-2003
 title: "Annals of Software Engineering — Domain Design"
 author: "Martin Fowler"

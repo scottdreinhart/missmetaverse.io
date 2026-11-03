@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-notification-system
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-notification-system]]
+Reference: [Guide: how-do-we-design-a-notification-system](https://bytebytego.com/guides/how-do-we-design-a-notification-system)
 
 This guide covers notification system architecture, delivery channels, and reliability.
 
@@ -131,10 +131,10 @@ export class EmailProvider {
 Read these vault notes for deeper understanding:
 
 - [[notification-systems]] — Notification patterns
-- [[event-driven-architecture]] — Event-driven patterns
+- [event-driven-architecture](D/event-driven-architecture.md) — Event-driven patterns
 - [[message-queues]] — Message queue patterns
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-notification-system|notification-system-guide]]
+- [notification-system-guide](https://bytebytego.com/guides/how-do-we-design-a-notification-system)

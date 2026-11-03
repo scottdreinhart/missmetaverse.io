@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-consistency
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-for-consistency-and-availability]]
+Reference: [Guide: how-do-we-design-for-consistency-and-availability](https://bytebytego.com/guides/how-do-we-design-for-consistency-and-availability)
 
 This guide covers consistency models, CAP theorem, and data distribution strategies.
 
@@ -105,11 +105,11 @@ export class VectorClock {
 Read these vault notes for deeper understanding:
 
 - [[cap-theorem]] — CAP theorem patterns
-- [[eventual-consistency]] — Eventual consistency patterns
+- [eventual-consistency](D/eventual-consistency.md) — Eventual consistency patterns
 - [[distributed-consensus]] — Distributed consensus algorithms
 - [[two-phase-commit]] — Two-phase commit protocol
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-for-consistency-and-availability|consistency-guide]]
+- [consistency-guide](https://bytebytego.com/guides/how-do-we-design-for-consistency-and-availability)

@@ -1,4 +1,14 @@
+﻿---
+slug: pnpm-docs-2024
+sources:
+  - https://pnpm.io/
 ---
+
+---
+tags:
+  - pnpm
+  - package-manager
+  - nodejs
 source_id: pnpm-docs-2024
 title: "pnpm Documentation"
 author: "pnpm team"

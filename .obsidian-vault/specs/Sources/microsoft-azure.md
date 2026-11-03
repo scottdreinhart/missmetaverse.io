@@ -1,4 +1,4 @@
----
+﻿---
 source_id: microsoft-azure
 title: "Azure Architecture Center"
 author: "Microsoft Azure"

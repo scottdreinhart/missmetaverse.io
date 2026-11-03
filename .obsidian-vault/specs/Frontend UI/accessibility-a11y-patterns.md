@@ -1,4 +1,4 @@
----
+﻿---
 slug: accessiblity-a11y-patterns.md
 sources:
   - https://www.w3.org/WAI/
@@ -321,11 +321,11 @@ export function FocusTrap({ children }: { children: React.ReactNode }) {
 - **Security Review Agent**: Run when adding forms
 
 ### Integration with Other Notes
-- Read [[accessibility-a11y]] for accessibility best practices
-- Read [[accessibility-by-design]] for accessibility by design patterns
-- Read [[html5-best-practices]] for HTML5 accessibility patterns
-- Read [[shadcn-ui-patterns]] for shadcn/ui accessibility
-- Read [[wcag-21]] for WCAG 2.1 guidelines
+- Read [accessibility-a11y](D/accessibility-a11y.md) for accessibility best practices
+- Read [accessibility-by-design](D/accessibility-by-design.md) for accessibility by design patterns
+- Read [html5-best-practices](D/html5-best-practices.md) for HTML5 accessibility patterns
+- Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui accessibility
+- Read [wcag-21](D/wcag-21.md) for WCAG 2.1 guidelines
 
 ### Common Pitfalls
 - Don't use accessibility as an afterthought (design in from start)

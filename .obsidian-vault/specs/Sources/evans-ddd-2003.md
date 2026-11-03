@@ -1,4 +1,14 @@
+﻿---
+slug: evans-ddd-2003
+sources:
+  - https://en.wikipedia.org/wiki/Domain-Driven_Design
 ---
+
+---
+tags:
+  - ddd
+  - domain-driven-design
+  - architecture
 source_id: evans-ddd-2003
 title: "Domain-Driven Design: Tackling Complexity in the Heart of Software"
 author: "Eric Evans"

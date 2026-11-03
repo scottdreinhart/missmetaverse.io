@@ -1,5 +1,5 @@
 ---
-slug: vite-configuration
+slug: vite-configuration-original
 sources:
   - https://vite.dev/guide/config.html
   - https://vite.dev/guide/

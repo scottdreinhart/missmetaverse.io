@@ -1,4 +1,4 @@
----
+﻿---
 slug: complete-mediation
 sources:
   - https://owasp.org/
@@ -437,11 +437,11 @@ describe('Complete Mediation', () => {
 - **Code Review Agent**: Run when reviewing PRs with security changes
 
 ### Integration with Other Notes
-- read [[security-principles]] for security principles
+- read [security-principles](D/security-principles.md) for security principles
 - read [[abac]] for ABAC patterns
 - read [[rbac]] for RBAC patterns
-- read [[authorization]] for authorization patterns
-- read [[input-validation]] for input validation
+- read [authorization](D/authorization.md) for authorization patterns
+- read [input-validation](D/input-validation.md) for input validation
 - read [[separation-of-duties]] for separation of duties
 
 ### Common Pitfalls

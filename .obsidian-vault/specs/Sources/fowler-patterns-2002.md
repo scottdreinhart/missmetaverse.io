@@ -1,4 +1,14 @@
+﻿---
+slug: fowler-patterns-2002
+sources:
+  - https://martinfowler.com/
 ---
+
+---
+tags:
+  - design-patterns
+  - enterprise
+  - architecture
 source_id: fowler-patterns-2002
 title: "Patterns of Enterprise Application Architecture"
 author: "Martin Fowler"

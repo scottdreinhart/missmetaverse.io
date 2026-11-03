@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-search-engine
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-search-engine]]
+Reference: [Guide: how-do-we-design-a-search-engine](https://bytebytego.com/guides/how-do-we-design-a-search-engine)
 
 This guide covers search engine architecture, indexing, and ranking algorithms.
 
@@ -109,4 +109,4 @@ Read these vault notes for deeper understanding:
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-search-engine|search-engine-guide]]
+- [search-engine-guide](https://bytebytego.com/guides/how-do-we-design-a-search-engine)

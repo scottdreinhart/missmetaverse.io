@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-api-styles
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/a-cheatsheet-on-comparing-api-architectural-styles]]
+Reference: [Guide: a-cheatsheet-on-comparing-api-architectural-styles](https://bytebytego.com/guides/a-cheatsheet-on-comparing-api-architectural-styles)
 
 This guide compares different API architectural styles to help choose the right approach.
 
@@ -107,9 +107,9 @@ Read these vault notes for deeper understanding:
 - [[rest-api-cheatsheet]] — REST API best practices
 - [[graphql-adoption-patterns]] — GraphQL implementation
 - [[microservices-architecture]] — Microservice communication
-- [[api-gateway-pattern]] — API gateway patterns
+- [api-gateway-pattern](D/api-gateway-pattern.md) — API gateway patterns
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/a-cheatsheet-on-comparing-api-architectural-styles|api-styles-guide]]
+- [api-styles-guide](https://bytebytego.com/guides/a-cheatsheet-on-comparing-api-architectural-styles)

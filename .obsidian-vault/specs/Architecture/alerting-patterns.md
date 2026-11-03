@@ -1,5 +1,5 @@
 ---
-slug: alerting-patterns
+slug: alerting-patterns-original
 sources:
   - https://en.wikipedia.org/wiki/Alert_management
   - https://docs.sentry.io/

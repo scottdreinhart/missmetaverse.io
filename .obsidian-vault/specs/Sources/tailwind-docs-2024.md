@@ -1,4 +1,14 @@
+﻿---
+slug: tailwind-docs-2024
+sources:
+  - https://tailwindcss.com/docs
 ---
+
+---
+tags:
+  - tailwind
+  - css
+  - utility-first
 source_id: tailwind-docs-2024
 title: "Tailwind CSS Documentation"
 author: "Tailwind Labs"

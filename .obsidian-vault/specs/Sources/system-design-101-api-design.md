@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-api-design
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-an-api]]
+Reference: [Guide: how-do-we-design-an-api](https://bytebytego.com/guides/how-do-we-design-an-api)
 
 This guide covers API design patterns, REST, GraphQL, gRPC, and API gateway patterns.
 
@@ -208,13 +208,13 @@ type Handler = (request: Request, response: Response) => Promise<void>
 
 Read these vault notes for deeper understanding:
 
-- [[rest-api-design]] — REST API design patterns
+- [rest-api-design](D/rest-api-design.md) — REST API design patterns
 - [[graphql-api-design]] — GraphQL API design
 - [[grpc-design]] — gRPC design patterns
-- [[api-gateway]] — API gateway patterns
+- [api-gateway](D/api-gateway.md) — API gateway patterns
 - [[versioning-strategies]] — API versioning strategies
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-an-api|api-design-guide]]
+- [api-design-guide](https://bytebytego.com/guides/how-do-we-design-an-api)

@@ -1,4 +1,4 @@
----
+﻿---
 slug: typescript-strict-mode
 sources:
   - https://www.typescriptlang.org/tsconfig#strict
@@ -438,7 +438,7 @@ emitter.on('user:login', (data) => {
 - Read [[ts-security-best-practices]] for TypeScript security best practices
 - Read [[ts-optimization-performance]] for TypeScript optimization
 - Read [[ts-tsconfig]] for tsconfig.json configuration
-- Read [[react-patterns]] for React patterns
+- Read [react-patterns](D/react-patterns.md) for React patterns
 
 ---
 
@@ -623,7 +623,7 @@ pnpm tsc --noEmit --pretty
 - Read [[ts-security-best-practices]] for TypeScript security best practices
 - Read [[ts-optimization-performance]] for TypeScript optimization
 - Read [[ts-tsconfig]] for tsconfig.json configuration
-- Read [[react-patterns]] for React patterns
+- Read [react-patterns](D/react-patterns.md) for React patterns
 
 ### Common Pitfalls
 - Don't use any type (use unknown instead)

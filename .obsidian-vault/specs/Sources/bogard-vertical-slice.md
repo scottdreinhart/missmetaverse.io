@@ -1,4 +1,14 @@
+﻿---
+slug: bogard-vertical-slice
+sources:
+  - https://www.jimmybogard.com/
 ---
+
+---
+tags:
+  - vertical-slices
+  - architecture
+  - clean-architecture
 source_id: bogard-vertical-slice
 title: "Vertical Slice Architecture"
 author: "Jimmy Bogard"

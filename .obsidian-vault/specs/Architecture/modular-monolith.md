@@ -1,4 +1,4 @@
----
+﻿---
 slug: modular-monolith
 sources:
   - https://martinfowler.com/bliki/ModularMonolith.html
@@ -188,8 +188,8 @@ pnpm test modules/orders/
 - **Terminal Command**: `pnpm add -D eslint-plugin-no-restricted-imports` — install boundary enforcement
 
 ### Integration with Other Notes
-- Read [[microservices]] for when to consider microservices
-- Read [[clean-architecture]] for module-level architecture
+- Read [microservices](https://martinfowler.com/microservices.html) for when to consider microservices
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for module-level architecture
 - read [[project-structure-mapping]] for folder structure
 
 ### Common Pitfalls

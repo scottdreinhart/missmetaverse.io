@@ -1,4 +1,4 @@
----
+﻿---
 slug: domain-event
 sources:
   - https://www.domainlanguage.com/ddd/reference/
@@ -396,7 +396,7 @@ export class OrderRepository {
 - read [[aggregate-root]] for aggregate root event handling
 - read [[bounded-context]] for cross-context events
 - read [[application-service]] for application event handling
-- read [[event-driven-architecture]] for event-driven patterns
+- read [event-driven-architecture](D/event-driven-architecture.md) for event-driven patterns
 - read [[context-map]] for integration patterns
 
 ### Common Pitfalls

@@ -1,4 +1,14 @@
+﻿---
+slug: mdn-css-2024
+sources:
+  - https://developer.mozilla.org/en-US/docs/
 ---
+
+---
+tags:
+  - css
+  - mdn
+  - web-standards
 source_id: mdn-css-2024
 title: "MDN Web Docs — CSS"
 author: "Mozilla Developer Network"

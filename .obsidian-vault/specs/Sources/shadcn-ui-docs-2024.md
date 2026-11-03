@@ -1,4 +1,15 @@
+﻿---
+slug: shadcn-ui-docs-2024
+sources:
+  - https://ui.shadcn.com/
 ---
+
+---
+tags:
+  - shadcn
+  - ui
+  - components
+  - react
 source_id: shadcn-ui-docs-2024
 title: "shadcn/ui Documentation"
 author: "shadcn (shadcn/ui team)"

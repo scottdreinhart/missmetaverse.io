@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-database-design
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-database]]
+Reference: [Guide: how-do-we-design-a-database](https://bytebytego.com/guides/how-do-we-design-a-database)
 
 This guide covers database design patterns, SQL vs NoSQL, and data modeling strategies.
 
@@ -156,10 +156,10 @@ Read these vault notes for deeper understanding:
 - [[sql-vs-nosql]] — SQL vs NoSQL comparison
 - [[database-sharding]] — Sharding strategies
 - [[database-replication]] — Replication patterns
-- [[data-modeling]] — Data modeling patterns
+- [data-modeling](D/data-modeling.md) — Data modeling patterns
 - [[database-indexing]] — Indexing strategies
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-database|database-design-guide]]
+- [database-design-guide](https://bytebytego.com/guides/how-do-we-design-a-database)

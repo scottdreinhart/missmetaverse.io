@@ -1,5 +1,5 @@
----
-slug: ci-cd-patterns
+﻿---
+slug: ci-cd-patterns-original
 sources:
   - https://martinfowler.com/articles/continuousIntegration.html
   - https://docs.github.com/en/actions
@@ -306,10 +306,10 @@ jobs:
 - **Code Review Agent**: Run when reviewing PRs with workflow changes
 
 ### Integration with Other Notes
-- Read [[docker-deployment]] for Docker deployment patterns
-- read [[nginx-patterns]] for nginx configuration
-- Read [[deployment-patterns]] for deployment strategies
-- Read [[monitoring-patterns]] for monitoring deployments
+- Read [docker-deployment](https://docs.docker.com/deployment/) for Docker deployment patterns
+- read [nginx-patterns](D/nginx-patterns.md) for nginx configuration
+- Read [deployment-patterns](D/deployment-patterns.md) for deployment strategies
+- Read [monitoring-patterns](D/monitoring-patterns.md) for monitoring deployments
 
 ### Common Pitfalls
 - Don't hardcode secrets in workflows (use GitHub Secrets)

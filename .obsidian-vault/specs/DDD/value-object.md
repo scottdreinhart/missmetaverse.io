@@ -1,4 +1,4 @@
----
+﻿---
 slug: value-object
 sources:
   - https://www.domainlanguage.com/ddd/reference/
@@ -405,8 +405,8 @@ describe('MoneyValueObject', () => {
 - read [[entity]] for entity patterns
 - read [[aggregate]] for aggregate patterns
 - read [[domain-service]] for domain service patterns
-- read [[immutable-data]] for immutable data patterns
-- read [[ddd-patterns]] for domain-driven design patterns
+- read [immutable-data](D/immutable-data.md) for immutable data patterns
+- read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
 
 ### Common Pitfalls
 - Don't make value objects mutable (use readonly)

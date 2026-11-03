@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-scalability-strategies
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/8-must-know-scalability-strategies]]
+Reference: [Guide: 8-must-know-scalability-strategies](https://bytebytego.com/guides/8-must-know-scalability-strategies)
 
 This guide covers 8 essential strategies for scaling systems to handle millions of users.
 
@@ -74,11 +74,11 @@ This guide covers 8 essential strategies for scaling systems to handle millions 
 ## Related Vault Notes
 
 - [[scalability-strategies]] — Scalability patterns in our architecture
-- [[caching-strategies]] — Caching implementation details
+- [caching-strategies](D/caching-strategies.md) — Caching implementation details
 - [[database-scaling]] — Database scaling techniques
 - [[load-balancing]] — Load balancing patterns
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/8-must-know-scalability-strategies]]
+- [Guide: 8-must-know-scalability-strategies](https://bytebytego.com/guides/8-must-know-scalability-strategies)

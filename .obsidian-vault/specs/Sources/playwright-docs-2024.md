@@ -1,4 +1,14 @@
+﻿---
+slug: playwright-docs-2024
+sources:
+  - https://playwright.dev/
 ---
+
+---
+tags:
+  - playwright
+  - testing
+  - e2e
 source_id: playwright-docs-2024
 title: "Playwright Documentation"
 author: "Microsoft"

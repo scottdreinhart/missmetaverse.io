@@ -1,5 +1,5 @@
 ---
-slug: git-patterns
+slug: git-patterns-original
 sources:
   - https://git-scm.com/
   - https://git-scm.com/book/en/v2

@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-monitoring
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-monitoring-and-alerting]]
+Reference: [Guide: how-do-we-design-monitoring-and-alerting](https://bytebytego.com/guides/how-do-we-design-monitoring-and-alerting)
 
 This guide covers monitoring, logging, tracing, and alerting strategies.
 
@@ -134,11 +134,11 @@ export const logger = winston.createLogger({
 Read these vault notes for deeper understanding:
 
 - [[monitoring-and-alerting]] — Monitoring strategies
-- [[observability]] — Observability patterns
-- [[logging-patterns]] — Logging best practices
+- [observability](D/observability.md) — Observability patterns
+- [[Quality Delivery/logging-patterns]] — Logging best practices
 - [[distributed-tracing]] — Distributed tracing
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-monitoring-and-alerting|monitoring-guide]]
+- [monitoring-guide](https://bytebytego.com/guides/how-do-we-design-monitoring-and-alerting)

@@ -1,4 +1,4 @@
----
+﻿---
 slug: architecture-patterns
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
@@ -407,13 +407,13 @@ async function retryWithBackoff<T>(
 
 ## Integration with Other Notes
 
-- Read [[clean-architecture]] for clean architecture patterns
-- Read [[solid-principles]] for SOLID design principles
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for clean architecture patterns
+- Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for SOLID design principles
 - Read [[ddd-patterns]] for domain-driven design patterns
 - Read [[modular-monolith]] for modular monolith patterns
-- Read [[microservices]] for microservices patterns
-- Read [[cqrs-pattern]] for CQRS patterns
-- Read [[event-driven-architecture]] for event-driven patterns
+- Read [microservices](https://martinfowler.com/microservices.html) for microservices patterns
+- Read [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) for CQRS patterns
+- Read [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) for event-driven patterns
 
 ---
 
@@ -614,13 +614,13 @@ class GetUserQueryHandler {
 - **Code Review Agent**: Run when reviewing PRs with architecture changes
 
 ### Integration with Other Notes
-- Read [[clean-architecture]] for clean architecture patterns
-- Read [[solid-principles]] for SOLID design principles
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for clean architecture patterns
+- Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for SOLID design principles
 - Read [[ddd-patterns]] for domain-driven design patterns
 - Read [[modular-monolith]] for modular monolith patterns
-- Read [[microservices]] for microservices patterns
-- Read [[cqrs-pattern]] for CQRS patterns
-- Read [[event-driven-architecture]] for event-driven patterns
+- Read [microservices](https://martinfowler.com/microservices.html) for microservices patterns
+- Read [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) for CQRS patterns
+- Read [event-driven-architecture](https://en.wikipedia.org/wiki/Event-driven_architecture) for event-driven patterns
 - Read [[project-structure-mapping]] for project structure mapping
 
 ### Common Pitfalls

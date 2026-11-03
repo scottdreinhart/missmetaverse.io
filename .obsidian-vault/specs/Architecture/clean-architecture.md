@@ -1,4 +1,4 @@
----
+﻿---
 slug: clean-architecture
 sources:
   - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
@@ -582,10 +582,10 @@ const orderController = new OrderController(
 - **Code Review Agent**: Run when reviewing PRs that touch architecture layers
 
 ### Integration with Other Notes
-- Read [[solid-principles]] for single responsibility within each layer
+- Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for single responsibility within each layer
 - Read [[ddd-patterns]] for domain model patterns within entities
-- Read [[cqrs-pattern]] for separating read/write models
-- Read [[dependency-injection]] for wiring dependencies at the boundary
+- Read [cqrs-pattern](https://learn.microsoft.com/azure/architecture/patterns/cqrs) for separating read/write models
+- Read [dependency-injection](https://en.wikipedia.org/wiki/Dependency_injection) for wiring dependencies at the boundary
 
 ### Common Pitfalls
 - Don't let entities know about databases (entities should be plain classes)

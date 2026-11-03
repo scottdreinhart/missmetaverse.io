@@ -1,5 +1,5 @@
 ---
-slug: tailwind-css-patterns
+slug: tailwind-css-patterns-original
 sources:
   - https://tailwindcss.com/docs
   - https://tailwindcss.com/docs/installation

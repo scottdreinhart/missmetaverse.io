@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-chat-system
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-chat-system]]
+Reference: [Guide: how-do-we-design-a-chat-system](https://bytebytego.com/guides/how-do-we-design-a-chat-system)
 
 This guide covers chat system architecture, real-time messaging, and message delivery.
 
@@ -146,4 +146,4 @@ Read these vault notes for deeper understanding:
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-chat-system|chat-system-guide]]
+- [chat-system-guide](https://bytebytego.com/guides/how-do-we-design-a-chat-system)

@@ -1,4 +1,4 @@
----
+﻿---
 slug: vite-optimization-security
 sources:
   - https://vite.dev/guide/build.html
@@ -525,10 +525,10 @@ export default defineConfig({
 
 ## Cross-References
 
-- See [[react-performance-security]] for React optimization
-- See [[pnpm-best-practices]] for package management
-- See [[vitest-testing]] for testing setup
-- See [[tw-optimization-performance]] for Tailwind CSS integration
+- See [react-performance-security](D/react-performance-security.md) for React optimization
+- See [pnpm-best-practices](D/pnpm-best-practices.md) for package management
+- See [vitest-testing](D/vitest-testing.md) for testing setup
+- See [tw-optimization-performance](D/tw-optimization-performance.md) for Tailwind CSS integration
 
 ---
 
@@ -702,10 +702,10 @@ export default defineConfig({
 - **Security Review Agent**: Run when configuring CSP headers
 
 ### Integration with Other Notes
-- Read [[vite-configuration]] for Vite configuration patterns
-- read [[react-performance-security]] for React optimization
-- Read [[pnpm-best-practices]] for package management
-- Read [[docker-deployment]] for Docker deployment
+- Read [vite-configuration](D/vite-configuration.md) for Vite configuration patterns
+- read [react-performance-security](D/react-performance-security.md) for React optimization
+- Read [pnpm-best-practices](D/pnpm-best-practices.md) for package management
+- Read [docker-deployment](D/docker-deployment.md) for Docker deployment
 
 ### Common Pitfalls
 - Don't over-split bundles (too many chunks hurt performance)

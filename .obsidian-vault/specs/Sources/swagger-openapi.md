@@ -1,4 +1,4 @@
----
+﻿---
 source_id: swagger-openapi
 title: "OpenAPI Specification"
 author: "Linux Foundation"

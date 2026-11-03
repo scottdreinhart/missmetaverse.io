@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -45,10 +45,10 @@ When reading notes about system design patterns, cross-reference with:
 Use specific guides for implementation details:
 
 ```markdown
-- [[system-design-101/guides/8-must-know-scalability-strategies]] — Scalability
-- [[system-design-101/guides/top-5-caching-strategies]] — Caching
-- [[system-design-101/guides/9-best-practices-for-building-microservices]] — Microservices
-- [[system-design-101/guides/system-design-cheat-sheet]] — Quick reference
+- [Guide: 8-must-know-scalability-strategies](https://bytebytego.com/guides/8-must-know-scalability-strategies) — Scalability
+- [Guide: top-5-caching-strategies](https://bytebytego.com/guides/top-5-caching-strategies) — Caching
+- [Guide: 9-best-practices-for-building-microservices](https://bytebytego.com/guides/9-best-practices-for-building-microservices) — Microservices
+- [Guide: system-design-cheat-sheet](https://bytebytego.com/guides/system-design-cheat-sheet) — Quick reference
 ```
 
 ### For Real-World Examples
@@ -56,10 +56,10 @@ Use specific guides for implementation details:
 Study case studies for practical insights:
 
 ```markdown
-- [[system-design-101/guides/netflixs-overall-architecture]] — Netflix
-- [[system-design-101/guides/uber-tech-stack]] — Uber
-- [[system-design-101/guides/discord-stores-trillions-of-messages]] — Discord
-- [[system-design-101/guides/twitter-architecture-2022-vs-2012]] — Twitter
+- [Guide: netflixs-overall-architecture](https://bytebytego.com/guides/netflixs-overall-architecture) — Netflix
+- [Guide: uber-tech-stack](https://bytebytego.com/guides/uber-tech-stack) — Uber
+- [Guide: discord-stores-trillions-of-messages](https://bytebytego.com/guides/discord-stores-trillions-of-messages) — Discord
+- [Guide: twitter-architecture-2022-vs-2012](https://bytebytego.com/guides/twitter-architecture-2022-vs-2012) — Twitter
 ```
 
 ## Key Topics Covered
@@ -112,12 +112,12 @@ This source complements existing vault notes by:
 
 Read these vault notes for deeper understanding:
 
-- [[architecture-patterns]] — Architectural pattern selection
+- [architecture-patterns](D/architecture-patterns.md) — Architectural pattern selection
 - [[microservices-architecture]] — Microservice design
-- [[event-driven-architecture]] — Event-driven patterns
-- [[caching-strategies]] — Caching implementation
+- [event-driven-architecture](D/event-driven-architecture.md) — Event-driven patterns
+- [caching-strategies](D/caching-strategies.md) — Caching implementation
 - [[database-scaling]] — Database scaling strategies
-- [[security-principles]] — Security best practices
+- [security-principles](D/security-principles.md) — Security best practices
 - [[scalability-strategies]] — Scalability patterns
 
 ## Sources

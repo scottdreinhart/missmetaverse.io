@@ -1,4 +1,14 @@
+﻿---
+slug: frost-atomic-design-2016
+sources:
+  - https://bradfrost.com/
 ---
+
+---
+tags:
+  - atomic-design
+  - ui
+  - components
 source_id: frost-atomic-design-2016
 title: "Atomic Design"
 author: "Brad Frost"

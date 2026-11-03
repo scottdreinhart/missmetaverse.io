@@ -1,4 +1,4 @@
----
+﻿---
 slug: pnpm-best-practices
 sources:
   - https://pnpm.io/cli/install
@@ -472,9 +472,9 @@ interface ImportMeta {
 
 ## Cross-References
 
-- See [[vite-optimization-security]] for Vite build optimization
-- See [[vitest-testing]] for Vitest testing setup
-- See [[react-performance-security]] for React integration
+- See [vite-optimization-security](D/vite-optimization-security.md) for Vite build optimization
+- See [vitest-testing](D/vitest-testing.md) for Vitest testing setup
+- See [react-performance-security](D/react-performance-security.md) for React integration
 
 ---
 
@@ -647,10 +647,10 @@ jobs:
 - **Code Review Agent**: Run when reviewing PRs with dependency changes
 
 ### Integration with Other Notes
-- Read [[ci-cd-patterns]] for CI/CD deployment patterns
-- read [[vite-configuration]] for Vite configuration
-- Read [[docker-deployment]] for Docker deployment patterns
-- Read [[testing-patterns]] for testing strategies
+- Read [[Quality Delivery/ci-cd-patterns]] for CI/CD deployment patterns
+- read [[Bundler/vite-configuration]] for Vite configuration
+- Read [docker-deployment](D/docker-deployment.md) for Docker deployment patterns
+- Read [testing-patterns](D/testing-patterns.md) for testing strategies
 
 ### Common Pitfalls
 - Don't use npm/pnpm interchangeably (stick to one)

@@ -1,4 +1,14 @@
+﻿---
+slug: owasp-top-ten-2021
+sources:
+  - https://owasp.org/
 ---
+
+---
+tags:
+  - owasp
+  - security
+  - web-security
 source_id: owasp-top-ten-2021
 title: "OWASP Top Ten"
 author: "OWASP Foundation"

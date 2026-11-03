@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-microservices
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/9-best-practices-for-building-microservices]]
+Reference: [Guide: 9-best-practices-for-building-microservices](https://bytebytego.com/guides/9-best-practices-for-building-microservices)
 
 This guide covers essential best practices for designing and implementing microservice architectures.
 
@@ -91,12 +91,12 @@ This guide covers essential best practices for designing and implementing micros
 ## Related Vault Notes
 
 - [[microservices-architecture]] — Microservice design in our architecture
-- [[api-gateway-pattern]] — API gateway implementation
-- [[service-mesh]] — Service mesh patterns
-- [[event-driven-architecture]] — Event-driven communication
-- [[circuit-breaker-pattern]] — Fault tolerance patterns
+- [api-gateway-pattern](D/api-gateway-pattern.md) — API gateway implementation
+- [service-mesh](D/service-mesh.md) — Service mesh patterns
+- [event-driven-architecture](D/event-driven-architecture.md) — Event-driven communication
+- [circuit-breaker-pattern](D/circuit-breaker-pattern.md) — Fault tolerance patterns
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/9-best-practices-for-building-microservices]]
+- [Guide: 9-best-practices-for-building-microservices](https://bytebytego.com/guides/9-best-practices-for-building-microservices)

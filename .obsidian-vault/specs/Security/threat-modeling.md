@@ -1,4 +1,4 @@
----
+﻿---
 slug: threat-modeling
 sources:
   - https://owasp.org/
@@ -333,8 +333,8 @@ export class ThreatMonitor {
 ### Integration with Other Notes
 - read [[secure-by-design]] for security principles
 - read [[trust-boundaries]] for trust boundary analysis
-- read [[input-validation]] for input validation
-- read [[security-principles]] for security principles
+- read [input-validation](D/input-validation.md) for input validation
+- read [security-principles](D/security-principles.md) for security principles
 
 ### Common Pitfalls
 - Don't skip threat modeling (do it early)

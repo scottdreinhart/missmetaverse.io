@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-payment-system
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-payment-system]]
+Reference: [Guide: how-do-we-design-a-payment-system](https://bytebytego.com/guides/how-do-we-design-a-payment-system)
 
 This guide covers payment system architecture, transaction processing, and security.
 
@@ -145,4 +145,4 @@ Read these vault notes for deeper understanding:
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-payment-system|payment-system-guide]]
+- [payment-system-guide](https://bytebytego.com/guides/how-do-we-design-a-payment-system)

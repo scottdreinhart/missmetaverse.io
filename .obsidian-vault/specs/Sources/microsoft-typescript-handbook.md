@@ -1,4 +1,14 @@
+﻿---
+slug: microsoft-typescript-handbook
+sources:
+  - https://learn.microsoft.com/
 ---
+
+---
+tags:
+  - typescript
+  - microsoft
+  - typing
 source_id: microsoft-typescript-handbook
 title: "TypeScript Handbook"
 author: "Microsoft"

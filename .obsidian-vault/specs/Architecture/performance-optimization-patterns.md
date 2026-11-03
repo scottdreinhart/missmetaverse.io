@@ -1,5 +1,5 @@
 ---
-slug: performance-optimization-patterns
+slug: performance-optimization-patterns-original
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/Performance
   - https://vite.dev/guide/build.html#production

@@ -1,5 +1,5 @@
 ---
-slug: version-control-patterns
+slug: version-control-patterns-original
 sources:
   - https://git-scm.com/
   - https://en.wikipedia.org/wiki/Version_control

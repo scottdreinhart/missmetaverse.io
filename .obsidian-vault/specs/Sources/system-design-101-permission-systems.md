@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-permission-systems
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-permission-system]]
+Reference: [Guide: how-do-we-design-a-permission-system](https://bytebytego.com/guides/how-do-we-design-a-permission-system)
 
 This guide covers common permission system designs including ACL, DAC, MAC, ABAC, and RBAC.
 
@@ -140,13 +140,13 @@ export function checkAccess(user: User, resource: Resource, action: string): boo
 
 Read these vault notes for deeper understanding:
 
-- [[rbac]] — Role-Based Access Control patterns
-- [[abac]] — Attribute-Based Access Control
-- [[separation-of-duties]] — Separation of duties implementation
-- [[authorization]] — Authorization patterns
-- [[security-principles]] — Security best practices
+- [rbac](D/rbac.md) — Role-Based Access Control patterns
+- [abac](D/abac.md) — Attribute-Based Access Control
+- [separation-of-duties](D/separation-of-duties.md) — Separation of duties implementation
+- [authorization](D/authorization.md) — Authorization patterns
+- [security-principles](D/security-principles.md) — Security best practices
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-permission-system|permission-system-guide]]
+- [permission-system-guide](https://bytebytego.com/guides/how-do-we-design-a-permission-system)

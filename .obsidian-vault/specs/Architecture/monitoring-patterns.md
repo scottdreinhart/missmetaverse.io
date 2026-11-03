@@ -1,5 +1,5 @@
----
-slug: monitoring-patterns
+﻿---
+slug: monitoring-patterns-original
 sources:
   - https://en.wikipedia.org/wiki/Computer_monitoring
   - https://docs.sentry.io/
@@ -297,10 +297,10 @@ alerts:
 - **Security Review Agent**: Run when configuring error tracking
 
 ### Integration with Other Notes
-- Read [[ci-cd-patterns]] for CI/CD deployment patterns
-- read [[docker-deployment]] for Docker deployment patterns
-- Read [[nginx-patterns]] for nginx configuration
-- Read [[logging-patterns]] for logging patterns
+- Read [ci-cd-patterns](D/ci-cd-patterns.md) for CI/CD deployment patterns
+- read [docker-deployment](https://docs.docker.com/deployment/) for Docker deployment patterns
+- Read [nginx-patterns](D/nginx-patterns.md) for nginx configuration
+- Read [logging-patterns](D/logging-patterns.md) for logging patterns
 
 ### Common Pitfalls
 - Don't monitor everything (focus on what matters)

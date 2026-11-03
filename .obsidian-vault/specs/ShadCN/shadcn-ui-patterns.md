@@ -1,4 +1,4 @@
----
+﻿---
 slug: shadcn-ui-patterns
 sources:
   - https://ui.shadcn.com/docs
@@ -592,10 +592,10 @@ export function CustomCard({ title, subtitle, image, children, className }: Cust
 
 ## Integration with Other Notes
 
-- Read [[react-patterns]] for React component patterns
-- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
-- Read [[css-fundamentals]] for CSS fundamentals
-- Read [[accessibility-a11y]] for accessibility best practices
+- Read [react-patterns](D/react-patterns.md) for React component patterns
+- Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[Cascading Stylesheets/css-fundamentals]] for CSS fundamentals
+- Read [accessibility-a11y](D/accessibility-a11y.md) for accessibility best practices
 - Read [[shadcn-best-practices]] for shadcn/ui best practices
 
 ---
@@ -790,12 +790,12 @@ function App() {
 - **Security Review Agent**: Run when adding new form components
 
 ### Integration with Other Notes
-- Read [[react-patterns]] for React component patterns
-- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
-- Read [[css-fundamentals]] for CSS fundamentals
-- Read [[accessibility-a11y]] for accessibility best practices
+- Read [react-patterns](D/react-patterns.md) for React component patterns
+- Read [[TailwindsCSS/tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[Cascading Stylesheets/css-fundamentals]] for CSS fundamentals
+- Read [accessibility-a11y](D/accessibility-a11y.md) for accessibility best practices
 - Read [[shadcn-best-practices]] for shadcn/ui best practices
-- Read [[css-media-queries]] for responsive design patterns
+- Read [css-media-queries](D/css-media-queries.md) for responsive design patterns
 
 ### Common Pitfalls
 - Don't modify component source directly (use cn() for customization)

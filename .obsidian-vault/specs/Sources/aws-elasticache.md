@@ -1,4 +1,14 @@
+﻿---
+slug: aws-elasticache
+sources:
+  - https://docs.aws.amazon.com/
 ---
+
+---
+tags:
+  - aws
+  - caching
+  - cloud
 source_id: aws-elasticache
 title: "AWS ElastiCache Documentation"
 author: "Amazon Web Services"

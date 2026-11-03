@@ -1,4 +1,4 @@
----
+﻿---
 slug: secure-defaults
 sources:
   - https://owasp.org/
@@ -341,9 +341,9 @@ export const databaseConfig = {
 
 ### Integration with Other Notes
 - read [[secure-by-design]] for security principles
-- read [[content-security-policy]] for CSP headers
+- read [content-security-policy](D/content-security-policy.md) for CSP headers
 - read [[secrets-management]] for secret configuration
-- read [[security-principles]] for security principles
+- read [security-principles](D/security-principles.md) for security principles
 
 ### Common Pitfalls
 - Don't use insecure defaults (always start secure)

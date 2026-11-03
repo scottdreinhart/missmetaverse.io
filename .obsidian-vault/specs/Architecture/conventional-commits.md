@@ -1,4 +1,4 @@
----
+﻿---
 slug: conventional-commits
 sources:
   - https://www.conventionalcommits.org/
@@ -222,12 +222,12 @@ pnpm changeset publish
 - **Testing Agent**: Run when test files are changed
 
 ### Integration with Other Notes
-- Read [[commitizen-cz-git]] for commitizen configuration
-- Read [[commitlint-cli-config]] for commitlint configuration
-- Read [[conventional-changelog]] for changelog generation
-- Read [[husky-git-hooks]] for Husky configuration
-- Read [[commit-management-integration]] for commit management integration
-- Read [[pnpm-workspace]] for workspace management
+- Read [commitizen-cz-git](D/commitizen-cz-git.md) for commitizen configuration
+- Read [commitlint-cli-config](D/commitlint-cli-config.md) for commitlint configuration
+- Read [conventional-changelog](D/conventional-changelog.md) for changelog generation
+- Read [husky-git-hooks](D/husky-git-hooks.md) for Husky configuration
+- Read [commit-management-integration](D/commit-management-integration.md) for commit management integration
+- Read [pnpm-workspace](D/pnpm-workspace.md) for workspace management
 
 ### Common Pitfalls
 - Don't skip commit types (always use feat/fix/docs/etc.)

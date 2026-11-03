@@ -1,5 +1,5 @@
 ---
-slug: docker-deployment-patterns
+slug: docker-deployment-patterns-original
 sources:
   - https://docs.docker.com/
   - https://nginx.org/

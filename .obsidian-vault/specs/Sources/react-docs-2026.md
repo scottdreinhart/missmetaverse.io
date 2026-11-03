@@ -1,4 +1,14 @@
+﻿---
+slug: react-docs-2026
+sources:
+  - https://react.dev/
 ---
+
+---
+tags:
+  - react
+  - meta
+  - frontend
 source_id: react-docs-2026
 title: "React Documentation"
 author: "Meta (Facebook)"

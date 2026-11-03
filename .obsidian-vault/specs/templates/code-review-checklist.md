@@ -1,4 +1,4 @@
----
+﻿---
 slug: code-review-checklist
 title: Code Review Checklist
 description: Comprehensive checklist for systematic code reviews covering architecture, security, testing, performance, and maintainability.
@@ -41,9 +41,9 @@ access_limitations: None
 
 ### Copilot Actions
 ```
-1. Read [[clean-architecture]] if unsure about dependency rules
-2. Read [[ddd-patterns]] if checking bounded context boundaries
-3. Read [[solid-principles]] if checking SRP/OCP/LSP
+1. Read [clean-architecture](D/clean-architecture.md) if unsure about dependency rules
+2. Read [ddd-patterns](D/ddd-patterns.md) if checking bounded context boundaries
+3. Read [solid-principles](D/solid-principles.md) if checking SRP/OCP/LSP
 4. Check for existing ADRs in .obsidian-vault/specs/Architecture/
 5. Flag any violations with specific line numbers and suggestions
 ```
@@ -67,7 +67,7 @@ access_limitations: None
 2. Run: grep -r "as " src/ — flag any that aren't type guards
 3. Run: grep -r "!" src/ — flag non-null assertions
 4. Check tsconfig.json for strict mode enabled
-5. Read [[ts-best-practices]] for detailed guidance
+5. Read [ts-best-practices](D/ts-best-practices.md) for detailed guidance
 ```
 
 ---
@@ -91,8 +91,8 @@ access_limitations: None
 2. Run: grep -r "process.env\." src/ — flag hardcoded secrets
 3. Check for input validation on all API endpoints
 4. Check for sanitization on all user-generated content
-5. Read [[security-principles]] for detailed security guidance
-6. Read [[owasp-top-ten-2021]] for OWASP Top 10 compliance
+5. Read [security-principles](D/security-principles.md) for detailed security guidance
+6. Read [owasp-top-ten-2021](D/owasp-top-ten-2021.md) for OWASP Top 10 compliance
 ```
 
 ---
@@ -116,8 +116,8 @@ access_limitations: None
 2. Check test file naming: *.test.ts or *.spec.ts
 3. Verify test descriptions are meaningful
 4. Check for mock implementations of external services
-5. Read [[vitest-testing]] for testing patterns
-6. Read [[vitest-docs-2024]] for Vitest best practices
+5. Read [vitest-testing](D/vitest-testing.md) for testing patterns
+6. Read [vitest-docs-2024](D/vitest-docs-2024.md) for Vitest best practices
 ```
 
 ---
@@ -141,8 +141,8 @@ access_limitations: None
 3. Check React components for unnecessary re-renders (React DevTools)
 4. Run: pnpm build — check bundle size
 5. Check database queries for N+1 patterns
-6. Read [[vite-configuration]] for bundle optimization
-7. Read [[react-performance-security]] for React optimization
+6. Read [[Bundler/vite-configuration]] for bundle optimization
+7. Read [react-performance-security](D/react-performance-security.md) for React optimization
 ```
 
 ---
@@ -167,7 +167,7 @@ access_limitations: None
 3. Check for unused imports: grep -r "^import.*from.*$" src/ | wc -l
 4. Check function lengths: awk '/^function|^const.*=.*=>/' src/**/*.ts | wc -l
 5. Check for TODOs: grep -r "TODO" src/ — should have ticket numbers
-6. Read [[coding-practices]] for detailed guidance
+6. Read [coding-practices](D/coding-practices.md) for detailed guidance
 ```
 
 ---
@@ -191,8 +191,8 @@ access_limitations: None
 3. Check error response structure matches standard
 4. Verify pagination is cursor-based
 5. Check OpenAPI docs are updated
-6. Read [[rest-api-design]] for detailed API guidance
-7. Read [[api-versioning]] for versioning strategies
+6. Read [[APIs Distributed Systems/rest-api-design]] for detailed API guidance
+7. Read [api-versioning](D/api-versioning.md) for versioning strategies
 ```
 
 ---
@@ -213,8 +213,8 @@ access_limitations: None
 1. Check commit message format: git log --oneline | grep -vE "^(feat|fix|chore|refactor|docs|style|test|ci|perf|build|revert)"
 2. Check branch naming: git branch --list
 3. Check PR description completeness
-4. Read [[conventional-commits]] for commit guidance
-5. Read [[conventional-commits-patterns]] for commit format
+4. Read [conventional-commits](D/conventional-commits.md) for commit guidance
+5. Read [conventional-commits-patterns](D/conventional-commits-patterns.md) for commit format
 ```
 
 ---
@@ -235,7 +235,7 @@ access_limitations: None
 2. Check for JSDoc on public APIs
 3. Check OpenAPI spec if API changed
 4. Check for broken links: markdown-link-check docs/**/*.md
-5. Read [[quality-delivery-maintainability]] for documentation standards
+5. Read [quality-delivery-maintainability](D/quality-delivery-maintainability.md) for documentation standards
 ```
 
 ---
@@ -258,8 +258,8 @@ access_limitations: None
 3. Check GitHub Actions workflows
 4. Check health check endpoints
 5. Check logging format (structured JSON)
-6. Read [[docker-deployment]] for deployment guidance
-7. Read [[cicd-github-actions]] for CI/CD guidance
+6. Read [docker-deployment](D/docker-deployment.md) for deployment guidance
+7. Read [cicd-github-actions](D/cicd-github-actions.md) for CI/CD guidance
 ```
 
 ---

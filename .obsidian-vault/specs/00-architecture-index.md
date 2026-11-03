@@ -1,4 +1,4 @@
-# Architecture & Patterns Knowledge Base
+﻿# Architecture & Patterns Knowledge Base
 
 > **Purpose:** Source-backed reference for planning, implementation, refactoring, testing, and architectural review.
 > **Last Updated:** 2026-11-02
@@ -190,16 +190,16 @@ See [[Sources/README|Sources Index]] for all verified source citations.
 
 ## Research Status
 
-See [[Research Status]] for the full concept inventory with research status per concept.
+See [[Research-Status]] for the full concept inventory with research status per concept.
 
 ---
 
 ## Project Architecture Mapping
 
-See [[Project Architecture Mapping]] for how concepts map to the actual project.
+See [[Project-Architecture-Mapping]] for how concepts map to the actual project.
 
 ---
 
 ## Copilot Consumption Guide
 
-See [[Copilot Consumption Guide]] for instructions on how Copilot should use this knowledge base.
+See [[Copilot-Consumption-Guide]] for instructions on how Copilot should use this knowledge base.

@@ -1,4 +1,4 @@
----
+﻿---
 slug: tw-optimization-performance
 sources:
   - https://tailwindcss.com/docs/content-configuration
@@ -347,26 +347,26 @@ export default defineConfig({
 
 ## Cross-References
 
-- See [[ts-best-practices]] for TypeScript integration patterns
-- See [[css-media-queries]] for media query patterns and breakpoints
-- See [[tailwind-css-patterns]] for Tailwind CSS patterns
+- See [ts-best-practices](D/ts-best-practices.md) for TypeScript integration patterns
+- See [css-media-queries](D/css-media-queries.md) for media query patterns and breakpoints
+- See [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
 
 ## Sources
 
 - [[Sources/tailwind-docs-2024|tailwind-docs-2024]]
 - [[Sources/mdn-css-2024|mdn-css-2024]]
-- See [[css3-performance-security]] for CSS3 performance fundamentals
-- See [[html5-best-practices]] for HTML5 semantic structure with Tailwind
+- See [css3-performance-security](D/css3-performance-security.md) for CSS3 performance fundamentals
+- See [html5-best-practices](D/html5-best-practices.md) for HTML5 semantic structure with Tailwind
 
 ---
 
 ## Integration with Other Notes
 
-- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
-- Read [[css-fundamentals]] for CSS fundamentals
-- Read [[css-media-queries]] for media query patterns
-- Read [[html5-best-practices]] for HTML5 best practices
-- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+- Read [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
+- Read [[Cascading Stylesheets/css-fundamentals]] for CSS fundamentals
+- Read [css-media-queries](D/css-media-queries.md) for media query patterns
+- Read [html5-best-practices](D/html5-best-practices.md) for HTML5 best practices
+- Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui component patterns
 
 ---
 
@@ -523,11 +523,11 @@ export default defineConfig({
 - **Code Review Agent**: Run when reviewing PRs with Tailwind changes
 
 ### Integration with Other Notes
-- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
-- Read [[css-fundamentals]] for CSS fundamentals
-- Read [[css-media-queries]] for media query patterns
-- Read [[html5-best-practices]] for HTML5 best practices
-- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+- Read [tailwind-css-patterns](D/tailwind-css-patterns.md) for Tailwind CSS patterns
+- Read [[Cascading Stylesheets/css-fundamentals]] for CSS fundamentals
+- Read [css-media-queries](D/css-media-queries.md) for media query patterns
+- Read [html5-best-practices](D/html5-best-practices.md) for HTML5 best practices
+- Read [[ShadCN/shadcn-ui-patterns]] for shadcn/ui component patterns
 
 ### Common Pitfalls
 - Don't forget to add new files to content array

@@ -1,4 +1,14 @@
+﻿---
+slug: vite-docs-2024
+sources:
+  - https://vitejs.dev/guide/
 ---
+
+---
+tags:
+  - vite
+  - bundler
+  - build-tool
 source_id: vite-docs-2024
 title: "Vite Documentation"
 author: "Vite Team (Posva, Okamura, et al.)"

@@ -1,4 +1,4 @@
----
+﻿---
 slug: accessibility-a11y
 sources:
   - https://www.w3.org/TR/WCAG21/
@@ -106,10 +106,10 @@ Without accessibility:
 - **Code Review Agent**: Run when reviewing PRs that touch UI components
 
 ### Integration with Other Notes
-- Read [[accessibility-a11y-patterns]] for specific accessibility patterns
+- Read [accessibility-a11y-patterns](D/accessibility-a11y-patterns.md) for specific accessibility patterns
 - Read [[accessibility-by-design]] for accessibility-first approach
-- Read [[wcag-21]] for all WCAG 2.1 success criteria
-- Read [[shadcn-ui-patterns]] for accessible UI components
+- Read [wcag-21](D/wcag-21.md) for all WCAG 2.1 success criteria
+- Read [shadcn-ui-patterns](D/shadcn-ui-patterns.md) for accessible UI components
 
 ### Common Pitfalls
 - Don't skip accessibility because "we'll add it later" (it's harder to retrofit)

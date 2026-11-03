@@ -1,4 +1,4 @@
----
+﻿---
 slug: application-service
 sources:
   - https://www.domainlanguage.com/ddd/reference/
@@ -377,7 +377,7 @@ describe('OrderService', () => {
 - read [[entity]] for entity patterns
 - read [[domain-service]] for domain service patterns
 - read [[use-case]] for use case patterns
-- read [[ddd-patterns]] for domain-driven design patterns
+- read [ddd-patterns](D/ddd-patterns.md) for domain-driven design patterns
 
 ### Common Pitfalls
 - Don't put domain logic in application services (use domain methods)

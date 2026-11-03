@@ -1,4 +1,14 @@
+﻿---
+slug: martin-srp-2014
+sources:
+  - https://martinfowler.com/
 ---
+
+---
+tags:
+  - solid-principles
+  - single-responsibility
+  - architecture
 source_id: martin-srp-2014
 title: "The Single Responsibility Principle"
 author: "Robert C. Martin (Uncle Bob)"

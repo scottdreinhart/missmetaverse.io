@@ -1,4 +1,4 @@
----
+﻿---
 slug: testing-patterns
 sources:
   - https://vitest.dev/guide/
@@ -550,9 +550,9 @@ export interface TestOrderItem {
 ## Integration with Other Notes
 
 - Read [[vitest-testing]] for Vitest testing patterns
-- Read [[playwright-patterns]] for E2E testing with Playwright
-- Read [[react-patterns]] for React testing patterns
-- Read [[ci-cd-patterns]] for CI/CD testing integration
+- Read [playwright-patterns](D/playwright-patterns.md) for E2E testing with Playwright
+- Read [react-patterns](D/react-patterns.md) for React testing patterns
+- Read [[Quality Delivery/ci-cd-patterns]] for CI/CD testing integration
 
 ---
 
@@ -794,10 +794,10 @@ pnpm test -- -t "isValidEmail"
 
 ### Integration with Other Notes
 - Read [[vitest-testing]] for Vitest testing patterns
-- Read [[playwright-patterns]] for E2E testing with Playwright
-- Read [[react-patterns]] for React testing patterns
-- Read [[ci-cd-patterns]] for CI/CD testing integration
-- Read [[react-performance-security]] for testing security
+- Read [playwright-patterns](D/playwright-patterns.md) for E2E testing with Playwright
+- Read [react-patterns](D/react-patterns.md) for React testing patterns
+- Read [[Quality Delivery/ci-cd-patterns]] for CI/CD testing integration
+- Read [react-performance-security](D/react-performance-security.md) for testing security
 
 ### Common Pitfalls
 - Don't test implementation details (test behavior)

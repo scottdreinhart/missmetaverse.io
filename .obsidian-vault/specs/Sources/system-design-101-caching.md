@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-caching
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-caching-system]]
+Reference: [Guide: how-do-we-design-a-caching-system](https://bytebytego.com/guides/how-do-we-design-a-caching-system)
 
 This guide covers caching strategies, cache invalidation, and distributed caching.
 
@@ -177,13 +177,13 @@ export class RedisCache {
 
 Read these vault notes for deeper understanding:
 
-- [[caching-strategies]] — Caching patterns
+- [caching-strategies](D/caching-strategies.md) — Caching patterns
 - [[cache-invalidation]] — Cache invalidation strategies
-- [[redis-patterns]] — Redis usage patterns
+- [redis-patterns](D/redis-patterns.md) — Redis usage patterns
 - [[cdn-patterns]] — CDN patterns
-- [[performance-optimization]] — Performance optimization
+- [performance-optimization](D/performance-optimization.md) — Performance optimization
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-caching-system|caching-guide]]
+- [caching-guide](https://bytebytego.com/guides/how-do-we-design-a-caching-system)

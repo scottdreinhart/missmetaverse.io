@@ -1,96 +1,129 @@
----
-slug: system-design-101-index
-sources:
-  - https://github.com/donnemartin/system-design-cheat-sheet
-date: 2026-11-02
-tags:
-  - system-design
-  - index
-  - reference
----
-
-# System Design 101 - Complete Index
+# System Design 101 — Complete ByteByteGo Knowledge Base Index
 
 ## Overview
 
-This is the master index for all system-design-101 guides from ByteByteGo. Each guide includes citation slugs for verification.
+This is the master index for all ByteByteGo System Design 101 guides ingested into this vault. Each guide has been cataloged with citation slugs for verification against the original source material.
 
-## Guide Categories
+## Source
 
-### 1. API Styles
-- [[system-design-101-api-styles|Comparing API Architectural Styles]] — REST, GraphQL, gRPC, SOAP, RPC
+- **Original**: [ByteByteGo System Design 101](https://bytebytego.com/)
+- **Cheat Sheet**: [donnemartin/system-design-cheat-sheet](https://github.com/donnemartin/system-design-cheat-sheet)
+- **Citation Format**: `system-design-101/<category>/<guide-name>`
 
-### 2. Scalability
-- [[system-design-101-scalability|8 Must-Know Scalability Strategies]] — Horizontal/vertical scaling, caching, sharding
+---
 
-### 3. Microservices
-- [[system-design-101-microservices|9 Best Practices for Microservices]] — Service decomposition, communication, deployment
+## Category Index
 
-### 4. Database Design
-- [[system-design-101-database-design|How to Design a Database]] — SQL vs NoSQL, data modeling, sharding
+### 1. Security (22 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-security|Security — Complete Index]] | `system-design-101-security` |
 
-### 5. Caching
-- [[system-design-101-caching|Caching Strategies and Patterns]] — Cache invalidation, eviction policies, Redis
+### 2. Database & Storage (27 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-database-storage|Database & Storage — Complete Index]] | `system-design-101-database-storage` |
 
-### 6. Message Queue
-- [[system-design-101-message-queue|Message Queue and Event-Driven Architecture]] — RabbitMQ, Kafka, messaging patterns
+### 3. Caching & Performance (16 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-caching-performance|Caching & Performance — Complete Index]] | `system-design-101-caching-performance` |
 
-### 7. API Design
-- [[system-design-101-api-design|API Design Patterns and Best Practices]] — REST, GraphQL, gRPC, API gateway
+### 4. DevOps & CI/CD (17 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-devops-cicd|DevOps & CI/CD — Complete Index]] | `system-design-101-devops-cicd` |
 
-### 8. Load Balancing
-- [[system-design-101-load-balancing|Load Balancing Patterns and Strategies]] — Algorithms, implementations
+### 5. API & Web Development (24 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-api-web-development|API & Web Development — Complete Index]] | `system-design-101-api-web-development` |
 
-### 9. Monitoring
-- [[system-design-101-monitoring|Monitoring and Observability]] — Metrics, logs, traces
+### 6. Cloud & Distributed Systems (20 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-cloud-distributed-systems|Cloud & Distributed Systems — Complete Index]] | `system-design-101-cloud-distributed-systems` |
 
-### 10. Consistency
-- [[system-design-101-consistency|Consistency Models and Data Distribution]] — CAP theorem, consistency models
+### 7. Real-World Case Studies (19 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-real-world-case-studies|Real-World Case Studies — Complete Index]] | `system-design-101-real-world-case-studies` |
 
-### 11. Content Delivery
-- [[system-design-101-content-delivery|Content Delivery Network (CDN) Design]] — CDN architecture, caching
+### 8. Software Architecture (8 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-software-architecture|Software Architecture — Complete Index]] | `system-design-101-software-architecture` |
 
-### 12. Real-World Case Studies
-- [[system-design-101-real-world-case-studies|Real-World System Design Case Studies]] — URL shortener, social network, e-commerce
+### 9. Payment & Fintech (11 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-payment-fintech|Payment & Fintech — Complete Index]] | `system-design-101-payment-fintech` |
 
-### 13. DevOps and CI/CD
-- [[system-design-101-devops-cicd|DevOps and CI/CD Design]] — CI/CD pipelines, deployment strategies, IaC
+### 10. How It Works (13 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-how-it-works|How It Works — Complete Index]] | `system-design-101-how-it-works` |
 
-### 14. ML Systems
-- [[system-design-101-ml-systems|Machine Learning System Design]] — ML pipeline, feature store, model serving
+### 11. DevTools & Productivity (11 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-devtools-productivity|DevTools & Productivity — Complete Index]] | `system-design-101-devtools-productivity` |
 
-### 15. Additional Guides
-- [[system-design-101-permission-systems|Designing a Permission System]] — ACL, RBAC, ABAC
-- [[system-design-101-secure-systems|How to Design a Secure System]] — Security principles, layers
-- [[system-design-101-high-availability|How to Design for High Availability]] — Redundancy, failover, circuit breakers
-- [[system-design-101-search-engine|Search Engine Design]] — Inverted index, ranking algorithms
-- [[system-design-101-rate-limiting|Rate Limiting Design]] — Token bucket, sliding window
-- [[system-design-101-notification-system|Notification System Design]] — Multi-channel delivery
-- [[system-design-101-payment-system|Payment System Design]] — Transaction processing, fraud detection
-- [[system-design-101-chat-system|Chat System Design]] — WebSocket, real-time messaging
-- [[system-design-101-video-streaming|Video Streaming System Design]] — Transcoding, adaptive bitrate
-- [[system-design-101-data-warehousing|Data Warehousing and Analytics]] — ETL, data lake, BI
-- [[system-design-101-integration|System Integration Patterns]] — API gateway, service mesh
+### 12. Computer Fundamentals (8 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-computer-fundamentals|Computer Fundamentals — Complete Index]] | `system-design-101-computer-fundamentals` |
 
-## Total Guides: 26+
+### 13. Software Development (13 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-software-development|Software Development — Complete Index]] | `system-design-101-software-development` |
+
+### 14. AI & Machine Learning (4 guides)
+| Guide | Slug |
+|-------|------|
+| [[system-design-101-ai-machine-learning|AI & Machine Learning — Complete Index]] | `system-design-101-ai-machine-learning` |
+
+---
+
+## Summary
+
+| Category | Count |
+|----------|-------|
+| Security | 22 |
+| Database & Storage | 27 |
+| Caching & Performance | 16 |
+| DevOps & CI/CD | 17 |
+| API & Web Development | 24 |
+| Cloud & Distributed Systems | 20 |
+| Real-World Case Studies | 19 |
+| Software Architecture | 8 |
+| Payment & Fintech | 11 |
+| How It Works | 13 |
+| DevTools & Productivity | 11 |
+| Computer Fundamentals | 8 |
+| Software Development | 13 |
+| AI & Machine Learning | 4 |
+| **Total** | **~200+** |
+
+---
 
 ## How to Use
 
-Each guide includes:
-1. **Overview** — What the guide covers
-2. **Key Concepts** — Core principles and patterns
-3. **Comparison Tables** — When to use each approach
-4. **Implementation Examples** — Code examples
-5. **Integration with Vault** — Related notes in your vault
-6. **Sources** — Citation slugs for verification
+1. **Browse by category** — Start with the category index above
+2. **Check the slug** — Each guide has a unique citation slug
+3. **Verify against source** — Use the slug to find the original ByteByteGo guide
+4. **Cross-reference** — Each category note includes links to related vault notes
 
 ## Citation Format
 
 All guides use the citation format:
-- `[[Sources/system-design-101-index|system-design-101-index]]` — Master index reference
-- `[[system-design-101/guides/<guide-name>|guide-name]]` — Original ByteByteGo guide reference
+- `system-design-101/<category>/<guide-name>` — Citation slug for verification
+- Original source: https://bytebytego.com/
 
-## Sources
+## Status
 
-- https://github.com/donnemartin/system-design-cheat-sheet
-- https://bytebytego.com/
+- [x] All 14 categories cataloged
+- [x] ~200+ guides indexed with slugs
+- [x] Cross-references to vault notes created
+- [x] Source verification slugs added

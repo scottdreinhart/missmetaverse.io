@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-video-streaming
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-video-streaming-system]]
+Reference: [Guide: how-do-we-design-a-video-streaming-system](https://bytebytego.com/guides/how-do-we-design-a-video-streaming-system)
 
 This guide covers video streaming architecture, transcoding, and adaptive bitrate streaming.
 
@@ -146,4 +146,4 @@ Read these vault notes for deeper understanding:
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-video-streaming-system|video-streaming-guide]]
+- [video-streaming-guide](https://bytebytego.com/guides/how-do-we-design-a-video-streaming-system)

@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-rate-limiting
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-rate-limiting]]
+Reference: [Guide: how-do-we-design-rate-limiting](https://bytebytego.com/guides/how-do-we-design-rate-limiting)
 
 This guide covers rate limiting algorithms, implementations, and best practices.
 
@@ -111,11 +111,11 @@ export class RedisRateLimiter {
 
 Read these vault notes for deeper understanding:
 
-- [[rate-limiting]] — Rate limiting patterns
-- [[security-principles]] — Security best practices
+- [rate-limiting](D/rate-limiting.md) — Rate limiting patterns
+- [security-principles](D/security-principles.md) — Security best practices
 - [[dos-protection]] — DDoS protection
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-rate-limiting|rate-limiting-guide]]
+- [rate-limiting-guide](https://bytebytego.com/guides/how-do-we-design-rate-limiting)

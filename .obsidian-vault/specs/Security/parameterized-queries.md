@@ -1,4 +1,4 @@
----
+﻿---
 slug: parameterized-queries
 sources:
   - https://owasp.org/
@@ -407,10 +407,10 @@ describe('SQL Injection Prevention', () => {
 - **Code Review Agent**: Run when reviewing PRs with database changes
 
 ### Integration with Other Notes
-- read [[security-principles]] for security principles
-- read [[input-validation]] for input validation
+- read [security-principles](D/security-principles.md) for security principles
+- read [input-validation](D/input-validation.md) for input validation
 - read [[output-encoding]] for output encoding
-- read [[orm-patterns]] for ORM patterns
+- read [orm-patterns](D/orm-patterns.md) for ORM patterns
 - read [[event-sourcing]] for event sourcing patterns
 
 ### Common Pitfalls

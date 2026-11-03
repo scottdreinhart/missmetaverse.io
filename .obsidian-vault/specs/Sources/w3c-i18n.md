@@ -1,4 +1,4 @@
----
+﻿---
 slug: w3c-i18n
 title: W3C Internationalization (i18n) Resources
 description: W3C Internationalization activity — standards, guides, and best practices for building software that supports multiple languages, regions, and writing systems.

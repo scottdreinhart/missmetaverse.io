@@ -1,4 +1,14 @@
+﻿---
+slug: martin-clean-architecture-2017
+sources:
+  - https://martinfowler.com/
 ---
+
+---
+tags:
+  - clean-architecture
+  - architecture
+  - dependencies
 source_id: martin-clean-architecture-2017
 title: "The Clean Architecture"
 author: "Robert C. Martin (Uncle Bob)"

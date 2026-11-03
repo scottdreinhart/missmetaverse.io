@@ -1,4 +1,4 @@
----
+﻿---
 slug: wcag-21
 title: WCAG 2.1 — Web Content Accessibility Guidelines
 description: W3C Web Content Accessibility Guidelines 2.1 — the international standard for web accessibility covering perceivable, operable, understandable, and robust content.

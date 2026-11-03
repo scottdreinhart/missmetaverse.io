@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-secure-systems
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-secure-system]]
+Reference: [Guide: how-do-we-design-a-secure-system](https://bytebytego.com/guides/how-do-we-design-a-secure-system)
 
 This cheat sheet covers key design points for building secure systems.
 
@@ -154,16 +154,16 @@ This cheat sheet covers key design points for building secure systems.
 
 Read these vault notes for deeper understanding:
 
-- [[security-principles]] — Security design principles
-- [[secure-by-design]] — Secure by design patterns
-- [[secure-defaults]] — Secure defaults implementation
-- [[input-validation]] — Input validation patterns
-- [[output-encoding]] — Output encoding patterns
-- [[parameterized-queries]] — SQL injection prevention
-- [[content-security-policy]] — CSP headers
-- [[secrets-management]] — Secrets management
+- [security-principles](D/security-principles.md) — Security design principles
+- [secure-by-design](D/secure-by-design.md) — Secure by design patterns
+- [secure-defaults](D/secure-defaults.md) — Secure defaults implementation
+- [input-validation](D/input-validation.md) — Input validation patterns
+- [output-encoding](D/output-encoding.md) — Output encoding patterns
+- [parameterized-queries](D/parameterized-queries.md) — SQL injection prevention
+- [content-security-policy](D/content-security-policy.md) — CSP headers
+- [secrets-management](D/secrets-management.md) — Secrets management
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-secure-system|secure-system-guide]]
+- [secure-system-guide](https://bytebytego.com/guides/how-do-we-design-a-secure-system)

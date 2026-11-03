@@ -1,4 +1,4 @@
----
+﻿---
 slug: css3-performance-security
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -462,6 +462,6 @@ button:focus-visible {
 
 ## Cross-References
 
-- See [[tw-optimization-performance]] for Tailwind CSS performance patterns
-- See [[shadcn-best-practices]] for component-level CSS practices
-- See [[html5-best-practices]] for HTML5 integration with CSS
+- See [tw-optimization-performance](D/tw-optimization-performance.md) for Tailwind CSS performance patterns
+- See [shadcn-best-practices](D/shadcn-best-practices.md) for component-level CSS practices
+- See [html5-best-practices](D/html5-best-practices.md) for HTML5 integration with CSS

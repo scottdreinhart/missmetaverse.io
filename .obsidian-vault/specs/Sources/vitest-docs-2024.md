@@ -1,4 +1,14 @@
+﻿---
+slug: vitest-docs-2024
+sources:
+  - https://vitest.dev/
 ---
+
+---
+tags:
+  - vitest
+  - testing
+  - unit-testing
 source_id: vitest-docs-2024
 title: "Vitest Documentation"
 author: "Vitest team"

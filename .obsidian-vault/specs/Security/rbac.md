@@ -1,4 +1,4 @@
----
+﻿---
 slug: rbac
 sources:
   - https://owasp.org/
@@ -362,8 +362,8 @@ export class RoleAssignmentService {
 ### Integration with Other Notes
 - read [[abac]] for attribute-based access control
 - read [[separation-of-duties]] for role separation
-- read [[authorization]] for authorization patterns
-- read [[authentication]] for authentication integration
+- read [authorization](D/authorization.md) for authorization patterns
+- read [authentication](D/authentication.md) for authentication integration
 
 ### Common Pitfalls
 - Don't hardcode roles (use configuration)

@@ -1,4 +1,4 @@
----
+﻿---
 slug: playwright-patterns
 sources:
   - https://playwright.dev/
@@ -271,10 +271,10 @@ npx playwright show-report
 - **Code Review Agent**: Run when reviewing PRs with test changes
 
 ### Integration with Other Notes
-- Read [[vitest-testing]] for unit testing with Vitest
-- read [[testing-patterns]] for testing strategies
-- Read [[react-patterns]] for React component testing
-- Read [[ci-cd-patterns]] for CI/CD integration
+- Read [vitest-testing](D/vitest-testing.md) for unit testing with Vitest
+- read [testing-patterns](D/testing-patterns.md) for testing strategies
+- Read [react-patterns](D/react-patterns.md) for React component testing
+- Read [ci-cd-patterns](D/ci-cd-patterns.md) for CI/CD integration
 
 ### Common Pitfalls
 - Don't add explicit waits (use auto-waiting)

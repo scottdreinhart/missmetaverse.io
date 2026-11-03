@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-citation-guide
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -65,9 +65,9 @@ Example: Reading about database sharding in [[database-scaling]]
 Look up the concept in the System Design 101 index:
 
 ```markdown
-- [[system-design-101/guides/7-must-know-strategies-to-scale-your-database]]
-- [[system-design-101/guides/a-crash-course-in-database-sharding]]
-- [[system-design-101/guides/key-concepts-to-understand-database-sharding]]
+- [Guide: 7-must-know-strategies-to-scale-your-database](https://bytebytego.com/guides/7-must-know-strategies-to-scale-your-database)
+- [Guide: a-crash-course-in-database-sharding](https://bytebytego.com/guides/a-crash-course-in-database-sharding)
+- [Guide: key-concepts-to-understand-database-sharding](https://bytebytego.com/guides/key-concepts-to-understand-database-sharding)
 ```
 
 ### Step 3: Cross-Reference
@@ -76,7 +76,7 @@ Compare the vault note with the System Design 101 guide:
 
 ```markdown
 Vault Note: [[database-scaling]]
-System Design 101: [[system-design-101/guides/a-crash-course-in-database-sharding]]
+System Design 101: [Guide: a-crash-course-in-database-sharding](https://bytebytego.com/guides/a-crash-course-in-database-sharding)
 
 Check:
 - Are the sharding strategies the same?
@@ -92,7 +92,7 @@ Add the System Design 101 citation to the vault note:
 ## Sources
 
 - [[Sources/system-design-101|system-design-101]]
-- [[system-design-101/guides/a-crash-course-in-database-sharding|database-sharding-guide]]
+- [database-sharding-guide](https://bytebytego.com/guides/a-crash-course-in-database-sharding)
 ```
 
 ## Common Verification Scenarios
@@ -100,12 +100,12 @@ Add the System Design 101 citation to the vault note:
 ### Scenario 1: Verifying Caching Strategies
 
 ```markdown
-Vault Note: [[caching-strategies]]
+Vault Note: [caching-strategies](D/caching-strategies.md)
 
 System Design 101 References:
-- [[system-design-101/guides/top-5-caching-strategies]]
-- [[system-design-101/guides/cache-systems-every-developer-should-know]]
-- [[system-design-101/guides/things-to-consider-when-using-cache]]
+- [Guide: top-5-caching-strategies](https://bytebytego.com/guides/top-5-caching-strategies)
+- [Guide: cache-systems-every-developer-should-know](https://bytebytego.com/guides/cache-systems-every-developer-should-know)
+- [Guide: things-to-consider-when-using-cache](https://bytebytego.com/guides/things-to-consider-when-using-cache)
 
 Verification Checklist:
 - [ ] Are cache eviction strategies aligned?
@@ -119,9 +119,9 @@ Verification Checklist:
 Vault Note: [[microservices-architecture]]
 
 System Design 101 References:
-- [[system-design-101/guides/9-best-practices-for-building-microservices]]
-- [[system-design-101/guides/what-does-a-typical-microservice-architecture-look-like]]
-- [[system-design-101/guides/orchestration-vs-choreography-microservices]]
+- [Guide: 9-best-practices-for-building-microservices](https://bytebytego.com/guides/9-best-practices-for-building-microservices)
+- [Guide: what-does-a-typical-microservice-architecture-look-like](https://bytebytego.com/guides/what-does-a-typical-microservice-architecture-look-like)
+- [Guide: orchestration-vs-choreography-microservices](https://bytebytego.com/guides/orchestration-vs-choreography-microservices)
 
 Verification Checklist:
 - [ ] Are service boundaries defined consistently?
@@ -132,12 +132,12 @@ Verification Checklist:
 ### Scenario 3: Verifying Security Patterns
 
 ```markdown
-Vault Note: [[security-principles]]
+Vault Note: [security-principles](D/security-principles.md)
 
 System Design 101 References:
-- [[system-design-101/guides/top-12-tips-for-api-security]]
-- [[system-design-101/guides/a-cheatsheet-to-build-secure-apis]]
-- [[system-design-101/guides/cybersecurity-101-in-one-picture]]
+- [Guide: top-12-tips-for-api-security](https://bytebytego.com/guides/top-12-tips-for-api-security)
+- [Guide: a-cheatsheet-to-build-secure-apis](https://bytebytego.com/guides/a-cheatsheet-to-build-secure-apis)
+- [Guide: cybersecurity-101-in-one-picture](https://bytebytego.com/guides/cybersecurity-101-in-one-picture)
 
 Verification Checklist:
 - [ ] Are authentication methods aligned?
@@ -174,8 +174,8 @@ Verification Checklist:
 ## Sources
 
 - [[Sources/system-design-101|system-design-101]]
-- [[system-design-101/guides/7-must-know-strategies-to-scale-your-database|database-scaling-guide]]
-- [[system-design-101/guides/a-crash-course-in-database-sharding|sharding-guide]]
+- [database-scaling-guide](https://bytebytego.com/guides/7-must-know-strategies-to-scale-your-database)
+- [sharding-guide](https://bytebytego.com/guides/a-crash-course-in-database-sharding)
 ```
 
 ## Benefits of Using Citations
@@ -205,8 +205,8 @@ If a System Design 101 guide changes:
 ## Related Vault Notes
 
 - [[copilot-consumption-guide]] — How to use citations with Copilot
-- [[architecture-patterns]] — Architectural pattern verification
-- [[security-principles]] — Security principle verification
+- [architecture-patterns](D/architecture-patterns.md) — Architectural pattern verification
+- [security-principles](D/security-principles.md) — Security principle verification
 - [[scalability-strategies]] — Scalability pattern verification
 
 ## Sources

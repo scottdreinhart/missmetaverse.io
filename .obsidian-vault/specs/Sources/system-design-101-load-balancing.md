@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-load-balancing
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-a-load-balancer]]
+Reference: [Guide: how-do-we-design-a-load-balancer](https://bytebytego.com/guides/how-do-we-design-a-load-balancer)
 
 This guide covers load balancing algorithms, implementations, and best practices.
 
@@ -151,4 +151,4 @@ Read these vault notes for deeper understanding:
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-a-load-balancer|load-balancer-guide]]
+- [load-balancer-guide](https://bytebytego.com/guides/how-do-we-design-a-load-balancer)

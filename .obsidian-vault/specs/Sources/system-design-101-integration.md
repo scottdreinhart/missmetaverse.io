@@ -1,4 +1,4 @@
----
+﻿---
 slug: system-design-101-integration
 sources:
   - https://github.com/donnemartin/system-design-cheat-sheet
@@ -14,7 +14,7 @@ tags:
 
 ## Overview
 
-Reference: [[system-design-101/guides/how-do-we-design-system-integration]]
+Reference: [Guide: how-do-we-design-system-integration](https://bytebytego.com/guides/how-do-we-design-system-integration)
 
 This guide covers system integration patterns, API gateways, and service mesh.
 
@@ -112,11 +112,11 @@ interface User {
 
 Read these vault notes for deeper understanding:
 
-- [[api-gateway]] — API gateway patterns
-- [[service-mesh]] — Service mesh patterns
+- [api-gateway](D/api-gateway.md) — API gateway patterns
+- [service-mesh](D/service-mesh.md) — Service mesh patterns
 - [[integration-patterns]] — Integration patterns
 
 ## Sources
 
 - [[Sources/system-design-101-index|system-design-101-index]]
-- [[system-design-101/guides/how-do-we-design-system-integration|integration-guide]]
+- [integration-guide](https://bytebytego.com/guides/how-do-we-design-system-integration)

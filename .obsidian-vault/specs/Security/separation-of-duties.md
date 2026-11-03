@@ -1,4 +1,4 @@
----
+﻿---
 slug: separation-of-duties
 sources:
   - https://owasp.org/
@@ -380,9 +380,9 @@ export class DeployService {
 
 ### Integration with Other Notes
 - read [[rbac]] for role-based access control
-- read [[authorization]] for authorization patterns
+- read [authorization](D/authorization.md) for authorization patterns
 - read [[secure-by-design]] for security principles
-- read [[security-principles]] for security principles
+- read [security-principles](D/security-principles.md) for security principles
 
 ### Common Pitfalls
 - Don't allow self-approval (require different roles)

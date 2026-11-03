@@ -1,4 +1,4 @@
----
+﻿---
 slug: secrets-management
 sources:
   - https://owasp.org/
@@ -351,10 +351,10 @@ secrets/
 - **DevOps Agent**: Run when setting up CI/CD secrets
 
 ### Integration with Other Notes
-- read [[data-encryption]] for encryption at rest
+- read [data-encryption](D/data-encryption.md) for encryption at rest
 - read [[secure-defaults]] for secure configuration
 - read [[secure-by-design]] for security principles
-- read [[content-security-policy]] for web security
+- read [content-security-policy](D/content-security-policy.md) for web security
 
 ### Common Pitfalls
 - Don't commit .env.local (add to .gitignore)

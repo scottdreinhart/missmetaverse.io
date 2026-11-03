@@ -1,4 +1,4 @@
----
+﻿---
 slug: coding-practices
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
@@ -642,10 +642,10 @@ console.log(i18n.t('welcome', { name: 'John' }))  // "¡Bienvenido, John!"
 
 ## Integration with Other Notes
 
-- Read [[clean-architecture]] for clean architecture patterns
-- Read [[solid-principles]] for SOLID design principles
+- Read [clean-architecture](https://martinfowler.com/bliki/CleanArchitecture.html) for clean architecture patterns
+- Read [solid-principles](https://en.wikipedia.org/wiki/SOLID) for SOLID design principles
 - Read [[ddd-patterns]] for domain-driven design patterns
-- Read [[architecture-patterns]] for architecture patterns
-- Read [[ts-best-practices]] for TypeScript best practices
-- Read [[react-patterns]] for React patterns
-- Read [[typescript-strict-mode]] for TypeScript strict mode
+- Read [architecture-patterns](https://en.wikipedia.org/wiki/Software_architecture_pattern) for architecture patterns
+- Read [ts-best-practices](D/ts-best-practices.md) for TypeScript best practices
+- Read [react-patterns](D/react-patterns.md) for React patterns
+- Read [typescript-strict-mode](D/typescript-strict-mode.md) for TypeScript strict mode
