@@ -137,7 +137,7 @@ The project uses Timeout Pattern through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microsoft-distributed-systems.md|Microservices Patterns â€” Christensen]]
 
 **End of Timeout Pattern Note**

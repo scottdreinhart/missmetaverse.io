@@ -135,7 +135,7 @@ Modular Monolith does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture-architecture]] â€” Modular Monolith Architecture
+- [[d:\Projects\missmetaverse.io\.obsidian-vault\specs\Application Architecture\modular-monolith-architecture.md]] â€” Modular Monolith Architecture
 - [[Application Architecture/microservices-architecture]] â€” Microservices Architecture
 - [[Application Architecture/layered-architecture]] â€” Layered Architecture
 - [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
@@ -150,7 +150,7 @@ The project uses Modular Monolith Architecture through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microsoft-distributed-systems.md|Microservices Patterns â€” Christensen]]
 
 **End of Modular Monolith Architecture Note**

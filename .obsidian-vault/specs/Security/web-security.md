@@ -138,6 +138,6 @@ The project uses Web Security through:
 ## Sources
 
 - [[Security/web-security|Web Security Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Web Security Note**

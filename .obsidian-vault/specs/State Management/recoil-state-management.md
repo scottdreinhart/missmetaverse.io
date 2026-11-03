@@ -138,6 +138,6 @@ The project uses Recoil through:
 ## Sources
 
 - [[Sources/recoil-documentation|Recoil Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Recoil State Management Note**

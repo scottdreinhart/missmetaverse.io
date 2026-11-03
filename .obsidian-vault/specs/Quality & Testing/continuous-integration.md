@@ -135,7 +135,7 @@ The project uses GitHub Actions or similar CI, which supports CI through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler â€” Continuous Integration]]
-- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Continuous Integration]]
+- [[Sources/goF-1994.md|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Continuous Integration Note**

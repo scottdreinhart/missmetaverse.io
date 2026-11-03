@@ -138,6 +138,6 @@ The project uses API Versioning through:
 ## Sources
 
 - [[Sources/fielding-rest-2000|REST Architectural Style â€” Fielding 2000]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of API Versioning Note**

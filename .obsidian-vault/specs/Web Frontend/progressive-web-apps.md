@@ -138,6 +138,6 @@ The project uses Progressive Web Apps through:
 ## Sources
 
 - [[Sources/pwa-specification|PWA Specification]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Progressive Web Apps Note**

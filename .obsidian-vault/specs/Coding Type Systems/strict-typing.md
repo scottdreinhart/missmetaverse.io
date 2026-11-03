@@ -137,7 +137,7 @@ The project uses TypeScript with strict mode, which supports strict typing throu
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microsoft-typescript-handbook.md|Microsoft â€” TypeScript Documentation]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Strict Typing Note**

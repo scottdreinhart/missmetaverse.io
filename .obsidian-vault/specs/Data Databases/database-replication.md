@@ -125,7 +125,7 @@ Replication does not apply to:
 - [[Data Databases/database-replication]] â€” Database Replication
 - [[Data Databases/database-replication]] â€” High Availability
 - [[Data Databases/database-replication]] â€” Read Replicas
-- [[Data Databases/database-backup-recovery-recovery]] â€” Disaster Recovery
+- [[Data Databases/database-backup-recovery]] â€” Disaster Recovery
 
 ## Project Observations
 
@@ -138,6 +138,6 @@ The project uses Database Replication through:
 ## Sources
 
 - [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Replication Note**

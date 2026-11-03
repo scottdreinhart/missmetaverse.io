@@ -137,7 +137,7 @@ The project follows React project template through:
 
 ## Sources
 
-- [[Sources/react-documentation|Meta â€” React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/react-docs-2026.md|Meta â€” React Documentation]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Modern React Project Template Note**

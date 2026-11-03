@@ -123,7 +123,7 @@ Vertical Slice Architecture does not apply to:
 
 - [[Application Architecture/vertical-slice-architecture]] â€” Vertical Slice Architecture
 - [[Application Architecture/modular-monolith-architecture]] â€” Modular Monolith
-- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture-architecture]] â€” Feature-Based Architecture
+- [[d:\Projects\missmetaverse.io\.obsidian-vault\specs\Application Architecture\modular-monolith-architecture.md]] â€” Feature-Based Architecture
 - [[Application Architecture/cross-cutting-concerns]] â€” Cross-Cutting Concerns
 
 ## Project Observations
@@ -136,7 +136,7 @@ The project uses Vertical Slice Architecture through:
 
 ## Sources
 
-- [[Sources/bogard-vertical-slice|Vertical Slice Architecture by Scott Bogard]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/bogard-vertical-slice.md|Vertical Slice Architecture by Scott Bogard]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Vertical Slice Architecture Note**

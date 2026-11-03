@@ -137,7 +137,7 @@ The project uses Use Cases through:
 
 ## Sources
 
-- [[Sources/evans-ddd|Domain-Driven Design by Eric Evans]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/evans-ddd-2003.md|Domain-Driven Design by Eric Evans]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Use Case Note**

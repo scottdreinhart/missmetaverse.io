@@ -125,7 +125,7 @@ Bulkhead does not apply to:
 - [[APIs Distributed Systems/bulkhead-pattern]] â€” Bulkhead Pattern
 - [[APIs Distributed Systems/circuit-breaker-pattern]] â€” Circuit Breaker Pattern
 - [[APIs Distributed Systems/thread-pool-pattern]] â€” Thread Pool Pattern
-- [[Data Databases/database-connection-pooling-pooling]] â€” Connection Pool
+- [[Data Databases/database-connection-pooling]] â€” Connection Pool
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Bulkhead Pattern through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
-- [[Sources/microservices-patterns|Microservices Patterns â€” Christensen]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microsoft-distributed-systems.md|Microservices Patterns â€” Christensen]]
 
 **End of Bulkhead Pattern Note**

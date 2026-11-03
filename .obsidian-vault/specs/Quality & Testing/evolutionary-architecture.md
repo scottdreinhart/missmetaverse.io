@@ -135,7 +135,7 @@ The project follows evolutionary architecture through:
 
 ## Sources
 
-- [[Sources/martinfowler-bliki|Martin Fowler â€” Test Driven Development]]
-- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Test Driven Development]]
+- [[Sources/goF-1994.md|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of Evolutionary Architecture Note**

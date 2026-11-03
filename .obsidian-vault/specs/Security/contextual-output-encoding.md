@@ -137,7 +137,7 @@ The project uses Contextual Output Encoding through:
 
 ## Sources
 
-- [[Sources/owasp-top-10|OWASP Top 10]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/owasp-top-ten-2021.md|OWASP Top 10]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Contextual Output Encoding Note**

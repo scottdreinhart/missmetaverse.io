@@ -137,6 +137,6 @@ The project uses Prettier through:
 ## Sources
 
 - [[Sources/prettier-documentation|Prettier Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Prettier Configuration Note**

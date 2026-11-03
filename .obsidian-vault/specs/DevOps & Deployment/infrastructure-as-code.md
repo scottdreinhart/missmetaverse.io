@@ -137,7 +137,7 @@ The project uses Infrastructure as Code through:
 
 ## Sources
 
-- [[Sources/iac-best-practices|Infrastructure as Code Best Practices]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microsoft-distributed-systems.md|Infrastructure as Code Best Practices]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Infrastructure as Code Note**

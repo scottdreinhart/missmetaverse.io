@@ -138,6 +138,6 @@ The project uses Database Transactions through:
 ## Sources
 
 - [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Transactions Note**

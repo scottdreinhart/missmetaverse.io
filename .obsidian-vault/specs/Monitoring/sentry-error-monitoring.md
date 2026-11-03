@@ -138,6 +138,6 @@ The project uses Sentry through:
 ## Sources
 
 - [[Sources/sentry-documentation|Sentry Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Sentry Error Monitoring Note**

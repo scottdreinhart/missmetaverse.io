@@ -138,6 +138,6 @@ The project uses Supabase through:
 ## Sources
 
 - [[Sources/supabase-documentation|Supabase Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Supabase Backend Integration Note**

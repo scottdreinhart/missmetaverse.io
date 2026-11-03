@@ -135,7 +135,7 @@ The project uses Zod for schema validation, which supports parsing through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
+- [[Sources/microsoft-typescript-handbook.md|Microsoft â€” TypeScript Documentation]]
 - [[Sources/zod-documentation|Zod â€” TypeScript-first schema validation]]
 
 **End of Parse, Don't Merely Validate Note**

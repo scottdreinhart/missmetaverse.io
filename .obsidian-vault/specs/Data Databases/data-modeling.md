@@ -138,6 +138,6 @@ The project uses Data Modeling through:
 ## Sources
 
 - [[Data Databases/data-modeling|Data Modeling Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Data Modeling Note**

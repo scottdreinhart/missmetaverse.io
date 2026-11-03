@@ -138,6 +138,6 @@ The project uses Memory Management through:
 ## Sources
 
 - [[Coding Type Systems/memory-management|Memory Management Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Memory Management Note**

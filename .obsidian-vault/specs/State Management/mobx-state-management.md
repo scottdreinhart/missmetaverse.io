@@ -138,6 +138,6 @@ The project uses MobX through:
 ## Sources
 
 - [[Sources/mobx-documentation|MobX Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of MobX State Management Note**

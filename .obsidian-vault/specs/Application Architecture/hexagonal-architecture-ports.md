@@ -139,6 +139,6 @@ The project uses Hexagonal Architecture Ports through:
 ## Sources
 
 - [[Sources/hexagonal-architecture-perez|Hexagonal Architecture â€” Alberto Perez]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Hexagonal Architecture Ports Note**

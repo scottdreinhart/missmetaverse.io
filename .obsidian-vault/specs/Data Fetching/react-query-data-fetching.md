@@ -137,7 +137,7 @@ The project uses React Query through:
 
 ## Sources
 
-- [[Sources/react-query-documentation|React Query Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/react-docs-2026.md|React Query Documentation]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Query Data Fetching Note**

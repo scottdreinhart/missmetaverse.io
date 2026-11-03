@@ -138,6 +138,6 @@ The project uses Concurrency through:
 ## Sources
 
 - [[Coding Type Systems/concurrency|Concurrency Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Concurrency Note**

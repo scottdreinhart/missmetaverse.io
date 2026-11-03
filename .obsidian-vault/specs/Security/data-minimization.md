@@ -138,6 +138,6 @@ The project uses Data Minimization through:
 ## Sources
 
 - [[Sources/privacy-principles|Privacy Principles]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Data Minimization Note**

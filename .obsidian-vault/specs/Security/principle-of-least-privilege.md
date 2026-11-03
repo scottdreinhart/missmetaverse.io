@@ -135,7 +135,7 @@ The project uses TypeScript with authentication middleware, which supports least
 
 ## Sources
 
-- [[Sources/gdpr-eu|EU â€” General Data Protection Regulation]]
-- [[Sources/owasp-top-10|OWASP â€” Top 10 Web Application Security Risks]]
+- [[Sources/gdpr-eu.md|EU â€” General Data Protection Regulation]]
+- [[Sources/owasp-top-ten-2021.md|OWASP â€” Top 10 Web Application Security Risks]]
 
 **End of Principle of Least Privilege Note**

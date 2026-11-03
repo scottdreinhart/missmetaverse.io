@@ -138,6 +138,6 @@ The project uses Performance Optimization through:
 ## Sources
 
 - [[Sources/web-performance-guide|Web Performance Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Performance Optimization Note**

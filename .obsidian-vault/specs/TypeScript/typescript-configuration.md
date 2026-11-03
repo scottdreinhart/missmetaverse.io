@@ -137,7 +137,7 @@ The project uses TypeScript configuration through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|TypeScript Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microsoft-typescript-handbook.md|TypeScript Documentation]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of TypeScript Configuration Note**

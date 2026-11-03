@@ -138,6 +138,6 @@ The project uses Tiptap through:
 ## Sources
 
 - [[Sources/tiptap-documentation|Tiptap Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Tiptap Rich Text Editor Note**

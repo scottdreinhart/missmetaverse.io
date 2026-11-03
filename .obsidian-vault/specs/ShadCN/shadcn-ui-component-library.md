@@ -136,7 +136,7 @@ The project uses ShadCN UI through:
 
 ## Sources
 
-- [[Sources/shadcn-ui-documentation|ShadCN UI Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/radix-ui-docs-2024.md|ShadCN UI Documentation]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of ShadCN UI Component Library Note**

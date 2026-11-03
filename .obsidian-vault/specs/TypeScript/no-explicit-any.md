@@ -137,7 +137,7 @@ The project follows no explicit any through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
-- [[Sources/goF-1994|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
+- [[Sources/microsoft-typescript-handbook.md|Microsoft â€” TypeScript Documentation]]
+- [[Sources/goF-1994.md|GoF â€” Design Patterns: Elements of Reusable Object-Oriented Software]]
 
 **End of No Explicit Any Note**

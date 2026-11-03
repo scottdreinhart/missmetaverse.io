@@ -122,7 +122,7 @@ Clean Layers do not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/clean-architecture-layers-layers]] â€” Clean Architecture Layers
+- [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture Layers
 - [[Application Architecture/dependency-rule]] â€” Dependency Rule
 - [[Application Architecture/clean-architecture-layers]] â€” Entities Use Cases
 - [[Application Architecture/clean-architecture-layers]] â€” Interfaces Adapters
@@ -137,7 +137,7 @@ The project uses Clean Architecture Layers through:
 
 ## Sources
 
-- [[Sources/clean-architecture-martin|Clean Architecture â€” Robert Martin]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Clean Architecture â€” Robert Martin]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Clean Architecture Layers Note**

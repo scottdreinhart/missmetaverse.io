@@ -137,6 +137,6 @@ The project uses ESLint through:
 ## Sources
 
 - [[Sources/eslint-documentation|ESLint Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of ESLint Configuration Note**

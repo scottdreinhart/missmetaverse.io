@@ -138,6 +138,6 @@ The project uses DOMPurify through:
 ## Sources
 
 - [[Sources/dompurify-documentation|DOMPurify Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of DOMPurify Sanitization Note**

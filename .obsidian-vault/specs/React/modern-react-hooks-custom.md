@@ -137,7 +137,7 @@ The project uses custom React hooks through:
 
 ## Sources
 
-- [[Sources/react-documentation|React Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/react-docs-2026.md|React Documentation]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of React Modern React Custom Hooks Note**

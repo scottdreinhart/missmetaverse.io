@@ -137,7 +137,7 @@ The project uses CORS Configuration through:
 
 ## Sources
 
-- [[Sources/mdn-cors|MDN CORS Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/mdn-css-2024.md|MDN CORS Documentation]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of CORS Configuration Note**

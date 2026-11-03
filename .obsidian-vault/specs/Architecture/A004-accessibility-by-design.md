@@ -33,7 +33,7 @@ verified
 
 ## project_adoption
 recommended
-- [[Sources/wcag-21|wcag-21]]
+- [[Sources/wcag-21.md|wcag-21]]
 
 # Accessibility by Design
 

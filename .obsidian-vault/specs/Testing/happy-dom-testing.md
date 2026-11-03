@@ -138,6 +138,6 @@ The project uses Happy DOM through:
 ## Sources
 
 - [[Sources/happy-dom-documentation|Happy DOM Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Happy DOM Testing Note**

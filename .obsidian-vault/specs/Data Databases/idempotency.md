@@ -137,7 +137,7 @@ The project uses Idempotency through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
-- [[Sources/distributed-systems|Distributed Systems Principles]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/microsoft-distributed-systems.md|Distributed Systems Principles]]
 
 **End of Idempotency Note**

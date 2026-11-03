@@ -137,7 +137,7 @@ The project uses Layered Architecture through:
 
 ## Sources
 
-- [[Sources/martinfowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 - [[Sources/enterprise-architecture|Enterprise Architecture â€” TOGAF]]
 
 **End of Layered Architecture Note**

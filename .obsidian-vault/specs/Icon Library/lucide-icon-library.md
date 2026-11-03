@@ -138,6 +138,6 @@ The project uses Lucide through:
 ## Sources
 
 - [[Sources/lucide-documentation|Lucide Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Lucide Icon Library Note**

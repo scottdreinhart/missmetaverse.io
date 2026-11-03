@@ -137,7 +137,7 @@ The project follows internationalization by design through:
 
 ## Sources
 
-- [[Sources/typescript-documentation|Microsoft â€” TypeScript Documentation]]
-- [[Sources/mdn-web-documentation|MDN Web Documentation]]
+- [[Sources/microsoft-typescript-handbook.md|Microsoft â€” TypeScript Documentation]]
+- [[Sources/mdn-css-2024.md|MDN Web Documentation]]
 
 **End of Internationalization by Design Note**

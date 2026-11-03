@@ -122,7 +122,7 @@ Connection Pooling does not apply to:
 
 ## Related Concepts
 
-- [[Data Databases/database-connection-pooling-pooling]] â€” Connection Pooling
+- [[Data Databases/database-connection-pooling]] â€” Connection Pooling
 - [[Data Databases/database-connection-pooling]] â€” Database Connection
 - [[Data Databases/database-connection-pooling]] â€” Resource Pooling
 - [[Data Databases/database-connection-pooling]] â€” Connection Management
@@ -138,6 +138,6 @@ The project uses Database Connection Pooling through:
 ## Sources
 
 - [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Connection Pooling Note**

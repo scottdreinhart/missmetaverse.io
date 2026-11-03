@@ -138,6 +138,6 @@ The project uses SEO Fundamentals through:
 ## Sources
 
 - [[Web Frontend/seo-fundamentals|SEO Fundamentals Guide]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of SEO Fundamentals Note**

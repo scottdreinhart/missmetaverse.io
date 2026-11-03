@@ -137,7 +137,7 @@ The project uses Facade Pattern through:
 
 ## Sources
 
-- [[Sources/gof-design-patterns|GoF Design Patterns]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/goF-1994.md|GoF Design Patterns]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Facade Pattern Note**

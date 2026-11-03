@@ -122,7 +122,7 @@ Functional Core, Imperative Shell does not apply to:
 
 ## Related Concepts
 
-- [[Application Architecture/functional-core-shell-shell]] â€” Functional Core, Imperative Shell
+- [[Application Architecture/functional-core-shell]] â€” Functional Core, Imperative Shell
 - [[Application Architecture/functional-core-shell]] â€” Functional Core
 - [[Application Architecture/functional-core-shell]] â€” Imperative Shell
 - [[Application Architecture/functional-core-shell]] â€” FCS Pattern
@@ -137,7 +137,7 @@ The project uses Functional Core, Imperative Shell through:
 
 ## Sources
 
-- [[Sources/fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Functional Core, Imperative Shell Note**

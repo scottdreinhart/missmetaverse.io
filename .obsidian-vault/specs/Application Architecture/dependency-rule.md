@@ -123,7 +123,7 @@ Dependency Rule does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/dependency-rule]] â€” Dependency Rule
-- [[Application Architecture/clean-architecture-layers-layers]] â€” Clean Architecture Layers
+- [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture Layers
 - [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion
 - [[Coding Type Systems/dependency-hygiene]] â€” Dependency Hygiene
 
@@ -137,7 +137,7 @@ The project enforces Dependency Rule through:
 
 ## Sources
 
-- [[Sources/clean-architecture-martin|Clean Architecture â€” Robert Martin]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Clean Architecture â€” Robert Martin]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Dependency Rule Note**

@@ -138,6 +138,6 @@ The project uses OAuth 2.0 through:
 ## Sources
 
 - [[Sources/oauth2-rfc6749|OAuth 2.0 Authorization Framework â€” RFC 6749]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of OAuth 2.0 Authentication Note**

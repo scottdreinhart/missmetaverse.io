@@ -138,6 +138,6 @@ The project uses otplib through:
 ## Sources
 
 - [[Sources/otplib-documentation|otplib Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of otplib TOTP Library Note**

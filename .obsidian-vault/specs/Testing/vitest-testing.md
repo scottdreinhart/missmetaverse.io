@@ -136,7 +136,7 @@ The project uses Vitest through:
 
 ## Sources
 
-- [[Sources/vitest-documentation|Vitest Documentation]]
-- [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
+- [[Sources/vitest-docs-2024.md|Vitest Documentation]]
+- [[Sources/martinfowler-bliki.md|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Vitest Testing Note**
