@@ -1,4 +1,5 @@
-﻿---
+---
+slug: opentelemetry
 source_id: opentelemetry
 title: "OpenTelemetry Documentation"
 author: "CNCF OpenTelemetry"

@@ -1,4 +1,5 @@
-﻿---
+---
+slug: wikipedia
 source_id: wikipedia
 title: "Wikipedia — Software Engineering"
 author: "Wikipedia Contributors"

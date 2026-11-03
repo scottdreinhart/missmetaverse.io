@@ -1,4 +1,5 @@
-﻿---
+---
+slug: seemann-dd
 source_id: seemann-dd
 title: "Dependency Injection in .NET"
 author: "Mark Seemann"

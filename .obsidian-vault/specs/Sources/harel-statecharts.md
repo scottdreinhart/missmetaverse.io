@@ -1,4 +1,5 @@
-﻿---
+---
+slug: harel-statecharts
 source_id: harel-statecharts
 title: "Statecharts: A Visual Formalism for Complex Systems"
 author: "David Harel"

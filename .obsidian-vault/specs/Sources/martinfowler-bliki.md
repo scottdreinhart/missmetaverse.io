@@ -1,4 +1,5 @@
-﻿---
+---
+slug: martinfowler-bliki
 source_id: martinfowler-bliki
 title: "Martin Fowler's Bliki"
 author: "Martin Fowler"
