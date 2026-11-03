@@ -137,7 +137,7 @@ The project uses Secrets Management through:
 
 ## Sources
 
-- [[Sources/secrets-management-guide|Secrets Management Guide]]
+- [[Security/secrets-management|Secrets Management Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Secrets Management Note**

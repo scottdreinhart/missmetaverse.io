@@ -123,7 +123,7 @@ Microservices does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/microservices-architecture]] â€” Microservices Architecture
-- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture]] â€” Modular Monolith
+- [[Application Architecture/modular-monolith-architecture]] â€” Modular Monolith
 - [[APIs Distributed Systems/service-mesh]] â€” Service Mesh
 - [[APIs Distributed Systems/api-gateway-pattern]] â€” API Gateway
 

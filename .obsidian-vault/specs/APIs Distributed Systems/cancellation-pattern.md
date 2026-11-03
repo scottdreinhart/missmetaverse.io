@@ -122,7 +122,7 @@ Cancellation does not apply to:
 
 ## Related Concepts
 
-- [[APIs Distributed Systems/cancellation-pattern-pattern]] â€” Cancellation Pattern
+- [[APIs Distributed Systems/cancellation-pattern]] â€” Cancellation Pattern
 - [[APIs Distributed Systems/timeout-pattern]] â€” Timeout Pattern
 - [[APIs Distributed Systems/retry-backoff-jitter]] â€” Retry Pattern
 - [[APIs Distributed Systems/async-programming]] â€” Async Programming

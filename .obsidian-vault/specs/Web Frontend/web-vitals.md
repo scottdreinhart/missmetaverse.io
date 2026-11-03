@@ -143,7 +143,7 @@ The project uses Web Vitals through:
 
 ## Sources
 
-- [[Sources/web-vitals-specification|Web Vitals Specification]]
+- [[Web Frontend/web-vitals|Web Vitals Specification]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Web Vitals Note**

@@ -137,7 +137,7 @@ The project uses Rate Limiting through:
 
 ## Sources
 
-- [[Sources/rate-limiting-guide|Rate Limiting Guide]]
+- [[APIs Distributed Systems/rate-limiting|Rate Limiting Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Rate Limiting Note**

@@ -137,7 +137,7 @@ The project uses Distributed Tracing through:
 
 ## Sources
 
-- [[Sources/distributed-tracing-guide|Distributed Tracing Guide]]
+- [[Monitoring/distributed-tracing|Distributed Tracing Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Distributed Tracing Note**

@@ -137,7 +137,7 @@ The project uses Error Handling through:
 
 ## Sources
 
-- [[Sources/error-handling-guide|Error Handling Guide]]
+- [[Coding Type Systems/error-handling|Error Handling Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Error Handling Note**

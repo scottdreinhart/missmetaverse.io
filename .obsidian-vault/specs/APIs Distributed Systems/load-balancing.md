@@ -137,7 +137,7 @@ The project uses Load Balancing through:
 
 ## Sources
 
-- [[Sources/load-balancing-guide|Load Balancing Guide]]
+- [[APIs Distributed Systems/load-balancing|Load Balancing Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Load Balancing Note**

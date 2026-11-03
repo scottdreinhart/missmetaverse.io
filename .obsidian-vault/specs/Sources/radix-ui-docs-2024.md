@@ -46,7 +46,7 @@ source
 referenced
 
 ## project_adoption
-referenced- [[APIs Distributed Systems/api-gateway-pattern-pattern]]
+referenced- [[APIs Distributed Systems/api-gateway-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
 - [[bogard-vertical-slice]]
 - [[Documentation]]

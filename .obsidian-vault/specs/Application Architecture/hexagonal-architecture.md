@@ -137,7 +137,7 @@ The project uses Hexagonal Architecture through:
 
 ## Sources
 
-- [[Sources/hexagonal-architecture-guide|Hexagonal Architecture Guide]]
+- [[Application Architecture/hexagonal-architecture|Hexagonal Architecture Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Hexagonal Architecture Note**

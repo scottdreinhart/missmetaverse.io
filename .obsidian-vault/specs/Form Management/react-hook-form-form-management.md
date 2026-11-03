@@ -122,7 +122,7 @@ React Hook Form does not apply to:
 
 ## Related Concepts
 
-- [[React Hook Form/react-hook-form-form-management]] â€” React Hook Form Form Management
+- [[Form Management/react-hook-form-form-management]] â€” React Hook Form Form Management
 - [[React Hook Form/react-hook-form-validation]] â€” React Hook Form Validation
 - [[React Hook Form/react-hook-form-state]] â€” React Hook Form State
 - [[React Hook Form/react-hook-form-configuration]] â€” React Hook Form Configuration

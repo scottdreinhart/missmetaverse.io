@@ -125,7 +125,7 @@ Layered Architecture does not apply to:
 - [[Application Architecture/layered-architecture]] â€” Layered Architecture
 - [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture
 - [[Application Architecture/clean-architecture-layers]] â€” Clean Architecture
-- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture]] â€” Modular Monolith
+- [[Application Architecture/modular-monolith-architecture]] â€” Modular Monolith
 
 ## Project Observations
 

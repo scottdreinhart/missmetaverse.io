@@ -137,7 +137,7 @@ The project uses Responsive Design through:
 
 ## Sources
 
-- [[Sources/responsive-design-guide|Responsive Design Guide]]
+- [[Web Frontend/responsive-design|Responsive Design Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Responsive Design Note**

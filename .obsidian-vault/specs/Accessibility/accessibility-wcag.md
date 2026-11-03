@@ -137,7 +137,7 @@ The project uses Accessibility WCAG through:
 
 ## Sources
 
-- [[Sources/wcag-21-specification|WCAG 2.1 Specification]]
+- [[Sources/wcag-21|WCAG 2.1 Specification]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Accessibility WCAG Note**

@@ -137,7 +137,7 @@ The project uses Logging through:
 
 ## Sources
 
-- [[Sources/logging-guide|Logging Guide]]
+- [[Monitoring/logging|Logging Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Logging Note**

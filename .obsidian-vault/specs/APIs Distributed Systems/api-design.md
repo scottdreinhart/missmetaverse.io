@@ -137,7 +137,7 @@ The project uses API Design through:
 
 ## Sources
 
-- [[Sources/api-design-guide|API Design Guide]]
+- [[APIs Distributed Systems/api-design|API Design Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of API Design Note**

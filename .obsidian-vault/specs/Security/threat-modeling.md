@@ -137,7 +137,7 @@ The project uses Threat Modeling through:
 
 ## Sources
 
-- [[Sources/threat-modeling-guide|Threat Modeling Guide]]
+- [[Security/threat-modeling|Threat Modeling Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Threat Modeling Note**

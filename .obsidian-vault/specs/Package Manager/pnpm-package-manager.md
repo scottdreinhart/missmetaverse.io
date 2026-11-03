@@ -122,7 +122,7 @@ pnpm does not apply to:
 
 ## Related Concepts
 
-- [[Package Manager/Package Manager/pnpm-package-manager]] â€” pnpm Best Practices
+- [[Package Manager/pnpm-package-manager]] â€” pnpm Best Practices
 - [[Package Manager/pnpm-package-manager]] â€” pnpm Workspace
 - [[Package Manager/pnpm-package-manager]] â€” npm Package Manager
 - [[Package Manager/pnpm-package-manager]] â€” yarn Package Manager

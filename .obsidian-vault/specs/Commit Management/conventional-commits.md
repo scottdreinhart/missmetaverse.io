@@ -136,7 +136,7 @@ The project uses Conventional Commits through:
 
 ## Sources
 
-- [[Sources/conventional-commits-specification|Conventional Commits Specification]]
+- [[Commit Management/conventional-commits|Conventional Commits Specification]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Conventional Commits Note**

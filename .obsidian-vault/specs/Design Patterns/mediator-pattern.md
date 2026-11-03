@@ -124,7 +124,7 @@ Mediator does not apply to:
 
 - [[Design Patterns/mediator-pattern]] â€” Mediator Pattern
 - [[Design Patterns/observer-pattern]] â€” Event Emitter
-- [[Design Patterns/message-queue-pattern]] â€” Pub-Sub Pattern
+- [[APIs Distributed Systems/message-queue-pattern]] â€” Pub-Sub Pattern
 - [[Design Patterns/command-pattern]] â€” Command Pattern
 
 ## Project Observations

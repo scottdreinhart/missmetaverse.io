@@ -122,7 +122,7 @@ Vertical Slice Architecture does not apply to:
 ## Related Concepts
 
 - [[Application Architecture/vertical-slice-architecture]] â€” Vertical Slice Architecture
-- [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture]] â€” Modular Monolith
+- [[Application Architecture/modular-monolith-architecture]] â€” Modular Monolith
 - [[Application Architecture/Application Architecture/modular-monolith-architecture-architecture-architecture]] â€” Feature-Based Architecture
 - [[Application Architecture/cross-cutting-concerns]] â€” Cross-Cutting Concerns
 

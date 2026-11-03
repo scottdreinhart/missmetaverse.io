@@ -137,7 +137,7 @@ The project uses Event Sourcing through:
 
 ## Sources
 
-- [[Sources/event-sourcing-guide|Event Sourcing Guide]]
+- [[Data Databases/event-sourcing|Event Sourcing Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Event Sourcing Note**

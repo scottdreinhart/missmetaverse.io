@@ -137,7 +137,7 @@ The project uses CSS Architecture through:
 
 ## Sources
 
-- [[Sources/css-architecture-guide|CSS Architecture Guide]]
+- [[Web Frontend/css-architecture|CSS Architecture Guide]]
 - [[Sources/martin-fowler-patterns|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of CSS Architecture Note**

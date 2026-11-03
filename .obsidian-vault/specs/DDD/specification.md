@@ -123,7 +123,7 @@ Specification does not apply to:
 ## Related Concepts
 
 - [[DDD/specification]] â€” Specification
-- [[DDD/specification-pattern]] â€” Specification Pattern
+- [[Design Patterns/specification-pattern]] â€” Specification Pattern
 - [[DDD/domain-invariant]] â€” Business Rule
 - [[DDD/domain-invariant]] â€” Validation Rule
 
