@@ -385,3 +385,220 @@ useEffect(() => {
 - See [[vitest-testing]] for testing React components
 - See [[playwright-patterns]] for end-to-end testing
 
+---
+
+## Decision Tree: React Performance Optimization
+
+```mermaid
+graph TD
+    A[Need to optimize React?]\n    A --> B{What type?}
+    B -->|Re-renders| C[React.memo/useMemo]
+    B -->|Large Lists| D[Virtualization]
+    B -->|Code Split| E[React.lazy/Suspense]
+    B -->|State| F[State Colocation]
+    C --> G{Expensive calc?}
+    G -->|Yes| H[useMemo]
+    G -->|No| I[Plain render]
+    D --> J{100+ items?}
+    J -->|Yes| K[react-window]
+    J -->|No| L[Plain list]
+    E --> M{Route or Component?}
+    M -->|Route| N[React Router lazy]
+    M -->|Component| O[React.lazy]
+```
+
+### When to Use Each Performance Pattern
+
+| Pattern | When to Use | Example |
+|---------|-------------|---------|
+| **React.memo** | Prevent re-renders | List items, buttons |
+| **useMemo** | Expensive calculations | Filtered lists, sort |
+| **useCallback** | Function references | Event handlers, props |
+| **Virtualization** | Large lists (100+) | Tables, feeds |
+| **Code Splitting** | Large bundles | Routes, modals |
+| **State Colocation** | Unnecessary prop drilling | Local state |
+
+---
+
+## Procedural Guidance: React Performance Optimization
+
+### Step 1: Add React.memo
+
+```tsx
+// src/components/TodoItem.tsx
+import { memo } from 'react'
+
+interface TodoItemProps {
+  todo: { id: string; text: string; completed: boolean }
+  onToggle: (id: string) => void
+}
+
+// Memoize to prevent re-renders when parent re-renders
+export const TodoItem = memo(function TodoItem({ todo, onToggle }: TodoItemProps) {
+  return (
+    <li onClick={() => onToggle(todo.id)}>
+      <input type="checkbox" checked={todo.completed} readOnly />
+      <span>{todo.text}</span>
+    </li>
+  )
+})
+```
+
+### Step 2: Add useMemo
+
+```tsx
+// src/components/TodoList.tsx
+import { useMemo } from 'react'
+
+interface TodoListProps {
+  todos: { id: string; text: string; completed: boolean }[]
+  filter: 'all' | 'active' | 'completed'
+}
+
+export function TodoList({ todos, filter }: TodoListProps) {
+  // Memoize filtered list
+  const filteredTodos = useMemo(() => {
+    console.log('Filtering todos...')
+    if (filter === 'all') return todos
+    if (filter === 'active') return todos.filter(t => !t.completed)
+    return todos.filter(t => t.completed)
+  }, [todos, filter])
+
+  return (
+    <ul>
+      {filteredTodos.map(todo => (
+        <TodoItem key={todo.id} todo={todo} onToggle={() => {}} />
+      ))}
+    </ul>
+  )
+}
+```
+
+### Step 3: Add useCallback
+
+```tsx
+// src/components/TodoList.tsx
+import { useMemo, useCallback } from 'react'
+
+export function TodoList({ todos, filter }: TodoListProps) {
+  const filteredTodos = useMemo(() => {
+    // ... filtering logic
+  }, [todos, filter])
+
+  // Memoize function reference
+  const handleToggle = useCallback((id: string) => {
+    console.log('Toggling todo:', id)
+    // Toggle logic
+  }, [])
+
+  return (
+    <ul>
+      {filteredTodos.map(todo => (
+        <TodoItem key={todo.id} todo={todo} onToggle={handleToggle} />
+      ))}
+    </ul>
+  )
+}
+```
+
+### Step 4: Add Virtualization
+
+```tsx
+// src/components/VirtualizedList.tsx
+import { FixedSizeList } from 'react-window'
+
+interface VirtualizedListProps {
+  items: { id: string; text: string }[]
+  height: number
+}
+
+export function VirtualizedList({ items, height }: VirtualizedListProps) {
+  const Row = ({ index, style }: { index: number; style: React.CSSProperties }) => (
+    <div style={style}>
+      {items[index].text}
+    </div>
+  )
+
+  return (
+    <FixedSizeList
+      height={height}
+      width="100%"
+      itemCount={items.length}
+      itemSize={50}
+    >
+      {Row}
+    </FixedSizeList>
+  )
+}
+```
+
+### Step 5: Add Code Splitting
+
+```tsx
+// src/App.tsx
+import { lazy, Suspense } from 'react'
+
+const Dashboard = lazy(() => import('./pages/Dashboard'))
+const Settings = lazy(() => import('./pages/Settings'))
+
+export function App() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <Dashboard />
+      <Settings />
+    </Suspense>
+  )
+}
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Optimizing React performance
+- Preventing unnecessary re-renders
+- Implementing code splitting
+- Virtualizing large lists
+- Adding security best practices
+
+### What to Do With This Information
+1. **Use React.memo**: Memoize components to prevent unnecessary re-renders
+2. **Use useMemo**: Cache expensive calculations
+3. **Use useCallback**: Memoize function references
+4. **Virtualize lists**: Use react-window for large lists (100+ items)
+5. **Code split**: Use React.lazy for route/component splitting
+
+### Tools to Use
+- **VS Code Extension**: React Developer Tools — for performance profiling
+- **VS Code Extension**: Error Lens — for inline error display
+- **npm Package**: `react-window` — for virtualized lists
+- **npm Package**: `react-virtualized` — alternative for virtualization
+- **Terminal Command**: `pnpm test` — run tests after optimization
+- **Terminal Command**: `pnpm build --mode production` — build for production
+
+### Agents to Invoke
+- **Performance Review Agent**: Run when optimizing React performance
+- **Security Review Agent**: Run when adding security best practices
+
+### Integration with Other Notes
+- Read [[react-patterns]] for React component patterns
+- read [[vitest-testing]] for testing React components
+- Read [[vite-optimization]] for build optimization
+- Read [[playwright-patterns]] for E2E testing
+
+### Common Pitfalls
+- Don't over-optimize (measure before optimizing)
+- Don't use React.memo for everything (only when parent re-renders often)
+- Don't forget dependency arrays (use all referenced variables)
+- Don't virtualize small lists (only 100+ items)
+- Don't skip Suspense fallback (always show loading state)
+
+### Quick Validation Checklist
+- [ ] Are components memoized where needed?
+- [ ] Are expensive calculations cached with useMemo?
+- [ ] Are function references memoized with useCallback?
+- [ ] Are large lists virtualized?
+- [ ] Is code splitting implemented?
+- [ ] Is performance measured before/after optimization?
+

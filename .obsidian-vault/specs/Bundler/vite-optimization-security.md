@@ -529,3 +529,195 @@ export default defineConfig({
 - See [[pnpm-best-practices]] for package management
 - See [[vitest-testing]] for testing setup
 - See [[tw-optimization-performance]] for Tailwind CSS integration
+
+---
+
+## Decision Tree: Vite Build Optimization
+
+```mermaid
+graph TD
+    A[Need to optimize Vite build?]\n    A --> B{What type?}
+    B -->|Bundle Size| C[Manual Chunks]
+    B -->|Load Time| D[Preload/Prefetch]
+    B -->|Build Speed| E[OptimizeDeps]
+    B -->|Security| F[CSP Headers]
+    C --> G{Common libs?}
+    G -->|Yes| H[Split vendor]
+    G -->|No| I[Single bundle]
+    D --> J{Critical CSS?}
+    J -->|Yes| K[Preload critical]
+    J -->|No| L[Normal load]
+```
+
+### When to Use Each Vite Optimization
+
+| Pattern | When to Use | Example |
+|---------|-------------|---------|
+| **Manual Chunks** | Large bundles | Split vendor, UI libs |
+| **Preload** | Critical resources | Fonts, hero images |
+| **OptimizeDeps** | Slow dev start | Pre-bundle dependencies |
+| **Gzip/Brotli** | Production deploy | Compress assets |
+| **Tree Shaking** | Remove unused code | ES modules only |
+
+---
+
+## Procedural Guidance: Vite Optimization Setup
+
+### Step 1: Configure Manual Chunks
+
+```typescript
+// vite.config.ts
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          // Split vendor bundle
+          vendor: ['react', 'react-dom'],
+          // Split UI library
+          ui: ['@radix-ui/react-dropdown-menu', '@radix-ui/react-dialog'],
+          // Split charts
+          charts: ['recharts'],
+        },
+      },
+    },
+  },
+})
+```
+
+### Step 2: Add Preload Directives
+
+```typescript
+// vite.config.ts
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      output: {
+        // Add preload directives for critical chunks
+        inlineDynamicImports: false,
+      },
+    },
+  },
+})
+```
+
+```html
+<!-- index.html -->
+<head>
+  <!-- Preload critical resources -->
+  <link rel="preload" href="/fonts/main.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/css/critical.css" as="style">
+  <link rel="prefetch" href="/js/non-critical.js" as="script">
+</head>
+```
+
+### Step 3: Configure OptimizeDeps
+
+```typescript
+export default defineConfig({
+  optimizeDeps: {
+    // Pre-bundle slow dependencies
+    include: ['lodash-es', 'date-fns'],
+    // Exclude already bundled packages
+    exclude: ['my-local-package'],
+    // Force dep pre-bundling
+    force: true, // Only in development when needed
+  },
+})
+```
+
+### Step 4: Enable Compression
+
+```typescript
+import compression from 'vite-plugin-compression'
+
+export default defineConfig({
+  plugins: [
+    react(),
+    // Enable gzip compression
+    compression({ algorithm: 'gzip' }),
+    // Enable brotli compression (smaller than gzip)
+    compression({ algorithm: 'brotliCompress', ext: '.br' }),
+  ],
+})
+```
+
+### Step 5: Production Build
+
+```bash
+# Build for production
+pnpm build
+
+# Preview production build
+pnpm preview
+
+# Build with specific mode
+pnpm build --mode production
+
+# Analyze bundle size
+pnpm add -D rollup-plugin-visualizer
+# Add to vite.config.ts
+import { visualizer } from 'rollup-plugin-visualizer'
+
+export default defineConfig({
+  plugins: [
+    react(),
+    visualizer({ open: true, gzipSize: true }),
+  ],
+})
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Optimizing Vite build size
+- Configuring manual chunks
+- Adding preload directives
+- Enabling compression
+- Securing Vite builds
+
+### What to Do With This Information
+1. **Split bundles**: Use manualChunks to split vendor, UI, and chart bundles
+2. **Preload critical**: Add preload directives for fonts, critical CSS
+3. **Optimize deps**: Pre-bundle slow dependencies for faster dev start
+4. **Enable compression**: Use gzip/brotli for smaller production assets
+5. **Analyze bundle**: Use rollup-plugin-visualizer to analyze bundle size
+
+### Tools to Use
+- **VS Code Extension**: Error Lens — for inline Vite error display
+- **npm Package**: `vite-plugin-compression` — for gzip/brotli compression
+- **npm Package**: `rollup-plugin-visualizer` — for bundle analysis
+- **Terminal Command**: `pnpm build` — build for production
+- **Terminal Command**: `pnpm preview` — preview production build
+- **Terminal Command**: `pnpm add -D rollup-plugin-visualizer` — install bundle analyzer
+
+### Agents to Invoke
+- **Performance Review Agent**: Run when optimizing Vite builds
+- **Security Review Agent**: Run when configuring CSP headers
+
+### Integration with Other Notes
+- Read [[vite-configuration]] for Vite configuration patterns
+- read [[react-performance-security]] for React optimization
+- Read [[pnpm-best-practices]] for package management
+- Read [[docker-deployment]] for Docker deployment
+
+### Common Pitfalls
+- Don't over-split bundles (too many chunks hurt performance)
+- Don't preload everything (only critical resources)
+- Don't forget to test production builds locally
+- Don't ignore bundle size (analyze regularly)
+- Don't hardcode secrets in VITE_ env vars
+
+### Quick Validation Checklist
+- [ ] Are bundles split by concern?
+- [ ] Are critical resources preloaded?
+- [ ] Is compression enabled?
+- [ ] Is bundle size analyzed?
+- [ ] Are production builds tested?
+- [ ] Are secrets excluded from VITE_ vars?

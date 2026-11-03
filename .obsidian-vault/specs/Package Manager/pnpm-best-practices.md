@@ -475,3 +475,194 @@ interface ImportMeta {
 - See [[vite-optimization-security]] for Vite build optimization
 - See [[vitest-testing]] for Vitest testing setup
 - See [[react-performance-security]] for React integration
+
+---
+
+## Decision Tree: pnpm Workspace Setup
+
+```mermaid
+graph TD
+    A[Need package management?]\n    A --> B{Single or Multi?}
+    B -->|Single| C[Single package.json]
+    B -->|Multi| D[pnpm workspace]
+    C --> E{Need dev deps?}
+    E -->|Yes| F[devDependencies]
+    E -->|No| G[dependencies only]
+    D --> H{Shared packages?}
+    H -->|Yes| I[Create shared package]
+    H -->|No| J[Independent packages]
+    I --> K[Link with pnpm]
+    J --> L[Independent installs]
+```
+
+### When to Use Each pnpm Feature
+
+| Feature | When to Use | Example |
+|---------|-------------|---------|
+| **Workspace** | Monorepo with multiple packages | apps/, packages/ |
+| **Peer Dependencies** | Shared UI libraries | @radix-ui/react-* |
+| **Override** | Force specific versions | pnpm.overrides |
+| **Alias** | Rename packages | lodash-es as lodash |
+| **Global** | CLI tools | pnpm add -g typescript |
+
+---
+
+## Procedural Guidance: pnpm Setup
+
+### Step 1: Install pnpm
+
+```bash
+# Install pnpm globally
+corepack enable
+corepack prepare pnpm@latest --activate
+
+# Verify installation
+pnpm --version
+```
+
+### Step 2: Initialize Project
+
+```bash
+# Create package.json
+pnpm init
+
+# Add dependencies
+pnpm add react react-dom
+
+# Add dev dependencies
+pnpm add -D typescript vitest @testing-library/react
+
+# Add peer dependencies
+pnpm add -P @radix-ui/react-dropdown-menu
+```
+
+### Step 3: Configure Workspace (Monorepo)
+
+```yaml
+# pnpm-workspace.yaml
+packages:
+  - 'apps/*'
+  - 'packages/*'
+```
+
+```json
+// apps/web/package.json
+{
+  "name": "@myapp/web",
+  "dependencies": {
+    "@myapp/ui": "workspace:*",
+    "@myapp/utils": "workspace:*"
+  }
+}
+```
+
+```json
+// packages/ui/package.json
+{
+  "name": "@myapp/ui",
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
+```
+
+### Step 4: Add Scripts
+
+```json
+// package.json
+{
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "clean": "pnpm -r clean"
+  }
+}
+```
+
+### Step 5: CI/CD Integration
+
+```yaml
+# .github/workflows/ci.yml
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - name: Test
+        run: pnpm test
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Setting up pnpm for a new project
+- Configuring pnpm workspaces
+- Managing dependencies in monorepos
+- Implementing security best practices
+- Optimizing CI/CD with pnpm
+
+### What to Do With This Information
+1. **Use corepack**: Enable corepack for pnpm management
+2. **Use workspaces**: Create pnpm workspaces for monorepos
+3. **Frozen lockfile**: Use --frozen-lockfile in CI
+4. **Security**: Control allow-build, ignore-scripts
+5. **Cache pnpm store**: Cache in CI for faster installs
+
+### Tools to Use
+- **VS Code Extension**: Error Lens — for inline pnpm error display
+- **npm Package**: `@pnpm/logger` — for pnpm logging
+- **Terminal Command**: `pnpm install` — install dependencies
+- **Terminal Command**: `pnpm add <package>` — add dependency
+- **Terminal Command**: `pnpm remove <package>` — remove dependency
+- **Terminal Command**: `pnpm list` — list installed packages
+
+### Agents to Invoke
+- **Security Review Agent**: Run when adding new dependencies
+- **Code Review Agent**: Run when reviewing PRs with dependency changes
+
+### Integration with Other Notes
+- Read [[ci-cd-patterns]] for CI/CD deployment patterns
+- read [[vite-configuration]] for Vite configuration
+- Read [[docker-deployment]] for Docker deployment patterns
+- Read [[testing-patterns]] for testing strategies
+
+### Common Pitfalls
+- Don't use npm/pnpm interchangeably (stick to one)
+- Don't ignore --frozen-lockfile in CI
+- Don't allow-build without restriction
+- Don't forget to cache pnpm store in CI
+- Don't use phantom dependencies (pnpm enforces strict node_modules)
+
+### Quick Validation Checklist
+- [ ] Is corepack used for pnpm management?
+- [ ] Are workspaces configured for monorepos?
+- [ ] Is --frozen-lockfile used in CI?
+- [ ] Are dependencies audited regularly?
+- [ ] Is pnpm store cached in CI?
+- [ ] Are peer dependencies properly declared?

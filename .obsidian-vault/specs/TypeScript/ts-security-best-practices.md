@@ -261,12 +261,210 @@ if (dir === Direction.Up) { /* ... */ }
 2. **Prefer `unknown` over `any`** — forces type narrowing before use
 3. **Use type guards for runtime validation** — never trust external input
 4. **Avoid `as` assertions** — they bypass type safety
-5. **Use `satisfies` for object validation** — catches excess properties
-6. **Enable `noUncheckedIndexedAccess`** — handle missing keys explicitly
-7. **Use `noImplicitOverride`** — prevent inheritance bugs
-8. **Validate all external input** — types don't replace runtime validation
+---
 
+## Decision Tree: TypeScript Security Patterns
 
+```mermaid
+graph TD
+    A[Need TypeScript security?]\n    A --> B{What type?}
+    B -->|Type Safety| C[Strict Mode]
+    B -->|Input Validation| D[Runtime Validation]
+    B -->|Null Safety| E[Null Checks]
+    B -->|Inheritance| F[Override Checks]
+    C --> G{Enable all?}
+    G -->|Yes| H[Full strict]
+    G -->|No| I[Selective strict]
+    D --> J{Schema or Manual?}
+    J -->|Schema| K[Zod/Joi]
+    J -->|Manual| L[Custom validators]
+    E --> M{Always check?}
+    M -->|Yes| N[!null checks]
+    M -->|Optional| O[? optional]
+```
+
+### When to Use Each TypeScript Security Pattern
+
+| Pattern | When to Use | Example |
+|---------|-------------|---------|
+| **Strict Mode** | All projects | compilerOptions.strict |
+| **Null Checks** | API responses, DB queries | user?.name |
+| **Runtime Validation** | User input, API payloads | Zod schema |
+| **Override Checks** | Inheritance | noImplicitOverride |
+| **Satisfies** | Object validation | config satisfies Config |
 
 ---
+
+## Procedural Guidance: TypeScript Security Setup
+
+### Step 1: Enable Strict Mode
+
+```jsonc
+// tsconfig.json
+{
+  "compilerOptions": {
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "useUnknownInCatchVariables": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true
+  }
+}
+```
+
+### Step 2: Type-Safe API Responses
+
+```typescript
+// src/types/api.ts
+interface ApiResponse<T> {
+  data: T
+  error?: string
+  status: number
+}
+
+// src/services/user.service.ts
+import { ApiResponse } from '../types/api'
+
+async function fetchUser(id: string): Promise<ApiResponse<User>> {
+  try {
+    const response = await fetch(`/api/users/${id}`)
+    const data = await response.json()
+    
+    return {
+      data: data as User,
+      status: response.status,
+    }
+  } catch (error) {
+    return {
+      error: error instanceof Error ? error.message : 'Unknown error',
+      status: 500,
+    }
+  }
+}
+```
+
+### Step 3: Runtime Validation with Zod
+
+```typescript
+// src/schemas/user.schema.ts
+import { z } from 'zod'
+
+export const CreateUserSchema = z.object({
+  name: z.string().min(2).max(100),
+  email: z.string().email(),
+  age: z.number().int().min(0).max(150).optional(),
+})
+
+export type CreateUserInput = z.infer<typeof CreateUserSchema>
+
+// Usage
+function createUser(input: unknown) {
+  const result = CreateUserSchema.safeParse(input)
+  
+  if (!result.success) {
+    throw new Error(`Validation failed: ${result.error.message}`)
+  }
+  
+  // result.data is typed as CreateUserInput
+  return result.data
+}
+```
+
+### Step 4: Null Safety
+
+```typescript
+// src/services/user.service.ts
+interface User {
+  id: string
+  name: string
+  email: string
+  role?: string  // Optional field
+}
+
+async function getUser(id: string): Promise<User | null> {
+  const user = await db.query('SELECT * FROM users WHERE id = $1', [id])
+  
+  // TypeScript knows user might be null
+  if (!user) {
+    return null
+  }
+  
+  // TypeScript knows user is User here
+  return user
+}
+
+// Usage with optional chaining
+const user = await getUser('123')
+console.log(user?.name)  // Safe access
+```
+
+### Step 5: Override Safety
+
+```typescript
+// src/components/BaseComponent.ts
+class BaseComponent {
+  render(): string {
+    return '<div>Base</div>'
+  }
+}
+
+// src/components/ExtendedComponent.ts
+class ExtendedComponent extends BaseComponent {
+  override render(): string {  // Required with noImplicitOverride
+    return '<div>Extended</div>'
+  }
+}
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Setting up TypeScript security
+- Implementing type-safe APIs
+- Adding runtime validation
+- Preventing null/undefined errors
+- Using inheritance safely
+
+### What to Do With This Information
+1. **Enable strict mode**: Use full strict mode for all projects
+2. **Type-safe APIs**: Create generic ApiResponse<T> types
+3. **Runtime validation**: Use Zod/Joi for user input validation
+4. **Null safety**: Use optional chaining and null checks
+5. **Override safety**: Use noImplicitOverride for inheritance
+
+### Tools to Use
+- **VS Code Extension**: TypeScript Hero — for TypeScript shortcuts
+- **VS Code Extension**: Error Lens — for inline TypeScript error display
+- **npm Package**: `zod` — for runtime validation
+- **npm Package**: `joi` — alternative to Zod
+- **Terminal Command**: `pnpm tsc --noEmit` — type check without emitting
+- **Terminal Command**: `pnpm tsc --strict` — enable strict mode
+
+### Agents to Invoke
+- **Security Review Agent**: Run when adding new types
+- **Code Review Agent**: Run when reviewing PRs with TypeScript changes
+
+### Integration with Other Notes
+- Read [[security-principles]] for security best practices
+- read [[input-validation]] for input validation patterns
+- Read [[react-patterns]] for React component patterns
+- Read [[testing-patterns]] for testing strategies
+
+### Common Pitfalls
+- Don't use any type (use unknown instead)
+- Don't skip runtime validation (types don't replace validation)
+- Don't ignore null checks (always check for null/undefined)
+- Don't skip override checks (use noImplicitOverride)
+- Don't use satisfies incorrectly (use for object validation)
+
+### Quick Validation Checklist
+- [ ] Is strict mode enabled?
+- [ ] Are API responses type-safe?
+- [ ] Is runtime validation implemented?
+- [ ] Are null checks handled?
+- [ ] Is override safety enabled?
+- [ ] Are types tested?
 
