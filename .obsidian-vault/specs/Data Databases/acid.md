@@ -128,7 +128,7 @@ ACID does not apply to:
 - [[Data Databases/acid]] â€” Consistency
 - [[Data Databases/acid]] â€” Isolation
 - [[Data Databases/acid]] â€” Durability
-- [[APIs Distributed Systems/eventual-consistency]] â€” Eventual Consistency
+- [[Architecture/A094-eventual-consistency]] â€” Eventual Consistency
 
 ## Project Observations
 

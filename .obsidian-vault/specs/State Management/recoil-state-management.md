@@ -123,9 +123,9 @@ Recoil does not apply to:
 ## Related Concepts
 
 - [[State Management/recoil-state-management]] â€” Recoil State Management
-- [[Recoil/recoil-atoms]] â€” Recoil Atoms
-- [[Recoil/recoil-configuration]] â€” Recoil Configuration
-- [[Recoil/recoil-derived-state]] â€” Recoil Derived State
+- [[Sources/S059-recoil-documentation]] â€” Recoil Atoms
+- [[State Management/recoil-state-management]] â€” Recoil Configuration
+- [[State Management/recoil-state-management]] â€” Recoil Derived State
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Recoil through:
 
 ## Sources
 
-- [[Sources/recoil-documentation|Recoil Documentation]]
+- [[Sources/S059-recoil-documentation|Recoil Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Recoil State Management Note**

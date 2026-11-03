@@ -51,7 +51,7 @@ referenced
 ## project_adoption
 referenced- [[APIs Distributed Systems/api-gateway-pattern]]
 - [[APIs Distributed Systems/caching-strategies]]
-- [[bogard-vertical-slice]]
-- [[Documentation]]
-- [[evans-ddd-2003]]
+- [[Sources/S001-bogard-vertical-slice]]
+- [[Sources/S027-axe-core-documentation]]
+- [[Sources/S002-evans-ddd-2003]]
 

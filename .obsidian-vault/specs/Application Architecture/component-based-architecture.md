@@ -124,8 +124,8 @@ Component-Based Architecture does not apply to:
 
 - [[Application Architecture/component-based-architecture]] â€” Component-Based Architecture
 - [[Application Architecture/component-based-architecture]] â€” Component Architecture
-- [[Application Architecture/ui-components]] â€” UI Components
-- [[Application Architecture/ui-components]] â€” Reusable Components
+- [[Architecture/A052-container-presentational-pattern]] â€” UI Components
+- [[Architecture/A052-container-presentational-pattern]] â€” Reusable Components
 
 ## Project Observations
 

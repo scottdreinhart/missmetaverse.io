@@ -123,9 +123,9 @@ REST does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/api-versioning]] â€” API Versioning
-- [[APIs Distributed Systems/backward-compatibility]] â€” Backward Compatibility
-- [[APIs Distributed Systems/data-transfer-objects]] â€” Data Transfer Objects
-- [[APIs Distributed Systems/backend-for-frontend]] â€” Backend for Frontend
+- [[APIs Distributed Systems/L03-Backward-Compatibility]] â€” Backward Compatibility
+- [[APIs Distributed Systems/L04-Data-Transfer-Objects]] â€” Data Transfer Objects
+- [[APIs Distributed Systems/L05-Backend-for-Frontend]] â€” Backend for Frontend
 
 ## Project Observations
 
@@ -138,6 +138,6 @@ The project uses TypeScript with Express, which supports REST through:
 ## Sources
 
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
-- [[Sources/rest-dissertation|Roy Fielding â€” Architectural Styles and the Design of Network-based Software Architectures]]
+- [[Sources/S061-rest-dissertation|Roy Fielding â€” Architectural Styles and the Design of Network-based Software Architectures]]
 
 **End of REST Note**

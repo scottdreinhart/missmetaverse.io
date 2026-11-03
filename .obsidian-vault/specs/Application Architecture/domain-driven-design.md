@@ -137,7 +137,7 @@ The project uses Domain-Driven Design through:
 
 ## Sources
 
-- [[Sources/ddd-bluebook|Domain-Driven Design by Eric Evans]]
+- [[Sources/S032-ddd-bluebook|Domain-Driven Design by Eric Evans]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Domain-Driven Design Note**

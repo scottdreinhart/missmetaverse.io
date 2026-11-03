@@ -123,9 +123,9 @@ Zustand does not apply to:
 ## Related Concepts
 
 - [[State Management/zustand-state-management]] â€” Zustand State Management
-- [[Zustand/zustand-store]] â€” Zustand Store
-- [[Zustand/zustand-configuration]] â€” Zustand Configuration
-- [[Zustand/zustand-simple-state]] â€” Zustand Simple State
+- [[Sources/S071-zustand-documentation]] â€” Zustand Store
+- [[State Management/zustand-state-management]] â€” Zustand Configuration
+- [[State Management/zustand-state-management]] â€” Zustand Simple State
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Zustand through:
 
 ## Sources
 
-- [[Sources/zustand-documentation|Zustand Documentation]]
+- [[Sources/S071-zustand-documentation|Zustand Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Zustand State Management Note**

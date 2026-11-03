@@ -123,7 +123,7 @@ ShadCN does not apply to:
 
 - [[TailwindsCSS/tailwind-css-utility-first-styling]] â€” Tailwind CSS Utility-First Styling
 - [[Architecture/atomic-design]] â€” Design Systems
-- [[Architecture/design-tokens]] â€” Design Tokens
+- [[Architecture/A085-design-tokens]] â€” Design Tokens
 - [[Headless UI/headless-ui-components]] â€” Headless Components
 
 ## Project Observations

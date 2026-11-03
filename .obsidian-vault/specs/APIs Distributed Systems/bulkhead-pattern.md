@@ -124,7 +124,7 @@ Bulkhead does not apply to:
 
 - [[APIs Distributed Systems/bulkhead-pattern]] â€” Bulkhead Pattern
 - [[APIs Distributed Systems/circuit-breaker-pattern]] â€” Circuit Breaker Pattern
-- [[APIs Distributed Systems/thread-pool-pattern]] â€” Thread Pool Pattern
+- [[APIs Distributed Systems/bulkhead-pattern]] â€” Thread Pool Pattern
 - [[Data Databases/database-connection-pooling]] â€” Connection Pool
 
 ## Project Observations

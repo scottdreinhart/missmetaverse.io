@@ -122,10 +122,10 @@ Recharts does not apply to:
 
 ## Related Concepts
 
-- [[Recharts/recharts-line-chart]] â€” Recharts Line Chart
-- [[Recharts/recharts-bar-chart]] â€” Recharts Bar Chart
-- [[Recharts/recharts-pie-chart]] â€” Recharts Pie Chart
-- [[Recharts/recharts-configuration]] â€” Recharts Configuration
+- [[Data Visualization/recharts-data-visualization]] â€” Recharts Line Chart
+- [[Data Visualization/recharts-data-visualization]] â€” Recharts Bar Chart
+- [[Data Visualization/recharts-data-visualization]] â€” Recharts Pie Chart
+- [[Data Visualization/recharts-data-visualization]] â€” Recharts Configuration
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Recharts through:
 
 ## Sources
 
-- [[Sources/recharts-documentation|Recharts Documentation]]
+- [[Sources/S058-recharts-documentation|Recharts Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Recharts Data Visualization Note**

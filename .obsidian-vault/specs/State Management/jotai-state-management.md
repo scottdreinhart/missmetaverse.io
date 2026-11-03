@@ -136,7 +136,7 @@ The project uses Jotai through:
 
 ## Sources
 
-- [[Sources/jotai-documentation|Jotai Documentation]]
+- [[Sources/S046-jotai-documentation|Jotai Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Jotai State Management Note**

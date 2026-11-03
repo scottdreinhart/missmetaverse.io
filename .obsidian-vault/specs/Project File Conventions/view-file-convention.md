@@ -125,7 +125,7 @@ View files do not apply to:
 - [[Project File Conventions/logic-file-convention]] â€” *.logic.ts File Convention
 - [[Project File Conventions/data-file-convention]] â€” *.data.ts File Convention
 - [[Project File Conventions/hook-file-convention]] â€” *.hook.ts File Convention
-- [[Architecture/presentation-logic-separation]] â€” Presentation-Logic Separation
+- [[Architecture/A171-presentation-logic-separation]] â€” Presentation-Logic Separation
 
 ## Project Observations
 

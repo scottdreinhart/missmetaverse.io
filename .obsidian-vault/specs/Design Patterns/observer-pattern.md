@@ -125,7 +125,7 @@ Observer does not apply to:
 - [[Design Patterns/observer-pattern]] â€” Observer Pattern
 - [[Design Patterns/observer-pattern]] â€” Event Emitter
 - [[APIs Distributed Systems/message-queue-pattern]] â€” Pub-Sub Pattern
-- [[Design Patterns/reactive-programming]] â€” Reactive Programming
+- [[Architecture/A076-declarative-programming]] â€” Reactive Programming
 
 ## Project Observations
 

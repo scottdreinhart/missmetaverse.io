@@ -122,9 +122,9 @@ Vite configuration does not apply to:
 ## Related Concepts
 
 - [[Bundler/vite-build-configuration]] â€” Vite Configuration
-- [[Bundler/vite-plugins]] â€” Vite Plugins
-- [[Bundler/build-optimization]] â€” Build Optimization
-- [[Bundler/development-server]] â€” Development Server
+- [[Bundler/vite-build-configuration]] â€” Vite Plugins
+- [[Architecture/A238-vite-optimization]] â€” Build Optimization
+- [[Data-Driven Approaches/contract-first-development]] â€” Development Server
 
 ## Project Observations
 

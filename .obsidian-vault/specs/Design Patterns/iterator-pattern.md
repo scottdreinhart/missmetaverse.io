@@ -123,9 +123,9 @@ Iterator does not apply to:
 ## Related Concepts
 
 - [[Design Patterns/iterator-pattern]] â€” Iterator Pattern
-- [[Design Patterns/generator-pattern]] â€” Generator Pattern
+- [[Design Patterns/iterator-pattern]] â€” Generator Pattern
 - [[Design Patterns/collection-abstraction]] â€” Collection Abstraction
-- [[Design Patterns/enumerable-pattern]] â€” Enumerable Pattern
+- [[Design Patterns/iterator-pattern]] â€” Enumerable Pattern
 
 ## Project Observations
 

@@ -124,7 +124,7 @@ Ports do not apply to:
 ## Related Concepts
 
 - [[Application Architecture/hexagonal-architecture-ports]] â€” Hexagonal Architecture Ports
-- [[Application Architecture/hexagonal-architecture-adapters]] â€” Hexagonal Architecture Adapters
+- [[Application Architecture/hexagonal-architecture-ports]] â€” Hexagonal Architecture Adapters
 - [[Architecture/dependency-inversion-principle]] â€” Dependency Inversion
 - [[Application Architecture/hexagonal-architecture]] â€” Port Pattern
 
@@ -138,7 +138,7 @@ The project uses Hexagonal Architecture Ports through:
 
 ## Sources
 
-- [[Sources/hexagonal-architecture-perez|Hexagonal Architecture â€” Alberto Perez]]
+- [[Sources/S044-hexagonal-architecture-perez|Hexagonal Architecture â€” Alberto Perez]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Hexagonal Architecture Ports Note**

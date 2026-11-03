@@ -139,6 +139,6 @@ The project uses Zod for boundary validation through:
 ## Sources
 
 - [[Sources/S011-microsoft-typescript-handbook|Microsoft â€” TypeScript Documentation]]
-- [[Sources/zod-documentation|Zod â€” TypeScript-first schema validation]]
+- [[Sources/S070-zod-documentation|Zod â€” TypeScript-first schema validation]]
 
 **End of Boundary Validation Note**

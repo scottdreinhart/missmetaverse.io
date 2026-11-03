@@ -137,7 +137,7 @@ The project uses i18next through:
 
 ## Sources
 
-- [[Sources/i18next-documentation|i18next Documentation]]
+- [[Sources/S045-i18next-documentation|i18next Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of i18next Internationalization Note**

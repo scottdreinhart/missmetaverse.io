@@ -122,8 +122,8 @@ Repository does not apply to:
 
 ## Related Concepts
 
-- [[Design Patterns/data-access-object]] â€” Data Access Object
-- [[Design Patterns/unit-of-work]] â€” Unit of Work
+- [[Data-Driven Approaches/data-oriented-design]] â€” Data Access Object
+- [[Architecture/A230-unit-of-work-pattern]] â€” Unit of Work
 - [[Design Patterns/specification-pattern]] â€” Specification Pattern
 - [[Design Patterns/collection-abstraction]] â€” Collection Abstraction
 
@@ -137,7 +137,7 @@ The project uses Repository Pattern through:
 
 ## Sources
 
-- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns â€” Hohpe & Woolf]]
+- [[Sources/S035-eip-hohpe-woolf|Enterprise Integration Patterns â€” Hohpe & Woolf]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Repository Pattern Note**

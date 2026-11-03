@@ -122,10 +122,10 @@ otplib does not apply to:
 
 ## Related Concepts
 
-- [[otplib/otplib-totp-implementation]] â€” otplib TOTP Implementation
-- [[otplib/otplib-two-factor]] â€” otplib Two-Factor
-- [[otplib/otplib-configuration]] â€” otplib Configuration
-- [[otplib/otplib-security]] â€” otplib Security
+- [[Authentication/otplib-totp-library]] â€” otplib TOTP Implementation
+- [[Authentication/otplib-totp-library]] â€” otplib Two-Factor
+- [[Authentication/otplib-totp-library]] â€” otplib Configuration
+- [[Authentication/otplib-totp-library]] â€” otplib Security
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses otplib through:
 
 ## Sources
 
-- [[Sources/otplib-documentation|otplib Documentation]]
+- [[Sources/S052-otplib-documentation|otplib Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of otplib TOTP Library Note**

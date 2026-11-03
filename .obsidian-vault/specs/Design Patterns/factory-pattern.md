@@ -123,7 +123,7 @@ Factory does not apply to:
 ## Related Concepts
 
 - [[Design Patterns/factory-pattern]] â€” Factory Pattern
-- [[Architecture/abstract-factory-pattern]] â€” Abstract Factory Pattern
+- [[Architecture/A001-abstract-factory-pattern]] â€” Abstract Factory Pattern
 - [[Design Patterns/builder-pattern]] â€” Builder Pattern
 - [[Architecture/dependency-injection]] â€” Dependency Injection
 

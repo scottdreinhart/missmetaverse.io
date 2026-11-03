@@ -123,9 +123,9 @@ Redux does not apply to:
 ## Related Concepts
 
 - [[State Management/redux-state-management]] â€” Redux State Management
-- [[Redux/redux-store]] â€” Redux Store
-- [[Redux/redux-configuration]] â€” Redux Configuration
-- [[Redux/redux-complex-state]] â€” Redux Complex State
+- [[Sources/S060-redux-documentation]] â€” Redux Store
+- [[State Management/redux-state-management]] â€” Redux Configuration
+- [[State Management/redux-state-management]] â€” Redux Complex State
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Redux through:
 
 ## Sources
 
-- [[Sources/redux-documentation|Redux Documentation]]
+- [[Sources/S060-redux-documentation|Redux Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Redux State Management Note**

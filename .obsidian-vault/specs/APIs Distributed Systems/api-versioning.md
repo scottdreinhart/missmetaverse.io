@@ -123,7 +123,7 @@ API Versioning does not apply to:
 ## Related Concepts
 
 - [[APIs Distributed Systems/api-versioning]] â€” API Versioning
-- [[APIs Distributed Systems/backward-compatibility]] â€” Backward Compatibility
+- [[APIs Distributed Systems/L03-Backward-Compatibility]] â€” Backward Compatibility
 - [[APIs Distributed Systems/api-versioning]] â€” API Deprecation
 - [[APIs Distributed Systems/api-versioning]] â€” Version Strategy
 
@@ -137,7 +137,7 @@ The project uses API Versioning through:
 
 ## Sources
 
-- [[Sources/fielding-rest-2000|REST Architectural Style â€” Fielding 2000]]
+- [[Sources/S038-fielding-rest-2000|REST Architectural Style â€” Fielding 2000]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of API Versioning Note**

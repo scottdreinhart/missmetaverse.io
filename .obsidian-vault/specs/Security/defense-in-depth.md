@@ -137,7 +137,7 @@ The project uses Defense in Depth through:
 
 ## Sources
 
-- [[Sources/security-principles|Security Principles]]
+- [[Sources/S063-security-principles|Security Principles]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Defense in Depth Note**

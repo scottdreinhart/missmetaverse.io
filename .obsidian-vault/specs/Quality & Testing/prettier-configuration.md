@@ -122,9 +122,9 @@ Prettier configuration does not apply to:
 ## Related Concepts
 
 - [[Quality & Testing/eslint-configuration]] â€” ESLint Configuration
-- [[TypeScript/typescript-eslint]] â€” TypeScript ESLint
-- [[ESLint/eslint-prettier]] â€” ESLint Prettier
-- [[Quality & Testing/formatting-coverage]] â€” Formatting Coverage
+- [[DevOps & Deployment/Integration/I05-ts-path-resolution]] â€” TypeScript ESLint
+- [[Quality & Testing/eslint-configuration]] â€” ESLint Prettier
+- [[DevOps & Deployment/Integration/I04-linting-husky-pipeline]] â€” Formatting Coverage
 
 ## Project Observations
 
@@ -136,7 +136,7 @@ The project uses Prettier through:
 
 ## Sources
 
-- [[Sources/prettier-documentation|Prettier Documentation]]
+- [[Sources/S054-prettier-documentation|Prettier Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Prettier Configuration Note**

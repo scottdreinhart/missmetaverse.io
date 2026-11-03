@@ -122,7 +122,7 @@ Immutability does not apply to:
 
 - [[Coding Type Systems/pure-functions]] â€” Pure Functions
 - [[Coding Type Systems/strict-typing]] â€” Strict Typing
-- [[Architecture/unidirectional-data-flow]] â€” Unidirectional Data Flow
+- [[Architecture/A229-unidirectional-data-flow]] â€” Unidirectional Data Flow
 
 ## Project Observations
 

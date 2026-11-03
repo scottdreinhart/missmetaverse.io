@@ -123,9 +123,9 @@ MobX does not apply to:
 ## Related Concepts
 
 - [[State Management/mobx-state-management]] â€” MobX State Management
-- [[MobX/mobx-observable]] â€” MobX Observable
-- [[MobX/mobx-configuration]] â€” MobX Configuration
-- [[MobX/mobx-reactive-state]] â€” MobX Reactive State
+- [[State Management/mobx-state-management]] â€” MobX Observable
+- [[State Management/mobx-state-management]] â€” MobX Configuration
+- [[State Management/mobx-state-management]] â€” MobX Reactive State
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses MobX through:
 
 ## Sources
 
-- [[Sources/mobx-documentation|MobX Documentation]]
+- [[Sources/S049-mobx-documentation|MobX Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of MobX State Management Note**

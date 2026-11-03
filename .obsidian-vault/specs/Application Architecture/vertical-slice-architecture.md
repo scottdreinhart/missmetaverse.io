@@ -123,8 +123,8 @@ Vertical Slice Architecture does not apply to:
 
 - [[Application Architecture/vertical-slice-architecture]] â€” Vertical Slice Architecture
 - [[Application Architecture/modular-monolith-architecture]] â€” Modular Monolith
-- [[d:\Projects\missmetaverse.io\.obsidian-vault\specs\Application Architecture\modular-monolith-architecture.md]] â€” Feature-Based Architecture
-- [[Application Architecture/cross-cutting-concerns]] â€” Cross-Cutting Concerns
+- [[Application Architecture/modular-monolith-architecture]] â€” Feature-Based Architecture
+- [[Architecture/separation-of-concerns]] â€” Cross-Cutting Concerns
 
 ## Project Observations
 

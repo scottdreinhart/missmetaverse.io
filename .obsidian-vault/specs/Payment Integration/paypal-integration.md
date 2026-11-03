@@ -122,10 +122,10 @@ PayPal does not apply to:
 
 ## Related Concepts
 
-- [[PayPal/paypal-payments]] â€” PayPal Payments
-- [[PayPal/paypal-configuration]] â€” PayPal Configuration
-- [[PayPal/paypal-e-commerce]] â€” PayPal E-commerce
-- [[PayPal/paypal-webhooks]] â€” PayPal Webhooks
+- [[Payment Integration/paypal-integration]] â€” PayPal Payments
+- [[Payment Integration/paypal-integration]] â€” PayPal Configuration
+- [[Payment Integration/paypal-integration]] â€” PayPal E-commerce
+- [[Payment Integration/paypal-integration]] â€” PayPal Webhooks
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses PayPal through:
 
 ## Sources
 
-- [[Sources/paypal-documentation|PayPal Documentation]]
+- [[Sources/S053-paypal-documentation|PayPal Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of PayPal Integration Note**

@@ -137,7 +137,7 @@ The project uses WebSockets Real-time Communication through:
 
 ## Sources
 
-- [[Sources/websocket-rfc6455|WebSocket Protocol â€” RFC 6455]]
+- [[Sources/S069-websocket-rfc6455|WebSocket Protocol â€” RFC 6455]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of WebSockets Real-time Communication Note**

@@ -122,10 +122,10 @@ Lucide does not apply to:
 
 ## Related Concepts
 
-- [[Lucide/lucide-react]] â€” Lucide React
-- [[Lucide/lucide-icons]] â€” Lucide Icons
-- [[Lucide/lucide-configuration]] â€” Lucide Configuration
-- [[Lucide/lucide-customization]] â€” Lucide Customization
+- [[Icon Library/lucide-icon-library]] â€” Lucide React
+- [[Icon Library/lucide-icon-library]] â€” Lucide Icons
+- [[Icon Library/lucide-icon-library]] â€” Lucide Configuration
+- [[Icon Library/lucide-icon-library]] â€” Lucide Customization
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Lucide through:
 
 ## Sources
 
-- [[Sources/lucide-documentation|Lucide Documentation]]
+- [[Sources/S048-lucide-documentation|Lucide Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Lucide Icon Library Note**

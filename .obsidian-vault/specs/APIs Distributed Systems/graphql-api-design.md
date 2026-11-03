@@ -137,7 +137,7 @@ The project uses GraphQL API Design through:
 
 ## Sources
 
-- [[Sources/graphql-spec|GraphQL Specification]]
+- [[Sources/S042-graphql-spec|GraphQL Specification]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of GraphQL API Design Note**

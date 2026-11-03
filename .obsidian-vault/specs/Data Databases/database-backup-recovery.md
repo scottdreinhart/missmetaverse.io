@@ -125,7 +125,7 @@ Backup and Recovery does not apply to:
 - [[Data Databases/database-backup-recovery]] â€” Database Backup
 - [[Data Databases/database-backup-recovery]] â€” Disaster Recovery
 - [[Data Databases/database-backup-recovery]] â€” RPO/RTO
-- [[Data Databases/data-retention]] â€” Data Retention
+- [[Data Databases/J18-Retention-Policies]] â€” Data Retention
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Database Backup and Recovery through:
 
 ## Sources
 
-- [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
+- [[Sources/S030-database-design-hoffer|Database Design â€” Hoffer]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Backup and Recovery Note**

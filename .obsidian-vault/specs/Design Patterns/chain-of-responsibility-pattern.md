@@ -123,9 +123,9 @@ Chain of Responsibility does not apply to:
 ## Related Concepts
 
 - [[Design Patterns/chain-of-responsibility-pattern]] â€” Chain of Responsibility Pattern
-- [[Design Patterns/middleware-pattern]] â€” Middleware Pattern
-- [[Design Patterns/pipeline-pattern]] â€” Pipeline Pattern
-- [[Design Patterns/handler-pattern]] â€” Handler Pattern
+- [[Design Patterns/chain-of-responsibility-pattern]] â€” Middleware Pattern
+- [[Design Patterns/chain-of-responsibility-pattern]] â€” Pipeline Pattern
+- [[Application Architecture/cqrs-pattern]] â€” Handler Pattern
 
 ## Project Observations
 

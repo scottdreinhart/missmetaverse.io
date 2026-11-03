@@ -124,7 +124,7 @@ Project template does not apply to:
 
 - [[Architecture/atomic-design]] â€” Atomic Design
 - [[React/modern-react-hooks-custom]] â€” Custom Hooks / Composables
-- [[Architecture/unidirectional-data-flow]] â€” Unidirectional Data Flow
+- [[Architecture/A229-unidirectional-data-flow]] â€” Unidirectional Data Flow
 - [[Project File Conventions/view-file-convention]] â€” *.view.tsx File Convention
 
 ## Project Observations

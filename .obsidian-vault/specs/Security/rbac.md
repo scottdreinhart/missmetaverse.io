@@ -137,7 +137,7 @@ The project uses RBAC through:
 
 ## Sources
 
-- [[Sources/rbac-standard|RBAC Standard]]
+- [[Sources/S057-rbac-standard|RBAC Standard]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of RBAC Note**

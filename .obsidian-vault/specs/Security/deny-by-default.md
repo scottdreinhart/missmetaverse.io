@@ -123,7 +123,7 @@ Deny by Default does not apply to:
 ## Related Concepts
 
 - [[Security/deny-by-default]] â€” Deny by Default
-- [[Security/default-deny]] â€” Default Deny
+- [[Security/deny-by-default]] â€” Default Deny
 - [[Security/deny-by-default]] â€” Implicit Deny
 - [[Security/deny-by-default]] â€” Deny All
 
@@ -137,7 +137,7 @@ The project uses Deny by Default through:
 
 ## Sources
 
-- [[Sources/security-principles|Security Principles]]
+- [[Sources/S063-security-principles|Security Principles]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Deny by Default Note**

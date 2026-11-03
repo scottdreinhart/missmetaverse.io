@@ -137,7 +137,7 @@ The project uses REST API Design through:
 
 ## Sources
 
-- [[Sources/fielding-rest-2000|REST Architectural Style â€” Fielding 2000]]
+- [[Sources/S038-fielding-rest-2000|REST Architectural Style â€” Fielding 2000]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of REST API Design Note**

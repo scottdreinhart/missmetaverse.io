@@ -137,7 +137,7 @@ The project uses Message Deduplication through:
 
 ## Sources
 
-- [[Sources/eip-hohpe-woolf|Enterprise Integration Patterns â€” Hohpe & Woolf]]
+- [[Sources/S035-eip-hohpe-woolf|Enterprise Integration Patterns â€” Hohpe & Woolf]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Message Deduplication Note**

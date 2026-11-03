@@ -124,8 +124,8 @@ Template Method does not apply to:
 
 - [[Design Patterns/template-method-pattern]] â€” Template Method Pattern
 - [[Design Patterns/strategy-pattern]] â€” Strategy Pattern
-- [[Design Patterns/hook-method]] â€” Hook Method
-- [[Design Patterns/inheritance-pattern]] â€” Inheritance Pattern
+- [[Design Patterns/template-method-pattern]] â€” Hook Method
+- [[Architecture/A049-composition-over-inheritance]] â€” Inheritance Pattern
 
 ## Project Observations
 

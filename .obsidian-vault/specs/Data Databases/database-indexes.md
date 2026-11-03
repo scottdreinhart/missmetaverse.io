@@ -137,7 +137,7 @@ The project uses Database Indexes through:
 
 ## Sources
 
-- [[Sources/database-design-hoffer|Database Design â€” Hoffer]]
+- [[Sources/S030-database-design-hoffer|Database Design â€” Hoffer]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Database Indexes Note**

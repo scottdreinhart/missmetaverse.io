@@ -125,7 +125,7 @@ Microservices do not apply to:
 - [[Application Architecture/domain-driven-design]] â€” Domain-Driven Design
 - [[APIs Distributed Systems/api-gateway-pattern]] â€” API Gateway
 - [[APIs Distributed Systems/circuit-breaker]] â€” Circuit Breaker
-- [[APIs Distributed Systems/eventual-consistency]] â€” Eventual Consistency
+- [[Architecture/A094-eventual-consistency]] â€” Eventual Consistency
 - [[DDD/bounded-context]] â€” Bounded Context
 
 ## Project Observations

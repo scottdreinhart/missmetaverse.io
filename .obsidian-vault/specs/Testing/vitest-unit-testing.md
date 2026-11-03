@@ -122,10 +122,10 @@ Vitest does not apply to:
 
 ## Related Concepts
 
-- [[Vitest/vitest-configuration]] â€” Vitest Configuration
-- [[Vitest/vitest-coverage]] â€” Vitest Coverage
-- [[Vitest/vitest-mock]] â€” Vitest Mock
-- [[Vitest/vitest-snapshot]] â€” Vitest Snapshot
+- [[Bundler/vite-build-configuration]] â€” Vitest Configuration
+- [[Testing/vitest-unit-testing]] â€” Vitest Coverage
+- [[Testing/vitest-unit-testing]] â€” Vitest Mock
+- [[Testing/vitest-unit-testing]] â€” Vitest Snapshot
 
 ## Project Observations
 

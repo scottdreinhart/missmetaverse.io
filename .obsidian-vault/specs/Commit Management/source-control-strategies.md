@@ -137,7 +137,7 @@ The project uses Source Control Strategies through:
 
 ## Sources
 
-- [[Sources/git-scm-documentation|Git SCM Documentation]]
+- [[Sources/S039-git-scm-documentation|Git SCM Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Source Control Strategies Note**

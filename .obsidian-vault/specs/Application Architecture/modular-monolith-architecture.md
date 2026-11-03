@@ -135,7 +135,7 @@ Modular Monolith does not apply to:
 
 ## Related Concepts
 
-- [[d:\Projects\missmetaverse.io\.obsidian-vault\specs\Application Architecture\modular-monolith-architecture.md]] â€” Modular Monolith Architecture
+- [[Application Architecture/modular-monolith-architecture]] â€” Modular Monolith Architecture
 - [[Application Architecture/microservices-architecture]] â€” Microservices Architecture
 - [[Application Architecture/layered-architecture]] â€” Layered Architecture
 - [[Application Architecture/hexagonal-architecture]] â€” Hexagonal Architecture

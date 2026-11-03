@@ -137,6 +137,6 @@ The project uses TypeScript, which supports this practice through:
 ## Sources
 
 - [[Sources/S011-microsoft-typescript-handbook|Microsoft â€” TypeScript Documentation]]
-- [[Sources/zod-documentation|Zod â€” TypeScript-first schema validation]]
+- [[Sources/S070-zod-documentation|Zod â€” TypeScript-first schema validation]]
 
 **End of Make Invalid States Unrepresentable Note**

@@ -123,9 +123,9 @@ TypeScript configuration does not apply to:
 ## Related Concepts
 
 - [[TypeScript/typescript-strict-mode]] â€” TypeScript Strict Mode
-- [[TypeScript/typescript-path-aliases]] â€” TypeScript Path Aliases
-- [[TypeScript/typescript-type-checking]] â€” TypeScript Type Checking
-- [[TypeScript/typescript-compilation]] â€” TypeScript Compilation
+- [[DevOps & Deployment/Integration/I05-ts-path-resolution]] â€” TypeScript Path Aliases
+- [[TypeScript/T10-typescript-strict-mode]] â€” TypeScript Type Checking
+- [[TypeScript/T06-ts-optimization-performance]] â€” TypeScript Compilation
 
 ## Project Observations
 

@@ -123,8 +123,8 @@ Singleton does not apply to:
 
 - [[Design Patterns/singleton-pattern]] â€” Singleton Pattern
 - [[Architecture/dependency-injection]] â€” Dependency Injection
-- [[Design Patterns/service-locator]] â€” Service Locator
-- [[State Management/state-management]] â€” State Management
+- [[APIs Distributed Systems/service-mesh]] â€” Service Locator
+- [[State Management/jotai-state-management]] â€” State Management
 
 ## Project Observations
 

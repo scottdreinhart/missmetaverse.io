@@ -122,10 +122,10 @@ Sentry does not apply to:
 
 ## Related Concepts
 
-- [[Sentry/sentry-error-tracking]] â€” Sentry Error Tracking
-- [[Sentry/sentry-performance-monitoring]] â€” Sentry Performance Monitoring
-- [[Sentry/sentry-issue-tracking]] â€” Sentry Issue Tracking
-- [[Sentry/sentry-integration]] â€” Sentry Integration
+- [[Monitoring/sentry-error-monitoring]] â€” Sentry Error Tracking
+- [[Monitoring/sentry-error-monitoring]] â€” Sentry Performance Monitoring
+- [[Monitoring/sentry-error-monitoring]] â€” Sentry Issue Tracking
+- [[Monitoring/sentry-error-monitoring]] â€” Sentry Integration
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Sentry through:
 
 ## Sources
 
-- [[Sources/sentry-documentation|Sentry Documentation]]
+- [[Sources/S065-sentry-documentation|Sentry Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Sentry Error Monitoring Note**

@@ -125,7 +125,7 @@ State does not apply to:
 - [[Design Patterns/state-pattern]] â€” State Pattern
 - [[Architecture/state-machines]] â€” State Machines
 - [[Architecture/state-machines]] â€” FSM Pattern
-- [[Design Patterns/workflow-pattern]] â€” Workflow Pattern
+- [[Design Patterns/mediator-pattern]] â€” Workflow Pattern
 
 ## Project Observations
 

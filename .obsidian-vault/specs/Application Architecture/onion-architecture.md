@@ -137,7 +137,7 @@ The project uses Onion Architecture through:
 
 ## Sources
 
-- [[Sources/onion-architecture-chambers|Onion Architecture â€” Scott Chambers]]
+- [[Sources/S051-onion-architecture-chambers|Onion Architecture â€” Scott Chambers]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Onion Architecture Note**

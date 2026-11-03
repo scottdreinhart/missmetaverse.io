@@ -137,7 +137,7 @@ The project uses Cryptography Basics through:
 
 ## Sources
 
-- [[Sources/cryptography-guide|Cryptography Guide]]
+- [[Sources/S029-cryptography-guide|Cryptography Guide]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Cryptography Basics Note**

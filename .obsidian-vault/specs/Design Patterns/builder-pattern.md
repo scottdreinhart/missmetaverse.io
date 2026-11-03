@@ -124,7 +124,7 @@ Builder does not apply to:
 
 - [[Design Patterns/builder-pattern]] â€” Builder Pattern
 - [[Design Patterns/factory-pattern]] â€” Factory Pattern
-- [[Architecture/abstract-factory-pattern]] â€” Abstract Factory Pattern
+- [[Architecture/A001-abstract-factory-pattern]] â€” Abstract Factory Pattern
 - [[Coding Type Systems/immutability]] â€” Immutable Objects
 
 ## Project Observations

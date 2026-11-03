@@ -137,7 +137,7 @@ The project uses @axe-core/react through:
 
 ## Sources
 
-- [[Sources/axe-core-documentation|@axe-core/react Documentation]]
+- [[Sources/S027-axe-core-documentation|@axe-core/react Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of @axe-core/react Accessibility Note**

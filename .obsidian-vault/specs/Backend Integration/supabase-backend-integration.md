@@ -122,10 +122,10 @@ Supabase does not apply to:
 
 ## Related Concepts
 
-- [[Supabase/supabase-authentication]] â€” Supabase Authentication
-- [[Supabase/supabase-database]] â€” Supabase Database
-- [[Supabase/supabase-storage]] â€” Supabase Storage
-- [[Supabase/supabase-realtime]] â€” Supabase Realtime
+- [[Backend Integration/supabase-backend-integration]] â€” Supabase Authentication
+- [[Backend Integration/supabase-backend-integration]] â€” Supabase Database
+- [[Backend Integration/supabase-backend-integration]] â€” Supabase Storage
+- [[Backend Integration/supabase-backend-integration]] â€” Supabase Realtime
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Supabase through:
 
 ## Sources
 
-- [[Sources/supabase-documentation|Supabase Documentation]]
+- [[Sources/S066-supabase-documentation|Supabase Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Supabase Backend Integration Note**

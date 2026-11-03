@@ -123,7 +123,7 @@ State machines do not apply to:
 ## Related Concepts
 
 - [[Architecture/state-machines]] â€” Statecharts
-- [[Architecture/unidirectional-data-flow]] â€” Unidirectional Data Flow
+- [[Architecture/A229-unidirectional-data-flow]] â€” Unidirectional Data Flow
 - [[State Management/jotai-state-management]] â€” Jotai State Management
 - [[Coding Type Systems/make-invalid-states-unrepresentable]] â€” Make Invalid States Unrepresentable
 

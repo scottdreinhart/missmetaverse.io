@@ -122,10 +122,10 @@ Playwright does not apply to:
 
 ## Related Concepts
 
-- [[Playwright/playwright-browser-testing]] â€” Playwright Browser Testing
-- [[Playwright/playwright-cross-browser]] â€” Playwright Cross-Browser
-- [[Playwright/playwright-configuration]] â€” Playwright Configuration
-- [[Playwright/playwright-coverage]] â€” Playwright Coverage
+- [[Quality & Testing/Testing/T01-playwright-e2e]] â€” Playwright Browser Testing
+- [[Quality & Testing/Testing/T01-playwright-e2e]] â€” Playwright Cross-Browser
+- [[Quality & Testing/Testing/T01-playwright-e2e]] â€” Playwright Configuration
+- [[Testing/playwright-e2e-testing]] â€” Playwright Coverage
 
 ## Project Observations
 

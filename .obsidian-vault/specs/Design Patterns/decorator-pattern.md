@@ -122,7 +122,7 @@ Decorator does not apply to:
 ## Related Concepts
 
 - [[Design Patterns/decorator-pattern]] â€” Decorator Pattern
-- [[Design Patterns/middleware-pattern]] â€” Middleware Pattern
+- [[Design Patterns/chain-of-responsibility-pattern]] â€” Middleware Pattern
 - [[Design Patterns/proxy-pattern]] â€” Proxy Pattern
 - [[Design Patterns/adapter-pattern]] â€” Adapter Pattern
 

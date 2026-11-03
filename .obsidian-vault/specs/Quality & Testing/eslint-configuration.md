@@ -122,9 +122,9 @@ ESLint configuration does not apply to:
 ## Related Concepts
 
 - [[Quality & Testing/prettier-configuration]] â€” Prettier Configuration
-- [[TypeScript/typescript-eslint]] â€” TypeScript ESLint
-- [[ESLint/eslint-react]] â€” ESLint React
-- [[ESLint/eslint-security]] â€” ESLint Security
+- [[DevOps & Deployment/Integration/I05-ts-path-resolution]] â€” TypeScript ESLint
+- [[Quality & Testing/eslint-configuration]] â€” ESLint React
+- [[Quality & Testing/eslint-configuration]] â€” ESLint Security
 
 ## Project Observations
 
@@ -136,7 +136,7 @@ The project uses ESLint through:
 
 ## Sources
 
-- [[Sources/eslint-documentation|ESLint Documentation]]
+- [[Sources/S037-eslint-documentation|ESLint Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of ESLint Configuration Note**

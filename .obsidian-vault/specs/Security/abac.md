@@ -137,7 +137,7 @@ The project uses ABAC through:
 
 ## Sources
 
-- [[Sources/abac-standard|ABAC Standard]]
+- [[Sources/S026-abac-standard|ABAC Standard]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of ABAC Note**

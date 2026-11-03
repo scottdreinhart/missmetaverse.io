@@ -123,9 +123,9 @@ React Hook Form does not apply to:
 ## Related Concepts
 
 - [[Form Management/react-hook-form-form-management]] â€” React Hook Form Form Management
-- [[React Hook Form/react-hook-form-validation]] â€” React Hook Form Validation
-- [[React Hook Form/react-hook-form-state]] â€” React Hook Form State
-- [[React Hook Form/react-hook-form-configuration]] â€” React Hook Form Configuration
+- [[Form Management/react-hook-form-form-management]] â€” React Hook Form Validation
+- [[Form Management/react-hook-form-form-management]] â€” React Hook Form State
+- [[Form Management/react-hook-form-form-management]] â€” React Hook Form Configuration
 
 ## Project Observations
 

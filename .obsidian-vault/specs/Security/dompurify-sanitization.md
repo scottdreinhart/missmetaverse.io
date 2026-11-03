@@ -122,10 +122,10 @@ DOMPurify does not apply to:
 
 ## Related Concepts
 
-- [[DOMPurify/dompurify-html-sanitization]] â€” DOMPurify HTML Sanitization
-- [[DOMPurify/dompurify-xss-prevention]] â€” DOMPurify XSS Prevention
-- [[DOMPurify/dompurify-configuration]] â€” DOMPurify Configuration
-- [[DOMPurify/dompurify-content-security]] â€” DOMPurify Content Security
+- [[Security/dompurify-sanitization]] â€” DOMPurify HTML Sanitization
+- [[Security/dompurify-sanitization]] â€” DOMPurify XSS Prevention
+- [[Security/dompurify-sanitization]] â€” DOMPurify Configuration
+- [[Architecture/A053-content-security-policy]] â€” DOMPurify Content Security
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses DOMPurify through:
 
 ## Sources
 
-- [[Sources/dompurify-documentation|DOMPurify Documentation]]
+- [[Sources/S034-dompurify-documentation|DOMPurify Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of DOMPurify Sanitization Note**

@@ -125,7 +125,7 @@ Domain events do not apply to:
 
 - [[DDD/aggregate-root]] â€” Aggregate
 - [[Application Architecture/event-driven-architecture]] â€” Event-Driven Architecture
-- [[APIs Distributed Systems/transactional-outbox]] â€” Transactional Outbox
+- [[Architecture/A224-transactional-outbox]] â€” Transactional Outbox
 
 ## Project Observations
 

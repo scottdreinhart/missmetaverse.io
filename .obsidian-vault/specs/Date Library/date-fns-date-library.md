@@ -122,10 +122,10 @@ date-fns does not apply to:
 
 ## Related Concepts
 
-- [[date-fns/date-fns-formatting]] â€” date-fns Formatting
-- [[date-fns/date-fns-manipulation]] â€” date-fns Manipulation
-- [[date-fns/date-fns-configuration]] â€” date-fns Configuration
-- [[date-fns/date-fns-localization]] â€” date-fns Localization
+- [[Date Library/date-fns-date-library]] â€” date-fns Formatting
+- [[Date Library/date-fns-date-library]] â€” date-fns Manipulation
+- [[Date Library/date-fns-date-library]] â€” date-fns Configuration
+- [[Date Library/date-fns-date-library]] â€” date-fns Localization
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses date-fns through:
 
 ## Sources
 
-- [[Sources/date-fns-documentation|date-fns Documentation]]
+- [[Sources/S031-date-fns-documentation|date-fns Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of date-fns Date Library Note**

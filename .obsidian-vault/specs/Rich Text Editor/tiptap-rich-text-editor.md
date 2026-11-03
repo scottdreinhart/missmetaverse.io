@@ -122,10 +122,10 @@ Tiptap does not apply to:
 
 ## Related Concepts
 
-- [[Tiptap/tiptap-editor-configuration]] â€” Tiptap Editor Configuration
-- [[Tiptap/tiptap-rich-text]] â€” Tiptap Rich Text
-- [[Tiptap/tiptap-content-editing]] â€” Tiptap Content Editing
-- [[Tiptap/tiptap-wysiwyg]] â€” Tiptap WYSIWYG
+- [[Rich Text Editor/tiptap-rich-text-editor]] â€” Tiptap Editor Configuration
+- [[Rich Text Editor/tiptap-rich-text-editor]] â€” Tiptap Rich Text
+- [[Rich Text Editor/tiptap-rich-text-editor]] â€” Tiptap Content Editing
+- [[Rich Text Editor/tiptap-rich-text-editor]] â€” Tiptap WYSIWYG
 
 ## Project Observations
 
@@ -137,7 +137,7 @@ The project uses Tiptap through:
 
 ## Sources
 
-- [[Sources/tiptap-documentation|Tiptap Documentation]]
+- [[Sources/S067-tiptap-documentation|Tiptap Documentation]]
 - [[Sources/S007-martinfowler-bliki|Martin Fowler â€” Patterns of Enterprise Application Architecture]]
 
 **End of Tiptap Rich Text Editor Note**

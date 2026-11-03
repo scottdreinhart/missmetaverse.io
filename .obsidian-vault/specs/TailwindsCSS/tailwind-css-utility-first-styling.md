@@ -122,9 +122,9 @@ Tailwind does not apply to:
 ## Related Concepts
 
 - [[Architecture/atomic-design]] â€” Design Systems
-- [[Architecture/design-tokens]] â€” Design Tokens
+- [[Architecture/A085-design-tokens]] â€” Design Tokens
 - [[Headless UI/headless-ui-components]] â€” Headless Components
-- [[ShadCN/shadcn-ui]] â€” ShadCN UI
+- [[ShadCN/shadcn-ui-component-library]] â€” ShadCN UI
 
 ## Project Observations
 
