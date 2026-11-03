@@ -418,7 +418,10 @@ function UserContent({ content }: { content: string }) {
 
 ## Cross-References
 
-- See [[tw-optimization-performance]] for Tailwind CSS integration
+- See [[tailwind-css-patterns]] for Tailwind CSS integration
 - See [[css3-performance-security]] for CSS3 performance fundamentals
 - See [[html5-best-practices]] for HTML5 accessibility patterns
+- See [[react-patterns]] for React component integration
+- See [[accessibility-a11y]] for accessibility best practices
+- See [[shadcn-ui-patterns]] for shadcn/ui component patterns
 

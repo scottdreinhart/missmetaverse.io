@@ -585,4 +585,16 @@ export function CustomCard({ title, subtitle, image, children, className }: Cust
 - [React Patterns](../React/react-patterns)
 - [Tailwind CSS](../TailwindsCSS/tailwind-css-patterns.md)
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md)
+- [CSS Fundamentals](../Cascading%20Stylesheets/css-fundamentals.md)
+- [Accessibility](../Architecture/accessibility-a11y.md)
+
+---
+
+## Integration with Other Notes
+
+- Read [[react-patterns]] for React component patterns
+- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[css-fundamentals]] for CSS fundamentals
+- Read [[accessibility-a11y]] for accessibility best practices
+- Read [[shadcn-best-practices]] for shadcn/ui best practices
 

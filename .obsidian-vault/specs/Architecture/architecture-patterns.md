@@ -402,3 +402,15 @@ async function retryWithBackoff<T>(
 - [DDD Patterns](./ddd-patterns.md)
 - [Atomic Design](./atomic-design.md)
 - [Coding Practices](./coding-practices.md)
+
+---
+
+## Integration with Other Notes
+
+- Read [[clean-architecture]] for clean architecture patterns
+- Read [[solid-principles]] for SOLID design principles
+- Read [[ddd-patterns]] for domain-driven design patterns
+- Read [[modular-monolith]] for modular monolith patterns
+- Read [[microservices]] for microservices patterns
+- Read [[cqrs-pattern]] for CQRS patterns
+- Read [[event-driven-architecture]] for event-driven patterns

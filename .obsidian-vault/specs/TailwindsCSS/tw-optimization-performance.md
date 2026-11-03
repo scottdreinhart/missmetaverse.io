@@ -349,6 +349,7 @@ export default defineConfig({
 
 - See [[ts-best-practices]] for TypeScript integration patterns
 - See [[css-media-queries]] for media query patterns and breakpoints
+- See [[tailwind-css-patterns]] for Tailwind CSS patterns
 
 ## Sources
 
@@ -356,4 +357,14 @@ export default defineConfig({
 - [[Sources/mdn-css-2024|mdn-css-2024]]
 - See [[css3-performance-security]] for CSS3 performance fundamentals
 - See [[html5-best-practices]] for HTML5 semantic structure with Tailwind
+
+---
+
+## Integration with Other Notes
+
+- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[css-fundamentals]] for CSS fundamentals
+- Read [[css-media-queries]] for media query patterns
+- Read [[html5-best-practices]] for HTML5 best practices
+- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
 

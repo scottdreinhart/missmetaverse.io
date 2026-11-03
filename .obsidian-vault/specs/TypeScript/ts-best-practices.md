@@ -382,3 +382,15 @@ function process(obj: unknown) {
 8. **Avoid `as` and `@ts-ignore`** — fix the root cause instead
 9. **Use generics with constraints** — balance flexibility and safety
 10. **Configure tsconfig properly** — strictness is the foundation
+
+---
+
+## Integration with Other Notes
+
+- Read [[typescript-strict-mode]] for TypeScript strict mode configuration
+- Read [[ts-fundamentals]] for TypeScript fundamentals
+- Read [[ts-advanced-types]] for advanced TypeScript types
+- Read [[ts-narrowing]] for type narrowing patterns
+- Read [[ts-security-best-practices]] for TypeScript security best practices
+- Read [[ts-optimization-performance]] for TypeScript optimization
+- Read [[ts-tsconfig]] for tsconfig.json configuration

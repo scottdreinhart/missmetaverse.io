@@ -494,3 +494,12 @@ class ErrorBoundary extends React.Component<
 - [TypeScript Strict Mode](../TypeScript/typescript-strict-mode.md)
 - [Testing Patterns](../Testing/testing-patterns.md)
 - [Coding Practices](./coding-practices.md)
+
+---
+
+## Integration with Other Notes
+
+- Read [[react-performance-security]] for React performance optimization
+- Read [[vitest-testing]] for testing React components
+- Read [[playwright-patterns]] for E2E testing
+- Read [[typescript-strict-mode]] for TypeScript integration

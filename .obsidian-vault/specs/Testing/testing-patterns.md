@@ -545,3 +545,12 @@ export interface TestOrderItem {
 - [React Patterns](../React/react-patterns)
 - [CI/CD GitHub Actions](./cicd-github-actions.md)
 
+---
+
+## Integration with Other Notes
+
+- Read [[vitest-testing]] for Vitest testing patterns
+- Read [[playwright-patterns]] for E2E testing with Playwright
+- Read [[react-patterns]] for React testing patterns
+- Read [[ci-cd-patterns]] for CI/CD testing integration
+

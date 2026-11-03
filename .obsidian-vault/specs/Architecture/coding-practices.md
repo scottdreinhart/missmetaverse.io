@@ -637,3 +637,15 @@ console.log(i18n.t('welcome', { name: 'John' }))  // "¡Bienvenido, John!"
 - [DDD Patterns](./ddd-patterns.md)
 - [Architecture Patterns](./architecture-patterns.md)
 - [Coding Practices](./coding-practices.md)
+
+---
+
+## Integration with Other Notes
+
+- Read [[clean-architecture]] for clean architecture patterns
+- Read [[solid-principles]] for SOLID design principles
+- Read [[ddd-patterns]] for domain-driven design patterns
+- Read [[architecture-patterns]] for architecture patterns
+- Read [[ts-best-practices]] for TypeScript best practices
+- Read [[react-patterns]] for React patterns
+- Read [[typescript-strict-mode]] for TypeScript strict mode

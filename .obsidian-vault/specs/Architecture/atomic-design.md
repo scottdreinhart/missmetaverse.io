@@ -431,3 +431,15 @@ src/components/
 - [DDD Patterns](./ddd-patterns.md)
 - [Architecture Patterns](./architecture-patterns.md)
 - [Coding Practices](./coding-practices.md)
+
+---
+
+## Integration with Other Notes
+
+- Read [[clean-architecture]] for clean architecture patterns
+- Read [[solid-principles]] for SOLID design principles
+- Read [[ddd-patterns]] for domain-driven design patterns
+- Read [[architecture-patterns]] for architecture patterns
+- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+- Read [[design-tokens]] for design token patterns

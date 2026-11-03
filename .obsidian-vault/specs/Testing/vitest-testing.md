@@ -794,6 +794,7 @@ pnpm test -- --ui
 
 ### Integration with Other Notes
 - Read [[playwright-patterns]] for E2E testing
+- Read [[testing-patterns]] for testing strategies
 - Read [[react-performance-security]] for React testing patterns
 - Read [[pnpm-best-practices]] for package management
 - Read [[vite-optimization-security]] for Vite configuration

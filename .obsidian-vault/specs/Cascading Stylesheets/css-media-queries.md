@@ -356,5 +356,14 @@ Container queries allow styles based on the **parent container's size**, not the
 
 ---
 
+## Integration with Other Notes
+
+- Read [[css-fundamentals]] for CSS fundamentals
+- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[responsive-design]] for responsive design patterns
+- Read [[html5-best-practices]] for HTML5 responsive patterns
+
+---
+
 *Source: MDN Web Docs — CSS Media Queries*
 *Last Verified: 2026-11-02*

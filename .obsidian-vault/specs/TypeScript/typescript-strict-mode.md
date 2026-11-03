@@ -427,7 +427,16 @@ emitter.on('user:login', (data) => {
 - [Testing Patterns](./testing-patterns.md)
 - [Coding Practices](./coding-practices.md)
 
-
-
 ---
+
+## Integration with Other Notes
+
+- Read [[ts-best-practices]] for TypeScript best practices
+- Read [[ts-fundamentals]] for TypeScript fundamentals
+- Read [[ts-advanced-types]] for advanced TypeScript types
+- Read [[ts-narrowing]] for type narrowing patterns
+- Read [[ts-security-best-practices]] for TypeScript security best practices
+- Read [[ts-optimization-performance]] for TypeScript optimization
+- Read [[ts-tsconfig]] for tsconfig.json configuration
+- Read [[react-patterns]] for React patterns
 

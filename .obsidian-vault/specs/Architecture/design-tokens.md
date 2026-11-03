@@ -60,6 +60,16 @@ Without design tokens:
 - [CSS Fundamentals](../Cascading%20Stylesheets/css-fundamentals.md) — CSS custom properties
 - [ShadCN UI](../ShadCN/shadcn-ui-patterns.md) — shadcn uses CSS variables as tokens
 
+---
+
+## Integration with Other Notes
+
+- Read [[tailwind-css-patterns]] for Tailwind CSS patterns
+- Read [[css-fundamentals]] for CSS fundamentals
+- Read [[shadcn-ui-patterns]] for shadcn/ui component patterns
+- Read [[shadcn-best-practices]] for shadcn/ui best practices
+- Read [[atomic-design]] for atomic design patterns
+
 ## Project Observations
 
 - The project uses Tailwind CSS which supports design tokens via `tailwind.config.js`
