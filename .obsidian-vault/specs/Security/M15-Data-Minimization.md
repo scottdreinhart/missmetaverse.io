@@ -1,5 +1,5 @@
 ﻿---
-slug: data-minimization
+slug: m15-data-minimization
 sources:
   - https://owasp.org/
   - https://gdpr.eu/

@@ -1,5 +1,5 @@
 ﻿---
-slug: continuous-integration
+slug: a055-continuous-integration
 sources:
   - https://learn.microsoft.com/en-us/azure/architecture/framework/devops/ci-cd
   - https://www.redhat.com/en/topics/devops/what-is-continuous-integration

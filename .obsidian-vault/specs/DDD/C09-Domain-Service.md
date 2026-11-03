@@ -1,5 +1,5 @@
 ﻿---
-slug: domain-service
+slug: c09-domain-service
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/DomainService.html

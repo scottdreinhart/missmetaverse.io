@@ -1,5 +1,5 @@
 ﻿---
-slug: pure-functions
+slug: a179-pure-functions
 sources:
   - https://en.wikipedia.org/wiki/Pure_function
   - https://wiki.c2.com/?PureFunction

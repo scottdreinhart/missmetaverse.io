@@ -1,5 +1,5 @@
 ﻿---
-slug: conventional-commits
+slug: a056-conventional-commits
 sources:
   - https://www.conventionalcommits.org/
   - https://www.npmjs.com/package/@commitlint/config-conventional

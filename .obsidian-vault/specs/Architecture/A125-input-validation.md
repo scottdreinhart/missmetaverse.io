@@ -1,5 +1,5 @@
 ﻿---
-slug: input-validation
+slug: a125-input-validation
 sources:
   - https://en.wikipedia.org/wiki/Data_validation
   - https://zod.dev/

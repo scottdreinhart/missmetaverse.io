@@ -1,5 +1,5 @@
 ﻿---
-slug: schema-driven-development
+slug: a192-schema-driven-development
 sources:
   - https://zod.dev/
   - https://en.wikipedia.org/wiki/Data_validation

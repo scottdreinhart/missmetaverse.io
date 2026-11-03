@@ -1,5 +1,5 @@
 ﻿---
-slug: api-gateway-pattern
+slug: a012-api-gateway-pattern
 sources:
   - https://www.nginx.com/resources/glossary/api-gateway/
   - https://docs.aws.amazon.com/apigateway/

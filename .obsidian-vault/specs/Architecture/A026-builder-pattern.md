@@ -1,5 +1,5 @@
 ﻿---
-slug: builder-pattern
+slug: a026-builder-pattern
 sources:
   - https://refactoring.guru/design-patterns/builder
   - https://en.wikipedia.org/wiki/Builder_pattern

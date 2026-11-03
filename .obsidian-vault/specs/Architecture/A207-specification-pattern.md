@@ -1,5 +1,5 @@
 ﻿---
-slug: specification-pattern
+slug: a207-specification-pattern
 sources:
   - https://martinfowler.com/bliki/SpecificationPattern.html
   - https://en.wikipedia.org/wiki/Specification_pattern

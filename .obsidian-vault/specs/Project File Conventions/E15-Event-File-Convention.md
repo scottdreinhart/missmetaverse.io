@@ -1,5 +1,5 @@
 ﻿---
-slug: event-file-convention
+slug: e15-event-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/

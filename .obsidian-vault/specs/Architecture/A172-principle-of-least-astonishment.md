@@ -1,5 +1,5 @@
 ﻿---
-slug: principle-of-least-astonishment
+slug: a172-principle-of-least-astonishment
 sources:
   - https://en.wikipedia.org/wiki/Principle_of_least_astonishment
   - https://pragmaticprogrammer.com/books/ppola

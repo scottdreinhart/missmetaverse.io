@@ -1,5 +1,5 @@
 ﻿---
-slug: metadata-driven-ui
+slug: k04-metadata-driven-ui
 sources:
   - https://react.dev/
   - https://json-schema.org/

@@ -1,5 +1,5 @@
 ﻿---
-slug: command-pattern
+slug: a040-command-pattern
 sources:
   - https://en.wikipedia.org/wiki/Command_pattern
   - https://martinfowler.com/eaaDev/commandObject.html

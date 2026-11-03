@@ -1,5 +1,5 @@
 ﻿---
-slug: template-method-pattern
+slug: a221-template-method-pattern
 sources:
   - https://en.wikipedia.org/wiki/Template_method_pattern
   - https://martinfowler.com/eaaDev/templateMethod.html

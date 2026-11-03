@@ -1,5 +1,5 @@
 ﻿---
-slug: secure-by-design
+slug: m07-secure-by-design
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/

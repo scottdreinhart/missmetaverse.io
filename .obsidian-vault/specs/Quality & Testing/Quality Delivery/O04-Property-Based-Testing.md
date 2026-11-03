@@ -1,5 +1,5 @@
 ﻿---
-slug: property-based-testing
+slug: o04-property-based-testing
 sources:
   - https://github.com/quicktype/quicktype
   - https://vitest.dev/

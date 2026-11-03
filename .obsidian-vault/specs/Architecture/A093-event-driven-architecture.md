@@ -1,5 +1,5 @@
 ﻿---
-slug: event-driven-architecture
+slug: a093-event-driven-architecture
 sources:
   - https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html
   - https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven

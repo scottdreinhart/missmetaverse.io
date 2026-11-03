@@ -1,5 +1,5 @@
 ﻿---
-slug: idempotency
+slug: j14-idempotency
 sources:
   - https://www.postgresql.org/docs/
   - https://martinfowler.com/bliki/IdempotentOperation.html

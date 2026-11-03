@@ -1,5 +1,5 @@
 ﻿---
-slug: microservices
+slug: a143-microservices
 sources:
   - https://martinfowler.com/articles/microservices.html
   - https://docs.microsoft.com/en-us/azure/architecture/guide/microservices/

@@ -1,5 +1,5 @@
 ﻿---
-slug: structured-concurrency
+slug: n10-structured-concurrency
 sources:
   - https://www.typescriptlang.org/
   - https://nodejs.org/

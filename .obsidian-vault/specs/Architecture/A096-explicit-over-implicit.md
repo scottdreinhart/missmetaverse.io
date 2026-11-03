@@ -1,5 +1,5 @@
 ﻿---
-slug: explicit-over-implicit
+slug: a096-explicit-over-implicit
 sources:
   - https://pragmaticprogrammer.com/books/pp
   - https://pragmaticprogrammer.com/titles/tpphr/

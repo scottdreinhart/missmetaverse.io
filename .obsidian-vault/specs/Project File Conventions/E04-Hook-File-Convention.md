@@ -1,5 +1,5 @@
 ﻿---
-slug: hook-file-convention
+slug: e04-hook-file-convention
 sources:
   - https://react.dev/
   - https://vitejs.dev/

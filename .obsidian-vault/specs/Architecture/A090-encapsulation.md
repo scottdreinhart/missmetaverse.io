@@ -1,5 +1,5 @@
 ﻿---
-slug: encapsulation
+slug: a090-encapsulation
 sources:
   - https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
   - https://www.geeksforgeeks.org/what-is-encapsulation-in-object-oriented-programming/

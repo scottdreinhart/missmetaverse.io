@@ -1,5 +1,5 @@
 ﻿---
-slug: repository-pattern
+slug: a186-repository-pattern
 sources:
   - https://martinfowler.com/eaaDev/repository.html
   - https://en.wikipedia.org/wiki/Repository_pattern

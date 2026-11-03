@@ -1,5 +1,5 @@
 ﻿---
-slug: caching-strategies
+slug: a030-caching-strategies
 sources:
   - https://en.wikipedia.org/wiki/Cache_(computing)
   - https://docs.redis.io/

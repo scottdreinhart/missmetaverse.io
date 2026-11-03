@@ -1,5 +1,5 @@
 ﻿---
-slug: single-source-of-truth
+slug: k09-single-source-of-truth
 sources:
   - https://en.wikipedia.org/wiki/Single_source_of_truth
   - https://martinfowler.com/bliki/SingleSourceOfTruth.html

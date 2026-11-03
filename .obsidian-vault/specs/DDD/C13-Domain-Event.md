@@ -1,5 +1,5 @@
 ﻿---
-slug: domain-event
+slug: c13-domain-event
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/DomainEvent.html

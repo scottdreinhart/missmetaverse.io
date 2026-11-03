@@ -1,5 +1,5 @@
 ﻿---
-slug: separation-of-duties
+slug: m06-separation-of-duties
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/

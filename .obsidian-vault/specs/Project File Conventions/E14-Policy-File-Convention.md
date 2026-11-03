@@ -1,5 +1,5 @@
 ﻿---
-slug: policy-file-convention
+slug: e14-policy-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/

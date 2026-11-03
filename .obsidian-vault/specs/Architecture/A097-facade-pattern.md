@@ -1,5 +1,5 @@
 ﻿---
-slug: facade-pattern
+slug: a097-facade-pattern
 sources:
   - https://en.wikipedia.org/wiki/Facade_pattern
   - https://martinfowler.com/eaaDev/adapter.html

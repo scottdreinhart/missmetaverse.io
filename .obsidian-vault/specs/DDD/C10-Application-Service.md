@@ -1,5 +1,5 @@
 ﻿---
-slug: application-service
+slug: c10-application-service
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/articles/2023-01-software-architecture.html

@@ -1,5 +1,5 @@
 ﻿---
-slug: data-modeling
+slug: a071-data-modeling
 sources:
   - https://en.wikipedia.org/wiki/Data_modeling
   - https://www.postgresql.org/docs/current/ddl.html

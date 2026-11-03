@@ -1,5 +1,5 @@
 ﻿---
-slug: message-deduplication
+slug: l09-message-deduplication
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/guide/components/inbox-outbox
   - https://microservices.io/patterns/data/transactional-outbox.html

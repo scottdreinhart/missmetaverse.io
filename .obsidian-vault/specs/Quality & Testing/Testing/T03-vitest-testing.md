@@ -1,5 +1,5 @@
 ﻿---
-slug: vitest-testing
+slug: t03-vitest-testing
 sources:
   - https://vitest.dev/guide/
   - https://vitest.dev/config/

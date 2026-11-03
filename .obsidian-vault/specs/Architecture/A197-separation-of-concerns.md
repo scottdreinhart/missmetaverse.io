@@ -1,5 +1,5 @@
 ﻿---
-slug: separation-of-concerns
+slug: a197-separation-of-concerns
 sources:
   - https://en.wikipedia.org/wiki/Separation_of_concerns
   - https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF

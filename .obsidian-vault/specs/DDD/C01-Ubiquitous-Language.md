@@ -1,5 +1,5 @@
 ﻿---
-slug: ubiquitous-language
+slug: c01-ubiquitous-language
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/UbiquitousLanguage.html

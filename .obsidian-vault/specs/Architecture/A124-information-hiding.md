@@ -1,5 +1,5 @@
 ﻿---
-slug: information-hiding
+slug: a124-information-hiding
 sources:
   - https://en.wikipedia.org/wiki/Information_hiding
   - https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD339.PDF

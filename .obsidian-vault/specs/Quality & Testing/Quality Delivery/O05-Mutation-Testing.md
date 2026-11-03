@@ -1,5 +1,5 @@
 ﻿---
-slug: mutation-testing
+slug: o05-mutation-testing
 sources:
   - https://mutatest.com/
   - https://stryker-mutator.io/

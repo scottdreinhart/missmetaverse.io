@@ -1,5 +1,5 @@
 ﻿---
-slug: atomic-design
+slug: a018-atomic-design
 sources:
   - https://atomicdesign.bradfrost.com/chapter-2/
   - https://bradfrost.com/blog/post/atomic-web-design/

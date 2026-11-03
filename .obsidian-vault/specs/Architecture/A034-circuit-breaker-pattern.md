@@ -1,5 +1,5 @@
 ﻿---
-slug: circuit-breaker-pattern
+slug: a034-circuit-breaker-pattern
 sources:
   - https://martinfowler.com/bliki/CircuitBreaker.html
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker

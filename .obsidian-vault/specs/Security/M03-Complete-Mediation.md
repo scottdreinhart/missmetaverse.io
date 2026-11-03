@@ -1,5 +1,5 @@
 ﻿---
-slug: complete-mediation
+slug: m03-complete-mediation
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/

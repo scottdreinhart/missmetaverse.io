@@ -1,5 +1,5 @@
 ﻿---
-slug: incremental-refactoring
+slug: o13-incremental-refactoring
 sources:
   - https://martinfowler.com/books/refactoring.html
   - https://www.oreilly.com/library/view/refactoring/9780137858039/

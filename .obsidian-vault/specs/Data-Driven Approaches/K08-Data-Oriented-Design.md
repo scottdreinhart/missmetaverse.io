@@ -1,5 +1,5 @@
 ﻿---
-slug: data-oriented-design
+slug: k08-data-oriented-design
 sources:
   - https://en.wikipedia.org/wiki/Data-oriented_design
   - https://www.youtube.com/watch?v=N_E_0y6EU6o

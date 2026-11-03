@@ -1,5 +1,5 @@
 ﻿---
-slug: cqrs-pattern
+slug: a059-cqrs-pattern
 sources:
   - https://martinfowler.com/bliki/CQRS.html
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs

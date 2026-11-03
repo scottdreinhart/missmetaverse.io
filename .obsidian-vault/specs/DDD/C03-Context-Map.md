@@ -1,5 +1,5 @@
 ﻿---
-slug: context-map
+slug: c03-context-map
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/ContextMap.html

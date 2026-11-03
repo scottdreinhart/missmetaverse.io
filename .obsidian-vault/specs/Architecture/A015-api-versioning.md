@@ -1,5 +1,5 @@
 ﻿---
-slug: api-versioning
+slug: a015-api-versioning
 sources:
   - https://swagger.io/blog/api-versioning/
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design

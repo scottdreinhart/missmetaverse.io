@@ -1,5 +1,5 @@
 ﻿---
-slug: proxy-pattern
+slug: a177-proxy-pattern
 sources:
   - https://en.wikipedia.org/wiki/Proxy_pattern
   - https://martinfowler.com/eaaDev/adapter.html

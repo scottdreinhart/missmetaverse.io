@@ -1,5 +1,5 @@
 ﻿---
-slug: singleton-pattern
+slug: a203-singleton-pattern
 sources:
   - https://refactoring.guru/design-patterns/singleton
   - https://en.wikipedia.org/wiki/Singleton_pattern

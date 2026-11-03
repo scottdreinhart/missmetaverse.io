@@ -1,5 +1,5 @@
 ﻿---
-slug: value-object
+slug: c05-value-object
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/ValueObject.html

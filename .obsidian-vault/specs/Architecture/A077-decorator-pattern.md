@@ -1,5 +1,5 @@
 ﻿---
-slug: decorator-pattern
+slug: a077-decorator-pattern
 sources:
   - https://en.wikipedia.org/wiki/Decorator_pattern
   - https://martinfowler.com/eaaDev/adapter.html

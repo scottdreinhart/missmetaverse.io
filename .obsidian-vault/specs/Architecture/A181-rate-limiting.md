@@ -1,5 +1,5 @@
 ﻿---
-slug: rate-limiting
+slug: a181-rate-limiting
 sources:
   - https://swagger.io/blog/api-design/rate-limiting-in-rest-apis/
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific

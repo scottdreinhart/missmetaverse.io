@@ -1,5 +1,5 @@
 ﻿---
-slug: law-of-demeter
+slug: a132-law-of-demeter
 sources:
   - https://en.wikipedia.org/wiki/Law_of_Demeter
   - https://www.slideshare.net/bill_lacoste/law-of-demeter

@@ -1,5 +1,5 @@
 ﻿---
-slug: entity-file-convention
+slug: e12-entity-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/

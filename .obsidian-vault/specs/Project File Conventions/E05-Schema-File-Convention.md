@@ -1,5 +1,5 @@
 ﻿---
-slug: schema-file-convention
+slug: e05-schema-file-convention
 sources:
   - https://zod.dev/
   - https://www.typescriptlang.org/

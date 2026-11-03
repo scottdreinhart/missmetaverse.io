@@ -1,5 +1,5 @@
 ﻿---
-slug: command-query-separation
+slug: a042-command-query-separation
 sources:
   - https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
   - https://en.wikipedia.org/wiki/CQRS

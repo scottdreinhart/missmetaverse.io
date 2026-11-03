@@ -1,5 +1,5 @@
 ﻿---
-slug: discriminated-unions
+slug: a086-discriminated-unions
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions
   - https://typescript.tv/

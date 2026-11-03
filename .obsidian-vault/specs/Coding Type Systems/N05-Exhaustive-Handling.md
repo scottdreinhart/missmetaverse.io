@@ -1,5 +1,5 @@
 ﻿---
-slug: exhaustive-handling
+slug: n05-exhaustive-handling
 sources:
   - https://www.typescriptlang.org/
   - https://react.dev/

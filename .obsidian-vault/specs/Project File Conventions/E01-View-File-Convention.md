@@ -1,5 +1,5 @@
 ﻿---
-slug: view-file-convention
+slug: e01-view-file-convention
 sources:
   - https://react.dev/
   - https://vitejs.dev/

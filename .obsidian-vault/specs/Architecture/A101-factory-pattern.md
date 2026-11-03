@@ -1,5 +1,5 @@
 ﻿---
-slug: factory-pattern
+slug: a101-factory-pattern
 sources:
   - https://martinfowler.com/eaaDev/repository.html
   - https://en.wikipedia.org/wiki/Factory_method_pattern

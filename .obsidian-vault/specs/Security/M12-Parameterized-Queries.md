@@ -1,5 +1,5 @@
 ﻿---
-slug: parameterized-queries
+slug: m12-parameterized-queries
 sources:
   - https://owasp.org/
   - https://www.postgresql.org/docs/

@@ -1,5 +1,5 @@
 ﻿---
-slug: bounded-context
+slug: c02-bounded-context
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/BoundedContext.html

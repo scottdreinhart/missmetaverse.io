@@ -1,5 +1,5 @@
 ﻿---
-slug: make-invalid-states-unrepresentable
+slug: a138-make-invalid-states-unrepresentable
 sources:
   - https://www.youtube.com/watch?v=rFfWjDnBjAU
   - https://voithos.github.io/blog/posts/make-illegal-states-unrepresentable/

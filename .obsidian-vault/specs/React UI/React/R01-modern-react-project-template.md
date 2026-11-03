@@ -1,5 +1,5 @@
 ﻿---
-slug: modern-react-project-template
+slug: r01-modern-react-project-template
 title: Modern React Project Development Guide
 description: Comprehensive guide for modern frontend projects based on React 18 + TypeScript + Vite
 author: Copilot

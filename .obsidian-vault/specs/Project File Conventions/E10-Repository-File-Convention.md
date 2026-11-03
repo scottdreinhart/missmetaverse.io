@@ -1,5 +1,5 @@
 ﻿---
-slug: repository-file-convention
+slug: e10-repository-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/

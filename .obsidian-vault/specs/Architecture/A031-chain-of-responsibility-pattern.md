@@ -1,5 +1,5 @@
 ﻿---
-slug: chain-of-responsibility-pattern
+slug: a031-chain-of-responsibility-pattern
 sources:
   - https://en.wikipedia.org/wiki/Chain_of_responsibility_pattern
   - https://martinfowler.com/eaaDev/chainOfResponsibility.html

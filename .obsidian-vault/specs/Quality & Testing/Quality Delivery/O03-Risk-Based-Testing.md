@@ -1,5 +1,5 @@
 ﻿---
-slug: risk-based-testing
+slug: o03-risk-based-testing
 sources:
   - https://www.ministryoftesting.com/
   - https://martinfowler.com/articles/risk-based-testing.html

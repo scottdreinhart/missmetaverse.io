@@ -1,5 +1,5 @@
 ﻿---
-slug: reproducible-builds
+slug: o09-reproducible-builds
 sources:
   - https://reproducible-builds.org/
   - https://vitejs.dev/

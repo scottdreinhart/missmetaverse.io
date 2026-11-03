@@ -1,5 +1,5 @@
 ﻿---
-slug: mediator-pattern
+slug: a139-mediator-pattern
 sources:
   - https://en.wikipedia.org/wiki/Mediator_pattern
   - https://martinfowler.com/eaaDev/mediator.html

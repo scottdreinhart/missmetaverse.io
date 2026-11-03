@@ -1,5 +1,5 @@
 ﻿---
-slug: Application Architecture/modular-monolith-architecture-architecture
+slug: modular-monolith-architecture
 ---
 
 # Modular Monolith Architecture
@@ -8,7 +8,7 @@ slug: Application Architecture/modular-monolith-architecture-architecture
 > **Last Updated:** 2026-11-03
 
 ## concept_id
-`Application Architecture/modular-monolith-architecture-architecture`
+`modular-monolith-architecture`
 
 ## title
 Modular Monolith Architecture
@@ -18,6 +18,23 @@ Modular Monolith Architecture
 - Modular Architecture
 - Monolith First
 - Module Boundaries
+
+## category
+application-design
+
+## concept_type
+architecture-pattern
+
+## research_status
+verified
+
+## project_adoption
+recommended
+
+## tags
+- architecture
+- modular-design
+- application-pattern
 
 ## category
 application-architecture

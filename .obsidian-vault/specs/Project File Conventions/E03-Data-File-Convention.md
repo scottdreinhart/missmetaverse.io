@@ -1,5 +1,5 @@
 ﻿---
-slug: data-file-convention
+slug: e03-data-file-convention
 sources:
   - https://react.dev/
   - https://vitejs.dev/

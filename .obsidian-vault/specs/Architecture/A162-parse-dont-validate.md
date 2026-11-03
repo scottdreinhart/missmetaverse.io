@@ -1,5 +1,5 @@
 ﻿---
-slug: parse-dont-validate
+slug: a162-parse-dont-validate
 sources:
   - https://hynek.me/articles/validate-before-parsing/
   - https://gleb-tarasov.com/blog/parse-dont-validate/

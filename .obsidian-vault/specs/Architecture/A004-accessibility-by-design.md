@@ -1,5 +1,5 @@
 ﻿---
-slug: accessibility-by-design
+slug: a004-accessibility-by-design
 sources:
   - https://www.w3.org/WAI/
   - https://developer.mozilla.org/en-US/docs/Web/Accessibility

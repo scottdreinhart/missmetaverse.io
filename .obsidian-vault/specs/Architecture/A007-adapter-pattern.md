@@ -1,5 +1,5 @@
 ﻿---
-slug: adapter-pattern
+slug: a007-adapter-pattern
 sources:
   - https://en.wikipedia.org/wiki/Adapter_pattern
   - https://martinfowler.com/eaaDev/adapter.html

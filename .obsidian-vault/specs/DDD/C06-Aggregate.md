@@ -1,5 +1,5 @@
 ﻿---
-slug: aggregate
+slug: c06-aggregate
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/Aggregate.html

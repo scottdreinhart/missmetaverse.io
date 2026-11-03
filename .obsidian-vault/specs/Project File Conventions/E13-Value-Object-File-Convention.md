@@ -1,5 +1,5 @@
 ﻿---
-slug: value-object-file-convention
+slug: e13-value-object-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/

@@ -1,5 +1,5 @@
 ﻿---
-slug: resource-lifecycle
+slug: n09-resource-lifecycle-management
 sources:
   - https://www.typescriptlang.org/
   - https://nodejs.org/

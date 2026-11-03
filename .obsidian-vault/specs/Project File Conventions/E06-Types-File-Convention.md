@@ -1,5 +1,5 @@
 ﻿---
-slug: types-file-convention
+slug: e06-types-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/

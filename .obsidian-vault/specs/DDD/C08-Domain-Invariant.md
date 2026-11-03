@@ -1,5 +1,5 @@
 ﻿---
-slug: domain-invariant
+slug: c08-domain-invariant
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/DomainInvariant.html

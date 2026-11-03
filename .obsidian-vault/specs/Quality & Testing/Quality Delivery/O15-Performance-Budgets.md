@@ -1,5 +1,5 @@
 ﻿---
-slug: performance-budgets
+slug: o15-performance-budgets
 sources:
   - https://web.dev/performance-budgets/
   - https://vitejs.dev/

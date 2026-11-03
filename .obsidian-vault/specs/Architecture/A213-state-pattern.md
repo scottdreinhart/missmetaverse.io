@@ -1,5 +1,5 @@
 ﻿---
-slug: state-pattern
+slug: a213-state-pattern
 sources:
   - https://en.wikipedia.org/wiki/State_pattern
   - https://martinfowler.com/eaaDev/stateMemento.html

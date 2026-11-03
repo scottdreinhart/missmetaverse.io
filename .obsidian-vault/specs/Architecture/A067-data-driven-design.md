@@ -1,5 +1,5 @@
 ﻿---
-slug: data-driven-design
+slug: a067-data-driven-design
 sources:
   - https://en.wikipedia.org/wiki/Data-driven_design
   - https://en.wikipedia.org/wiki/Configuration-driven_development

@@ -1,5 +1,5 @@
 ﻿---
-slug: explicit-error-modeling
+slug: a095-explicit-error-modeling
 sources:
   - https://en.wikipedia.org/wiki/Error_handling
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html

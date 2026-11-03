@@ -1,5 +1,5 @@
 ﻿---
-slug: low-coupling
+slug: a137-low-coupling
 sources:
   - https://en.wikipedia.org/wiki/Coupling_(computer_programming)
   - https://blog.cleancoder.com/uncle-bob/2014/08/14/TheCleanArchitecture.html

@@ -1,5 +1,5 @@
 ﻿---
-slug: observer-pattern
+slug: a157-observer-pattern
 sources:
   - https://en.wikipedia.org/wiki/Observer_pattern
   - https://martinfowler.com/eaaDev/observer.html

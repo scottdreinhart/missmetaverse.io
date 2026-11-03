@@ -1,5 +1,5 @@
 ﻿---
-slug: observability
+slug: a156-observability
 sources:
   - https://opentelemetry.io/docs/specs/otel/overview/
   - https://docs.sentry.io/

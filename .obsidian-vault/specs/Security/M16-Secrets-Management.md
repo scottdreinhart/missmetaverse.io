@@ -1,5 +1,5 @@
 ﻿---
-slug: secrets-management
+slug: m16-secrets-management
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/

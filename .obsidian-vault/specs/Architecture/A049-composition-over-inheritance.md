@@ -1,5 +1,5 @@
 ﻿---
-slug: composition-over-inheritance
+slug: a049-composition-over-inheritance
 sources:
   - https://en.wikipedia.org/wiki/Composition_over_inheritance
   - https://www.artima.com/intv/bloch13.html

@@ -1,5 +1,5 @@
 ﻿---
-slug: tell-dont-ask
+slug: a220-tell-dont-ask
 sources:
   - https://en.wikipedia.org/wiki/Principle_of_Least_Knowledge
   - https://www.artima.com/intv/bloch13.html

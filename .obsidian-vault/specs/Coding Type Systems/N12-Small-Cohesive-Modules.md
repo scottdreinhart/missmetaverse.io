@@ -1,5 +1,5 @@
 ﻿---
-slug: small-cohesive-modules
+slug: n12-small-cohesive-modules
 sources:
   - https://www.typescriptlang.org/
   - https://eslint.org/

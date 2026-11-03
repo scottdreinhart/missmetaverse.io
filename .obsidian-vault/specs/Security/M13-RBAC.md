@@ -1,5 +1,5 @@
 ﻿---
-slug: rbac
+slug: m13-rbac
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/

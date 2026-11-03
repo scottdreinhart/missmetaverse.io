@@ -1,5 +1,5 @@
 ﻿---
-slug: logic-file-convention
+slug: e02-logic-file-convention
 sources:
   - https://react.dev/
   - https://vitejs.dev/

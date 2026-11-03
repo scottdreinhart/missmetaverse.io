@@ -1,5 +1,5 @@
 ﻿---
-slug: architecture-decision-records
+slug: a016-architecture-decision-records
 sources:
   - https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions
   - https://github.com/18F/adr-template

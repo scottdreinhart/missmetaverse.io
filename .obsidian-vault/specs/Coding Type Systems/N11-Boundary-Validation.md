@@ -1,5 +1,5 @@
 ﻿---
-slug: boundary-validation
+slug: n11-boundary-validation
 sources:
   - https://www.typescriptlang.org/
   - https://zod.dev/

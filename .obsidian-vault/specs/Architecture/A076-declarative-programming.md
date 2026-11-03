@@ -1,5 +1,5 @@
 ﻿---
-slug: declarative-programming
+slug: a076-declarative-programming
 sources:
   - https://en.wikipedia.org/wiki/Declarative_programming
   - https://en.wikipedia.org/wiki/Imperative_programming

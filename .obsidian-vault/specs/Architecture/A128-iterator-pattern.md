@@ -1,5 +1,5 @@
 ﻿---
-slug: iterator-pattern
+slug: a128-iterator-pattern
 sources:
   - https://en.wikipedia.org/wiki/Iterator_pattern
   - https://martinfowler.com/eaaDev/iterator.html

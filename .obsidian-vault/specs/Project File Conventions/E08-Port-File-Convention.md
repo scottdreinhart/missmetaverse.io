@@ -1,5 +1,5 @@
 ﻿---
-slug: port-file-convention
+slug: e08-port-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/

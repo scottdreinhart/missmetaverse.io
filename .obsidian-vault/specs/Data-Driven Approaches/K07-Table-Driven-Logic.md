@@ -1,5 +1,5 @@
 ﻿---
-slug: table-driven-logic
+slug: k07-table-driven-logic
 sources:
   - https://go.dev/blog/table-driven-tests
   - https://en.wikipedia.org/wiki/Table-driven_testing

@@ -1,5 +1,5 @@
 ﻿---
-slug: rest-api-design
+slug: a189-rest-api-design
 sources:
   - https://restfulapi.net/
   - https://martinfowler.com/articles/richardsonMaturityModel.html

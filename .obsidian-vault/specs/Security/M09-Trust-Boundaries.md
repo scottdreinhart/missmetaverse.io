@@ -1,5 +1,5 @@
 ﻿---
-slug: trust-boundaries
+slug: m09-trust-boundaries
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/

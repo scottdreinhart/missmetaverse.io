@@ -1,5 +1,5 @@
 ﻿---
-slug: strategy-pattern
+slug: a216-strategy-pattern
 sources:
   - https://en.wikipedia.org/wiki/Strategy_pattern
   - https://martinfowler.com/eaaDev/strategyObject.html

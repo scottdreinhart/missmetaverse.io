@@ -1,5 +1,5 @@
 ﻿---
-slug: use-case-file-convention
+slug: e11-use-case-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/

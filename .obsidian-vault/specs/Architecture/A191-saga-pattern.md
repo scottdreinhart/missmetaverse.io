@@ -1,5 +1,5 @@
 ﻿---
-slug: saga-pattern
+slug: a191-saga-pattern
 sources:
   - https://microservices.io/patterns/data/saga.html
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/saga

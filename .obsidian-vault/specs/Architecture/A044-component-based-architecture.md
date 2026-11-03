@@ -1,5 +1,5 @@
 ﻿---
-slug: component-based-architecture
+slug: a044-component-based-architecture
 sources:
   - https://react.dev/
   - https://en.wikipedia.org/wiki/Component-based_software_engineering

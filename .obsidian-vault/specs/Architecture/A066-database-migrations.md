@@ -1,5 +1,5 @@
 ﻿---
-slug: database-migrations
+slug: a066-database-migrations
 sources:
   - https://en.wikipedia.org/wiki/Database_migration
   - https://www.npmjs.com/package/knex

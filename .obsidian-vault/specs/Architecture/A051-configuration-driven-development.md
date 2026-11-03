@@ -1,5 +1,5 @@
 ﻿---
-slug: configuration-driven-development
+slug: a051-configuration-driven-development
 sources:
   - https://en.wikipedia.org/wiki/Configuration-driven_development
   - https://en.wikipedia.org/wiki/Declarative_programming

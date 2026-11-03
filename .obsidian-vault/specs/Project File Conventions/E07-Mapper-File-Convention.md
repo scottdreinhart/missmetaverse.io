@@ -1,5 +1,5 @@
 ﻿---
-slug: mapper-file-convention
+slug: e07-mapper-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/

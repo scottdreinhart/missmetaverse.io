@@ -1,5 +1,5 @@
 ﻿---
-slug: contract-testing
+slug: o06-contract-testing
 sources:
   - https://docs.pact.io/
   - https://www.npmjs.com/package/bravado

@@ -1,5 +1,5 @@
 ﻿---
-slug: secure-defaults
+slug: m08-secure-defaults
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/

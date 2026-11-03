@@ -1,5 +1,5 @@
 ﻿---
-slug: abac
+slug: m14-abac
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/

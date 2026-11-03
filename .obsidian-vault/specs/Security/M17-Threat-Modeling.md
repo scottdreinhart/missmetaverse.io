@@ -1,5 +1,5 @@
 ﻿---
-slug: threat-modeling
+slug: m17-threat-modeling
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/

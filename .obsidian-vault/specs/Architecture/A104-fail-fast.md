@@ -1,5 +1,5 @@
 ﻿---
-slug: fail-fast
+slug: a104-fail-fast
 sources:
   - https://en.wikipedia.org/wiki/Fail-fast
   - https://en.wikipedia.org/wiki/Fail-safe

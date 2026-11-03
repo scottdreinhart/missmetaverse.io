@@ -1,5 +1,5 @@
 ﻿---
-slug: typescript-strict-mode
+slug: t10-typescript-strict-mode
 sources:
   - https://www.typescriptlang.org/tsconfig#strict
 date: 2026-11-02
@@ -23,7 +23,7 @@ tags:
   - strict
   - compiler-options
 ---
-slug: typescript-strict-mode
+slug: t10-typescript-strict-mode
 sources:
   - https://www.typescriptlang.org/docs/handbook/type-compatibility.html
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html

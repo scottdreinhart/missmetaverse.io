@@ -1,5 +1,5 @@
 ﻿---
-slug: internationalization-by-design
+slug: a126-internationalization-by-design
 sources:
   - https://www.w3.org/International/
   - https://formatjs.io/docs/getting-started/

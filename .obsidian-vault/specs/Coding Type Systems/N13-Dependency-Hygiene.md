@@ -1,5 +1,5 @@
 ﻿---
-slug: dependency-hygiene
+slug: n13-dependency-hygiene
 sources:
   - https://www.typescriptlang.org/
   - https://pnpm.io/
