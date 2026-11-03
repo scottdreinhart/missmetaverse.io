@@ -76,3 +76,355 @@ Without parameterized queries:
 - [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
+---
+
+## Decision Tree: SQL Query Security
+
+```mermaid
+graph TD
+    A[Need to query database?]\n    A --> B{User input?}
+    B -->|Yes| C[Parameterized query]
+    B -->|No| D[Static query]
+    C --> E{ORM?}
+    E -->|Yes| F[ORM methods]
+    E -->|No| G[Raw query + params]
+    F --> H{Type-safe?}
+    H -->|Yes| I[Prisma/TypeORM]
+    H -->|No| J[pg/pool]
+    G --> K{PostgreSQL?}
+    K -->|Yes| L[$1, $2 params]
+    K -->|No| M[? params]
+```
+
+### When to Use Parameterized Queries
+
+| Situation | Action | Example |
+|-----------|--------|---------|
+| **User input** | Parameterized query | WHERE id = $1 |
+| **ORM** | Use ORM methods | prisma.user.findUnique |
+| **Static query** | No params needed | SELECT * FROM config |
+| **Dynamic WHERE** | Build params array | WHERE name = $1 AND age > $2 |
+
+---
+
+## Procedural Guidance: Parameterized Query Implementation
+
+### Step 1: Use Prisma (Recommended)
+
+```typescript
+// repositories/user.repository.ts
+import { PrismaClient } from '@prisma/client'
+
+export class PrismaUserRepository {
+  private prisma: PrismaClient
+
+  constructor() {
+    this.prisma = new PrismaClient()
+  }
+
+  // ✅ Safe — Prisma uses parameterized queries
+  async findById(id: string) {
+    return this.prisma.user.findUnique({
+      where: { id },
+    })
+  }
+
+  // ✅ Safe — Prisma escapes user input
+  async findByEmail(email: string) {
+    return this.prisma.user.findUnique({
+      where: { email },
+    })
+  }
+
+  // ✅ Safe — Prisma handles SQL injection
+  async searchUsers(query: string) {
+    return this.prisma.user.findMany({
+      where: {
+        OR: [
+          { name: { contains: query } },
+          { email: { contains: query } },
+        ],
+      },
+    })
+  }
+
+  // ✅ Safe — Prisma uses parameterized queries
+  async createUser(name: string, email: string) {
+    return this.prisma.user.create({
+      data: { name, email },
+    })
+  }
+
+  // ✅ Safe — Prisma escapes user input
+  async updateUser(id: string, name: string) {
+    return this.prisma.user.update({
+      where: { id },
+      data: { name },
+    })
+  }
+
+  // ✅ Safe — Prisma uses parameterized queries
+  async deleteUser(id: string) {
+    return this.prisma.user.delete({
+      where: { id },
+    })
+  }
+}
+```
+
+### Step 2: Use PostgreSQL Directly
+
+```typescript
+// repositories/user.pg-repository.ts
+import { Pool, QueryResult } from 'pg'
+
+export class PgUserRepository {
+  private pool: Pool
+
+  constructor() {
+    this.pool = new Pool({
+      connectionString: process.env.DATABASE_URL,
+    })
+  }
+
+  // ✅ Safe — Uses $1, $2 parameters
+  async findById(id: string) {
+    const result: QueryResult = await this.pool.query(
+      'SELECT * FROM users WHERE id = $1',
+      [id],
+    )
+    return result.rows[0]
+  }
+
+  // ✅ Safe — Uses $1, $2 parameters
+  async findByEmail(email: string) {
+    const result: QueryResult = await this.pool.query(
+      'SELECT * FROM users WHERE email = $1',
+      [email],
+    )
+    return result.rows[0]
+  }
+
+  // ✅ Safe — Uses $1, $2 parameters
+  async searchUsers(query: string) {
+    const result: QueryResult = await this.pool.query(
+      'SELECT * FROM users WHERE name ILIKE $1 OR email ILIKE $1',
+      [`%${query}%`],
+    )
+    return result.rows
+  }
+
+  // ✅ Safe — Uses $1, $2 parameters
+  async createUser(name: string, email: string) {
+    const result: QueryResult = await this.pool.query(
+      'INSERT INTO users (name, email) VALUES ($1, $2) RETURNING *',
+      [name, email],
+    )
+    return result.rows[0]
+  }
+
+  // ✅ Safe — Uses $1, $2 parameters
+  async updateUser(id: string, name: string) {
+    const result: QueryResult = await this.pool.query(
+      'UPDATE users SET name = $1 WHERE id = $2 RETURNING *',
+      [name, id],
+    )
+    return result.rows[0]
+  }
+
+  // ✅ Safe — Uses $1, $2 parameters
+  async deleteUser(id: string) {
+    return this.pool.query('DELETE FROM users WHERE id = $1', [id])
+  }
+}
+```
+
+### Step 3: Use TypeORM
+
+```typescript
+// repositories/user.typeorm-repository.ts
+import { Repository, Entity, Column, PrimaryGeneratedColumn } from 'typeorm'
+import { DataSource } from 'typeorm'
+
+@Entity('users')
+export class UserEntity {
+  @PrimaryGeneratedColumn()
+  id: string
+
+  @Column()
+  name: string
+
+  @Column({ unique: true })
+  email: string
+}
+
+export class TypeOrmUserRepository {
+  private repository: Repository<UserEntity>
+
+  constructor(dataSource: DataSource) {
+    this.repository = dataSource.getRepository(UserEntity)
+  }
+
+  // ✅ Safe — TypeORM uses parameterized queries
+  async findById(id: string) {
+    return this.repository.findOne({ where: { id } })
+  }
+
+  // ✅ Safe — TypeORM uses parameterized queries
+  async findByEmail(email: string) {
+    return this.repository.findOne({ where: { email } })
+  }
+
+  // ✅ Safe — TypeORM uses parameterized queries
+  async searchUsers(query: string) {
+    return this.repository.find({
+      where: [
+        { name: Like(`%${query}%`) },
+        { email: Like(`%${query}%`) },
+      ],
+    })
+  }
+
+  // ✅ Safe — TypeORM uses parameterized queries
+  async createUser(name: string, email: string) {
+    const user = this.repository.create({ name, email })
+    return this.repository.save(user)
+  }
+
+  // ✅ Safe — TypeORM uses parameterized queries
+  async updateUser(id: string, name: string) {
+    await this.repository.update(id, { name })
+    return this.repository.findOne({ where: { id } })
+  }
+
+  // ✅ Safe — TypeORM uses parameterized queries
+  async deleteUser(id: string) {
+    return this.repository.delete(id)
+  }
+}
+```
+
+### Step 4: Avoid SQL Injection
+
+```typescript
+// ❌ NEVER do this — SQL injection vulnerable
+async findByEmailUnsafe(email: string) {
+  return this.pool.query(`SELECT * FROM users WHERE email = '${email}'`)
+}
+
+// ❌ NEVER do this — SQL injection vulnerable
+async searchUsersUnsafe(query: string) {
+  return this.pool.query(`SELECT * FROM users WHERE name LIKE '%${query}%'`)
+}
+
+// ❌ NEVER do this — SQL injection vulnerable
+async deleteUserUnsafe(id: string) {
+  return this.pool.query(`DELETE FROM users WHERE id = ${id}`)
+}
+
+// ✅ ALWAYS do this — Parameterized query
+async findByEmailSafe(email: string) {
+  return this.pool.query('SELECT * FROM users WHERE email = $1', [email])
+}
+
+// ✅ ALWAYS do this — Parameterized query
+async searchUsersSafe(query: string) {
+  return this.pool.query('SELECT * FROM users WHERE name LIKE $1', [`%${query}%`])
+}
+
+// ✅ ALWAYS do this — Parameterized query
+async deleteUserSafe(id: string) {
+  return this.pool.query('DELETE FROM users WHERE id = $1', [id])
+}
+```
+
+### Step 5: Test Parameterized Queries
+
+```typescript
+// tests/parameterized-queries.test.ts
+import { describe, it, expect } from 'vitest'
+
+describe('SQL Injection Prevention', () => {
+  it('should prevent SQL injection in email search', async () => {
+    // Malicious input
+    const maliciousEmail = "admin'--"
+    
+    // With parameterized query — safe
+    // The query treats the entire string as the email value
+    // It will not find a user with email "admin'--"
+    // unless such a user actually exists
+    
+    // With string concatenation — vulnerable
+    // const query = `SELECT * FROM users WHERE email = '${maliciousEmail}'`
+    // This would become: SELECT * FROM users WHERE email = 'admin'--'
+    // Which comments out the rest of the query!
+  })
+
+  it('should prevent SQL injection in search', async () => {
+    // Malicious input
+    const maliciousQuery = "' OR '1'='1"
+    
+    // With parameterized query — safe
+    // The query treats the entire string as the search term
+    // It will not return all users
+    
+    // With string concatenation — vulnerable
+    // const query = `SELECT * FROM users WHERE name LIKE '%${maliciousQuery}%'`
+    // This would become: SELECT * FROM users WHERE name LIKE '%'' OR '1'='1%'
+    // Which returns all users!
+  })
+})
+```
+
+---
+
+## Copilot Instructions
+
+### When to Read This Note
+- Writing SQL queries
+- Preventing SQL injection
+- Using Prisma/TypeORM/pg
+- Database security best practices
+- Testing query security
+
+### What to Do With This Information
+1. **Use Prisma**: Prefer Prisma for type-safe, parameterized queries
+2. **Use pg directly**: Use $1, $2 parameters for raw queries
+3. **Use TypeORM**: Use ORM methods for parameterized queries
+4. **Never concatenate**: Never use string concatenation for SQL
+5. **Test security**: Test with malicious input
+
+### Tools to Use
+- **VS Code Extension**: Error Lens — for inline error display
+- **npm Package**: `@prisma/client` — for Prisma ORM
+- **npm Package**: `typeorm` — for TypeORM
+- **npm Package**: `pg` — for PostgreSQL client
+- **Terminal Command**: `pnpm test` — run tests
+- **Terminal Command**: `pnpm audit` — check for vulnerabilities
+
+### Agents to Invoke
+- **Security Review Agent**: Run when adding new database queries
+- **Code Review Agent**: Run when reviewing PRs with database changes
+
+### Integration with Other Notes
+- read [[security-principles]] for security principles
+- read [[input-validation]] for input validation
+- read [[output-encoding]] for output encoding
+- read [[orm-patterns]] for ORM patterns
+- read [[event-sourcing]] for event sourcing patterns
+
+### Common Pitfalls
+- Don't concatenate user input into SQL (always use parameters)
+- Don't trust ORM to always be safe (review raw queries)
+- Don't ignore stored procedures (they can also be vulnerable)
+- Don't skip testing (test with malicious input)
+- Don't use ORMs for everything (sometimes raw queries are needed)
+
+### Quick Validation Checklist
+- [ ] Are all queries parameterized?
+- [ ] Is string concatenation avoided?
+- [ ] Are ORMs used correctly?
+- [ ] Are raw queries reviewed for security?
+- [ ] Is SQL injection tested?
+- [ ] Are stored procedures parameterized?
+
