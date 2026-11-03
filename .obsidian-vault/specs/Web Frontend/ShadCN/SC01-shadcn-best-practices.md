@@ -1,4 +1,4 @@
-﻿---
+---
 slug: shadcn-best-practices
 sources:
   - https://ui.shadcn.com/docs
@@ -7,17 +7,17 @@ sources:
   - https://ui.shadcn.com
 date: 2025-01-15
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
+
+
+
+
+
+
+
+
+
   - shadcn
   - ui
   - accessibility

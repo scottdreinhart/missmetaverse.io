@@ -1,23 +1,23 @@
-﻿---
+---
 slug: typescript-strict-mode
 sources:
   - https://www.typescriptlang.org/tsconfig#strict
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   - typescript
   - strict-mode
   - strict
@@ -30,20 +30,20 @@ sources:
   - https://typescript.tv/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   - typescript
   - strict-mode
   - type-safety

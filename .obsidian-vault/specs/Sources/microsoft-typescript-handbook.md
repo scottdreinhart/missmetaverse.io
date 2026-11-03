@@ -1,4 +1,4 @@
-﻿---
+---
 slug: microsoft-typescript-handbook
 sources:
   - https://learn.microsoft.com/
@@ -6,14 +6,14 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - domain/architecture
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
   - typescript
   - microsoft
   - typing

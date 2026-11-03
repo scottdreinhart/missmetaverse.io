@@ -1,19 +1,19 @@
-﻿---
+---
 slug: eventual-consistency
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/consistency-patterns
   - https://en.wikipedia.org/wiki/Eventual_consistency
 date: 2026-11-02
 tags:
-  - priority/medium
+
   - maturity/deprecated
-  - type/concept
-  - domain/optimization
-  - type/guide
-  - domain/devops
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
   - consistency
   - distributed-systems
   - eventual-consistency
@@ -77,7 +77,7 @@ Strong consistency leads to:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

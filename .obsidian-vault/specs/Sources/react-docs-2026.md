@@ -1,4 +1,4 @@
-﻿---
+---
 slug: react-docs-2026
 sources:
   - https://react.dev/
@@ -6,16 +6,16 @@ sources:
 
 ---
 tags:
-  - priority/medium
+
   - maturity/deprecated
-  - domain/security
-  - type/reference
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - status/complete
-  - type/guide
-  - domain/frontend
+
+
+
+
+
+
+
+
   - react
   - meta
   - frontend

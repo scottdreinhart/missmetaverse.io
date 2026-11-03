@@ -1,20 +1,20 @@
-﻿---
+---
 slug: retry-with-backoff
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
   - https://www.awsarchitectureblog.com/2015/03/backoff.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/frontend
-  - domain/accessibility
-  - domain/devops
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - retry
   - backoff
   - resilience
@@ -78,7 +78,7 @@ Without backoff and jitter:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

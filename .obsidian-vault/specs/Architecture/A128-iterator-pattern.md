@@ -1,18 +1,18 @@
-﻿---
+---
 slug: iterator-pattern
 sources:
   - https://en.wikipedia.org/wiki/Iterator_pattern
   - https://martinfowler.com/eaaDev/iterator.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - iterator-pattern
   - behavioral-patterns
   - patterns
@@ -79,7 +79,7 @@ Without iterator pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

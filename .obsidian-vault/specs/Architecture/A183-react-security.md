@@ -1,23 +1,23 @@
-﻿---
+---
 slug: react-security
 sources:
   - https://react.dev/reference/react
   - https://owasp.org/www-project-web-security-testing-guide/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/security
-  - status/complete
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
   - react
   - security
   - xss

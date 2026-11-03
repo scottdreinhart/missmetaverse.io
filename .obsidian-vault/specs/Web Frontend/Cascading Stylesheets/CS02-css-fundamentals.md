@@ -1,4 +1,4 @@
-﻿---
+---
 slug: css-fundamentals
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -6,16 +6,16 @@ sources:
   - https://spec.cc/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - type/reference
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
+
+
+
+
+
+
+
+
+
+
   - css
   - cascading
   - specificity

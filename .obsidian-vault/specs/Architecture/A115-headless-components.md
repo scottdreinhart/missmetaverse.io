@@ -1,19 +1,19 @@
-﻿---
+---
 slug: headless-components
 sources:
   - https://www.radix-ui.com/primitives/docs/overview/introduction
   - https://headlessui.dev/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - headless
   - radix-ui
   - accessibility

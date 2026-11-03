@@ -1,4 +1,4 @@
-﻿---
+---
 slug: tw-optimization-performance
 sources:
   - https://tailwindcss.com/docs/content-configuration
@@ -7,16 +7,16 @@ sources:
   - https://tailwindcss.com/docs
 date: 2025-01-15
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
+
+
+
+
+
+
+
+
   - tailwind-css
   - performance
   - optimization

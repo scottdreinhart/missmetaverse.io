@@ -1,18 +1,18 @@
-﻿---
+---
 slug: dtos
 sources:
   - https://martinfowler.com/bliki/DataTransferObject.html
   - https://www.npmjs.com/package/class-transformer
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
+
+
+
+
+
+
+
+
   - dto
   - api
   - data-transfer

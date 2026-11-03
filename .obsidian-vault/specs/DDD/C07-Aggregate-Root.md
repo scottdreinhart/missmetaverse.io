@@ -1,21 +1,21 @@
-﻿---
+---
 slug: aggregate-root
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/Aggregate.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - domain/frontend
-  - domain/accessibility
+
+
+
+
+
+
+
+
+
   - ddd
   - aggregate-root
   - domain-modeling
@@ -84,7 +84,7 @@ Without aggregate roots:
 ## Sources
 
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
-- [[Sources/fowler-ddd-2003|fowler-ddd-2003]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

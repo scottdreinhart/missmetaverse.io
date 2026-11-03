@@ -1,19 +1,19 @@
-﻿---
+---
 slug: backpressure
 sources:
   - https://en.wikipedia.org/wiki/Backpressure_(computing)
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - type/reference
-  - domain/database
+
+
+
+
+
+
+
+
+
   - backpressure
   - distributed-systems
   - reliability

@@ -1,21 +1,21 @@
-﻿---
+---
 slug: ts-fundamentals
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/basic-types.html
   - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - type/guide
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
   - typescript
   - types
   - interfaces

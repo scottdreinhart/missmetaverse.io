@@ -1,22 +1,22 @@
-﻿---
+---
 slug: information-hiding
 sources:
   - https://en.wikipedia.org/wiki/Information_hiding
   - https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD339.PDF
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
   - information-hiding
   - encapsulation
   - principles

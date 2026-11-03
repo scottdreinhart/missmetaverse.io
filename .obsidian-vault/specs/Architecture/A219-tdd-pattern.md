@@ -1,20 +1,20 @@
-﻿---
+---
 slug: tdd-pattern
 sources:
   - https://en.wikipedia.org/wiki/Test-driven_development
   - https://docs.microsoft.com/en-us/azure/architecture/framework/devops/test
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - tdd
   - testing
   - red-green-refactor

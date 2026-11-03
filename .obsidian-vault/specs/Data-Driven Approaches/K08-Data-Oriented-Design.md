@@ -1,18 +1,18 @@
-﻿---
+---
 slug: data-oriented-design
 sources:
   - https://en.wikipedia.org/wiki/Data-oriented_design
   - https://www.youtube.com/watch?v=N_E_0y6EU6o
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - type/reference
+
+
+
+
+
+
+
+
   - data-oriented
   - performance
   - architecture
@@ -80,7 +80,7 @@ Without data-oriented design:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

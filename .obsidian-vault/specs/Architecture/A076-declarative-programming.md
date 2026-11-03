@@ -1,20 +1,20 @@
-﻿---
+---
 slug: declarative-programming
 sources:
   - https://en.wikipedia.org/wiki/Declarative_programming
   - https://en.wikipedia.org/wiki/Imperative_programming
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - declarative
   - programming-paradigm
   - data-driven

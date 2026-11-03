@@ -1,4 +1,4 @@
-﻿---
+---
 slug: vitest-testing
 sources:
   - https://vitest.dev/guide/
@@ -9,19 +9,19 @@ sources:
   - https://vitest.dev/guide/features
 date: 2025-01-15
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
+
+
+
   - vitest
   - testing
   - unit-testing

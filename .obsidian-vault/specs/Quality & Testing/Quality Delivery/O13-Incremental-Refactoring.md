@@ -1,20 +1,20 @@
-﻿---
+---
 slug: incremental-refactoring
 sources:
   - https://martinfowler.com/books/refactoring.html
   - https://www.oreilly.com/library/view/refactoring/9780137858039/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
+
+
   - incremental-refactoring
   - refactoring
   - code-quality
@@ -83,7 +83,7 @@ Without incremental refactoring:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: profiling-patterns
 sources:
   - https://vitest.dev/
   - https://react.dev/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - type/reference
+
+
+
+
+
+
+
+
+
   - profiling
   - performance
   - testing
@@ -82,7 +82,7 @@ Without profiling patterns:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

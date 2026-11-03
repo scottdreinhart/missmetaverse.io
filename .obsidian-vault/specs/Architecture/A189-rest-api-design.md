@@ -1,22 +1,22 @@
-﻿---
+---
 slug: rest-api-design
 sources:
   - https://restfulapi.net/
   - https://martinfowler.com/articles/richardsonMaturityModel.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - type/concept
-  - domain/frontend
-  - domain/testing
-  - type/guide
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - rest
   - api
   - design
@@ -137,7 +137,7 @@ Without REST API design:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

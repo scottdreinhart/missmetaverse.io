@@ -1,21 +1,21 @@
-﻿---
+---
 slug: audit-trails
 sources:
   - https://www.postgresql.org/docs/
   - https://dev.mysql.com/doc/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/database
+
+
+
+
+
+
+
+
+
+
+
   - database
   - audit
   - data-modeling
@@ -84,7 +84,7 @@ Without audit trails:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

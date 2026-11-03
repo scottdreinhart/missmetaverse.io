@@ -1,20 +1,20 @@
-﻿---
+---
 slug: type-narrowing
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
   - https://typescript.tv/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - type-narrowing
   - typescript
   - types
@@ -81,7 +81,7 @@ Without type narrowing:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

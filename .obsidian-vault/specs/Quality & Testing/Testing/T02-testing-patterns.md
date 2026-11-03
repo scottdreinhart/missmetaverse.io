@@ -1,4 +1,4 @@
-﻿---
+---
 slug: testing-patterns
 sources:
   - https://vitest.dev/guide/
@@ -6,19 +6,19 @@ sources:
   - https://testing-library.com/docs/react-testing-library/intro/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - domain/devops
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
+
+
+
   - testing
   - vitest
   - playwright

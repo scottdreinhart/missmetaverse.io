@@ -1,21 +1,21 @@
-﻿---
+---
 slug: explicit-over-implicit
 sources:
   - https://pragmaticprogrammer.com/books/pp
   - https://pragmaticprogrammer.com/titles/tpphr/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/concept
-  - domain/frontend
-  - domain/testing
-  - type/guide
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - explicit
   - principles
   - design

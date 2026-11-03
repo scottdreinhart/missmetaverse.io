@@ -1,20 +1,20 @@
-﻿---
+---
 slug: schema-driven-development
 sources:
   - https://zod.dev/
   - https://en.wikipedia.org/wiki/Data_validation
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/concept
-  - domain/optimization
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - schema-driven
   - validation
   - zod

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: component-based-architecture
 sources:
   - https://react.dev/
   - https://en.wikipedia.org/wiki/Component-based_software_engineering
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - component-based
   - architecture
   - react
@@ -82,7 +82,7 @@ Without component-based architecture:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

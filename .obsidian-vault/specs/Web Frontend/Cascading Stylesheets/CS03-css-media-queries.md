@@ -1,4 +1,4 @@
-﻿---
+---
 slug: css-media-queries
 title: CSS Media Queries — Types, Ranges, Features, and Selectors
 description: Comprehensive reference for CSS media queries including media types, media features, logical operators, container queries, and device-specific selectors.
@@ -16,19 +16,19 @@ sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
 ---
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
+
+
+
+
+
+
+
+
+
+
+
 
 # CSS Media Queries
 

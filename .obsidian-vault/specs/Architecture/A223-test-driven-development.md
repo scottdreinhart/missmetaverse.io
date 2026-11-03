@@ -1,18 +1,18 @@
-﻿---
+---
 slug: test-driven-development
 sources:
   - https://martinfowler.com/articles/changeTestFirst.html
   - https://en.wikipedia.org/wiki/Test-driven_development
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - tdd
   - testing
   - red-green-refactor
@@ -80,7 +80,7 @@ Without TDD:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

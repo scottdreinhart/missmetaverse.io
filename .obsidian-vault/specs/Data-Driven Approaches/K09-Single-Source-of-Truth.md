@@ -1,19 +1,19 @@
-﻿---
+---
 slug: single-source-of-truth
 sources:
   - https://en.wikipedia.org/wiki/Single_source_of_truth
   - https://martinfowler.com/bliki/SingleSourceOfTruth.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/database
+
+
+
+
+
+
+
+
+
   - single-source-of-truth
   - data-modeling
   - consistency
@@ -81,7 +81,7 @@ Without single source of truth:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

@@ -1,20 +1,20 @@
-﻿---
+---
 slug: atomic-design
 sources:
   - https://atomicdesign.bradfrost.com/chapter-2/
   - https://bradfrost.com/blog/post/atomic-web-design/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - atomic-design
   - ui-composition
   - design-systems

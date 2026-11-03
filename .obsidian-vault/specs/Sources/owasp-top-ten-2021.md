@@ -1,4 +1,4 @@
-﻿---
+---
 slug: owasp-top-ten-2021
 sources:
   - https://owasp.org/
@@ -6,10 +6,10 @@ sources:
 
 ---
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - type/reference
+
+
+
+
   - owasp
   - security
   - web-security

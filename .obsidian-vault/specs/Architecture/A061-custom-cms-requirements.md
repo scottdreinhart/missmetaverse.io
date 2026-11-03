@@ -1,4 +1,4 @@
-﻿# Custom CMS — Requirements Specification
+# Custom CMS — Requirements Specification
 
 > **Date:** 2026-11-02
 > **Scope:** Build a content management system from scratch — no off-the-shelf packages
@@ -8,21 +8,21 @@
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 1. Executive Summary
 
@@ -55,21 +55,21 @@ This document defines the requirements for building a **custom content managemen
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 2. Architectural Style
 
@@ -147,21 +147,21 @@ graph TB
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 3. Core Domain Model (DDD)
 
@@ -392,21 +392,21 @@ export class Workflow {
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 4. Functional Requirements
 
@@ -518,21 +518,21 @@ tags:
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 5. Non-Functional Requirements
 
@@ -634,21 +634,21 @@ graph TB
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 6. Technical Architecture
 
@@ -855,21 +855,21 @@ CREATE TABLE content_cache (
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 7. API Design
 
@@ -974,21 +974,21 @@ interface SearchResponse {
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 8. Frontend Architecture (React 19)
 
@@ -1080,21 +1080,21 @@ function useCreateArticle() {
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 9. Testing Strategy
 
@@ -1217,21 +1217,21 @@ describe('POST /api/v1/articles', () => {
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 10. Deployment & DevOps
 
@@ -1311,21 +1311,21 @@ graph TB
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 11. Project Structure
 
@@ -1382,21 +1382,21 @@ cms/
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 12. Development Phases
 
@@ -1443,21 +1443,21 @@ tags:
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 13. Risk Assessment
 
@@ -1475,21 +1475,21 @@ tags:
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 14. Success Criteria
 
@@ -1523,27 +1523,27 @@ tags:
 ---
 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 15. References & Sources
 
 ### Architectural Patterns
 - [[Sources/martin-clean-architecture-2017|Clean Architecture]] — Robert C. Martin
-- [[Sources/fowler-patterns-2002|Enterprise Integration Patterns]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] — Martin Fowler
 - [[Sources/evans-ddd-2003|Domain-Driven Design]] — Eric Evans
 - [[Sources/goF-1994|Design Patterns]] — GoF
 
@@ -1560,10 +1560,10 @@ tags:
 - [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] — NIST
 
 ### Architecture Patterns
-- [[Sources/fowler-patterns-2002|CQRS]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|CQRS]] — Martin Fowler
 - [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] — Microsoft Azure
-- [[Sources/fowler-patterns-2002|Repository Pattern]] — Martin Fowler
-- [[Sources/fowler-patterns-2002|Service Layer Pattern]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|Repository Pattern]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|Service Layer Pattern]] — Martin Fowler
 
 
 ## See Also

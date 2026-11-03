@@ -1,21 +1,21 @@
-﻿---
+---
 slug: repository-pattern
 sources:
   - https://martinfowler.com/eaaDev/repository.html
   - https://en.wikipedia.org/wiki/Repository_pattern
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - repository-pattern
   - ddd
   - data-access
@@ -231,7 +231,7 @@ export class InMemoryUserRepository implements UserRepository {
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: configuration-driven-development
 sources:
   - https://en.wikipedia.org/wiki/Configuration-driven_development
   - https://en.wikipedia.org/wiki/Declarative_programming
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/frontend
-  - domain/devops
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - configuration-driven
   - declarative
   - configuration

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: pure-functions
 sources:
   - https://en.wikipedia.org/wiki/Pure_function
   - https://wiki.c2.com/?PureFunction
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - pure-functions
   - functional
   - typescript

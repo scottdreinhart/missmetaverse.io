@@ -1,23 +1,23 @@
-﻿---
+---
 slug: coding-practices
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
   - https://www.enterpriseintegrationpatterns.com/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - coding-practices
   - strict-typing
   - parse-dont-validate

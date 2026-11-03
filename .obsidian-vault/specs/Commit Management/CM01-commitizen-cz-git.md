@@ -1,4 +1,4 @@
-﻿---
+---
 slug: commitizen-cz-git
 sources:
   - https://github.com/commitizen/cz-cli
@@ -8,16 +8,16 @@ date: 2026-11-02
 tags:
   - priority/low
   - maturity/experimental
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
+
+
+
+
+
+
+
+
+
+
   - commitizen
   - cz-git
   - conventional-commits

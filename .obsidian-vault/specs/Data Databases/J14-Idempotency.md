@@ -1,19 +1,19 @@
-﻿---
+---
 slug: idempotency
 sources:
   - https://www.postgresql.org/docs/
   - https://martinfowler.com/bliki/IdempotentOperation.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/database
+
+
+
+
+
+
+
+
+
   - database
   - idempotency
   - distributed-systems
@@ -81,7 +81,7 @@ Without idempotency:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

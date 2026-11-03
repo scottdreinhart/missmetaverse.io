@@ -1,4 +1,4 @@
-﻿---
+---
 slug: linting-husky-pipeline
 sources:
   - https://eslint.org/docs/latest/use/getting-started
@@ -7,17 +7,17 @@ sources:
   - https://github.com/okonet/lint-staged
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/devops
+
+
+
+
+
+
+
+
+
+
+
   - integration
   - eslint
   - prettier

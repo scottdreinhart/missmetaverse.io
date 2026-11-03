@@ -1,16 +1,16 @@
-﻿---
+---
 slug: architecture-decision-records
 sources:
   - https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions
   - https://github.com/18F/adr-template
 date: 2026-11-02
 tags:
-  - priority/medium
+
   - maturity/deprecated
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
   - adr
   - architecture
   - documentation
@@ -62,8 +62,6 @@ Without ADRs:
 
 ## Related Concepts
 
-- [Project Architecture Mapping](Project-Architecture-Mapping.md) — Maps decisions to implementation
-- [Research Status](Research-Status.md) — Tracks research decisions
 - [Clean Architecture](Architecture/clean-architecture.md) — ADRs can document architecture choices
 
 ## Project Observations

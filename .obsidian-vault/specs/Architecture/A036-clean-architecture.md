@@ -1,21 +1,21 @@
-﻿---
+---
 slug: clean-architecture
 sources:
   - https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
   - https://blog.cleancoder.com/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - clean-architecture
   - hexagonal-architecture
   - ports-adapters

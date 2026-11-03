@@ -1,4 +1,4 @@
-﻿---
+---
 slug: react-performance-security
 sources:
   - https://react.dev/reference/react/useMemo
@@ -10,20 +10,20 @@ sources:
   - https://react.dev/learn/security
 date: 2025-01-15
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/security
-  - status/complete
-  - type/guide
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
   - react
   - performance
   - optimization

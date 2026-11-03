@@ -1,20 +1,20 @@
-﻿---
+---
 slug: custom-hooks-composables
 sources:
   - https://react.dev/reference/react
   - https://vuejs.org/guide/extras/composition-api-faq.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - react
   - hooks
   - composables

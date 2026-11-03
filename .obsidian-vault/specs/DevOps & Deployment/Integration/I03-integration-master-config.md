@@ -1,4 +1,4 @@
-﻿---
+---
 slug: integration-master-config
 sources:
   - https://vite.dev/config/
@@ -8,19 +8,19 @@ sources:
   - https://pnpm.io/workspaces
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
+
+
+
+
+
+
+
+
+
+
+
   - integration
   - vite
   - typescript

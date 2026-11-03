@@ -1,18 +1,18 @@
-﻿---
+---
 slug: risk-based-testing
 sources:
   - https://www.ministryoftesting.com/
   - https://martinfowler.com/articles/risk-based-testing.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
   - risk-based-testing
   - testing
   - quality
@@ -81,7 +81,7 @@ Without risk-based testing:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

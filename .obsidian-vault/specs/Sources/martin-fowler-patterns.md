@@ -1,4 +1,4 @@
-﻿---
+---
 slug: martin-fowler-patterns
 sources:
   - https://martinfowler.com/eaaCatalog/
@@ -108,12 +108,12 @@ research_notes: "Martin Fowler's influential introduction to DDD concepts. Clari
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/architecture
-  - type/concept
+
+
+
+
+
+
   - design-patterns
   - enterprise
   - architecture

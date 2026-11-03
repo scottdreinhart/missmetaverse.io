@@ -1,4 +1,4 @@
-﻿# Aggregate Root
+# Aggregate Root
 
 > **Purpose:** Model aggregates with Aggregate Root.
 > **Last Updated:** 2026-11-03

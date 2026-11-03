@@ -1,4 +1,4 @@
-﻿---
+---
 slug: security-principles
 sources:
   - https://owasp.org/www-project-top-ten/
@@ -6,22 +6,22 @@ sources:
   - https://www.nist.gov/cyberframework
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/security
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   - security
   - polp
   - least-privilege

@@ -1,21 +1,21 @@
-﻿---
+---
 slug: rate-limiting
 sources:
   - https://swagger.io/blog/api-design/rate-limiting-in-rest-apis/
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/concept
-  - domain/frontend
-  - domain/devops
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - rate-limiting
   - security
   - api
@@ -79,7 +79,7 @@ Without rate limiting:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

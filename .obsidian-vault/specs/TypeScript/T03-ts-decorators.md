@@ -1,20 +1,20 @@
-﻿---
+---
 slug: ts-decorators
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/decorators.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
   - typescript
   - decorators
   - metadata

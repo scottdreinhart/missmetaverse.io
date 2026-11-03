@@ -1,24 +1,24 @@
-﻿---
+---
 slug: secrets-management
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/security
+
+
+
+
+
+
+
+
+
+
+
+
   - secrets-management
   - security
   - secrets

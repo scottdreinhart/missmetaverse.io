@@ -15,7 +15,6 @@ Feature specs, architecture decisions, and technical reference notes. Specs are 
 - Each spec has `tags:` frontmatter for discoverability
 - Folder naming: Title Case with spaces (e.g., `Cascading Stylesheets/`)
 - File naming: kebab-case (e.g., `css-fundamentals.md`)
-- Index files: numeric prefix (e.g., `00-architecture-index.md`)
 
 # Work Guidance
 

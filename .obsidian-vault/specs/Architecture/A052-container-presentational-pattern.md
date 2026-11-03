@@ -1,19 +1,19 @@
-﻿---
+---
 slug: container-presentational-pattern
 sources:
   - https://medium.com/@dan_abramov/smart-and-dumb-components-7ca29d34cf21
   - https://react.dev/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - container-presentational
   - frontend
   - react
@@ -82,7 +82,7 @@ Without container-presentational pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

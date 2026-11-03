@@ -1,22 +1,22 @@
-﻿---
+---
 slug: abac
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/security
+
+
+
+
+
+
+
+
+
+
+
+
   - abac
   - security
   - access-control
@@ -84,7 +84,7 @@ Without ABAC:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 ---

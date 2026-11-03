@@ -1,19 +1,19 @@
-﻿---
+---
 slug: mvc-pattern
 sources:
   - https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller
   - https://martinfowler.com/eaaDev/mvc.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - mvc
   - architecture
   - patterns
@@ -80,7 +80,7 @@ Without MVC:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

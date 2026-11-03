@@ -1,20 +1,20 @@
-﻿---
+---
 slug: headless-ui-pattern
 sources:
   - https://www.radix-ui.com/
   - https://headlessui.dev/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - headless-ui
   - react
   - patterns
@@ -81,7 +81,7 @@ Without headless UI:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

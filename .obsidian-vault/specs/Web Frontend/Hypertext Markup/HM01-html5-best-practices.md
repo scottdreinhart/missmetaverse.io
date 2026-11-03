@@ -1,4 +1,4 @@
-﻿---
+---
 slug: html5-best-practices
 sources:
   - https://developer.mozilla.org/en-US/docs/Glossary/HTML5
@@ -8,18 +8,18 @@ sources:
   - https://developer.mozilla.org/en-US/docs/Web/Accessibility
 date: 2025-01-15
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
+
+
+
+
+
+
+
+
+
+
   - html5
   - accessibility
   - seo

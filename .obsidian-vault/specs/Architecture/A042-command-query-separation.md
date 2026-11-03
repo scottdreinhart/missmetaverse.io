@@ -1,21 +1,21 @@
-﻿---
+---
 slug: command-query-separation
 sources:
   - https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
   - https://en.wikipedia.org/wiki/CQRS
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - cqs
   - cqrs
   - principles

@@ -1,22 +1,22 @@
-﻿---
+---
 slug: design-by-contract
 sources:
   - https://en.wikipedia.org/wiki/Design_by_contract
   - https://en.wikipedia.org/wiki/Contract_(software_development)
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
   - dbc
   - principles
   - design

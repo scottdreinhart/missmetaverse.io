@@ -1,18 +1,18 @@
-﻿---
+---
 slug: specification-pattern
 sources:
   - https://martinfowler.com/bliki/SpecificationPattern.html
   - https://en.wikipedia.org/wiki/Specification_pattern
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - specification-pattern
   - ddd
   - domain-modeling
@@ -79,7 +79,7 @@ Without specification pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

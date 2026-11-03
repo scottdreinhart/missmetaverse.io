@@ -1,4 +1,4 @@
-﻿---
+---
 slug: mdn-html-2024
 sources:
   - https://developer.mozilla.org/en-US/docs/
@@ -6,12 +6,12 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - domain/accessibility
+
+
+
+
+
+
   - html
   - mdn
   - web-standards

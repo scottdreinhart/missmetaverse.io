@@ -1,4 +1,4 @@
-﻿---
+---
 slug: mdn-css-2024
 sources:
   - https://developer.mozilla.org/en-US/docs/
@@ -6,12 +6,12 @@ sources:
 
 ---
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - domain/accessibility
+
+
+
+
+
+
   - css
   - mdn
   - web-standards

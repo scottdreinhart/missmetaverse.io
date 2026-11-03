@@ -1,20 +1,20 @@
-﻿---
+---
 slug: shadcn-ui-patterns
 sources:
   - https://ui.shadcn.com/docs
   - https://github.com/shadcn-ui/ui
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/accessibility
+
+
+
+
+
+
+
+
   - shadcn
   - ui
   - radix-ui

@@ -1,21 +1,21 @@
-﻿---
+---
 slug: parse-dont-validate
 sources:
   - https://hynek.me/articles/validate-before-parsing/
   - https://gleb-tarasov.com/blog/parse-dont-validate/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/concept
-  - domain/optimization
-  - type/guide
-  - domain/frontend
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - parsing
   - validation
   - typescript

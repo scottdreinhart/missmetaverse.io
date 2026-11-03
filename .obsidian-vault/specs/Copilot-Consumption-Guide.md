@@ -1,33 +1,34 @@
-﻿# Copilot Consumption Guide
+# Copilot Consumption Guide
 
 > **Purpose:** Instructions for how GitHub Copilot should use this knowledge base during development.
 > **Last Updated:** 2026-11-02
 
 ---
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
   - type/guide
   - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
+  - priority/high
+
+## How to Use This Knowledge Base
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## How to Use This Knowledge Base
 
 When given a task, follow these steps:
 
-### 1. Read the Architecture Index
-Start with [[Architecture/00-architecture-index]] to identify the relevant category for the task.
+### 1. Read the Architecture Notes
+Start with the Architecture folder notes to identify the relevant category for the task.
 
 ### 2. Identify the Domain
 Determine which layer the task affects:
@@ -512,9 +513,6 @@ slug: example-enhanced-note
 
 ## See Also
 - [[playwright-e2e]]
-- [[Project-Architecture-Mapping]]
-- [[Research-Status]]
-- [[vault-integration-map]]
 - [[_template-spec]]
 
 

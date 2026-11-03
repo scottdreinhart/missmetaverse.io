@@ -1,21 +1,21 @@
-﻿---
+---
 slug: monitoring-patterns
 sources:
   - https://sentry.io/
   - https://opentelemetry.io/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
+
+
+
+
+
+
+
+
+
+
+
   - monitoring
   - observability
   - production
@@ -84,7 +84,7 @@ Without monitoring patterns:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

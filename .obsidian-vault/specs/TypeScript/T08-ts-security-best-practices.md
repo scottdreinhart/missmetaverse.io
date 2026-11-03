@@ -1,23 +1,23 @@
-﻿---
+---
 slug: ts-security-best-practices
 sources:
   - https://www.typescriptlang.org/docs/handbook/security.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/security
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   - typescript
   - security
   - best-practices

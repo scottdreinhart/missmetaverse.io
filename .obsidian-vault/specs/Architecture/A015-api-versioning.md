@@ -1,19 +1,19 @@
-﻿---
+---
 slug: api-versioning
 sources:
   - https://swagger.io/blog/api-versioning/
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design
 date: 2026-11-02
 tags:
-  - priority/medium
+
   - maturity/deprecated
-  - domain/backend
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
   - api
   - versioning
   - rest
@@ -79,7 +79,7 @@ Without versioning:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

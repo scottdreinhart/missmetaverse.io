@@ -1,18 +1,18 @@
-﻿---
+---
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 slug: ts-best-practices
 sources:
@@ -25,19 +25,19 @@ date: 2026-11-02
 ---
 
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 # TypeScript Best Practices
 
@@ -416,19 +416,19 @@ function process(obj: unknown) {
 ---
 
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## Decision Tree: TypeScript Type Selection
 
@@ -462,19 +462,19 @@ graph TD
 ---
 
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## Procedural Guidance: TypeScript Setup
 
@@ -606,19 +606,19 @@ describe('User types', () => {
 ---
 
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## Copilot Instructions
 
@@ -674,19 +674,19 @@ tags:
 ---
 
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## Integration with Other Notes
 

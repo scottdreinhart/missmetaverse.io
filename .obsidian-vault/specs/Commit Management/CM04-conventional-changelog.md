@@ -1,21 +1,21 @@
-﻿---
+---
 slug: conventional-changelog
 sources:
   - https://github.com/conventional-changelog/conventional-changelog
   - https://conventional-changelog.js.org/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
+
+
+
+
+
+
+
+
+
+
+
   - conventional-changelog
   - changelog
   - conventionalcommits

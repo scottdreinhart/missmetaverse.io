@@ -1,4 +1,4 @@
-﻿---
+---
 slug: adr-template
 title: Architecture Decision Record Template
 description: Template for recording architectural decisions with context, options considered, consequences, and status tracking.
@@ -6,16 +6,16 @@ author: Copilot
 source: vault-research
 canonical_url: https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
+
+
+
+
+
+
+
+
   - adr
   - architecture
   - decision-making

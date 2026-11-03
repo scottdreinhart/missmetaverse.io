@@ -1,4 +1,4 @@
-﻿---
+---
 slug: ts-path-resolution
 sources:
   - https://vite.dev/guide/features.html
@@ -8,15 +8,15 @@ sources:
   - https://playwright.dev/docs/typescript
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/testing
-  - domain/optimization
+
+
+
+
+
+
+
+
+
   - integration
   - typescript
   - vite

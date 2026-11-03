@@ -1,22 +1,22 @@
-﻿---
+---
 slug: accessiblity-a11y-patterns.md
 sources:
   - https://www.w3.org/WAI/
   - https://react.dev/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
+
+
+
+
+
+
+
+
+
+
+
+
   - accessibility
   - a11y
   - frontend-patterns
@@ -89,7 +89,7 @@ Without accessibility patterns:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 ---

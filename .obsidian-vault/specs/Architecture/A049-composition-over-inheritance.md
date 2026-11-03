@@ -1,4 +1,4 @@
-﻿---
+---
 slug: composition-over-inheritance
 sources:
   - https://en.wikipedia.org/wiki/Composition_over_inheritance
@@ -6,14 +6,14 @@ sources:
   - https://martinfowler.com/bliki/CompositionOverInheritance.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - composition
   - inheritance
   - principles

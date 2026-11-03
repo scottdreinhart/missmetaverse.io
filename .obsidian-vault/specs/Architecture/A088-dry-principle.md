@@ -1,18 +1,18 @@
-﻿---
+---
 slug: dry-principle
 sources:
   - https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
   - https://www.agilealliance.org/glossary/dry/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - type/concept
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - dry
   - principles
   - code-quality
@@ -77,7 +77,7 @@ Duplicated knowledge leads to:
 ## Sources
 
 - [[Sources/martin-oop-2000|martin-oop-2000]]
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

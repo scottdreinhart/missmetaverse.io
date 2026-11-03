@@ -1,4 +1,4 @@
-﻿---
+---
 slug: commit-message-template
 title: Commit Message Template
 description: Template for Conventional Commits with scope, type, and body structure for consistent commit history.
@@ -6,17 +6,17 @@ author: Copilot
 source: vault-research
 canonical_url: https://www.conventionalcommits.org/en/v1.0.0/
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/testing
-  - domain/optimization
-  - domain/devops
-  - domain/database
+
+
+
+
+
+
+
+
+
+
+
   - commits
   - conventional-commits
   - template

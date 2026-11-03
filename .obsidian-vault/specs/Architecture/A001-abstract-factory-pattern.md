@@ -1,19 +1,19 @@
-﻿---
+---
 slug: abstract-factory-pattern
 sources:
   - https://refactoring.guru/design-patterns/abstract-factory
   - https://en.wikipedia.org/wiki/Abstract_factory_pattern
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - abstract-factory
   - creational-patterns
   - gof
@@ -80,7 +80,7 @@ Without abstract factory pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

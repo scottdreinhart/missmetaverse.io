@@ -1,20 +1,20 @@
-﻿---
+---
 slug: projections
 sources:
   - https://www.postgresql.org/docs/
   - https://martinfowler.com/bliki/Projection.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/database
+
+
+
+
+
+
+
+
+
+
   - database
   - projections
   - event-sourcing
@@ -82,7 +82,7 @@ Without projections:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

@@ -1,20 +1,20 @@
-﻿---
+---
 slug: data-modeling
 sources:
   - https://en.wikipedia.org/wiki/Data_modeling
   - https://www.postgresql.org/docs/current/ddl.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - data-modeling
   - database
   - normalization
@@ -81,7 +81,7 @@ Without data modeling:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

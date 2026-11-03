@@ -1,20 +1,20 @@
-﻿---
+---
 slug: input-validation
 sources:
   - https://en.wikipedia.org/wiki/Data_validation
   - https://zod.dev/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - input-validation
   - security
   - zod
@@ -81,7 +81,7 @@ Without input validation:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: release-it
 sources:
   - https://github.com/release-it/release-it
   - https://release-it.org/
 date: 2026-11-02
 tags:
-  - priority/medium
+
   - maturity/experimental
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
+
+
+
+
+
+
+
   - release-it
   - versioning
   - automated-releases

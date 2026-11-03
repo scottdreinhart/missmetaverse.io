@@ -1,20 +1,20 @@
-﻿---
+---
 slug: continuous-integration
 sources:
   - https://learn.microsoft.com/en-us/azure/architecture/framework/devops/ci-cd
   - https://www.redhat.com/en/topics/devops/what-is-continuous-integration
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/devops
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - ci
   - devops
   - github-actions
@@ -78,7 +78,7 @@ Without CI:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

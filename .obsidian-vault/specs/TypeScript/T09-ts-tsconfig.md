@@ -1,19 +1,19 @@
-﻿---
+---
 slug: ts-tsconfig
 sources:
   - https://www.typescriptlang.org/tsconfig
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
   - typescript
   - tsconfig
   - configuration

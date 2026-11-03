@@ -1,18 +1,18 @@
-﻿---
+---
 slug: ts-optimization-performance
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/decorators.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
   - typescript
   - performance
   - optimization

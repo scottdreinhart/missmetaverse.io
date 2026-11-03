@@ -1,4 +1,4 @@
-﻿---
+---
 slug: pnpm-best-practices
 sources:
   - https://pnpm.io/cli/install
@@ -8,19 +8,19 @@ sources:
   - https://pnpm.io
 date: 2025-01-15
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
+
+
+
+
+
+
+
+
+
+
+
+
+
   - pnpm
   - package-manager
   - performance

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: commit-management-integration
 sources:
   - https://github.com/commitizen/cz-cli
@@ -10,17 +10,17 @@ sources:
   - https://www.npmjs.com/package/validate-branch-name
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
+
+
+
+
+
+
+
+
+
+
+
   - integration
   - commit-management
   - conventional-commits

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: inbox-pattern
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/guide/components/inbox-outbox
   - https://microservices.io/patterns/data/transactional-outbox.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/database
+
+
+
+
+
+
+
+
+
   - inbox-pattern
   - distributed-systems
   - messaging

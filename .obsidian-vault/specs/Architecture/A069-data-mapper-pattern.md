@@ -1,19 +1,19 @@
-﻿---
+---
 slug: data-mapper-pattern
 sources:
   - https://martinfowler.com/bliki/DataMapper.html
   - https://en.wikipedia.org/wiki/Data_mapper_pattern
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - data-mapper-pattern
   - enterprise-patterns
   - patterns
@@ -80,7 +80,7 @@ Without data mapper pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

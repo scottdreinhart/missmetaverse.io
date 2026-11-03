@@ -1,4 +1,4 @@
-﻿---
+---
 slug: css3-performance-security
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -8,18 +8,18 @@ sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS/Guides
 date: 2025-01-15
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/security
+
+
+
+
+
+
+
+
+
+
   - css3
   - performance
   - security

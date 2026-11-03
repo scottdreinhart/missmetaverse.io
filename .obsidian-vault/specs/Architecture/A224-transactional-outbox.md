@@ -1,16 +1,16 @@
-﻿---
+---
 slug: transactional-outbox
 sources:
   - https://microservices.io/patterns/data/transactional-outbox.html
   - https://learn.microsoft.com/en-us/azure/architecture/patterns/transactional-outbox
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
   - outbox
   - distributed-systems
   - events
@@ -74,7 +74,7 @@ Without outbox:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

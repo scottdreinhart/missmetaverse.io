@@ -1,19 +1,19 @@
-﻿---
+---
 slug: high-cohesion
 sources:
   - https://en.wikipedia.org/wiki/Cohesion_(computer_science)
   - https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - cohesion
   - principles
   - design
@@ -79,7 +79,7 @@ Low cohesion leads to:
 ## Sources
 
 - [[Sources/martin-oop-2000|martin-oop-2000]]
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

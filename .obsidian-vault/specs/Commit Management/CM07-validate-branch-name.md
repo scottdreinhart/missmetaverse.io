@@ -1,20 +1,20 @@
-﻿---
+---
 slug: validate-branch-name
 sources:
   - https://www.npmjs.com/package/validate-branch-name
   - https://github.com/JsonMa/validate-branch-name
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
+
+
+
+
+
+
+
+
+
+
   - validate-branch-name
   - branch-naming
   - git

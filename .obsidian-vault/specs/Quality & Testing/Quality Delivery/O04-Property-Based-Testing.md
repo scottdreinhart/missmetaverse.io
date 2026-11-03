@@ -1,20 +1,20 @@
-﻿---
+---
 slug: property-based-testing
 sources:
   - https://github.com/quicktype/quicktype
   - https://vitest.dev/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - type/reference
-  - domain/accessibility
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
   - property-based-testing
   - testing
   - quicktype
@@ -83,7 +83,7 @@ Without property-based testing:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

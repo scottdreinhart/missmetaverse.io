@@ -1,4 +1,4 @@
-﻿# SOLID Principles
+# SOLID Principles
 
 > **Purpose:** Foundational OOP design principles for maintainable code.
 > **Last Updated:** 2026-11-03

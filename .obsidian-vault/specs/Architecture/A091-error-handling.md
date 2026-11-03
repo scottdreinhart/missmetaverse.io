@@ -1,20 +1,20 @@
-﻿---
+---
 slug: error-handling
 sources:
   - https://en.wikipedia.org/wiki/Error_handling
   - https://www.typescriptlang.org/docs/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - error-handling
   - typescript
   - exceptions
@@ -81,7 +81,7 @@ Without error handling:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

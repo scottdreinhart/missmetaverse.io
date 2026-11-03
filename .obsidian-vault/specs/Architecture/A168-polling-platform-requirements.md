@@ -1,4 +1,4 @@
-﻿---
+---
 slug: polling-platform-requirements
 title: Polling Platform Requirements
 description: Comprehensive requirements for a custom Polling Platform with Voting, automated report generation, and real-time analytics built from scratch using Clean Architecture, DDD, CQRS, and Event-Driven patterns.
@@ -6,21 +6,21 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
   - requirements
   - polling
   - voting

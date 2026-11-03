@@ -1,23 +1,23 @@
-﻿---
+---
 slug: microservices
 sources:
   - https://martinfowler.com/articles/microservices.html
   - https://docs.microsoft.com/en-us/azure/architecture/guide/microservices/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - microservices
   - distributed-systems
   - architecture
@@ -397,7 +397,7 @@ Order Service → [OrderPlaced] → Notification Service
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

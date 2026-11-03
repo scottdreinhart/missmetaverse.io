@@ -1,18 +1,18 @@
-﻿---
+---
 slug: interpreter-pattern
 sources:
   - https://en.wikipedia.org/wiki/Interpreter_pattern
   - https://martinfowler.com/eaaDev/interpreter.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - interpreter-pattern
   - behavioral-patterns
   - patterns
@@ -79,7 +79,7 @@ Without interpreter pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

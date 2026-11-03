@@ -1,19 +1,19 @@
-﻿---
+---
 slug: continuous-deployment
 sources:
   - https://martinfowler.com/articles/continuousDeployment.html
   - https://docs.github.com/en/actions/deployment
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/devops
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - cd
   - devops
   - github-actions
@@ -82,7 +82,7 @@ Without CD:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

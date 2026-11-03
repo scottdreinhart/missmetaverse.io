@@ -1,4 +1,4 @@
-﻿# Message Forum / Debate Platform — Requirements Specification
+# Message Forum / Debate Platform — Requirements Specification
 
 > **Date:** 2026-11-02
 > **Scope:** Build a message forum / debate platform with voting/scoring similar to BattleCam or TikTok Battles
@@ -9,21 +9,21 @@
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 1. Executive Summary
 
@@ -57,21 +57,21 @@ This document defines the requirements for building a **custom message forum / d
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 2. Architectural Style
 
@@ -169,21 +169,21 @@ graph TB
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 3. Real-Time Communication Architecture
 
@@ -531,21 +531,21 @@ graph TB
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 4. Core Domain Model (DDD)
 
@@ -1062,21 +1062,21 @@ enum UserRole {
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 5. Functional Requirements
 
@@ -1336,21 +1336,21 @@ tags:
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 6. Non-Functional Requirements
 
@@ -1480,21 +1480,21 @@ graph TB
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 7. Technical Architecture
 
@@ -1777,21 +1777,21 @@ CREATE TABLE post_cache (
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 8. API Design
 
@@ -1978,21 +1978,21 @@ interface DebateResponse {
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 9. Frontend Architecture (React 19)
 
@@ -2202,21 +2202,21 @@ src/admin/
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 10. Testing Strategy
 
@@ -2343,21 +2343,21 @@ describe('WebSocketServerService', () => {
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 11. Deployment & DevOps
 
@@ -2467,21 +2467,21 @@ graph TB
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 12. Project Structure
 
@@ -2564,21 +2564,21 @@ forum-platform/
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 13. Development Phases
 
@@ -2634,21 +2634,21 @@ tags:
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 14. Risk Assessment
 
@@ -2667,21 +2667,21 @@ tags:
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 15. Success Criteria
 
@@ -2719,21 +2719,21 @@ tags:
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 16. Key Differentiators vs. Reddit/TikTok Battles
 
@@ -2752,27 +2752,27 @@ tags:
 ---
 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## 17. References & Sources
 
 ### Architectural Patterns
 - [[Sources/martin-clean-architecture-2017|Clean Architecture]] — Robert C. Martin
-- [[Sources/fowler-patterns-2002|Enterprise Integration Patterns]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|Enterprise Integration Patterns]] — Martin Fowler
 - [[Sources/evans-ddd-2003|Domain-Driven Design]] — Eric Evans
 - [[Sources/goF-1994|Design Patterns]] — GoF
 
@@ -2790,16 +2790,16 @@ tags:
 - [[Sources/nist-cyberframework-2014|NIST Cybersecurity Framework]] — NIST
 
 ### Architecture Patterns
-- [[Sources/fowler-patterns-2002|CQRS]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|CQRS]] — Martin Fowler
 - [[Sources/microsoft-distributed-systems|Event-Driven Architecture]] — Microsoft Azure
-- [[Sources/fowler-patterns-2002|Repository Pattern]] — Martin Fowler
-- [[Sources/fowler-patterns-2002|Service Layer Pattern]] — Martin Fowler
-- [[Sources/fowler-patterns-2002|Cache-Aside Pattern]] — Microsoft Azure
+- [[Sources/martin-fowler-patterns|Repository Pattern]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|Service Layer Pattern]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|Cache-Aside Pattern]] — Microsoft Azure
 
 ### Real-Time Communication
 - [[Sources/mdn-html-2024|WebSocket API]] — MDN
 - [[Sources/microsoft-distributed-systems|Redis Pub/Sub]] — Microsoft Azure
-- [[Sources/fowler-patterns-2002|WebSockets]] — Martin Fowler
+- [[Sources/martin-fowler-patterns|WebSockets]] — Martin Fowler
 
 
 ## See Also

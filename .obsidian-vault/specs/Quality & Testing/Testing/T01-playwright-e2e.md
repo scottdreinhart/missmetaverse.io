@@ -1,4 +1,4 @@
-﻿---
+---
 slug: playwright-e2e
 title: Playwright End-to-End Testing Guide
 description: Comprehensive guide for QA automation using Playwright with TypeScript for reliable E2E testing
@@ -30,21 +30,21 @@ sources:
   - https://playwright.dev/docs/test-circus
   - https://playwright.dev/docs/test-cli
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/architecture
-  - type/concept
-  - domain/frontend
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
+
+
+
+
+
   - playwright
   - e2e-testing
   - testing

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: unidirectional-data-flow
 sources:
   - https://react.dev/learn/you-make-the-ui-by-responding-to-events
   - https://en.wikipedia.org/wiki/Unidirectional_data_flow
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - react
   - data-flow
   - state

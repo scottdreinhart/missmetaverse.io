@@ -1,21 +1,21 @@
-﻿---
+---
 slug: react-performance
 sources:
   - https://react.dev/reference/react
   - https://react.dev/learn/render-and-commit
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - status/complete
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - react
   - performance
   - optimization

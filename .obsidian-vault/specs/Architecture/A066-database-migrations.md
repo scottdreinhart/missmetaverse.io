@@ -1,19 +1,19 @@
-﻿---
+---
 slug: database-migrations
 sources:
   - https://en.wikipedia.org/wiki/Database_migration
   - https://www.npmjs.com/package/knex
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - database-migrations
   - database
   - knex
@@ -80,7 +80,7 @@ Without database migrations:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

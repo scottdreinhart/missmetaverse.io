@@ -1,17 +1,17 @@
-﻿---
+---
 slug: timeouts
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
   - https://microservices.io/patterns/reliability/timeouts.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - type/reference
+
+
+
+
+
+
+
   - timeouts
   - distributed-systems
   - reliability

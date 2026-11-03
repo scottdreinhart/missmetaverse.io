@@ -1,24 +1,24 @@
-﻿---
+---
 slug: quality-delivery-maintainability
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/framework/
   - https://www.enterpriseintegrationpatterns.com/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
   - quality
   - delivery
   - maintainability

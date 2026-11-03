@@ -1,4 +1,4 @@
-﻿---
+---
 slug: frost-atomic-design-2016
 sources:
   - https://bradfrost.com/
@@ -6,14 +6,14 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
+
+
+
+
+
+
+
+
   - atomic-design
   - ui
   - components

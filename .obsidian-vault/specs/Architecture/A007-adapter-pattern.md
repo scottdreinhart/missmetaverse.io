@@ -1,19 +1,19 @@
-﻿---
+---
 slug: adapter-pattern
 sources:
   - https://en.wikipedia.org/wiki/Adapter_pattern
   - https://martinfowler.com/eaaDev/adapter.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - adapter-pattern
   - structural-patterns
   - patterns
@@ -80,7 +80,7 @@ Without adapter pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

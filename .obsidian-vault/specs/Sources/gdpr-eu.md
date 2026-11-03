@@ -1,4 +1,4 @@
-﻿---
+---
 slug: gdpr-eu
 sources:
   - https://gdpr.eu/
@@ -6,10 +6,10 @@ sources:
 
 ---
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - type/reference
+
+
+
+
   - gdpr
   - privacy
   - compliance

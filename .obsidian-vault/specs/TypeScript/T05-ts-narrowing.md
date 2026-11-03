@@ -1,20 +1,20 @@
-﻿---
+---
 slug: ts-narrowing
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
   - typescript
   - narrowing
   - type-guards

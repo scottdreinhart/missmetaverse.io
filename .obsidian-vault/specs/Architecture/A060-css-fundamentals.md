@@ -1,20 +1,20 @@
-﻿---
+---
 slug: css-fundamentals-original
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/CSS
   - https://css-tricks.com/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - css
   - fundamentals
   - styling
@@ -81,7 +81,7 @@ Without CSS fundamentals:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

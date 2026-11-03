@@ -1,4 +1,4 @@
-﻿---
+---
 slug: w3c-i18n
 title: W3C Internationalization (i18n) Resources
 description: W3C Internationalization activity — standards, guides, and best practices for building software that supports multiple languages, regions, and writing systems.
@@ -12,18 +12,18 @@ claims_supported: 20
 access_limitations: Free public standard
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
+
+
+
+
+
+
+
+
+
+
+
+
 
 # W3C Internationalization (i18n) Resources
 

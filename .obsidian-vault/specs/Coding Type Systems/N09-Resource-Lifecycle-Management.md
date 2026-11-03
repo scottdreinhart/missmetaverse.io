@@ -1,18 +1,18 @@
-﻿---
+---
 slug: resource-lifecycle
 sources:
   - https://www.typescriptlang.org/
   - https://nodejs.org/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/reference
+
+
+
+
+
+
+
+
   - resource-lifecycle
   - typescript
   - type-system

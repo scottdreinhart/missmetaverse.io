@@ -1,18 +1,18 @@
-﻿---
+---
 slug: bdd
 sources:
   - https://behaviorspec.org/
   - https://cucumber.io/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
   - bdd
   - testing
   - behavior-driven
@@ -81,7 +81,7 @@ Without BDD:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

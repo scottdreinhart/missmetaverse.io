@@ -1,20 +1,20 @@
-﻿---
+---
 slug: penetration-testing
 sources:
   - https://owasp.org/www-project-web-security-testing-guide/
   - https://owasp.org/www-project-top-ten/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/concept
-  - status/complete
-  - type/guide
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - penetration-testing
   - owasp
   - testing
@@ -81,7 +81,7 @@ Without penetration testing:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

@@ -1,21 +1,21 @@
-﻿---
+---
 slug: immutable-data
 sources:
   - https://en.wikipedia.org/wiki/Immutable_object
   - https://react.dev/reference/react/useState
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - immutability
   - typescript
   - react

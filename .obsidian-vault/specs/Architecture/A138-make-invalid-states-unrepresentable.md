@@ -1,4 +1,4 @@
-﻿---
+---
 slug: make-invalid-states-unrepresentable
 sources:
   - https://www.youtube.com/watch?v=rFfWjDnBjAU
@@ -6,17 +6,17 @@ sources:
 date: 2026-11-02
 tags:
   - priority/low
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - typescript
   - type-systems
   - design

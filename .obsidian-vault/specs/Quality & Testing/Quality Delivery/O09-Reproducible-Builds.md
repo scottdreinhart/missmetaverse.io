@@ -1,22 +1,22 @@
-﻿---
+---
 slug: reproducible-builds
 sources:
   - https://reproducible-builds.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - domain/accessibility
-  - domain/devops
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
+
+
+
+
   - reproducible-builds
   - devops
   - builds
@@ -85,7 +85,7 @@ Without reproducible builds:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

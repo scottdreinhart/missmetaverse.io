@@ -1,22 +1,22 @@
-﻿---
+---
 slug: aggregate
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/Aggregate.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - domain/frontend
-  - domain/accessibility
-  - domain/database
+
+
+
+
+
+
+
+
+
+
+
+
   - ddd
   - aggregate
   - domain-modeling
@@ -85,7 +85,7 @@ Without aggregates:
 ## Sources
 
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
-- [[Sources/fowler-ddd-2003|fowler-ddd-2003]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

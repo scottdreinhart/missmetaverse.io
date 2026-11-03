@@ -1,25 +1,25 @@
-﻿---
+---
 slug: docker-deployment
 sources:
   - https://docs.docker.com/
   - https://nginx.org/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - domain/frontend
-  - domain/accessibility
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   - docker
   - deployment
   - nginx
@@ -86,7 +86,7 @@ Without Docker:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

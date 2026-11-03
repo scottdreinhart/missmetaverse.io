@@ -1,20 +1,20 @@
-﻿---
+---
 slug: accessibility-by-design
 sources:
   - https://www.w3.org/WAI/
   - https://developer.mozilla.org/en-US/docs/Web/Accessibility
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - accessibility
   - a11y
   - design

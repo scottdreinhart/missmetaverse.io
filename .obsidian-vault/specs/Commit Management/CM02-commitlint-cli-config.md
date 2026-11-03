@@ -1,4 +1,4 @@
-﻿---
+---
 slug: commitlint-cli-config
 sources:
   - https://commitlint.js.org/
@@ -8,17 +8,17 @@ sources:
   - https://commitlint.js.org/reference/plugins.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
+
+
+
+
+
+
+
+
+
   - commitlint
   - conventional-commits
   - commit-validation

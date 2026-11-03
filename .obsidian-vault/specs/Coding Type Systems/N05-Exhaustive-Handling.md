@@ -1,17 +1,17 @@
-﻿---
+---
 slug: exhaustive-handling
 sources:
   - https://www.typescriptlang.org/
   - https://react.dev/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - type/reference
+
+
+
+
+
+
+
   - exhaustive-handling
   - typescript
   - type-system

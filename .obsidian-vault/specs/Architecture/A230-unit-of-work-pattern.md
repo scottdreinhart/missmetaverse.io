@@ -1,19 +1,19 @@
-﻿---
+---
 slug: unit-of-work-pattern
 sources:
   - https://martinfowler.com/eaaDev/unitOfWork.html
   - https://en.wikipedia.org/wiki/Unit_of_work_pattern
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - unit-of-work-pattern
   - enterprise-patterns
   - patterns
@@ -80,7 +80,7 @@ Without unit of work pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

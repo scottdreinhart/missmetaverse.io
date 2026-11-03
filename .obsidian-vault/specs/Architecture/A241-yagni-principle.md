@@ -1,19 +1,19 @@
-﻿---
+---
 slug: yagni-principle
 sources:
   - https://en.wikipedia.org/wiki/YAGNI
   - https://www.extremeprogramming.org/rules/yagny.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/frontend
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - yagni
   - principles
   - scope

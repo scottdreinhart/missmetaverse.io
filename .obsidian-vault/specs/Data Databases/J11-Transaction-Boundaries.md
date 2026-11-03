@@ -1,20 +1,20 @@
-﻿---
+---
 slug: transaction-boundaries
 sources:
   - https://www.postgresql.org/docs/
   - https://dev.mysql.com/doc/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/database
+
+
+
+
+
+
+
+
   - database
   - transactions
   - data-modeling
@@ -83,7 +83,7 @@ Without transaction boundaries:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

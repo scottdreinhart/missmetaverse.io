@@ -1,19 +1,19 @@
-﻿---
+---
 slug: authorization
 sources:
   - https://oauth.net/2/
   - https://openid.net/connect/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - authorization
   - oauth
   - openid
@@ -80,7 +80,7 @@ Without authorization:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

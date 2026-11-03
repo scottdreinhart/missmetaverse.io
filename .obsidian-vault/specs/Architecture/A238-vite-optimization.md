@@ -1,21 +1,21 @@
-﻿---
+---
 slug: vite-optimization
 sources:
   - https://vite.dev/guide/build.html#production
   - https://vite.dev/guide/optimizations.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - vite
   - optimization
   - bundler
@@ -82,7 +82,7 @@ Without Vite optimization:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

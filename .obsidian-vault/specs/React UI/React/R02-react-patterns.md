@@ -1,4 +1,4 @@
-﻿---
+---
 slug: react-patterns
 sources:
   - https://react.dev/reference/react
@@ -6,19 +6,19 @@ sources:
   - https://github.com/alan2207/react-patterns
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/database
-  - status/complete
-  - type/guide
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
   - react
   - hooks
   - patterns

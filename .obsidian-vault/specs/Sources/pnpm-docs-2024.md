@@ -1,4 +1,4 @@
-﻿---
+---
 slug: pnpm-docs-2024
 sources:
   - https://pnpm.io/
@@ -6,10 +6,10 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
+
+
+
+
   - pnpm
   - package-manager
   - nodejs

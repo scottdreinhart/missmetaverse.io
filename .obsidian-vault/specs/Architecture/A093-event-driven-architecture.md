@@ -1,19 +1,19 @@
-﻿---
+---
 slug: event-driven-architecture
 sources:
   - https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html
   - https://docs.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - event-driven
   - architecture
   - messaging
@@ -79,7 +79,7 @@ Synchronous communication leads to:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

@@ -1,20 +1,20 @@
-﻿---
+---
 slug: retention-policies
 sources:
   - https://www.postgresql.org/docs/
   - https://dev.mysql.com/doc/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/database
+
+
+
+
+
+
+
+
   - database
   - retention
   - data-modeling
@@ -83,7 +83,7 @@ Without retention policies:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

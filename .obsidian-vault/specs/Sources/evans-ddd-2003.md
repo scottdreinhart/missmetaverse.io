@@ -1,4 +1,4 @@
-﻿---
+---
 slug: evans-ddd-2003
 sources:
   - https://en.wikipedia.org/wiki/Domain-Driven_Design
@@ -6,14 +6,14 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/architecture
-  - type/concept
-  - domain/frontend
-  - domain/accessibility
+
+
+
+
+
+
+
+
   - ddd
   - domain-driven-design
   - architecture
@@ -54,6 +54,6 @@ research_notes: "The original DDD book by Eric Evans. The definitive source for 
 - [[aws-elasticache]]
 - [[bogard-vertical-slice]]
 - [[documentation-ingestion-plan]]
-- [[fowler-ddd-2003]]
+- [[martin-fowler-patterns]]
 
 

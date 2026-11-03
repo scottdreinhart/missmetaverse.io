@@ -1,4 +1,4 @@
-﻿---
+---
 slug: playwright-docs-2024
 sources:
   - https://playwright.dev/
@@ -6,14 +6,14 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
+
+
+
+
+
+
+
+
   - playwright
   - testing
   - e2e

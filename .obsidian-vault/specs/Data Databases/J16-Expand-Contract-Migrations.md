@@ -1,20 +1,20 @@
-﻿---
+---
 slug: expand-contract
 sources:
   - https://martinfowler.com/articles/evodb.html
   - https://www.postgresql.org/docs/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/devops
-  - status/complete
-  - type/reference
-  - domain/database
+
+
+
+
+
+
+
+
   - database
   - migrations
   - schema
@@ -83,7 +83,7 @@ Without expand-contract:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

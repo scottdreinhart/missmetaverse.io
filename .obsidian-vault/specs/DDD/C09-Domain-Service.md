@@ -1,19 +1,19 @@
-﻿---
+---
 slug: domain-service
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/DomainService.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - type/reference
-  - domain/accessibility
+
+
+
+
+
+
+
+
+
   - ddd
   - domain-service
   - domain-modeling
@@ -82,7 +82,7 @@ Without domain services:
 ## Sources
 
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
-- [[Sources/fowler-ddd-2003|fowler-ddd-2003]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

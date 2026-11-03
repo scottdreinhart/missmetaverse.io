@@ -1,4 +1,4 @@
-﻿---
+---
 slug: cicd-github-actions
 sources:
   - https://docs.github.com/en/actions/use-cenarios/building-and-testing
@@ -7,19 +7,19 @@ sources:
   - https://vite.dev/guide/static-deploy
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
+
+
+
+
+
+
+
+
+
+
+
+
+
   - integration
   - ci-cd
   - github-actions

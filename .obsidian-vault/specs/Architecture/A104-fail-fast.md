@@ -1,21 +1,21 @@
-﻿---
+---
 slug: fail-fast
 sources:
   - https://en.wikipedia.org/wiki/Fail-fast
   - https://en.wikipedia.org/wiki/Fail-safe
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/concept
-  - domain/optimization
-  - type/guide
-  - domain/frontend
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - fail-fast
   - principles
   - error-handling

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: active-record-pattern
 sources:
   - https://martinfowler.com/eaaDev/activeRecord.html
   - https://en.wikipedia.org/wiki/Active_record_pattern
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - active-record-pattern
   - enterprise-patterns
   - patterns
@@ -80,7 +80,7 @@ Without active record pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

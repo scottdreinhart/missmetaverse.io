@@ -1,4 +1,4 @@
-﻿---
+---
 slug: modern-react-project-template
 title: Modern React Project Development Guide
 description: Comprehensive guide for modern frontend projects based on React 18 + TypeScript + Vite
@@ -16,20 +16,20 @@ sources:
   - https://eslint.org/
   - https://prettier.io/
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - status/complete
-  - type/guide
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   - react
   - typescript
   - vite

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: custom-hooks-pattern
 sources:
   - https://react.dev/reference/react/hooks
   - https://react.dev/learn/reusing-logic-with-custom-hooks
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - custom-hooks
   - react
   - patterns
@@ -80,7 +80,7 @@ Without custom hooks:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

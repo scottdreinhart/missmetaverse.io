@@ -1,4 +1,4 @@
-﻿---
+---
 slug: vitest-docs-2024
 sources:
   - https://vitest.dev/
@@ -6,16 +6,16 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
   - vitest
   - testing
   - unit-testing

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: schema-file-convention
 sources:
   - https://zod.dev/
   - https://www.typescriptlang.org/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
+
+
+
+
+
+
+
+
+
   - file-conventions
   - react
   - typescript
@@ -82,7 +82,7 @@ Without `*.schema.ts` convention:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

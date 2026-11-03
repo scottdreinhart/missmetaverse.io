@@ -1,21 +1,21 @@
-﻿---
+---
 slug: encapsulation
 sources:
   - https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)
   - https://www.geeksforgeeks.org/what-is-encapsulation-in-object-oriented-programming/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - encapsulation
   - principles
   - oop

@@ -16,7 +16,7 @@ Domain-Driven Design patterns: aggregates, entities, value objects, bounded cont
 # Work Guidance
 
 - New DDD notes go here
-- Reference `evans-ddd-2003.md` and `fowler-ddd-2003.md` in Sources/
+- Reference `evans-ddd-2003.md` and `martin-fowler-patterns.md` in Sources/
 - Cross-reference architecture patterns in `Architecture/`
 
 # Verification

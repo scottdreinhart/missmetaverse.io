@@ -1,22 +1,22 @@
-﻿---
+---
 slug: modular-monolith
 sources:
   - https://martinfowler.com/bliki/ModularMonolith.html
   - https://www.infoq.com/articles/modular-monolith/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/devops
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - modular-monolith
   - architecture
   - monolith
@@ -79,7 +79,7 @@ Monoliths without modules lead to:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

@@ -1,19 +1,19 @@
-﻿---
+---
 slug: tell-dont-ask
 sources:
   - https://en.wikipedia.org/wiki/Principle_of_Least_Knowledge
   - https://www.artima.com/intv/bloch13.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
   - tell-dont-ask
   - principles
   - oop

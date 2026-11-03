@@ -1,18 +1,18 @@
-﻿---
+---
 slug: entity-file-convention
 sources:
   - https://www.typescriptlang.org/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/reference
+
+
+
+
+
+
+
+
   - file-conventions
   - react
   - typescript
@@ -81,7 +81,7 @@ Without `*.entity.ts` convention:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 ---

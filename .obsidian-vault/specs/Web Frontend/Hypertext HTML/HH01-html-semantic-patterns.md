@@ -1,4 +1,4 @@
-﻿---
+---
 slug: html-semantic-patterns
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/HTML
@@ -6,16 +6,16 @@ sources:
   - https://www.w3.org/TR/html/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/accessibility
+
+
+
+
+
+
+
+
   - html
   - semantic
   - accessibility

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: bogard-vertical-slice
 sources:
   - https://www.jimmybogard.com/
@@ -6,12 +6,12 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/architecture
-  - type/concept
+
+
+
+
+
+
   - vertical-slices
   - architecture
   - clean-architecture
@@ -40,6 +40,6 @@ research_notes: "Jimmy Bogard's primary source for Vertical Slice Architecture. 
 - [[aws-elasticache]]
 - [[documentation-ingestion-plan]]
 - [[evans-ddd-2003]]
-- [[fowler-ddd-2003]]
+- [[martin-fowler-patterns]]
 
 

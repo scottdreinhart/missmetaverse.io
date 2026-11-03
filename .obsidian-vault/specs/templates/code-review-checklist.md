@@ -1,4 +1,4 @@
-﻿---
+---
 slug: code-review-checklist
 title: Code Review Checklist
 description: Comprehensive checklist for systematic code reviews covering architecture, security, testing, performance, and maintainability.
@@ -6,20 +6,20 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - domain/database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   - code-review
   - checklist
   - quality

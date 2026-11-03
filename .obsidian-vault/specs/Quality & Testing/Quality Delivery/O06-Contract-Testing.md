@@ -1,21 +1,21 @@
-﻿---
+---
 slug: contract-testing
 sources:
   - https://docs.pact.io/
   - https://www.npmjs.com/package/bravado
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - domain/devops
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
+
+
+
   - contract-testing
   - testing
   - api
@@ -84,7 +84,7 @@ Without contract testing:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

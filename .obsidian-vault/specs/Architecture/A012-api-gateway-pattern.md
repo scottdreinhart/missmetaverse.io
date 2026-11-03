@@ -1,22 +1,22 @@
-﻿---
+---
 slug: api-gateway-pattern
 sources:
   - https://www.nginx.com/resources/glossary/api-gateway/
   - https://docs.aws.amazon.com/apigateway/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/devops
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
   - api-gateway
   - microservices
   - security
@@ -83,7 +83,7 @@ Without API gateway pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

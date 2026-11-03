@@ -1,19 +1,19 @@
-﻿---
+---
 slug: discriminated-unions
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions
   - https://typescript.tv/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - discriminated-unions
   - typescript
   - types
@@ -80,7 +80,7 @@ Without discriminated unions:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

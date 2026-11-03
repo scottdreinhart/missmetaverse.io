@@ -1,21 +1,21 @@
-﻿---
+---
 slug: cqrs-pattern
 sources:
   - https://martinfowler.com/bliki/CQRS.html
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/concept
-  - domain/optimization
-  - type/guide
-  - domain/frontend
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - cqrs
   - architecture
   - command
@@ -79,7 +79,7 @@ Combined read/write models lead to:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

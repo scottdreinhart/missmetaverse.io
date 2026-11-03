@@ -1,19 +1,19 @@
-﻿---
+---
 slug: bff
 sources:
   - https://www.thoughtworks.com/radar/techniques/backend-for-frontend
   - https://martinfowler.com/articles/201701-frontend.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/optimization
+
+
+
+
+
+
+
+
+
   - bff
   - api
   - backend

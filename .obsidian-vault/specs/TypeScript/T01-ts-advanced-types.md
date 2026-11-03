@@ -1,22 +1,22 @@
-﻿---
+---
 slug: ts-advanced-types
 sources:
   - https://www.typescriptlang.org/docs/handbook/2/types-from-types.html
   - https://www.typescriptlang.org/docs/handbook/2/conditional-types.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
+
+
   - typescript
   - generics
   - conditional-types

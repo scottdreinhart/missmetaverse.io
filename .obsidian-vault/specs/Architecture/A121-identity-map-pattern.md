@@ -1,19 +1,19 @@
-﻿---
+---
 slug: identity-map-pattern
 sources:
   - https://martinfowler.com/eaaDev/identityMap.html
   - https://en.wikipedia.org/wiki/Identity_map_pattern
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - identity-map-pattern
   - enterprise-patterns
   - patterns
@@ -80,7 +80,7 @@ Without identity map pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

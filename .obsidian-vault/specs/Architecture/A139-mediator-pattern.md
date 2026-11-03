@@ -1,18 +1,18 @@
-﻿---
+---
 slug: mediator-pattern
 sources:
   - https://en.wikipedia.org/wiki/Mediator_pattern
   - https://martinfowler.com/eaaDev/mediator.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - mediator-pattern
   - behavioral-patterns
   - patterns
@@ -79,7 +79,7 @@ Without mediator pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

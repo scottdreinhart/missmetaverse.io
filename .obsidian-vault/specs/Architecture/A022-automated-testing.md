@@ -1,19 +1,19 @@
-﻿---
+---
 slug: automated-testing
 sources:
   - https://martinfowler.com/articles/practicalTestPyramid.html
   - https://vitest.dev/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - status/complete
-  - type/guide
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - testing
   - automation
   - vitest
@@ -82,7 +82,7 @@ Manual testing leads to:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

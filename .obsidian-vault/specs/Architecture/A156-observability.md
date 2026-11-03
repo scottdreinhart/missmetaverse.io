@@ -1,19 +1,19 @@
-﻿---
+---
 slug: observability
 sources:
   - https://opentelemetry.io/docs/specs/otel/overview/
   - https://docs.sentry.io/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - observability
   - monitoring
   - logging
@@ -81,7 +81,7 @@ Without observability:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

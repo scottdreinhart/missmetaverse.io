@@ -1,22 +1,22 @@
-﻿---
+---
 slug: conventional-commits
 sources:
   - https://www.conventionalcommits.org/
   - https://www.npmjs.com/package/@commitlint/config-conventional
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
   - conventional-commits
   - commits
   - linting
@@ -83,7 +83,7 @@ Without conventional commits:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

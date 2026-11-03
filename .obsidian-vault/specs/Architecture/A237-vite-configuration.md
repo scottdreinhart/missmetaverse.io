@@ -1,21 +1,21 @@
-﻿---
+---
 slug: vite-configuration-original
 sources:
   - https://vite.dev/guide/config.html
   - https://vite.dev/guide/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - vite
   - configuration
   - bundler
@@ -82,7 +82,7 @@ Without Vite configuration:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

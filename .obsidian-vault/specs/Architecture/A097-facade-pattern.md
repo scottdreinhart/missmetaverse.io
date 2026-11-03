@@ -1,19 +1,19 @@
-﻿---
+---
 slug: facade-pattern
 sources:
   - https://en.wikipedia.org/wiki/Facade_pattern
   - https://martinfowler.com/eaaDev/adapter.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - facade-pattern
   - structural-patterns
   - patterns
@@ -80,7 +80,7 @@ Without facade pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

@@ -1,18 +1,18 @@
-﻿---
+---
 slug: chain-of-responsibility-pattern
 sources:
   - https://en.wikipedia.org/wiki/Chain_of_responsibility_pattern
   - https://martinfowler.com/eaaDev/chainOfResponsibility.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - chain-of-responsibility-pattern
   - behavioral-patterns
   - patterns
@@ -79,7 +79,7 @@ Without chain of responsibility pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

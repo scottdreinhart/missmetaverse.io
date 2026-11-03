@@ -1,20 +1,20 @@
-﻿---
+---
 slug: low-coupling
 sources:
   - https://en.wikipedia.org/wiki/Coupling_(computer_programming)
   - https://blog.cleancoder.com/uncle-bob/2014/08/14/TheCleanArchitecture.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - coupling
   - principles
   - design

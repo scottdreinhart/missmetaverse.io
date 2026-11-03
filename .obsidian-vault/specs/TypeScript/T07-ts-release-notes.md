@@ -1,19 +1,19 @@
-﻿---
+---
 slug: ts-release-notes
 sources:
   - https://www.typescriptlang.org/download/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/frontend
+
+
+
+
+
+
+
+
   - typescript
   - release-notes
   - changelog

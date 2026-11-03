@@ -1,16 +1,16 @@
-﻿---
+---
 slug: dead-letter-queues
 sources:
   - https://www.enterpriseintegrationpatterns.com/patterns/messaging/DeadLetterChannel.html
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/dead-letter-queue
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
   - dlq
   - messaging
   - distributed-systems
@@ -74,7 +74,7 @@ Without DLQs:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

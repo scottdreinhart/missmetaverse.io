@@ -1,19 +1,19 @@
-﻿---
+---
 slug: kiss-principle
 sources:
   - https://en.wikipedia.org/wiki/KISS_principle
   - https://www.merriam-webster.com/dictionary/KISS
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - kiss
   - principles
   - simplicity

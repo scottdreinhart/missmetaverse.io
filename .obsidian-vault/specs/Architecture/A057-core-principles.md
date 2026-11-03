@@ -1,20 +1,20 @@
-﻿---
+---
 slug: core-principles
 sources:
   - https://docs.microsoft.com/en-us/dotnet/architecture/microservices/
   - https://www.enterpriseintegrationpatterns.com/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/concept
-  - domain/frontend
-  - domain/accessibility
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - dry
   - kiss
   - yagni

@@ -1,4 +1,4 @@
-﻿---
+---
 slug: project-structure-mapping
 title: Project Structure Mapping
 description: Maps architectural patterns and concepts to actual file/folder structure in the project.
@@ -6,19 +6,19 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - domain/accessibility
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - project-structure
   - clean-architecture
   - ddd

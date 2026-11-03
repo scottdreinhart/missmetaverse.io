@@ -1,21 +1,21 @@
-﻿---
+---
 slug: rbac
 sources:
   - https://owasp.org/
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/security
+
+
+
+
+
+
+
+
+
+
+
   - rbac
   - security
   - access-control
@@ -83,7 +83,7 @@ Without RBAC:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 ---

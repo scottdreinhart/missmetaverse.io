@@ -1,22 +1,22 @@
-﻿---
+---
 slug: boundary-validation
 sources:
   - https://www.typescriptlang.org/
   - https://zod.dev/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/database
+
+
+
+
+
+
+
+
+
+
+
+
   - boundary-validation
   - typescript
   - type-system

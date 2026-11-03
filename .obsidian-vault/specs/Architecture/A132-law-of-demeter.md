@@ -1,20 +1,20 @@
-﻿---
+---
 slug: law-of-demeter
 sources:
   - https://en.wikipedia.org/wiki/Law_of_Demeter
   - https://www.slideshare.net/bill_lacoste/law-of-demeter
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - demeter
   - principles
   - coupling

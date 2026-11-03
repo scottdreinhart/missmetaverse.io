@@ -1,20 +1,20 @@
-﻿---
+---
 slug: principle-of-least-astonishment
 sources:
   - https://en.wikipedia.org/wiki/Principle_of_least_astonishment
   - https://pragmaticprogrammer.com/books/ppola
 date: 2026-11-02
 tags:
-  - priority/medium
+
   - maturity/deprecated
-  - domain/backend
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - least-astonishment
   - principles
   - ux

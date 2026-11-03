@@ -1,17 +1,17 @@
-﻿---
+---
 slug: saga-pattern
 sources:
   - https://microservices.io/patterns/data/saga.html
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/saga
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
   - saga
   - distributed-systems
   - transactions
@@ -75,7 +75,7 @@ Without sagas:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

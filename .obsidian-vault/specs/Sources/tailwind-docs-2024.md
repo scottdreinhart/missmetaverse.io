@@ -1,4 +1,4 @@
-﻿---
+---
 slug: tailwind-docs-2024
 sources:
   - https://tailwindcss.com/docs
@@ -6,15 +6,15 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/architecture
-  - type/concept
-  - domain/frontend
-  - domain/optimization
-  - type/guide
+
+
+
+
+
+
+
+
+
   - tailwind
   - css
   - utility-first

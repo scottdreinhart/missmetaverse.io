@@ -1,20 +1,20 @@
-﻿---
+---
 slug: database-design
 sources:
   - https://en.wikipedia.org/wiki/Database_design
   - https://www.postgresql.org/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - database-design
   - sql
   - postgresql
@@ -81,7 +81,7 @@ Without database design:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

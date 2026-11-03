@@ -1,4 +1,4 @@
-﻿---
+---
 slug: tailwind-css-patterns
 sources:
   - https://tailwindcss.com/docs
@@ -6,17 +6,17 @@ sources:
   - https://github.com/edge-js/tailwindcss-best-practices
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
+
+
+
+
+
+
+
+
+
   - tailwind-css
   - css
   - utility-first

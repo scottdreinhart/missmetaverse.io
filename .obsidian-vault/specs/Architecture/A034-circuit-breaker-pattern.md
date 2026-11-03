@@ -1,19 +1,19 @@
-﻿---
+---
 slug: circuit-breaker-pattern
 sources:
   - https://martinfowler.com/bliki/CircuitBreaker.html
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker
 date: 2026-11-02
 tags:
-  - priority/medium
+
   - maturity/deprecated
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/devops
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
   - circuit-breaker
   - distributed-systems
   - resilience
@@ -77,7 +77,7 @@ Without circuit breakers:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

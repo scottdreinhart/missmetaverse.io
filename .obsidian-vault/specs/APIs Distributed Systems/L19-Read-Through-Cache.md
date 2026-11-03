@@ -1,21 +1,21 @@
-﻿---
+---
 slug: read-through-cache
 sources:
   - https://docs.aws.amazon.com/AmazonElastiCache/latest/dg/WhatIs.html
   - https://redis.io/docs/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/database
+
+
+
+
+
+
+
+
+
+
+
   - read-through-cache
   - caching
   - distributed-systems

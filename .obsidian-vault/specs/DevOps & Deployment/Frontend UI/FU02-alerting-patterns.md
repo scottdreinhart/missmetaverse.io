@@ -1,19 +1,19 @@
-﻿---
+---
 slug: alerting-patterns
 sources:
   - https://sentry.io/
   - https://opentelemetry.io/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
+
+
+
+
+
+
+
+
+
   - alerting
   - monitoring
   - production
@@ -82,7 +82,7 @@ Without alerting patterns:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

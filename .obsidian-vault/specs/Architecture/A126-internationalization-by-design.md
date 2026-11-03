@@ -1,19 +1,19 @@
-﻿---
+---
 slug: internationalization-by-design
 sources:
   - https://www.w3.org/International/
   - https://formatjs.io/docs/getting-started/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/optimization
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - i18n
   - internationalization
   - design

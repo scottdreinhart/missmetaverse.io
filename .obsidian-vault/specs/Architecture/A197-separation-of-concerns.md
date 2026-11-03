@@ -1,19 +1,19 @@
-﻿---
+---
 slug: separation-of-concerns
 sources:
   - https://en.wikipedia.org/wiki/Separation_of_concerns
   - https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - separation-of-concerns
   - principles
   - dijkstra
@@ -83,7 +83,7 @@ Without SoC:
 ## Sources
 
 - [[Sources/martin-oop-2000|martin-oop-2000]]
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

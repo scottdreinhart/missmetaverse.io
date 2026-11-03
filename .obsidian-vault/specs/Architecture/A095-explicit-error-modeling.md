@@ -1,20 +1,20 @@
-﻿---
+---
 slug: explicit-error-modeling
 sources:
   - https://en.wikipedia.org/wiki/Error_handling
   - https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - error-handling
   - typescript
   - design

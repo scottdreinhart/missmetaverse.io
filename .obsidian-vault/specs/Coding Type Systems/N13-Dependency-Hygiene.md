@@ -1,18 +1,18 @@
-﻿---
+---
 slug: dependency-hygiene
 sources:
   - https://www.typescriptlang.org/
   - https://pnpm.io/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/reference
+
+
+
+
+
+
+
+
   - dependency-hygiene
   - typescript
   - type-system

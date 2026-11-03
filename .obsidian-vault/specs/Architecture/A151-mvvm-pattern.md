@@ -1,19 +1,19 @@
-﻿---
+---
 slug: mvvm-pattern
 sources:
   - https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel
   - https://react.dev/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - mvvm
   - architecture
   - patterns
@@ -80,7 +80,7 @@ Without MVVM:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

@@ -1,20 +1,20 @@
-﻿---
+---
 slug: pure-functions-coding
 sources:
   - https://www.typescriptlang.org/
   - https://react.dev/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
+
+
+
+
+
+
+
+
   - pure-functions
   - typescript
   - type-system

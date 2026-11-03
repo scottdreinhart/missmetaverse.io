@@ -1,17 +1,17 @@
-﻿---
+---
 slug: structured-concurrency
 sources:
   - https://www.typescriptlang.org/
   - https://nodejs.org/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - type/reference
+
+
+
+
+
+
+
   - structured-concurrency
   - typescript
   - type-system

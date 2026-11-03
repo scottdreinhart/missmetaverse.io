@@ -1,17 +1,17 @@
-﻿---
+---
 slug: data-transfer-objects
 sources:
   - https://martinfowler.com/bliki/DataTransferObject.html
   - https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddc-caching/microservice-ddc-caching
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/concept
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
   - dto
   - api
   - data-transfer
@@ -77,7 +77,7 @@ Without DTOs:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

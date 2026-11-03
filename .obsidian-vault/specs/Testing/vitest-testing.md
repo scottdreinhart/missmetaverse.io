@@ -1,4 +1,4 @@
-﻿# Vitest Testing
+# Vitest Testing
 
 > **Purpose:** Unit testing with Vitest.
 > **Last Updated:** 2026-11-03

@@ -1,20 +1,20 @@
-﻿---
+---
 slug: slo
 sources:
   - https://sre.google/sre-book/service-level-objectives/
   - https://opentelemetry.io/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
+
+
   - slo
   - observability
   - reliability
@@ -83,7 +83,7 @@ Without SLOs:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

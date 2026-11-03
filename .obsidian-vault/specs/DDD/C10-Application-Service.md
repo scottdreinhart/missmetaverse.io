@@ -1,20 +1,20 @@
-﻿---
+---
 slug: application-service
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/articles/2023-01-software-architecture.html
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
+
+
+
+
+
+
+
+
+
+
   - ddd
   - application-service
   - domain-modeling
@@ -83,7 +83,7 @@ Without application services:
 ## Sources
 
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
-- [[Sources/fowler-ddd-2003|fowler-ddd-2003]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

@@ -1,20 +1,20 @@
-﻿---
+---
 slug: architecture-fitness
 sources:
   - https://martinfowler.com/bliki/ArchitectureFitnessFunction.html
   - https://www.thoughtworks.com/radar
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/concept
-  - status/complete
-  - type/guide
-  - domain/testing
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - architecture-fitness
   - testing
   - architecture
@@ -83,7 +83,7 @@ Without architecture fitness functions:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

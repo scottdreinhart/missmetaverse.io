@@ -1,4 +1,4 @@
-﻿---
+---
 slug: pr-template
 title: Pull Request Template
 description: Comprehensive PR template for structured pull requests with context, changes, testing, and review guidance.
@@ -6,20 +6,20 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - domain/frontend
-  - domain/accessibility
-  - domain/devops
-  - domain/database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   - pr
   - template
   - pull-request

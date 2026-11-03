@@ -1,21 +1,21 @@
-﻿---
+---
 slug: domain-event
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/DomainEvent.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/accessibility
-  - domain/database
+
+
+
+
+
+
+
+
+
+
+
   - ddd
   - domain-event
   - domain-modeling
@@ -84,7 +84,7 @@ Without domain events:
 ## Sources
 
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
-- [[Sources/fowler-ddd-2003|fowler-ddd-2003]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

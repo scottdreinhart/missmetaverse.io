@@ -1,20 +1,20 @@
-﻿---
+---
 slug: caching-strategies
 sources:
   - https://en.wikipedia.org/wiki/Cache_(computing)
   - https://docs.redis.io/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/optimization
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
   - caching
   - redis
   - performance
@@ -81,7 +81,7 @@ Without caching strategies:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

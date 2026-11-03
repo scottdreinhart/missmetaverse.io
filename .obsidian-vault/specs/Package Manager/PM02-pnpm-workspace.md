@@ -1,4 +1,4 @@
-﻿---
+---
 slug: pnpm-workspace
 sources:
   - https://pnpm.io/package-json
@@ -6,17 +6,17 @@ sources:
   - https://pnpm.io/workspaces
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/devops
+
+
+
+
+
+
+
+
+
   - pnpm
   - package-manager
   - workspace

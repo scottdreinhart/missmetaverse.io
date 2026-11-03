@@ -1,18 +1,18 @@
-﻿---
+---
 slug: anti-corruption-layer-pattern
 sources:
   - https://martinfowler.com/bliki/AntiCorruptionLayer.html
   - https://en.wikipedia.org/wiki/Anti-corruption_layer
 date: 2026-11-02
 tags:
-  - priority/medium
+
   - maturity/deprecated
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
   - anti-corruption-layer
   - ddd
   - integration
@@ -79,7 +79,7 @@ Without anti-corruption layer pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

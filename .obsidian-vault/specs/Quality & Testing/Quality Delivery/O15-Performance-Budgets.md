@@ -1,19 +1,19 @@
-﻿---
+---
 slug: performance-budgets
 sources:
   - https://web.dev/performance-budgets/
   - https://vitejs.dev/
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - domain/architecture
-  - type/concept
-  - domain/optimization
-  - status/complete
-  - type/guide
-  - domain/testing
+
+
+
+
+
+
+
+
+
   - performance-budgets
   - performance
   - monitoring
@@ -82,7 +82,7 @@ Without performance budgets:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

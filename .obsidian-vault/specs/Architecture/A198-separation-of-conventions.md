@@ -1,17 +1,17 @@
-﻿---
+---
 slug: separation-of-conventions
 sources:
   - https://en.wikipedia.org/wiki/Convention_over_configuration
   - https://en.wikipedia.org/wiki/Configuration-driven_development
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - type/concept
-  - domain/frontend
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
   - conventions
   - separation-of-conventions
   - configuration

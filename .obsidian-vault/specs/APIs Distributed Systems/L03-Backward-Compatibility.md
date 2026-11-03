@@ -1,19 +1,19 @@
-﻿---
+---
 slug: backward-compatibility
 sources:
   - https://swagger.io/
   - https://www.openapis.org/
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
+
+
+
+
+
+
+
   - backward-compatibility
   - api
   - versioning

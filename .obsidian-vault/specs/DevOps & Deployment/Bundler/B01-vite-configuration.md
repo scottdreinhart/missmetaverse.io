@@ -1,4 +1,4 @@
-﻿---
+---
 slug: vite-configuration
 sources:
   - https://vitejs.dev/guide/
@@ -6,18 +6,18 @@ sources:
   - https://vitejs.dev/guide/features.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
+
+
+
+
+
+
+
+
+
+
+
+
   - vite
   - bundler
   - configuration

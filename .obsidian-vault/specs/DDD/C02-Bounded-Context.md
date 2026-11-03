@@ -1,21 +1,21 @@
-﻿---
+---
 slug: bounded-context
 sources:
   - https://www.domainlanguage.com/ddd/reference/
   - https://martinfowler.com/bliki/BoundedContext.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - domain/devops
-  - domain/database
+
+
+
+
+
+
+
+
+
   - ddd
   - bounded-context
   - domain-modeling
@@ -84,7 +84,7 @@ Without bounded contexts:
 ## Sources
 
 - [[Sources/evans-ddd-2003|evans-ddd-2003]]
-- [[Sources/fowler-ddd-2003|fowler-ddd-2003]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 ---
 

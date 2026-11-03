@@ -1,19 +1,19 @@
-﻿---
+---
 slug: logging-patterns
 sources:
   - https://sentry.io/
   - https://github.com/winstonjs/winston
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
+
+
+
+
+
+
+
+
+
   - logging
   - observability
   - debugging
@@ -82,7 +82,7 @@ Without logging patterns:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

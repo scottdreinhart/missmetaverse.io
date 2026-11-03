@@ -1,4 +1,4 @@
-﻿---
+---
 slug: vite-optimization-security
 sources:
   - https://vite.dev/guide/build.html
@@ -9,20 +9,20 @@ sources:
   - https://vite.dev/guide/why
 date: 2025-01-15
 tags:
-  - priority/high
+
   - maturity/experimental
-  - domain/backend
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
-  - status/complete
-  - type/reference
-  - domain/security
+
+
+
+
+
+
+
+
+
+
+
+
   - vite
   - build
   - optimization

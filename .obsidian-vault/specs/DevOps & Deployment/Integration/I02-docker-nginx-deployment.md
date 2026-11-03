@@ -1,4 +1,4 @@
-﻿---
+---
 slug: docker-nginx-deployment
 sources:
   - https://docs.docker.com/build/building/multi-stage/
@@ -7,19 +7,19 @@ sources:
   - https://vite.dev/config/build-options.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/backend
-  - type/reference
-  - domain/security
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - domain/devops
+
+
+
+
+
+
+
+
+
+
+
   - integration
   - docker
   - nginx

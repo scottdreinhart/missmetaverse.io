@@ -1,18 +1,18 @@
-﻿---
+---
 slug: repository-pattern-ddd
 sources:
   - https://martinfowler.com/eaaDev/repository.html
   - https://en.wikipedia.org/wiki/Repository_pattern
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
   - repository-pattern
   - ddd
   - data-access
@@ -79,7 +79,7 @@ Without repository pattern:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

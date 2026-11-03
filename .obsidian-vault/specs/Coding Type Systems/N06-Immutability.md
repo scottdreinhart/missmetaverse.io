@@ -1,19 +1,19 @@
-﻿---
+---
 slug: immutability-coding
 sources:
   - https://www.typescriptlang.org/
   - https://react.dev/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - type/reference
+
+
+
+
+
+
+
+
+
   - immutability
   - typescript
   - type-system

@@ -1,21 +1,21 @@
-﻿---
+---
 slug: data-driven-design
 sources:
   - https://en.wikipedia.org/wiki/Data-driven_design
   - https://en.wikipedia.org/wiki/Configuration-driven_development
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - data-driven
   - configuration-driven
   - design

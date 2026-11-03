@@ -1,20 +1,20 @@
-﻿---
+---
 slug: performance-optimization-patterns
 sources:
   - https://vitejs.dev/
   - https://react.dev/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - type/reference
-  - domain/testing
-  - domain/optimization
-  - domain/accessibility
+
+
+
+
+
+
+
+
+
+
   - performance
   - optimization
   - frontend-patterns
@@ -83,7 +83,7 @@ Without performance optimization patterns:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 

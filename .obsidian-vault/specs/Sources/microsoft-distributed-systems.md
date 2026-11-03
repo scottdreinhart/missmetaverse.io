@@ -1,4 +1,4 @@
-﻿---
+---
 slug: microsoft-distributed-systems
 sources:
   - https://learn.microsoft.com/
@@ -6,12 +6,12 @@ sources:
 
 ---
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/security
-  - type/reference
-  - domain/architecture
-  - type/concept
+
+
+
+
+
+
   - distributed-systems
   - microsoft
   - architecture

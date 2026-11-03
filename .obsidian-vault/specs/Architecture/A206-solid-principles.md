@@ -1,4 +1,4 @@
-﻿---
+---
 slug: solid-principles
 sources:
   - https://en.wikipedia.org/wiki/SOLID
@@ -7,18 +7,18 @@ sources:
   - https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/backend
-  - type/concept
-  - domain/testing
-  - type/guide
-  - domain/frontend
-  - domain/accessibility
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
+
   - solid
   - principles
   - design

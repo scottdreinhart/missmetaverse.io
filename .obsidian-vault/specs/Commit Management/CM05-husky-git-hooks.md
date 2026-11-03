@@ -1,4 +1,4 @@
-﻿---
+---
 slug: husky-git-hooks
 sources:
   - https://typicode.github.io/husky/
@@ -7,13 +7,13 @@ sources:
   - https://typicode.github.io/husky/troubleshoot.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - domain/frontend
-  - type/guide
-  - domain/testing
-  - domain/optimization
-  - domain/devops
+
+
+
+
+
   - husky
   - git-hooks
   - pre-commit

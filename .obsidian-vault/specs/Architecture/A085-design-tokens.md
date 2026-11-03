@@ -1,19 +1,19 @@
-﻿---
+---
 slug: design-tokens
 sources:
   - https://design-tokens.github.io/community-group/format/
   - https://m3.material.io/styles/color/the-color-system/color-tokens
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - type/concept
-  - domain/accessibility
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
   - design-tokens
   - design-systems
   - css

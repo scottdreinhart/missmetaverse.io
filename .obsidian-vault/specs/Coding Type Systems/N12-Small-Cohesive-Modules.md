@@ -1,18 +1,18 @@
-﻿---
+---
 slug: small-cohesive-modules
 sources:
   - https://www.typescriptlang.org/
   - https://eslint.org/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - type/reference
+
+
+
+
+
+
+
+
   - small-cohesive-modules
   - typescript
   - type-system

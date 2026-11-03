@@ -1,19 +1,19 @@
-﻿---
+---
 slug: cache-aside-pattern
 sources:
   - https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside
   - https://www.enterpriseintegrationpatterns.com/patterns/performance/Cache.html
 date: 2026-11-02
 tags:
-  - priority/high
+
   - maturity/deprecated
-  - type/concept
-  - domain/optimization
-  - type/guide
-  - domain/database
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
   - caching
   - performance
   - distributed-systems
@@ -77,7 +77,7 @@ Without caching:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

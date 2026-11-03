@@ -1,21 +1,21 @@
-﻿---
+---
 slug: content-security-policy
 sources:
   - https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
   - https://content-security-policy.com/
 date: 2026-11-02
 tags:
-  - priority/medium
-  - maturity/stable
-  - type/concept
-  - domain/testing
-  - type/guide
-  - status/complete
-  - type/reference
-  - domain/security
-  - status/complete
-  - type/reference
-  - domain/architecture
+
+
+
+
+
+
+
+
+
+
+
   - csp
   - security
   - web
@@ -82,7 +82,7 @@ Without CSP:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 
 
 

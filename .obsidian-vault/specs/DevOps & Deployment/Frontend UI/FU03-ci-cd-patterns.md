@@ -1,18 +1,18 @@
-﻿---
+---
 slug: ci-cd-patterns
 sources:
   - https://martinfowler.com/articles/continuousIntegration.html
   - https://docs.github.com/en/actions
 date: 2026-11-02
 tags:
-  - priority/high
-  - maturity/stable
-  - domain/frontend
-  - type/guide
-  - domain/architecture
-  - type/concept
-  - domain/testing
-  - domain/devops
+
+
+
+
+
+
+
+
   - ci-cd
   - devops
   - automation
@@ -81,7 +81,7 @@ Without ci/cd patterns:
 
 ## Sources
 
-- [[Sources/fowler-patterns-2002|fowler-patterns-2002]]
+- [[Sources/martin-fowler-patterns|martin-fowler-patterns]]
 - [[Sources/react-docs-2026|react-docs-2026]]
 
 
