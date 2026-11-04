@@ -6,7 +6,7 @@ sources:
 date: 2026-11-02
 tags:
 
-  - maturity/deprecated
+  - maturity-deprecated
 
 
 

@@ -8,7 +8,7 @@ canonical_url:
 tags:
   - architecture-design-patterns
 
-  - maturity/experimental
+  - maturity-experimental
   - requirements
   - polling
   - voting

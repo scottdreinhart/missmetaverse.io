@@ -7,7 +7,7 @@ date: 2026-11-02
 tags:
   - architecture-design-patterns
 
-  - priority/low
+  - priority-low
   - typescript
   - type-systems
   - design

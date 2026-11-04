@@ -8,7 +8,7 @@ canonical_url:
 tags:
   - architecture-design-patterns
 
-  - maturity/deprecated
+  - maturity-deprecated
   - project-structure
   - clean-architecture
   - ddd

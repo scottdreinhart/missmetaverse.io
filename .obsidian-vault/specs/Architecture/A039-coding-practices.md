@@ -7,8 +7,8 @@ date: 2026-11-02
 tags:
   - architecture-design-patterns
 
-  - maturity/deprecated
-  - Architecture/clean-architecture
+  - maturity-deprecated
+  - Architecture-clean-architecture
   - strict-typing
   - parse-dont-validate
   - make-invalid-states-unrepresentable

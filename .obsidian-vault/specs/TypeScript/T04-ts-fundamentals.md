@@ -7,7 +7,7 @@ date: 2026-11-02
 tags:
   - typescript-javascript-type-system
 
-  - maturity/deprecated
+  - maturity-deprecated
 
   - typescript
   - types

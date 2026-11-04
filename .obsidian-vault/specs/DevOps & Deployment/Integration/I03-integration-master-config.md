@@ -10,7 +10,7 @@ date: 2026-11-02
 tags:
   - core-concepts
 
-  - maturity/experimental
+  - maturity-experimental
   - integration
   - vite
   - typescript

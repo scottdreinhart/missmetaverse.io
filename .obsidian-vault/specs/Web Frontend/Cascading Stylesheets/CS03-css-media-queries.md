@@ -18,7 +18,7 @@ sources:
 tags:
   - core-concepts
 
-  - maturity/experimental
+  - maturity-experimental
 
 # CSS Media Queries
 

@@ -8,8 +8,8 @@ date: 2026-11-02
 tags:
   - core-concepts
 
-  - priority/low
-  - maturity/experimental
+  - priority-low
+  - maturity-experimental
   - commitizen
   - cz-git
   - conventional-commits

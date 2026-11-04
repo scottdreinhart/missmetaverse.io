@@ -8,7 +8,7 @@ sources:
 tags:
   - references-external-sources
 
-  - maturity/deprecated
+  - maturity-deprecated
   - react
   - meta
   - frontend

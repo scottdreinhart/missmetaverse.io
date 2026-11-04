@@ -9,7 +9,7 @@ date: 2026-11-02
 tags:
   - core-concepts
 
-  - maturity/deprecated
+  - maturity-deprecated
   - husky
   - git-hooks
   - pre-commit

@@ -32,7 +32,7 @@ sources:
 tags:
   - testing-quality-assurance
 
-  - maturity/deprecated
+  - maturity-deprecated
   - playwright
   - e2e-testing
   - testing

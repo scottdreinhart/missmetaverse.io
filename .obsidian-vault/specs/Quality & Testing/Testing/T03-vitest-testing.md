@@ -11,7 +11,7 @@ date: 2025-01-15
 tags:
   - testing-quality-assurance
 
-  - maturity/deprecated
+  - maturity-deprecated
   - vitest
   - testing
   - unit-testing

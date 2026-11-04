@@ -7,8 +7,8 @@ date: 2026-11-02
 tags:
   - architecture-design-patterns
 
-  - maturity/deprecated
-  - Application-Architecture/modular-monolith-architecture
+  - maturity-deprecated
+  - Application-Architecture-modular-monolith-architecture
   - architecture
   - monolith
   - microservices

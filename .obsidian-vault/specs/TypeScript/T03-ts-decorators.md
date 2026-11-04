@@ -6,7 +6,7 @@ date: 2026-11-02
 tags:
   - typescript-javascript-type-system
 
-  - maturity/experimental
+  - maturity-experimental
 
   - typescript
   - decorators

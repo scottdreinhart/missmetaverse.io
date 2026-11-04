@@ -14,7 +14,7 @@ slug: A061-custom-cms-requirements
 tags:
   - architecture-design-patterns
 
-  - maturity/experimental
+  - maturity-experimental
 ## 1. Executive Summary
 
 ## concept_id
@@ -68,5 +68,5 @@ This document defines the requirements for building a **custom content managemen
 tags:
   - architecture-design-patterns
 
-  - maturity/experimental
+  - maturity-experimental
 ## 2. Architectural Style

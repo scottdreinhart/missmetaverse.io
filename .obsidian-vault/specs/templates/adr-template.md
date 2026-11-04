@@ -8,7 +8,7 @@ canonical_url: https://www.cognitect.com/blog/2011/11/15/documenting-architectur
 tags:
   - templates-boilerplate
 
-  - maturity/deprecated
+  - maturity-deprecated
 
   - adr
   - architecture

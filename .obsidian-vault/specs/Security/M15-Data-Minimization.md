@@ -7,7 +7,7 @@ date: 2026-11-02
 tags:
   - security-authentication-authorization
 
-  - maturity/deprecated
+  - maturity-deprecated
   - data-minimization
   - security
   - privacy

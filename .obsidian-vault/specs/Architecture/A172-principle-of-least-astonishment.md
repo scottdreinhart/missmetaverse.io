@@ -7,7 +7,7 @@ date: 2026-11-02
 tags:
   - architecture-design-patterns
 
-  - maturity/deprecated
+  - maturity-deprecated
   - least-astonishment
   - principles
   - ux
