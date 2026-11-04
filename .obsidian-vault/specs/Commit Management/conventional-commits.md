@@ -3,7 +3,7 @@ slug: conventional-commits
 tags:
   - core-concepts
 
-  - git   - version-control   - conventions
+  - git-version-control-conventions
 ---
 
 # Conventional Commits

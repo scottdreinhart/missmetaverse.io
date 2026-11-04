@@ -5,7 +5,7 @@ sources:
   - https://www.w3.org/WAI/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - accessibility
   - a11y

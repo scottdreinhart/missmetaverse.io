@@ -3,7 +3,7 @@ slug: database-backup-recovery
 tags:
   - core-concepts
 
-  - database   - data   - backend
+  - database-data-backend
 ---
 
 # Database Backup and Recovery

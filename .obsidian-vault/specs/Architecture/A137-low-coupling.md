@@ -5,7 +5,7 @@ sources:
   - https://blog.cleancoder.com/uncle-bob/2014/08/14/TheCleanArchitecture.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - coupling
   - principles

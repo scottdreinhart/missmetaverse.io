@@ -1,9 +1,9 @@
 ---
 slug: S013-opentelemetry
 tags:
-  - references   - external-sources
+  - references-external-sources
 
-  - source   - reference   - external
+  - source-reference-external
 source_id: opentelemetry
 title: "OpenTelemetry Documentation"
 author: "CNCF OpenTelemetry"

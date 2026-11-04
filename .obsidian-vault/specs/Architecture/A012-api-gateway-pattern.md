@@ -5,7 +5,7 @@ sources:
   - https://docs.aws.amazon.com/apigateway/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - api-gateway
   - microservices

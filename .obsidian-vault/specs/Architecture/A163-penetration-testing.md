@@ -5,7 +5,7 @@ sources:
   - https://owasp.org/www-project-top-ten/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - penetration-testing
   - owasp

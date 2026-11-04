@@ -3,7 +3,7 @@ slug: architecture-decision-records
 tags:
   - core-concepts
 
-  - quality   - testing   - best-practices
+  - quality-testing-best-practices
 ---
 
 # Architecture Decision Records

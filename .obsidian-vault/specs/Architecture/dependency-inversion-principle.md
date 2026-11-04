@@ -1,9 +1,9 @@
 ---
 slug: dependency-inversion-principle
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
-  - architecture   - design-patterns   - core-concepts
+  - architecture-design-patterns-core-concepts
 ---
 
 # Dependency Inversion Principle

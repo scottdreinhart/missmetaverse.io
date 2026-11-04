@@ -3,7 +3,7 @@ slug: modern-react-suspense
 tags:
   - core-concepts
 
-  - react   - frontend   - ui
+  - react-frontend-ui
 ---
 
 # React Modern React Suspense

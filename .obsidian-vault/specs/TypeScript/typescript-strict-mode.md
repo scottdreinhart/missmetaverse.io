@@ -1,9 +1,9 @@
 ---
 slug: typescript-strict-mode
 tags:
-  - typescript   - javascript   - type-system
+  - typescript-javascript-type-system
 
-  - typescript   - type-system   - coding
+  - typescript-type-system-coding
 ---
 
 # TypeScript Strict Mode

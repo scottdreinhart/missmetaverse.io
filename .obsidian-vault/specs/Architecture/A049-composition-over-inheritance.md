@@ -6,7 +6,7 @@ sources:
   - https://martinfowler.com/bliki/CompositionOverInheritance.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - composition
   - inheritance

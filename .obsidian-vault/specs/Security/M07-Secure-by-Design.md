@@ -5,7 +5,7 @@ sources:
   - https://cwe.mitre.org/
 date: 2026-11-02
 tags:
-  - security   - authentication   - authorization
+  - security-authentication-authorization
 
   - maturity/deprecated
   - secure-by-design

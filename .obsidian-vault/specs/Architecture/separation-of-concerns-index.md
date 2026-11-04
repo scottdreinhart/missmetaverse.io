@@ -5,7 +5,7 @@ sources:
 date: 2026-11-03
 tags:
   - principles
-  - separation of concerns
+  - separation-of-concerns
   - best-practices
 ---
 

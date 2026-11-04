@@ -3,7 +3,7 @@ slug: modern-react-context-api
 tags:
   - core-concepts
 
-  - react   - frontend   - ui
+  - react-frontend-ui
 ---
 
 # React Modern React Context API

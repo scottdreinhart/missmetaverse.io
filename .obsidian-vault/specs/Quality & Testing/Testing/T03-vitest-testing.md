@@ -9,7 +9,7 @@ sources:
   - https://vitest.dev/guide/features
 date: 2025-01-15
 tags:
-  - testing   - quality-assurance
+  - testing-quality-assurance
 
   - maturity/deprecated
   - vitest

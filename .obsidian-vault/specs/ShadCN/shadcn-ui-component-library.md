@@ -3,7 +3,7 @@ slug: shadcn-ui-component-library
 tags:
   - core-concepts
 
-  - ui   - component-library   - frontend
+  - ui-component-library-frontend
 ---
 
 # ShadCN UI Component Library

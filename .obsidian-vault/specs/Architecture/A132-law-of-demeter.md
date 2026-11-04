@@ -5,7 +5,7 @@ sources:
   - https://www.slideshare.net/bill_lacoste/law-of-demeter
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - demeter
   - principles

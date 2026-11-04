@@ -5,7 +5,7 @@ sources:
   - https://www.agilealliance.org/glossary/dry/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - dry
   - principles

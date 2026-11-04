@@ -5,7 +5,7 @@ sources:
   - https://docs.microsoft.com/en-us/dotnet/standard/microservices-architecture/microservice-ddc-caching/microservice-ddc-caching
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - dto
   - api

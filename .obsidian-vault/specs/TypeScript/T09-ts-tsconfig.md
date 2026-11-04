@@ -4,7 +4,7 @@ sources:
   - https://www.typescriptlang.org/tsconfig
 date: 2026-11-02
 tags:
-  - typescript   - javascript   - type-system
+  - typescript-javascript-type-system
 
   - maturity/experimental
 

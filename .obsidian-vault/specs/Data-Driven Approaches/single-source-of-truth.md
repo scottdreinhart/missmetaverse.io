@@ -3,7 +3,7 @@ slug: single-source-of-truth
 tags:
   - core-concepts
 
-  - data-driven   - declarative   - architecture
+  - data-driven-declarative-architecture
 ---
 
 # Single Source of Truth

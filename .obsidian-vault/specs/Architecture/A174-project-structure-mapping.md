@@ -6,7 +6,7 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/deprecated
   - project-structure

@@ -3,7 +3,7 @@ slug: reproducible-builds
 tags:
   - core-concepts
 
-  - quality   - testing   - best-practices
+  - quality-testing-best-practices
 ---
 
 # Reproducible Builds

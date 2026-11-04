@@ -6,7 +6,7 @@ sources:
 
 ---
 tags:
-  - references   - external-sources
+  - references-external-sources
 
   - pnpm
   - package-manager

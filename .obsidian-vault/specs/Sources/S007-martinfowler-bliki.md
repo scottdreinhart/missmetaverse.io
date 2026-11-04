@@ -1,9 +1,9 @@
 ---
 slug: S007-martinfowler-bliki
 tags:
-  - references   - external-sources
+  - references-external-sources
 
-  - source   - reference   - external
+  - source-reference-external
 source_id: martinfowler-bliki
 title: "Martin Fowler's Bliki"
 author: "Martin Fowler"

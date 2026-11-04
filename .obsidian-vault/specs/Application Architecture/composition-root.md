@@ -1,9 +1,9 @@
 ---
 slug: composition-root
 tags:
-  - application-design   - architecture-patterns   - core-concepts
+  - application-design-architecture-patterns-core-concepts
 
-  - architecture   - application-design   - patterns
+  - architecture-application-design-patterns
 ---
 
 # Composition Root

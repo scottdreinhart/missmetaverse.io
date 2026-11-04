@@ -3,7 +3,7 @@ slug: release-management
 tags:
   - core-concepts
 
-  - devops   - deployment   - cicd
+  - devops-deployment-cicd
 ---
 
 # Release Management

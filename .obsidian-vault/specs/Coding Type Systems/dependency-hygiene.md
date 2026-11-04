@@ -3,7 +3,7 @@ slug: dependency-hygiene
 tags:
   - core-concepts
 
-  - coding   - type-system   - best-practices
+  - coding-type-system-best-practices
 ---
 
 # Dependency Hygiene

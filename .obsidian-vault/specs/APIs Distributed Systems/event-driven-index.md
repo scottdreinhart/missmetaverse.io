@@ -5,7 +5,7 @@ sources:
 date: 2026-11-03
 tags:
   - principles
-  - event driven
+  - event-driven
   - best-practices
 ---
 

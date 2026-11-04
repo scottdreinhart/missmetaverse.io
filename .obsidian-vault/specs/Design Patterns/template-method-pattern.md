@@ -3,7 +3,7 @@ slug: template-method-pattern
 tags:
   - core-concepts
 
-  - design-patterns   - patterns   - reusable-solutions
+  - design-patterns-patterns-reusable-solutions
 ---
 
 # Template Method Pattern

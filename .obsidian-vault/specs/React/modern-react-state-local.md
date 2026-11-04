@@ -3,7 +3,7 @@ slug: modern-react-state-local
 tags:
   - core-concepts
 
-  - react   - frontend   - ui
+  - react-frontend-ui
 ---
 
 # React Modern React Local State

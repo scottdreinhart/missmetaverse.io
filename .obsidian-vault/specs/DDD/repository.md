@@ -3,7 +3,7 @@ slug: repository
 tags:
   - core-concepts
 
-  - ddd   - domain-driven-design   - architecture
+  - ddd-domain-driven-design-architecture
 ---
 
 # Repository Pattern

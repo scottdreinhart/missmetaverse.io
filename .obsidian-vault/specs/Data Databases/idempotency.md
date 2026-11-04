@@ -3,7 +3,7 @@ slug: idempotency
 tags:
   - core-concepts
 
-  - database   - data   - backend
+  - database-data-backend
 ---
 
 # Idempotency

@@ -3,7 +3,7 @@ slug: i18next-internationalization
 tags:
   - core-concepts
 
-  - i18n   - localization   - frontend
+  - i18n-localization-frontend
 ---
 
 # i18next Internationalization

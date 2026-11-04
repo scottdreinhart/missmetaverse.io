@@ -13,7 +13,7 @@ slug: A023-blogging-platform-requirements
 ---
 
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/experimental
 ## 1. Executive Summary
@@ -70,7 +70,7 @@ This document defines the requirements for building a **custom blogging platform
 ---
 
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/experimental
 ## 2. Architectural Style

@@ -3,7 +3,7 @@ slug: adapter-file-convention
 tags:
   - core-concepts
 
-  - conventions   - file-structure   - organization
+  - conventions-file-structure-organization
 ---
 
 # Adapter File Convention

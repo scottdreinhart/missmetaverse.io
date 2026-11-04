@@ -3,7 +3,7 @@ slug: recharts-data-visualization
 tags:
   - core-concepts
 
-  - visualization   - charts   - frontend
+  - visualization-charts-frontend
 ---
 
 # Recharts Data Visualization

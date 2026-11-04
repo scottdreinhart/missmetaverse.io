@@ -4,7 +4,7 @@ sources:
   - https://www.typescriptlang.org/tsconfig#strict
 date: 2026-11-02
 tags:
-  - typescript   - javascript   - type-system
+  - typescript-javascript-type-system
 
   - typescript
   - strict-mode
@@ -18,7 +18,7 @@ sources:
   - https://typescript.tv/
 date: 2026-11-02
 tags:
-  - typescript   - javascript   - type-system
+  - typescript-javascript-type-system
 
   - typescript
   - strict-mode

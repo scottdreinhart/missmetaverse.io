@@ -3,7 +3,7 @@ slug: behavior-driven-development
 tags:
   - core-concepts
 
-  - quality   - testing   - best-practices
+  - quality-testing-best-practices
 ---
 
 # Behavior-Driven Development

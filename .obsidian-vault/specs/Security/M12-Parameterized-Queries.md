@@ -5,7 +5,7 @@ sources:
   - https://www.postgresql.org/docs/
 date: 2026-11-02
 tags:
-  - security   - authentication   - authorization
+  - security-authentication-authorization
 
   - parameterized-queries
   - security

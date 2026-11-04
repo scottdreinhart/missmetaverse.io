@@ -5,7 +5,7 @@ sources:
   - https://martinfowler.com/eaaDev/mvc.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - mvp
   - architecture

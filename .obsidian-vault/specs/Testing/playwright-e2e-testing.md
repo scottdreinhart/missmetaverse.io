@@ -1,9 +1,9 @@
 ---
 slug: Testing/playwright-e2e-testing-testing
 tags:
-  - testing   - quality-assurance
+  - testing-quality-assurance
 
-  - testing   - e2e   - quality
+  - testing-e2e-quality
 ---
 
 # Playwright E2E Testing

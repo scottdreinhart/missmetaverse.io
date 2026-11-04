@@ -3,7 +3,7 @@ slug: supabase-backend-integration
 tags:
   - core-concepts
 
-  - backend   - integration   - database
+  - backend-integration-database
 ---
 
 # Supabase Backend Integration

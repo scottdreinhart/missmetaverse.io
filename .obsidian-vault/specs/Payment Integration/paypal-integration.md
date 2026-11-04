@@ -3,7 +3,7 @@ slug: paypal-integration
 tags:
   - core-concepts
 
-  - payment   - integration   - backend
+  - payment-integration-backend
 ---
 
 # PayPal Integration

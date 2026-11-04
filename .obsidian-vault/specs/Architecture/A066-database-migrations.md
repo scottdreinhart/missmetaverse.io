@@ -5,7 +5,7 @@ sources:
   - https://www.npmjs.com/package/knex
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - database-migrations
   - database

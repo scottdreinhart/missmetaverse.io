@@ -3,7 +3,7 @@ slug: data-file-convention
 tags:
   - core-concepts
 
-  - conventions   - file-structure   - organization
+  - conventions-file-structure-organization
 ---
 
 # Data File Convention

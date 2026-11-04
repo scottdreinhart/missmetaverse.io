@@ -1,9 +1,9 @@
 ---
 slug: vertical-slice-architecture
 tags:
-  - application-design   - architecture-patterns   - core-concepts
+  - application-design-architecture-patterns-core-concepts
 
-  - architecture   - application-design   - patterns
+  - architecture-application-design-patterns
 ---
 
 # Vertical Slice Architecture

@@ -1,9 +1,9 @@
 ---
 slug: S025-wikipedia
 tags:
-  - references   - external-sources
+  - references-external-sources
 
-  - source   - reference   - external
+  - source-reference-external
 source_id: wikipedia
 title: "Wikipedia â€” Software Engineering"
 author: "Wikipedia Contributors"

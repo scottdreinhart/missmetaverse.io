@@ -3,7 +3,7 @@ slug: mediator-pattern
 tags:
   - core-concepts
 
-  - design-patterns   - patterns   - reusable-solutions
+  - design-patterns-patterns-reusable-solutions
 ---
 
 # Mediator Pattern

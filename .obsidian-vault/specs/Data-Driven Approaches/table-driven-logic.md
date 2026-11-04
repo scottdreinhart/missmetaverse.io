@@ -3,7 +3,7 @@ slug: table-driven-logic
 tags:
   - core-concepts
 
-  - data-driven   - declarative   - architecture
+  - data-driven-declarative-architecture
 ---
 
 # Table-Driven Logic

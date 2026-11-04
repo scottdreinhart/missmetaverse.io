@@ -3,7 +3,7 @@ slug: domain-invariant
 tags:
   - core-concepts
 
-  - ddd   - domain-driven-design   - architecture
+  - ddd-domain-driven-design-architecture
 ---
 
 # Domain Invariant

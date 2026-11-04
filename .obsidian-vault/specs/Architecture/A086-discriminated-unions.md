@@ -5,7 +5,7 @@ sources:
   - https://typescript.tv/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - discriminated-unions
   - typescript

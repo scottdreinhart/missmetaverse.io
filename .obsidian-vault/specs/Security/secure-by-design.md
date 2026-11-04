@@ -1,9 +1,9 @@
 ---
 slug: secure-by-design
 tags:
-  - security   - authentication   - authorization
+  - security-authentication-authorization
 
-  - security   - authentication   - best-practices
+  - security-authentication-best-practices
 ---
 
 # Secure by Design

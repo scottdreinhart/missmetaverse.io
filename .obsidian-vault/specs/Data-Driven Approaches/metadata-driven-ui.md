@@ -3,7 +3,7 @@ slug: metadata-driven-ui
 tags:
   - core-concepts
 
-  - data-driven   - declarative   - architecture
+  - data-driven-declarative-architecture
 ---
 
 # Metadata-Driven UI

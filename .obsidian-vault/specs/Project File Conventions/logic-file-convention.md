@@ -3,7 +3,7 @@ slug: logic-file-convention
 tags:
   - core-concepts
 
-  - conventions   - file-structure   - organization
+  - conventions-file-structure-organization
 ---
 
 # Logic File Convention

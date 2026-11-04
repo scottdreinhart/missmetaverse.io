@@ -5,7 +5,7 @@ sources:
   - https://developer.mozilla.org/en-US/docs/Web/Accessibility
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - accessibility
   - a11y

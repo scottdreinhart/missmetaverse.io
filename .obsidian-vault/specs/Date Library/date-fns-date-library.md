@@ -3,7 +3,7 @@ slug: date-fns-date-library
 tags:
   - core-concepts
 
-  - date   - utility   - frontend
+  - date-utility-frontend
 ---
 
 # date-fns Date Library

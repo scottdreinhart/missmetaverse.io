@@ -5,7 +5,7 @@ sources:
   - https://www.typescriptlang.org/docs/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - error-handling
   - typescript

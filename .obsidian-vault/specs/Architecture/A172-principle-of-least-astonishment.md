@@ -5,7 +5,7 @@ sources:
   - https://pragmaticprogrammer.com/books/ppola
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/deprecated
   - least-astonishment

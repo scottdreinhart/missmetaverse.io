@@ -14,7 +14,7 @@ slug: A089-ecommerce-platform-requirements
 ---
 
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/experimental
 ## 1. Executive Summary
@@ -71,7 +71,7 @@ This document defines the requirements for building a **custom eCommerce platfor
 ---
 
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/experimental
 ## 2. Architectural Style

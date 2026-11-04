@@ -5,7 +5,7 @@ sources:
   - https://martinfowler.com/eaaDev/strategyObject.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - strategy-pattern
   - behavioral-patterns

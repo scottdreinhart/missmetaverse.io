@@ -3,7 +3,7 @@ slug: pnpm-package-manager
 tags:
   - core-concepts
 
-  - package-manager   - dependencies   - devops
+  - package-manager-dependencies-devops
 ---
 
 # pnpm Package Manager

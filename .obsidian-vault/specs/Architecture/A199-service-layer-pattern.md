@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Service-layer_pattern
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - service-layer-pattern
   - enterprise-patterns

@@ -3,7 +3,7 @@ slug: parse-dont-validate
 tags:
   - core-concepts
 
-  - coding   - type-system   - best-practices
+  - coding-type-system-best-practices
 ---
 
 # Parse, Don't Merely Validate

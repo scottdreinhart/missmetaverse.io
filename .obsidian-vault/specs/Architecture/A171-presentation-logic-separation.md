@@ -5,7 +5,7 @@ sources:
   - https://martinfowler.com/bliki/PresentationModel.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - presentation-logic
   - frontend

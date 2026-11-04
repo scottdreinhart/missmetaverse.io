@@ -5,7 +5,7 @@ sources:
   - https://react.dev/learn/composing-components
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - component-composition
   - react

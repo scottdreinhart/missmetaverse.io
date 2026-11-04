@@ -3,7 +3,7 @@ slug: prettier-configuration
 tags:
   - core-concepts
 
-  - quality   - testing   - best-practices
+  - quality-testing-best-practices
 ---
 
 # Prettier Configuration

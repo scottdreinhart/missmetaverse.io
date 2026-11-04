@@ -3,7 +3,7 @@ slug: event-sourcing
 tags:
   - core-concepts
 
-  - database   - data   - backend
+  - database-data-backend
 ---
 
 # Event Sourcing

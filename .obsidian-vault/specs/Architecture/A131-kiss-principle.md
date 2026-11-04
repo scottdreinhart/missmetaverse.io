@@ -5,7 +5,7 @@ sources:
   - https://www.merriam-webster.com/dictionary/KISS
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - kiss
   - principles

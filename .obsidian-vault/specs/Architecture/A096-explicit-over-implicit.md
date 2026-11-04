@@ -5,7 +5,7 @@ sources:
   - https://pragmaticprogrammer.com/titles/tpphr/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - explicit
   - principles

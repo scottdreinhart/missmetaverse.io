@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Declarative_programming
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - configuration-driven
   - declarative

@@ -3,7 +3,7 @@ slug: semantic-versioning
 tags:
   - core-concepts
 
-  - devops   - deployment   - cicd
+  - devops-deployment-cicd
 ---
 
 # Semantic Versioning

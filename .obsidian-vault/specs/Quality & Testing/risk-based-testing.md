@@ -3,7 +3,7 @@ slug: risk-based-testing
 tags:
   - core-concepts
 
-  - quality   - testing   - best-practices
+  - quality-testing-best-practices
 ---
 
 # Risk-Based Testing

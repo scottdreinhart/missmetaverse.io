@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Data_mapper_pattern
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - data-mapper-pattern
   - enterprise-patterns

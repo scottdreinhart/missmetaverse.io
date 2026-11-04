@@ -5,7 +5,7 @@ sources:
   - https://www.npmjs.com/package/@commitlint/config-conventional
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - conventional-commits
   - commits

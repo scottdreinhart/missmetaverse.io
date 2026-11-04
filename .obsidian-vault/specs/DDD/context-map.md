@@ -3,7 +3,7 @@ slug: context-map
 tags:
   - core-concepts
 
-  - ddd   - domain-driven-design   - architecture
+  - ddd-domain-driven-design-architecture
 ---
 
 # Context Map

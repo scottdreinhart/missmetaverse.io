@@ -3,7 +3,7 @@ slug: application-service
 tags:
   - core-concepts
 
-  - ddd   - domain-driven-design   - architecture
+  - ddd-domain-driven-design-architecture
 ---
 
 # Application Service

@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Component-based_software_engineering
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - component-based
   - architecture

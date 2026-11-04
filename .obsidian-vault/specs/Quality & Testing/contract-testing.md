@@ -3,7 +3,7 @@ slug: contract-testing
 tags:
   - core-concepts
 
-  - quality   - testing   - best-practices
+  - quality-testing-best-practices
 ---
 
 # Contract Testing

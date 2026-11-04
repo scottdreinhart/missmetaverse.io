@@ -5,7 +5,7 @@ sources:
   - https://owasp.org/www-project-web-security-testing-guide/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - react
   - security

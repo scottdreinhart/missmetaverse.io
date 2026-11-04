@@ -3,7 +3,7 @@ slug: modern-react-proptypes
 tags:
   - core-concepts
 
-  - react   - frontend   - ui
+  - react-frontend-ui
 ---
 
 # React Modern React PropTypes

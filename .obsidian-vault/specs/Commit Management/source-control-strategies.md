@@ -3,7 +3,7 @@ slug: source-control-strategies
 tags:
   - core-concepts
 
-  - git   - version-control   - conventions
+  - git-version-control-conventions
 ---
 
 # Source Control Strategies

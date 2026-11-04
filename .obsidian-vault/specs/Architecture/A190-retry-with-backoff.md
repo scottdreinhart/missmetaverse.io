@@ -5,7 +5,7 @@ sources:
   - https://www.awsarchitectureblog.com/2015/03/backoff.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - retry
   - backoff

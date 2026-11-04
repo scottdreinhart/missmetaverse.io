@@ -3,7 +3,7 @@ slug: react-router-configuration
 tags:
   - core-concepts
 
-  - routing   - navigation   - frontend
+  - routing-navigation-frontend
 ---
 
 # React Router Configuration

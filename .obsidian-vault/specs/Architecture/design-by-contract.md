@@ -1,9 +1,9 @@
 ---
 slug: design-by-contract
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
-  - architecture   - design-patterns   - core-concepts
+  - architecture-design-patterns-core-concepts
 ---
 
 # Design by Contract

@@ -3,7 +3,7 @@ slug: rate-limiting
 tags:
   - core-concepts
 
-  - api   - distributed-systems   - backend
+  - api-distributed-systems-backend
 ---
 
 # Rate Limiting

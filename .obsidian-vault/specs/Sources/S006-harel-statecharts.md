@@ -1,9 +1,9 @@
 ---
 slug: S006-harel-statecharts
 tags:
-  - references   - external-sources
+  - references-external-sources
 
-  - source   - reference   - external
+  - source-reference-external
 source_id: harel-statecharts
 title: "Statecharts: A Visual Formalism for Complex Systems"
 author: "David Harel"

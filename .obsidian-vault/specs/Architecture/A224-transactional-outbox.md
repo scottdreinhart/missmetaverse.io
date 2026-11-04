@@ -5,7 +5,7 @@ sources:
   - https://learn.microsoft.com/en-us/azure/architecture/patterns/transactional-outbox
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - outbox
   - distributed-systems

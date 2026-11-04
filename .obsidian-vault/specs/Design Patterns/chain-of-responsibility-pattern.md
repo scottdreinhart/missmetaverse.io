@@ -3,7 +3,7 @@ slug: chain-of-responsibility-pattern
 tags:
   - core-concepts
 
-  - design-patterns   - patterns   - reusable-solutions
+  - design-patterns-patterns-reusable-solutions
 ---
 
 # Chain of Responsibility Pattern

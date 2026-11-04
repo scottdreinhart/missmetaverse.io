@@ -5,7 +5,7 @@ sources:
   - https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 date: 2026-11-02
 tags:
-  - typescript   - javascript   - type-system
+  - typescript-javascript-type-system
 
   - maturity/deprecated
 

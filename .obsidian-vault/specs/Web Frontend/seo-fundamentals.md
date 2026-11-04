@@ -3,7 +3,7 @@ slug: seo-fundamentals
 tags:
   - core-concepts
 
-  - frontend   - web   - ui
+  - frontend-web-ui
 ---
 
 # SEO Fundamentals

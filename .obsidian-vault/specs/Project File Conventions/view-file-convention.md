@@ -3,7 +3,7 @@ slug: view-file-convention
 tags:
   - core-concepts
 
-  - conventions   - file-structure   - organization
+  - conventions-file-structure-organization
 ---
 
 # View File Convention

@@ -3,7 +3,7 @@ slug: error-handling
 tags:
   - core-concepts
 
-  - coding   - type-system   - best-practices
+  - coding-type-system-best-practices
 ---
 
 # Error Handling

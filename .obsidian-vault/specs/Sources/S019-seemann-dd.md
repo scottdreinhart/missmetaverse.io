@@ -1,9 +1,9 @@
 ---
 slug: S019-seemann-dd
 tags:
-  - references   - external-sources
+  - references-external-sources
 
-  - source   - reference   - external
+  - source-reference-external
 source_id: seemann-dd
 title: "Dependency Injection in .NET"
 author: "Mark Seemann"

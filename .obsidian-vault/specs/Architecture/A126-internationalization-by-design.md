@@ -5,7 +5,7 @@ sources:
   - https://formatjs.io/docs/getting-started/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - i18n
   - internationalization

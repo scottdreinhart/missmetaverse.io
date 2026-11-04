@@ -5,7 +5,7 @@ sources:
   - https://martinfowler.com/eaaDev/interpreter.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - interpreter-pattern
   - behavioral-patterns

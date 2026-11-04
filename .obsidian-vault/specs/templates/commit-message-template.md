@@ -6,7 +6,7 @@ author: Copilot
 source: vault-research
 canonical_url: https://www.conventionalcommits.org/en/v1.0.0/
 tags:
-  - templates   - boilerplate
+  - templates-boilerplate
 
   - commits
   - conventional-commits

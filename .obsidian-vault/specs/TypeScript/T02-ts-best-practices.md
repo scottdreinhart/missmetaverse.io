@@ -1,6 +1,6 @@
 ---
 tags:
-  - typescript   - javascript   - type-system
+  - typescript-javascript-type-system
 
 ---
 slug: TypeScript/typescript-strict-mode
@@ -14,7 +14,7 @@ date: 2026-11-02
 ---
 
 tags:
-  - typescript   - javascript   - type-system
+  - typescript-javascript-type-system
 
 ---
 # TypeScript Best Practices

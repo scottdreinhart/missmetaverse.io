@@ -1,9 +1,9 @@
 ---
 slug: S012-nist-cyberframework-2014
 tags:
-  - references   - external-sources
+  - references-external-sources
 
-  - source   - reference   - external
+  - source-reference-external
 source_id: nist-cyberframework-2014
 title: "NIST Cybersecurity Framework"
 author: "National Institute of Standards and Technology"

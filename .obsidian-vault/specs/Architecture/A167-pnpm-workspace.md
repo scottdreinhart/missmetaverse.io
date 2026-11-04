@@ -5,7 +5,7 @@ sources:
   - https://pnpm.io/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - pnpm
   - workspace

@@ -5,10 +5,10 @@ sources:
   - https://www.infoq.com/articles/Application Architecture/modular-monolith-architecture/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/deprecated
-  - Application Architecture/modular-monolith-architecture
+  - Application-Architecture/modular-monolith-architecture
   - architecture
   - monolith
   - microservices

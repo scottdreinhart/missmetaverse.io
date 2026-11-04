@@ -3,7 +3,7 @@ slug: configuration-driven-development
 tags:
   - core-concepts
 
-  - data-driven   - declarative   - architecture
+  - data-driven-declarative-architecture
 ---
 
 # Configuration-Driven Development

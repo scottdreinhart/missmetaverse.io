@@ -3,7 +3,7 @@ slug: memory-management
 tags:
   - core-concepts
 
-  - coding   - type-system   - best-practices
+  - coding-type-system-best-practices
 ---
 
 # Memory Management

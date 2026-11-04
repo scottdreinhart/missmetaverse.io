@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Abstract_factory_pattern
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - abstract-factory
   - creational-patterns

@@ -1,9 +1,9 @@
 ---
 slug: no-explicit-any
 tags:
-  - typescript   - javascript   - type-system
+  - typescript-javascript-type-system
 
-  - typescript   - type-system   - coding
+  - typescript-type-system-coding
 ---
 
 # No Explicit Any

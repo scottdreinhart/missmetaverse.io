@@ -5,7 +5,7 @@ sources:
   - https://www.cs.utexas.edu/users/EWD/ewd03xx/EWD339.PDF
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - information-hiding
   - encapsulation

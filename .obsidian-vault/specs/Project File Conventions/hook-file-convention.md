@@ -3,7 +3,7 @@ slug: hook-file-convention
 tags:
   - core-concepts
 
-  - conventions   - file-structure   - organization
+  - conventions-file-structure-organization
 ---
 
 # Hook File Convention

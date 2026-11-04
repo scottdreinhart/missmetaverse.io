@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Unidirectional_data_flow
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - react
   - data-flow

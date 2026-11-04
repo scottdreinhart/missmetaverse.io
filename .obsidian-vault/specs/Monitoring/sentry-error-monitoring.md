@@ -1,9 +1,9 @@
 ---
 slug: sentry-error-monitoring
 tags:
-  - monitoring   - observability
+  - monitoring-observability
 
-  - monitoring   - observability   - devops
+  - monitoring-observability-devops
 ---
 
 # Sentry Error Monitoring

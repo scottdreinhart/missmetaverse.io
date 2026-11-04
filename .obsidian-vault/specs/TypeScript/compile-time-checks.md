@@ -1,9 +1,9 @@
 ---
 slug: compile-time-checks
 tags:
-  - typescript   - javascript   - type-system
+  - typescript-javascript-type-system
 
-  - typescript   - type-system   - coding
+  - typescript-type-system-coding
 ---
 
 # Compile-Time Checks

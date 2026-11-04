@@ -3,7 +3,7 @@ slug: retry-backoff-jitter
 tags:
   - core-concepts
 
-  - api   - distributed-systems   - backend
+  - api-distributed-systems-backend
 ---
 
 # Retry with Backoff and Jitter

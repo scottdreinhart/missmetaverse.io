@@ -5,7 +5,7 @@ sources:
   - https://oauth.net/2/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - openid-connect
   - authentication

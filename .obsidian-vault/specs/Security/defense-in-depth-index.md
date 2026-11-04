@@ -5,7 +5,7 @@ sources:
 date: 2026-11-03
 tags:
   - principles
-  - defense in depth
+  - defense-in-depth
   - best-practices
 ---
 

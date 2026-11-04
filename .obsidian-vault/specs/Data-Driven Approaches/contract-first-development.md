@@ -3,7 +3,7 @@ slug: contract-first-development
 tags:
   - core-concepts
 
-  - data-driven   - declarative   - architecture
+  - data-driven-declarative-architecture
 ---
 
 # Contract-First Development

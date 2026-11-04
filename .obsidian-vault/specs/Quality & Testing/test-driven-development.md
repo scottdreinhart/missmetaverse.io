@@ -3,7 +3,7 @@ slug: test-driven-development
 tags:
   - core-concepts
 
-  - quality   - testing   - best-practices
+  - quality-testing-best-practices
 ---
 
 # Test-Driven Development

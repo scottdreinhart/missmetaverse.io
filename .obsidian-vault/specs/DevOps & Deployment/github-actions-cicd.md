@@ -3,7 +3,7 @@ slug: github-actions-cicd
 tags:
   - core-concepts
 
-  - devops   - deployment   - cicd
+  - devops-deployment-cicd
 ---
 
 # GitHub Actions CI/CD

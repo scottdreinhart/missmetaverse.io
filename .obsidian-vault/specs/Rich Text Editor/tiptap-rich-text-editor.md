@@ -3,7 +3,7 @@ slug: tiptap-rich-text-editor
 tags:
   - core-concepts
 
-  - editor   - rich-text   - frontend
+  - editor-rich-text-frontend
 ---
 
 # Tiptap Rich Text Editor

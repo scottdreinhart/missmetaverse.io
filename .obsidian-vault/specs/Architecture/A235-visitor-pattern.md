@@ -5,7 +5,7 @@ sources:
   - https://martinfowler.com/eaaDev/visitor.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - visitor-pattern
   - behavioral-patterns

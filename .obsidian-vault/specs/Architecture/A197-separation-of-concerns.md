@@ -5,7 +5,7 @@ sources:
   - https://www.cs.utexas.edu/users/EWD/ewd02xx/EWD215.PDF
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - separation-of-concerns
   - principles

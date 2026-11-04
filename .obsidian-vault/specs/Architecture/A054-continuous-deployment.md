@@ -5,7 +5,7 @@ sources:
   - https://docs.github.com/en/actions/deployment
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - cd
   - devops

@@ -13,7 +13,7 @@ slug: A108-forum-debate-platform-requirements
 ---
 
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/deprecated
 ## 1. Executive Summary
@@ -68,7 +68,7 @@ This document defines the requirements for building a **custom message forum / d
 ---
 
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/deprecated
 ## 2. Architectural Style

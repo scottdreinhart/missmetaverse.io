@@ -3,7 +3,7 @@ slug: aggregate
 tags:
   - core-concepts
 
-  - ddd   - domain-driven-design   - architecture
+  - ddd-domain-driven-design-architecture
 ---
 
 # Aggregate

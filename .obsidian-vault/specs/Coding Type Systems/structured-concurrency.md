@@ -3,7 +3,7 @@ slug: structured-concurrency
 tags:
   - core-concepts
 
-  - coding   - type-system   - best-practices
+  - coding-type-system-best-practices
 ---
 
 # Structured Concurrency

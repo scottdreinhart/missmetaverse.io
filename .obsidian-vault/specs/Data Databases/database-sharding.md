@@ -3,7 +3,7 @@ slug: database-sharding
 tags:
   - core-concepts
 
-  - database   - data   - backend
+  - database-data-backend
 ---
 
 # Database Sharding

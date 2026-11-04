@@ -30,7 +30,7 @@ sources:
   - https://playwright.dev/docs/test-circus
   - https://playwright.dev/docs/test-cli
 tags:
-  - testing   - quality-assurance
+  - testing-quality-assurance
 
   - maturity/deprecated
   - playwright

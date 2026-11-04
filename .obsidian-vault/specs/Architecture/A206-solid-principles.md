@@ -7,7 +7,7 @@ sources:
   - https://blog.cleancoder.com/uncle-bob/2020/10/18/Solid-Relevance.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - solid
   - principles

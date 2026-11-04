@@ -5,7 +5,7 @@ sources:
   - https://docs.microsoft.com/en-us/azure/architecture/best-practices/retry-service-specific
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - rate-limiting
   - security

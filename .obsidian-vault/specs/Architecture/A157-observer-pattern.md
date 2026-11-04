@@ -5,7 +5,7 @@ sources:
   - https://martinfowler.com/eaaDev/observer.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - observer-pattern
   - behavioral-patterns

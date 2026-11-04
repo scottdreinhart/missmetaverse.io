@@ -3,7 +3,7 @@ slug: state-pattern
 tags:
   - core-concepts
 
-  - design-patterns   - patterns   - reusable-solutions
+  - design-patterns-patterns-reusable-solutions
 ---
 
 # State Pattern

@@ -6,7 +6,7 @@ author: Copilot
 source: vault-research
 canonical_url: 
 tags:
-  - templates   - boilerplate
+  - templates-boilerplate
 
   - code-review
   - checklist

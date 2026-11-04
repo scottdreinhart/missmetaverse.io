@@ -5,7 +5,7 @@ sources:
   - https://gleb-tarasov.com/blog/parse-dont-validate/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - parsing
   - validation

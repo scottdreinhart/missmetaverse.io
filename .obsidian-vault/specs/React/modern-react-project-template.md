@@ -3,7 +3,7 @@ slug: modern-react-project-template
 tags:
   - core-concepts
 
-  - react   - frontend   - ui
+  - react-frontend-ui
 ---
 
 # React Project Template

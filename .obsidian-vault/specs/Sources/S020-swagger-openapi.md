@@ -1,9 +1,9 @@
 ---
 slug: S020-swagger-openapi
 tags:
-  - references   - external-sources
+  - references-external-sources
 
-  - source   - reference   - external
+  - source-reference-external
 source_id: swagger-openapi
 title: "OpenAPI Specification"
 author: "Linux Foundation"

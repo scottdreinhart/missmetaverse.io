@@ -5,7 +5,7 @@ sources:
   - https://m3.material.io/styles/color/the-color-system/color-tokens
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - design-tokens
   - design-systems

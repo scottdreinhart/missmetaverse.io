@@ -5,7 +5,7 @@ sources:
   - https://content-security-policy.com/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - csp
   - security

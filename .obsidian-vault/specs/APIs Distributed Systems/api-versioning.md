@@ -3,7 +3,7 @@ slug: api-versioning
 tags:
   - core-concepts
 
-  - api   - distributed-systems   - backend
+  - api-distributed-systems-backend
 ---
 
 # API Versioning

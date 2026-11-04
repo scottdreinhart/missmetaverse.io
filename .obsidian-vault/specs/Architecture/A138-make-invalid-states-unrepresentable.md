@@ -5,7 +5,7 @@ sources:
   - https://voithos.github.io/blog/posts/make-illegal-states-unrepresentable/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - priority/low
   - typescript

@@ -3,7 +3,7 @@ slug: tailwind-css-utility-first-styling
 tags:
   - core-concepts
 
-  - css   - tailwind   - frontend
+  - css-tailwind-frontend
 ---
 
 # Tailwind CSS Utility-First Styling

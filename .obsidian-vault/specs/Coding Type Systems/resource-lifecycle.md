@@ -3,7 +3,7 @@ slug: resource-lifecycle
 tags:
   - core-concepts
 
-  - coding   - type-system   - best-practices
+  - coding-type-system-best-practices
 ---
 
 # Resource Lifecycle Management

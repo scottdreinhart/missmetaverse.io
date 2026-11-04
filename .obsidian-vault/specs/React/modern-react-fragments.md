@@ -3,7 +3,7 @@ slug: modern-react-fragments
 tags:
   - core-concepts
 
-  - react   - frontend   - ui
+  - react-frontend-ui
 ---
 
 # React Modern React Fragments

@@ -5,7 +5,7 @@ sources:
   - https://www.postgresql.org/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - database-design
   - sql

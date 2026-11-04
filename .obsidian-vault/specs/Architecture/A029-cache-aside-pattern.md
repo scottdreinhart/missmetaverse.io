@@ -5,7 +5,7 @@ sources:
   - https://www.enterpriseintegrationpatterns.com/patterns/performance/Cache.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/deprecated
   - caching

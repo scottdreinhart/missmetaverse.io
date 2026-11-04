@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Anti-corruption_layer
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/deprecated
   - anti-corruption-layer

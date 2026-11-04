@@ -3,7 +3,7 @@ slug: react-query-data-fetching
 tags:
   - core-concepts
 
-  - data-fetching   - api   - frontend
+  - data-fetching-api-frontend
 ---
 
 # React Query Data Fetching

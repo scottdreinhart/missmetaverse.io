@@ -5,7 +5,7 @@ sources:
   - https://react.dev/reference/react/useState
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - immutability
   - typescript

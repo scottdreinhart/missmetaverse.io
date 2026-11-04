@@ -6,7 +6,7 @@ author: Copilot
 source: vault-research
 canonical_url: https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions
 tags:
-  - templates   - boilerplate
+  - templates-boilerplate
 
   - maturity/deprecated
 

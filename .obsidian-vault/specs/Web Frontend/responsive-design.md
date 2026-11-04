@@ -3,7 +3,7 @@ slug: responsive-design
 tags:
   - core-concepts
 
-  - frontend   - web   - ui
+  - frontend-web-ui
 ---
 
 # Responsive Design

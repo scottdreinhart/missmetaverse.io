@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Identity_map_pattern
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - identity-map-pattern
   - enterprise-patterns

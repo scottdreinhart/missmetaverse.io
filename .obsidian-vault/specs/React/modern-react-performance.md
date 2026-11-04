@@ -3,7 +3,7 @@ slug: modern-react-performance
 tags:
   - core-concepts
 
-  - react   - frontend   - ui
+  - react-frontend-ui
 ---
 
 # React Modern React Performance

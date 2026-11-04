@@ -12,7 +12,7 @@ slug: A061-custom-cms-requirements
 ---
 
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/experimental
 ## 1. Executive Summary
@@ -66,7 +66,7 @@ This document defines the requirements for building a **custom content managemen
 ---
 
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/experimental
 ## 2. Architectural Style

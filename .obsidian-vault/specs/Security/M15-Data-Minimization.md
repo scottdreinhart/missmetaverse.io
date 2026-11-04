@@ -5,7 +5,7 @@ sources:
   - https://gdpr.eu/
 date: 2026-11-02
 tags:
-  - security   - authentication   - authorization
+  - security-authentication-authorization
 
   - maturity/deprecated
   - data-minimization

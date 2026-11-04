@@ -5,7 +5,7 @@ sources:
   - https://www.geeksforgeeks.org/what-is-encapsulation-in-object-oriented-programming/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - encapsulation
   - principles

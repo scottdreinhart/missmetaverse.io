@@ -5,7 +5,7 @@ sources:
   - https://vuejs.org/guide/extras/composition-api-faq.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - react
   - hooks

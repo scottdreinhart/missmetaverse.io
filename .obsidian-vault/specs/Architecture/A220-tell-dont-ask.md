@@ -5,7 +5,7 @@ sources:
   - https://www.artima.com/intv/bloch13.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/deprecated
   - tell-dont-ask

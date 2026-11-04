@@ -3,7 +3,7 @@ slug: schema-file-convention
 tags:
   - core-concepts
 
-  - conventions   - file-structure   - organization
+  - conventions-file-structure-organization
 ---
 
 # Schema File Convention

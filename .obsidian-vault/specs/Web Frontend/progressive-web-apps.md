@@ -3,7 +3,7 @@ slug: progressive-web-apps
 tags:
   - core-concepts
 
-  - frontend   - web   - ui
+  - frontend-web-ui
 ---
 
 # Progressive Web Apps

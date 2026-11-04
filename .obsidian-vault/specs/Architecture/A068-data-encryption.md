@@ -5,7 +5,7 @@ sources:
   - https://nodejs.org/api/crypto.html
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - encryption
   - security

@@ -5,7 +5,7 @@ sources:
   - https://react.dev/learn/reusing-logic-with-custom-hooks
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - custom-hooks
   - react

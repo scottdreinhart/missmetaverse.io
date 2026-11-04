@@ -1,9 +1,9 @@
 ---
 slug: functional-core-shell
 tags:
-  - application-design   - architecture-patterns   - core-concepts
+  - application-design-architecture-patterns-core-concepts
 
-  - architecture   - application-design   - patterns
+  - architecture-application-design-patterns
 ---
 
 # Functional Core Imperative Shell

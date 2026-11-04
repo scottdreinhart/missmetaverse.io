@@ -3,7 +3,7 @@ slug: web-vitals
 tags:
   - core-concepts
 
-  - frontend   - web   - ui
+  - frontend-web-ui
 ---
 
 # Web Vitals

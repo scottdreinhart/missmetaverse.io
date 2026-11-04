@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Configuration-driven_development
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - data-driven
   - configuration-driven

@@ -3,7 +3,7 @@ slug: react-hook-form-form-management
 tags:
   - core-concepts
 
-  - forms   - ui   - frontend
+  - forms-ui-frontend
 ---
 
 # React Hook Form Form Management

@@ -3,7 +3,7 @@ slug: architecture-fitness-functions
 tags:
   - core-concepts
 
-  - quality   - testing   - best-practices
+  - quality-testing-best-practices
 ---
 
 # Architecture Fitness Functions

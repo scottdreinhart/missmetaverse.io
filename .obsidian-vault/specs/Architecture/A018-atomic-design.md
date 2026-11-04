@@ -5,7 +5,7 @@ sources:
   - https://bradfrost.com/blog/post/atomic-web-design/
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - maturity/deprecated
   - atomic-design

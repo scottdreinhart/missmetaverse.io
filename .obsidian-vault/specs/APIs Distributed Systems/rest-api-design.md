@@ -3,7 +3,7 @@ slug: rest-api-design
 tags:
   - core-concepts
 
-  - api   - distributed-systems   - backend
+  - api-distributed-systems-backend
 ---
 
 # REST API Design

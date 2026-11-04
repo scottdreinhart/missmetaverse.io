@@ -1,9 +1,9 @@
 ---
 slug: layered-architecture
 tags:
-  - application-design   - architecture-patterns   - core-concepts
+  - application-design-architecture-patterns-core-concepts
 
-  - architecture   - application-design   - patterns
+  - architecture-application-design-patterns
 ---
 
 # Layered Architecture

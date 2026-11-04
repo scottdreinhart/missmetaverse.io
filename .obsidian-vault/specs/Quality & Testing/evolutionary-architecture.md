@@ -3,7 +3,7 @@ slug: evolutionary-architecture
 tags:
   - core-concepts
 
-  - quality   - testing   - best-practices
+  - quality-testing-best-practices
 ---
 
 # Evolutionary Architecture

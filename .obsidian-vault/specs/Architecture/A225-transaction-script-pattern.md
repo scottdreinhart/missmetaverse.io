@@ -5,7 +5,7 @@ sources:
   - https://en.wikipedia.org/wiki/Transaction_script_pattern
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - transaction-script-pattern
   - enterprise-patterns

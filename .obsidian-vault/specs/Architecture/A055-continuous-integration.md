@@ -5,7 +5,7 @@ sources:
   - https://www.redhat.com/en/topics/devops/what-is-continuous-integration
 date: 2026-11-02
 tags:
-  - architecture   - design-patterns
+  - architecture-design-patterns
 
   - ci
   - devops

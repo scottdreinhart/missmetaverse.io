@@ -3,7 +3,7 @@ slug: database-connection-pooling
 tags:
   - core-concepts
 
-  - database   - data   - backend
+  - database-data-backend
 ---
 
 # Database Connection Pooling

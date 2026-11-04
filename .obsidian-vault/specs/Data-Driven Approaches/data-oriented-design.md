@@ -3,7 +3,7 @@ slug: data-oriented-design
 tags:
   - core-concepts
 
-  - data-driven   - declarative   - architecture
+  - data-driven-declarative-architecture
 ---
 
 # Data-Oriented Design
