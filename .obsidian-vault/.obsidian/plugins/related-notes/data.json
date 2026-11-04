@@ -1,5 +1,5 @@
 {
-  "maxSuggestions": 5,
+  "maxSuggestions": 20,
   "debugMode": false,
   "customTitle": "Related Notes",
   "enableSampling": true,

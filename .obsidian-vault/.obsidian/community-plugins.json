@@ -3,5 +3,6 @@
   "dataview",
   "obsidian-git",
   "obsidian-linter",
-  "related-notes"
+  "related-notes",
+  "obisidian-note-linker"
 ]
