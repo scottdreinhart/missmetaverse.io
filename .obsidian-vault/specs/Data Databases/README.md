@@ -26,7 +26,7 @@
 | J17 | Soft Delete | [soft-delete](J17-Soft-Delete.md) |
 | J18 | Retention Policies | [retention-policies](J18-Retention-Policies.md) |
 | J19 | Audit Trails | [audit-trails](J19-Audit-Trails.md) |
-| J20 | Event Sourcing | [event-sourcing](../Architecture/event-sourcing.md) |
+| J20 | Event Sourcing | [event-sourcing](event-sourcing.md) |
 | J21 | Materialized Views | [materialized-views](J21-Materialized-Views.md) |
 | J22 | Projections | [projections](J22-Projections.md) |
 

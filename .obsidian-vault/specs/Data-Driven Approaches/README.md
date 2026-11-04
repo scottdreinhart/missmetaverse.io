@@ -7,9 +7,9 @@
 
 | # | Concept | Note |
 |---|---------|------|
-| K1 | Data-Driven Design | [data-driven-design](../Architecture/data-driven-design.md) |
-| K2 | Configuration-Driven Development | [configuration-driven-development](../Architecture/configuration-driven-development.md) |
-| K3 | Schema-Driven Development | [schema-driven-development](../Architecture/schema-driven-development.md) |
+| K1 | Data-Driven Design | [data-driven-design](data-driven-design.md) |
+| K2 | Configuration-Driven Development | [configuration-driven-development](configuration-driven-development.md) |
+| K3 | Schema-Driven Development | [schema-driven-development](schema-driven-development.md) |
 | K4 | Metadata-Driven UI | [metadata-driven-ui](K04-Metadata-Driven-UI.md) |
 | K5 | Contract-First Development | [contract-first](K05-Contract-First-Development.md) |
 | K6 | Declarative Programming | [declarative-programming](../Architecture/declarative-programming.md) |

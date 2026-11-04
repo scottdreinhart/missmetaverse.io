@@ -17,7 +17,7 @@ Architecture notes cover the foundational patterns and principles that guide sys
 | A4 | Core Principles | [core-principles](core-principles.md) |
 | A5 | Architecture Patterns | [architecture-patterns](architecture-patterns.md) |
 | A6 | Design Patterns Overview | [design-patterns-overview](design-patterns-overview.md) |
-| A7 | Data Modeling | [data-modeling](data-modeling.md) |
+| A7 | Data Modeling | [data-modeling](..\Data Databases\data-modeling.md) |
 | A8 | Security Principles | [security-principles](../Security/security-principles.md) |
 | A9 | Coding Practices | [coding-practices](coding-practices.md) |
 | A10 | Quality & Delivery | [quality-delivery-maintainability](quality-delivery-maintainability.md) |

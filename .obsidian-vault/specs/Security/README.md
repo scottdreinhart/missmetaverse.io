@@ -16,7 +16,7 @@
 | M7 | Secure by Design | [secure-by-design](M07-Secure-by-Design.md) |
 | M8 | Secure Defaults | [secure-defaults](M08-Secure-Defaults.md) |
 | M9 | Trust Boundaries | [trust-boundaries](M09-Trust-Boundaries.md) |
-| M10 | Input Validation | [input-validation](../Architecture/input-validation.md) |
+| M10 | Input Validation | [input-validation](input-validation.md) |
 | M11 | Contextual Output Encoding | [output-encoding](M11-Contextual-Output-Encoding.md) |
 | M12 | Parameterized Queries | [parameterized-queries](M12-Parameterized-Queries.md) |
 | M13 | RBAC | [rbac](M13-RBAC.md) |
