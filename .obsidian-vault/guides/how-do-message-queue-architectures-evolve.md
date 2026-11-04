@@ -8,6 +8,8 @@ categories:
   - "database-and-storage"
 tags:
   - "Message Queues"
+  - infographic
+  - attachment
   - "System Design"
 ---
 

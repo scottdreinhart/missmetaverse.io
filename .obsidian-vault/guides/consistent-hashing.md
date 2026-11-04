@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Consistent Hashing"
+  - infographic
+  - attachment
   - "Distributed Systems"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - ai-machine-learning
 tags:
   - Pandas
+  - infographic
+  - attachment
   - Data Manipulation
 ---
 

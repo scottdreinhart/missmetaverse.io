@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "SSH"
+  - infographic
+  - attachment
   - "Security"
 ---
 

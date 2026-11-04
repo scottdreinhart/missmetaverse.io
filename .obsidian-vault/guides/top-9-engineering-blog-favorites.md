@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - Engineering Blogs
+  - infographic
+  - attachment
   - Software Development
 ---
 

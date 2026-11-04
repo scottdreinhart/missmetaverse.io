@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Concurrency Control"
+  - infographic
+  - attachment
   - "Database Transactions"
 ---
 

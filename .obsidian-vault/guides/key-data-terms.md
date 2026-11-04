@@ -8,6 +8,8 @@ categories:
   - ai-machine-learning
 tags:
   - Data Warehousing
+  - infographic
+  - attachment
   - Data Lakes
 ---
 

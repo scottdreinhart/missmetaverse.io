@@ -8,6 +8,8 @@ categories:
   - computer-fundamentals
 tags:
   - "DNS"
+  - infographic
+  - attachment
   - "Networking"
 ---
 

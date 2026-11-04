@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Cloud Computing"
+  - infographic
+  - attachment
   - "Databases"
 ---
 

@@ -1,4 +1,4 @@
-﻿# Data & Databases
+# Data & Databases
 
 > **Purpose:** Database design, data modeling, and data management concepts.
 > **Last Updated:** 2026-11-02

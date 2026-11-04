@@ -8,6 +8,8 @@ categories:
   - computer-fundamentals
 tags:
   - "UDP"
+  - infographic
+  - attachment
   - "Networking"
 ---
 

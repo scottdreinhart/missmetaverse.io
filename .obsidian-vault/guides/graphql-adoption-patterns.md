@@ -8,6 +8,8 @@ categories:
   - api-web-development
 tags:
   - GraphQL
+  - infographic
+  - attachment
   - API
 ---
 ![](https://assets.bytebytego.com/diagrams/0208-graphql-adoption-patterns.png)

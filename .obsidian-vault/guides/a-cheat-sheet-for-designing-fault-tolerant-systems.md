@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Fault Tolerance"
+  - infographic
+  - attachment
   - "System Design"
 ---
 

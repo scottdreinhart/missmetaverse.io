@@ -2,6 +2,8 @@
 slug: S006-harel-statecharts
 tags:
   - references-external-sources
+  - infographic
+  - attachment
 
   - source-reference-external
 source_id: harel-statecharts

@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "servers"
+  - infographic
+  - attachment
   - "networking"
 ---
 

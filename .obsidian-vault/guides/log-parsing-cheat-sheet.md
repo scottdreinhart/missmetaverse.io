@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "Log Analysis"
+  - infographic
+  - attachment
   - "Command Line"
 ---
 

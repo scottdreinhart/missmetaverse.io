@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "HTTPS"
+  - infographic
+  - attachment
   - "Security"
 ---
 

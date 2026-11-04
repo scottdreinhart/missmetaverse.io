@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "garbage collection"
+  - infographic
+  - attachment
   - "memory management"
 ---
 

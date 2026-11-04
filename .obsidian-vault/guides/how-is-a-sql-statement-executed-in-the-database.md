@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - SQL
+  - infographic
+  - attachment
   - Database Internals
 ---
 

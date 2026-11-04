@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "authentication"
+  - infographic
+  - attachment
   - "jwt"
 ---
 

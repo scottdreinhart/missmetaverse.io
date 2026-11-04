@@ -8,6 +8,8 @@ categories:
   - computer-fundamentals
 tags:
   - "Memory Management"
+  - infographic
+  - attachment
   - "Operating Systems"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Data Sharding"
+  - infographic
+  - attachment
   - "Algorithms"
 ---
 

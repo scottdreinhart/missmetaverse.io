@@ -8,6 +8,8 @@ categories:
   - ai-machine-learning
 tags:
   - ChatGPT
+  - infographic
+  - attachment
   - Machine Learning
 ---
 ![](https://assets.bytebytego.com/diagrams/0135-chat-gpt.jpeg)

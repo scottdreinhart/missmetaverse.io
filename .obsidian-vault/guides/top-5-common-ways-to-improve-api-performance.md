@@ -8,6 +8,8 @@ categories:
   - caching-performance
 tags:
   - api performance
+  - infographic
+  - attachment
   - optimization
 ---
 

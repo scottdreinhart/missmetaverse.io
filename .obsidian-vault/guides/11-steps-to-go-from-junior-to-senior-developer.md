@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - career-growth
+  - infographic
+  - attachment
   - software-engineering
 ---
 

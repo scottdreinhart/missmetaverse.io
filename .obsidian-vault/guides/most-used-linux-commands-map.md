@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "linux"
+  - infographic
+  - attachment
   - "commands"
 ---
 

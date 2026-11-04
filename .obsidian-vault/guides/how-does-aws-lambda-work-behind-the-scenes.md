@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "AWS Lambda"
+  - infographic
+  - attachment
   - "Serverless"
 ---
 

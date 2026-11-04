@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "OAuth 2.0"
+  - infographic
+  - attachment
   - "Authorization"
 ---
 

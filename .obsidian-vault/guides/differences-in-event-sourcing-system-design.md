@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "event sourcing"
+  - infographic
+  - attachment
   - "system design"
 ---
 

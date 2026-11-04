@@ -2,7 +2,5 @@
   "templater-obsidian",
   "dataview",
   "obsidian-git",
-  "obsidian-linter",
-  "related-notes",
-  "obisidian-note-linker"
+  "obsidian-linter"
 ]

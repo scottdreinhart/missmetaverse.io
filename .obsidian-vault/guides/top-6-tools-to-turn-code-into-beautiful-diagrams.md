@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "Diagramming"
+  - infographic
+  - attachment
   - "Code Visualization"
 ---
 

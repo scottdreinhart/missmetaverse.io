@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Object Storage"
+  - infographic
+  - attachment
   - "Data Management"
 ---
 

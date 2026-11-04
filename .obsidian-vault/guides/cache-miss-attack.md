@@ -8,6 +8,8 @@ categories:
   - caching-performance
 tags:
   - "Caching"
+  - infographic
+  - attachment
   - "Security"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "Full-Stack Development"
+  - infographic
+  - attachment
   - "Software Development"
 ---
 

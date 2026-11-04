@@ -1,4 +1,4 @@
-﻿# Security
+# Security
 
 > **Purpose:** Security principles, patterns, and best practices.
 > **Last Updated:** 2026-11-02

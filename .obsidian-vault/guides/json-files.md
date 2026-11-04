@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "JSON"
+  - infographic
+  - attachment
   - "Visualization"
 ---
 

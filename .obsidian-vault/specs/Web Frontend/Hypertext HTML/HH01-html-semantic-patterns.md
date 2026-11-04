@@ -8,6 +8,8 @@ date: 2026-11-02
 tags:
 
   - maturity-deprecated
+  - infographic
+  - attachment
 
 
 

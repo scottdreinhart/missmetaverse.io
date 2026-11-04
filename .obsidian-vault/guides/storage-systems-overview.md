@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Storage Systems"
+  - infographic
+  - attachment
   - "Data Storage"
 ---
 

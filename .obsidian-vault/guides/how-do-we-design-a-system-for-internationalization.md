@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "internationalization"
+  - infographic
+  - attachment
   - "system design"
 ---
 

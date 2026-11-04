@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "Java"
+  - infographic
+  - attachment
   - "Data Structures"
 ---
 

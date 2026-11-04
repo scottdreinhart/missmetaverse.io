@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "Web Security"
+  - infographic
+  - attachment
   - "Cookies"
 ---
 

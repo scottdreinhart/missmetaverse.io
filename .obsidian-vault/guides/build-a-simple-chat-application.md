@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - Redis
+  - infographic
+  - attachment
   - Chat Application
 ---
 

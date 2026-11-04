@@ -8,6 +8,8 @@ categories:
   - caching-performance
 tags:
   - "Redis"
+  - infographic
+  - attachment
   - "Persistence"
 ---
 

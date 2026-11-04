@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - Automation
+  - infographic
+  - attachment
   - Debugging
 ---
 ![](https://assets.bytebytego.com/diagrams/0193-fixing-bugs-automatically-at-meta-scale.png)

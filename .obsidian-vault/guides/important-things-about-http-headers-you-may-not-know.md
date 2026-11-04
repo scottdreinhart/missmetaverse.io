@@ -8,6 +8,8 @@ categories:
   - api-web-development
 tags:
   - HTTP
+  - infographic
+  - attachment
   - Headers
 ---
 

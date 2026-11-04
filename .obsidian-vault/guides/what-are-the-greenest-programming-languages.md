@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "Programming Languages"
+  - infographic
+  - attachment
   - "Energy Efficiency"
 ---
 

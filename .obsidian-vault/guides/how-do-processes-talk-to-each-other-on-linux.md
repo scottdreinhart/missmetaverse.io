@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - "Linux"
+  - infographic
+  - attachment
   - "IPC"
 ---
 

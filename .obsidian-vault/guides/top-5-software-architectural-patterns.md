@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - "Software Architecture"
+  - infographic
+  - attachment
   - "Design Patterns"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "AI Tools"
+  - infographic
+  - attachment
   - "Productivity"
 ---
 

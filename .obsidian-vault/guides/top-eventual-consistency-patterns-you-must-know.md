@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Consistency"
+  - infographic
+  - attachment
   - "Databases"
 ---
 

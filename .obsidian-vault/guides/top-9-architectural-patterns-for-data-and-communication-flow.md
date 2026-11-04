@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Architecture"
+  - infographic
+  - attachment
   - "Data Flow"
 ---
 

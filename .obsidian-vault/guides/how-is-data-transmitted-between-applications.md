@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - networking
+  - infographic
+  - attachment
   - data-transfer
 ---
 

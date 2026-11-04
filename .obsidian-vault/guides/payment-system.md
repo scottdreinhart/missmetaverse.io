@@ -9,6 +9,8 @@ categories:
   - how-it-works
 tags:
   - "Payment Processing"
+  - infographic
+  - attachment
   - "System Design"
 ---
 

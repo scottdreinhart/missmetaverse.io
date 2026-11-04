@@ -8,6 +8,8 @@ categories:
   - caching-performance
 tags:
   - "Latency"
+  - infographic
+  - attachment
   - "Optimization"
 ---
 

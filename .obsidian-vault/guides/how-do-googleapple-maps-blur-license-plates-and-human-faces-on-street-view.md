@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "Machine Learning"
+  - infographic
+  - attachment
   - "Image Processing"
 ---
 

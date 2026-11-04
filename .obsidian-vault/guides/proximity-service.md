@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "Location Services"
+  - infographic
+  - attachment
   - "Geospatial Data"
 ---
 

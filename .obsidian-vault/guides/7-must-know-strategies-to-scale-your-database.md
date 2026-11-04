@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "database scaling"
+  - infographic
+  - attachment
   - "database optimization"
 ---
 

@@ -7,6 +7,8 @@ source: vault-research
 canonical_url: 
 tags:
   - templates-boilerplate
+  - infographic
+  - attachment
 
   - pr
   - template

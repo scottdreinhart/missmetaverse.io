@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "distributed systems"
+  - infographic
+  - attachment
   - "concurrency"
 ---
 

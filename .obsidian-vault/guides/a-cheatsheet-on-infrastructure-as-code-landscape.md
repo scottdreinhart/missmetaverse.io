@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Infrastructure as Code"
+  - infographic
+  - attachment
   - "DevOps"
 ---
 

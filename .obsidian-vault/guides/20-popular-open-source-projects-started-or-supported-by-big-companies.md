@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "Open Source"
+  - infographic
+  - attachment
   - "Technology"
 ---
 

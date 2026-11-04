@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - API Integration
+  - infographic
+  - attachment
   - No-Code
 ---
 

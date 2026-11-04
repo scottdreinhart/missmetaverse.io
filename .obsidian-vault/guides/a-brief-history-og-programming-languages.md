@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - programming-languages
+  - infographic
+  - attachment
   - history
 ---
 

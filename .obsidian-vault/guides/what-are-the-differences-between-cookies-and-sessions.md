@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "cookies"
+  - infographic
+  - attachment
   - "sessions"
 ---
 

@@ -1,4 +1,4 @@
-﻿# DDD Modeling
+# DDD Modeling
 
 > **Purpose:** Domain-Driven Design modeling concepts and patterns.
 > **Last Updated:** 2026-11-02

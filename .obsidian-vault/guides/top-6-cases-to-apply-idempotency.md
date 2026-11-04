@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Idempotency"
+  - infographic
+  - attachment
   - "Distributed Systems"
 ---
 

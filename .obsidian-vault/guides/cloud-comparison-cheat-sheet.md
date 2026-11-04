@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - Cloud Computing
+  - infographic
+  - attachment
   - Comparison
 ---
 

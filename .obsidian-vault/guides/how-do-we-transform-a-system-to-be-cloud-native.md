@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "cloud-native"
+  - infographic
+  - attachment
   - "architecture"
 ---
 

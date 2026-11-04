@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - AWS
+  - infographic
+  - attachment
   - Cloud Computing
 ---
 

@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Database Sharding"
+  - infographic
+  - attachment
   - "Database Design"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - api-web-development
 tags:
   - Network Communication
+  - infographic
+  - attachment
   - Protocols
 ---
 

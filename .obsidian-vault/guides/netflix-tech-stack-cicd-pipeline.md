@@ -9,6 +9,8 @@ categories:
   - devops-cicd
 tags:
   - CI/CD
+  - infographic
+  - attachment
   - Streaming
 ---
 

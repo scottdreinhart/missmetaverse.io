@@ -1,4 +1,4 @@
-﻿# Quality & Delivery
+# Quality & Delivery
 
 > **Purpose:** Testing, quality assurance, and delivery concepts.
 > **Last Updated:** 2026-11-02

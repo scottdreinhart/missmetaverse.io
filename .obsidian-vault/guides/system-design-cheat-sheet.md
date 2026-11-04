@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "System Design"
+  - infographic
+  - attachment
   - "Scalability"
 ---
 

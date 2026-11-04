@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "Software Development"
+  - infographic
+  - attachment
   - "Books"
 ---
 

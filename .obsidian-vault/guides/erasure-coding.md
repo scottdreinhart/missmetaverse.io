@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Data Storage"
+  - infographic
+  - attachment
   - "Data Redundancy"
 ---
 

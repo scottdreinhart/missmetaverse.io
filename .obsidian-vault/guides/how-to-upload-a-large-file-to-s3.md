@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "S3"
+  - infographic
+  - attachment
   - "Object Storage"
 ---
 

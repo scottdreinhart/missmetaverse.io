@@ -8,6 +8,8 @@ categories:
   - payment-and-fintech
 tags:
   - "VISA"
+  - infographic
+  - attachment
   - "Payment Processing"
 ---
 

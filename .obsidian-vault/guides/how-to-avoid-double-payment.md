@@ -8,6 +8,8 @@ categories:
   - payment-and-fintech
 tags:
   - Payment Systems
+  - infographic
+  - attachment
   - Idempotency
 ---
 

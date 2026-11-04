@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Distributed Systems"
+  - infographic
+  - attachment
   - "Computer Science"
 ---
 

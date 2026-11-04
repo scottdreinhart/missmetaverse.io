@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "Bloom Filter"
+  - infographic
+  - attachment
   - "Web Crawling"
 ---
 

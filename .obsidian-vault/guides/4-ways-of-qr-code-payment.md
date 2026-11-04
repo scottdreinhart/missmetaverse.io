@@ -8,6 +8,8 @@ categories:
   - payment-and-fintech
 tags:
   - QR Codes
+  - infographic
+  - attachment
   - Payments
 ---
 

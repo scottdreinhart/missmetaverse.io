@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - HTTP
+  - infographic
+  - attachment
   - Web Development
 ---
 

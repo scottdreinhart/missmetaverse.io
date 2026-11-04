@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Resilience"
+  - infographic
+  - attachment
   - "Design Patterns"
 ---
 

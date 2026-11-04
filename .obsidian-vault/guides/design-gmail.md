@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "Email"
+  - infographic
+  - attachment
   - "System Design"
 ---
 

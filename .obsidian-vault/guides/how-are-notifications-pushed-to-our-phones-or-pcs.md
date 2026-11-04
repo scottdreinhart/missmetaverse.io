@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "notifications"
+  - infographic
+  - attachment
   - "mobile"
 ---
 

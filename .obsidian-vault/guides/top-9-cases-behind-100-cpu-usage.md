@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "CPU Usage"
+  - infographic
+  - attachment
   - "Troubleshooting"
 ---
 

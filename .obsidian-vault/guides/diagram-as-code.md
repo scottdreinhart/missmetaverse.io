@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "diagrams"
+  - infographic
+  - attachment
   - "architecture"
 ---
 

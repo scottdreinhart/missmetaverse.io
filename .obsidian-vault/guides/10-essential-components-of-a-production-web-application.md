@@ -8,6 +8,8 @@ categories:
   - api-web-development
 tags:
   - Web Architecture
+  - infographic
+  - attachment
   - System Design
 ---
 

@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "System Design"
+  - infographic
+  - attachment
   - "Maps"
 ---
 

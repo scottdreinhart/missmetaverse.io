@@ -8,6 +8,8 @@ categories:
   - caching-performance
 tags:
   - "Low Latency"
+  - infographic
+  - attachment
   - "Stock Exchange"
 ---
 

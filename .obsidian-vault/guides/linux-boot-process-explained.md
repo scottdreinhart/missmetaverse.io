@@ -9,6 +9,8 @@ categories:
   - software-development
 tags:
   - "Linux"
+  - infographic
+  - attachment
   - "Operating Systems"
 ---
 

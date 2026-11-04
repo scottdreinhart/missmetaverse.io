@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "security"
+  - infographic
+  - attachment
   - "passwords"
 ---
 

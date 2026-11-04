@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Application Architecture"
+  - infographic
+  - attachment
   - "Best Practices"
 ---
 

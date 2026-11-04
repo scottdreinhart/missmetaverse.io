@@ -8,6 +8,8 @@ categories:
   - caching-performance
 tags:
   - Elasticsearch
+  - infographic
+  - attachment
   - Search
 ---
 

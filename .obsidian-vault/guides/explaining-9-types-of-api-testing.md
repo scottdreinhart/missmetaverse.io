@@ -9,6 +9,8 @@ categories:
   - software-development
 tags:
   - API Testing
+  - infographic
+  - attachment
   - Software Testing
 ---
 

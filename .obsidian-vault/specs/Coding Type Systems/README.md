@@ -1,4 +1,4 @@
-﻿# Coding & Type Systems
+# Coding & Type Systems
 
 > **Purpose:** TypeScript type system patterns and coding best practices.
 > **Last Updated:** 2026-11-02

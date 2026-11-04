@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "Encryption"
+  - infographic
+  - attachment
   - "Cryptography"
 ---
 

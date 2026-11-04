@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - API Architecture
+  - infographic
+  - attachment
   - Netflix
 ---
 

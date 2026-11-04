@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "Authentication"
+  - infographic
+  - attachment
   - "Passkeys"
 ---
 

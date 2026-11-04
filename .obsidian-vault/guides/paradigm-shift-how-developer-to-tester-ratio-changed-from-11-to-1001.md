@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "Software Testing"
+  - infographic
+  - attachment
   - "DevOps"
 ---
 

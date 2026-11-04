@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "SEO"
+  - infographic
+  - attachment
   - "Web Development"
 ---
 

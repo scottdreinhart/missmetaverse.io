@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "Search Engines"
+  - infographic
+  - attachment
   - "Algorithms"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "security design"
+  - infographic
+  - attachment
   - "system design"
 ---
 

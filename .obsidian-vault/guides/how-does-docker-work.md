@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "Docker"
+  - infographic
+  - attachment
   - "Containers"
 ---
 

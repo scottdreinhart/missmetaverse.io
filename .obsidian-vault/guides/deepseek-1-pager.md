@@ -8,6 +8,8 @@ categories:
   - ai-machine-learning
 tags:
   - AI Models
+  - infographic
+  - attachment
   - DeepSeek
 ---
 

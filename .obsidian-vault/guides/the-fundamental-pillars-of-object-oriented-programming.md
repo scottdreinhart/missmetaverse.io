@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - OOP
+  - infographic
+  - attachment
   - Principles
 ---
 

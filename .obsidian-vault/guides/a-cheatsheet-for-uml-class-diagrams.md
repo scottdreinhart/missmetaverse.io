@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - UML
+  - infographic
+  - attachment
   - Design Patterns
 ---
 

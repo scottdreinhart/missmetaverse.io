@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - DevOps
+  - infographic
+  - attachment
   - Software Delivery
 ---
 

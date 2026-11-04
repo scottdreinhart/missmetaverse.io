@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "git"
+  - infographic
+  - attachment
   - "version control"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "Live Streaming"
+  - infographic
+  - attachment
   - "Video Streaming"
 ---
 

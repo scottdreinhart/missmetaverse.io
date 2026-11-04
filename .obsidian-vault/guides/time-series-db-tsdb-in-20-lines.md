@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Database"
+  - infographic
+  - attachment
   - "TimeSeries"
 ---
 

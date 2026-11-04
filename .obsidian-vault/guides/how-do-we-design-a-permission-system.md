@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - access control
+  - infographic
+  - attachment
   - rbac
 ---
 

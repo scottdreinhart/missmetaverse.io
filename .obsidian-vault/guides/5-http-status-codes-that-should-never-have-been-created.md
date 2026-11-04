@@ -8,6 +8,8 @@ categories:
   - api-web-development
 tags:
   - HTTP Status Codes
+  - infographic
+  - attachment
   - Web Development
 ---
 

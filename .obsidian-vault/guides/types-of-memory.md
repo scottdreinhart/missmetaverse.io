@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Memory Management"
+  - infographic
+  - attachment
   - "System Architecture"
 ---
 

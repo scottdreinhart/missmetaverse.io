@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - "Microservices"
+  - infographic
+  - attachment
   - "System Design"
 ---
 

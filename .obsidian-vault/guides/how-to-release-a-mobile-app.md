@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - "Mobile Development"
+  - infographic
+  - attachment
   - "App Release"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - operating-systems
+  - infographic
+  - attachment
   - execution
 ---
 

@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - Event-Driven Architecture
+  - infographic
+  - attachment
   - Case Study
 ---
 

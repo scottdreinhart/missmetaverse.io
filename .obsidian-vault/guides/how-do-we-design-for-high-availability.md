@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - high-availability
+  - infographic
+  - attachment
   - system-design
 ---
 

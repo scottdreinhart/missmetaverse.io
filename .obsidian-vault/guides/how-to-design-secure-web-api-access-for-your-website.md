@@ -8,6 +8,8 @@ categories:
   - api-web-development
 tags:
   - API Security
+  - infographic
+  - attachment
   - Authentication
 ---
 

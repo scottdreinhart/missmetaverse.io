@@ -1,4 +1,4 @@
-﻿---
+---
 slug: object-oriented-programming
 sources:
   - https://en.wikipedia.org/wiki/Software_design_pattern

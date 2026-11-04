@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "Data Security"
+  - infographic
+  - attachment
   - "Data Handling"
 ---
 

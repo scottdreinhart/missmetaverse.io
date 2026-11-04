@@ -8,6 +8,8 @@ categories:
   - payment-and-fintech
 tags:
   - "Web3"
+  - infographic
+  - attachment
   - "Decentralization"
 ---
 

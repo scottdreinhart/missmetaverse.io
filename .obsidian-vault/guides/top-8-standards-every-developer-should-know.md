@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "Software Standards"
+  - infographic
+  - attachment
   - "Web Development"
 ---
 

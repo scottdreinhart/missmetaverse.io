@@ -1,4 +1,4 @@
-﻿# Data-Driven Approaches
+# Data-Driven Approaches
 
 > **Purpose:** Data-driven design, configuration-driven development, and schema-driven development concepts.
 > **Last Updated:** 2026-11-02

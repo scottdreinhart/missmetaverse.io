@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - Database Routing
+  - infographic
+  - attachment
   - Proxy
 ---
 

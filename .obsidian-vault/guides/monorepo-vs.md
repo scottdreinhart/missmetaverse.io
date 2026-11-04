@@ -8,6 +8,8 @@ categories:
   - "cloud-distributed-systems"
 tags:
   - "Monorepo"
+  - infographic
+  - attachment
   - "Microservices"
 ---
 

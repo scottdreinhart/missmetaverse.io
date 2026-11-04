@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - CI/CD
+  - infographic
+  - attachment
   - Uber
 ---
 

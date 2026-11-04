@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "VPN"
+  - infographic
+  - attachment
   - "Security"
 ---
 

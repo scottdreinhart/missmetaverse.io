@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - "microservices"
+  - infographic
+  - attachment
   - "best practices"
 ---
 

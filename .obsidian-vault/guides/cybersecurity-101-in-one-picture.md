@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "Cybersecurity"
+  - infographic
+  - attachment
   - "Fundamentals"
 ---
 

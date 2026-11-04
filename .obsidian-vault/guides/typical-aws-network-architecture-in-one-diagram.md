@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - AWS Networking
+  - infographic
+  - attachment
   - Cloud Architecture
 ---
 

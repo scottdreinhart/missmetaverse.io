@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "coding practices"
+  - infographic
+  - attachment
   - "software quality"
 ---
 

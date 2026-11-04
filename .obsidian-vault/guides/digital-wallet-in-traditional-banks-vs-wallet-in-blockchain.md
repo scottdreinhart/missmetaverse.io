@@ -8,6 +8,8 @@ categories:
   - payment-and-fintech
 tags:
   - "Blockchain"
+  - infographic
+  - attachment
   - "Digital Wallets"
 ---
 

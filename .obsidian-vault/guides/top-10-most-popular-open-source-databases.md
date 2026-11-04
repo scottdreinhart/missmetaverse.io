@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Databases"
+  - infographic
+  - attachment
   - "Open Source"
 ---
 

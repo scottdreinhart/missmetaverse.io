@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - Postgres
+  - infographic
+  - attachment
   - Scaling
 ---
 

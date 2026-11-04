@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - payment systems
+  - infographic
+  - attachment
   - resilience
 ---
 

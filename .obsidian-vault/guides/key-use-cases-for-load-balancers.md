@@ -8,6 +8,8 @@ categories:
   - api-web-development
 tags:
   - Load Balancing
+  - infographic
+  - attachment
   - Scalability
 ---
 

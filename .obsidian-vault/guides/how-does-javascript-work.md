@@ -8,6 +8,8 @@ categories:
   - api-web-development
 tags:
   - javascript
+  - infographic
+  - attachment
   - programming
 ---
 

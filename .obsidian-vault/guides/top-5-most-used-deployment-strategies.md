@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "deployment strategies"
+  - infographic
+  - attachment
   - "software deployment"
 ---
 

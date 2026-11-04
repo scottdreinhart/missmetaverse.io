@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - System Design
+  - infographic
+  - attachment
   - Scalability
 ---
 

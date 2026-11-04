@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "JWT"
+  - infographic
+  - attachment
   - "Security"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - ai-machine-learning
 tags:
   - data-pipelines
+  - infographic
+  - attachment
   - data-processing
 ---
 

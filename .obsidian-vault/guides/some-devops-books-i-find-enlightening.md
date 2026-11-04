@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - DevOps
+  - infographic
+  - attachment
   - SRE
 ---
 

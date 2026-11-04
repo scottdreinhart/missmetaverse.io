@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - Build Systems
+  - infographic
+  - attachment
   - Amazon
 ---
 

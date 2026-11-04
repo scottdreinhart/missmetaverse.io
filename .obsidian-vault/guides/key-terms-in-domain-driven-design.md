@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - "Domain-Driven Design"
+  - infographic
+  - attachment
   - "Software Design"
 ---
 

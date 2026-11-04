@@ -8,6 +8,8 @@ categories:
   - caching-performance
 tags:
   - "memcached"
+  - infographic
+  - attachment
   - "redis"
 ---
 

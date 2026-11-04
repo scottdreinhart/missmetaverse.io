@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "databases"
+  - infographic
+  - attachment
   - "metrics"
 ---
 

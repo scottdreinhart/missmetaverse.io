@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - architecture
+  - infographic
+  - attachment
   - messaging
 ---
 

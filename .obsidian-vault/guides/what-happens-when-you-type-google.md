@@ -8,6 +8,8 @@ categories:
   - technical-interviews
 tags:
   - "Networking"
+  - infographic
+  - attachment
   - "Web Browsers"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "Computer Architecture"
+  - infographic
+  - attachment
   - "Data Representation"
 ---
 

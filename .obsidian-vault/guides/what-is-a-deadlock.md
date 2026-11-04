@@ -8,6 +8,8 @@ categories:
   - computer-fundamentals
 tags:
   - "Concurrency"
+  - infographic
+  - attachment
   - "Databases"
 ---
 

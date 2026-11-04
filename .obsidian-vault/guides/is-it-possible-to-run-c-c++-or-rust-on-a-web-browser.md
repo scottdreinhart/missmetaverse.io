@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "WebAssembly"
+  - infographic
+  - attachment
   - "Performance"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "Nginx"
+  - infographic
+  - attachment
   - "Web Servers"
 ---
 

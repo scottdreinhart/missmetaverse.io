@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - DDD
+  - infographic
+  - attachment
   - Software Design
 ---
 

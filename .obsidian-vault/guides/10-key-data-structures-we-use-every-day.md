@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "Data Structures"
+  - infographic
+  - attachment
   - "Algorithms"
 ---
 

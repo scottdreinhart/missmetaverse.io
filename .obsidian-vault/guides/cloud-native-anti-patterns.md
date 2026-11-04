@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "Cloud Native"
+  - infographic
+  - attachment
   - "Anti-Patterns"
 ---
 

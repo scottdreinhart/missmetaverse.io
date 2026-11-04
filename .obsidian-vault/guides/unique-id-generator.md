@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "ID Generation"
+  - infographic
+  - attachment
   - "System Design"
 ---
 

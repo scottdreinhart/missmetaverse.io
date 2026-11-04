@@ -8,6 +8,8 @@ categories:
   - "payment-and-fintech"
 tags:
   - "E-commerce"
+  - infographic
+  - attachment
   - "Supply Chain"
 ---
 

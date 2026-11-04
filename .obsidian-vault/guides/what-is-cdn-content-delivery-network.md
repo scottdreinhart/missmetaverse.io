@@ -8,6 +8,8 @@ categories:
   - caching-performance
 tags:
   - "CDN"
+  - infographic
+  - attachment
   - "Content Delivery"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - Cloud Cost Optimization
+  - infographic
+  - attachment
   - Resource Management
 ---
 

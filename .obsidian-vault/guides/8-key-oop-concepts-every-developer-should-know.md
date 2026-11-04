@@ -8,6 +8,8 @@ categories:
   - software-architecture
 tags:
   - "OOP"
+  - infographic
+  - attachment
   - "Programming"
 ---
 

@@ -1,4 +1,4 @@
-﻿# APIs & Distributed Systems
+# APIs & Distributed Systems
 
 > **Purpose:** API design, distributed systems patterns, and reliability concepts.
 > **Last Updated:** 2026-11-02

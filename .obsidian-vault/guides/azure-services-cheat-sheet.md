@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Azure"
+  - infographic
+  - attachment
   - "Cloud Computing"
 ---
 

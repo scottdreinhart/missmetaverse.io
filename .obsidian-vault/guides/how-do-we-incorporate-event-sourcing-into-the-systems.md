@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "event sourcing"
+  - infographic
+  - attachment
   - "microservices"
 ---
 

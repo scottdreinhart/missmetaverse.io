@@ -8,6 +8,8 @@ categories:
   - computer-fundamentals
 tags:
   - "Networking"
+  - infographic
+  - attachment
   - "Protocols"
 ---
 

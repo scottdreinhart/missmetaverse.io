@@ -8,6 +8,8 @@ categories:
   - technical-interviews
 tags:
   - "SQL"
+  - infographic
+  - attachment
   - "Database"
 ---
 

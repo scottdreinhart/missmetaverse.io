@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "Terraform"
+  - infographic
+  - attachment
   - "Infrastructure as Code"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Data Migration"
+  - infographic
+  - attachment
   - "Apache Avro"
 ---
 

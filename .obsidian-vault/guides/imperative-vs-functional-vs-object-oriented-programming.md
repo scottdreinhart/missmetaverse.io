@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - Programming Paradigms
+  - infographic
+  - attachment
   - Software Design
 ---
 

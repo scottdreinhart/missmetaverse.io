@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - software-engineering
+  - infographic
+  - attachment
   - deployment
 ---
 

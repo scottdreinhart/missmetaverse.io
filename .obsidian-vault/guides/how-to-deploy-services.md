@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "Deployment"
+  - infographic
+  - attachment
   - "DevOps"
 ---
 

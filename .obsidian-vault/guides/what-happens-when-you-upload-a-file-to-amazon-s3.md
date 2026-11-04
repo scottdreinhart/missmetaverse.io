@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "Amazon S3"
+  - infographic
+  - attachment
   - "Cloud Storage"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "2FA"
+  - infographic
+  - attachment
   - "Authentication"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - scalability
+  - infographic
+  - attachment
   - architecture
 ---
 

@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - Architecture
+  - infographic
+  - attachment
   - Social Media
 ---
 ![](https://assets.bytebytego.com/diagrams/0356-the-core-reddit-architecture.png)

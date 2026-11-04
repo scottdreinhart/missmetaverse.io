@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "metrics"
+  - infographic
+  - attachment
   - "monitoring"
 ---
 

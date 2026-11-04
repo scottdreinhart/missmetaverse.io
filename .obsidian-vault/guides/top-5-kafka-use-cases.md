@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Kafka"
+  - infographic
+  - attachment
   - "Data Streaming"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Cloud Messaging"
+  - infographic
+  - attachment
   - "Design Patterns"
 ---
 

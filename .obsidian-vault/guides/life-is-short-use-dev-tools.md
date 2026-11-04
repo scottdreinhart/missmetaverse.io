@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "Productivity"
+  - infographic
+  - attachment
   - "Dev Tools"
 ---
 

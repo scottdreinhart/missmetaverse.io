@@ -8,6 +8,8 @@ categories:
   - real-world-case-studies
 tags:
   - System Design
+  - infographic
+  - attachment
   - Push Notifications
 ---
 

@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - Bluetooth
+  - infographic
+  - attachment
   - Tracking
 ---
 

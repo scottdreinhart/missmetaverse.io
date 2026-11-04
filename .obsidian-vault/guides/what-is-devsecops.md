@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "DevOps"
+  - infographic
+  - attachment
   - "Security"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "A/B Testing"
+  - infographic
+  - attachment
   - "Experimentation"
 ---
 

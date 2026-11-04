@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - "Data Structures"
+  - infographic
+  - attachment
   - "Algorithms"
 ---
 

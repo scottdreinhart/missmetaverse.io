@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "distributed systems"
+  - infographic
+  - attachment
   - "cap theorem"
 ---
 

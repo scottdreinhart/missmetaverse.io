@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Data Streaming"
+  - infographic
+  - attachment
   - "Data Synchronization"
 ---
 

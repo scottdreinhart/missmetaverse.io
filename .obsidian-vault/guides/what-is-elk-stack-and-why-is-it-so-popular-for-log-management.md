@@ -8,6 +8,8 @@ categories:
   - caching-performance
 tags:
   - "ELK Stack"
+  - infographic
+  - attachment
   - "Log Management"
 ---
 

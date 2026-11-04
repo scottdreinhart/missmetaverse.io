@@ -8,6 +8,8 @@ categories:
   - technical-interviews
 tags:
   - "System Design"
+  - infographic
+  - attachment
   - "Interview Preparation"
 ---
 

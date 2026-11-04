@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "PostgreSQL"
+  - infographic
+  - attachment
   - "Databases"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Big Data"
+  - infographic
+  - attachment
   - "Cloud Computing"
 ---
 

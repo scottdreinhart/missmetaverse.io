@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "C++"
+  - infographic
+  - attachment
   - "Use Cases"
 ---
 

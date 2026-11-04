@@ -8,6 +8,8 @@ categories:
   - how-it-works
 tags:
   - EmailProtocols
+  - infographic
+  - attachment
   - EmailDelivery
 ---
 

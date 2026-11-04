@@ -8,6 +8,8 @@ categories:
   - cloud-distributed-systems
 tags:
   - "Error Handling"
+  - infographic
+  - attachment
   - "Web Requests"
 ---
 

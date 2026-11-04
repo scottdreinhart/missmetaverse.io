@@ -8,6 +8,8 @@ categories:
   - devops-cicd
 tags:
   - "Kubernetes"
+  - infographic
+  - attachment
   - "Design Patterns"
 ---
 

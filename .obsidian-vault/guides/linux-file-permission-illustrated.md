@@ -8,6 +8,8 @@ categories:
   - devtools-productivity
 tags:
   - "Linux"
+  - infographic
+  - attachment
   - "File Management"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - api-web-development
 tags:
   - networking
+  - infographic
+  - attachment
   - web-development
 ---
 

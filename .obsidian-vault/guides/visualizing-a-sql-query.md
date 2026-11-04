@@ -8,6 +8,8 @@ categories:
   - computer-fundamentals
 tags:
   - "SQL"
+  - infographic
+  - attachment
   - "Databases"
 ---
 

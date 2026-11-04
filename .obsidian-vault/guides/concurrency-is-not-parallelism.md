@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - "Concurrency"
+  - infographic
+  - attachment
   - "Parallelism"
 ---
 

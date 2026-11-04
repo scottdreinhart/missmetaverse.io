@@ -8,6 +8,8 @@ categories:
   - software-development
 tags:
   - System Design
+  - infographic
+  - attachment
   - Algorithms
 ---
 

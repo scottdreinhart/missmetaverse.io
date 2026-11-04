@@ -8,6 +8,8 @@ categories:
   - security
 tags:
   - "Network Security"
+  - infographic
+  - attachment
   - "Cybersecurity"
 ---
 

@@ -8,6 +8,8 @@ categories:
   - database-and-storage
 tags:
   - "Serverless"
+  - infographic
+  - attachment
   - "Database"
 ---
 
